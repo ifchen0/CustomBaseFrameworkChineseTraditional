@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Random settlement type for the player faction -->
+  <CBF_Scen_PlanRandom>玩家派系隨機據點類型</CBF_Scen_PlanRandom>
+  <!-- EN: Ruin: {0} -->
+  <CBF_Scen_Ruin>廢墟：{0}</CBF_Scen_Ruin>
+  <!-- EN: No sleeping enemies -->
+  <CBF_Scen_Sleepers_None>沒有沉睡的敵人</CBF_Scen_Sleepers_None>
+  <!-- EN: Sleeping animals -->
+  <CBF_Scen_Sleepers_Animals>沉睡的動物</CBF_Scen_Sleepers_Animals>
+  <!-- EN: Sleeping raiders -->
+  <CBF_Scen_Sleepers_Raiders>沉睡的襲擊者</CBF_Scen_Sleepers_Raiders>
+  <!-- EN: Sleeping raiders and animals -->
+  <CBF_Scen_Sleepers_Both>沉睡的襲擊者與動物</CBF_Scen_Sleepers_Both>
+  <!-- EN: Threat points of the sleepers: {0} -->
+  <CBF_Scen_SleeperPoints>沉睡者的威脅點數：{0}</CBF_Scen_SleeperPoints>
+  <!-- EN: Start in the ruins of a settlement ({0}). {1}. -->
+  <CBF_Scen_Summary>在一座據點的廢墟中開始（{0}）。{1}。</CBF_Scen_Summary>
+  <!-- EN: Settlement ruin -->
+  <CBF_Scen_PageTitle>據點廢墟</CBF_Scen_PageTitle>
+  <!-- EN: Choose the settlement type of the ruin you start in. Only types that match the tech level of your faction are listed. -->
+  <CBF_Scen_PageText>選擇你開局所在廢墟的據點類型。只會列出符合你派系科技等級的類型。</CBF_Scen_PageText>
+  <!-- EN: Map size (at least {0} for this settlement type) -->
+  <CBF_Scen_MapSize>地圖大小（此據點類型至少需要{0}）</CBF_Scen_MapSize>
+  <!-- EN: The map size must be at least {0}. -->
+  <CBF_Scen_MapSizeTooSmall>地圖大小至少要{0}。</CBF_Scen_MapSizeTooSmall>
+  <!-- EN: Your group has reached an abandoned settlement. Walls are broken, roofs have fallen in and trees grow through the floors.\n\nThe buildings belong to no one. Claim them to use them.\n\nBe careful when you search the ruins. Not everything here is dead. -->
+  <CBF_Scen_GameStart>你的隊伍來到一座被遺棄的據點。城牆破損，屋頂塌陷，樹木從地板中長了出來。\n\n這些建築不屬於任何人，佔據後就能使用。\n\n搜索廢墟時要小心，這裡不是所有東西都死透了。</CBF_Scen_GameStart>
+</LanguageData>

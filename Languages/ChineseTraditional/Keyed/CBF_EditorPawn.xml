@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Pick a pawn kind or pawn list on the left. -->
+  <CBF_Pw_PickOne>在左側選擇一個角色種類或角色清單。</CBF_Pw_PickOne>
+  <!-- EN: Only pawn kinds and lists from the selected mod. -->
+  <CBF_Pw_ProjectTip>僅顯示所選模組中的角色種類與清單。</CBF_Pw_ProjectTip>
+  <!-- EN: Also pawn kinds from other mods. You can view them and copy them into your mod. -->
+  <CBF_Pw_AllModsTip>同時顯示其他模組的角色種類。你可以檢視它們並複製進你的模組。</CBF_Pw_AllModsTip>
+  <!-- EN: Pawn lists -->
+  <CBF_Pw_Lists>角色清單</CBF_Pw_Lists>
+  <!-- EN: Pawn kinds -->
+  <CBF_Pw_Kinds>角色種類</CBF_Pw_Kinds>
+  <!-- EN: Pawn kind from selection -->
+  <CBF_Pw_FromSelection>從所選生成角色種類</CBF_Pw_FromSelection>
+  <!-- EN: Copies the pawn kind of the pawn selected on the map into your mod. -->
+  <CBF_Pw_FromSelectionTip>把地圖上所選角色的種類複製進你的模組。</CBF_Pw_FromSelectionTip>
+  <!-- EN: New pawn kind -->
+  <CBF_Pw_NewKind>新建角色種類</CBF_Pw_NewKind>
+  <!-- EN: {0}, because of {1} -->
+  <CBF_Pw_TechBecause>{0}，因為 {1}</CBF_Pw_TechBecause>
+  <!-- EN: The tech level decides which settlements this pawn appears in. It comes from the most advanced gear. -->
+  <CBF_Pw_TechTip>科技等級決定該角色出現在哪些據點中。它由最先進的裝備決定。</CBF_Pw_TechTip>
+  <!-- EN: Place pawn -->
+  <CBF_Pw_Place>放置角色</CBF_Pw_Place>
+  <!-- EN: Add to pawn list -->
+  <CBF_Pw_AddToList>加入角色清單</CBF_Pw_AddToList>
+  <!-- EN: hide empty -->
+  <CBF_Pw_HideEmpty>隱藏空白格</CBF_Pw_HideEmpty>
+  <!-- EN: No fixed gear yet. Turn off "hide empty" and click a free cell in the grid. -->
+  <CBF_Pw_NoGearYet>尚無固定裝備。關閉"隱藏空白格"並點選網格中的空白格。</CBF_Pw_NoGearYet>
+  <!-- EN: The pawn wears nothing on this selection of body parts. -->
+  <CBF_Pw_GridEmpty>該角色在這組身體部位上不穿任何東西。</CBF_Pw_GridEmpty>
+  <!-- EN: Layer -->
+  <CBF_Pw_Layer>層位</CBF_Pw_Layer>
+  <!-- EN: Color -->
+  <CBF_Pw_Color>顏色</CBF_Pw_Color>
+  <!-- EN: Tags -->
+  <CBF_Pw_Tags>標籤</CBF_Pw_Tags>
+  <!-- EN: From weapon -->
+  <CBF_Pw_FromWeapon>由武器決定</CBF_Pw_FromWeapon>
+  <!-- EN: Budget -->
+  <CBF_Pw_Budget>預算</CBF_Pw_Budget>
+  <!-- EN: Extra levels -->
+  <CBF_Pw_ExtraLevels>額外等級</CBF_Pw_ExtraLevels>
+  <!-- EN: Additional skill levels, spread at random. -->
+  <CBF_Pw_ExtraLevelsTip>額外的技能等級，隨機分配。</CBF_Pw_ExtraLevelsTip>
+  <!-- EN: Min. total -->
+  <CBF_Pw_MinTotal>最低總值</CBF_Pw_MinTotal>
+  <!-- EN: All skill levels together reach at least this value. -->
+  <CBF_Pw_MinTotalTip>全部技能等級合計至少達到此值。</CBF_Pw_MinTotalTip>
+  <!-- EN: Min. best -->
+  <CBF_Pw_MinBest>最低最高技能</CBF_Pw_MinBest>
+  <!-- EN: The best skill reaches at least this level. -->
+  <CBF_Pw_MinBestTip>最高技能至少達到此等級。</CBF_Pw_MinBestTip>
+  <!-- EN: Guard -->
+  <CBF_Pw_Role_Guard>守衛</CBF_Pw_Role_Guard>
+  <!-- EN: Post -->
+  <CBF_Pw_Role_Sentry>崗哨</CBF_Pw_Role_Sentry>
+  <!-- EN: Gunner -->
+  <CBF_Pw_Role_Gunner>砲手</CBF_Pw_Role_Gunner>
+  <!-- EN: Civilian -->
+  <CBF_Pw_Role_Civilian>平民</CBF_Pw_Role_Civilian>
+  <!-- EN: Forbidden -->
+  <CBF_Pw_Forbidden>禁止</CBF_Pw_Forbidden>
+  <!-- EN: Forced -->
+  <CBF_Pw_Forced>強制</CBF_Pw_Forced>
+  <!-- EN: Force trait -->
+  <CBF_Pw_AddForced>強制特質</CBF_Pw_AddForced>
+  <!-- EN: Fixed -->
+  <CBF_Pw_Fixed>固定</CBF_Pw_Fixed>
+  <!-- EN: Max. count -->
+  <CBF_Pw_MaxAmount>最大數量</CBF_Pw_MaxAmount>
+  <!-- EN: 8 groups -->
+  <CBF_Pw_AllFieldsHint>8 個分組</CBF_Pw_AllFieldsHint>
+  <!-- EN: No errors, same check as when the game loads. -->
+  <CBF_Pw_NoFaults>無錯誤，與遊戲載入時相同的檢查。</CBF_Pw_NoFaults>
+  <!-- EN: {0} pawn kinds · {1} -->
+  <CBF_Pw_ListHead>{0} 個角色種類 · {1}</CBF_Pw_ListHead>
+  <!-- EN: Members -->
+  <CBF_Pw_Members>成員</CBF_Pw_Members>
+  <!-- EN: Click opens the pawn kind. -->
+  <CBF_Pw_TileTip>點選開啟該角色種類。</CBF_Pw_TileTip>
+  <!-- EN: + Pawn kind -->
+  <CBF_Pw_AddKind>+ 角色種類</CBF_Pw_AddKind>
+  <!-- EN: Used by -->
+  <CBF_Pw_UsedBy>使用者</CBF_Pw_UsedBy>
+  <!-- EN: Pawn list -->
+  <CBF_PawnList>角色清單</CBF_PawnList>
+  <!-- EN: How far the pawns spread around their spot. -->
+  <CBF_Pw_RadiusTip>角色圍繞其位置散佈的範圍。</CBF_Pw_RadiusTip>
+  <!-- EN: Loading pawns … -->
+  <CBF_Pw_Loading>正在載入角色…</CBF_Pw_Loading>
+  <!-- EN: Swap -->
+  <CBF_Pw_Swap>替換</CBF_Pw_Swap>
+  <!-- EN: Replaces the piece with another one that fits the same layers. Material, quality and color stay where possible. -->
+  <CBF_Pw_SwapTip>用另一件適配相同層位的部件替換。材質、品質與顏色儘可能保留。</CBF_Pw_SwapTip>
+  <!-- EN: Swap piece -->
+  <CBF_Pw_SwapPick>替換部件</CBF_Pw_SwapPick>
+  <!-- EN: Add {0} -->
+  <CBF_Pw_AddChosen>新增 {0}</CBF_Pw_AddChosen>
+  <!-- EN: Tech level -->
+  <CBF_Pw_Stage>科技等級</CBF_Pw_Stage>
+  <!-- EN: from gear -->
+  <CBF_Pw_StageAuto>由裝備決定</CBF_Pw_StageAuto>
+  <!-- EN: The tech level this list counts as. "from gear" works it out from the weapons and apparel of each pawn kind. Set a level when the gear does not fit, for example tribal warriors with medieval leather who should appear in a tribal camp. The settlement then draws from the whole list without looking at the gear. The log warns when the level is above that of the settlement. -->
+  <CBF_Pw_StageTip>該清單計為的科技等級。"由裝備決定"會根據每個人物種類的武器與服裝推算。當裝備不符時可設定一個等級，例如穿著中世紀皮革的部落戰士應出現在部落營地中。此後據點會直接從整個清單中抽取，不再檢視裝備。當日誌顯示等級高於據點時會發出警告。</CBF_Pw_StageTip>
+  <!-- EN: Ideoligion role -->
+  <CBF_Pw_IdeoRole>意識形態角色</CBF_Pw_IdeoRole>
+  <!-- EN: none -->
+  <CBF_Pw_IdeoRoleNone>無</CBF_Pw_IdeoRoleNone>
+  <!-- EN: Combat role by weapon -->
+  <CBF_Pw_IdeoRoleFight>按武器定的戰鬥角色</CBF_Pw_IdeoRoleFight>
+  <!-- EN: With Ideology, pawns of this kind get this role of their faction's ideoligion. Combat role by weapon gives the shooting or melee specialist depending on the weapon. -->
+  <CBF_Pw_IdeoRoleTip>啟用意識形態時，這類角色會獲得其派系意識形態中的該角色。按武器定的戰鬥角色會根據武器指定射擊或近戰專家。</CBF_Pw_IdeoRoleTip>
+</LanguageData>

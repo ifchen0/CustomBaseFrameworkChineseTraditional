@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: A wooden frame of two posts and a beam that holds up the rock above a mine tunnel. -->
+  <CBF_MO_MineSupport.description>由兩根立柱與一根橫梁組成的木架，用來撐住礦坑隧道上方的岩石。</CBF_MO_MineSupport.description>
+  <!-- EN: mine support -->
+  <CBF_MO_MineSupport.label>礦坑支架</CBF_MO_MineSupport.label>
+</LanguageData>

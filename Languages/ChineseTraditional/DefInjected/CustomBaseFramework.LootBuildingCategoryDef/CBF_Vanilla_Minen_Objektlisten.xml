@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: mine drill -->
+  <CBF_Vanilla_Mine_Drill.label>礦坑鑽機</CBF_Vanilla_Mine_Drill.label>
+  <!-- EN: mine light -->
+  <CBF_Vanilla_Mine_Light.label>礦坑燈</CBF_Vanilla_Mine_Light.label>
+  <!-- EN: ore shelf -->
+  <CBF_Vanilla_Mine_Shelf.label>礦石架</CBF_Vanilla_Mine_Shelf.label>
+</LanguageData>

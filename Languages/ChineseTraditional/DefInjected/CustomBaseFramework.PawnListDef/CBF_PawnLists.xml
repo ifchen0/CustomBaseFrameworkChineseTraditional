@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: gate garrison -->
+  <CBF_MO_Garrison_Gate.label>城門駐軍</CBF_MO_Garrison_Gate.label>
+  <!-- EN: inner garrison -->
+  <CBF_MO_Garrison_Inside.label>城內駐軍</CBF_MO_Garrison_Inside.label>
+  <!-- EN: wall garrison -->
+  <CBF_MO_Garrison_Walkway.label>步道駐軍</CBF_MO_Garrison_Walkway.label>
+  <!-- EN: guard -->
+  <CBF_MO_Guard.label>衛兵</CBF_MO_Guard.label>
+  <!-- EN: livestock -->
+  <CBF_MO_Livestock.label>牧場牲畜</CBF_MO_Livestock.label>
+  <!-- EN: residents -->
+  <CBF_MO_Residents.label>居民</CBF_MO_Residents.label>
+  <!-- EN: tower -->
+  <CBF_MO_Tower.label>塔樓</CBF_MO_Tower.label>
+  <!-- EN: elite guard -->
+  <CBF_Modern_Garrison_Elite.label>精銳衛隊</CBF_Modern_Garrison_Elite.label>
+  <!-- EN: gate garrison -->
+  <CBF_Modern_Garrison_Gate.label>城門守衛</CBF_Modern_Garrison_Gate.label>
+  <!-- EN: inner garrison -->
+  <CBF_Modern_Garrison_Inside.label>城鎮駐軍</CBF_Modern_Garrison_Inside.label>
+  <!-- EN: spacer garrison -->
+  <CBF_Modern_Garrison_Spacer.label>星際駐軍</CBF_Modern_Garrison_Spacer.label>
+  <!-- EN: wall garrison -->
+  <CBF_Modern_Garrison_Walkway.label>城牆壁守</CBF_Modern_Garrison_Walkway.label>
+  <!-- EN: artillery crew -->
+  <CBF_Pawns_GunCrew.label>砲組</CBF_Pawns_GunCrew.label>
+  <!-- EN: civil -->
+  <CBF_Pawns_Vanilla_Civil.label>平民</CBF_Pawns_Vanilla_Civil.label>
+  <!-- EN: garrison -->
+  <CBF_Vanilla_Garrison.label>駐軍</CBF_Vanilla_Garrison.label>
+  <!-- EN: villager -->
+  <CBF_Vanilla_Villager.label>村民</CBF_Vanilla_Villager.label>
+  <!-- EN: hard animals -->
+  <Hardanimals_1.label>堅硬動物</Hardanimals_1.label>
+</LanguageData>

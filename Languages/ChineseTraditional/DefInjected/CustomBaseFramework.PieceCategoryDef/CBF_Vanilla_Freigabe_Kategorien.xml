@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: home annex -->
+  <CBF_Vanilla_Annex_Home.label>居住附屬建築</CBF_Vanilla_Annex_Home.label>
+  <!-- EN: apartment block -->
+  <CBF_Vanilla_ApartmentBlock.label>公寓樓</CBF_Vanilla_ApartmentBlock.label>
+  <!-- EN: armory -->
+  <CBF_Vanilla_Armory.label>武器庫</CBF_Vanilla_Armory.label>
+  <!-- EN: barracks -->
+  <CBF_Vanilla_Barracks.label>兵營</CBF_Vanilla_Barracks.label>
+  <!-- EN: brewery -->
+  <CBF_Vanilla_Brewery.label>釀酒坊</CBF_Vanilla_Brewery.label>
+  <!-- EN: checkpoint -->
+  <CBF_Vanilla_Checkpoint.label>檢查站</CBF_Vanilla_Checkpoint.label>
+  <!-- EN: church -->
+  <CBF_Vanilla_Church.label>教堂</CBF_Vanilla_Church.label>
+  <!-- EN: clinic -->
+  <CBF_Vanilla_Clinic.label>診所</CBF_Vanilla_Clinic.label>
+  <!-- EN: command center -->
+  <CBF_Vanilla_CommandCenter.label>指揮中心</CBF_Vanilla_CommandCenter.label>
+  <!-- EN: drug lab -->
+  <CBF_Vanilla_DrugLab.label>製藥實驗室</CBF_Vanilla_DrugLab.label>
+  <!-- EN: farmstead -->
+  <CBF_Vanilla_Farmstead.label>農莊</CBF_Vanilla_Farmstead.label>
+  <!-- EN: game hall -->
+  <CBF_Vanilla_GameHall.label>遊藝廳</CBF_Vanilla_GameHall.label>
+  <!-- EN: gatehouse -->
+  <CBF_Vanilla_Gatehouse.label>門樓</CBF_Vanilla_Gatehouse.label>
+  <!-- EN: grand bank -->
+  <CBF_Vanilla_GrandBank.label>大銀行</CBF_Vanilla_GrandBank.label>
+  <!-- EN: graveyard -->
+  <CBF_Vanilla_Graveyard.label>墓地</CBF_Vanilla_Graveyard.label>
+  <!-- EN: hospital -->
+  <CBF_Vanilla_Hospital.label>醫院</CBF_Vanilla_Hospital.label>
+  <!-- EN: hydroponics -->
+  <CBF_Vanilla_Hydroponics.label>水培農場</CBF_Vanilla_Hydroponics.label>
+  <!-- EN: kitchen -->
+  <CBF_Vanilla_Kitchen.label>廚房</CBF_Vanilla_Kitchen.label>
+  <!-- EN: leader tent -->
+  <CBF_Vanilla_LeaderTent.label>首領帳篷</CBF_Vanilla_LeaderTent.label>
+  <!-- EN: living hut -->
+  <CBF_Vanilla_LivingHut.label>居住棚屋</CBF_Vanilla_LivingHut.label>
+  <!-- EN: loot spot -->
+  <CBF_Vanilla_LootSpot.label>戰利品點</CBF_Vanilla_LootSpot.label>
+  <!-- EN: machining -->
+  <CBF_Vanilla_Machining.label>機械加工</CBF_Vanilla_Machining.label>
+  <!-- EN: outpost bunkhouse -->
+  <CBF_Vanilla_Outpost_Bunkhouse.label>前哨·宿舍</CBF_Vanilla_Outpost_Bunkhouse.label>
+  <!-- EN: outpost gathering spot -->
+  <CBF_Vanilla_Outpost_GatheringSpot.label>前哨·集合點</CBF_Vanilla_Outpost_GatheringSpot.label>
+  <!-- EN: outpost guest house -->
+  <CBF_Vanilla_Outpost_GuestHouse.label>前哨·客舍</CBF_Vanilla_Outpost_GuestHouse.label>
+  <!-- EN: outpost gun emplacement -->
+  <CBF_Vanilla_Outpost_GunEmplacement.label>前哨·砲位</CBF_Vanilla_Outpost_GunEmplacement.label>
+  <!-- EN: outpost library -->
+  <CBF_Vanilla_Outpost_Library.label>前哨·圖書館</CBF_Vanilla_Outpost_Library.label>
+  <!-- EN: outpost market stall -->
+  <CBF_Vanilla_Outpost_MarketStall.label>前哨·集市攤位</CBF_Vanilla_Outpost_MarketStall.label>
+  <!-- EN: outpost power plant -->
+  <CBF_Vanilla_Outpost_PowerPlant.label>前哨·發電站</CBF_Vanilla_Outpost_PowerPlant.label>
+  <!-- EN: outpost slaughterhouse -->
+  <CBF_Vanilla_Outpost_Slaughterhouse.label>前哨·屠宰房</CBF_Vanilla_Outpost_Slaughterhouse.label>
+  <!-- EN: outpost storage depot -->
+  <CBF_Vanilla_Outpost_StorageDepot.label>前哨·儲藏站</CBF_Vanilla_Outpost_StorageDepot.label>
+  <!-- EN: outpost study -->
+  <CBF_Vanilla_Outpost_Study.label>前哨·書房</CBF_Vanilla_Outpost_Study.label>
+  <!-- EN: outpost tannery -->
+  <CBF_Vanilla_Outpost_Tannery.label>前哨·鞣革坊</CBF_Vanilla_Outpost_Tannery.label>
+  <!-- EN: parliament -->
+  <CBF_Vanilla_Parliament.label>議會廳</CBF_Vanilla_Parliament.label>
+  <!-- EN: police station -->
+  <CBF_Vanilla_Police.label>警局</CBF_Vanilla_Police.label>
+  <!-- EN: prestige armory -->
+  <CBF_Vanilla_PrestigeArmory.label>聲望武器庫</CBF_Vanilla_PrestigeArmory.label>
+  <!-- EN: prison -->
+  <CBF_Vanilla_Prison.label>監獄</CBF_Vanilla_Prison.label>
+  <!-- EN: research -->
+  <CBF_Vanilla_Research.label>研究</CBF_Vanilla_Research.label>
+  <!-- EN: research center -->
+  <CBF_Vanilla_ResearchCenter.label>研究中心</CBF_Vanilla_ResearchCenter.label>
+  <!-- EN: row house -->
+  <CBF_Vanilla_RowHouse.label>聯排屋</CBF_Vanilla_RowHouse.label>
+  <!-- EN: sandbag position -->
+  <CBF_Vanilla_SandbagPosition.label>沙袋陣地</CBF_Vanilla_SandbagPosition.label>
+  <!-- EN: sleeping tent -->
+  <CBF_Vanilla_SleepingTent.label>睡帳篷</CBF_Vanilla_SleepingTent.label>
+  <!-- EN: smithy -->
+  <CBF_Vanilla_Smithy.label>鐵匠鋪</CBF_Vanilla_Smithy.label>
+  <!-- EN: spacer bunker -->
+  <CBF_Vanilla_Spacer_Defence_Large.label>星際大型防禦工事</CBF_Vanilla_Spacer_Defence_Large.label>
+  <!-- EN: spacer emplacement -->
+  <CBF_Vanilla_Spacer_Defence_Small.label>星際小型陣地</CBF_Vanilla_Spacer_Defence_Small.label>
+  <!-- EN: stonemason -->
+  <CBF_Vanilla_Stonemason.label>石匠坊</CBF_Vanilla_Stonemason.label>
+  <!-- EN: storage -->
+  <CBF_Vanilla_Storage.label>儲藏</CBF_Vanilla_Storage.label>
+  <!-- EN: storage hall -->
+  <CBF_Vanilla_StorageHall.label>儲藏大廳</CBF_Vanilla_StorageHall.label>
+  <!-- EN: tailor shop -->
+  <CBF_Vanilla_TailorShop.label>裁縫鋪</CBF_Vanilla_TailorShop.label>
+  <!-- EN: tavern -->
+  <CBF_Vanilla_Tavern.label>酒館</CBF_Vanilla_Tavern.label>
+  <!-- EN: town house -->
+  <CBF_Vanilla_TownHouse.label>城鎮住宅</CBF_Vanilla_TownHouse.label>
+  <!-- EN: trading post -->
+  <CBF_Vanilla_TradingPost.label>貿易站</CBF_Vanilla_TradingPost.label>
+  <!-- EN: vault -->
+  <CBF_Vanilla_Vault.label>金庫</CBF_Vanilla_Vault.label>
+  <!-- EN: wall tower -->
+  <CBF_Vanilla_WallTower.label>城牆塔樓</CBF_Vanilla_WallTower.label>
+</LanguageData>

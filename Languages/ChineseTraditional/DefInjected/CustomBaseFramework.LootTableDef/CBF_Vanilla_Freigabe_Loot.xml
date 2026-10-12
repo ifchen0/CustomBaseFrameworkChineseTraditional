@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: fine arms -->
+  <CBF_Vanilla_Goods_BonusArms.label>精良兵器</CBF_Vanilla_Goods_BonusArms.label>
+  <!-- EN: fine medicine -->
+  <CBF_Vanilla_Goods_BonusMed.label>精良藥品</CBF_Vanilla_Goods_BonusMed.label>
+  <!-- EN: regalia -->
+  <CBF_Vanilla_Goods_BonusRegalia.label>王權服飾</CBF_Vanilla_Goods_BonusRegalia.label>
+  <!-- EN: valuables -->
+  <CBF_Vanilla_Goods_BonusValuables.label>貴重物品</CBF_Vanilla_Goods_BonusValuables.label>
+  <!-- EN: masterpieces -->
+  <CBF_Vanilla_Goods_PrunkGear.label>傑作裝備</CBF_Vanilla_Goods_PrunkGear.label>
+  <!-- EN: rare finds -->
+  <CBF_Vanilla_Goods_PrunkRare.label>稀有發現</CBF_Vanilla_Goods_PrunkRare.label>
+  <!-- EN: BonusArms -->
+  <CBF_Vanilla_Loot_BonusArms.label>額外兵器</CBF_Vanilla_Loot_BonusArms.label>
+  <!-- EN: BonusMed -->
+  <CBF_Vanilla_Loot_BonusMed.label>額外藥品</CBF_Vanilla_Loot_BonusMed.label>
+  <!-- EN: BonusTreasure -->
+  <CBF_Vanilla_Loot_BonusTreasure.label>額外財寶</CBF_Vanilla_Loot_BonusTreasure.label>
+  <!-- EN: Prunk -->
+  <CBF_Vanilla_Loot_Prunk.label>珍品</CBF_Vanilla_Loot_Prunk.label>
+  <!-- EN: vault loot -->
+  <CBF_Vanilla_Loot_Vault.label>保險庫</CBF_Vanilla_Loot_Vault.label>
+</LanguageData>

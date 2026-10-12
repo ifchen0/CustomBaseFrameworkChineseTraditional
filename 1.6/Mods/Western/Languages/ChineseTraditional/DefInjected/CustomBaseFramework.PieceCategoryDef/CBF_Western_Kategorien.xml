@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: home annex -->
+  <CBF_Western_Annex_Home.label>住家附屬建築</CBF_Western_Annex_Home.label>
+  <!-- EN: bank -->
+  <CBF_Western_Bank.label>銀行</CBF_Western_Bank.label>
+  <!-- EN: church -->
+  <CBF_Western_Church.label>教堂</CBF_Western_Church.label>
+  <!-- EN: palisade gate -->
+  <CBF_Western_Gatehouse.label>柵欄城門</CBF_Western_Gatehouse.label>
+  <!-- EN: graveyard -->
+  <CBF_Western_Graveyard.label>墓地</CBF_Western_Graveyard.label>
+  <!-- EN: hotel -->
+  <CBF_Western_Hotel.label>旅館</CBF_Western_Hotel.label>
+  <!-- EN: house -->
+  <CBF_Western_House.label>房屋</CBF_Western_House.label>
+  <!-- EN: saloon -->
+  <CBF_Western_Saloon.label>酒館</CBF_Western_Saloon.label>
+  <!-- EN: sheriff office -->
+  <CBF_Western_Sheriff.label>警長辦公室</CBF_Western_Sheriff.label>
+  <!-- EN: smithy -->
+  <CBF_Western_Smithy.label>鐵匠鋪</CBF_Western_Smithy.label>
+  <!-- EN: livery stable -->
+  <CBF_Western_Stable.label>出租馬廄</CBF_Western_Stable.label>
+  <!-- EN: general store -->
+  <CBF_Western_Store.label>雜貨店</CBF_Western_Store.label>
+  <!-- EN: town hall -->
+  <CBF_Western_TownHall.label>鎮公所</CBF_Western_TownHall.label>
+  <!-- EN: palisade tower -->
+  <CBF_Western_WallTower.label>柵欄塔樓</CBF_Western_WallTower.label>
+  <!-- EN: windmill -->
+  <CBF_Western_Windmill.label>風車</CBF_Western_Windmill.label>
+  <!-- EN: workshop -->
+  <CBF_Western_Workshop.label>工坊</CBF_Western_Workshop.label>
+</LanguageData>

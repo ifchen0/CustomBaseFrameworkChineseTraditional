@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: labs and spacer rooms -->
+  <CBF_Vanilla_FloorList_Clean.label>實驗室與星際艙室</CBF_Vanilla_FloorList_Clean.label>
+  <!-- EN: parliament and vault -->
+  <CBF_Vanilla_FloorList_Fine.label>議會廳與金庫</CBF_Vanilla_FloorList_Fine.label>
+  <!-- EN: churches, gatehouses, halls -->
+  <CBF_Vanilla_FloorList_Flagstone.label>教堂、門樓、大廳</CBF_Vanilla_FloorList_Flagstone.label>
+  <!-- EN: home, modern -->
+  <CBF_Vanilla_FloorList_HomeMetal.label>現代住宅</CBF_Vanilla_FloorList_HomeMetal.label>
+  <!-- EN: home, kitchen and bath -->
+  <CBF_Vanilla_FloorList_HomeTile.label>住宅、廚房與浴室</CBF_Vanilla_FloorList_HomeTile.label>
+  <!-- EN: home, living rooms -->
+  <CBF_Vanilla_FloorList_HomeWood.label>住宅起居室</CBF_Vanilla_FloorList_HomeWood.label>
+  <!-- EN: workshops, storage, power -->
+  <CBF_Vanilla_FloorList_Industrial.label>工坊、倉儲、電力</CBF_Vanilla_FloorList_Industrial.label>
+  <!-- EN: military, concrete -->
+  <CBF_Vanilla_FloorList_MilitaryConcrete.label>軍事混凝土</CBF_Vanilla_FloorList_MilitaryConcrete.label>
+  <!-- EN: military, metal -->
+  <CBF_Vanilla_FloorList_MilitaryMetal.label>軍事金屬</CBF_Vanilla_FloorList_MilitaryMetal.label>
+  <!-- EN: prisons and barracks, tiled -->
+  <CBF_Vanilla_FloorList_MilitaryTile.label>監獄與兵營瓷磚</CBF_Vanilla_FloorList_MilitaryTile.label>
+  <!-- EN: barracks, wooden -->
+  <CBF_Vanilla_FloorList_MilitaryWood.label>木製兵營</CBF_Vanilla_FloorList_MilitaryWood.label>
+  <!-- EN: yards and emplacements -->
+  <CBF_Vanilla_FloorList_Paved.label>庭院與砲位</CBF_Vanilla_FloorList_Paved.label>
+  <!-- EN: public halls, tiled -->
+  <CBF_Vanilla_FloorList_PublicTile.label>公共大廳瓷磚</CBF_Vanilla_FloorList_PublicTile.label>
+  <!-- EN: taverns, halls, shops -->
+  <CBF_Vanilla_FloorList_PublicWood.label>酒館、大廳、商鋪</CBF_Vanilla_FloorList_PublicWood.label>
+  <!-- EN: garage, shed, plain rooms -->
+  <CBF_Vanilla_FloorList_Utility.label>車庫、棚屋、普通房間</CBF_Vanilla_FloorList_Utility.label>
+  <!-- EN: workshops, metal -->
+  <CBF_Vanilla_FloorList_WorkMetal.label>金屬工坊</CBF_Vanilla_FloorList_WorkMetal.label>
+  <!-- EN: workshops, tiled -->
+  <CBF_Vanilla_FloorList_WorkTile.label>瓷磚工坊</CBF_Vanilla_FloorList_WorkTile.label>
+  <!-- EN: workshops, wooden -->
+  <CBF_Vanilla_FloorList_WorkWood.label>木製工坊</CBF_Vanilla_FloorList_WorkWood.label>
+</LanguageData>

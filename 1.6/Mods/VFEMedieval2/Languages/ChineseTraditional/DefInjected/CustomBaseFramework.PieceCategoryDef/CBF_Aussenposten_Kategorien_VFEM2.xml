@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: bunkhouse -->
+  <CBF_VFEM2_Bunkhouse.label>宿舍</CBF_VFEM2_Bunkhouse.label>
+  <!-- EN: command tent -->
+  <CBF_VFEM2_CommandTent.label>指揮帳篷</CBF_VFEM2_CommandTent.label>
+  <!-- EN: granary -->
+  <CBF_VFEM2_Granary.label>糧倉</CBF_VFEM2_Granary.label>
+  <!-- EN: horse stall -->
+  <CBF_VFEM2_HorseStall.label>馬廄位</CBF_VFEM2_HorseStall.label>
+  <!-- EN: kennel -->
+  <CBF_VFEM2_Kennel.label>獵犬舍</CBF_VFEM2_Kennel.label>
+  <!-- EN: ore store -->
+  <CBF_VFEM2_OreStore.label>礦石庫</CBF_VFEM2_OreStore.label>
+  <!-- EN: overseer house -->
+  <CBF_VFEM2_OverseerHouse.label>監工宅</CBF_VFEM2_OverseerHouse.label>
+  <!-- EN: pen -->
+  <CBF_VFEM2_Pen.label>畜欄</CBF_VFEM2_Pen.label>
+  <!-- EN: sawing yard -->
+  <CBF_VFEM2_SawingYard.label>鋸木場</CBF_VFEM2_SawingYard.label>
+  <!-- EN: slave pen -->
+  <CBF_VFEM2_SlavePen.label>奴隸欄</CBF_VFEM2_SlavePen.label>
+  <!-- EN: soldier tent -->
+  <CBF_VFEM2_SoldierTent.label>士兵帳篷</CBF_VFEM2_SoldierTent.label>
+  <!-- EN: weapon tent -->
+  <CBF_VFEM2_WeaponTent.label>武器帳篷</CBF_VFEM2_WeaponTent.label>
+  <!-- EN: woodcutter hut -->
+  <CBF_VFEM2_WoodcutterHut.label>伐木小屋</CBF_VFEM2_WoodcutterHut.label>
+</LanguageData>

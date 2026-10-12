@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: bandit camp -->
+  <CBF_Plan_Camp_Vanilla_Bandits.label>土匪營地</CBF_Plan_Camp_Vanilla_Bandits.label>
+  <!-- EN: farming site -->
+  <CBF_Plan_Camp_Vanilla_Farm.label>農耕營地</CBF_Plan_Camp_Vanilla_Farm.label>
+  <!-- EN: hunting site -->
+  <CBF_Plan_Camp_Vanilla_Hunting.label>狩獵營地</CBF_Plan_Camp_Vanilla_Hunting.label>
+  <!-- EN: mining site -->
+  <CBF_Plan_Camp_Vanilla_Mining.label>採礦營地</CBF_Plan_Camp_Vanilla_Mining.label>
+  <!-- EN: outpost -->
+  <CBF_Plan_Camp_Vanilla_Outpost.label>哨站</CBF_Plan_Camp_Vanilla_Outpost.label>
+  <!-- EN: logging site -->
+  <CBF_Plan_Camp_Vanilla_Wood.label>伐木營地</CBF_Plan_Camp_Vanilla_Wood.label>
+</LanguageData>

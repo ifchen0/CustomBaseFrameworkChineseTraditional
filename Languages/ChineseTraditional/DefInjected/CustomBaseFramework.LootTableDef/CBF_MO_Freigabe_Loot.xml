@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: regalia -->
+  <CBF_MO_Goods_BonusRegalia.label>王權服飾</CBF_MO_Goods_BonusRegalia.label>
+  <!-- EN: monster parts -->
+  <CBF_MO_Goods_MonsterParts.label>怪物部件</CBF_MO_Goods_MonsterParts.label>
+  <!-- EN: monster gear -->
+  <CBF_MO_Goods_MonsterSet.label>怪物裝備</CBF_MO_Goods_MonsterSet.label>
+  <!-- EN: named goods -->
+  <CBF_MO_Goods_Named.label>名號武器與儀仗鎧甲</CBF_MO_Goods_Named.label>
+  <!-- EN: plate goods -->
+  <CBF_MO_Goods_Plate.label>板甲與頭盔</CBF_MO_Goods_Plate.label>
+  <!-- EN: rings -->
+  <CBF_MO_Goods_Rings.label>戒指</CBF_MO_Goods_Rings.label>
+  <!-- EN: armor loot -->
+  <CBF_MO_Loot_Armor.label>鎧甲</CBF_MO_Loot_Armor.label>
+  <!-- EN: armoury loot -->
+  <CBF_MO_Loot_Armoury.label>盔甲庫</CBF_MO_Loot_Armoury.label>
+  <!-- EN: BonusTreasure -->
+  <CBF_MO_Loot_BonusTreasure.label>額外財寶</CBF_MO_Loot_BonusTreasure.label>
+  <!-- EN: burgher house loot -->
+  <CBF_MO_Loot_BurgherHouse.label>市民宅邸</CBF_MO_Loot_BurgherHouse.label>
+  <!-- EN: church treasure loot -->
+  <CBF_MO_Loot_ChurchTreasure.label>教堂寶藏</CBF_MO_Loot_ChurchTreasure.label>
+  <!-- EN: cottage loot -->
+  <CBF_MO_Loot_Cottage.label>農舍</CBF_MO_Loot_Cottage.label>
+  <!-- EN: fisher loot -->
+  <CBF_MO_Loot_Fisher.label>漁夫</CBF_MO_Loot_Fisher.label>
+  <!-- EN: guild coffer loot -->
+  <CBF_MO_Loot_GuildCoffer.label>行會金庫</CBF_MO_Loot_GuildCoffer.label>
+  <!-- EN: harbor loot -->
+  <CBF_MO_Loot_Harbor.label>港口</CBF_MO_Loot_Harbor.label>
+  <!-- EN: hut loot -->
+  <CBF_MO_Loot_Hut.label>小屋</CBF_MO_Loot_Hut.label>
+  <!-- EN: larder loot -->
+  <CBF_MO_Loot_Larder.label>食品儲藏室</CBF_MO_Loot_Larder.label>
+  <!-- EN: mine -->
+  <CBF_MO_Loot_Mine.label>礦井</CBF_MO_Loot_Mine.label>
+  <!-- EN: quarry loot -->
+  <CBF_MO_Loot_Quarry.label>採石場</CBF_MO_Loot_Quarry.label>
+  <!-- EN: treasury loot -->
+  <CBF_MO_Loot_Treasury.label>寶庫</CBF_MO_Loot_Treasury.label>
+  <!-- EN: TrophyParts -->
+  <CBF_MO_Loot_TrophyParts.label>戰利品部件</CBF_MO_Loot_TrophyParts.label>
+  <!-- EN: TrophySet -->
+  <CBF_MO_Loot_TrophySet.label>戰利品套裝</CBF_MO_Loot_TrophySet.label>
+  <!-- EN: weapon dealer loot -->
+  <CBF_MO_Loot_WeaponDealer.label>武器商</CBF_MO_Loot_WeaponDealer.label>
+  <!-- EN: wine cellar loot -->
+  <CBF_MO_Loot_WineCellar.label>酒窖</CBF_MO_Loot_WineCellar.label>
+</LanguageData>

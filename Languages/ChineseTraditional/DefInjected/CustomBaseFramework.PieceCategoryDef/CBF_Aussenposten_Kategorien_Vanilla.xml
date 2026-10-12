@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: drill barracks -->
+  <CBF_Vanilla_DrillBarracks.label>鑽井兵營</CBF_Vanilla_DrillBarracks.label>
+  <!-- EN: field camp -->
+  <CBF_Vanilla_FieldCamp.label>野戰營地</CBF_Vanilla_FieldCamp.label>
+  <!-- EN: pen -->
+  <CBF_Vanilla_Pen.label>畜欄</CBF_Vanilla_Pen.label>
+  <!-- EN: prison camp -->
+  <CBF_Vanilla_PrisonCamp.label>戰俘營</CBF_Vanilla_PrisonCamp.label>
+  <!-- EN: sawmill -->
+  <CBF_Vanilla_Sawmill.label>鋸木廠</CBF_Vanilla_Sawmill.label>
+  <!-- EN: silo -->
+  <CBF_Vanilla_Silo.label>筒倉</CBF_Vanilla_Silo.label>
+  <!-- EN: workhall -->
+  <CBF_Vanilla_Workhall.label>勞作大廳</CBF_Vanilla_Workhall.label>
+</LanguageData>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: ammo goods -->
+  <CBF_Vanilla_Goods_Ammo.label>彈藥</CBF_Vanilla_Goods_Ammo.label>
+  <!-- EN: beer goods -->
+  <CBF_Vanilla_Goods_Beer.label>啤酒與麥汁</CBF_Vanilla_Goods_Beer.label>
+  <!-- EN: books goods -->
+  <CBF_Vanilla_Goods_Books.label>書籍</CBF_Vanilla_Goods_Books.label>
+  <!-- EN: chemicals -->
+  <CBF_Vanilla_Goods_Chemistry.label>化學品</CBF_Vanilla_Goods_Chemistry.label>
+  <!-- EN: gold and silver -->
+  <CBF_Vanilla_Goods_Coins.label>金與銀</CBF_Vanilla_Goods_Coins.label>
+  <!-- EN: components goods -->
+  <CBF_Vanilla_Goods_Components.label>零部件</CBF_Vanilla_Goods_Components.label>
+  <!-- EN: drugs goods -->
+  <CBF_Vanilla_Goods_Drugs.label>藥物</CBF_Vanilla_Goods_Drugs.label>
+  <!-- EN: fruit goods -->
+  <CBF_Vanilla_Goods_Fruit.label>水果</CBF_Vanilla_Goods_Fruit.label>
+  <!-- EN: garments goods -->
+  <CBF_Vanilla_Goods_Garments.label>衣物</CBF_Vanilla_Goods_Garments.label>
+  <!-- EN: meals -->
+  <CBF_Vanilla_Goods_Meal.label>餐食</CBF_Vanilla_Goods_Meal.label>
+  <!-- EN: meat goods -->
+  <CBF_Vanilla_Goods_Meat.label>肉食</CBF_Vanilla_Goods_Meat.label>
+  <!-- EN: medicine goods -->
+  <CBF_Vanilla_Goods_Medicine.label>藥品</CBF_Vanilla_Goods_Medicine.label>
+  <!-- EN: melee weapons -->
+  <CBF_Vanilla_Goods_Melee.label>近戰武器</CBF_Vanilla_Goods_Melee.label>
+  <!-- EN: ore goods -->
+  <CBF_Vanilla_Goods_Ore.label>礦石與金屬</CBF_Vanilla_Goods_Ore.label>
+  <!-- EN: sidearms -->
+  <CBF_Vanilla_Goods_Pistol.label>手槍</CBF_Vanilla_Goods_Pistol.label>
+  <!-- EN: protective clothing -->
+  <CBF_Vanilla_Goods_Protection.label>防護服</CBF_Vanilla_Goods_Protection.label>
+  <!-- EN: rifles -->
+  <CBF_Vanilla_Goods_Rifle.label>步槍</CBF_Vanilla_Goods_Rifle.label>
+  <!-- EN: stone blocks -->
+  <CBF_Vanilla_Goods_Stone.label>石料</CBF_Vanilla_Goods_Stone.label>
+  <!-- EN: textiles goods -->
+  <CBF_Vanilla_Goods_Textiles.label>織物</CBF_Vanilla_Goods_Textiles.label>
+  <!-- EN: treasure goods -->
+  <CBF_Vanilla_Goods_Treasure.label>財寶</CBF_Vanilla_Goods_Treasure.label>
+  <!-- EN: vegetables goods -->
+  <CBF_Vanilla_Goods_Vegetables.label>蔬菜</CBF_Vanilla_Goods_Vegetables.label>
+  <!-- EN: wood goods -->
+  <CBF_Vanilla_Goods_Wood.label>木材</CBF_Vanilla_Goods_Wood.label>
+  <!-- EN: farm produce -->
+  <CBF_Vanilla_Goods_Yard.label>農莊產品</CBF_Vanilla_Goods_Yard.label>
+  <!-- EN: armory loot -->
+  <CBF_Vanilla_Loot_Armory.label>武器庫</CBF_Vanilla_Loot_Armory.label>
+  <!-- EN: brewery loot -->
+  <CBF_Vanilla_Loot_Brewery.label>釀酒坊</CBF_Vanilla_Loot_Brewery.label>
+  <!-- EN: drug lab loot -->
+  <CBF_Vanilla_Loot_DrugLab.label>製藥實驗室</CBF_Vanilla_Loot_DrugLab.label>
+  <!-- EN: dwelling loot -->
+  <CBF_Vanilla_Loot_Dwelling.label>民居</CBF_Vanilla_Loot_Dwelling.label>
+  <!-- EN: farmstead loot -->
+  <CBF_Vanilla_Loot_Farmstead.label>農莊</CBF_Vanilla_Loot_Farmstead.label>
+  <!-- EN: generator plant -->
+  <CBF_Vanilla_Loot_Generator.label>發電機房</CBF_Vanilla_Loot_Generator.label>
+  <!-- EN: hospital loot -->
+  <CBF_Vanilla_Loot_Hospital.label>醫院</CBF_Vanilla_Loot_Hospital.label>
+  <!-- EN: hydroponics loot -->
+  <CBF_Vanilla_Loot_Hydroponics.label>水培農場</CBF_Vanilla_Loot_Hydroponics.label>
+  <!-- EN: kitchen loot -->
+  <CBF_Vanilla_Loot_Kitchen.label>廚房</CBF_Vanilla_Loot_Kitchen.label>
+  <!-- EN: little loot -->
+  <CBF_Vanilla_Loot_Minimal.label>少量戰利品</CBF_Vanilla_Loot_Minimal.label>
+  <!-- EN: research building -->
+  <CBF_Vanilla_Loot_Research.label>研究建築</CBF_Vanilla_Loot_Research.label>
+  <!-- EN: sleeping loot -->
+  <CBF_Vanilla_Loot_Sleeping.label>睡眠處</CBF_Vanilla_Loot_Sleeping.label>
+  <!-- EN: smithy loot -->
+  <CBF_Vanilla_Loot_Smithy.label>鐵匠鋪</CBF_Vanilla_Loot_Smithy.label>
+  <!-- EN: stonemason loot -->
+  <CBF_Vanilla_Loot_Stonemason.label>石匠坊</CBF_Vanilla_Loot_Stonemason.label>
+  <!-- EN: storage loot -->
+  <CBF_Vanilla_Loot_Storage.label>倉庫</CBF_Vanilla_Loot_Storage.label>
+  <!-- EN: tailor shop loot -->
+  <CBF_Vanilla_Loot_TailorShop.label>裁縫鋪</CBF_Vanilla_Loot_TailorShop.label>
+  <!-- EN: trade loot -->
+  <CBF_Vanilla_Loot_Trade.label>貿易站</CBF_Vanilla_Loot_Trade.label>
+  <!-- EN: treasury loot -->
+  <CBF_Vanilla_Loot_Treasury.label>寶庫</CBF_Vanilla_Loot_Treasury.label>
+  <!-- EN: workshop loot -->
+  <CBF_Vanilla_Loot_Workshop.label>工坊</CBF_Vanilla_Loot_Workshop.label>
+</LanguageData>

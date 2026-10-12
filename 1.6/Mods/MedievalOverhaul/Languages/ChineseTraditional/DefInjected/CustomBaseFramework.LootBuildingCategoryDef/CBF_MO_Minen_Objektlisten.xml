@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: ore cart -->
+  <CBF_MO_Mine_Cart.label>礦車</CBF_MO_Mine_Cart.label>
+  <!-- EN: mine coal barrel -->
+  <CBF_MO_Mine_CoalBarrel.label>礦坑煤桶</CBF_MO_Mine_CoalBarrel.label>
+  <!-- EN: iron ore barrel -->
+  <CBF_MO_Mine_IronBarrel.label>鐵礦桶</CBF_MO_Mine_IronBarrel.label>
+  <!-- EN: mine light -->
+  <CBF_MO_Mine_Light.label>礦坑燈</CBF_MO_Mine_Light.label>
+  <!-- EN: mine shaft -->
+  <CBF_MO_Mine_Shaft.label>礦井</CBF_MO_Mine_Shaft.label>
+</LanguageData>

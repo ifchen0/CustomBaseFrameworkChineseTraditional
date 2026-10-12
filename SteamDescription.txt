@@ -1,0 +1,26 @@
+Traditional Chinese (繁體中文) translation for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3813689040]Custom Base Framework[/url] by Evil Eye Guy.
+
+為 Evil Eye Guy 的 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3813689040]Custom Base Framework[/url] 提供繁體中文翻譯。
+
+[h2]What is translated[/h2][list]
+[*]Mod settings: faction switch, garrisons and performance, uninstall, error report, other mod options
+[*]Quests, scenarios, settlement types, unit names, containers and dungeon level buttons
+[*]The settlement editor
+[/list]
+Player-facing text is translated from English. Editor text is converted from the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3814954055]Simplified Chinese translation[/url] by KKRimWorld and adjusted to Taiwan terms. Terms follow the vanilla Traditional Chinese translation.
+
+[h2]翻譯範圍[/h2][list]
+[*]模組設定：派系開關、駐軍與效能、移除 CBF、錯誤回報、其他模組選項
+[*]任務、腳本、據點類型、兵種名稱、容器與地牢樓層按鈕
+[*]據點編輯器
+[/list]
+玩家會看到的文字以英文原文翻譯；編輯器文字由 KKRimWorld 的[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3814954055]簡體中文翻譯[/url]轉換為繁體，並調整為台灣用語。用詞依照原版遊戲的繁體中文翻譯。
+
+[h2]Notes[/h2][list]
+[*]Load after Custom Base Framework.
+[*]Safe to add to or remove from an existing save.
+[*]Translations for the Medieval Overhaul, VFE Medieval 2, VFE Classical, VFE Settlers, World Domination and A Rim of Ice and Fire integrations only load when those mods are active.
+[*]Custom Base Framework updates often. Text added after this translation shows in English until the translation is updated.
+[/list]
+[hr][/hr]
+This translation was made with the help of AI tools (Claude Code). Translation files are included in the Languages folder and on [url=https://github.com/ifchen0/CustomBaseFrameworkChineseTraditional]GitHub[/url] for review.

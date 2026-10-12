@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: metropolis (industrial) -->
+  <CBF_Plan_Metropolis.label>大都市（工業）</CBF_Plan_Metropolis.label>
+  <!-- EN: Government district -->
+  <CBF_Plan_Metropolis.wards.0.label>政府區</CBF_Plan_Metropolis.wards.0.label>
+  <!-- EN: Outer ring -->
+  <CBF_Plan_Metropolis.wards.1.label>外環</CBF_Plan_Metropolis.wards.1.label>
+</LanguageData>

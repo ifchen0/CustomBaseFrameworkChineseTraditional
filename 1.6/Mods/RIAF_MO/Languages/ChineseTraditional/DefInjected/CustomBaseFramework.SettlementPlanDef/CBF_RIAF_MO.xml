@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: small fortress (RIAF, MO) -->
+  <CBF_Plan_RIAF_Fortress.label>小型要塞（RIAF、MO）</CBF_Plan_RIAF_Fortress.label>
+  <!-- EN: hamlet (RIAF, MO) -->
+  <CBF_Plan_RIAF_Hamlet.label>小村落（RIAF、MO）</CBF_Plan_RIAF_Hamlet.label>
+  <!-- EN: small market town (RIAF, MO) -->
+  <CBF_Plan_RIAF_MarketTown.label>小型市集城鎮（RIAF、MO）</CBF_Plan_RIAF_MarketTown.label>
+</LanguageData>

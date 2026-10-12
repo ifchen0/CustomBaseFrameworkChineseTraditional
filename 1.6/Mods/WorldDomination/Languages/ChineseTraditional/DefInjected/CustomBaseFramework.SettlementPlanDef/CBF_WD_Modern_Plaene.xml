@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: farm outpost -->
+  <CBF_Plan_WD_Modern_FarmOutpost.label>農業哨站</CBF_Plan_WD_Modern_FarmOutpost.label>
+  <!-- EN: field camp -->
+  <CBF_Plan_WD_Modern_FieldCamp.label>野戰營地</CBF_Plan_WD_Modern_FieldCamp.label>
+  <!-- EN: mining outpost -->
+  <CBF_Plan_WD_Modern_MineOutpost.label>採礦哨站</CBF_Plan_WD_Modern_MineOutpost.label>
+  <!-- EN: prison camp -->
+  <CBF_Plan_WD_Modern_PrisonCamp.label>戰俘營</CBF_Plan_WD_Modern_PrisonCamp.label>
+  <!-- EN: production town -->
+  <CBF_Plan_WD_Modern_ProductionTown.label>生產城鎮</CBF_Plan_WD_Modern_ProductionTown.label>
+  <!-- EN: logging outpost -->
+  <CBF_Plan_WD_Modern_WoodOutpost.label>伐木哨站</CBF_Plan_WD_Modern_WoodOutpost.label>
+</LanguageData>

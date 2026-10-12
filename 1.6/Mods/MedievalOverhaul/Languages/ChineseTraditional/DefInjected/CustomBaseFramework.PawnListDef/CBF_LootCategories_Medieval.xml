@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: hidden -->
+  <CBF_Pawns_Hidden.label>潛伏者</CBF_Pawns_Hidden.label>
+  <!-- EN: mimic -->
+  <CBF_Pawns_Mimic.label>擬態者</CBF_Pawns_Mimic.label>
+  <!-- EN: vermin -->
+  <CBF_Pawns_Vermin.label>害獸</CBF_Pawns_Vermin.label>
+</LanguageData>

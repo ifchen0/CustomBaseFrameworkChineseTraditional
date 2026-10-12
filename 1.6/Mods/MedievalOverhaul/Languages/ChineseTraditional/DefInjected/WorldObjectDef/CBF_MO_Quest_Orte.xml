@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: settlement under attack -->
+  <CBF_MO_Quest_ContestedSite.label>遭受攻擊的據點</CBF_MO_Quest_ContestedSite.label>
+  <!-- EN: raided settlement -->
+  <CBF_MO_Quest_RaidedSite.label>遭劫掠的據點</CBF_MO_Quest_RaidedSite.label>
+</LanguageData>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: armor goods -->
+  <CBF_MO_Goods_Armor.label>鎧甲與儀仗武器</CBF_MO_Goods_Armor.label>
+  <!-- EN: polearms -->
+  <CBF_MO_Goods_Bars.label>長柄武器</CBF_MO_Goods_Bars.label>
+  <!-- EN: books goods -->
+  <CBF_MO_Goods_Books.label>書籍</CBF_MO_Goods_Books.label>
+  <!-- EN: bows -->
+  <CBF_MO_Goods_Bows.label>弓弩</CBF_MO_Goods_Bows.label>
+  <!-- EN: bread goods -->
+  <CBF_MO_Goods_Bread.label>麵包</CBF_MO_Goods_Bread.label>
+  <!-- EN: cheese goods -->
+  <CBF_MO_Goods_Cheese.label>乳酪與牛奶</CBF_MO_Goods_Cheese.label>
+  <!-- EN: components -->
+  <CBF_MO_Goods_Components.label>零件</CBF_MO_Goods_Components.label>
+  <!-- EN: fine tableware -->
+  <CBF_MO_Goods_Dishes.label>精美餐具</CBF_MO_Goods_Dishes.label>
+  <!-- EN: elixirs goods -->
+  <CBF_MO_Goods_Elixirs.label>藥劑與粉末</CBF_MO_Goods_Elixirs.label>
+  <!-- EN: fruit goods -->
+  <CBF_MO_Goods_Fruit.label>水果與塊莖</CBF_MO_Goods_Fruit.label>
+  <!-- EN: gems goods -->
+  <CBF_MO_Goods_Gems.label>寶石</CBF_MO_Goods_Gems.label>
+  <!-- EN: grain goods -->
+  <CBF_MO_Goods_Grain.label>穀物與麵粉</CBF_MO_Goods_Grain.label>
+  <!-- EN: grapes goods -->
+  <CBF_MO_Goods_Grapes.label>葡萄與漿果</CBF_MO_Goods_Grapes.label>
+  <!-- EN: herbs goods -->
+  <CBF_MO_Goods_Herbs.label>草藥</CBF_MO_Goods_Herbs.label>
+  <!-- EN: ingots goods -->
+  <CBF_MO_Goods_Ingots.label>金屬錠</CBF_MO_Goods_Ingots.label>
+  <!-- EN: meat goods -->
+  <CBF_MO_Goods_Meat.label>肉食</CBF_MO_Goods_Meat.label>
+  <!-- EN: melee weapons -->
+  <CBF_MO_Goods_Melee.label>近戰武器</CBF_MO_Goods_Melee.label>
+  <!-- EN: monster parts -->
+  <CBF_MO_Goods_Monster.label>怪物部件</CBF_MO_Goods_Monster.label>
+  <!-- EN: ore goods -->
+  <CBF_MO_Goods_Ore.label>礦石與煤炭</CBF_MO_Goods_Ore.label>
+  <!-- EN: rations goods -->
+  <CBF_MO_Goods_Rations.label>乾糧</CBF_MO_Goods_Rations.label>
+  <!-- EN: schematics -->
+  <CBF_MO_Goods_Schema.label>圖紙</CBF_MO_Goods_Schema.label>
+  <!-- EN: stone blocks -->
+  <CBF_MO_Goods_Stone.label>石料</CBF_MO_Goods_Stone.label>
+  <!-- EN: straw goods -->
+  <CBF_MO_Goods_Straw.label>乾草</CBF_MO_Goods_Straw.label>
+  <!-- EN: textiles and leather -->
+  <CBF_MO_Goods_Textiles.label>織物與皮革</CBF_MO_Goods_Textiles.label>
+  <!-- EN: tools goods -->
+  <CBF_MO_Goods_Tools.label>工具</CBF_MO_Goods_Tools.label>
+  <!-- EN: treasure chest -->
+  <CBF_MO_Goods_Treasure.label>寶箱</CBF_MO_Goods_Treasure.label>
+  <!-- EN: vegetables goods -->
+  <CBF_MO_Goods_Vegetables.label>蔬菜</CBF_MO_Goods_Vegetables.label>
+  <!-- EN: wine goods -->
+  <CBF_MO_Goods_Wine.label>葡萄酒、麥酒與蘋果酒</CBF_MO_Goods_Wine.label>
+  <!-- EN: wood goods -->
+  <CBF_MO_Goods_Wood.label>木材</CBF_MO_Goods_Wood.label>
+  <!-- EN: apothecary loot -->
+  <CBF_MO_Loot_Apothecary.label>藥劑鋪</CBF_MO_Loot_Apothecary.label>
+  <!-- EN: armory loot -->
+  <CBF_MO_Loot_Armory.label>武器庫</CBF_MO_Loot_Armory.label>
+  <!-- EN: bakery loot -->
+  <CBF_MO_Loot_Bakery.label>麵包房</CBF_MO_Loot_Bakery.label>
+  <!-- EN: butchery loot -->
+  <CBF_MO_Loot_Butchery.label>屠宰場</CBF_MO_Loot_Butchery.label>
+  <!-- EN: crypt loot -->
+  <CBF_MO_Loot_Crypt.label>墓穴</CBF_MO_Loot_Crypt.label>
+  <!-- EN: dwelling loot -->
+  <CBF_MO_Loot_Dwelling.label>民居</CBF_MO_Loot_Dwelling.label>
+  <!-- EN: farmstead loot -->
+  <CBF_MO_Loot_Farmstead.label>農莊</CBF_MO_Loot_Farmstead.label>
+  <!-- EN: keep loot -->
+  <CBF_MO_Loot_Keep.label>主樓</CBF_MO_Loot_Keep.label>
+  <!-- EN: manor loot -->
+  <CBF_MO_Loot_Manor.label>莊園</CBF_MO_Loot_Manor.label>
+  <!-- EN: emergency loot -->
+  <CBF_MO_Loot_Minimal.label>應急戰利品</CBF_MO_Loot_Minimal.label>
+  <!-- EN: scriptorium loot -->
+  <CBF_MO_Loot_Scriptorium.label>繕寫室</CBF_MO_Loot_Scriptorium.label>
+  <!-- EN: smithy loot -->
+  <CBF_MO_Loot_Smithy.label>鐵匠鋪</CBF_MO_Loot_Smithy.label>
+  <!-- EN: stable -->
+  <CBF_MO_Loot_Stable.label>馬廄</CBF_MO_Loot_Stable.label>
+  <!-- EN: storage loot -->
+  <CBF_MO_Loot_Storage.label>倉庫</CBF_MO_Loot_Storage.label>
+  <!-- EN: tailor shop loot -->
+  <CBF_MO_Loot_TailorShop.label>裁縫鋪</CBF_MO_Loot_TailorShop.label>
+  <!-- EN: tavern loot -->
+  <CBF_MO_Loot_Tavern.label>酒館</CBF_MO_Loot_Tavern.label>
+  <!-- EN: workshop loot -->
+  <CBF_MO_Loot_Workshop.label>工坊</CBF_MO_Loot_Workshop.label>
+</LanguageData>

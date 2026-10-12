@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: tribal chief -->
+  <CBF_MO_Tribe_Chief.label>部落酋長</CBF_MO_Tribe_Chief.label>
+  <!-- EN: tribal guard -->
+  <CBF_MO_Tribe_Guard.label>部落衛兵</CBF_MO_Tribe_Guard.label>
+  <!-- EN: tribal lookout -->
+  <CBF_MO_Tribe_Outpost.label>部落前哨</CBF_MO_Tribe_Outpost.label>
+  <!-- EN: tribespeople -->
+  <CBF_MO_Tribe_Residents.label>部落居民</CBF_MO_Tribe_Residents.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: fancy -->
+  <Fancy.label>華麗</Fancy.label>
+  <!-- EN: rustic -->
+  <Rustical.label>鄉村</Rustical.label>
+  <!-- EN: standard -->
+  <Standard.label>標準</Standard.label>
+</LanguageData>

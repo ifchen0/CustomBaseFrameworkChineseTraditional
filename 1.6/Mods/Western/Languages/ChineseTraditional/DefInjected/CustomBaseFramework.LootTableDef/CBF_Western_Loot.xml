@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: arms -->
+  <CBF_Western_Goods_Arms.label>軍火</CBF_Western_Goods_Arms.label>
+  <!-- EN: bank goods -->
+  <CBF_Western_Goods_Bank.label>銀行物資</CBF_Western_Goods_Bank.label>
+  <!-- EN: brewery goods -->
+  <CBF_Western_Goods_Brewery.label>釀酒廠物資</CBF_Western_Goods_Brewery.label>
+  <!-- EN: household goods -->
+  <CBF_Western_Goods_Home.label>家用物品</CBF_Western_Goods_Home.label>
+  <!-- EN: medical supplies -->
+  <CBF_Western_Goods_Medicine.label>醫療用品</CBF_Western_Goods_Medicine.label>
+  <!-- EN: moonshine -->
+  <CBF_Western_Goods_Moonshine.label>私釀酒</CBF_Western_Goods_Moonshine.label>
+  <!-- EN: saloon goods -->
+  <CBF_Western_Goods_Saloon.label>酒館物資</CBF_Western_Goods_Saloon.label>
+  <!-- EN: smithy goods -->
+  <CBF_Western_Goods_Smithy.label>鐵匠鋪物資</CBF_Western_Goods_Smithy.label>
+  <!-- EN: stable goods -->
+  <CBF_Western_Goods_Stable.label>馬廄物資</CBF_Western_Goods_Stable.label>
+  <!-- EN: store goods -->
+  <CBF_Western_Goods_Store.label>商店物資</CBF_Western_Goods_Store.label>
+  <!-- EN: workshop goods -->
+  <CBF_Western_Goods_Workshop.label>工坊物資</CBF_Western_Goods_Workshop.label>
+  <!-- EN: Arms -->
+  <CBF_Western_Loot_Arms.label>軍火</CBF_Western_Loot_Arms.label>
+  <!-- EN: Bank -->
+  <CBF_Western_Loot_Bank.label>銀行</CBF_Western_Loot_Bank.label>
+  <!-- EN: Brewery -->
+  <CBF_Western_Loot_Brewery.label>釀酒廠</CBF_Western_Loot_Brewery.label>
+  <!-- EN: Home -->
+  <CBF_Western_Loot_Home.label>住家</CBF_Western_Loot_Home.label>
+  <!-- EN: Medicine -->
+  <CBF_Western_Loot_Medicine.label>醫療</CBF_Western_Loot_Medicine.label>
+  <!-- EN: small goods -->
+  <CBF_Western_Loot_Minimal.label>零星物資</CBF_Western_Loot_Minimal.label>
+  <!-- EN: Moonshine -->
+  <CBF_Western_Loot_Moonshine.label>私釀酒</CBF_Western_Loot_Moonshine.label>
+  <!-- EN: Saloon -->
+  <CBF_Western_Loot_Saloon.label>酒館</CBF_Western_Loot_Saloon.label>
+  <!-- EN: Smithy -->
+  <CBF_Western_Loot_Smithy.label>鐵匠鋪</CBF_Western_Loot_Smithy.label>
+  <!-- EN: Stable -->
+  <CBF_Western_Loot_Stable.label>馬廄</CBF_Western_Loot_Stable.label>
+  <!-- EN: Store -->
+  <CBF_Western_Loot_Store.label>商店</CBF_Western_Loot_Store.label>
+  <!-- EN: Workshop -->
+  <CBF_Western_Loot_Workshop.label>工坊</CBF_Western_Loot_Workshop.label>
+</LanguageData>

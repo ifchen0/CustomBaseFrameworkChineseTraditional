@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: gate garrison -->
+  <CBF_Western_Garrison_Gate.label>城門駐軍</CBF_Western_Garrison_Gate.label>
+  <!-- EN: town garrison -->
+  <CBF_Western_Garrison_Inside.label>城鎮駐軍</CBF_Western_Garrison_Inside.label>
+  <!-- EN: palisade garrison -->
+  <CBF_Western_Garrison_Walkway.label>柵欄駐軍</CBF_Western_Garrison_Walkway.label>
+  <!-- EN: residents -->
+  <CBF_Western_Residents.label>居民</CBF_Western_Residents.label>
+</LanguageData>

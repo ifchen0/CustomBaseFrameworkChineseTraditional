@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: modern village (industrial) -->
+  <CBF_Plan_ModernVillage.label>現代村莊（工業）</CBF_Plan_ModernVillage.label>
+  <!-- EN: Village center -->
+  <CBF_Plan_ModernVillage.wards.0.label>村中心</CBF_Plan_ModernVillage.wards.0.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: large town (industrial) -->
+  <CBF_Plan_City.label>大型城鎮（工業）</CBF_Plan_City.label>
+  <!-- EN: Center -->
+  <CBF_Plan_City.wards.0.label>市中心</CBF_Plan_City.wards.0.label>
+  <!-- EN: Residential district -->
+  <CBF_Plan_City.wards.1.label>住宅區</CBF_Plan_City.wards.1.label>
+</LanguageData>

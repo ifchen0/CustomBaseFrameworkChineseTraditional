@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Preparing -->
+  <CBF_Build_Prepare>準備中</CBF_Build_Prepare>
+  <!-- EN: Settlement completed -->
+  <CBF_Build_Done>據點建造完成</CBF_Build_Done>
+  <!-- EN: Settlement construction stopped -->
+  <CBF_Build_Failed>據點建造已停止</CBF_Build_Failed>
+  <!-- EN: Generating settlement -->
+  <CBF_Build_Title>正在生成據點</CBF_Build_Title>
+  <!-- EN: Completed -->
+  <CBF_Build_Finished>已完成</CBF_Build_Finished>
+  <!-- EN: Close -->
+  <CBF_Build_Close>關閉</CBF_Build_Close>
+  <!-- EN: Preparing building ground -->
+  <CBF_Build_Clear>準備建築地基</CBF_Build_Clear>
+  <!-- EN: Laying roads and floors -->
+  <CBF_Build_Roads>鋪設道路與地面</CBF_Build_Roads>
+  <!-- EN: Building walls and fences -->
+  <CBF_Build_Walls>建造牆壁與圍欄</CBF_Build_Walls>
+  <!-- EN: Building wall profiles, towers and gatehouses -->
+  <CBF_Build_Profiles>建造牆型、塔樓與門樓</CBF_Build_Profiles>
+  <!-- EN: Checking settlement and writing report -->
+  <CBF_Build_Report>檢查據點並寫入報告</CBF_Build_Report>
+  <!-- EN: Make everything buildable (building aid) -->
+  <CBF_AllBuildable>讓所有東西都能建造（建造輔助）</CBF_AllBuildable>
+  <!-- EN: Gives every building that has no architect category of its own one, so you can place it from the architect menu instead of crafting and installing it. In Medieval Overhaul that is 258 things: rugs, statues, ruin pieces, hideout furniture. Things without build cost are skipped, they would be free. Takes effect after a restart. Open build orders for these buildings are cancelled when you switch this off or remove CBF, and the materials are returned. -->
+  <CBF_AllBuildableHelp>替每個沒有建築分類的建築物加上分類，讓你能從建築選單直接放置，而不用先製作再安裝。在 Medieval Overhaul 中有 258 件：地毯、雕像、廢墟物件、藏身處家具。沒有建造成本的物件會略過，否則會變成免費。重新啟動後生效。關閉此選項或移除 CBF 時，這些建築尚未完成的建造指令會取消，材料會退回。</CBF_AllBuildableHelp>
+  <!-- EN: Takes effect after restarting RimWorld. The architect menu is built once at startup. -->
+  <CBF_AllBuildableRestart>重新啟動 RimWorld 後生效。建築選單只在啟動時建立一次。</CBF_AllBuildableRestart>
+  <!-- EN: {0} open build orders for added buildings were cancelled. The materials are back. -->
+  <CBF_AllBuildableCancelled>已取消{0}個新增建築的未完成建造指令，材料已退回。</CBF_AllBuildableCancelled>
+  <!-- EN: Roads may be at most {0} cells wide. -->
+  <CBF_Cfg_RoadWidth>道路最寬為 {0} 格。</CBF_Cfg_RoadWidth>
+  <!-- EN: A map size below 150 leaves attackers no edge. -->
+  <CBF_Cfg_MapSize>低於 150 的地圖大小會讓襲擊者沒有邊緣。</CBF_Cfg_MapSize>
+  <!-- EN: The settlement type names no material list. Without one, RimWorld builds an ordinary settlement in its place. -->
+  <CBF_Cfg_NoMaterialList>據點型別未指定材料清單。沒有它，RimWorld 會在其位置建造普通據點。</CBF_Cfg_NoMaterialList>
+  <!-- EN: The settlement type has no building program. -->
+  <CBF_Cfg_NoBudget>據點型別沒有建造計劃。</CBF_Cfg_NoBudget>
+  <!-- EN: riafHolding "{0}" is unknown. Allowed are {1}. The settlement type is never picked for RIAF holdings. -->
+  <CBF_Cfg_RiafHolding>riafHolding "{0}" 未知。允許的值為 {1}。該據點型別絕不用於 RIAF 領地。</CBF_Cfg_RiafHolding>
+  <!-- EN: Mine {0}: {1} must be between {2} and {3}, the planner clamps the value. -->
+  <CBF_Cfg_MineRange>礦井 {0}：{1} 必須在 {2} 與 {3} 之間，規劃器會鉗制該值。</CBF_Cfg_MineRange>
+  <!-- EN: Mine {0}: {1} must be at least {2}, the planner raises the value. -->
+  <CBF_Cfg_MineMin>礦井 {0}：{1} 至少應為 {2}，規劃器會提高該值。</CBF_Cfg_MineMin>
+  <!-- EN: Mine {0}: the support {1} must have size (2,1), 2 cells wide and 1 deep, otherwise none is placed. -->
+  <CBF_Cfg_MineSupportSize>礦井 {0}：支撐 {1} 的大小必須為 (2,1)，即 2 格寬、1 格深，否則不放置任何支撐。</CBF_Cfg_MineSupportSize>
+  <!-- EN: Mine {0}: supports need a tunnel 2 cells wide, but width allows at most 1. No support is placed. -->
+  <CBF_Cfg_MineSupportNarrow>礦井 {0}：支撐需要 2 格寬的隧道，但寬度至多允許 1。不放置支撐。</CBF_Cfg_MineSupportNarrow>
+  <!-- EN: Mine {0}: vein {1} is not mineable rock. Use an ore vein such as MineableSteel. -->
+  <CBF_Cfg_MineVein>礦井 {0}：礦脈 {1} 不是可開採岩石。請使用 MineableSteel 之類的礦脈。</CBF_Cfg_MineVein>
+  <!-- EN: Mine {0}: the minimum of {1} is larger than its maximum. -->
+  <CBF_Cfg_MineRangeOrder>礦井 {0}：{1} 的最小值大於其最大值。</CBF_Cfg_MineRangeOrder>
+  <!-- EN: Mine {0}: chambers is 0, but there are items with location Chamber (also the default when location is missing). They find no place. -->
+  <CBF_Cfg_MineChamberItems>礦井 {0}：洞室數為 0，但有位置為洞室（也是缺失位置時的預設值）的物品。它們無處安放。</CBF_Cfg_MineChamberItems>
+  <!-- EN: Mine {0}: an entry in things names neither thing nor list and is dropped. -->
+  <CBF_Cfg_MineItemEmpty>礦井 {0}：things 中的條目既未指定物品也未指定清單，已被丟棄。</CBF_Cfg_MineItemEmpty>
+  <!-- EN: Mine {0}: unknown location "{1}", allowed are Chamber, Tunnel and Entrance. The entry is dropped. -->
+  <CBF_Cfg_MineItemPlace>礦井 {0}：未知位置 "{1}"，允許的為洞室、隧道與入口。該條目已被丟棄。</CBF_Cfg_MineItemPlace>
+  <!-- EN: Outworks {0}: the piece {1} is not 1x1 and is not placed. -->
+  <CBF_Cfg_OutworkSize>外防工事 {0}：部件 {1} 不是 1x1，不會被放置。</CBF_Cfg_OutworkSize>
+  <!-- EN: Outworks {0}: distance must be at least 1, the planner uses 1. -->
+  <CBF_Cfg_OutworkDistance>外防工事 {0}：距離至少應為 1，規劃器使用 1。</CBF_Cfg_OutworkDistance>
+  <!-- EN: Outworks {0}: {1} needs a minimum of at least 1 that does not exceed the maximum, the planner adjusts the values. -->
+  <CBF_Cfg_OutworkRange>外防工事 {0}：{1} 的最小值至少應為 1 且不超過最大值，規劃器會調整數值。</CBF_Cfg_OutworkRange>
+  <!-- EN: Outworks {0}: gateClearance must not be negative, the planner uses 0. -->
+  <CBF_Cfg_OutworkGate>外防工事 {0}：gateClearance 不得為負，規劃器使用 0。</CBF_Cfg_OutworkGate>
+  <!-- EN: {0} must be between {1} and {2}. -->
+  <CBF_Cfg_Range>{0} 必須在 {1} 與 {2} 之間。</CBF_Cfg_Range>
+  <!-- EN: {0}: the minimum {1} is larger than the maximum {2}. -->
+  <CBF_Cfg_RangeOrder>{0}：最小值 {1} 大於最大值 {2}。</CBF_Cfg_RangeOrder>
+  <!-- EN: The crop list contains no plants. -->
+  <CBF_Cfg_NoPlants>作物清單中沒有作物。</CBF_Cfg_NoPlants>
+  <!-- EN: An entry has no plant. -->
+  <CBF_Cfg_EntryNoPlant>有條目沒有作物。</CBF_Cfg_EntryNoPlant>
+  <!-- EN: {0} has no positive weight. -->
+  <CBF_Cfg_NoWeight>{0} 沒有正權重。</CBF_Cfg_NoWeight>
+  <!-- EN: Reading settlement settings and terrain -->
+  <CBF_Build_Read>讀取據點設定與地形</CBF_Build_Read>
+  <!-- EN: Planning settlement -->
+  <CBF_Build_Plan>規劃據點</CBF_Build_Plan>
+  <!-- EN: Generating inhabitants and defenders -->
+  <CBF_Build_Pawns>生成居民與守衛</CBF_Build_Pawns>
+  <!-- EN: Manning spawn anchors -->
+  <CBF_Build_Posts>填充生成錨點</CBF_Build_Posts>
+  <!-- EN: Placing inhabitants -->
+  <CBF_Build_Place>放置居民</CBF_Build_Place>
+  <!-- EN: Settlement done, RimWorld is finishing the map -->
+  <CBF_Build_Handover>據點完成，RimWorld 正在完成地圖</CBF_Build_Handover>
+  <!-- EN: Settlement type is invalid. See its validation report. -->
+  <CBF_Build_BadPlan>據點型別無效。請檢視其校驗報告。</CBF_Build_BadPlan>
+  <!-- EN: Terrain or building catalogue is missing. -->
+  <CBF_Build_NoInput>地形或建築目錄缺失。</CBF_Build_NoInput>
+  <!-- EN: Checking terrain and building site -->
+  <CBF_Planner_Terrain>檢查地形與建築場地</CBF_Planner_Terrain>
+  <!-- EN: Planning boundaries, mountain connections and gates -->
+  <CBF_Planner_Boundary>規劃邊界、山體連線與城門</CBF_Planner_Boundary>
+  <!-- EN: Connecting towers to their wall anchors -->
+  <CBF_Planner_Towers>把塔樓連線到其城牆錨點</CBF_Planner_Towers>
+  <!-- EN: Site search -->
+  <CBF_Planner_StageSite>場地搜尋</CBF_Planner_StageSite>
+  <!-- EN: Fortifications and gate access -->
+  <CBF_Planner_StageWalls>防禦工事與城門通道</CBF_Planner_StageWalls>
+  <!-- EN: Tower connections -->
+  <CBF_Planner_StageTowers>塔樓連線</CBF_Planner_StageTowers>
+  <!-- EN: Buildings and fields -->
+  <CBF_Planner_StageBuildings>建築與農田</CBF_Planner_StageBuildings>
+  <!-- EN: Program error in this layout -->
+  <CBF_Planner_StageFehler>此佈局中存在程式錯誤</CBF_Planner_StageFehler>
+  <!-- EN: The fortified city requires a wall template. -->
+  <CBF_Planner_NoWall>設防城市需要城牆模板。</CBF_Planner_NoWall>
+  <!-- EN: Invalid spacing, gate or road settings. -->
+  <CBF_Planner_BadSettings>間距、城門或道路設定無效。</CBF_Planner_BadSettings>
+  <!-- EN: Invalid building count or layer. -->
+  <CBF_Planner_BadCount>建築數量或層無效。</CBF_Planner_BadCount>
+  <!-- EN: Invalid building mask. -->
+  <CBF_Planner_BadMask>建築遮罩無效。</CBF_Planner_BadMask>
+  <!-- EN: Invalid terrain data. -->
+  <CBF_Planner_BadTerrain>地形資料無效。</CBF_Planner_BadTerrain>
+  <!-- EN: City size or wall depth is outside the supported range. -->
+  <CBF_Planner_BadSize>城市大小或城牆深度超出支援範圍。</CBF_Planner_BadSize>
+  <!-- EN: No suitable site was found within the terrain constraints. -->
+  <CBF_Planner_NoSite>在所述地形限制內未找到合適場地。</CBF_Planner_NoSite>
+  <!-- EN: Buildings and fields were not started at this site. Gate access or fortifications are invalid; terrain will remain unchanged. -->
+  <CBF_Planner_NoConstruction>建築與農田未在此場地動工。城門通道或防禦工事無效；地形將保持不變。</CBF_Planner_NoConstruction>
+  <!-- EN: This site has little free building ground. Terrain changes are limited to required buildings and the configured budget. -->
+  <CBF_Planner_LittleLand>此場地可自由建造的地面很少。地形改動限於必需建築與所配置預算。</CBF_Planner_LittleLand>
+  <!-- EN: A layer has no walkable hub. -->
+  <CBF_Planner_NoHub>某層沒有可通行的樞紐。</CBF_Planner_NoHub>
+  <!-- EN: The city and suburb are not fully connected. -->
+  <CBF_Planner_Disconnected>城市與近郊未完全連通。</CBF_Planner_Disconnected>
+  <!-- EN: A gate cannot be reached from inside the city. -->
+  <CBF_Planner_GateUnreachable>無法從城市內部到達某座城門。</CBF_Planner_GateUnreachable>
+  <!-- EN: Not all outer gates reach the map edge through the connected road network. -->
+  <CBF_Planner_Exits>並非所有外門都透過相連的道路網路到達地圖邊緣。</CBF_Planner_Exits>
+  <!-- EN: The defensive line has a walkable gap. This plan is not approved. -->
+  <CBF_Planner_OpenWall>防線存在可通行的缺口。此計劃未獲批准。</CBF_Planner_OpenWall>
+  <!-- EN: Some minimum building counts are not met. See the remaining entries in the building list. -->
+  <CBF_Planner_MissingMinimum>部分最低建築數量未滿足。請檢視建築清單中的剩餘條目。</CBF_Planner_MissingMinimum>
+  <!-- EN: The target density does not override building limits or secured access. -->
+  <CBF_Planner_Density>目標密度不覆蓋建築限制或受保護的通道。</CBF_Planner_Density>
+  <!-- EN: Elapsed: {0} seconds  {1} -->
+  <CBF_Build_Elapsed>已用時間：{0} 秒  {1}</CBF_Build_Elapsed>
+  <!-- EN: Placing buildings: {0} of {1} -->
+  <CBF_Build_Piece>放置建築：{1} 中的 {0}</CBF_Build_Piece>
+  <!-- EN: No complete plan was found ({0}). The map was not changed. -->
+  <CBF_Build_NoLayout>未找到完整計劃（{0}）。地圖未更改。</CBF_Build_NoLayout>
+  <!-- EN: Fitting building: {0} ({1} placed) -->
+  <CBF_Planner_Piece>適配建築：{0}（已放置 {1}）</CBF_Planner_Piece>
+  <!-- EN: Ward definition is missing for layer {0}. -->
+  <CBF_Planner_MissingWard>層 {0} 缺少區劃定義。</CBF_Planner_MissingWard>
+  <!-- EN: No wall template is available for layer {0}. -->
+  <CBF_Planner_MissingWall>層 {0} 沒有可用的城牆模板。</CBF_Planner_MissingWall>
+  <!-- EN: Wall template {0} requires a defined outside and cross section. Automatic substitution is not allowed. -->
+  <CBF_Planner_WallShape>城牆模板 {0} 需要已定義的外側與橫截面。不允許自動替換。</CBF_Planner_WallShape>
+  <!-- EN: The city has no wall piece and stays open. -->
+  <CBF_Planner_OffeneStadt>城市沒有城牆部件，保持開放。</CBF_Planner_OffeneStadt>
+  <!-- EN: Layer {0}: the wall piece {1} cannot be used as a wall, the next piece in the list is used. -->
+  <CBF_Planner_WallSkipped>層 {0}：城牆部件 {1} 不能用作城牆，使用清單中的下一個部件。</CBF_Planner_WallSkipped>
+  <!-- EN: Layer {0}: no wall piece can be used as a wall, the ward stays open. -->
+  <CBF_Planner_WardOpen>層 {0}：沒有城牆部件可用作城牆，該區劃保持開放。</CBF_Planner_WardOpen>
+  <!-- EN: Unsupported wall depth in {0}. -->
+  <CBF_Planner_WallDepth>{0} 中不支援的城牆深度。</CBF_Planner_WallDepth>
+  <!-- EN: Wall profile must consist of walls and a parapet walkway: {0}. -->
+  <CBF_Planner_WallProfile>牆型必須由牆與胸牆步道組成：{0}。</CBF_Planner_WallProfile>
+  <!-- EN: Wall profile needs a closed outer edge: {0}. -->
+  <CBF_Planner_WallEdge>牆型需要封閉的外緣：{0}。</CBF_Planner_WallEdge>
+  <!-- EN: No available permitted gatehouse template for layer {0}. -->
+  <CBF_Planner_NoAllowedGate>層 {0} 沒有可用的允許門樓模板。</CBF_Planner_NoAllowedGate>
+  <!-- EN: The order in which wall pieces are built. The strip always shows the same number of cells, whatever the percentages. -->
+  <CBF_WallOrderTip>城牆部件的建造順序。條帶始終顯示相同數量的格，無論百分比如何。</CBF_WallOrderTip>
+  <!-- EN: Layer {0}: mandatory buildings take {1} percent of the buildable area ({2} of {3} cells). -->
+  <CBF_Machbar_DenseOk>層 {0}：必需建築佔可建造面積的 {1}%（{3} 格中的 {2} 格）。</CBF_Machbar_DenseOk>
+  <!-- EN: Layer {0}: mandatory buildings take {1} percent of the buildable area ({2} of {3} cells). That does not work out. -->
+  <CBF_Machbar_Dense>層 {0}：必需建築佔可建造面積的 {1}%（{3} 格中的 {2} 格）。這行不通。</CBF_Machbar_Dense>
+  <!-- EN: Layer {0}: mandatory buildings take {1} percent of the buildable area ({2} of {3} cells). On rough terrain space runs short. -->
+  <CBF_Machbar_DenseTight>層 {0}：必需建築佔可建造面積的 {1}%（{3} 格中的 {2} 格）。在崎嶇地形上空間會不夠。</CBF_Machbar_DenseTight>
+  <!-- EN: Feasibility -->
+  <CBF_Machbar_Head>可行性</CBF_Machbar_Head>
+  <!-- EN: The orders fit on a map of this size. -->
+  <CBF_Machbar_Ok>這些指令適配此大小的地圖。</CBF_Machbar_Ok>
+  <!-- EN: No request can be built from this plan. Missing styles or catalog? -->
+  <CBF_Machbar_NoRequest>無法從該計劃建造任何請求。缺少風格或目錄？</CBF_Machbar_NoRequest>
+  <!-- EN: The check failed: {0} -->
+  <CBF_Machbar_Failed>檢查失敗：{0}</CBF_Machbar_Failed>
+  <!-- EN: Even the minimum counts need {0} cells of edge length, {1} are possible at mapSize {2}. Whatever does not fit will not be built. -->
+  <CBF_Machbar_TooBig>這些指令需要 {0} 格邊長，而 mapSize {2} 下只能有 {1} 格。放不下的將不會被建造。</CBF_Machbar_TooBig>
+  <!-- EN: The minimum counts need {0} of {1} possible cells of edge length. On rivers, mountains or coasts some attempts may fail; use the plan check to see how often. -->
+  <CBF_Machbar_Tight>這些指令需要 {1} 個可能邊長格中的 {0} 格。在崎嶇地形上會緊張。</CBF_Machbar_Tight>
+  <!-- EN: The minimum counts fit. Up to the maximum counts the orders would need {0} cells of edge length, {1} are possible, so some optional buildings will be left out. -->
+  <CBF_Machbar_WishTooBig>最小數量可容納。達到最大數量時，訂單需要 {0} 格邊長，{1} 可行，因此部分可選建築將被遺漏。</CBF_Machbar_WishTooBig>
+  <!-- EN: The wall piece {0} in layer {1} cannot be used as a wall: {2} The planner takes the next piece in the list. -->
+  <CBF_Machbar_WallUnusable>層 {1} 中的城牆部件 {0} 不能用作城牆：{2} 規劃器採用清單中的下一個部件。</CBF_Machbar_WallUnusable>
+  <!-- EN: The wall piece {0} in layer {1} is not available because its mod is missing or the piece is disabled. The planner takes the next piece in the list. -->
+  <CBF_Machbar_WallMissing>層 {1} 中的城牆部件 {0} 不可用，因為其模組缺失或部件被禁用。規劃器採用清單中的下一個部件。</CBF_Machbar_WallMissing>
+  <!-- EN: No wall piece in layer {0} can be used as a wall. The ward stays without a wall. A wall piece must be 1 cell wide and at most 5 cells deep, consist only of wall and walkway, and end with wall on the outside and inside. -->
+  <CBF_Machbar_WallNone>層 {0} 中沒有城牆部件可用作城牆。該區劃保持無牆。城牆部件必須為 1 格寬、至多 5 格深，僅由牆與步道組成，且內外兩側以牆收尾。</CBF_Machbar_WallNone>
+  <!-- EN: {0} in layer {1}: there is no piece for it with this plan's styles. -->
+  <CBF_Machbar_NoPiece>層 {1} 中的 {0}：按此計劃的風格沒有適配的部件。</CBF_Machbar_NoPiece>
+  <!-- EN: {0} in layer {1}: the smallest matching piece is {2} cells wide, the ward offers {3}. -->
+  <CBF_Machbar_PieceTooBig>層 {1} 中的 {0}：最小的適配部件寬 {2} 格，而該區劃提供 {3} 格。</CBF_Machbar_PieceTooBig>
+  <!-- EN: {0} in layer {1}: the smallest matching piece is {2} cells wide with {3} available. On rough terrain it often finds no spot. -->
+  <CBF_Machbar_PieceTight>層 {1} 中的 {0}：最小的適配部件寬 {2} 格，可用 {3} 格。在崎嶇地形上它常找不到位置。</CBF_Machbar_PieceTight>
+  <!-- EN: No stress test is running. -->
+  <CBF_StressIdle>沒有正在執行的壓力測試。</CBF_StressIdle>
+  <!-- EN: Stress test -->
+  <CBF_StressHead>壓力測試</CBF_StressHead>
+  <!-- EN: Generates several settlements in a row with exactly these settings. Each one is captured as an image; terrain file and image land together in one folder under CBF-Stresstest. -->
+  <CBF_StressHelp>用完全相同的設定連續生成多個據點。每個都擷取為影像；地形檔案與影像一同放在 CBF-Stresstest 下的一個資料夾中。</CBF_StressHelp>
+  <!-- EN: How many settlements (at most {0}) -->
+  <CBF_StressCount>生成多少個據點（至多 {0}）</CBF_StressCount>
+  <!-- EN: Start stress test -->
+  <CBF_StressStart>開始壓力測試</CBF_StressStart>
+  <!-- EN: Stress test running -->
+  <CBF_StressRunning>壓力測試執行中</CBF_StressRunning>
+  <!-- EN: Stress test: building settlement -->
+  <CBF_StressBuilding>壓力測試：正在建造據點</CBF_StressBuilding>
+  <!-- EN: Stress test done: {0} built, {1} failed. Folder: {2} -->
+  <CBF_StressDone>壓力測試完成：{0} 個成功，{1} 個失敗。資料夾：{2}</CBF_StressDone>
+  <!-- EN: Gatehouse {0} has no passage: no door with a clear run out of the piece in both opposite directions. It can never be placed as a gate. -->
+  <CBF_Planner_GateNoPassage>門樓 {0} 沒有通道：沒有一扇門能在兩個相反方向都順暢離開該部件。它永遠不能被用作城門。</CBF_Planner_GateNoPassage>
+  <!-- EN: No permitted gatehouse template fits layer {0} at this site. -->
+  <CBF_Planner_NoGateSite>沒有允許的門樓模板適配此場地上的層 {0}。</CBF_Planner_NoGateSite>
+  <!-- EN: No gatehouse fitted layer {0}. The wall gets an open passage there instead. -->
+  <CBF_Planner_GateHole>沒有門樓適配層 {0}。城牆在此改為開放通道。</CBF_Planner_GateHole>
+  <!-- EN: No farm plot with at least 100 growing cells fits rural house {0} at this site. -->
+  <CBF_Planner_NoFarmPlot>沒有至少 100 個生長格的農田地塊適配此場地上的鄉間房屋 {0}。</CBF_Planner_NoFarmPlot>
+  <!-- EN: No field with 100 cells fit farm {0}, it gets a smaller one with {1} cells. -->
+  <CBF_Planner_KleinerAcker>沒有 100 格的農田適配農莊 {0}，它得到一塊更小的 {1} 格農田。</CBF_Planner_KleinerAcker>
+  <!-- EN: No room for a field right next to farm {0}, its field lies {1} cells away. -->
+  <CBF_Planner_FernerAcker>農莊 {0} 旁邊沒有空間放農田，其農田位於 {1} 格之外。</CBF_Planner_FernerAcker>
+  <!-- EN: Hard upper limit exceeded: {0}. -->
+  <CBF_Planner_Maximum>超出硬性上限：{0}。</CBF_Planner_Maximum>
+  <!-- EN: A major wall corner has no suitable tower with complete anchor connections. Another site will be tried. -->
+  <CBF_Planner_UnservedCorner>某個主要城牆轉角沒有帶完整錨點連線的合適塔樓。將嘗試另一個場地。</CBF_Planner_UnservedCorner>
+  <!-- EN: {0}: {1} structures, {2} percent built, {3} percent terrain blocked. -->
+  <CBF_Build_Summary>{0}：{1} 棟建築，已建造 {2}%，{3}% 地形受阻。</CBF_Build_Summary>
+  <!-- EN: Planning additional building space in the mountain -->
+  <CBF_Planner_RescueTerrain>在山中規劃額外建築空間</CBF_Planner_RescueTerrain>
+  <!-- EN: Building clearance with a natural rock edge -->
+  <CBF_Planner_TerrainClearance>帶天然巖緣的建築淨空</CBF_Planner_TerrainClearance>
+  <!-- EN: The outer and inner gates need a continuous main road through the suburb. -->
+  <CBF_Planner_SuburbGateLink>外門與內門需要透過近郊的連續主幹道相連。</CBF_Planner_SuburbGateLink>
+  <!-- EN: A cut-off part of the suburb with {0} cells got its own gate. -->
+  <CBF_Planner_Vorstadtteiltor>近郊一塊被切斷的部分（{0} 格）獲得了自己的城門。</CBF_Planner_Vorstadtteiltor>
+  <!-- EN: A cut-off part of the suburb with {0} cells found no place for a gate. -->
+  <CBF_Planner_VorstadtteilOhneTor>近郊一塊被切斷的部分（{0} 格）找不到放置城門的位置。</CBF_Planner_VorstadtteilOhneTor>
+  <!-- EN: {0} suburb cells cannot be reached on foot from the city. -->
+  <CBF_Planner_VorstadtAbgehaengt>{0} 格近郊無法從城市步行到達。</CBF_Planner_VorstadtAbgehaengt>
+  <!-- EN: Parallel inner and outer walls leave too little usable space for the suburb. -->
+  <CBF_Planner_SuburbWidth>平行的內外城牆給近郊留下的可用空間太少。</CBF_Planner_SuburbWidth>
+  <!-- EN: Choose crop -->
+  <CBF_RuralChoosePlant>選擇作物</CBF_RuralChoosePlant>
+  <!-- EN: Choose animal list -->
+  <CBF_RuralChooseAnimals>選擇動物清單</CBF_RuralChooseAnimals>
+  <!-- EN: No enclosed space with road access was found for pen {0}. -->
+  <CBF_Pen_NoSpace>畜欄 {0} 找不到帶道路入口的封閉空間。</CBF_Pen_NoSpace>
+  <!-- EN: No miner's hut was placed for mine {0}. The mine is left out. -->
+  <CBF_Mine_NoHut>礦井 {0} 未放置礦屋。該礦井被省略。</CBF_Mine_NoHut>
+  <!-- EN: No mountain with enough rock was found near a hut for mine {0}. The mine is left out. -->
+  <CBF_Mine_NoRock>礦井 {0} 在礦屋附近找不到岩石充足的礦山。該礦井被省略。</CBF_Mine_NoRock>
+  <!-- EN: No chamber fit into the rock for mine {0}. The tunnel stays without a chamber, chamber items are missing. -->
+  <CBF_Mine_NoChamber>礦井 {0} 沒有洞室能嵌入岩石。隧道保持無洞室，洞室物品缺失。</CBF_Mine_NoChamber>
+  <!-- EN: Choose crops -->
+  <CBF_ChoosePlants>選擇作物</CBF_ChoosePlants>
+  <!-- EN: {0} selected. Click a tile to add or remove it. -->
+  <CBF_ChoosePlantsHint>已選擇 {0}。點選一個格子以新增或移除。</CBF_ChoosePlantsHint>
+  <!-- EN: Apply -->
+  <CBF_Apply>應用</CBF_Apply>
+  <!-- EN: Any small house or farmstead -->
+  <CBF_RuralAnyHouse>任意小屋或農莊</CBF_RuralAnyHouse>
+  <!-- EN: Generation failed. A report with terrain and log is in {0} -->
+  <CBF_Build_ReportWritten>生成失敗。帶地形與日誌的報告位於 {0}</CBF_Build_ReportWritten>
+  <!-- EN: No error report found yet. -->
+  <CBF_UploadNoReport>尚未找到錯誤報告。</CBF_UploadNoReport>
+  <!-- EN: Medieval town -->
+  <CBF_Kind_MedievalTown>中世紀城鎮</CBF_Kind_MedievalTown>
+  <!-- EN: Modern town -->
+  <CBF_Kind_ModernTown>現代城鎮</CBF_Kind_ModernTown>
+  <!-- EN: Camp -->
+  <CBF_Kind_Camp>營地</CBF_Kind_Camp>
+  <!-- EN: Dungeon -->
+  <CBF_Kind_Dungeon>地下城</CBF_Kind_Dungeon>
+  <!-- EN: No description has been written for this section yet. -->
+  <CBF_HelpEmpty>尚未為此部分撰寫說明。</CBF_HelpEmpty>
+  <!-- EN: Close the editor. -->
+  <CBF_NavClose>關閉編輯器。</CBF_NavClose>
+  <!-- EN: From {0} -->
+  <CBF_FactionFrom>來自 {0}</CBF_FactionFrom>
+  <!-- EN: Settlement plans -->
+  <CBF_FactionPlans>據點計劃</CBF_FactionPlans>
+  <!-- EN: No plan is assigned to this faction. -->
+  <CBF_FactionNoPlan>未給該派系分配計劃。</CBF_FactionNoPlan>
+  <!-- EN: Assign a plan -->
+  <CBF_FactionAssign>分配計劃</CBF_FactionAssign>
+  <!-- EN: Every plan is already assigned to this faction. -->
+  <CBF_FactionAllAssigned>每個計劃都已分配給該派系。</CBF_FactionAllAssigned>
+  <!-- EN: {0} is attached through the faction category {1}, not by name. Remove the category tag in the plan itself. -->
+  <CBF_FactionByCategory>{0} 透過派系類別 {1} 附加，而非按名稱。請在計劃本身移除類別標籤。</CBF_FactionByCategory>
+  <!-- EN: Takeover -->
+  <CBF_FactionTakeover>接管</CBF_FactionTakeover>
+  <!-- EN: RimWorld hands faction bases to the CBF generator. -->
+  <CBF_TakeoverOn>RimWorld 把派系基地交給 CBF 生成器。</CBF_TakeoverOn>
+  <!-- EN: Faction bases are still built by RimWorld. Nothing you assign here will show up. -->
+  <CBF_TakeoverOff>派系基地仍由 RimWorld 建造。你在此分配的內容不會顯示。</CBF_TakeoverOff>
+  <!-- EN: Take over faction bases -->
+  <CBF_TakeoverEnable>接管派系基地</CBF_TakeoverEnable>
+  <!-- EN: Hand faction bases back -->
+  <CBF_TakeoverDisable>交還派系基地</CBF_TakeoverDisable>
+  <!-- EN: Written to {0} in the selected mod. -->
+  <CBF_TakeoverPath>寫入所選模組中的 {0}。</CBF_TakeoverPath>
+  <!-- EN: Needs these mods -->
+  <CBF_Field_requiredMods>需要這些模組</CBF_Field_requiredMods>
+  <!-- EN: Runs without any other mod. -->
+  <CBF_ModsNone>無需任何其他模組即可執行。</CBF_ModsNone>
+  <!-- EN: added by hand -->
+  <CBF_ModByHand>手動新增</CBF_ModByHand>
+  <!-- EN: Added by hand. Click the cross to take it out again. -->
+  <CBF_ModByHandTip>手動新增。點選叉號可移除。</CBF_ModByHandTip>
+  <!-- EN: has {0} legend line(s) that need {1}. That mod is off, so the lines are not loaded, and exporting now would delete them. Switch the mod on and export again. -->
+  <CBF_ExportWouldDrop>有 {0} 條圖例行需要 {1}。該模組未啟用，因此這些行未載入，此時匯出會刪除它們。請啟用該模組並重新匯出。</CBF_ExportWouldDrop>
+  <!-- EN: About.xml updated. loadAfter now lists {0}. -->
+  <CBF_AboutAdded>About.xml 已更新。loadAfter 現在列出 {0}。</CBF_AboutAdded>
+  <!-- EN: Left out, because these already sit under loadBefore: {0} -->
+  <CBF_AboutConflict>已省略，因為它們已在 loadBefore 下：{0}</CBF_AboutConflict>
+  <!-- EN: There is no About.xml in {0}, so no load order was written. -->
+  <CBF_AboutMissing>{0} 中沒有 About.xml，因此未寫入載入順序。</CBF_AboutMissing>
+  <!-- EN: {0} is not a ModMetaData file and was left untouched. -->
+  <CBF_AboutNotMeta>{0} 不是 ModMetaData 檔案，保持原樣。</CBF_AboutNotMeta>
+  <!-- EN: {0} could not be read and was left untouched: {1} -->
+  <CBF_PatchUnreadable>{0} 無法讀取，保持原樣：{1}</CBF_PatchUnreadable>
+  <!-- EN: {0} is not a Patch file and was left untouched. -->
+  <CBF_PatchNotAPatch>{0} 不是補丁檔案，保持原樣。</CBF_PatchNotAPatch>
+  <!-- EN: Name the settlement -->
+  <CBF_NewPlan>為據點命名</CBF_NewPlan>
+  <!-- EN: A def name, letters and digits only. It starts with one ward and one district; walls and pieces are up to you. -->
+  <CBF_NewPlanHint>一個 def 名稱，僅限字母與數字。它以 1 個區劃和 1 個區開始；牆與部件由你決定。</CBF_NewPlanHint>
+  <!-- EN: A settlement named {0} already exists. -->
+  <CBF_PlanExists>名為 {0} 的據點已存在。</CBF_PlanExists>
+  <!-- EN: Settlement {0} created. -->
+  <CBF_PlanCreated>據點 {0} 已建立。</CBF_PlanCreated>
+  <!-- EN: Empty, so the whole road uses the surface above. -->
+  <CBF_RoadEdgesDefault>留空，因此整條道路使用上方的地面。</CBF_RoadEdgesDefault>
+  <!-- EN: Add kerb surface -->
+  <CBF_AddRoadEdge>新增路緣地面</CBF_AddRoadEdge>
+  <!-- EN: Kerb -->
+  <CBF_Field_roadEdges>路緣</CBF_Field_roadEdges>
+  <!-- EN: CBF builds the bases of this faction, from {0} plan(s). RimWorld's own settlement generator is not used here. -->
+  <CBF_FactionOwn>CBF 根據 {0} 個計劃建造該派系的基地。此處不使用 RimWorld 自己的據點生成器。</CBF_FactionOwn>
+  <!-- EN: RimWorld builds the bases of this faction. Assign a plan above and CBF takes over, for this faction only. -->
+  <CBF_FactionVanilla>RimWorld 建造該派系的基地。在上方分配一個計劃，CBF 便會接管，僅限該派系。</CBF_FactionVanilla>
+  <!-- EN: Reserve building ground before the rock -->
+  <CBF_ReserveGround>在岩石前預留建築用地</CBF_ReserveGround>
+  <!-- EN: Before RimWorld places the rock, the edge of the mountain recedes where the settlement will stand, and only far enough for it to fit. The shape of the mountain is kept, the rest of the map is untouched. Off means the settlement has to make do with the terrain as grown and can fail on rocky tiles. -->
+  <CBF_ReserveGroundHelp>在 RimWorld 放置岩石前，山脈邊緣在據點將矗立之處後退，且只後退到足以容納它。山體形狀保留，地圖其餘部分不受影響。關閉意味著據點只能將就既有地形，可能在岩石地塊上失敗。</CBF_ReserveGroundHelp>
+  <!-- EN: No settlement on that tile. -->
+  <CBF_WorldNoObject>該地塊上沒有據點。</CBF_WorldNoObject>
+  <!-- EN: Forget, roll again on next look -->
+  <CBF_WorldPlanClear>遺忘，下次檢視時重擲</CBF_WorldPlanClear>
+  <!-- EN: {0} has no settlement type any more. -->
+  <CBF_WorldPlanCleared>{0} 不再有據點型別。</CBF_WorldPlanCleared>
+  <!-- EN: {0} is now {1}, stored in the save. -->
+  <CBF_WorldPlanFixed>{0} 現在為 {1}，已存入存檔。</CBF_WorldPlanFixed>
+  <!-- EN: Runs the full export check on this area without writing anything. Export refuses while errors remain. -->
+  <CBF_TDesc_check>對該區域執行完整匯出檢查而不寫入任何內容。仍有錯誤時匯出會被拒絕。</CBF_TDesc_check>
+  <!-- EN: {0} has {1} error(s) and was not exported. Fix them and check again. -->
+  <CBF_ExportBlocked>{0} 有 {1} 個錯誤，未匯出。修復它們並重新檢查。</CBF_ExportBlocked>
+  <!-- EN: The last check found {0} error(s). Fix them and press Check again. -->
+  <CBF_ExportNeedsCheck>上次檢查發現 {0} 個錯誤。修復它們並再次點選檢查。</CBF_ExportNeedsCheck>
+  <!-- EN: {0}: check passed. -->
+  <CBF_CheckOk>{0}：檢查透過。</CBF_CheckOk>
+  <!-- EN: {0} error(s) -->
+  <CBF_NErrors>{0} 個錯誤</CBF_NErrors>
+  <!-- EN: No world loaded. -->
+  <CBF_NeedAWorld>未載入世界。</CBF_NeedAWorld>
+  <!-- EN: Build {0} -->
+  <CBF_BuildTitle>建造 {0}</CBF_BuildTitle>
+  <!-- EN: Biome -->
+  <CBF_Field_biome>生物群系</CBF_Field_biome>
+  <!-- EN: Terrain -->
+  <CBF_Field_hilliness>地形</CBF_Field_hilliness>
+  <!-- EN: River -->
+  <CBF_Field_river>河流</CBF_Field_river>
+  <!-- EN: Coast -->
+  <CBF_Field_coast>海岸</CBF_Field_coast>
+  <!-- EN: Yes -->
+  <CBF_WantYes>是</CBF_WantYes>
+  <!-- EN: No -->
+  <CBF_WantNo>否</CBF_WantNo>
+  <!-- EN: {0} matching tiles found -->
+  <CBF_TilesMatching>找到 {0} 個匹配地塊</CBF_TilesMatching>
+  <!-- EN: No tile on this world meets all of these at once. Loosen one condition. -->
+  <CBF_TilesNoneHelp>此世界上沒有地塊同時滿足所有這些條件。放寬一個條件。</CBF_TilesNoneHelp>
+  <!-- EN: Paint blank cells: the cell belongs to the piece, but nothing is built there. -->
+  <CBF_TDesc_leer>繪製空白格：該格屬於部件，但不在其上建造任何東西。</CBF_TDesc_leer>
+  <!-- EN: Removes blank cells and puts the covered floor back. -->
+  <CBF_TDesc_leerweg>移除空白格並恢復覆蓋的地面。</CBF_TDesc_leerweg>
+  <!-- EN: Open editor -->
+  <CBF_OpenEditorTool>開啟編輯器</CBF_OpenEditorTool>
+  <!-- EN: Opens the Custom Base Framework editor. Press again to close it. The tools for drawing pieces on the map open from the Piece tab. -->
+  <CBF_OpenEditorToolDesc>開啟 Custom Base Framework 編輯器。再次點選關閉。在地圖上繪製部件的工具從部件選項卡開啟。</CBF_OpenEditorToolDesc>
+  <!-- EN: This settlement type cannot work as configured: -->
+  <CBF_PreviewConfig>此據點型別無法按目前配置工作：</CBF_PreviewConfig>
+  <!-- EN: The gates do not reach the map edge. -->
+  <CBF_Planner_ExitsBlocked>城門未到達地圖邊緣。</CBF_Planner_ExitsBlocked>
+  <!-- EN: Shows which pieces {0} covers. Click one to open it. -->
+  <CBF_ShowPiecesTip>顯示 {0} 涵蓋哪些部件。點選一個可開啟它。</CBF_ShowPiecesTip>
+  <!-- EN: No piece belongs to {0}. -->
+  <CBF_NoPiecesInCategory>沒有部件屬於 {0}。</CBF_NoPiecesInCategory>
+  <!-- EN: {0} piece(s) -->
+  <CBF_CategoryPieceCount>{0} 個部件</CBF_CategoryPieceCount>
+  <!-- EN: A connect anchor cannot be copied. A piece has at most one Wall and one Outside; a second one with the same name would do nothing. -->
+  <CBF_AnchorNoCopyConnect>連線錨點不能複製。一個部件至多有一個城牆與一個外側；第二個同名錨點將不起作用。</CBF_AnchorNoCopyConnect>
+  <!-- EN: Cells -->
+  <CBF_Field_cells>格</CBF_Field_cells>
+  <!-- EN: Additional categories -->
+  <CBF_Field_additionalCategories>附加類別</CBF_Field_additionalCategories>
+  <!-- EN: Categories beyond the one set on the area above. The export writes the area's category as the first entry. -->
+  <CBF_FieldDesc_additionalCategories>除上方區域所設類別外的類別。匯出會把區域的類別寫為第一個條目。</CBF_FieldDesc_additionalCategories>
+  <!-- EN: [taken] -->
+  <CBF_AnchorNameTaken>[已佔用]</CBF_AnchorNameTaken>
+  <!-- EN: {0} is {1}, this anchor area is {2}. It will not be placed. -->
+  <CBF_AnchorSizeMismatch>{0} 為 {1}，此錨點區域為 {2}。它不會被放置。</CBF_AnchorSizeMismatch>
+  <!-- EN: The list also contains larger objects, such as {0} ({1}). Only what fits is placed. -->
+  <CBF_AnchorPartlyTooBig>清單中還包含更大的物品，如 {0}（{1}）。僅放置放得下的。</CBF_AnchorPartlyTooBig>
+  <!-- EN: Any -->
+  <CBF_BiomeAny>任意</CBF_BiomeAny>
+  <!-- EN: {0} placed for {1} as {2} in {3}. Generating the map now. -->
+  <CBF_WorldBuilt>{0} 以 {2} 形式為 {1} 放置在 {3}。正在生成地圖。</CBF_WorldBuilt>
+  <!-- EN: No usable tile under the cursor. -->
+  <CBF_WorldTileBad>游標下沒有可用地塊。</CBF_WorldTileBad>
+  <!-- EN: No faction available. -->
+  <CBF_WorldNoFaction>沒有可用派系。</CBF_WorldNoFaction>
+  <!-- EN: [vanilla map] -->
+  <CBF_WorldVanilla>[原版地圖]</CBF_WorldVanilla>
+  <!-- EN: Random, by assignment -->
+  <CBF_WorldPlanRandom>隨機，按分配</CBF_WorldPlanRandom>
+  <!-- EN: [not assigned to this faction] -->
+  <CBF_WorldPlanForeign>[未分配給此派系]</CBF_WorldPlanForeign>
+  <!-- EN: {0} carries no CBF plan component, the type was not stored. -->
+  <CBF_WorldNoComp>{0} 不帶 CBF 計劃元件，型別未被儲存。</CBF_WorldNoComp>
+  <!-- EN: {0} placed for {1}. Type: {2} -->
+  <CBF_WorldPlaced>{0} 為 {1} 放置。型別：{2}</CBF_WorldPlaced>
+  <!-- EN: Settlement type: {0} -->
+  <CBF_WorldPlan>據點類型：{0}</CBF_WorldPlan>
+  <!-- EN: {0} district(s), {1} -->
+  <CBF_WorldParts>{0}個街區，{1}</CBF_WorldParts>
+  <!-- EN: Materials: {0} -->
+  <CBF_WorldMaterialList>材料：{0}</CBF_WorldMaterialList>
+  <!-- EN: walled -->
+  <CBF_WorldWalled>有城牆</CBF_WorldWalled>
+  <!-- EN: open -->
+  <CBF_IsOpen>開放</CBF_IsOpen>
+  <!-- EN: {0} exported, {1} hint(s), full list in the log: -->
+  <CBF_ExportWithHints>{0} 已匯出，{1} 條提示，完整清單見日誌：</CBF_ExportWithHints>
+  <!-- EN: Kind -->
+  <CBF_Field_anchorKind>種類</CBF_Field_anchorKind>
+  <!-- EN: Required -->
+  <CBF_Field_required>必需</CBF_Field_required>
+  <!-- EN: Wall and Outside are both taken already. -->
+  <CBF_ConnectNamesTaken>城牆與外側均已佔用。</CBF_ConnectNamesTaken>
+  <!-- EN: Front -->
+  <CBF_PawnFront>正面</CBF_PawnFront>
+  <!-- EN: Side -->
+  <CBF_PawnSide>側面</CBF_PawnSide>
+  <!-- EN: Back -->
+  <CBF_PawnBack>背面</CBF_PawnBack>
+  <!-- EN: {0} on {1} is still free. -->
+  <CBF_PawnCellFree>{1} 上的 {0} 仍然空閒。</CBF_PawnCellFree>
+  <!-- EN: Nothing fits there that does not clash with what is already worn. -->
+  <CBF_PawnNothingFits>那裡沒有任何不與已穿著衣物衝突的物品可適配。</CBF_PawnNothingFits>
+  <!-- EN: Apparel for this slot -->
+  <CBF_PawnPickApparel>此槽位的服裝</CBF_PawnPickApparel>
+  <!-- EN: Clashes with another piece on the same layer and body part. -->
+  <CBF_PawnGearClash>與同一層位和身體部位的另件物品衝突。</CBF_PawnGearClash>
+  <!-- EN: no material -->
+  <CBF_PawnNoStuff>無材料</CBF_PawnNoStuff>
+  <!-- EN: This apparel is not made from a material. -->
+  <CBF_PawnNoStuffTip>此服裝不由材料製成。</CBF_PawnNoStuffTip>
+  <!-- EN: Material -->
+  <CBF_Material>材料</CBF_Material>
+  <!-- EN: value {0} -->
+  <CBF_PawnStuffValue>價值 {0}</CBF_PawnStuffValue>
+  <!-- EN: All fields -->
+  <CBF_PawnAllFields>所有欄位</CBF_PawnAllFields>
+  <!-- EN: {0} written to {1}. -->
+  <CBF_PawnGearWritten>{0} 已寫入 {1}。</CBF_PawnGearWritten>
+  <!-- EN: worn in this example -->
+  <CBF_PawnWornNow>此示例中穿著</CBF_PawnWornNow>
+  <!-- EN: any -->
+  <CBF_Any>任意</CBF_Any>
+  <!-- EN: New pawn -->
+  <CBF_NewPawnTitle>新建角色</CBF_NewPawnTitle>
+  <!-- EN: Everything needed is there. -->
+  <CBF_NewPawnReady>所需一切就緒。</CBF_NewPawnReady>
+  <!-- EN: The label is missing. It is what the game shows the player. -->
+  <CBF_NewPawnNeedsLabel>缺少名稱。它是遊戲向玩家顯示的內容。</CBF_NewPawnNeedsLabel>
+  <!-- EN: A race is missing. -->
+  <CBF_NewPawnNeedsRace>缺少種族。</CBF_NewPawnNeedsRace>
+  <!-- EN: Combat power must be a number and at least 0. -->
+  <CBF_NewPawnNeedsPower>戰鬥力必須為數字且至少為 0。</CBF_NewPawnNeedsPower>
+  <!-- EN: {0} created. The workshop is open. -->
+  <CBF_NewPawnCreated>{0} 已建立。工坊已開啟。</CBF_NewPawnCreated>
+  <!-- EN: {0} was written but did not load. -->
+  <CBF_NewPawnFailed>{0} 已寫入但未載入。</CBF_NewPawnFailed>
+  <!-- EN: Click picks a colour, right click sets it back to any. -->
+  <CBF_PawnColorTip>點選選擇顏色，右鍵恢復為任意。</CBF_PawnColorTip>
+  <!-- EN: Gear -->
+  <CBF_PawnSecGear>裝備</CBF_PawnSecGear>
+  <!-- EN: Weapon -->
+  <CBF_PawnSecWeapon>武器</CBF_PawnSecWeapon>
+  <!-- EN: Skills -->
+  <CBF_PawnSecSkills>技能</CBF_PawnSecSkills>
+  <!-- EN: Nature -->
+  <CBF_PawnSecNature>性格</CBF_PawnSecNature>
+  <!-- EN: no weapon carries this tag -->
+  <CBF_PawnTagEmpty>沒有武器攜帶此標籤</CBF_PawnTagEmpty>
+  <!-- EN: {0} weapons: {1} -->
+  <CBF_PawnTagCount>{0} 件武器：{1}</CBF_PawnTagCount>
+  <!-- EN: {0} weapons -->
+  <CBF_PawnTagSpan>{0} 件武器</CBF_PawnTagSpan>
+  <!-- EN: Start from a weapon -->
+  <CBF_PawnFromWeapon>從武器開始</CBF_PawnFromWeapon>
+  <!-- EN: Add skill -->
+  <CBF_PawnAddSkill>新增技能</CBF_PawnAddSkill>
+  <!-- EN: Extra levels -->
+  <CBF_Field_extraSkillLevels>額外等級</CBF_Field_extraSkillLevels>
+  <!-- EN: Minimum total -->
+  <CBF_Field_minTotalSkillLevels>最低總值</CBF_Field_minTotalSkillLevels>
+  <!-- EN: Minimum best -->
+  <CBF_Field_minBestSkillLevel>最低最高技能</CBF_Field_minBestSkillLevel>
+  <!-- EN: Exclude trait -->
+  <CBF_PawnAddTrait>排除特質</CBF_PawnAddTrait>
+  <!-- EN: Place {0} -->
+  <CBF_PawnPlace>放置 {0}</CBF_PawnPlace>
+  <!-- EN: Click a cell to put one pawn of this kind there. Click again for another. -->
+  <CBF_PawnPlaceDesc>點選一個格在此放置一個該種類的角色。再次點選再放一個。</CBF_PawnPlaceDesc>
+  <!-- EN: No pawn kind. -->
+  <CBF_PawnPlaceNoKind>沒有角色種類。</CBF_PawnPlaceNoKind>
+  <!-- EN: This cell is not discovered. -->
+  <CBF_PawnPlaceFogged>此格尚未探索。</CBF_PawnPlaceFogged>
+  <!-- EN: Nothing can stand here. -->
+  <CBF_PawnPlaceBlocked>這裡無法站立任何東西。</CBF_PawnPlaceBlocked>
+  <!-- EN: {0} placed for {1}. -->
+  <CBF_PawnPlaced>{0} 為 {1} 放置。</CBF_PawnPlaced>
+  <!-- EN: no faction -->
+  <CBF_PawnNoFaction>無派系</CBF_PawnNoFaction>
+  <!-- EN: Implants -->
+  <CBF_PawnSecImplants>植入物</CBF_PawnSecImplants>
+  <!-- EN: only with {0} -->
+  <CBF_PawnImplantGated>僅隨 {0}</CBF_PawnImplantGated>
+  <!-- EN: Add implant -->
+  <CBF_PawnAddImplant>新增植入物</CBF_PawnAddImplant>
+  <!-- EN: Chance -->
+  <CBF_Field_techHediffsChance>機率</CBF_Field_techHediffsChance>
+  <!-- EN: At most -->
+  <CBF_Field_techHediffsMaxAmount>至多</CBF_Field_techHediffsMaxAmount>
+  <!-- EN: cannot be installed on {0} -->
+  <CBF_PawnImplantNoPath>無法安裝到 {0}</CBF_PawnImplantNoPath>
+  <!-- EN: RimWorld installs an implant through a surgery recipe of the race, or through an install comp on the item. This one has neither, so it is silently skipped at spawn. -->
+  <CBF_PawnImplantNoPathTip>RimWorld 透過種族的手術配方或物品上的安裝元件安裝植入物。此植入物兩者皆無，因此在生成時會被靜默跳過。</CBF_PawnImplantNoPathTip>
+  <!-- EN: Search limit reached after {0} layouts, the best layout so far is used. -->
+  <CBF_Planner_Zeitgrenze>在 {0} 個佈局後達到搜尋上限，採用迄今最好的佈局。</CBF_Planner_Zeitgrenze>
+  <!-- EN: The master builder unrolls his plans. ({1}) -->
+  <CBF_Planner_Laune1_0>總建築師展開他的圖紙。（{1}）</CBF_Planner_Laune1_0>
+  <!-- EN: The surveyors drive in the first stakes. ({1}) -->
+  <CBF_Planner_Laune1_1>勘測員打下第一批界樁。（{1}）</CBF_Planner_Laune1_1>
+  <!-- EN: The town council debates the best building site. ({1}) -->
+  <CBF_Planner_Laune1_2>市議會爭論最佳建築場地。（{1}）</CBF_Planner_Laune1_2>
+  <!-- EN: The master builder discards draft number {0}. ({1}) -->
+  <CBF_Planner_Laune2_0>總建築師丟棄了第 {0} 稿。（{1}）</CBF_Planner_Laune2_0>
+  <!-- EN: The council cannot agree on the market square. ({1}) -->
+  <CBF_Planner_Laune2_1>議會無法就集市廣場達成一致。（{1}）</CBF_Planner_Laune2_1>
+  <!-- EN: A surveyor vanished in the swamp. A replacement is sought. ({1}) -->
+  <CBF_Planner_Laune2_2>一名勘測員消失在沼澤中。正在尋找替代者。（{1}）</CBF_Planner_Laune2_2>
+  <!-- EN: The mountain refuses to make room. ({1}) -->
+  <CBF_Planner_Laune3_0>山脈拒絕讓出空間。（{1}）</CBF_Planner_Laune3_0>
+  <!-- EN: The masons ask whether the wall really has to go around the river. ({1}) -->
+  <CBF_Planner_Laune3_1>泥瓦匠們詢問城牆是否真的必須繞過河流。（{1}）</CBF_Planner_Laune3_1>
+  <!-- EN: Draft {0}. The master builder has switched to strong ale. ({1}) -->
+  <CBF_Planner_Laune3_2>第 {0} 稿。總建築師已換成了烈性麥酒。（{1}）</CBF_Planner_Laune3_2>
+  <!-- EN: The mayor threatens to settle for a tent city. ({1}) -->
+  <CBF_Planner_Laune4_0>市長威脅要將就一個帳篷城。（{1}）</CBF_Planner_Laune4_0>
+  <!-- EN: Draft {0}. The ink is running low. ({1}) -->
+  <CBF_Planner_Laune4_1>第 {0} 稿。墨水快用完了。（{1}）</CBF_Planner_Laune4_1>
+  <!-- EN: Everyone agrees to somehow make it work. ({1}) -->
+  <CBF_Planner_Laune4_2>每個人都同意無論如何要設法完成。（{1}）</CBF_Planner_Laune4_2>
+  <!-- EN: Remove -->
+  <CBF_Remove>移除</CBF_Remove>
+  <!-- EN: Filler -->
+  <CBF_FillerHead>填充物</CBF_FillerHead>
+  <!-- EN: Connect -->
+  <CBF_AnchorKind_Connect>連線</CBF_AnchorKind_Connect>
+  <!-- EN: Loot -->
+  <CBF_AnchorKind_Fill>戰利品</CBF_AnchorKind_Fill>
+  <!-- EN: Object -->
+  <CBF_AnchorKind_Object>物品</CBF_AnchorKind_Object>
+  <!-- EN: Pawn -->
+  <CBF_AnchorKind_Spawn>角色</CBF_AnchorKind_Spawn>
+  <!-- EN: How many pawns stand here, from and to. Works with a single kind, a pawn list and the house inhabitants. -->
+  <CBF_AnchorPawnCountTip>此處站立多少角色，從幾到幾。適用於單一種類、角色清單與房屋居民。</CBF_AnchorPawnCountTip>
+  <!-- EN: Add category -->
+  <CBF_LootAddCategory>新增類別</CBF_LootAddCategory>
+  <!-- EN: Category {0}, {1} items -->
+  <CBF_LootCategoryRow>類別 {0}，{1} 件物品</CBF_LootCategoryRow>
+  <!-- EN: {0} items -->
+  <CBF_LootCategoryCount>{0} 件物品</CBF_LootCategoryCount>
+  <!-- EN: and {0} more -->
+  <CBF_LootAndMore>以及另外 {0} 件</CBF_LootAndMore>
+  <!-- EN: Tech level at most -->
+  <CBF_Field_maxTechLevel>科技等級上限</CBF_Field_maxTechLevel>
+  <!-- EN: Tech levels -->
+  <CBF_Field_techLevels>科技等級</CBF_Field_techLevels>
+  <!-- EN: Which ages this settlement fits. Pawn lists draw at this level first and step down one level at a time if nobody fits. -->
+  <CBF_TechLevelsTip>此據點適配的時代。角色清單先按此等級抽取，若無人適配則逐級下調。</CBF_TechLevelsTip>
+  <!-- EN: Click switches this level. Right click selects this level and all above. -->
+  <CBF_TechLevelButtonTip>點選切換此等級。右鍵選擇此等級及所有更高等級。</CBF_TechLevelButtonTip>
+  <!-- EN: For every faction of these levels -->
+  <CBF_Field_forAllFactions>適用於這些等級的所有派系</CBF_Field_forAllFactions>
+  <!-- EN: This plan applies to every faction whose tech level is ticked, unless that faction has plans of its own through faction tags. Its own plans always win. -->
+  <CBF_ForAllTip>此計劃適用於其科技等級被勾選的每個派系，除非該派系透過派系標籤擁有自己的計劃。其自有計劃始終勝出。</CBF_ForAllTip>
+  <!-- EN: Pick at least one tech level first. -->
+  <CBF_ForAllNeedsLevel>請先至少選擇一個科技等級。</CBF_ForAllNeedsLevel>
+  <!-- EN: Tech level -->
+  <CBF_PawnTechLevel>科技等級</CBF_PawnTechLevel>
+  <!-- EN: any, no gear with a level -->
+  <CBF_PawnTechAny>任意，無帶等級的裝備</CBF_PawnTechAny>
+  <!-- EN: Faction overview -->
+  <CBF_FactionOverview>派系總覽</CBF_FactionOverview>
+  <!-- EN: Every faction in this game and the settlements it really gets. Click a faction to assign its plans, click a plan to open it in the Settlement tab. -->
+  <CBF_FactionOverviewHint>此遊戲中的每個派系及其真正獲得的據點。點選派系分配其計劃，點選計劃在據點選項卡中開啟它。</CBF_FactionOverviewHint>
+  <!-- EN: none, RimWorld builds its own bases -->
+  <CBF_FactionOverviewVanilla>無，RimWorld 建造其自有基地</CBF_FactionOverviewVanilla>
+  <!-- EN: by tech level: -->
+  <CBF_FactionOverviewByLevel>按科技等級：</CBF_FactionOverviewByLevel>
+  <!-- EN: (other mod, saved as patch) -->
+  <CBF_FactionOverviewForeign>（其他模組，儲存為補丁）</CBF_FactionOverviewForeign>
+  <!-- EN: This plan comes from another mod. Saving writes a patch into your mod instead of touching the other one. -->
+  <CBF_PlanForeignTip>此計劃來自其他模組。儲存會向你的模組寫入補丁，而不觸碰另一個模組。</CBF_PlanForeignTip>
+  <!-- EN: This plan belongs to your mod. Saving changes its file directly. -->
+  <CBF_PlanOwnTip>此計劃屬於你的模組。儲存直接更改其檔案。</CBF_PlanOwnTip>
+  <!-- EN: {0} plan(s) from other mods saved as patch in {1}. -->
+  <CBF_PlanPatched>{0} 個來自其他模組的計劃已作為補丁儲存到 {1}。</CBF_PlanPatched>
+  <!-- EN: The file of {0} was not found, so no patch could be written. -->
+  <CBF_PlanPatchNoSource>未找到 {0} 的檔案，因此無法寫入補丁。</CBF_PlanPatchNoSource>
+  <!-- EN: Open the plans of {0} -->
+  <CBF_FactionOverviewOpen>開啟 {0} 的計劃</CBF_FactionOverviewOpen>
+  <!-- EN: CBF builds -->
+  <CBF_FactionOverviewBuilt>CBF 建造</CBF_FactionOverviewBuilt>
+  <!-- EN: RimWorld builds -->
+  <CBF_FactionOverviewVanillaShort>RimWorld 建造</CBF_FactionOverviewVanillaShort>
+  <!-- EN: No faction matches the search. -->
+  <CBF_FactionOverviewNone>沒有派系匹配搜尋。</CBF_FactionOverviewNone>
+  <!-- EN: Weight {0} of {1} across all settlements of this faction. Change it in the faction panel. -->
+  <CBF_FactionOverviewChance>權重 {1} 中的 {0}，跨越該派系的所有據點。可在派系面板中更改。</CBF_FactionOverviewChance>
+  <!-- EN: Weight -->
+  <CBF_Field_share>權重</CBF_Field_share>
+  <!-- EN: How often this settlement is picked among all settlements a faction can get. 0 counts as 1. -->
+  <CBF_WeightTip>一個派系可獲得的據點中，此據點被選中的頻率。0 計為 1。</CBF_WeightTip>
+  <!-- EN: The faction overview shows what this means in percent per faction. -->
+  <CBF_WeightHint>派系總覽按派系顯示其百分比含義。</CBF_WeightHint>
+  <!-- EN: Excluded factions -->
+  <CBF_Field_excludeFactions>排除的派系</CBF_Field_excludeFactions>
+  <!-- EN: These factions never get this settlement, not even through its tech levels. Every other settlement stays allowed for them. -->
+  <CBF_ExcludeTip>這些派系永遠得不到此據點，即使透過其科技等級也不會。其他據點對它們仍然允許。</CBF_ExcludeTip>
+  <!-- EN: No faction gets this settlement right now, so there is nobody to exclude. -->
+  <CBF_ExcludeNobody>目前沒有派系獲得此據點，因此沒有可排除的物件。</CBF_ExcludeNobody>
+  <!-- EN: {0} (not loaded) -->
+  <CBF_ExcludeMissing>{0}（未載入）</CBF_ExcludeMissing>
+  <!-- EN: Take this settlement away from this faction. -->
+  <CBF_FactionUnassignTip>從此派系奪走此據點。</CBF_FactionUnassignTip>
+  <!-- EN: This settlement reaches the faction through its tech level. Remove excludes the faction from this settlement. -->
+  <CBF_FactionExcludeTip>此據點透過科技等級到達該派系。移除可從此據點排除該派系。</CBF_FactionExcludeTip>
+  <!-- EN: no tech level -->
+  <CBF_TechNone>無科技等級</CBF_TechNone>
+  <!-- EN: {0} to {1} -->
+  <CBF_Range>{0} 至 {1}</CBF_Range>
+  <!-- EN: {0} on {1} is blocked by: {2}\nClick to select it. -->
+  <CBF_PawnCellBlocked>{1} 上的 {0} 被阻擋：{2}\n點選選擇它。</CBF_PawnCellBlocked>
+  <!-- EN: Earlier rock removal outside the city undone, {0} cells stay rock. -->
+  <CBF_Planner_Abtragrueckbau>城市外更早的岩石移除已撤銷，{0} 格保持為岩石。</CBF_Planner_Abtragrueckbau>
+  <!-- EN: {0} annexes attached to buildings. -->
+  <CBF_Planner_Anbauten>{0} 個附屬建築附加到建築上。</CBF_Planner_Anbauten>
+  <!-- EN: {0} required annexes attached, {1} placements dropped because a required annex did not fit. -->
+  <CBF_Planner_Pflichtanbauten>已附加 {0} 個必需附屬，{1} 個放置因必需附屬無法容納而被丟棄。</CBF_Planner_Pflichtanbauten>
+  <!-- EN: {0}: a required annex anchor asks for the annex category {1}, but no piece has it. {0} is never placed. -->
+  <CBF_Planner_PflichtOhneStueck>{0}：必需附屬錨點請求附屬類別 {1}，但沒有任何部件具備。{0} 永不放置。</CBF_Planner_PflichtOhneStueck>
+  <!-- EN: {0} (layer {1}): low priority, only {2} of at least {3} placed because space ran out. -->
+  <CBF_Planner_NiedrigWeggelassen>{0}（層 {1}）：低優先順序，空間不足，僅放置 {2} / 至少 {3}。</CBF_Planner_NiedrigWeggelassen>
+  <!-- EN: No settlement type selected. -->
+  <CBF_Pruef_NoPlan>未選擇據點型別。</CBF_Pruef_NoPlan>
+  <!-- EN: The plan could not be turned into a planner request. -->
+  <CBF_Pruef_NoRequest>方案無法轉換為規劃器請求。</CBF_Pruef_NoRequest>
+  <!-- EN: The fill phase of this layout was stopped after {0} seconds so that map generation does not stall. -->
+  <CBF_Planner_Anlaufbremse>此佈局的填充階段在 {0} 秒後停止，以免地圖生成停滯。</CBF_Planner_Anlaufbremse>
+  <!-- EN: {0} layout(s) stopped with a program error ({1}). The search continued with the other layouts. -->
+  <CBF_Planner_AnlaufFehler>{0} 個佈局因程式錯誤而停止（{1}）。搜尋繼續使用其餘佈局。</CBF_Planner_AnlaufFehler>
+  <!-- EN: {0} marsh cells filled in inside the settlement and under roads, walls and fences. -->
+  <CBF_Planner_Aufgeschuettet>{0} 格沼澤在據點內部及道路、城牆與圍欄下方被填平。</CBF_Planner_Aufgeschuettet>
+  <!-- EN: No exit at the {0} edge: the road there would cross water. -->
+  <CBF_Planner_AusgangUeberWasser>{0} 邊緣沒有出口：那裡的道路會跨越水面。</CBF_Planner_AusgangUeberWasser>
+  <!-- EN: Layer {0}: {1} rock cells cleared. -->
+  <CBF_Planner_Bergraeumen>層 {0}：清除了 {1} 格岩石。</CBF_Planner_Bergraeumen>
+  <!-- EN: Buildings are split into {0} districts. -->
+  <CBF_Planner_Bezirke>建築被分為 {0} 個區。</CBF_Planner_Bezirke>
+  <!-- EN: Layer {0}: the orders need {1} percent of the free area. Layout: {2}. -->
+  <CBF_Planner_Blockdichte>層 {0}：指令需要空閒面積的 {1}%。佈局：{2}。</CBF_Planner_Blockdichte>
+  <!-- EN: dense -->
+  <CBF_Planner_Blockdichte_Dicht>密集</CBF_Planner_Blockdichte_Dicht>
+  <!-- EN: detached -->
+  <CBF_Planner_Blockdichte_Einzeln>獨立</CBF_Planner_Blockdichte_Einzeln>
+  <!-- EN: {0} road cells over water got a bridge. -->
+  <CBF_Planner_Brueckenbreite>{0} 格水上道路建了橋。</CBF_Planner_Brueckenbreite>
+  <!-- EN: Suburb bridgeheads: {0} with a gate, {1} without. -->
+  <CBF_Planner_Brueckentor>近郊橋頭：{0} 個帶城門，{1} 個不帶。</CBF_Planner_Brueckentor>
+  <!-- EN: {0} water cells in bays near the city filled in. -->
+  <CBF_Planner_Buchtfuellen>城市附近海灣中的 {0} 格水面被填平。</CBF_Planner_Buchtfuellen>
+  <!-- EN: The city shape could not be fitted to the terrain and is used unchanged. -->
+  <CBF_Planner_CoreShapeFallback>城市形狀無法適配地形，原樣使用。</CBF_Planner_CoreShapeFallback>
+  <!-- EN: Layer {0}: outline squared off for the wall walk, {1} cells adjusted. -->
+  <CBF_Planner_Feinraster>層 {0}：輪廓為城牆步道取方，調整了 {1} 格。</CBF_Planner_Feinraster>
+  <!-- EN: {0} river crossing(s) planned. The suburb gets {1} extra cells for them. -->
+  <CBF_Planner_Flussuebergang>規劃了 {0} 處過河點。近郊為此獲得 {1} 格額外空間。</CBF_Planner_Flussuebergang>
+  <!-- EN: {0} river crossing(s) had no road at one end and were removed. -->
+  <CBF_Planner_UebergangLos>{0} 處過河點一端沒有道路，已被移除。</CBF_Planner_UebergangLos>
+  <!-- EN: {0} could not reach the road network and got a lane of {1} cells. -->
+  <CBF_Planner_Gasse>{0} 無法到達道路網路，獲得了一條 {1} 格的小巷。</CBF_Planner_Gasse>
+  <!-- EN: Layer {0}: still no room for a gatehouse after many layouts. The wall gets an open passage there instead. -->
+  <CBF_Planner_GateHoleInstead>層 {0}：經過多次佈局仍沒有門樓空間。城牆在此改為開放通道。</CBF_Planner_GateHoleInstead>
+  <!-- EN: Every walled layer needs a gate: a gatehouse or, if none fits even in an emergency layout, an open passage. Both are missing here. -->
+  <CBF_Planner_GateMinimum>每個有城牆的層都需要一座城門：門樓，或即便在緊急佈局中也放不下時的開放通道。這裡兩者皆缺。</CBF_Planner_GateMinimum>
+  <!-- EN: Layer {0}: the listed gatehouse {1} is not available or not allowed there. -->
+  <CBF_Planner_GateMissing>層 {0}：所列門樓 {1} 不可用或不允許放在那裡。</CBF_Planner_GateMissing>
+  <!-- EN: A detached part of the city or suburb was dropped. -->
+  <CBF_Planner_IslandDropped>城市或近郊一塊被切斷的部分被丟棄。</CBF_Planner_IslandDropped>
+  <!-- EN: Layer {0}: a detached part with {1} cells has no room for any building. -->
+  <CBF_Planner_IslandEmpty>層 {0}：一塊被切斷的部分（{1} 格）沒有空間容納任何建築。</CBF_Planner_IslandEmpty>
+  <!-- EN: Layer {0}: outline smoothed with window width {1}, {2} cells added, {3} removed. -->
+  <CBF_Planner_Kantenglaetten>層 {0}：以視窗寬度 {1} 平滑輪廓，新增 {2} 格，移除 {3} 格。</CBF_Planner_Kantenglaetten>
+  <!-- EN: {0}: The settlement was built with flaws. {1} -->
+  <CBF_Planner_Maengelzeile>{0}：據點帶有瑕疵建成。{1}</CBF_Planner_Maengelzeile>
+  <!-- EN: Plus {0} more flaws. -->
+  <CBF_Planner_MaengelWeitere>另有 {0} 處瑕疵。</CBF_Planner_MaengelWeitere>
+  <!-- EN: {0} in layer {1}: {2} of {3} placed. The shortfall is within tolerance. -->
+  <CBF_Planner_Marge>層 {1} 中的 {0}：放置了 {3} 中的 {2}。缺口在容差範圍內。</CBF_Planner_Marge>
+  <!-- EN: Layer {0}: wall line staggered in sections, {1} cells taken back. -->
+  <CBF_Planner_Mauerversatz>層 {0}：城牆線分段錯開，收回 {1} 格。</CBF_Planner_Mauerversatz>
+  <!-- EN: {0} was below its minimum. More were placed using terrain changes, {1} cells changed. -->
+  <CBF_Planner_Nachschlag>{0} 低於其最低值。透過地形改動放置了更多，更改了 {1} 格。</CBF_Planner_Nachschlag>
+  <!-- EN: No room for {0}. Checked: {1} spots with enough ground, {2} of them with road access, {3} of them fully fitting. -->
+  <CBF_Planner_NoSpot>{0} 沒有空間。檢查過：{1} 個地面充足的位置，其中 {2} 個有道路入口，{3} 個完全適配。</CBF_Planner_NoSpot>
+  <!-- EN: Repair: removed {0} building(s) that overlapped or had no road access: {1}. They are now missing from the parts list. -->
+  <CBF_Planner_Repariert>修復：移除了 {0} 棟重疊或無道路入口的建築：{1}。它們現在從部件清單缺失。</CBF_Planner_Repariert>
+  <!-- EN: {0} lake cells inside the settlement area filled in. -->
+  <CBF_Planner_Seefuellen>據點區域內的 {0} 格湖面被填平。</CBF_Planner_Seefuellen>
+  <!-- EN: The fortification leaks: {0} cells in the city or suburb can be reached from outside. -->
+  <CBF_Planner_Sickerstelle>防禦工事滲漏：城市或近郊的 {0} 格可從外部到達。</CBF_Planner_Sickerstelle>
+  <!-- EN: In {0} built layouts the city was never contiguous. The planner no longer requires it, the city may be split. -->
+  <CBF_Planner_StadtGanzAufgegeben>在 {0} 個已建造佈局中，城市從未連續。規劃器不再要求它，城市可被分割。</CBF_Planner_StadtGanzAufgegeben>
+  <!-- EN: The city is split: {0} cells are not connected to its largest part. -->
+  <CBF_Planner_StadtGeteilt>城市被分割：{0} 格未連線到其最大部分。</CBF_Planner_StadtGeteilt>
+  <!-- EN: {0} road cells over marsh got a bridge. -->
+  <CBF_Planner_Sumpfbruecke>{0} 格沼澤道路建了橋。</CBF_Planner_Sumpfbruecke>
+  <!-- EN: {0} gate(s) without a gatehouse: the wall only has an open passage there. The settlement is built with this flaw. -->
+  <CBF_Planner_Torloecher>{0} 座無門樓的城門：城牆在那裡只有開放通道。據點帶此瑕疵建成。</CBF_Planner_Torloecher>
+  <!-- EN: Last attempt: building despite the problems with walls or gates. -->
+  <CBF_Planner_TrotzdemGebaut>最後一次嘗試：儘管城牆或城門存在問題，仍堅持建造。</CBF_Planner_TrotzdemGebaut>
+  <!-- EN: Bridge laid across the water between city and suburb, {0} cells. -->
+  <CBF_Planner_Uferbruecke>在城市與近郊之間鋪設橋樑跨過水麵，{0} 格。</CBF_Planner_Uferbruecke>
+  <!-- EN: Bridge ends: {0} water cells at the bank filled in. -->
+  <CBF_Planner_Uferenge>橋端：岸邊 {0} 格水面被填平。</CBF_Planner_Uferenge>
+  <!-- EN: Layer {0}: gate placed at the bridge across the water. -->
+  <CBF_Planner_Ufertor>層 {0}：城門放置在跨水橋樑上。</CBF_Planner_Ufertor>
+  <!-- EN: Suburb land: {0} cells on the city bank, {1} on the far bank. {2} percent of the suburb goes to the far bank. -->
+  <CBF_Planner_Uferwahl>近郊用地：城市岸 {0} 格，對岸 {1} 格。近郊的 {2}% 位於對岸。</CBF_Planner_Uferwahl>
+  <!-- EN: {0} in layer {1}: {2} of {3} placed. No layout managed more, so the minimum was dropped. -->
+  <CBF_Planner_Unerfuellbar>層 {1} 中的 {0}：放置了 {3} 中的 {2}。沒有佈局能做得更多，因此放棄了最低值。</CBF_Planner_Unerfuellbar>
+  <!-- EN: {0} cells between city and suburb added to the suburb so both touch. -->
+  <CBF_Planner_VorstadtAngeschlossen>{0} 格城市與近郊之間的地帶劃入近郊，使兩者相接。</CBF_Planner_VorstadtAngeschlossen>
+  <!-- EN: {0} suburb cells behind rock could not be reached and were removed. -->
+  <CBF_Planner_VorstadtHinterFels>{0} 格岩石後的近郊無法到達，已被移除。</CBF_Planner_VorstadtHinterFels>
+  <!-- EN: Suburb reshaped into {0} rectangle(s): {1} cells before, {2} now. -->
+  <CBF_Planner_Vorstadtrechteck>近郊重塑為 {0} 個矩形：先前 {1} 格，現在 {2} 格。</CBF_Planner_Vorstadtrechteck>
+  <!-- EN: Suburb laid out as a ring around the city: {0} cells requested, {1} laid out, ring width {2}, {3} bulge(s). -->
+  <CBF_Planner_Vorstadtring>近郊環繞城市佈局：請求 {0} 格，鋪設 {1} 格，環寬 {2}，{3} 處隆起。</CBF_Planner_Vorstadtring>
+  <!-- EN: The wall would have to cross open water. This site is discarded. -->
+  <CBF_Planner_WallAcrossWater>城牆必須跨越開放水面。此場地被放棄。</CBF_Planner_WallAcrossWater>
+  <!-- EN: The wall is not closed. -->
+  <CBF_Planner_WallOpen>城牆未閉合。</CBF_Planner_WallOpen>
+  <!-- EN: Layer {0}: {1} cells in narrow offshoots dropped. -->
+  <CBF_Planner_WardEroded>層 {0}：狹窄支脈中的 {1} 格被丟棄。</CBF_Planner_WardEroded>
+  <!-- EN: Enclosed gaps filled: {0} cells to the city, {1} to the suburb. -->
+  <CBF_Planner_ZwickelGefuellt>封閉缺口已填充：城市 {0} 格，近郊 {1} 格。</CBF_Planner_ZwickelGefuellt>
+  <!-- EN: Small pockets between settlement and rock added to the settlement, the wall ends at the rock there: {0} cells to the town, {1} to the suburb. -->
+  <CBF_Planner_Felstasche>據點與岩石之間的小片地帶劃入據點，城牆在那裡止於岩石：城鎮 {0} 格，近郊 {1} 格。</CBF_Planner_Felstasche>
+  <!-- EN: Open town: the suburb wall has a gap to the outside. This is allowed for an open town, the settlement is built as is. -->
+  <CBF_Planner_VorstadtmauerOffen>開放城鎮：近郊城牆有通向外部缺口。這對開放城鎮是允許的，據點按現狀建造。</CBF_Planner_VorstadtmauerOffen>
+  <!-- EN: A suburb part with {0} cells has no path to the city. -->
+  <CBF_Planner_IslandUnlinked>一塊 {0} 格的近郊部分沒有通往城市的路徑。</CBF_Planner_IslandUnlinked>
+  <!-- EN: A suburb part ({0}, {1} cells) got neither a gatehouse nor a passage. -->
+  <CBF_Planner_NoEscape>一塊近郊部分（{0}，{1} 格）既沒有門樓也沒有通道。</CBF_Planner_NoEscape>
+  <!-- EN: Layer {0}: no gate forecourt found for a part of size {1}. -->
+  <CBF_Planner_NoFrontage>層 {0}：大小為 {1} 的部分沒有找到城門廣場。</CBF_Planner_NoFrontage>
+  <!-- EN: Suburb parts reshaped into rectangles: {0} reshaped, {1} dropped. -->
+  <CBF_Planner_SuburbBoxed>近郊部分重塑為矩形：{0} 個重塑，{1} 個丟棄。</CBF_Planner_SuburbBoxed>
+  <!-- EN: Layer {0}: the wall grid takes away more than half of the area. -->
+  <CBF_Planner_WardNarrowed>層 {0}：城牆網格佔去超過一半的面積。</CBF_Planner_WardNarrowed>
+  <!-- EN: Safety clock stopped the search after {0} layouts on this computer, the best layout so far is used. The result may differ on other computers. -->
+  <CBF_Planner_Uhrbremse>安全時鐘在 {0} 個佈局後停止了此電腦上的搜尋，採用迄今最好的佈局。結果可能因電腦而異。</CBF_Planner_Uhrbremse>
+  <!-- EN: This settlement type names no material list. -->
+  <CBF_Build_NoMaterialList>此據點型別未指定材料清單。</CBF_Build_NoMaterialList>
+  <!-- EN: All -->
+  <CBF_FactionOverviewAll>全部</CBF_FactionOverviewAll>
+  <!-- EN: CBF -->
+  <CBF_FactionOverviewCbf>CBF</CBF_FactionOverviewCbf>
+  <!-- EN: Vanilla -->
+  <CBF_FactionOverviewVanillaFilter>原版</CBF_FactionOverviewVanillaFilter>
+  <!-- EN: {0} factions -->
+  <CBF_FactionOverviewCount>{0} 個派系</CBF_FactionOverviewCount>
+  <!-- EN: This faction has no plan of its own. It gets these settlement types because of its tech level. -->
+  <CBF_FactionOverviewByLevelTip>該派系沒有自有計劃。它因科技等級獲得這些據點型別。</CBF_FactionOverviewByLevelTip>
+  <!-- EN: Old town shape: {0}. -->
+  <CBF_Planner_Kernform>老城區形狀：{0}。</CBF_Planner_Kernform>
+  <!-- EN: Grown -->
+  <CBF_CoreShape_Grown>自然生長</CBF_CoreShape_Grown>
+  <!-- EN: Rectangle -->
+  <CBF_CoreShape_Rectangle>矩形</CBF_CoreShape_Rectangle>
+  <!-- EN: L shape -->
+  <CBF_CoreShape_LShape>L 形</CBF_CoreShape_LShape>
+  <!-- EN: T shape -->
+  <CBF_CoreShape_TShape>T 形</CBF_CoreShape_TShape>
+  <!-- EN: U shape -->
+  <CBF_CoreShape_UShape>U 形</CBF_CoreShape_UShape>
+  <!-- EN: Cross -->
+  <CBF_CoreShape_Cross>十字形</CBF_CoreShape_Cross>
+  <!-- EN: Step -->
+  <CBF_CoreShape_Step>階梯形</CBF_CoreShape_Step>
+  <!-- EN: Octagon -->
+  <CBF_CoreShape_Octagon>八邊形</CBF_CoreShape_Octagon>
+  <!-- EN: Polygon -->
+  <CBF_NetShape_Polygon>多邊形</CBF_NetShape_Polygon>
+  <!-- EN: Square -->
+  <CBF_NetShape_Square>方形</CBF_NetShape_Square>
+  <!-- EN: Hexagon, indented -->
+  <CBF_NetShape_Hexagon>內凹六邊形</CBF_NetShape_Hexagon>
+  <!-- EN: Almost round -->
+  <CBF_NetShape_Round>近似圓形</CBF_NetShape_Round>
+  <!-- EN: Ring road with spokes -->
+  <CBF_NetRoad_Ring>帶輻射支路的環城路</CBF_NetRoad_Ring>
+  <!-- EN: Main road straight through -->
+  <CBF_NetRoad_MainRoad>主路直穿</CBF_NetRoad_MainRoad>
+  <!-- EN: The old town is too small for the shape {0} with this wall, it becomes a rectangle. -->
+  <CBF_Planner_KernformZuKlein>帶此城牆時老城區對形狀 {0} 而言太小，它變成矩形。</CBF_Planner_KernformZuKlein>
+  <!-- EN: The shape override {0} is unknown and is ignored. -->
+  <CBF_Planner_KernformVorgabeUnbekannt>形狀覆蓋 {0} 未知，被忽略。</CBF_Planner_KernformVorgabeUnbekannt>
+  <!-- EN: The old town is too small for the shape {0}, even without a wall. It becomes a rectangle. -->
+  <CBF_Planner_KernformStadtZuKlein>即使沒有城牆，老城區對形狀 {0} 而言也太小。它變成矩形。</CBF_Planner_KernformStadtZuKlein>
+  <!-- EN: Grown: without suburb islands and with a wall depth of {0} or less, the old town stays a rectangle. -->
+  <CBF_Planner_GewachsenRechteck>自然生長：沒有近郊島嶼且城牆深度為 {0} 或更小時，老城區保持矩形。</CBF_Planner_GewachsenRechteck>
+  <!-- EN: Dungeon: {0} pieces, {1} corridor cells, {2} cave cells, {3} loops, {4} dead-end cells removed, {5} doors bricked up, {6} pieces without space. -->
+  <CBF_Planner_VerliesSumme>地下城：{0} 個部件，{1} 格走廊，{2} 格洞穴，{3} 個環路，移除 {4} 格死端，砌死 {5} 扇門，{6} 個部件無空間。</CBF_Planner_VerliesSumme>
+  <!-- EN: Dungeon: no space for {0} in district {1}. -->
+  <CBF_Planner_VerliesKeinPlatz>地下城：區 {1} 中沒有 {0} 的空間。</CBF_Planner_VerliesKeinPlatz>
+  <!-- EN: Dungeon: district {0} found no space to start. -->
+  <CBF_Planner_VerliesBezirkOhnePlatz>地下城：區 {0} 找不到開始的空間。</CBF_Planner_VerliesBezirkOhnePlatz>
+  <!-- EN: Dungeon: the cave of district {0} found no space. -->
+  <CBF_Planner_VerliesHoehleOhnePlatz>地下城：區 {0} 的洞穴找不到空間。</CBF_Planner_VerliesHoehleOhnePlatz>
+  <!-- EN: Dungeon: {0} long tunnels were dug to deeper rock because short connections found no space. -->
+  <CBF_Planner_VerliesFernweg>地下城：因為短連線找不到空間，挖掘了 {0} 條長隧道通往更深的岩石。</CBF_Planner_VerliesFernweg>
+  <!-- EN: Dungeon {0}: level {1} had no stairs up. They were placed at the start point. -->
+  <CBF_Log_VerliesAusgang>地下城 {0}：第 {1} 層沒有上行樓梯。它們在起點處放置。</CBF_Log_VerliesAusgang>
+  <!-- EN: Send up -->
+  <CBF_Verlies_Aufstieg>全員上樓</CBF_Verlies_Aufstieg>
+  <!-- EN: Every pawn of yours on this level climbs up through all stairs on its own until it reaches the surface map. -->
+  <CBF_Verlies_AufstiegDesc>你在這一層的所有角色都會自行爬過每一道樓梯，直到回到地表地圖。</CBF_Verlies_AufstiegDesc>
+  <!-- EN: Nobody here could climb up. -->
+  <CBF_Verlies_AufstiegNiemand>這裡沒有人能爬上去。</CBF_Verlies_AufstiegNiemand>
+  <!-- EN: Planning the dungeon... -->
+  <CBF_Verlies_Planen>正在規劃地牢……</CBF_Verlies_Planen>
+  <!-- EN: {0} climbs up and then walks there. -->
+  <CBF_Verlies_Fernziel>{0}會先爬上去，再走到那裡。</CBF_Verlies_Fernziel>
+  <!-- EN: {0} people on the other level stay queued. Click a destination here and they will come over. -->
+  <CBF_Verlies_Fernauswahl>另一層有{0}人在排隊等待。在這裡點選目的地，他們就會過來。</CBF_Verlies_Fernauswahl>
+  <!-- EN: View level above -->
+  <CBF_Verlies_Hinauf>檢視上一層</CBF_Verlies_Hinauf>
+  <!-- EN: Switches the view to the level above. The selected people stay queued: right click there sends them up and to the clicked destination. -->
+  <CBF_Verlies_HinaufDesc>將視角切換到上一層。選取的人會保持排隊：在那裡按右鍵，就會把他們送上去並前往點選的目的地。</CBF_Verlies_HinaufDesc>
+  <!-- EN: View level below -->
+  <CBF_Verlies_Hinab>檢視下一層</CBF_Verlies_Hinab>
+  <!-- EN: Switches the view to the level below. The selected people stay queued: right click there sends them down and to the clicked destination. -->
+  <CBF_Verlies_HinabDesc>將視角切換到下一層。選取的人會保持排隊：在那裡按右鍵，就會把他們送下去並前往點選的目的地。</CBF_Verlies_HinabDesc>
+  <!-- EN: {0} only gets close by, the clicked cell cannot be reached. -->
+  <CBF_Verlies_Fernersatz>{0}只能走到附近，無法到達點選的格子。</CBF_Verlies_Fernersatz>
+  <!-- EN: {0} cannot find a path to the clicked destination. -->
+  <CBF_Verlies_Fernkeinweg>{0}找不到通往點選目的地的路。</CBF_Verlies_Fernkeinweg>
+  <!-- EN: {0} queued, click a destination -->
+  <CBF_Verlies_Vorgemerkt>{0}已排隊，請點選目的地</CBF_Verlies_Vorgemerkt>
+</LanguageData>

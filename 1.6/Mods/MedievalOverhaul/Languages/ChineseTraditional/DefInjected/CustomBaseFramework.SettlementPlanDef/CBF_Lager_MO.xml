@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: bandit camp (MO) -->
+  <CBF_Plan_Camp_MO_Bandits.label>土匪營地（MO）</CBF_Plan_Camp_MO_Bandits.label>
+  <!-- EN: coal mine (MO) -->
+  <CBF_Plan_Camp_MO_CoalMine.label>煤礦場（MO）</CBF_Plan_Camp_MO_CoalMine.label>
+  <!-- EN: farming site (MO) -->
+  <CBF_Plan_Camp_MO_Farm.label>農耕營地（MO）</CBF_Plan_Camp_MO_Farm.label>
+  <!-- EN: hunting site (MO) -->
+  <CBF_Plan_Camp_MO_Hunting.label>狩獵營地（MO）</CBF_Plan_Camp_MO_Hunting.label>
+  <!-- EN: iron mine (MO) -->
+  <CBF_Plan_Camp_MO_Mining.label>鐵礦場（MO）</CBF_Plan_Camp_MO_Mining.label>
+  <!-- EN: outpost (MO) -->
+  <CBF_Plan_Camp_MO_Outpost.label>哨站（MO）</CBF_Plan_Camp_MO_Outpost.label>
+  <!-- EN: stone mine (MO) -->
+  <CBF_Plan_Camp_MO_Quarry.label>採石場（MO）</CBF_Plan_Camp_MO_Quarry.label>
+  <!-- EN: logging site (MO) -->
+  <CBF_Plan_Camp_MO_Wood.label>伐木營地（MO）</CBF_Plan_Camp_MO_Wood.label>
+</LanguageData>

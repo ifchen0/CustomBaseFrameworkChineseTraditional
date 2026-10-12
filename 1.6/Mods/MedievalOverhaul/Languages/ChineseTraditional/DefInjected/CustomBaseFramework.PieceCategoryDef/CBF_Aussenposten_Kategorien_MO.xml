@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: bunkhouse -->
+  <CBF_MO_Bunkhouse.label>宿舍</CBF_MO_Bunkhouse.label>
+  <!-- EN: charcoal burner -->
+  <CBF_MO_CharcoalBurner.label>燒炭場</CBF_MO_CharcoalBurner.label>
+  <!-- EN: command tent -->
+  <CBF_MO_CommandTent.label>指揮帳篷</CBF_MO_CommandTent.label>
+  <!-- EN: granary -->
+  <CBF_MO_Granary.label>糧倉</CBF_MO_Granary.label>
+  <!-- EN: horse stall -->
+  <CBF_MO_HorseStall.label>馬廄位</CBF_MO_HorseStall.label>
+  <!-- EN: kennel -->
+  <CBF_MO_Kennel.label>獵犬舍</CBF_MO_Kennel.label>
+  <!-- EN: mine -->
+  <CBF_MO_Mine.label>礦井</CBF_MO_Mine.label>
+  <!-- EN: ore store -->
+  <CBF_MO_OreStore.label>礦石庫</CBF_MO_OreStore.label>
+  <!-- EN: overseer house -->
+  <CBF_MO_OverseerHouse.label>監工宅</CBF_MO_OverseerHouse.label>
+  <!-- EN: pen -->
+  <CBF_MO_Pen.label>畜欄</CBF_MO_Pen.label>
+  <!-- EN: sawing yard -->
+  <CBF_MO_SawingYard.label>鋸木場</CBF_MO_SawingYard.label>
+  <!-- EN: slave pen -->
+  <CBF_MO_SlavePen.label>奴隸欄</CBF_MO_SlavePen.label>
+  <!-- EN: smelter -->
+  <CBF_MO_Smelter.label>熔鍊坊</CBF_MO_Smelter.label>
+  <!-- EN: soldier tent -->
+  <CBF_MO_SoldierTent.label>士兵帳篷</CBF_MO_SoldierTent.label>
+  <!-- EN: weapon tent -->
+  <CBF_MO_WeaponTent.label>武器帳篷</CBF_MO_WeaponTent.label>
+  <!-- EN: woodcutter hut -->
+  <CBF_MO_WoodcutterHut.label>伐木小屋</CBF_MO_WoodcutterHut.label>
+</LanguageData>

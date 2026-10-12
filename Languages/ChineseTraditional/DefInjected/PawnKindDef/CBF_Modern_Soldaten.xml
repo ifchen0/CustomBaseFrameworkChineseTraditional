@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: elite trooper -->
+  <CBF_Modern_EliteSoldier.label>精銳士兵</CBF_Modern_EliteSoldier.label>
+  <!-- EN: grenadier -->
+  <CBF_Modern_Grenadier.label>擲彈兵</CBF_Modern_Grenadier.label>
+  <!-- EN: heavy gunner -->
+  <CBF_Modern_MGRifleman.label>重機槍手</CBF_Modern_MGRifleman.label>
+  <!-- EN: officer -->
+  <CBF_Modern_Officer.label>軍官</CBF_Modern_Officer.label>
+  <!-- EN: police officer -->
+  <CBF_Modern_Policeman.label>警察</CBF_Modern_Policeman.label>
+  <!-- EN: rifleman -->
+  <CBF_Modern_Rifleman.label>步槍兵</CBF_Modern_Rifleman.label>
+  <!-- EN: sniper -->
+  <CBF_Modern_Sniper.label>狙擊手</CBF_Modern_Sniper.label>
+  <!-- EN: recon grenadier -->
+  <CBF_Modern_Spacer_Grenadier.label>偵察擲彈兵</CBF_Modern_Spacer_Grenadier.label>
+  <!-- EN: marine heavy gunner -->
+  <CBF_Modern_Spacer_MGRifleman.label>陸戰隊重機槍手</CBF_Modern_Spacer_MGRifleman.label>
+  <!-- EN: marine officer -->
+  <CBF_Modern_Spacer_Officer.label>陸戰隊軍官</CBF_Modern_Spacer_Officer.label>
+  <!-- EN: charge rifleman -->
+  <CBF_Modern_Spacer_Rifleman.label>電能步槍兵</CBF_Modern_Spacer_Rifleman.label>
+  <!-- EN: recon sniper -->
+  <CBF_Modern_Spacer_Sniper.label>偵察狙擊手</CBF_Modern_Spacer_Sniper.label>
+  <!-- EN: marine breacher -->
+  <CBF_Modern_Spacer_Stormer.label>陸戰隊突破手</CBF_Modern_Spacer_Stormer.label>
+  <!-- EN: security guard -->
+  <CBF_Modern_Spacer_Watchman.label>保全</CBF_Modern_Spacer_Watchman.label>
+  <!-- EN: breacher -->
+  <CBF_Modern_Stormer.label>突破手</CBF_Modern_Stormer.label>
+</LanguageData>

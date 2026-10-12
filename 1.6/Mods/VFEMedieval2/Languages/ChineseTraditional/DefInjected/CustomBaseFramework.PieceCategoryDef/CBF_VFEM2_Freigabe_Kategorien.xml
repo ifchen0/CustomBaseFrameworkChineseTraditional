@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: alchemy workshop -->
+  <CBF_VFEM2_AlchemyWorkshop.label>鍊金工坊</CBF_VFEM2_AlchemyWorkshop.label>
+  <!-- EN: alehouse -->
+  <CBF_VFEM2_Alehouse.label>酒館</CBF_VFEM2_Alehouse.label>
+  <!-- EN: tent annex -->
+  <CBF_VFEM2_Annex_Tent.label>帳篷附屬建築</CBF_VFEM2_Annex_Tent.label>
+  <!-- EN: tent large annex -->
+  <CBF_VFEM2_Annex_Tent_Large.label>大型帳篷附屬建築</CBF_VFEM2_Annex_Tent_Large.label>
+  <!-- EN: apothecary -->
+  <CBF_VFEM2_Apothecary.label>藥劑鋪</CBF_VFEM2_Apothecary.label>
+  <!-- EN: armory -->
+  <CBF_VFEM2_Armory.label>武器庫</CBF_VFEM2_Armory.label>
+  <!-- EN: armoury -->
+  <CBF_VFEM2_Armoury.label>盔甲庫</CBF_VFEM2_Armoury.label>
+  <!-- EN: assembly tent -->
+  <CBF_VFEM2_AssemblyTent.label>集會帳篷</CBF_VFEM2_AssemblyTent.label>
+  <!-- EN: bakery -->
+  <CBF_VFEM2_Bakery.label>麵包房</CBF_VFEM2_Bakery.label>
+  <!-- EN: barn -->
+  <CBF_VFEM2_Barn.label>穀倉</CBF_VFEM2_Barn.label>
+  <!-- EN: barracks -->
+  <CBF_VFEM2_Barracks.label>兵營</CBF_VFEM2_Barracks.label>
+  <!-- EN: boathouse -->
+  <CBF_VFEM2_Boathouse.label>船棚</CBF_VFEM2_Boathouse.label>
+  <!-- EN: burgher house -->
+  <CBF_VFEM2_BurgherHouse.label>市民宅邸</CBF_VFEM2_BurgherHouse.label>
+  <!-- EN: butchery -->
+  <CBF_VFEM2_Butchery.label>屠宰場</CBF_VFEM2_Butchery.label>
+  <!-- EN: campfire -->
+  <CBF_VFEM2_Campfire.label>營火</CBF_VFEM2_Campfire.label>
+  <!-- EN: catapult emplacement -->
+  <CBF_VFEM2_CatapultEmplacement.label>投石機陣地</CBF_VFEM2_CatapultEmplacement.label>
+  <!-- EN: church -->
+  <CBF_VFEM2_Church.label>教堂</CBF_VFEM2_Church.label>
+  <!-- EN: cook hut -->
+  <CBF_VFEM2_CookHut.label>炊事棚</CBF_VFEM2_CookHut.label>
+  <!-- EN: farmstead -->
+  <CBF_VFEM2_Farmstead.label>農莊</CBF_VFEM2_Farmstead.label>
+  <!-- EN: fisher hut -->
+  <CBF_VFEM2_FisherHut.label>漁夫小屋</CBF_VFEM2_FisherHut.label>
+  <!-- EN: fortress gate -->
+  <CBF_VFEM2_FortressGate.label>要塞城門</CBF_VFEM2_FortressGate.label>
+  <!-- EN: fortress keep -->
+  <CBF_VFEM2_FortressKeep.label>要塞主樓</CBF_VFEM2_FortressKeep.label>
+  <!-- EN: fortress tower -->
+  <CBF_VFEM2_FortressTower.label>要塞塔樓</CBF_VFEM2_FortressTower.label>
+  <!-- EN: gap yard -->
+  <CBF_VFEM2_GapYard.label>缺口庭院</CBF_VFEM2_GapYard.label>
+  <!-- EN: gatehouse -->
+  <CBF_VFEM2_Gatehouse.label>門樓</CBF_VFEM2_Gatehouse.label>
+  <!-- EN: graveyard -->
+  <CBF_VFEM2_Graveyard.label>墓地</CBF_VFEM2_Graveyard.label>
+  <!-- EN: guild -->
+  <CBF_VFEM2_Guild.label>行會大廳</CBF_VFEM2_Guild.label>
+  <!-- EN: harbor store -->
+  <CBF_VFEM2_HarborStore.label>港口倉庫</CBF_VFEM2_HarborStore.label>
+  <!-- EN: harbormaster -->
+  <CBF_VFEM2_Harbormaster.label>港務長</CBF_VFEM2_Harbormaster.label>
+  <!-- EN: hunting lodge -->
+  <CBF_VFEM2_HuntingLodge.label>獵屋</CBF_VFEM2_HuntingLodge.label>
+  <!-- EN: hut -->
+  <CBF_VFEM2_Hut.label>小屋</CBF_VFEM2_Hut.label>
+  <!-- EN: jetty -->
+  <CBF_VFEM2_Jetty.label>棧橋</CBF_VFEM2_Jetty.label>
+  <!-- EN: joinery -->
+  <CBF_VFEM2_Joinery.label>細木工坊</CBF_VFEM2_Joinery.label>
+  <!-- EN: keep -->
+  <CBF_VFEM2_Keep.label>主樓</CBF_VFEM2_Keep.label>
+  <!-- EN: library -->
+  <CBF_VFEM2_Library.label>圖書館</CBF_VFEM2_Library.label>
+  <!-- EN: living tent -->
+  <CBF_VFEM2_LivingTent.label>居住帳篷</CBF_VFEM2_LivingTent.label>
+  <!-- EN: loot spot -->
+  <CBF_VFEM2_LootSpot.label>戰利品點</CBF_VFEM2_LootSpot.label>
+  <!-- EN: main tent -->
+  <CBF_VFEM2_MainTent.label>主帳篷</CBF_VFEM2_MainTent.label>
+  <!-- EN: market square -->
+  <CBF_VFEM2_MarketSquare.label>集市場</CBF_VFEM2_MarketSquare.label>
+  <!-- EN: military wall attachment -->
+  <CBF_VFEM2_MilitaryWallAttachment.label>城牆軍事建築</CBF_VFEM2_MilitaryWallAttachment.label>
+  <!-- EN: mine hut -->
+  <CBF_VFEM2_MineHut.label>礦工小屋</CBF_VFEM2_MineHut.label>
+  <!-- EN: monument -->
+  <CBF_VFEM2_Monument.label>紀念碑</CBF_VFEM2_Monument.label>
+  <!-- EN: noble house -->
+  <CBF_VFEM2_NobleHouse.label>貴族宅邸</CBF_VFEM2_NobleHouse.label>
+  <!-- EN: bunkhouse outpost -->
+  <CBF_VFEM2_Outpost_Bunkhouse.label>前哨·宿舍</CBF_VFEM2_Outpost_Bunkhouse.label>
+  <!-- EN: gathering spot outpost -->
+  <CBF_VFEM2_Outpost_GatheringSpot.label>前哨·集合點</CBF_VFEM2_Outpost_GatheringSpot.label>
+  <!-- EN: guest house outpost -->
+  <CBF_VFEM2_Outpost_GuestHouse.label>前哨·客舍</CBF_VFEM2_Outpost_GuestHouse.label>
+  <!-- EN: gun emplacement outpost -->
+  <CBF_VFEM2_Outpost_GunEmplacement.label>前哨·砲位</CBF_VFEM2_Outpost_GunEmplacement.label>
+  <!-- EN: library outpost -->
+  <CBF_VFEM2_Outpost_Library.label>前哨·圖書館</CBF_VFEM2_Outpost_Library.label>
+  <!-- EN: market stall outpost -->
+  <CBF_VFEM2_Outpost_MarketStall.label>前哨·集市攤位</CBF_VFEM2_Outpost_MarketStall.label>
+  <!-- EN: slaughterhouse outpost -->
+  <CBF_VFEM2_Outpost_Slaughterhouse.label>前哨·屠宰房</CBF_VFEM2_Outpost_Slaughterhouse.label>
+  <!-- EN: storehouse outpost -->
+  <CBF_VFEM2_Outpost_Storehouse.label>前哨·儲藏屋</CBF_VFEM2_Outpost_Storehouse.label>
+  <!-- EN: study outpost -->
+  <CBF_VFEM2_Outpost_Study.label>前哨·書房</CBF_VFEM2_Outpost_Study.label>
+  <!-- EN: tannery outpost -->
+  <CBF_VFEM2_Outpost_Tannery.label>前哨·鞣革坊</CBF_VFEM2_Outpost_Tannery.label>
+  <!-- EN: palisade gatehouse -->
+  <CBF_VFEM2_PalisadeGatehouse.label>木柵門樓</CBF_VFEM2_PalisadeGatehouse.label>
+  <!-- EN: palisade tower -->
+  <CBF_VFEM2_PalisadeTower.label>木柵塔樓</CBF_VFEM2_PalisadeTower.label>
+  <!-- EN: recreation -->
+  <CBF_VFEM2_Recreation.label>娛樂</CBF_VFEM2_Recreation.label>
+  <!-- EN: scriptorium -->
+  <CBF_VFEM2_Scriptorium.label>繕寫室</CBF_VFEM2_Scriptorium.label>
+  <!-- EN: shrine -->
+  <CBF_VFEM2_Shrine.label>神龕</CBF_VFEM2_Shrine.label>
+  <!-- EN: smithy -->
+  <CBF_VFEM2_Smithy.label>鐵匠鋪</CBF_VFEM2_Smithy.label>
+  <!-- EN: stonemason -->
+  <CBF_VFEM2_Stonemason.label>石匠坊</CBF_VFEM2_Stonemason.label>
+  <!-- EN: tailor shop -->
+  <CBF_VFEM2_TailorShop.label>裁縫鋪</CBF_VFEM2_TailorShop.label>
+  <!-- EN: tannery -->
+  <CBF_VFEM2_Tannery.label>鞣革坊</CBF_VFEM2_Tannery.label>
+  <!-- EN: tavern -->
+  <CBF_VFEM2_Tavern.label>酒館</CBF_VFEM2_Tavern.label>
+  <!-- EN: tent -->
+  <CBF_VFEM2_Tent.label>帳篷</CBF_VFEM2_Tent.label>
+  <!-- EN: tourney ground -->
+  <CBF_VFEM2_TourneyGround.label>比武場</CBF_VFEM2_TourneyGround.label>
+  <!-- EN: town tower -->
+  <CBF_VFEM2_TownTower.label>城鎮塔樓</CBF_VFEM2_TownTower.label>
+  <!-- EN: wall access -->
+  <CBF_VFEM2_WallAccess.label>城牆入口</CBF_VFEM2_WallAccess.label>
+  <!-- EN: warehouse -->
+  <CBF_VFEM2_Warehouse.label>貨倉</CBF_VFEM2_Warehouse.label>
+  <!-- EN: weapon dealer -->
+  <CBF_VFEM2_WeaponDealer.label>武器商</CBF_VFEM2_WeaponDealer.label>
+  <!-- EN: winery -->
+  <CBF_VFEM2_Winery.label>葡萄酒坊</CBF_VFEM2_Winery.label>
+  <!-- EN: work tent -->
+  <CBF_VFEM2_WorkTent.label>勞作帳篷</CBF_VFEM2_WorkTent.label>
+  <!-- EN: workshop -->
+  <CBF_VFEM2_Workshop.label>工坊</CBF_VFEM2_Workshop.label>
+</LanguageData>

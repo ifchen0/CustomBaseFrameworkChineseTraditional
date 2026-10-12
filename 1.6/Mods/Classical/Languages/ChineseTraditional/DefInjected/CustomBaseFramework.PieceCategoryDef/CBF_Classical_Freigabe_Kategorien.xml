@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: annex balneum -->
+  <CBF_Classical_Annex_Balneum.label>附屬浴場</CBF_Classical_Annex_Balneum.label>
+  <!-- EN: annex cubiculum -->
+  <CBF_Classical_Annex_Cubiculum.label>附屬臥室</CBF_Classical_Annex_Cubiculum.label>
+  <!-- EN: annex culina -->
+  <CBF_Classical_Annex_Culina.label>附屬廚房</CBF_Classical_Annex_Culina.label>
+  <!-- EN: annex horreum -->
+  <CBF_Classical_Annex_Horreum.label>附屬糧倉</CBF_Classical_Annex_Horreum.label>
+  <!-- EN: annex peristyle -->
+  <CBF_Classical_Annex_Peristyle.label>附屬列柱庭院</CBF_Classical_Annex_Peristyle.label>
+  <!-- EN: annex taberna -->
+  <CBF_Classical_Annex_Taberna.label>附屬商鋪</CBF_Classical_Annex_Taberna.label>
+  <!-- EN: annex triclinium -->
+  <CBF_Classical_Annex_Triclinium.label>附屬餐廳</CBF_Classical_Annex_Triclinium.label>
+  <!-- EN: arena -->
+  <CBF_Classical_Arena.label>競技場</CBF_Classical_Arena.label>
+  <!-- EN: arena rural -->
+  <CBF_Classical_ArenaRural.label>鄉村競技場</CBF_Classical_ArenaRural.label>
+  <!-- EN: armory -->
+  <CBF_Classical_Armory.label>武器庫</CBF_Classical_Armory.label>
+  <!-- EN: bakery -->
+  <CBF_Classical_Bakery.label>麵包坊</CBF_Classical_Bakery.label>
+  <!-- EN: barn -->
+  <CBF_Classical_Barn.label>牲口棚</CBF_Classical_Barn.label>
+  <!-- EN: barracks -->
+  <CBF_Classical_Barracks.label>兵營</CBF_Classical_Barracks.label>
+  <!-- EN: basilica -->
+  <CBF_Classical_Basilica.label>巴西利卡會堂</CBF_Classical_Basilica.label>
+  <!-- EN: cement works -->
+  <CBF_Classical_CementWorks.label>水泥作坊</CBF_Classical_CementWorks.label>
+  <!-- EN: farmstead -->
+  <CBF_Classical_Farmstead.label>農莊</CBF_Classical_Farmstead.label>
+  <!-- EN: gatehouse -->
+  <CBF_Classical_Gatehouse.label>門樓</CBF_Classical_Gatehouse.label>
+  <!-- EN: graveyard -->
+  <CBF_Classical_Graveyard.label>墓地</CBF_Classical_Graveyard.label>
+  <!-- EN: guard post -->
+  <CBF_Classical_GuardPost.label>崗哨</CBF_Classical_GuardPost.label>
+  <!-- EN: house -->
+  <CBF_Classical_House.label>住宅</CBF_Classical_House.label>
+  <!-- EN: hut -->
+  <CBF_Classical_Hut.label>小屋</CBF_Classical_Hut.label>
+  <!-- EN: market square -->
+  <CBF_Classical_MarketSquare.label>集市廣場</CBF_Classical_MarketSquare.label>
+  <!-- EN: mill -->
+  <CBF_Classical_Mill.label>磨坊</CBF_Classical_Mill.label>
+  <!-- EN: palisade access -->
+  <CBF_Classical_PalisadeAccess.label>木柵通道</CBF_Classical_PalisadeAccess.label>
+  <!-- EN: palisade gate -->
+  <CBF_Classical_PalisadeGate.label>木柵門</CBF_Classical_PalisadeGate.label>
+  <!-- EN: palisade tower -->
+  <CBF_Classical_PalisadeTower.label>木柵塔樓</CBF_Classical_PalisadeTower.label>
+  <!-- EN: small house -->
+  <CBF_Classical_SmallHouse.label>小宅</CBF_Classical_SmallHouse.label>
+  <!-- EN: smithy -->
+  <CBF_Classical_Smithy.label>鐵匠鋪</CBF_Classical_Smithy.label>
+  <!-- EN: tavern -->
+  <CBF_Classical_Tavern.label>酒館</CBF_Classical_Tavern.label>
+  <!-- EN: temple -->
+  <CBF_Classical_Temple.label>神廟</CBF_Classical_Temple.label>
+  <!-- EN: theatre -->
+  <CBF_Classical_Theatre.label>劇場</CBF_Classical_Theatre.label>
+  <!-- EN: theatre small -->
+  <CBF_Classical_TheatreSmall.label>小劇場</CBF_Classical_TheatreSmall.label>
+  <!-- EN: town tower -->
+  <CBF_Classical_TownTower.label>城鎮塔樓</CBF_Classical_TownTower.label>
+  <!-- EN: tyrian works -->
+  <CBF_Classical_TyrianWorks.label>提爾紫染坊</CBF_Classical_TyrianWorks.label>
+  <!-- EN: wall access -->
+  <CBF_Classical_WallAccess.label>城牆通道</CBF_Classical_WallAccess.label>
+  <!-- EN: warehouse -->
+  <CBF_Classical_Warehouse.label>倉庫</CBF_Classical_Warehouse.label>
+  <!-- EN: workshop -->
+  <CBF_Classical_Workshop.label>工坊</CBF_Classical_Workshop.label>
+</LanguageData>

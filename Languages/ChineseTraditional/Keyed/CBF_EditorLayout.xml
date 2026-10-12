@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: {0} pts -->
+  <CBF_GarrisonPoints>{0}點</CBF_GarrisonPoints>
+  <!-- EN: post -->
+  <CBF_GarrisonPost>崗哨</CBF_GarrisonPost>
+  <!-- EN: (no list) -->
+  <CBF_GarrisonNoList>（無清單）</CBF_GarrisonNoList>
+  <!-- EN: Inside -->
+  <CBF_PostInside>內部</CBF_PostInside>
+  <!-- EN: Wall -->
+  <CBF_PostWall>城牆上</CBF_PostWall>
+  <!-- EN: Gate -->
+  <CBF_PostGate>城門</CBF_PostGate>
+  <!-- EN: Replaces the settlement type's defender points ({0} to {1}). Anchor units are added on top and are not counted here. -->
+  <CBF_GarrisonReplaces>取代據點類型的守軍點數（{0}至{1}）。錨點單位另外追加，不計入此處。</CBF_GarrisonReplaces>
+  <!-- EN: Without entries this ward takes its share of the settlement type's defender points ({0} to {1}). -->
+  <CBF_GarrisonFallback>沒有條目時，此城區從據點類型的守軍點數（{0}至{1}）中分得一份。</CBF_GarrisonFallback>
+  <!-- EN: {0} kinds, {1} pts each -->
+  <CBF_GarrisonListSub>{0}種，每種{1}點</CBF_GarrisonListSub>
+  <!-- EN: Role: {0}. Average combat power: {1}. -->
+  <CBF_GarrisonEntryTip>角色：{0}。平均戰鬥力：{1}。</CBF_GarrisonEntryTip>
+  <!-- EN: There are no unit lists yet. Create one in the unit list editor first. -->
+  <CBF_NoPawnLists>還沒有單位清單。請先在單位清單編輯器中建立一個。</CBF_NoPawnLists>
+  <!-- EN: Piece -->
+  <CBF_Tab_Piece>部件</CBF_Tab_Piece>
+  <!-- EN: Settlement -->
+  <CBF_Tab_Settlement>據點</CBF_Tab_Settlement>
+  <!-- EN: Categories -->
+  <CBF_Tab_Categories>類別</CBF_Tab_Categories>
+  <!-- EN: Loot -->
+  <CBF_Tab_Loot>戰利品</CBF_Tab_Loot>
+  <!-- EN: Lists -->
+  <CBF_Tab_Lists>清單</CBF_Tab_Lists>
+  <!-- EN: Pawn -->
+  <CBF_Tab_Pawn>角色</CBF_Tab_Pawn>
+  <!-- EN: Dungeons -->
+  <CBF_Tab_Dungeons>地下城</CBF_Tab_Dungeons>
+  <!-- EN: Comes later. -->
+  <CBF_TabLater>稍後提供。</CBF_TabLater>
+  <!-- EN: {0} is being rebuilt in the next step. -->
+  <CBF_TabComing>{0} 正在下一步驟中重建。</CBF_TabComing>
+  <!-- EN: Forward -->
+  <CBF_H_Forward>前進</CBF_H_Forward>
+  <!-- EN: Saved -->
+  <CBF_H_Saved>已儲存</CBF_H_Saved>
+  <!-- EN: Unsaved -->
+  <CBF_H_Unsaved>未儲存</CBF_H_Unsaved>
+  <!-- EN: Mod -->
+  <CBF_Project>模組</CBF_Project>
+  <!-- EN: Show names -->
+  <CBF_H_BarOpen>顯示名稱</CBF_H_BarOpen>
+  <!-- EN: Icons only -->
+  <CBF_H_BarClose>僅圖示</CBF_H_BarClose>
+  <!-- EN: The file of {0} was not found. -->
+  <CBF_PieceFileMissing>未找到 {0} 的檔案。</CBF_PieceFileMissing>
+  <!-- EN: {0} could not be written, the old file stays. -->
+  <CBF_PieceWriteFailed>{0} 無法寫入，舊檔案保留。</CBF_PieceWriteFailed>
+  <!-- EN: {0} was changed and has been reloaded. -->
+  <CBF_FileReloaded>{0} 已更改並已重新載入。</CBF_FileReloaded>
+  <!-- EN: {0} was changed outside the editor. You have unsaved changes in this file. Reload discards them, Keep leaves your state in place; saving will then overwrite the outside change. -->
+  <CBF_FileChangedUnsaved>{0} 在編輯器之外被更改。你在此檔案中有未儲存的更改。重新載入會丟棄它們，保留會維持你的狀態；隨後儲存將覆蓋外部更改。</CBF_FileChangedUnsaved>
+  <!-- EN: Reload -->
+  <CBF_FileReload>重新載入</CBF_FileReload>
+  <!-- EN: Keep my state -->
+  <CBF_FileKeepMine>保留我的狀態</CBF_FileKeepMine>
+  <!-- EN: Check failed: {0} -->
+  <CBF_CheckFailed>檢查失敗：{0}</CBF_CheckFailed>
+  <!-- EN: Undo -->
+  <CBF_H_Undo>撤銷</CBF_H_Undo>
+  <!-- EN: Redo -->
+  <CBF_H_Redo>重做</CBF_H_Redo>
+  <!-- EN: Undoes: {0}. Keyboard: Ctrl+Z. -->
+  <CBF_H_UndoTip>撤銷：{0}。快捷鍵：Ctrl+Z。</CBF_H_UndoTip>
+  <!-- EN: Redoes the last undone step. Keyboard: Ctrl+Y. -->
+  <CBF_H_RedoTip>重做上一步撤銷的操作。快捷鍵：Ctrl+Y。</CBF_H_RedoTip>
+  <!-- EN: Nothing to undo. -->
+  <CBF_H_NothingToUndo>沒有可撤銷的操作。</CBF_H_NothingToUndo>
+  <!-- EN: Nothing to redo. -->
+  <CBF_H_NothingToRedo>沒有可重做的操作。</CBF_H_NothingToRedo>
+  <!-- EN: Save changed plans ({0}) -->
+  <CBF_Fr_SavePlans>儲存已更改的據點計劃（{0}）</CBF_Fr_SavePlans>
+  <!-- EN: Changes here affect the settlement plans and reach their files when you save. -->
+  <CBF_Fr_Hint>此處的更改會影響據點計劃，儲存後寫入它們的檔案。</CBF_Fr_Hint>
+  <!-- EN: {0} plans saved. -->
+  <CBF_Fr_PlansSaved>已儲存 {0} 個計劃。</CBF_Fr_PlansSaved>
+  <!-- EN: Drag to change the column width, double-click to reset it. -->
+  <CBF_H_ColumnTip>拖動可改變列寬，雙擊可重置。</CBF_H_ColumnTip>
+  <!-- EN: All mods -->
+  <CBF_AllMods>所有模組</CBF_AllMods>
+  <!-- EN: Shows only entries from the chosen mods. Several mods can be chosen. -->
+  <CBF_ModFilterTip>僅顯示所選模組中的條目。可選擇多個模組。</CBF_ModFilterTip>
+  <!-- EN: Unsaved changes -->
+  <CBF_H_UnsavedTip>未儲存的更改</CBF_H_UnsavedTip>
+  <!-- EN: Not saved:\n{0}\n\nClick to jump to the first entry. -->
+  <CBF_H_UnsavedList>未儲存：\n{0}\n\n點選跳到第一個條目。</CBF_H_UnsavedList>
+  <!-- EN: Normal -->
+  <CBF_TileNormal>常規</CBF_TileNormal>
+  <!-- EN: Help for this section -->
+  <CBF_ShowHelp>本部分的幫助</CBF_ShowHelp>
+  <!-- EN: {0} mods -->
+  <CBF_ModsSelected>{0} 個模組</CBF_ModsSelected>
+  <!-- EN: All categories -->
+  <CBF_AllCategories>所有類別</CBF_AllCategories>
+  <!-- EN: {0} shown, {1} hidden -->
+  <CBF_CategoriesSelected>{0} 個顯示，{1} 個隱藏</CBF_CategoriesSelected>
+  <!-- EN: Click a category once to show only it, a second time to hide it, a third time to reset it. Several categories can be combined. -->
+  <CBF_CategoryFilterTip>單擊類別一次僅顯示它，第二次隱藏它，第三次重置。多個類別可組合。</CBF_CategoryFilterTip>
+  <!-- EN: Add all ({0}) -->
+  <CBF_AddAllResults>全部新增（{0}）</CBF_AddAllResults>
+  <!-- EN: Add all {0} results to the table? -->
+  <CBF_AddAllResultsConfirm>將全部 {0} 個結果加入表格？</CBF_AddAllResultsConfirm>
+  <!-- EN: {0} added, {1} were already in the list. -->
+  <CBF_Lo_AddedAll>{0} 個已新增，{1} 個已在清單中。</CBF_Lo_AddedAll>
+  <!-- EN: Apply quality and condition to all entries -->
+  <CBF_Lo_ApplyToAll>將品質與耐久應用到所有條目</CBF_Lo_ApplyToAll>
+  <!-- EN: Apply to all -->
+  <CBF_Lo_ApplyToAllShort>應用到全部</CBF_Lo_ApplyToAllShort>
+  <!-- EN: Copies quality and condition of this entry to the {0} other item and category entries of this table. Entries without quality only get the condition. -->
+  <CBF_Lo_ApplyToAllTip>將本條目的品質與耐久複製到該表的其他 {0} 個物品與類別條目。無品質的條目只獲得耐久。</CBF_Lo_ApplyToAllTip>
+  <!-- EN: The table has no other item or category entries. -->
+  <CBF_Lo_ApplyToAllNone>該表沒有其他物品或類別條目。</CBF_Lo_ApplyToAllNone>
+  <!-- EN: Applied to {0} entries. -->
+  <CBF_Lo_AppliedToAll>已應用到 {0} 個條目。</CBF_Lo_AppliedToAll>
+  <!-- EN: {0}: the minimum is above the maximum. Not saved. -->
+  <CBF_Lo_RangeInverted>{0}：最小值大於最大值。未儲存。</CBF_Lo_RangeInverted>
+  <!-- EN: Show only entries from one mod. Entries from a subfolder like Mods/MedievalOverhaul are listed separately. -->
+  <CBF_ModFilterListTip>僅顯示一個模組中的條目。來自 Mods/MedievalOverhaul 等子資料夾的條目會單獨列出。</CBF_ModFilterListTip>
+  <!-- EN: Filter by mod -->
+  <CBF_ModFilterTitle>按模組篩選</CBF_ModFilterTitle>
+  <!-- EN: Filter by category -->
+  <CBF_CategoryFilterTitle>按類別篩選</CBF_CategoryFilterTitle>
+  <!-- EN: Choose a crop list -->
+  <CBF_S_CropListPick>選擇作物清單</CBF_S_CropListPick>
+  <!-- EN: Choose a settlement type -->
+  <CBF_WorldPlanPick>選擇據點型別</CBF_WorldPlanPick>
+  <!-- EN: Add a weapon tag -->
+  <CBF_PawnAddWeaponTag>新增武器標籤</CBF_PawnAddWeaponTag>
+  <!-- EN: Add an implant tag -->
+  <CBF_PawnAddImplantTag>新增植入物標籤</CBF_PawnAddImplantTag>
+  <!-- EN: Choose a faction -->
+  <CBF_WorldFactionPick>選擇派系</CBF_WorldFactionPick>
+  <!-- EN: Copy quality and condition -->
+  <CBF_Lo_CopyQC>複製品質與耐久</CBF_Lo_CopyQC>
+  <!-- EN: Click entries in the list afterwards to give them the quality and condition of this entry. Any number of entries can be clicked. -->
+  <CBF_Lo_CopyQCTip>隨後點選清單中的條目，為其賦予本條目的品質與耐久。可點選任意數量的條目。</CBF_Lo_CopyQCTip>
+  <!-- EN: Click the entries to copy to. Esc or right click ends it. -->
+  <CBF_Lo_CopyQCHint>點選要複製到的條目。Esc 或右鍵結束。</CBF_Lo_CopyQCHint>
+  <!-- EN: Ends copying. -->
+  <CBF_Lo_CopyQCCancelTip>結束複製。</CBF_Lo_CopyQCCancelTip>
+  <!-- EN: Copy -->
+  <CBF_Lo_CopyShort>複製</CBF_Lo_CopyShort>
+</LanguageData>

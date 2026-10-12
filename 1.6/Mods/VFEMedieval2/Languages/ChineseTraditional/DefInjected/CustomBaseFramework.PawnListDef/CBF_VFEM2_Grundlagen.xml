@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: gate garrison -->
+  <CBF_VFEM2_Garrison_Gate.label>城門駐軍</CBF_VFEM2_Garrison_Gate.label>
+  <!-- EN: inner garrison -->
+  <CBF_VFEM2_Garrison_Inside.label>城內駐軍</CBF_VFEM2_Garrison_Inside.label>
+  <!-- EN: wall garrison -->
+  <CBF_VFEM2_Garrison_Walkway.label>步道駐軍</CBF_VFEM2_Garrison_Walkway.label>
+  <!-- EN: residents -->
+  <CBF_VFEM2_Residents.label>居民</CBF_VFEM2_Residents.label>
+</LanguageData>

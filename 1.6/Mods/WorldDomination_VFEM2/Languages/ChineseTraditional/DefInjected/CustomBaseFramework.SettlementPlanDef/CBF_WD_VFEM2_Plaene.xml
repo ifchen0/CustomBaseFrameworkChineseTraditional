@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: farm camp (VFE Medieval 2) -->
+  <CBF_Plan_WD_VFEM2_FarmCamp.label>農耕營地（VFE Medieval 2）</CBF_Plan_WD_VFEM2_FarmCamp.label>
+  <!-- EN: logging camp (VFE Medieval 2) -->
+  <CBF_Plan_WD_VFEM2_LoggingCamp.label>伐木營地（VFE Medieval 2）</CBF_Plan_WD_VFEM2_LoggingCamp.label>
+  <!-- EN: production village (VFE Medieval 2) -->
+  <CBF_Plan_WD_VFEM2_ProductionVillage.label>生產村莊（VFE Medieval 2）</CBF_Plan_WD_VFEM2_ProductionVillage.label>
+  <!-- EN: slave village (VFE Medieval 2) -->
+  <CBF_Plan_WD_VFEM2_SlaveVillage.label>奴隸村莊（VFE Medieval 2）</CBF_Plan_WD_VFEM2_SlaveVillage.label>
+  <!-- EN: war camp (VFE Medieval 2) -->
+  <CBF_Plan_WD_VFEM2_WarCamp.label>戰爭營地（VFE Medieval 2）</CBF_Plan_WD_VFEM2_WarCamp.label>
+</LanguageData>

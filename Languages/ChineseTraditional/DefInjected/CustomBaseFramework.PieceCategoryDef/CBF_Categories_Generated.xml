@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: camping -->
+  <CBF_Camping.label>營地</CBF_Camping.label>
+  <!-- EN: energy production -->
+  <CBF_EnergyProduction.label>能源生產</CBF_EnergyProduction.label>
+  <!-- EN: market -->
+  <CBF_MO_Market.label>集市</CBF_MO_Market.label>
+  <!-- EN: military -->
+  <CBF_MO_Military.label>軍事</CBF_MO_Military.label>
+  <!-- EN: military wall attachment -->
+  <CBF_MO_MilitaryWallAttachment.label>軍事牆附件</CBF_MO_MilitaryWallAttachment.label>
+  <!-- EN: wall gate house -->
+  <CBF_MO_WallGateHouse.label>城牆門樓</CBF_MO_WallGateHouse.label>
+  <!-- EN: modern house large -->
+  <CBF_ModernHouseLarge.label>現代大屋</CBF_ModernHouseLarge.label>
+  <!-- EN: tent -->
+  <CBF_Tent.label>帳篷</CBF_Tent.label>
+  <!-- EN: defence large -->
+  <CBF_Vanilla_Defence_Large.label>大型防禦工事</CBF_Vanilla_Defence_Large.label>
+  <!-- EN: defense small -->
+  <CBF_Vanilla_Defense_Small.label>小型防禦工事</CBF_Vanilla_Defense_Small.label>
+  <!-- EN: energy production -->
+  <CBF_Vanilla_EnergyProduction.label>能源生產</CBF_Vanilla_EnergyProduction.label>
+  <!-- EN: energy storage -->
+  <CBF_Vanilla_EnergyStorage.label>能源儲存</CBF_Vanilla_EnergyStorage.label>
+  <!-- EN: farmhouse A -->
+  <CBF_Vanilla_FarmhouseA.label>農舍A</CBF_Vanilla_FarmhouseA.label>
+  <!-- EN: house large -->
+  <CBF_Vanilla_HouseLarge.label>大屋</CBF_Vanilla_HouseLarge.label>
+  <!-- EN: house small -->
+  <CBF_Vanilla_HouseSmall.label>小屋</CBF_Vanilla_HouseSmall.label>
+  <!-- EN: inn -->
+  <CBF_Vanilla_Inn.label>客棧</CBF_Vanilla_Inn.label>
+  <!-- EN: solar park -->
+  <CBF_Vanilla_SolarPark.label>太陽能園區</CBF_Vanilla_SolarPark.label>
+  <!-- EN: wind park -->
+  <CBF_Vanilla_WindPark.label>風力園區</CBF_Vanilla_WindPark.label>
+  <!-- EN: workshop -->
+  <CBF_Vanilla_Workshop.label>工坊</CBF_Vanilla_Workshop.label>
+  <!-- EN: dungeon room -->
+  <DungeonRoom.label>地牢房間</DungeonRoom.label>
+  <!-- EN: farm -->
+  <Farm.label>農田</Farm.label>
+  <!-- EN: large house -->
+  <HouseLarge.label>大屋</HouseLarge.label>
+  <!-- EN: small house -->
+  <HouseSmall.label>小屋</HouseSmall.label>
+  <!-- EN: inn -->
+  <Inn.label>客棧</Inn.label>
+  <!-- EN: keep -->
+  <Keep.label>主樓</Keep.label>
+  <!-- EN: well -->
+  <Landmark.label>地標</Landmark.label>
+  <!-- EN: market stall -->
+  <Market.label>集市攤位</Market.label>
+  <!-- EN: military -->
+  <Military.label>軍事</Military.label>
+  <!-- EN: large modern house -->
+  <ModernHouseLarge.label>現代大屋</ModernHouseLarge.label>
+  <!-- EN: small modern house -->
+  <ModernHouseSmall.label>現代小屋</ModernHouseSmall.label>
+  <!-- EN: science -->
+  <Science.label>科學</Science.label>
+  <!-- EN: stable -->
+  <Stable.label>馬廄</Stable.label>
+  <!-- EN: storage -->
+  <Storage.label>儲藏</Storage.label>
+  <!-- EN: gatehouse -->
+  <WallGateHouse.label>門樓</WallGateHouse.label>
+  <!-- EN: wall segment -->
+  <WallSegment.label>城牆段</WallSegment.label>
+  <!-- EN: wall tower -->
+  <WallTower.label>城牆塔樓</WallTower.label>
+  <!-- EN: workshop -->
+  <Workshop.label>工坊</Workshop.label>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: A stand draped in red, holding arms and armor of some renown. -->
+  <CBF_MO_ArmorStand_Red.description>披著紅布的架子，陳列著頗有名氣的武器與盔甲。</CBF_MO_ArmorStand_Red.description>
+  <!-- EN: ornate armor stand -->
+  <CBF_MO_ArmorStand_Red.label>華麗盔甲架</CBF_MO_ArmorStand_Red.label>
+  <!-- EN: A stand with a suit of armor and a helmet. Someone could make use of them. -->
+  <CBF_MO_ArmorStand_White.description>放著一套盔甲和頭盔的架子。也許有人用得上。</CBF_MO_ArmorStand_White.description>
+  <!-- EN: armor stand -->
+  <CBF_MO_ArmorStand_White.label>盔甲架</CBF_MO_ArmorStand_White.label>
+</LanguageData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: bandit camp (VFE M2) -->
+  <CBF_Plan_Camp_VFEM2_Bandits.label>土匪營地（VFE M2）</CBF_Plan_Camp_VFEM2_Bandits.label>
+  <!-- EN: farming site (VFE M2) -->
+  <CBF_Plan_Camp_VFEM2_Farm.label>農耕營地（VFE M2）</CBF_Plan_Camp_VFEM2_Farm.label>
+  <!-- EN: hunting site (VFE M2) -->
+  <CBF_Plan_Camp_VFEM2_Hunting.label>狩獵營地（VFE M2）</CBF_Plan_Camp_VFEM2_Hunting.label>
+  <!-- EN: iron mine (VFE M2) -->
+  <CBF_Plan_Camp_VFEM2_Mining.label>鐵礦場（VFE M2）</CBF_Plan_Camp_VFEM2_Mining.label>
+  <!-- EN: outpost (VFE M2) -->
+  <CBF_Plan_Camp_VFEM2_Outpost.label>哨站（VFE M2）</CBF_Plan_Camp_VFEM2_Outpost.label>
+  <!-- EN: stone mine (VFE M2) -->
+  <CBF_Plan_Camp_VFEM2_Quarry.label>採石場（VFE M2）</CBF_Plan_Camp_VFEM2_Quarry.label>
+  <!-- EN: logging site (VFE M2) -->
+  <CBF_Plan_Camp_VFEM2_Wood.label>伐木營地（VFE M2）</CBF_Plan_Camp_VFEM2_Wood.label>
+</LanguageData>

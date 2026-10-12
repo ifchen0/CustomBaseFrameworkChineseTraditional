@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: A wall of rough fieldstones set in mortar. Cheaper and quicker to build than a proper stone wall, but it does not hold up as well. -->
+  <CBF_MO_CobbleWall.description>用砂漿砌起粗糙田野石塊的牆。比正規石牆便宜、蓋得快，但沒那麼耐用。</CBF_MO_CobbleWall.description>
+  <!-- EN: rubble stone wall -->
+  <CBF_MO_CobbleWall.label>毛石牆</CBF_MO_CobbleWall.label>
+</LanguageData>

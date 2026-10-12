@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Settlement freed -->
+  <CBF_Quest_Wahl_Label>據點已解放</CBF_Quest_Wahl_Label>
+  <!-- EN: The bandits are defeated. {0} of {1} thanks you.\n\nLeave the settlement to the lord: +{3} goodwill. Everything still in the settlement belongs to {1} again. Taking items or claiming buildings there costs goodwill. Items your colonists already carry count as taken.\n\nTake what is left: +{4} goodwill. The settlement stays with the bandits and you can loot freely.\n\nIf you leave the map without deciding, you take what is left. -->
+  <CBF_Quest_Wahl_Text>土匪已被擊敗。{1}的{0}向你致謝。\n\n把據點交還領主：+{3}友好度。據點內剩下的一切重新歸{1}所有。從那裡拿走物品或佔據建築會扣友好度。你的殖民者已經帶在身上的物品也算拿走。\n\n拿走剩下的東西：+{4}友好度。據點仍歸土匪所有，你可以隨意搜刮。\n\n若你沒有做決定就離開地圖，視為拿走剩下的東西。</CBF_Quest_Wahl_Text>
+  <!-- EN: Leave it to the lord (+{0} goodwill) -->
+  <CBF_Quest_Wahl_Fraktion>交還領主（+{0}友好度）</CBF_Quest_Wahl_Fraktion>
+  <!-- EN: Take what is left (+{0} goodwill) -->
+  <CBF_Quest_Wahl_Beute>拿走剩下的東西（+{0}友好度）</CBF_Quest_Wahl_Beute>
+  <!-- EN: Belongs to {0} again. Taking items costs goodwill. -->
+  <CBF_Quest_Ortsgut_Inspect>已重新歸{0}所有。拿走物品會扣友好度。</CBF_Quest_Ortsgut_Inspect>
+  <!-- EN: Belongs to {0}. Taking items costs goodwill. -->
+  <CBF_Quest_Ortsgut_Inspect_Eigen>屬於{0}。拿走物品會扣友好度。</CBF_Quest_Ortsgut_Inspect_Eigen>
+  <!-- EN: No raided settlement on the world map. -->
+  <CBF_Quest_KeinOrt>世界地圖上沒有被劫掠的據點。</CBF_Quest_KeinOrt>
+</LanguageData>

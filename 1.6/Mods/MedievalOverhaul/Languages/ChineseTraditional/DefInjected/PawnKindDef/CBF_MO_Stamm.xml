@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: tribal war archer -->
+  <CBF_MO_TribalArcher.label>部落弓箭手</CBF_MO_TribalArcher.label>
+  <!-- EN: tribal berserker -->
+  <CBF_MO_TribalBerserker.label>部落狂戰士</CBF_MO_TribalBerserker.label>
+  <!-- EN: tribal chief -->
+  <CBF_MO_TribalChief.label>部落酋長</CBF_MO_TribalChief.label>
+  <!-- EN: tribal hunter -->
+  <CBF_MO_TribalHunter.label>部落獵人</CBF_MO_TribalHunter.label>
+  <!-- EN: tribal warrior -->
+  <CBF_MO_TribalWarrior.label>部落戰士</CBF_MO_TribalWarrior.label>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Opens the Custom Base Framework editor and, in dev mode, places or removes the empty marker. The other tools for drawing pieces on the map open from the Piece tab. -->
+  <CBF_Editor.description>開啟 Custom Base Framework 編輯器；在開發者模式下可放置或移除空白標記。在地圖上繪製部件的其他工具從「部件」分頁開啟。</CBF_Editor.description>
+  <!-- EN: CBF base editor -->
+  <CBF_Editor.label>CBF 據點編輯器</CBF_Editor.label>
+</LanguageData>

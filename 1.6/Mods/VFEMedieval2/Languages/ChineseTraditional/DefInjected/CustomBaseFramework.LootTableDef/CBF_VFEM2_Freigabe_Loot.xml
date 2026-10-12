@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: armor and helmets -->
+  <CBF_VFEM2_Goods_Armor.label>鎧甲與頭盔</CBF_VFEM2_Goods_Armor.label>
+  <!-- EN: cloth and leather -->
+  <CBF_VFEM2_Goods_Cloth.label>織物與皮革</CBF_VFEM2_Goods_Cloth.label>
+  <!-- EN: clothing goods -->
+  <CBF_VFEM2_Goods_Clothing.label>衣物</CBF_VFEM2_Goods_Clothing.label>
+  <!-- EN: drinks -->
+  <CBF_VFEM2_Goods_Drink.label>飲品</CBF_VFEM2_Goods_Drink.label>
+  <!-- EN: medicine -->
+  <CBF_VFEM2_Goods_Healing.label>療傷藥品</CBF_VFEM2_Goods_Healing.label>
+  <!-- EN: money goods -->
+  <CBF_VFEM2_Goods_Money.label>金錢與首飾</CBF_VFEM2_Goods_Money.label>
+  <!-- EN: raw materials -->
+  <CBF_VFEM2_Goods_RawMaterial.label>原材料</CBF_VFEM2_Goods_RawMaterial.label>
+  <!-- EN: supplies -->
+  <CBF_VFEM2_Goods_Supplies.label>補給品</CBF_VFEM2_Goods_Supplies.label>
+  <!-- EN: medieval weapons -->
+  <CBF_VFEM2_Goods_Weapon.label>中世紀武器</CBF_VFEM2_Goods_Weapon.label>
+  <!-- EN: alehouse loot -->
+  <CBF_VFEM2_Loot_Alehouse.label>酒館</CBF_VFEM2_Loot_Alehouse.label>
+  <!-- EN: armory loot -->
+  <CBF_VFEM2_Loot_Armory.label>武器庫</CBF_VFEM2_Loot_Armory.label>
+  <!-- EN: dwelling loot -->
+  <CBF_VFEM2_Loot_Dwelling.label>民居</CBF_VFEM2_Loot_Dwelling.label>
+  <!-- EN: hut loot -->
+  <CBF_VFEM2_Loot_Hut.label>小屋</CBF_VFEM2_Loot_Hut.label>
+  <!-- EN: kitchen loot -->
+  <CBF_VFEM2_Loot_Kitchen.label>廚房</CBF_VFEM2_Loot_Kitchen.label>
+  <!-- EN: market loot -->
+  <CBF_VFEM2_Loot_Market.label>集市</CBF_VFEM2_Loot_Market.label>
+  <!-- EN: little loot -->
+  <CBF_VFEM2_Loot_Minimal.label>少量戰利品</CBF_VFEM2_Loot_Minimal.label>
+  <!-- EN: smithy loot -->
+  <CBF_VFEM2_Loot_Smithy.label>鐵匠鋪</CBF_VFEM2_Loot_Smithy.label>
+  <!-- EN: treasure loot -->
+  <CBF_VFEM2_Loot_Treasure.label>財寶</CBF_VFEM2_Loot_Treasure.label>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: A marker for the settlement editor. A cell painted with it belongs to the piece, but nothing is built there and the existing ground stays untouched. It never appears in a generated settlement. -->
+  <CBF_EmptyCell.description>據點編輯器用的標記。塗上它的格子屬於該部件，但那裡不會建造任何東西，原有地面也保持不變。它不會出現在生成的據點中。</CBF_EmptyCell.description>
+  <!-- EN: empty marker -->
+  <CBF_EmptyCell.label>空白標記</CBF_EmptyCell.label>
+</LanguageData>

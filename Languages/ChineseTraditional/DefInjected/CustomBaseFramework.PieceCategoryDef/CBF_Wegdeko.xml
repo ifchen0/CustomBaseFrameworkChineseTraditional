@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: path decoration -->
+  <CBF_PathDecor.label>道路裝飾</CBF_PathDecor.label>
+  <!-- EN: modern path decoration -->
+  <CBF_PathDecorModern.label>現代道路裝飾</CBF_PathDecorModern.label>
+</LanguageData>

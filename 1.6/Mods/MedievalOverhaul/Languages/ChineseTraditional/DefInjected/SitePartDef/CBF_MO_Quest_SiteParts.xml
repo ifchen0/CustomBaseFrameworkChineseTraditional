@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Bandits are storming the settlement. Its defenders are still fighting. -->
+  <CBF_MO_Quest_ContestedSite.arrivedLetter>土匪正在猛攻據點，守軍仍在奮戰。</CBF_MO_Quest_ContestedSite.arrivedLetter>
+  <!-- EN: A settlement under attack by bandits. The defenders are holding out, but not for long. -->
+  <CBF_MO_Quest_ContestedSite.description>一座遭土匪攻擊的據點。守軍還在撐，但撐不了多久。</CBF_MO_Quest_ContestedSite.description>
+  <!-- EN: settlement under attack -->
+  <CBF_MO_Quest_ContestedSite.label>遭受攻擊的據點</CBF_MO_Quest_ContestedSite.label>
+  <!-- EN: Attack {0} -->
+  <CBF_MO_Quest_RaidedSite.approachOrderString>攻擊{0}</CBF_MO_Quest_RaidedSite.approachOrderString>
+  <!-- EN: Attacking {0}. -->
+  <CBF_MO_Quest_RaidedSite.approachingReportString>正在攻擊{0}。</CBF_MO_Quest_RaidedSite.approachingReportString>
+  <!-- EN: Bandits hold the settlement. -->
+  <CBF_MO_Quest_RaidedSite.arrivedLetter>土匪佔據了這座據點。</CBF_MO_Quest_RaidedSite.arrivedLetter>
+  <!-- EN: A settlement recently overrun by bandits. Parts of it are burnt and the walls are breached. -->
+  <CBF_MO_Quest_RaidedSite.description>一座剛被土匪攻陷的據點。部分區域被燒毀，城牆也被攻破。</CBF_MO_Quest_RaidedSite.description>
+  <!-- EN: raided settlement -->
+  <CBF_MO_Quest_RaidedSite.label>遭劫掠的據點</CBF_MO_Quest_RaidedSite.label>
+</LanguageData>

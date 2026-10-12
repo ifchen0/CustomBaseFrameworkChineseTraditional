@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Used -->
+  <CBF_K_Used>使用中</CBF_K_Used>
+  <!-- EN: Create a new category. It goes into your mod's category file. -->
+  <CBF_K_NewTip>建立一個新類別。它會進入你的模組的類別檔案。</CBF_K_NewTip>
+  <!-- EN: Pick a category on the left. -->
+  <CBF_K_PickOne>在左側選擇一個類別。</CBF_K_PickOne>
+  <!-- EN: Opens the category's file in your text editor. The editor reloads changes made there on its own. -->
+  <CBF_K_OpenFileTip>在文字編輯器中開啟該類別的檔案。編輯器會自動重新載入此處的更改。</CBF_K_OpenFileTip>
+  <!-- EN: 1 piece -->
+  <CBF_K_OnePiece>1 個部件</CBF_K_OnePiece>
+  <!-- EN: Click opens the piece in the Piece tab. Back returns here. -->
+  <CBF_K_TileTip>點選在部件選項卡中開啟該部件。返回可回到此處。</CBF_K_TileTip>
+  <!-- EN: Used in: -->
+  <CBF_K_UsedIn>使用於：</CBF_K_UsedIn>
+  <!-- EN: No settlement uses this category directly. -->
+  <CBF_K_NotUsed>沒有據點直接使用該類別。</CBF_K_NotUsed>
+  <!-- EN: {0}, district {1}, {2} to {3} -->
+  <CBF_K_UsedInDistrict>{0}，區 {1}，{2} 至 {3}</CBF_K_UsedInDistrict>
+  <!-- EN: {0}, fortification -->
+  <CBF_K_UsedInWalls>{0}，防禦工事</CBF_K_UsedInWalls>
+  <!-- EN: Category -->
+  <CBF_Category>類別</CBF_Category>
+  <!-- EN: Parent -->
+  <CBF_K_Parent>父級</CBF_K_Parent>
+  <!-- EN: The category this one inherits from. Whatever is not set here comes from there. -->
+  <CBF_K_ParentTip>該類別的繼承來源。此處未設定的內容來自那裡。</CBF_K_ParentTip>
+  <!-- EN: Placement -->
+  <CBF_K_Placement>放置</CBF_K_Placement>
+  <!-- EN: Road access -->
+  <CBF_K_RoadAccess>道路可達</CBF_K_RoadAccess>
+  <!-- EN: Must be reachable from the road network. -->
+  <CBF_K_RoadAccessTip>必須能從道路網路到達。</CBF_K_RoadAccessTip>
+  <!-- EN: Unique -->
+  <CBF_Unique>唯一</CBF_Unique>
+  <!-- EN: At most one per settlement. -->
+  <CBF_K_UniqueTip>每個據點至多一個。</CBF_K_UniqueTip>
+  <!-- EN: Wall contact -->
+  <CBF_K_WallContact>貼牆</CBF_K_WallContact>
+  <!-- EN: Yes: pieces of this category prefer to stand at the town wall. The piece field "At the wall" controls it more finely and wins. -->
+  <CBF_K_WallContactTip>是：該類別的部件偏好緊靠城牆。部件欄位"貼牆"可更精細地控制並優先。</CBF_K_WallContactTip>
+  <!-- EN: Near the gate -->
+  <CBF_K_PrefGate>靠近城門</CBF_K_PrefGate>
+  <!-- EN: How strongly this wants to be near the gate. -->
+  <CBF_K_PrefGateTip>希望靠近城門的程度。</CBF_K_PrefGateTip>
+  <!-- EN: Near the center -->
+  <CBF_K_PrefCenter>靠近中心</CBF_K_PrefCenter>
+  <!-- EN: How strongly this wants to be near the center. -->
+  <CBF_K_PrefCenterTip>希望靠近中心的程度。</CBF_K_PrefCenterTip>
+  <!-- EN: Near the wall -->
+  <CBF_K_PrefWall>靠近城牆</CBF_K_PrefWall>
+  <!-- EN: How strongly this wants to be near the wall. -->
+  <CBF_K_PrefWallTip>希望靠近城牆的程度。</CBF_K_PrefWallTip>
+  <!-- EN: Main road -->
+  <CBF_K_PrefMain>主幹道</CBF_K_PrefMain>
+  <!-- EN: How strongly this wants to be on the main road. -->
+  <CBF_K_PrefMainTip>希望位於主幹道上的程度。</CBF_K_PrefMainTip>
+  <!-- EN: Blocks -->
+  <CBF_K_Blocks>街區</CBF_K_Blocks>
+  <!-- EN: Block limit -->
+  <CBF_K_BlockMax>街區上限</CBF_K_BlockMax>
+  <!-- EN: How many buildings of this category at most form one block wall to wall. Empty means the planner uses its default of 3. -->
+  <CBF_K_BlockMaxTip>該類別的建築至多多少棟連成一面牆的街區。留空則使用規劃器的預設值 3。</CBF_K_BlockMaxTip>
+  <!-- EN: Merge -->
+  <CBF_K_Merge>合併</CBF_K_Merge>
+  <!-- EN: Whether buildings of this category join their neighbors into one block. Yes forces it, No forbids it. -->
+  <CBF_K_MergeTip>該類別的建築是否與相鄰建築連成一個街區。是則強制合併，否則禁止。</CBF_K_MergeTip>
+  <!-- EN: inherits -->
+  <CBF_K_Inherits>繼承</CBF_K_Inherits>
+  <!-- EN: Without a value of its own, {0} applies, from {1}. -->
+  <CBF_K_InheritsFrom>沒有自有值時，採用 {0}，來自 {1}。</CBF_K_InheritsFrom>
+  <!-- EN: inherits {0} -->
+  <CBF_K_InheritsValue>繼承 {0}</CBF_K_InheritsValue>
+  <!-- EN: the default -->
+  <CBF_K_Default>預設值</CBF_K_Default>
+  <!-- EN: Chain: no parent category -->
+  <CBF_K_NoParentChain>繼承鏈：無父級類別</CBF_K_NoParentChain>
+  <!-- EN: Chain: {0} -->
+  <CBF_K_Chain>繼承鏈：{0}</CBF_K_Chain>
+  <!-- EN: {0} belongs to the mod {1}. The editor does not save changes to it. -->
+  <CBF_K_Foreign>{0} 屬於模組 {1}。編輯器不會儲存對它的更改。</CBF_K_Foreign>
+  <!-- EN: Opens the settlement. -->
+  <CBF_K_UsedInJump>開啟該據點。</CBF_K_UsedInJump>
+  <!-- EN: Weight -->
+  <CBF_K_Weight>權重</CBF_K_Weight>
+  <!-- EN: How often pieces of this category are drawn when several fit. 1 is normal. For annexes, a value below 1 also acts as the chance that the annex is tried at all. -->
+  <CBF_K_WeightTip>多個部件適配時，該類別的部件被選中的頻率。1 為正常。對於附屬建築，低於 1 的值還兼作嘗試建造附屬建築的機率。</CBF_K_WeightTip>
+  <!-- EN: Annexes -->
+  <CBF_K_Annexes>附屬建築</CBF_K_Annexes>
+  <!-- EN: Annex categories -->
+  <CBF_K_AnnexCategories>附屬類別</CBF_K_AnnexCategories>
+  <!-- EN: Which annexes may attach to pieces of this category. Empty takes the list of the parent category. -->
+  <CBF_K_AnnexCategoriesTip>哪些附屬建築可以附加到該類別的部件上。留空則取父級類別的清單。</CBF_K_AnnexCategoriesTip>
+  <!-- EN: Click removes the category. -->
+  <CBF_K_AnnexRemoveTip>點選移除該類別。</CBF_K_AnnexRemoveTip>
+  <!-- EN: none -->
+  <CBF_K_AnnexNone>無</CBF_K_AnnexNone>
+  <!-- EN: Add annex category -->
+  <CBF_K_AnnexAdd>新增附屬類別</CBF_K_AnnexAdd>
+  <!-- EN: Chance per anchor -->
+  <CBF_K_AnnexChance>每錨點機率</CBF_K_AnnexChance>
+  <!-- EN: Chance that an annex is built at an annex anchor of the house. Default 0.6. -->
+  <CBF_K_AnnexChanceTip>在房屋的附屬錨點上建造附屬建築的機率。預設 0.6。</CBF_K_AnnexChanceTip>
+  <!-- EN: At most -->
+  <CBF_K_AnnexMax>至多</CBF_K_AnnexMax>
+  <!-- EN: At most this many annexes per house. Default 2. -->
+  <CBF_K_AnnexMaxTip>每棟房屋至多建造這麼多附屬建築。預設 2。</CBF_K_AnnexMaxTip>
+  <!-- EN: Repeatable -->
+  <CBF_K_AnnexMultiple>可重複</CBF_K_AnnexMultiple>
+  <!-- EN: Applies to the category of the annex. Yes allows the same annex several times on the same house. -->
+  <CBF_K_AnnexMultipleTip>適用於附屬建築的類別。是：允許同一附屬建築在同一棟房屋上多次附加。</CBF_K_AnnexMultipleTip>
+  <!-- EN: Full wall -->
+  <CBF_K_AnnexFull>整面牆</CBF_K_AnnexFull>
+  <!-- EN: Applies to the category of the annex. Yes: the annex only attaches where it covers the whole wall side of the house, end to end. -->
+  <CBF_K_AnnexFullTip>適用於附屬建築的類別。是：附屬建築僅當其完全覆蓋房屋整面牆、從頭到尾時才附加。</CBF_K_AnnexFullTip>
+  <!-- EN: Overhang -->
+  <CBF_K_AnnexOverhang>懸出</CBF_K_AnnexOverhang>
+  <!-- EN: With Full wall: how many cells the annex must reach past the house wall at each end. 0 means flush. -->
+  <CBF_K_AnnexOverhangTip>與"整面牆"配合：附屬建築兩端必須超出房屋牆面多少格。0 表示齊平。</CBF_K_AnnexOverhangTip>
+  <!-- EN: Needs no road -->
+  <CBF_K_NoRoad>無需道路</CBF_K_NoRoad>
+  <!-- EN: Buildings of this category need no road and may be entered from every side, like a farm or a market. Only takes effect when Road access is No. Where they stand is decided by the budget of the ward. -->
+  <CBF_K_NoRoadTip>該類別的建築無需道路，可從四面進入，例如農場或集市。僅當"道路可達"設為否時生效。它們的位置由區劃的預算決定。</CBF_K_NoRoadTip>
+</LanguageData>

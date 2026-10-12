@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: giant turret ammo -->
+  <CBF_Vanilla_Goods_GiantAmmo_Steel.label>巨型砲塔彈藥</CBF_Vanilla_Goods_GiantAmmo_Steel.label>
+  <!-- EN: giant turret uranium ammo -->
+  <CBF_Vanilla_Goods_GiantAmmo_Uranium.label>巨型砲塔鈾彈</CBF_Vanilla_Goods_GiantAmmo_Uranium.label>
+  <!-- EN: giant turret ammo -->
+  <CBF_Vanilla_Loot_GiantAmmo_Steel.label>巨型砲塔彈藥</CBF_Vanilla_Loot_GiantAmmo_Steel.label>
+  <!-- EN: giant turret uranium ammo -->
+  <CBF_Vanilla_Loot_GiantAmmo_Uranium.label>巨型砲塔鈾彈</CBF_Vanilla_Loot_GiantAmmo_Uranium.label>
+</LanguageData>

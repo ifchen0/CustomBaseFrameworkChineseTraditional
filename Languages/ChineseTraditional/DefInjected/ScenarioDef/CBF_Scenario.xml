@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Your group reaches a settlement that was abandoned long ago. Walls are broken, roofs have fallen in and trees grow through the floors. The buildings can be claimed and repaired. Something may still be sleeping inside. -->
+  <CBF_Scenario_RuinModern.description>你的隊伍來到一座荒廢已久的據點。城牆破損，屋頂塌陷，樹木從地板中長了出來。這些建築可以佔據並修復。裡面也許還有什麼在沉睡。</CBF_Scenario_RuinModern.description>
+  <!-- EN: Ruins of a Town -->
+  <CBF_Scenario_RuinModern.label>城鎮廢墟</CBF_Scenario_RuinModern.label>
+  <!-- EN: Your group reaches a settlement that was abandoned long ago. Walls are broken, roofs have fallen in and trees grow through the floors. The buildings can be claimed and repaired. Something may still be sleeping inside. -->
+  <CBF_Scenario_RuinModern.scenario.description>你的隊伍來到一座荒廢已久的據點。城牆破損，屋頂塌陷，樹木從地板中長了出來。這些建築可以佔據並修復。裡面也許還有什麼在沉睡。</CBF_Scenario_RuinModern.scenario.description>
+  <!-- EN: Ruins of a Town -->
+  <CBF_Scenario_RuinModern.scenario.name>城鎮廢墟</CBF_Scenario_RuinModern.scenario.name>
+  <!-- EN: Four settlers in the ruins of an abandoned settlement. -->
+  <CBF_Scenario_RuinModern.scenario.summary>四名殖民者，身處一座荒廢的據點廢墟。</CBF_Scenario_RuinModern.scenario.summary>
+</LanguageData>

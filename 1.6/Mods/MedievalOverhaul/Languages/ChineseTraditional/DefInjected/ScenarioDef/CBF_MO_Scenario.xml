@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Your group reaches a village that was abandoned long ago. Walls are broken, roofs have fallen in and trees grow through the floors. The buildings can be claimed and repaired. Something may still be sleeping inside. -->
+  <CBF_MO_Scenario_RuinMedieval.description>你的隊伍來到一座荒廢已久的村莊。城牆破損，屋頂塌陷，樹木從地板中長了出來。這些建築可以佔據並修復。裡面也許還有什麼在沉睡。</CBF_MO_Scenario_RuinMedieval.description>
+  <!-- EN: Ruins of a Village -->
+  <CBF_MO_Scenario_RuinMedieval.label>村莊廢墟</CBF_MO_Scenario_RuinMedieval.label>
+  <!-- EN: Your group reaches a village that was abandoned long ago. Walls are broken, roofs have fallen in and trees grow through the floors. The buildings can be claimed and repaired. Something may still be sleeping inside. -->
+  <CBF_MO_Scenario_RuinMedieval.scenario.description>你的隊伍來到一座荒廢已久的村莊。城牆破損，屋頂塌陷，樹木從地板中長了出來。這些建築可以佔據並修復。裡面也許還有什麼在沉睡。</CBF_MO_Scenario_RuinMedieval.scenario.description>
+  <!-- EN: Ruins of a Village -->
+  <CBF_MO_Scenario_RuinMedieval.scenario.name>村莊廢墟</CBF_MO_Scenario_RuinMedieval.scenario.name>
+  <!-- EN: Four settlers in the ruins of an abandoned medieval settlement. -->
+  <CBF_MO_Scenario_RuinMedieval.scenario.summary>四名殖民者，身處一座荒廢的中世紀據點廢墟。</CBF_MO_Scenario_RuinMedieval.scenario.summary>
+</LanguageData>

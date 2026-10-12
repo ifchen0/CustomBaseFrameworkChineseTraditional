@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Object lists -->
+  <CBF_Lo_Lists>物品清單</CBF_Lo_Lists>
+  <!-- EN: Lists -->
+  <CBF_Lo_ListsShort>清單</CBF_Lo_ListsShort>
+  <!-- EN: Loot tables -->
+  <CBF_Lo_Tables>戰利品表</CBF_Lo_Tables>
+  <!-- EN: Tables -->
+  <CBF_Lo_TablesShort>表</CBF_Lo_TablesShort>
+  <!-- EN: Containers -->
+  <CBF_Containers>容器</CBF_Containers>
+  <!-- EN: Containers -->
+  <CBF_ContainersShort>容器</CBF_ContainersShort>
+  <!-- EN: Crop lists -->
+  <CBF_Lo_Crops>作物清單</CBF_Lo_Crops>
+  <!-- EN: Crops -->
+  <CBF_Lo_CropsShort>作物</CBF_Lo_CropsShort>
+  <!-- EN: Create a new object list. You pick its structures. -->
+  <CBF_Lo_NewTip0>建立新的物品清單。你來挑選其中的建築。</CBF_Lo_NewTip0>
+  <!-- EN: Create a new, empty loot table. It reaches the file only when you save. -->
+  <CBF_Lo_NewTip1>建立新的空戰利品表。它只在儲存時寫入檔案。</CBF_Lo_NewTip1>
+  <!-- EN: Create a new container, with images for full and empty. -->
+  <CBF_Lo_NewTip2>建立新容器，帶裝滿與空置的圖片。</CBF_Lo_NewTip2>
+  <!-- EN: Pick an entry on the left. -->
+  <CBF_Lo_PickOne>在左側選擇一個條目。</CBF_Lo_PickOne>
+  <!-- EN: Opens the file in your text editor. The editor reloads changes made there on its own. -->
+  <CBF_Lo_OpenFileTip>在文字編輯器中開啟檔案。編輯器會自動重新載入此處的更改。</CBF_Lo_OpenFileTip>
+  <!-- EN: Red means: nothing in the table exists in the game. -->
+  <CBF_Lo_ListHintTables>紅色表示：表中沒有任何內容在遊戲中存在。</CBF_Lo_ListHintTables>
+  <!-- EN: 1 roll -->
+  <CBF_Lo_OneRoll>1 次抽取</CBF_Lo_OneRoll>
+  <!-- EN: {0} rolls -->
+  <CBF_Lo_NRolls>{0} 次抽取</CBF_Lo_NRolls>
+  <!-- EN: {0} to {1} % -->
+  <CBF_Lo_RangePct>{0} 至 {1}%</CBF_Lo_RangePct>
+  <!-- EN: always -->
+  <CBF_Lo_AlwaysShort>始終</CBF_Lo_AlwaysShort>
+  <!-- EN: Drawn by weight -->
+  <CBF_Lo_Weighted>按權重抽取</CBF_Lo_Weighted>
+  <!-- EN: Item -->
+  <CBF_Item>物品</CBF_Item>
+  <!-- EN: Share -->
+  <CBF_Lo_Share>份額</CBF_Lo_Share>
+  <!-- EN: Quality -->
+  <CBF_Lo_Quality>品質</CBF_Lo_Quality>
+  <!-- EN: Condition -->
+  <CBF_Lo_Condition>耐久</CBF_Lo_Condition>
+  <!-- EN: + Item -->
+  <CBF_Lo_AddItem>+ 物品</CBF_Lo_AddItem>
+  <!-- EN: + Table -->
+  <CBF_Lo_AddTable>+ 表</CBF_Lo_AddTable>
+  <!-- EN: + Category -->
+  <CBF_Lo_AddCategory>+ 類別</CBF_Lo_AddCategory>
+  <!-- EN: Affects -->
+  <CBF_Lo_Affects>影響</CBF_Lo_Affects>
+  <!-- EN: {0} tables, {1} settlements -->
+  <CBF_Lo_AffectsSummary>{0} 張表，{1} 個據點</CBF_Lo_AffectsSummary>
+  <!-- EN: Directly part of -->
+  <CBF_Lo_DirectIn>直接隸屬於</CBF_Lo_DirectIn>
+  <!-- EN: No other table draws this one. -->
+  <CBF_Lo_NoParents>沒有其他表引用這張表。</CBF_Lo_NoParents>
+  <!-- EN: Through pieces in settlements -->
+  <CBF_Lo_ThroughPlans>透過據點中的部件</CBF_Lo_ThroughPlans>
+  <!-- EN: No settlement reaches this table. -->
+  <CBF_Lo_NoPlans>沒有據點使用這張表。</CBF_Lo_NoPlans>
+  <!-- EN: wt. {0} -->
+  <CBF_Lo_WeightN>權重 {0}</CBF_Lo_WeightN>
+  <!-- EN: Table -->
+  <CBF_Table>表</CBF_Table>
+  <!-- EN: Rolls -->
+  <CBF_Lo_Rolls>抽取次數</CBF_Lo_Rolls>
+  <!-- EN: Chance -->
+  <CBF_Lo_RollChance>機率</CBF_Lo_RollChance>
+  <!-- EN: each entry at most once -->
+  <CBF_Lo_UniqueHint>每個條目至多一次</CBF_Lo_UniqueHint>
+  <!-- EN: If empty -->
+  <CBF_Lo_Fallback>若為空</CBF_Lo_Fallback>
+  <!-- EN: If this table yields nothing, the one picked here is drawn instead. -->
+  <CBF_Lo_FallbackTip>若此表一無所獲，則改為抽取此處選定的表。</CBF_Lo_FallbackTip>
+  <!-- EN: Selected entry -->
+  <CBF_Lo_Entry>所選條目</CBF_Lo_Entry>
+  <!-- EN: Kind -->
+  <CBF_Lo_Kind>種類</CBF_Lo_Kind>
+  <!-- EN: to -->
+  <CBF_Lo_To>至</CBF_Lo_To>
+  <!-- EN: Up to tech -->
+  <CBF_Lo_MaxTech>科技上限</CBF_Lo_MaxTech>
+  <!-- EN: Any -->
+  <CBF_Lo_AnyStuff>任意材料</CBF_Lo_AnyStuff>
+  <!-- EN: If missing -->
+  <CBF_Lo_OnMissing>若缺失</CBF_Lo_OnMissing>
+  <!-- EN: Skip -->
+  <CBF_Lo_Missing_Skip>跳過</CBF_Lo_Missing_Skip>
+  <!-- EN: Use a fallback -->
+  <CBF_Lo_Missing_Fallback>使用後備</CBF_Lo_Missing_Fallback>
+  <!-- EN: Silver of equal value -->
+  <CBF_Lo_Missing_Silver>等值白銀</CBF_Lo_Missing_Silver>
+  <!-- EN: Only editable in the file, kept when saving: {0} -->
+  <CBF_Lo_FileOnly>僅在檔案中可編輯，儲存時保留：{0}</CBF_Lo_FileOnly>
+  <!-- EN: Structures -->
+  <CBF_Lo_Structures>建築</CBF_Lo_Structures>
+  <!-- EN: When emptied -->
+  <CBF_Lo_WhenEmpty>清空時</CBF_Lo_WhenEmpty>
+  <!-- EN: Pick structures -->
+  <CBF_Lo_PickStructures>挑選建築</CBF_Lo_PickStructures>
+  <!-- EN: Used in -->
+  <CBF_Lo_UsedIn>使用於</CBF_Lo_UsedIn>
+  <!-- EN: List -->
+  <CBF_Lo_List>清單</CBF_Lo_List>
+  <!-- EN: Display -->
+  <CBF_Lo_Display>顯示</CBF_Lo_Display>
+  <!-- EN: Fill: containers are filled with loot. Empty: they are just furniture. -->
+  <CBF_Lo_DisplayTip>填充：容器會裝滿戰利品。空置：它們只是傢俱。</CBF_Lo_DisplayTip>
+  <!-- EN: Pawn inside -->
+  <CBF_Lo_PawnInside>內部角色</CBF_Lo_PawnInside>
+  <!-- EN: With a pawn list someone can jump out when it is opened. -->
+  <CBF_Lo_PawnInsideHint>帶角色清單時，開啟容器會有人跳出來。</CBF_Lo_PawnInsideHint>
+  <!-- EN: Hostile -->
+  <CBF_Lo_Hostile>敵對</CBF_Lo_Hostile>
+  <!-- EN: Faction -->
+  <CBF_Lo_Faction>派系</CBF_Lo_Faction>
+  <!-- EN: Any hostile -->
+  <CBF_Lo_AnyHostile>任意敵對</CBF_Lo_AnyHostile>
+  <!-- EN: Full -->
+  <CBF_Lo_ImageFull>裝滿圖</CBF_Lo_ImageFull>
+  <!-- EN: In object lists -->
+  <CBF_Lo_InLists>位於物品清單</CBF_Lo_InLists>
+  <!-- EN: Not in any object list. -->
+  <CBF_Lo_InNoList>不在任何物品清單中。</CBF_Lo_InNoList>
+  <!-- EN: Container -->
+  <CBF_Lo_Container>容器</CBF_Lo_Container>
+  <!-- EN: Texture -->
+  <CBF_Lo_Texture>貼圖</CBF_Lo_Texture>
+  <!-- EN: Origin -->
+  <CBF_Lo_Origin>來源</CBF_Lo_Origin>
+  <!-- EN: After emptying -->
+  <CBF_Lo_WhenEmptied>清空之後</CBF_Lo_WhenEmptied>
+  <!-- EN: Becomes -->
+  <CBF_Lo_Replacement>變為</CBF_Lo_Replacement>
+  <!-- EN: Vanishes -->
+  <CBF_Lo_Vanish>消失</CBF_Lo_Vanish>
+  <!-- EN: Edit container -->
+  <CBF_Lo_EditContainer>編輯容器</CBF_Lo_EditContainer>
+  <!-- EN: Opens the container window with this one as the template. -->
+  <CBF_Lo_EditContainerTip>以此容器為模板開啟容器視窗。</CBF_Lo_EditContainerTip>
+  <!-- EN: Changes reach the file only when you save. -->
+  <CBF_Lo_FooterHint>更改僅在儲存時寫入檔案。</CBF_Lo_FooterHint>
+  <!-- EN: Sample -->
+  <CBF_Lo_Sample>試抽</CBF_Lo_Sample>
+  <!-- EN: Draws the saved table a few times and shows the result. -->
+  <CBF_Lo_SampleTip>把已儲存的表抽取幾次並顯示結果。</CBF_Lo_SampleTip>
+  <!-- EN: Create a new crop list. It reaches the file only when you save. -->
+  <CBF_Lo_NewTip3>建立新的作物清單。它只在儲存時寫入檔案。</CBF_Lo_NewTip3>
+  <!-- EN: {0} plants -->
+  <CBF_Lo_CropCount>{0} 種作物</CBF_Lo_CropCount>
+  <!-- EN: Fields and pens that name this list draw their plants from it by weight. A change here affects all of them. -->
+  <CBF_Lo_CropHint>引用此清單的農田與畜欄會按權重從其中抽取作物。此處的更改會影響它們全部。</CBF_Lo_CropHint>
+  <!-- EN: Plant -->
+  <CBF_Lo_Plant>作物</CBF_Lo_Plant>
+  <!-- EN: No plants in the list yet. -->
+  <CBF_Lo_CropEmpty>清單中還沒有作物。</CBF_Lo_CropEmpty>
+  <!-- EN: Pick plants -->
+  <CBF_Lo_AddPlants>挑選作物</CBF_Lo_AddPlants>
+  <!-- EN: No field and no pen names this list. -->
+  <CBF_Lo_CropUnused>沒有農田或畜欄引用此清單。</CBF_Lo_CropUnused>
+  <!-- EN: field in {0} -->
+  <CBF_Lo_CropFieldIn>{0} 中的農田</CBF_Lo_CropFieldIn>
+  <!-- EN: pen in {0} -->
+  <CBF_Lo_CropPenIn>{0} 中的畜欄</CBF_Lo_CropPenIn>
+  <!-- EN: In the Settlement tab you pick the list for each field and pen. Without a list, the individually chosen plants apply there. -->
+  <CBF_Lo_CropRightHint>在據點選項卡中為每塊農田和畜欄選擇清單。沒有清單時，使用那裡單獨選擇的作物。</CBF_Lo_CropRightHint>
+  <!-- EN: {0} saved, {1} plants. -->
+  <CBF_Lo_CropSaved>{0} 已儲存，{1} 種作物。</CBF_Lo_CropSaved>
+  <!-- EN: No crop list. -->
+  <CBF_Lo_CropNone>沒有作物清單。</CBF_Lo_CropNone>
+  <!-- EN: The mod folder was not found. -->
+  <CBF_Lo_CropNoProject>未找到模組資料夾。</CBF_Lo_CropNoProject>
+  <!-- EN: Highlighted: {0} -->
+  <CBF_Lo_AtAnchors>已高亮：{0}</CBF_Lo_AtAnchors>
+  <!-- EN: Show -->
+  <CBF_PawnKindFilter>顯示</CBF_PawnKindFilter>
+  <!-- EN: People -->
+  <CBF_PawnKindPeople>人類</CBF_PawnKindPeople>
+  <!-- EN: Animals -->
+  <CBF_PawnKindAnimals>動物</CBF_PawnKindAnimals>
+  <!-- EN: Edit this pawn list -->
+  <CBF_EditPawnListTip>編輯此角色清單</CBF_EditPawnListTip>
+  <!-- EN: Material lists -->
+  <CBF_Lo_MaterialLists>材料清單</CBF_Lo_MaterialLists>
+  <!-- EN: Materials -->
+  <CBF_Lo_MaterialListsShort>材料</CBF_Lo_MaterialListsShort>
+  <!-- EN: Create a new material list. It inherits from the base list and reaches the file only when you save. -->
+  <CBF_Lo_NewTip4>建立新的材料清單。它繼承自基礎清單，且只在儲存時寫入檔案。</CBF_Lo_NewTip4>
+  <!-- EN: Create a new floor list. It reaches the file only when you save. -->
+  <CBF_Lo_NewTip5>建立新的地板清單。僅在儲存時寫入檔案。</CBF_Lo_NewTip5>
+  <!-- EN: No material list. -->
+  <CBF_Mat_None>沒有材料清單。</CBF_Mat_None>
+  <!-- EN: Material list -->
+  <CBF_Mat_List>材料清單</CBF_Mat_List>
+  <!-- EN: Stone of the map -->
+  <CBF_Mat_MapStone>地圖的石頭</CBF_Mat_MapStone>
+  <!-- EN: Blocks from the rock of the map tile. -->
+  <CBF_Mat_MapStoneTip>來自地圖地塊岩石的塊材。</CBF_Mat_MapStoneTip>
+  <!-- EN: Wood of the map -->
+  <CBF_Mat_MapWood>地圖的木頭</CBF_Mat_MapWood>
+  <!-- EN: Wood for the map. -->
+  <CBF_Mat_MapWoodTip>地圖所用的木材。</CBF_Mat_MapWoodTip>
+  <!-- EN: + Thing -->
+  <CBF_Mat_AddThing>+ 物品</CBF_Mat_AddThing>
+  <!-- EN: + Stuff -->
+  <CBF_Mat_AddStuff>+ 材料</CBF_Mat_AddStuff>
+  <!-- EN: + Floor -->
+  <CBF_Mat_AddFloor>+ 地面</CBF_Mat_AddFloor>
+  <!-- EN: + Roof -->
+  <CBF_Mat_AddRoof>+ 屋頂</CBF_Mat_AddRoof>
+  <!-- EN: + Piece -->
+  <CBF_Mat_AddPiece>+ 部件</CBF_Mat_AddPiece>
+  <!-- EN: + Category -->
+  <CBF_Mat_AddCategory>+ 類別</CBF_Mat_AddCategory>
+  <!-- EN: Add role -->
+  <CBF_Mat_AddRole>新增角色</CBF_Mat_AddRole>
+  <!-- EN: Thing -->
+  <CBF_Mat_Thing>物品</CBF_Mat_Thing>
+  <!-- EN: Stuff -->
+  <CBF_Mat_Stuff>材料</CBF_Mat_Stuff>
+  <!-- EN: Floor -->
+  <CBF_Mat_Floor>地面</CBF_Mat_Floor>
+  <!-- EN: Roof -->
+  <CBF_Mat_Roof>屋頂</CBF_Mat_Roof>
+  <!-- EN: Unit -->
+  <CBF_Mat_Pawn>單位</CBF_Mat_Pawn>
+  <!-- EN: Applies to -->
+  <CBF_Mat_AppliesTo>適用於</CBF_Mat_AppliesTo>
+  <!-- EN: Floor mix -->
+  <CBF_Mat_FloorMix>地面混合</CBF_Mat_FloorMix>
+  <!-- EN: These floors are mixed by weight. You change the weights in the file. -->
+  <CBF_Mat_FloorMixTip>這些地面按權重混合。權重在檔案中修改。</CBF_Mat_FloorMixTip>
+  <!-- EN: Tag search -->
+  <CBF_Mat_TagSearch>標籤搜尋</CBF_Mat_TagSearch>
+  <!-- EN: When no entry of the chains exists, CBF looks for a thing or floor with this tag. -->
+  <CBF_Mat_TagSearchTip>鏈中沒有條目存在時，CBF 會查詢帶此標籤的物品或地面。</CBF_Mat_TagSearchTip>
+  <!-- EN: {0} is not loaded. The next entry is tried. -->
+  <CBF_Mat_Missing>{0} 未載入。嘗試下一條。</CBF_Mat_Missing>
+  <!-- EN: Critical -->
+  <CBF_Mat_Critical>關鍵</CBF_Mat_Critical>
+  <!-- EN: Optional -->
+  <CBF_Mat_Optional>可選</CBF_Mat_Optional>
+  <!-- EN: Critical: if this role finds nothing, the whole list is unusable. Optional: the role simply stays empty. -->
+  <CBF_Mat_CriticalTip>關鍵：若該角色找不到任何內容，整個清單不可用。可選：該角色直接留空。</CBF_Mat_CriticalTip>
+  <!-- EN: Any ward -->
+  <CBF_Mat_AnyWard>任意區劃</CBF_Mat_AnyWard>
+  <!-- EN: Limits this row to one kind of ward. A row for the ward wins over a row without one. It affects everything resolved by role in that ward: walls, roads and floors the generator draws, and cells of pieces that name a role instead of a concrete thing. Pieces that name concrete things keep them. -->
+  <CBF_Mat_WardTip>將該行限制為一種區劃。針對區劃的行優先於無區劃的行。它影響該區劃中按角色解析的一切：生成器繪製的牆、路與地面，以及部件的命名角色格。命名具體物品的部件保留其物品。</CBF_Mat_WardTip>
+  <!-- EN: {0} roles -->
+  <CBF_Mat_RoleCount>{0} 個角色</CBF_Mat_RoleCount>
+  <!-- EN: Pieces name roles instead of things. This list says what fills each role. The first existing entry of a chain wins. A role may appear in several rows, then the row that fits the piece or ward best is used. -->
+  <CBF_Mat_Hint>部件用角色而非物品命名。此清單說明每個角色由什麼填充。鏈中第一個存在的條目勝出。一個角色可出現在多行中，此時採用最適合該部件或區劃的一行。</CBF_Mat_Hint>
+  <!-- EN: Own roles -->
+  <CBF_Mat_OwnRoles>自有角色</CBF_Mat_OwnRoles>
+  <!-- EN: No roles of its own yet. -->
+  <CBF_Mat_Empty>尚無自有角色。</CBF_Mat_Empty>
+  <!-- EN: Inherited -->
+  <CBF_Mat_Inherited>繼承</CBF_Mat_Inherited>
+  <!-- EN: Override -->
+  <CBF_Mat_Override>覆蓋</CBF_Mat_Override>
+  <!-- EN: Copies the inherited rows into this list, so you can change them. -->
+  <CBF_Mat_OverrideTip>把繼承的行復制到此清單，以便修改它們。</CBF_Mat_OverrideTip>
+  <!-- EN: From {0} -->
+  <CBF_Mat_FromList>來自 {0}</CBF_Mat_FromList>
+  <!-- EN: No settlement type names this list. -->
+  <CBF_Mat_Unused>沒有據點型別引用此清單。</CBF_Mat_Unused>
+  <!-- EN: Inherits from -->
+  <CBF_Mat_Parent>繼承自</CBF_Mat_Parent>
+  <!-- EN: Roles this list does not name itself come from this list. -->
+  <CBF_Mat_ParentTip>此清單未命名的角色來自此清單。</CBF_Mat_ParentTip>
+  <!-- EN: Open this material list -->
+  <CBF_Mat_OpenList>開啟此材料清單</CBF_Mat_OpenList>
+  <!-- EN: In the Settlement tab every settlement type picks its material list. Previews of single pieces use the list of the settlement type selected there. -->
+  <CBF_Mat_RightHint>在據點選項卡中，每個據點型別選擇其材料清單。單個部件的預覽使用那裡所選據點型別的清單。</CBF_Mat_RightHint>
+  <!-- EN: {0} saved, {1} roles. -->
+  <CBF_Mat_Saved>{0} 已儲存，{1} 個角色。</CBF_Mat_Saved>
+  <!-- EN: Wall -->
+  <CBF_Role_WALL>牆</CBF_Role_WALL>
+  <!-- EN: Outer walls of buildings and the settlement wall. -->
+  <CBF_RoleTip_WALL>建築外牆與城牆。</CBF_RoleTip_WALL>
+  <!-- EN: Inner wall -->
+  <CBF_Role_WALL_INNER>內牆</CBF_Role_WALL_INNER>
+  <!-- EN: Walls inside buildings between rooms. -->
+  <CBF_RoleTip_WALL_INNER>建築內分隔房間的牆。</CBF_RoleTip_WALL_INNER>
+  <!-- EN: Door -->
+  <CBF_Role_DOOR>門</CBF_Role_DOOR>
+  <!-- EN: Doors of buildings and doors in the wall, on the walkway, in towers and posterns. -->
+  <CBF_RoleTip_DOOR>建築的門以及城牆、步道、塔樓與側門上的門。</CBF_RoleTip_DOOR>
+  <!-- EN: Gate -->
+  <CBF_Role_GATE>城門</CBF_Role_GATE>
+  <!-- EN: Gate in a wall passage without a gatehouse. -->
+  <CBF_RoleTip_GATE>無門樓城牆通道中的城門。</CBF_RoleTip_GATE>
+  <!-- EN: Pillar -->
+  <CBF_Role_PILLAR>立柱</CBF_Role_PILLAR>
+  <!-- EN: Pillars and columns inside buildings. -->
+  <CBF_RoleTip_PILLAR>建築內的支柱與立柱。</CBF_RoleTip_PILLAR>
+  <!-- EN: Window -->
+  <CBF_Role_WINDOW>窗戶</CBF_Role_WINDOW>
+  <!-- EN: Windows in building walls. -->
+  <CBF_RoleTip_WINDOW>建築牆上的窗戶。</CBF_RoleTip_WINDOW>
+  <!-- EN: Embrasure -->
+  <CBF_Role_EMBRASURE>射擊孔</CBF_Role_EMBRASURE>
+  <!-- EN: Arrow slits and embrasures in walls and towers. -->
+  <CBF_RoleTip_EMBRASURE>城牆與塔樓上的箭孔與射擊孔。</CBF_RoleTip_EMBRASURE>
+  <!-- EN: Interior floor -->
+  <CBF_Role_FLOOR_INTERIOR>室內地面</CBF_Role_FLOOR_INTERIOR>
+  <!-- EN: Usual floor inside buildings. -->
+  <CBF_RoleTip_FLOOR_INTERIOR>建築內通常的地面。</CBF_RoleTip_FLOOR_INTERIOR>
+  <!-- EN: Fine floor -->
+  <CBF_Role_FLOOR_FINE>精緻地面</CBF_Role_FLOOR_FINE>
+  <!-- EN: Floor for fine rooms such as halls and temples. -->
+  <CBF_RoleTip_FLOOR_FINE>用於大廳、神殿等精緻房間的地面。</CBF_RoleTip_FLOOR_FINE>
+  <!-- EN: Rough floor -->
+  <CBF_Role_FLOOR_ROUGH>粗糙地面</CBF_Role_FLOOR_ROUGH>
+  <!-- EN: Floor for simple rooms such as barns and workshops. -->
+  <CBF_RoleTip_FLOOR_ROUGH>用於穀倉、工坊等簡陋房間的地面。</CBF_RoleTip_FLOOR_ROUGH>
+  <!-- EN: Dirt floor -->
+  <CBF_Role_FLOOR_DIRT>泥地</CBF_Role_FLOOR_DIRT>
+  <!-- EN: Bare, trodden ground. -->
+  <CBF_RoleTip_FLOOR_DIRT>裸露的、踩實的土地。</CBF_RoleTip_FLOOR_DIRT>
+  <!-- EN: Road -->
+  <CBF_Role_FLOOR_ROAD>道路</CBF_Role_FLOOR_ROAD>
+  <!-- EN: Roads, when the ward names no roads of its own. -->
+  <CBF_RoleTip_FLOOR_ROAD>道路，當區劃未指定自有道路時。</CBF_RoleTip_FLOOR_ROAD>
+  <!-- EN: Road edge -->
+  <CBF_Role_FLOOR_ROAD_EDGE>路邊</CBF_Role_FLOOR_ROAD_EDGE>
+  <!-- EN: Strip along the edge of the roads. -->
+  <CBF_RoleTip_FLOOR_ROAD_EDGE>道路邊緣的條帶。</CBF_RoleTip_FLOOR_ROAD_EDGE>
+  <!-- EN: Field soil -->
+  <CBF_Role_FLOOR_FIELD>農田土壤</CBF_Role_FLOOR_FIELD>
+  <!-- EN: Soil under the fields. -->
+  <CBF_RoleTip_FLOOR_FIELD>農田下方的土壤。</CBF_RoleTip_FLOOR_FIELD>
+  <!-- EN: Bridge -->
+  <CBF_Role_BRIDGE>橋樑</CBF_Role_BRIDGE>
+  <!-- EN: Floor for bridges over water. -->
+  <CBF_RoleTip_BRIDGE>水上橋樑的地面。</CBF_RoleTip_BRIDGE>
+  <!-- EN: Roof -->
+  <CBF_Role_ROOF>屋頂</CBF_Role_ROOF>
+  <!-- EN: Roof over the buildings. -->
+  <CBF_RoleTip_ROOF>建築上方的屋頂。</CBF_RoleTip_ROOF>
+  <!-- EN: Thin roof -->
+  <CBF_Role_ROOF_THIN>薄屋頂</CBF_Role_ROOF_THIN>
+  <!-- EN: Thin roof, for sheds and open halls. -->
+  <CBF_RoleTip_ROOF_THIN>用於棚屋與敞廳的薄屋頂。</CBF_RoleTip_ROOF_THIN>
+  <!-- EN: Light -->
+  <CBF_Role_LIGHT>照明</CBF_Role_LIGHT>
+  <!-- EN: Lamps and torches. -->
+  <CBF_RoleTip_LIGHT>燈具與火把。</CBF_RoleTip_LIGHT>
+  <!-- EN: Furniture -->
+  <CBF_Role_FURNITURE>傢俱</CBF_Role_FURNITURE>
+  <!-- EN: General furniture. -->
+  <CBF_RoleTip_FURNITURE>普通傢俱。</CBF_RoleTip_FURNITURE>
+  <!-- EN: Container -->
+  <CBF_Role_CONTAINER>容器</CBF_Role_CONTAINER>
+  <!-- EN: Crates and other containers for loot. -->
+  <CBF_RoleTip_CONTAINER>板條箱等存放戰利品的容器。</CBF_RoleTip_CONTAINER>
+  <!-- EN: Crop -->
+  <CBF_Role_CROP>作物</CBF_Role_CROP>
+  <!-- EN: Plant on the fields. -->
+  <CBF_RoleTip_CROP>農田中的作物。</CBF_RoleTip_CROP>
+  <!-- EN: Fence -->
+  <CBF_Role_FENCE>圍欄</CBF_Role_FENCE>
+  <!-- EN: Fences around pens and fields. -->
+  <CBF_RoleTip_FENCE>畜欄與農田周圍的圍欄。</CBF_RoleTip_FENCE>
+  <!-- EN: Fence gate -->
+  <CBF_Role_FENCE_GATE>圍欄門</CBF_Role_FENCE_GATE>
+  <!-- EN: Gate in a fence. -->
+  <CBF_RoleTip_FENCE_GATE>圍欄上的門。</CBF_RoleTip_FENCE_GATE>
+  <!-- EN: Pen marker -->
+  <CBF_Role_PEN_MARKER>畜欄標記</CBF_Role_PEN_MARKER>
+  <!-- EN: Marker that turns a fenced area into an animal pen. -->
+  <CBF_RoleTip_PEN_MARKER>把圍欄區域變成動物畜欄的標記。</CBF_RoleTip_PEN_MARKER>
+  <!-- EN: Conduit -->
+  <CBF_Role_CONDUIT>管線</CBF_Role_CONDUIT>
+  <!-- EN: Power conduit between buildings. -->
+  <CBF_RoleTip_CONDUIT>建築間的電力管線。</CBF_RoleTip_CONDUIT>
+  <!-- EN: Conduit under roads -->
+  <CBF_Role_CONDUIT_ROAD>路下管線</CBF_Role_CONDUIT_ROAD>
+  <!-- EN: Conduit where it runs under roads. -->
+  <CBF_RoleTip_CONDUIT_ROAD>位於道路下方的管線。</CBF_RoleTip_CONDUIT_ROAD>
+  <!-- EN: Conduit under water -->
+  <CBF_Role_CONDUIT_WATER>水下管線</CBF_Role_CONDUIT_WATER>
+  <!-- EN: Conduit where it crosses water. -->
+  <CBF_RoleTip_CONDUIT_WATER>跨越水面的管線。</CBF_RoleTip_CONDUIT_WATER>
+  <!-- EN: Fortification pieces or categories this row is meant for, for example palisade walls. The row applies in wards whose walls, emplacements or gatehouses use one of them. Like Ward, it only affects what is resolved by role; pieces that name concrete things keep them. -->
+  <CBF_Mat_AppliesToTip>此行所針對的防禦部件或類別，例如木柵欄牆。行適用於其城牆、防禦工事或門樓使用其中之一的區劃。與"區劃"一樣，它隻影響按角色解析的內容；命名具體物品的部件保留其物品。</CBF_Mat_AppliesToTip>
+  <!-- EN: Floor lists -->
+  <CBF_Lo_FloorLists>地板清單</CBF_Lo_FloorLists>
+  <!-- EN: Floors -->
+  <CBF_Lo_FloorListsShort>地板</CBF_Lo_FloorListsShort>
+  <!-- EN: Floor list -->
+  <CBF_FloorList>地板清單</CBF_FloorList>
+  <!-- EN: {0} floors -->
+  <CBF_Lo_FloorCount>{0} 塊地板</CBF_Lo_FloorCount>
+  <!-- EN: Floor symbols of pieces that name this list draw their floor from it by weight. A change here affects all of them. -->
+  <CBF_Lo_FloorHint>命名此清單的部件地板符號按權重從其取用地板。這裡的更改會影響它們全部。</CBF_Lo_FloorHint>
+  <!-- EN: Floor -->
+  <CBF_Lo_Floor>地板</CBF_Lo_Floor>
+  <!-- EN: Material from the map's stone -->
+  <CBF_Lo_FloorFromMap>取自地圖石材的材料</CBF_Lo_FloorFromMap>
+  <!-- EN: The floor is swapped for the variant made of the stone found on the map, as with floors without a list. -->
+  <CBF_Lo_FloorFromMapTip>地板會替換為地圖上發現的石材製成的變體，與沒有清單的地板相同。</CBF_Lo_FloorFromMapTip>
+  <!-- EN: Materials, one is picked at random: -->
+  <CBF_Lo_FloorMaterials>材料，隨機選取一種：</CBF_Lo_FloorMaterials>
+  <!-- EN: Only the ticked materials are used. With none ticked, exactly this floor is laid, without swapping for the map's stone. -->
+  <CBF_Lo_FloorMaterialsTip>僅使用勾選的材料。全部未勾選時，恰好鋪設此地板，不替換為地圖石材。</CBF_Lo_FloorMaterialsTip>
+  <!-- EN: No floors yet. -->
+  <CBF_Lo_FloorEmpty>還沒有地板。</CBF_Lo_FloorEmpty>
+  <!-- EN: Add floors -->
+  <CBF_Lo_AddFloors>新增地板</CBF_Lo_AddFloors>
+  <!-- EN: No piece names this list yet. -->
+  <CBF_Lo_FloorUnused>還沒有部件命名此清單。</CBF_Lo_FloorUnused>
+  <!-- EN: In the Piece tab you pick the list for each floor symbol under Floors. Without a list, the floor drawn in the piece is laid. -->
+  <CBF_Lo_FloorRightHint>在部件選項卡中，為 Floors 下的每個地板符號選取清單。沒有清單時，鋪設部件中繪製的地板。</CBF_Lo_FloorRightHint>
+  <!-- EN: {0} saved, {1} floors. -->
+  <CBF_Lo_FloorSaved>{0} 已儲存，{1} 塊地板。</CBF_Lo_FloorSaved>
+  <!-- EN: No floor list given. -->
+  <CBF_Lo_FloorNone>未給出地板清單。</CBF_Lo_FloorNone>
+</LanguageData>

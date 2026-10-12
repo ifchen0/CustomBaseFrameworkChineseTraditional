@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], asks for help. [siteFaction_pawnsPlural] of [siteFaction_name] have overrun one of [asker_possessive] settlements. Parts of it are burnt and the walls are breached.\n\n[asker_nameDef] asks us to drive them out. Whatever is left in the settlement will be our reward.\n\nAfter the fight we decide: leave the settlement to [asker_faction_name] for goodwill, or take what the bandits left behind. If the settlement goes back to [asker_faction_name], taking items or claiming buildings there costs goodwill. -->
+  <CBF_MO_Quest_RaidedSite.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]請求協助。[siteFaction_name]的[siteFaction_pawnsPlural]佔領了[asker_possessive]一處據點。部分區域被燒毀，城牆也被攻破。\n\n[asker_nameDef]請我們把他們趕出去。據點裡剩下的東西就是我們的報酬。\n\n戰鬥結束後由我們決定：把據點交還[asker_faction_name]換取友好度，或拿走土匪留下的東西。若據點交還[asker_faction_name]，從那裡拿走物品或佔據建築會扣友好度。</li>
+  </CBF_MO_Quest_RaidedSite.questDescriptionRules.rulesStrings>
+  <!-- EN: questName->The Raided [place] || questName->Bandits in [asker_nameDef]'s [place] || questName->[asker_nameDef] and the Raided [place] || place->Village || place->Settlement || place->Town -->
+  <CBF_MO_Quest_RaidedSite.questNameRules.rulesStrings>
+    <li>questName-&gt;遭劫掠的[place]</li>
+    <li>questName-&gt;[asker_nameDef]的[place]來了土匪</li>
+    <li>questName-&gt;[asker_nameDef]與遭劫掠的[place]</li>
+    <li>place-&gt;村莊</li>
+    <li>place-&gt;據點</li>
+    <li>place-&gt;城鎮</li>
+  </CBF_MO_Quest_RaidedSite.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <CBF_MO_Quest_RaidedSite.root.nodes.12.node.nodes.0.label.slateRef>任務過期：[resolvedQuestName]</CBF_MO_Quest_RaidedSite.root.nodes.12.node.nodes.0.label.slateRef>
+  <!-- EN: The bandits have looted the settlement and moved on. The quest [resolvedQuestName] has expired. -->
+  <CBF_MO_Quest_RaidedSite.root.nodes.12.node.nodes.0.text.slateRef>土匪洗劫了據點後就離開了。任務「[resolvedQuestName]」已過期。</CBF_MO_Quest_RaidedSite.root.nodes.12.node.nodes.0.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <CBF_MO_Quest_RaidedSite.root.nodes.13.node.nodes.0.label.slateRef>任務失敗：[resolvedQuestName]</CBF_MO_Quest_RaidedSite.root.nodes.13.node.nodes.0.label.slateRef>
+  <!-- EN: We left the settlement before the bandits were driven out. The quest [resolvedQuestName] has ended. -->
+  <CBF_MO_Quest_RaidedSite.root.nodes.13.node.nodes.0.text.slateRef>土匪被趕走前我們就離開了據點。任務「[resolvedQuestName]」已結束。</CBF_MO_Quest_RaidedSite.root.nodes.13.node.nodes.0.text.slateRef>
+</LanguageData>
