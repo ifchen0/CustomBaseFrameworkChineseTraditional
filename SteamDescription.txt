@@ -22,5 +22,6 @@ Player-facing text is translated from English. Editor text is converted from the
 [*]Translations for the Medieval Overhaul, VFE Medieval 2, VFE Classical, VFE Settlers, World Domination and A Rim of Ice and Fire integrations only load when those mods are active.
 [*]Custom Base Framework updates often. Text added after this translation shows in English until the translation is updated.
 [/list]
+I made this because I wanted to play Custom Base Framework and no Traditional Chinese translation existed yet. If anyone would like to take over the translation, you are welcome to.
 [hr][/hr]
 This translation was made with the help of AI tools (Claude Code). Translation files are included in the Languages folder and on [url=https://github.com/ifchen0/CustomBaseFrameworkChineseTraditional]GitHub[/url] for review.

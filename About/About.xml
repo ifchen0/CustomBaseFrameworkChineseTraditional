@@ -11,7 +11,9 @@ Player-facing text is translated from English: mod settings (faction switch, gar
 
 Translations for the Medieval Overhaul, VFE Medieval 2, VFE Classical, VFE Settlers, World Domination and A Rim of Ice and Fire integrations only load when those mods are active, the same way Custom Base Framework loads them.
 
-Load after Custom Base Framework. Safe to add to or remove from an existing save.</description>
+Load after Custom Base Framework. Safe to add to or remove from an existing save.
+
+I made this because I wanted to play Custom Base Framework and no Traditional Chinese translation existed yet. If anyone would like to take over the translation, you are welcome to.</description>
   <modDependencies>
     <li><packageId>EvilEyeGuy.CustomBaseFramework</packageId><displayName>Custom Base Framework</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/3813689040</steamWorkshopUrl></li>
   </modDependencies>
