@@ -4,7 +4,7 @@
   <author>ifchen0</author>
   <packageId>ifchen0.custombaseframework.chinesetraditional</packageId>
   <url>https://github.com/ifchen0/CustomBaseFrameworkChineseTraditional</url>
-  <supportedVersions><li>1.6</li></supportedVersions>
+  <supportedVersions><li>1.6</li><li>1.7</li></supportedVersions>
   <description>Traditional Chinese (繁體中文) translation for Custom Base Framework by Evil Eye Guy.
 
 Player-facing text is translated from English: mod settings (faction switch, garrisons, uninstall, error report, other mod options), quests, scenarios, settlement types, unit names, containers and dungeon level buttons. Editor text is converted from the Simplified Chinese translation by KKRimWorld and lightly adjusted to Taiwan terms. Terms follow the vanilla Traditional Chinese translation.
