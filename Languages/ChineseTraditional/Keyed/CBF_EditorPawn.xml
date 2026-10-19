@@ -17,7 +17,7 @@
   <!-- EN: New pawn kind -->
   <CBF_Pw_NewKind>新建角色種類</CBF_Pw_NewKind>
   <!-- EN: {0}, because of {1} -->
-  <CBF_Pw_TechBecause>{0}，因為 {1}</CBF_Pw_TechBecause>
+  <CBF_Pw_TechBecause>{0}，因為{1}</CBF_Pw_TechBecause>
   <!-- EN: The tech level decides which settlements this pawn appears in. It comes from the most advanced gear. -->
   <CBF_Pw_TechTip>科技等級決定該角色出現在哪些據點中。它由最先進的裝備決定。</CBF_Pw_TechTip>
   <!-- EN: Place pawn -->
@@ -69,11 +69,11 @@
   <!-- EN: Max. count -->
   <CBF_Pw_MaxAmount>最大數量</CBF_Pw_MaxAmount>
   <!-- EN: 8 groups -->
-  <CBF_Pw_AllFieldsHint>8 個分組</CBF_Pw_AllFieldsHint>
+  <CBF_Pw_AllFieldsHint>8個分組</CBF_Pw_AllFieldsHint>
   <!-- EN: No errors, same check as when the game loads. -->
   <CBF_Pw_NoFaults>無錯誤，與遊戲載入時相同的檢查。</CBF_Pw_NoFaults>
   <!-- EN: {0} pawn kinds · {1} -->
-  <CBF_Pw_ListHead>{0} 個角色種類 · {1}</CBF_Pw_ListHead>
+  <CBF_Pw_ListHead>{0}個角色種類 · {1}</CBF_Pw_ListHead>
   <!-- EN: Members -->
   <CBF_Pw_Members>成員</CBF_Pw_Members>
   <!-- EN: Click opens the pawn kind. -->
@@ -95,7 +95,7 @@
   <!-- EN: Swap piece -->
   <CBF_Pw_SwapPick>替換部件</CBF_Pw_SwapPick>
   <!-- EN: Add {0} -->
-  <CBF_Pw_AddChosen>新增 {0}</CBF_Pw_AddChosen>
+  <CBF_Pw_AddChosen>新增{0}</CBF_Pw_AddChosen>
   <!-- EN: Tech level -->
   <CBF_Pw_Stage>科技等級</CBF_Pw_Stage>
   <!-- EN: from gear -->

@@ -9,7 +9,7 @@
   <!-- EN: Opens the category's file in your text editor. The editor reloads changes made there on its own. -->
   <CBF_K_OpenFileTip>在文字編輯器中開啟該類別的檔案。編輯器會自動重新載入此處的更改。</CBF_K_OpenFileTip>
   <!-- EN: 1 piece -->
-  <CBF_K_OnePiece>1 個部件</CBF_K_OnePiece>
+  <CBF_K_OnePiece>1個部件</CBF_K_OnePiece>
   <!-- EN: Click opens the piece in the Piece tab. Back returns here. -->
   <CBF_K_TileTip>點選在部件選項卡中開啟該部件。返回可回到此處。</CBF_K_TileTip>
   <!-- EN: Used in: -->
@@ -17,7 +17,7 @@
   <!-- EN: No settlement uses this category directly. -->
   <CBF_K_NotUsed>沒有據點直接使用該類別。</CBF_K_NotUsed>
   <!-- EN: {0}, district {1}, {2} to {3} -->
-  <CBF_K_UsedInDistrict>{0}，區 {1}，{2} 至 {3}</CBF_K_UsedInDistrict>
+  <CBF_K_UsedInDistrict>{0}，區{1}，{2}至{3}</CBF_K_UsedInDistrict>
   <!-- EN: {0}, fortification -->
   <CBF_K_UsedInWalls>{0}，防禦工事</CBF_K_UsedInWalls>
   <!-- EN: Category -->
@@ -61,7 +61,7 @@
   <!-- EN: Block limit -->
   <CBF_K_BlockMax>街區上限</CBF_K_BlockMax>
   <!-- EN: How many buildings of this category at most form one block wall to wall. Empty means the planner uses its default of 3. -->
-  <CBF_K_BlockMaxTip>該類別的建築至多多少棟連成一面牆的街區。留空則使用規劃器的預設值 3。</CBF_K_BlockMaxTip>
+  <CBF_K_BlockMaxTip>該類別的建築至多多少棟連成一面牆的街區。留空則使用規劃器的預設值3。</CBF_K_BlockMaxTip>
   <!-- EN: Merge -->
   <CBF_K_Merge>合併</CBF_K_Merge>
   <!-- EN: Whether buildings of this category join their neighbors into one block. Yes forces it, No forbids it. -->
@@ -69,9 +69,9 @@
   <!-- EN: inherits -->
   <CBF_K_Inherits>繼承</CBF_K_Inherits>
   <!-- EN: Without a value of its own, {0} applies, from {1}. -->
-  <CBF_K_InheritsFrom>沒有自有值時，採用 {0}，來自 {1}。</CBF_K_InheritsFrom>
+  <CBF_K_InheritsFrom>沒有自有值時，採用{0}，來自{1}。</CBF_K_InheritsFrom>
   <!-- EN: inherits {0} -->
-  <CBF_K_InheritsValue>繼承 {0}</CBF_K_InheritsValue>
+  <CBF_K_InheritsValue>繼承{0}</CBF_K_InheritsValue>
   <!-- EN: the default -->
   <CBF_K_Default>預設值</CBF_K_Default>
   <!-- EN: Chain: no parent category -->
@@ -79,13 +79,13 @@
   <!-- EN: Chain: {0} -->
   <CBF_K_Chain>繼承鏈：{0}</CBF_K_Chain>
   <!-- EN: {0} belongs to the mod {1}. The editor does not save changes to it. -->
-  <CBF_K_Foreign>{0} 屬於模組 {1}。編輯器不會儲存對它的更改。</CBF_K_Foreign>
+  <CBF_K_Foreign>{0}屬於模組{1}。編輯器不會儲存對它的更改。</CBF_K_Foreign>
   <!-- EN: Opens the settlement. -->
   <CBF_K_UsedInJump>開啟該據點。</CBF_K_UsedInJump>
   <!-- EN: Weight -->
   <CBF_K_Weight>權重</CBF_K_Weight>
   <!-- EN: How often pieces of this category are drawn when several fit. 1 is normal. For annexes, a value below 1 also acts as the chance that the annex is tried at all. -->
-  <CBF_K_WeightTip>多個部件適配時，該類別的部件被選中的頻率。1 為正常。對於附屬建築，低於 1 的值還兼作嘗試建造附屬建築的機率。</CBF_K_WeightTip>
+  <CBF_K_WeightTip>多個部件適配時，該類別的部件被選中的頻率。1為正常。對於附屬建築，低於1的值還兼作嘗試建造附屬建築的機率。</CBF_K_WeightTip>
   <!-- EN: Annexes -->
   <CBF_K_Annexes>附屬建築</CBF_K_Annexes>
   <!-- EN: Annex categories -->
@@ -101,11 +101,11 @@
   <!-- EN: Chance per anchor -->
   <CBF_K_AnnexChance>每錨點機率</CBF_K_AnnexChance>
   <!-- EN: Chance that an annex is built at an annex anchor of the house. Default 0.6. -->
-  <CBF_K_AnnexChanceTip>在房屋的附屬錨點上建造附屬建築的機率。預設 0.6。</CBF_K_AnnexChanceTip>
+  <CBF_K_AnnexChanceTip>在房屋的附屬錨點上建造附屬建築的機率。預設0.6。</CBF_K_AnnexChanceTip>
   <!-- EN: At most -->
   <CBF_K_AnnexMax>至多</CBF_K_AnnexMax>
   <!-- EN: At most this many annexes per house. Default 2. -->
-  <CBF_K_AnnexMaxTip>每棟房屋至多建造這麼多附屬建築。預設 2。</CBF_K_AnnexMaxTip>
+  <CBF_K_AnnexMaxTip>每棟房屋至多建造這麼多附屬建築。預設2。</CBF_K_AnnexMaxTip>
   <!-- EN: Repeatable -->
   <CBF_K_AnnexMultiple>可重複</CBF_K_AnnexMultiple>
   <!-- EN: Applies to the category of the annex. Yes allows the same annex several times on the same house. -->
@@ -117,7 +117,7 @@
   <!-- EN: Overhang -->
   <CBF_K_AnnexOverhang>懸出</CBF_K_AnnexOverhang>
   <!-- EN: With Full wall: how many cells the annex must reach past the house wall at each end. 0 means flush. -->
-  <CBF_K_AnnexOverhangTip>與"整面牆"配合：附屬建築兩端必須超出房屋牆面多少格。0 表示齊平。</CBF_K_AnnexOverhangTip>
+  <CBF_K_AnnexOverhangTip>與"整面牆"配合：附屬建築兩端必須超出房屋牆面多少格。0表示齊平。</CBF_K_AnnexOverhangTip>
   <!-- EN: Needs no road -->
   <CBF_K_NoRoad>無需道路</CBF_K_NoRoad>
   <!-- EN: Buildings of this category need no road and may be entered from every side, like a farm or a market. Only takes effect when Road access is No. Where they stand is decided by the budget of the ward. -->

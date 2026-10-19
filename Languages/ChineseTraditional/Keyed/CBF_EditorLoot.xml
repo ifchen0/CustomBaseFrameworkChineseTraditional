@@ -29,11 +29,11 @@
   <!-- EN: Red means: nothing in the table exists in the game. -->
   <CBF_Lo_ListHintTables>紅色表示：表中沒有任何內容在遊戲中存在。</CBF_Lo_ListHintTables>
   <!-- EN: 1 roll -->
-  <CBF_Lo_OneRoll>1 次抽取</CBF_Lo_OneRoll>
+  <CBF_Lo_OneRoll>1次抽取</CBF_Lo_OneRoll>
   <!-- EN: {0} rolls -->
-  <CBF_Lo_NRolls>{0} 次抽取</CBF_Lo_NRolls>
+  <CBF_Lo_NRolls>{0}次抽取</CBF_Lo_NRolls>
   <!-- EN: {0} to {1} % -->
-  <CBF_Lo_RangePct>{0} 至 {1}%</CBF_Lo_RangePct>
+  <CBF_Lo_RangePct>{0}至{1}%</CBF_Lo_RangePct>
   <!-- EN: always -->
   <CBF_Lo_AlwaysShort>始終</CBF_Lo_AlwaysShort>
   <!-- EN: Drawn by weight -->
@@ -55,7 +55,7 @@
   <!-- EN: Affects -->
   <CBF_Lo_Affects>影響</CBF_Lo_Affects>
   <!-- EN: {0} tables, {1} settlements -->
-  <CBF_Lo_AffectsSummary>{0} 張表，{1} 個據點</CBF_Lo_AffectsSummary>
+  <CBF_Lo_AffectsSummary>{0}張表，{1}個據點</CBF_Lo_AffectsSummary>
   <!-- EN: Directly part of -->
   <CBF_Lo_DirectIn>直接隸屬於</CBF_Lo_DirectIn>
   <!-- EN: No other table draws this one. -->
@@ -65,7 +65,7 @@
   <!-- EN: No settlement reaches this table. -->
   <CBF_Lo_NoPlans>沒有據點使用這張表。</CBF_Lo_NoPlans>
   <!-- EN: wt. {0} -->
-  <CBF_Lo_WeightN>權重 {0}</CBF_Lo_WeightN>
+  <CBF_Lo_WeightN>權重{0}</CBF_Lo_WeightN>
   <!-- EN: Table -->
   <CBF_Table>表</CBF_Table>
   <!-- EN: Rolls -->
@@ -153,7 +153,7 @@
   <!-- EN: Create a new crop list. It reaches the file only when you save. -->
   <CBF_Lo_NewTip3>建立新的作物清單。它只在儲存時寫入檔案。</CBF_Lo_NewTip3>
   <!-- EN: {0} plants -->
-  <CBF_Lo_CropCount>{0} 種作物</CBF_Lo_CropCount>
+  <CBF_Lo_CropCount>{0}種作物</CBF_Lo_CropCount>
   <!-- EN: Fields and pens that name this list draw their plants from it by weight. A change here affects all of them. -->
   <CBF_Lo_CropHint>引用此清單的農田與畜欄會按權重從其中抽取作物。此處的更改會影響它們全部。</CBF_Lo_CropHint>
   <!-- EN: Plant -->
@@ -165,13 +165,13 @@
   <!-- EN: No field and no pen names this list. -->
   <CBF_Lo_CropUnused>沒有農田或畜欄引用此清單。</CBF_Lo_CropUnused>
   <!-- EN: field in {0} -->
-  <CBF_Lo_CropFieldIn>{0} 中的農田</CBF_Lo_CropFieldIn>
+  <CBF_Lo_CropFieldIn>{0}中的農田</CBF_Lo_CropFieldIn>
   <!-- EN: pen in {0} -->
-  <CBF_Lo_CropPenIn>{0} 中的畜欄</CBF_Lo_CropPenIn>
+  <CBF_Lo_CropPenIn>{0}中的畜欄</CBF_Lo_CropPenIn>
   <!-- EN: In the Settlement tab you pick the list for each field and pen. Without a list, the individually chosen plants apply there. -->
   <CBF_Lo_CropRightHint>在據點選項卡中為每塊農田和畜欄選擇清單。沒有清單時，使用那裡單獨選擇的作物。</CBF_Lo_CropRightHint>
   <!-- EN: {0} saved, {1} plants. -->
-  <CBF_Lo_CropSaved>{0} 已儲存，{1} 種作物。</CBF_Lo_CropSaved>
+  <CBF_Lo_CropSaved>{0}已儲存，{1}種作物。</CBF_Lo_CropSaved>
   <!-- EN: No crop list. -->
   <CBF_Lo_CropNone>沒有作物清單。</CBF_Lo_CropNone>
   <!-- EN: The mod folder was not found. -->
@@ -239,9 +239,9 @@
   <!-- EN: Tag search -->
   <CBF_Mat_TagSearch>標籤搜尋</CBF_Mat_TagSearch>
   <!-- EN: When no entry of the chains exists, CBF looks for a thing or floor with this tag. -->
-  <CBF_Mat_TagSearchTip>鏈中沒有條目存在時，CBF 會查詢帶此標籤的物品或地面。</CBF_Mat_TagSearchTip>
+  <CBF_Mat_TagSearchTip>鏈中沒有條目存在時，CBF會查詢帶此標籤的物品或地面。</CBF_Mat_TagSearchTip>
   <!-- EN: {0} is not loaded. The next entry is tried. -->
-  <CBF_Mat_Missing>{0} 未載入。嘗試下一條。</CBF_Mat_Missing>
+  <CBF_Mat_Missing>{0}未載入。嘗試下一條。</CBF_Mat_Missing>
   <!-- EN: Critical -->
   <CBF_Mat_Critical>關鍵</CBF_Mat_Critical>
   <!-- EN: Optional -->
@@ -253,7 +253,7 @@
   <!-- EN: Limits this row to one kind of ward. A row for the ward wins over a row without one. It affects everything resolved by role in that ward: walls, roads and floors the generator draws, and cells of pieces that name a role instead of a concrete thing. Pieces that name concrete things keep them. -->
   <CBF_Mat_WardTip>將該行限制為一種區劃。針對區劃的行優先於無區劃的行。它影響該區劃中按角色解析的一切：生成器繪製的牆、路與地面，以及部件的命名角色格。命名具體物品的部件保留其物品。</CBF_Mat_WardTip>
   <!-- EN: {0} roles -->
-  <CBF_Mat_RoleCount>{0} 個角色</CBF_Mat_RoleCount>
+  <CBF_Mat_RoleCount>{0}個角色</CBF_Mat_RoleCount>
   <!-- EN: Pieces name roles instead of things. This list says what fills each role. The first existing entry of a chain wins. A role may appear in several rows, then the row that fits the piece or ward best is used. -->
   <CBF_Mat_Hint>部件用角色而非物品命名。此清單說明每個角色由什麼填充。鏈中第一個存在的條目勝出。一個角色可出現在多行中，此時採用最適合該部件或區劃的一行。</CBF_Mat_Hint>
   <!-- EN: Own roles -->
@@ -267,7 +267,7 @@
   <!-- EN: Copies the inherited rows into this list, so you can change them. -->
   <CBF_Mat_OverrideTip>把繼承的行復制到此清單，以便修改它們。</CBF_Mat_OverrideTip>
   <!-- EN: From {0} -->
-  <CBF_Mat_FromList>來自 {0}</CBF_Mat_FromList>
+  <CBF_Mat_FromList>來自{0}</CBF_Mat_FromList>
   <!-- EN: No settlement type names this list. -->
   <CBF_Mat_Unused>沒有據點型別引用此清單。</CBF_Mat_Unused>
   <!-- EN: Inherits from -->
@@ -279,7 +279,7 @@
   <!-- EN: In the Settlement tab every settlement type picks its material list. Previews of single pieces use the list of the settlement type selected there. -->
   <CBF_Mat_RightHint>在據點選項卡中，每個據點型別選擇其材料清單。單個部件的預覽使用那裡所選據點型別的清單。</CBF_Mat_RightHint>
   <!-- EN: {0} saved, {1} roles. -->
-  <CBF_Mat_Saved>{0} 已儲存，{1} 個角色。</CBF_Mat_Saved>
+  <CBF_Mat_Saved>{0}已儲存，{1}個角色。</CBF_Mat_Saved>
   <!-- EN: Wall -->
   <CBF_Role_WALL>牆</CBF_Role_WALL>
   <!-- EN: Outer walls of buildings and the settlement wall. -->
@@ -397,7 +397,7 @@
   <!-- EN: Floor list -->
   <CBF_FloorList>地板清單</CBF_FloorList>
   <!-- EN: {0} floors -->
-  <CBF_Lo_FloorCount>{0} 塊地板</CBF_Lo_FloorCount>
+  <CBF_Lo_FloorCount>{0}塊地板</CBF_Lo_FloorCount>
   <!-- EN: Floor symbols of pieces that name this list draw their floor from it by weight. A change here affects all of them. -->
   <CBF_Lo_FloorHint>命名此清單的部件地板符號按權重從其取用地板。這裡的更改會影響它們全部。</CBF_Lo_FloorHint>
   <!-- EN: Floor -->
@@ -417,9 +417,9 @@
   <!-- EN: No piece names this list yet. -->
   <CBF_Lo_FloorUnused>還沒有部件命名此清單。</CBF_Lo_FloorUnused>
   <!-- EN: In the Piece tab you pick the list for each floor symbol under Floors. Without a list, the floor drawn in the piece is laid. -->
-  <CBF_Lo_FloorRightHint>在部件選項卡中，為 Floors 下的每個地板符號選取清單。沒有清單時，鋪設部件中繪製的地板。</CBF_Lo_FloorRightHint>
+  <CBF_Lo_FloorRightHint>在部件選項卡中，為Floors下的每個地板符號選取清單。沒有清單時，鋪設部件中繪製的地板。</CBF_Lo_FloorRightHint>
   <!-- EN: {0} saved, {1} floors. -->
-  <CBF_Lo_FloorSaved>{0} 已儲存，{1} 塊地板。</CBF_Lo_FloorSaved>
+  <CBF_Lo_FloorSaved>{0}已儲存，{1}塊地板。</CBF_Lo_FloorSaved>
   <!-- EN: No floor list given. -->
   <CBF_Lo_FloorNone>未給出地板清單。</CBF_Lo_FloorNone>
   <!-- EN: Ruins -->
@@ -427,9 +427,9 @@
   <!-- EN: Ruins -->
   <CBF_Lo_RuinsShort>廢墟</CBF_Lo_RuinsShort>
   <!-- EN: New ruins are set up in XML for now. -->
-  <CBF_Ru_NoNew>目前新的廢墟要在 XML 中設定。</CBF_Ru_NoNew>
+  <CBF_Ru_NoNew>目前新的廢墟要在XML中設定。</CBF_Ru_NoNew>
   <!-- EN: Who holds a quest ruin. The other ruin fields stay in the XML file. -->
-  <CBF_Ru_Hint>由誰佔據任務廢墟。其他廢墟欄位仍保留在 XML 檔案中。</CBF_Ru_Hint>
+  <CBF_Ru_Hint>由誰佔據任務廢墟。其他廢墟欄位仍保留在XML檔案中。</CBF_Ru_Hint>
   <!-- EN: Occupation -->
   <CBF_Ru_Occupation>佔據者</CBF_Ru_Occupation>
   <!-- EN: Nobody -->
