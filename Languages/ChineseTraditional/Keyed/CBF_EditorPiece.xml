@@ -354,4 +354,26 @@
   <CBF_P_FloorPerCell>逐格擲取</CBF_P_FloorPerCell>
   <!-- EN: Off: one floor is rolled per placed piece and covers the whole symbol. On: every cell gets its own floor. -->
   <CBF_P_FloorPerCellTip>關閉：每放置一個部件擲取一次地板並覆蓋整個符號。開啟：每個格獲得自己的地板。</CBF_P_FloorPerCellTip>
+  <!-- EN: Descent -->
+  <CBF_P_Descent>下行入口</CBF_P_Descent>
+  <!-- EN: Dungeons -->
+  <CBF_P_DescentPlans>地下城</CBF_P_DescentPlans>
+  <!-- EN: Dungeon plans this anchor may lead into. One of them is picked at random. -->
+  <CBF_P_DescentPlansTip>此錨點可能通往的地下城計畫。會從中隨機挑選一個。</CBF_P_DescentPlansTip>
+  <!-- EN: None -->
+  <CBF_P_DescentNone>無</CBF_P_DescentNone>
+  <!-- EN: Descent chance -->
+  <CBF_P_DescentChance>下行機率</CBF_P_DescentChance>
+  <!-- EN: How likely a way down appears. At StairsDown the stairs stand when the place is built, at a container they replace it when it is opened. -->
+  <CBF_P_DescentChanceTip>出現通往下方之路的機率。StairsDown 的樓梯在此地建成時就會出現；容器則是在被打開時由入口取代。</CBF_P_DescentChanceTip>
+  <!-- EN: Only for the StairsDown anchor or anchors with objects, such as a sarcophagus. -->
+  <CBF_P_DescentInactive>僅適用於 StairsDown 錨點或帶物件的錨點，例如石棺。</CBF_P_DescentInactive>
+  <!-- EN: Pick a dungeon first. -->
+  <CBF_P_DescentOpenNone>請先選擇一個地下城。</CBF_P_DescentOpenNone>
+  <!-- EN: Open the first chosen dungeon in the Settlement tab. -->
+  <CBF_P_DescentOpenTip>在據點分頁開啟第一個選定的地下城。</CBF_P_DescentOpenTip>
+  <!-- EN: Without dungeons the stairs lead to the next level, as before. -->
+  <CBF_P_DescentStairsPlain>沒有選地下城時，樓梯照舊通往下一層。</CBF_P_DescentStairsPlain>
+  <!-- EN: Without dungeons the container stays a container. -->
+  <CBF_P_DescentObjectPlain>沒有選地下城時，容器就維持是容器。</CBF_P_DescentObjectPlain>
 </LanguageData>

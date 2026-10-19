@@ -490,8 +490,6 @@
   <CBF_AnchorPawnListNone>無，下方為單一種類</CBF_AnchorPawnListNone>
   <!-- EN: guard -->
   <CBF_RoleGuard>守衛</CBF_RoleGuard>
-  <!-- EN: civilian -->
-  <CBF_RoleCivilian>平民</CBF_RoleCivilian>
   <!-- EN: holds position -->
   <CBF_RolePost>堅守崗位</CBF_RolePost>
   <!-- EN: mans artillery -->
@@ -502,8 +500,6 @@
   <CBF_RolePostDesc>堅守此位置並防禦它。不出擊、不後撤。用於塔樓與門樓。</CBF_RolePostDesc>
   <!-- EN: Mans the nearest mannable artillery piece and stays there. Needs are ignored. -->
   <CBF_RoleCrewDesc>操作最近的可操作砲械並留在那裡。忽略需求。</CBF_RoleCrewDesc>
-  <!-- EN: Stays nearby and runs away when it gets dangerous. For innkeepers, market folk, farmers. -->
-  <CBF_RoleCivilianDesc>待在附近，危險時逃跑。用於客棧老闆、集市商販、農夫。</CBF_RoleCivilianDesc>
   <!-- EN: New pawn list -->
   <CBF_NewPawnList>新建角色清單</CBF_NewPawnList>
   <!-- EN: Edit pawn list -->
@@ -1480,14 +1476,14 @@
   <CBF_GarrisonIntro>大型據點不會在地圖生成時就出現所有角色。一部分會保留為後備兵力，等所在街區進入警戒才出現。同時在地圖上的角色越少，遊戲越順暢。</CBF_GarrisonIntro>
   <!-- EN: Garrison in the streets at the start: {0}% -->
   <CBF_GarrisonShare>開局時在街上的駐軍：{0}%</CBF_GarrisonShare>
-  <!-- EN: Share of each district that spawns with the map. For fighters at least three per district. If this is more than the limit leaves after the guards, it is cut down, keeping fighters first. The rest is held back unspawned and spawns as soon as the district is alarmed: shots nearby, hits on its walls or houses, or an enemy is spotted. Fighters spawn first, then civilians, both within the limit. Walls, gates, guns and posts are always fully manned. Applies to newly generated settlements. -->
-  <CBF_GarrisonShareHelp>每個街區隨地圖一起出現的比例。戰鬥人員每個街區至少三人。若超過扣除守衛後的上限，會優先保留戰鬥人員並刪減其餘。剩下的保留為後備，街區一進入警戒就出現：附近有槍聲、城牆或房屋被擊中，或發現敵人。戰鬥人員先出現，再來是平民，兩者都受上限限制。城牆、城門、砲位與崗哨永遠滿員。套用於新生成的據點。</CBF_GarrisonShareHelp>
+  <!-- EN: Share of each district that spawns with the map, at least three per district. If this is more than the limit leaves after the guards, it is cut down. The rest is held back unspawned and spawns as soon as the district is alarmed: shots nearby, hits on its walls or houses, or an enemy is spotted. It spawns within the limit. Walls, gates, guns and posts are always fully manned. Applies to newly generated settlements. -->
+  <CBF_GarrisonShareHelp>每個街區隨地圖一起出現的比例，每個街區至少三人。若超過扣除守衛後的上限，會往下刪減。剩下的保留為後備，街區一進入警戒就出現：附近有槍聲、城牆或房屋被擊中，或發現敵人。出現時受上限限制。城牆、城門、砲位與崗哨永遠滿員。套用於新生成的據點。</CBF_GarrisonShareHelp>
   <!-- EN: At most on the map at once: {0} -->
   <CBF_GarrisonCap>同時在地圖上的上限：{0}</CBF_GarrisonCap>
   <!-- EN: At most on the map at once: no limit -->
   <CBF_GarrisonCapNone>同時在地圖上的上限：無限制</CBF_GarrisonCapNone>
-  <!-- EN: Upper limit for the pawns of a settlement who are on the map and able to fight at the same time: guards on walls, gates, guns and posts, the garrison of the districts and civilians. Downed pawns, prisoners and pawns not yet spawned do not count. Guards are always fully manned. The districts get the rest, shared by their size, but at least three fighters per district. If the guards alone are above the limit, the map can therefore be slightly above it. When someone falls, the next one spawns. Higher values suit fast computers, lower values slow ones. A changed limit applies at once to all further reinforcements. Pawns already on the map stay; lowering the limit removes nobody. Settlements generated without a reserve are not affected. -->
-  <CBF_GarrisonCapHelp>一個據點同時在地圖上且能戰鬥的角色上限：城牆、城門、砲位與崗哨上的守衛，街區的駐軍以及平民。倒地、被俘與尚未出現的角色不計。守衛永遠滿員，其餘名額依大小分給各街區，但每個街區至少三名戰鬥人員。若光是守衛就超過上限，地圖上的人數可能略高於上限。有人倒下時，下一個就會出現。數值高適合效能好的電腦，數值低適合較慢的電腦。修改上限會立即套用到之後的所有援軍。已在地圖上的角色會留下，調低上限不會移除任何人。沒有後備兵力的據點不受影響。</CBF_GarrisonCapHelp>
+  <!-- EN: Upper limit for the pawns of a settlement who are on the map and able to fight at the same time: guards on walls, gates, guns and posts and the garrison of the districts. Downed pawns, prisoners and pawns not yet spawned do not count. Guards are always fully manned. The districts get the rest, shared by their size, but at least three per district. If the guards alone are above the limit, the map can therefore be slightly above it. When someone falls, the next one spawns. Higher values suit fast computers, lower values slow ones. A changed limit applies at once to all further reinforcements. Pawns already on the map stay; lowering the limit removes nobody. Settlements generated without a reserve are not affected. -->
+  <CBF_GarrisonCapHelp>一個據點同時在地圖上且能戰鬥的角色上限：城牆、城門、砲位與崗哨上的守衛，以及街區的駐軍。倒地、被俘與尚未出現的角色不計。守衛永遠滿員，其餘名額依大小分給各街區，但每個街區至少三人。若光是守衛就超過上限，地圖上的人數可能略高於上限。有人倒下時，下一個就會出現。數值高適合效能好的電腦，數值低適合較慢的電腦。修改上限會立即套用到之後的所有援軍。已在地圖上的角色會留下，調低上限不會移除任何人。沒有後備兵力的據點不受影響。</CBF_GarrisonCapHelp>
   <!-- EN: Reinforcements per wave: {0} -->
   <CBF_GarrisonBatch>每波援軍人數：{0}</CBF_GarrisonBatch>
   <!-- EN: How many pawns spawn at most in one wave. -->
@@ -1550,8 +1546,16 @@
   <CBF_Cfg_SpreadLevels>spread 條目 {0} 引用了 1 至 {1} 之外的層。</CBF_Cfg_SpreadLevels>
   <!-- EN: Level {0} is the last level and still has stairsDown. The stairs are not built. -->
   <CBF_Cfg_DungeonLastStairs>第 {0} 層是最後一層卻仍有 stairsDown。樓梯不會被建造。</CBF_Cfg_DungeonLastStairs>
-  <!-- EN: Level {0} lies on the surface map, its mapSize is ignored. -->
-  <CBF_Cfg_DungeonFirstSize>第 {0} 層位於地表地圖，其 mapSize 被忽略。</CBF_Cfg_DungeonFirstSize>
+  <!-- EN: Level {0} lies on the surface map, its mapSize only counts when the plan is reached through a descent (descentPlans). -->
+  <CBF_Cfg_DungeonFirstSize>第 {0} 層位於地表地圖，只有經由下行入口（descentPlans）抵達此計畫時，其 mapSize 才會生效。</CBF_Cfg_DungeonFirstSize>
+  <!-- EN: Legend entry '{0}' has descentPlans, but it is neither a StairsDown anchor nor an anchor with objects. The descent has no effect. -->
+  <CBF_Cfg_DescentNoTarget>圖例條目 '{0}' 設有 descentPlans，但它既不是 StairsDown 錨點，也不是帶物件的錨點。此下行入口沒有效果。</CBF_Cfg_DescentNoTarget>
+  <!-- EN: Legend entry '{0}' names {1} in descentPlans. That is not a dungeon plan with levels, it is skipped. -->
+  <CBF_Cfg_DescentNoDungeon>圖例條目 '{0}' 的 descentPlans 中指定了 {1}。它不是有層的地下城計畫，已略過。</CBF_Cfg_DescentNoDungeon>
+  <!-- EN: {0} (way down) -->
+  <CBF_Abstieg_Label>{0}（通往下方）</CBF_Abstieg_Label>
+  <!-- EN: {0}: a way leads down beneath it. -->
+  <CBF_Abstieg_Gefunden>{0}：底下有一條通往下方的路。</CBF_Abstieg_Gefunden>
   <!-- EN: Old town shapes -->
   <CBF_S_CoreShapes>老城區形狀</CBF_S_CoreShapes>
   <!-- EN: All shapes allowed. Click a shape to exclude it. -->
@@ -1606,12 +1610,12 @@
   <CBF_GarrisonBoxExpand>展開</CBF_GarrisonBoxExpand>
   <!-- EN: On the map -->
   <CBF_GarrisonBoxOut>在地圖上</CBF_GarrisonBoxOut>
-  <!-- EN: Pawns of this settlement on the map and able to fight: garrison and civilians in the districts plus guards. After the slash: the limit from the mod settings. -->
-  <CBF_GarrisonBoxOutTip>此據點在地圖上且能戰鬥的角色：各街區的駐軍與平民，加上守衛。斜線後為模組設定中的上限。</CBF_GarrisonBoxOutTip>
+  <!-- EN: Pawns of this settlement on the map and able to fight: garrison in the districts plus guards. After the slash: the limit from the mod settings. -->
+  <CBF_GarrisonBoxOutTip>此據點在地圖上且能戰鬥的角色：各街區的駐軍加上守衛。斜線後為模組設定中的上限。</CBF_GarrisonBoxOutTip>
   <!-- EN: Ready to spawn -->
   <CBF_GarrisonBoxReady>待命</CBF_GarrisonBoxReady>
-  <!-- EN: Pawns held back unspawned, fighters and civilians. They spawn in waves once their district is alarmed. -->
-  <CBF_GarrisonBoxReadyTip>保留為後備、尚未出現的角色，包含戰鬥人員與平民。所在街區進入警戒後會分波出現。</CBF_GarrisonBoxReadyTip>
+  <!-- EN: Pawns held back, not spawned yet. They spawn in waves once their district is alarmed. -->
+  <CBF_GarrisonBoxReadyTip>保留為後備、尚未出現的角色。所在街區進入警戒後會分波出現。</CBF_GarrisonBoxReadyTip>
   <!-- EN: District -->
   <CBF_GarrisonBoxWards>街區</CBF_GarrisonBoxWards>
   <!-- EN: on map | ready -->
@@ -1622,8 +1626,8 @@
   <CBF_GarrisonBoxAlarmTip>警報：此街區正在派出人手。</CBF_GarrisonBoxAlarmTip>
   <!-- EN: In the districts -->
   <CBF_GarrisonBoxDistricts>各街區</CBF_GarrisonBoxDistricts>
-  <!-- EN: Garrison and civilians who are out in the districts. -->
-  <CBF_GarrisonBoxDistrictsTip>在各街區活動的駐軍與平民。</CBF_GarrisonBoxDistrictsTip>
+  <!-- EN: Garrison out in the districts. -->
+  <CBF_GarrisonBoxDistrictsTip>在各街區活動的駐軍。</CBF_GarrisonBoxDistrictsTip>
   <!-- EN: Guards -->
   <CBF_GarrisonBoxGuards>守衛</CBF_GarrisonBoxGuards>
   <!-- EN: People on walls, gates, guns and posts. They are always fully manned and never held back. -->

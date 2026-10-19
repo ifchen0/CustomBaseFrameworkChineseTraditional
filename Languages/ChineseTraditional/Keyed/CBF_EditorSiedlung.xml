@@ -680,12 +680,16 @@
   <CBF_D_Layout_CorridorsTip>一個主走廊網路，房間對接其上。</CBF_D_Layout_CorridorsTip>
   <!-- EN: Rooms sit directly against each other, without corridors in between. -->
   <CBF_D_Layout_ChambersTip>房間直接相互緊靠，之間沒有走廊。</CBF_D_Layout_ChambersTip>
-  <!-- EN: How the level is built. Corridors: a main corridor network with rooms docked onto it. Chambers: rooms directly against each other. -->
-  <CBF_FieldDesc_layout>此層的建造方式。走廊：主走廊網路，房間對接其上。洞室：房間直接相互緊靠。</CBF_FieldDesc_layout>
+  <!-- EN: How the level is built. Corridors: a main corridor network with rooms docked onto it. Chambers: rooms directly against each other. Rows: a main corridor with bends, rooms in rows along both sides. -->
+  <CBF_FieldDesc_layout>此層的建造方式。走廊：主走廊網路，房間對接其上。洞室：房間直接相互緊靠。排列：帶轉彎的主走廊，房間沿兩側成排排列。</CBF_FieldDesc_layout>
   <!-- EN: Cave -->
   <CBF_D_Layout_Cave>洞穴</CBF_D_Layout_Cave>
   <!-- EN: Natural cave chambers without built walls. -->
   <CBF_D_Layout_CaveTip>沒有建造牆體的天然洞室。</CBF_D_Layout_CaveTip>
+  <!-- EN: Rows -->
+  <CBF_D_Layout_Rows>排列</CBF_D_Layout_Rows>
+  <!-- EN: A main corridor with a few bends. The rooms stand in rows along both sides and share their walls, the largest room closes off the end. Now and then a wall with a door cuts the corridor. -->
+  <CBF_D_Layout_RowsTip>一條帶有幾處轉彎的主走廊。房間沿兩側成排排列並共用牆壁，最大的房間封住盡頭。主走廊偶爾會被一道帶門的牆隔開。</CBF_D_Layout_RowsTip>
   <!-- EN: like the level ({0}) -->
   <CBF_D_LayoutFromLevel>如同該層（{0}）</CBF_D_LayoutFromLevel>
   <!-- EN: Own layout for this area. Empty takes the layout of the level. -->

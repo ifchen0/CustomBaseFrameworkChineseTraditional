@@ -182,8 +182,8 @@
   <CBF_PawnKindFilter>顯示</CBF_PawnKindFilter>
   <!-- EN: People -->
   <CBF_PawnKindPeople>人類</CBF_PawnKindPeople>
-  <!-- EN: Animals -->
-  <CBF_PawnKindAnimals>動物</CBF_PawnKindAnimals>
+  <!-- EN: Animals and creatures -->
+  <CBF_PawnKindAnimals>動物與生物</CBF_PawnKindAnimals>
   <!-- EN: Edit this pawn list -->
   <CBF_EditPawnListTip>編輯此角色清單</CBF_EditPawnListTip>
   <!-- EN: Material lists -->
@@ -422,4 +422,50 @@
   <CBF_Lo_FloorSaved>{0} 已儲存，{1} 塊地板。</CBF_Lo_FloorSaved>
   <!-- EN: No floor list given. -->
   <CBF_Lo_FloorNone>未給出地板清單。</CBF_Lo_FloorNone>
+  <!-- EN: Ruins -->
+  <CBF_Lo_Ruins>廢墟</CBF_Lo_Ruins>
+  <!-- EN: Ruins -->
+  <CBF_Lo_RuinsShort>廢墟</CBF_Lo_RuinsShort>
+  <!-- EN: New ruins are set up in XML for now. -->
+  <CBF_Ru_NoNew>目前新的廢墟要在 XML 中設定。</CBF_Ru_NoNew>
+  <!-- EN: Who holds a quest ruin. The other ruin fields stay in the XML file. -->
+  <CBF_Ru_Hint>由誰佔據任務廢墟。其他廢墟欄位仍保留在 XML 檔案中。</CBF_Ru_Hint>
+  <!-- EN: Occupation -->
+  <CBF_Ru_Occupation>佔據者</CBF_Ru_Occupation>
+  <!-- EN: Nobody -->
+  <CBF_Ru_Occ_None>無人</CBF_Ru_Occ_None>
+  <!-- EN: The ruin stays empty. -->
+  <CBF_Ru_Occ_NoneTip>廢墟保持空無一人。</CBF_Ru_Occ_NoneTip>
+  <!-- EN: Original owners -->
+  <CBF_Ru_Occ_Builder>原本的主人</CBF_Ru_Occ_Builder>
+  <!-- EN: The faction that built the place still holds it. -->
+  <CBF_Ru_Occ_BuilderTip>建造此地的派系仍佔據著它。</CBF_Ru_Occ_BuilderTip>
+  <!-- EN: Occupiers -->
+  <CBF_Ru_Occ_Occupier>佔領者</CBF_Ru_Occ_Occupier>
+  <!-- EN: The conquering faction holds the ruin, drawn from raid points. -->
+  <CBF_Ru_Occ_OccupierTip>征服此地的派系佔據廢墟，人數依襲擊點數決定。</CBF_Ru_Occ_OccupierTip>
+  <!-- EN: Wild animals -->
+  <CBF_Ru_Occ_Animals>野生動物</CBF_Ru_Occ_Animals>
+  <!-- EN: Aggressive animals of the biome hold the ruin as manhunters, scaled by the threat points of the site. -->
+  <CBF_Ru_Occ_AnimalsTip>由該生態區的攻擊性動物以狂暴狀態佔據廢墟，數量依地點的威脅點數調整。</CBF_Ru_Occ_AnimalsTip>
+  <!-- EN: Creatures -->
+  <CBF_Ru_Creatures>生物</CBF_Ru_Creatures>
+  <!-- EN: A pawn list. Each entry spawns exactly one pawn, weights do not count. Animals come as manhunters. -->
+  <CBF_Ru_CreaturesTip>一份角色清單。每個條目恰好生成一個角色，權重不計。動物會以狂暴狀態出現。</CBF_Ru_CreaturesTip>
+  <!-- EN: Pick a pawn list first. -->
+  <CBF_Ru_OpenNone>請先選擇一份角色清單。</CBF_Ru_OpenNone>
+  <!-- EN: Open the pawn list in the Pawn tab. -->
+  <CBF_Ru_OpenTip>在角色分頁開啟此角色清單。</CBF_Ru_OpenTip>
+  <!-- EN: No creatures. The occupation above decides who holds the ruin. -->
+  <CBF_Ru_NoCreatures>沒有生物。由上方的佔據者決定誰佔據廢墟。</CBF_Ru_NoCreatures>
+  <!-- EN: Each entry of the list is one pawn. One troll is a list with one entry, three wolves are three entries. -->
+  <CBF_Ru_EachOne>清單中每個條目就是一個角色。一隻巨魔是只有一個條目的清單，三隻狼就是三個條目。</CBF_Ru_EachOne>
+  <!-- EN: The creatures replace the occupation above. -->
+  <CBF_Ru_Replaces>這些生物會取代上方的佔據者。</CBF_Ru_Replaces>
+  <!-- EN: Spawns -->
+  <CBF_Ru_Spawns>生成</CBF_Ru_Spawns>
+  <!-- EN: The pawn list is empty, nothing spawns. -->
+  <CBF_Ru_ListEmpty>角色清單是空的，不會生成任何東西。</CBF_Ru_ListEmpty>
+  <!-- EN: Saving changes only occupation and creatures in the ruin's file. -->
+  <CBF_Ru_RightHint>儲存時只會修改廢墟檔案中的佔據者與生物。</CBF_Ru_RightHint>
 </LanguageData>

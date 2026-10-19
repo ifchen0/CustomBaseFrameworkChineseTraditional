@@ -24,8 +24,8 @@
   <CBF_FieldDesc_attackSide>襲擊者來自的方向：北、東、南或西。破口與最嚴重的破壞集中在那裡。留空隨機選一側。</CBF_FieldDesc_attackSide>
   <!-- EN: Upper limit on fighters. Once the settlement has this many, further spawn anchors for fighters stay empty; gunner anchors still get theirs. 0 means no limit. -->
   <CBF_FieldDesc_maxSoldiers>戰士數量上限。據點達到此數量後，進一步的戰士生成錨點保持為空；砲手錨點仍會得到人。0 表示無上限。</CBF_FieldDesc_maxSoldiers>
-  <!-- EN: Upper limit on civilians. Once the settlement has this many pawns that are not fighters, further civilian spawn anchors stay empty. 0 means no limit. -->
-  <CBF_FieldDesc_maxCivilians>平民數量上限。據點達到此數量後，進一步的平民生成錨點保持為空。0 表示無上限。</CBF_FieldDesc_maxCivilians>
+  <!-- EN: Only for older pawn lists with role Civilian, which now count as Guard: limits how many anchors with such lists get pawns. 0 means no limit. New lists do not need it. -->
+  <CBF_FieldDesc_maxCivilians>僅適用於角色為平民的舊角色清單（現在視為守衛）：限制有多少個使用這類清單的錨點會生成角色。0 表示無上限。新清單不需要此欄位。</CBF_FieldDesc_maxCivilians>
   <!-- EN: Weight of this settlement type against the other types the same faction may get. 0 counts as 1. -->
   <CBF_FieldDesc_share>此據點型別相對同一派系可能獲得的其他型別的權重。0 計為 1。</CBF_FieldDesc_share>
   <!-- EN: Who holds the ruin. None leaves it empty, Builder keeps the original owners, Occupier puts the conquering faction in, drawn from raid points only, without ward garrisons or the units set on anchors. -->
@@ -202,8 +202,8 @@
   <CBF_FieldDesc_requiresAnyMod>僅當這些模組（packageId）中至少一個啟用時條目才計數。</CBF_FieldDesc_requiresAnyMod>
   <!-- EN: Surface of the outermost cells of lanes, squares and gate passages in this ward. The first terrain that exists is used. Empty keeps the road surface. -->
   <CBF_FieldDesc_roadEdges>本區劃小路、廣場與城門通道最外格的地面。使用第一個存在的地形。留空保留道路地面。</CBF_FieldDesc_roadEdges>
-  <!-- EN: Name of a building role, such as wall, floor or door. CBF puts the matching thing from the material list there when no thing or terrain is set. How the pawns behave. Guard joins the general defence, Sentry holds its spot, Gunner mans the guns around its spot, Civilian defends its spot but may flee and need not be able to fight. -->
-  <CBF_FieldDesc_role>建築角色的名稱，如牆、地面或門。CBF 在未設定物品或地形時把材料清單中匹配的物品放在那裡。角色如何行動。守衛加入整體防禦，崗哨堅守其位置，砲手駐守其位置周圍的砲位，平民守其位置但可能逃跑且無需能戰。</CBF_FieldDesc_role>
+  <!-- EN: Name of a building role, such as wall, floor or door. CBF puts the matching thing from the material list there when no thing or terrain is set. How the pawns behave. Guard joins the general defence, Sentry holds its spot, Gunner mans the guns around its spot. -->
+  <CBF_FieldDesc_role>建築角色的名稱，如牆、地面或門。CBF 在未設定物品或地形時把材料清單中匹配的物品放在那裡。角色如何行動。守衛加入整體防禦，崗哨堅守其位置，砲手駐守其位置周圍的砲位。</CBF_FieldDesc_role>
   <!-- EN: Chance that the table draws from entries at all, 0 to 1. always is not affected. -->
   <CBF_FieldDesc_rollChance>表從條目抽取的機率，0 至 1。always 不受影響。</CBF_FieldDesc_rollChance>
   <!-- EN: How many times entries is drawn from, as a range. Default 1~3. -->

@@ -58,8 +58,6 @@
   <CBF_Pw_Role_Sentry>崗哨</CBF_Pw_Role_Sentry>
   <!-- EN: Gunner -->
   <CBF_Pw_Role_Gunner>砲手</CBF_Pw_Role_Gunner>
-  <!-- EN: Civilian -->
-  <CBF_Pw_Role_Civilian>平民</CBF_Pw_Role_Civilian>
   <!-- EN: Forbidden -->
   <CBF_Pw_Forbidden>禁止</CBF_Pw_Forbidden>
   <!-- EN: Forced -->
