@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: dwarf annex mining -->
+  <CBF_MO_Dwarf_Annex_Mining.label>矮人採礦附屬建築</CBF_MO_Dwarf_Annex_Mining.label>
+  <!-- EN: dwarf annex rural -->
+  <CBF_MO_Dwarf_Annex_Rural.label>矮人鄉村附屬建築</CBF_MO_Dwarf_Annex_Rural.label>
+  <!-- EN: dwarf annex smithy -->
+  <CBF_MO_Dwarf_Annex_Smithy.label>矮人鐵匠附屬建築</CBF_MO_Dwarf_Annex_Smithy.label>
+  <!-- EN: dwarf annex tavern -->
+  <CBF_MO_Dwarf_Annex_Tavern.label>矮人酒館附屬建築</CBF_MO_Dwarf_Annex_Tavern.label>
+  <!-- EN: dwarf annex town -->
+  <CBF_MO_Dwarf_Annex_Town.label>矮人城鎮附屬建築</CBF_MO_Dwarf_Annex_Town.label>
+  <!-- EN: dwarf hut -->
+  <CBF_MO_Dwarf_Hut.label>矮人小屋</CBF_MO_Dwarf_Hut.label>
+  <!-- EN: dwarf smithy -->
+  <CBF_MO_Dwarf_Smithy.label>矮人鐵匠鋪</CBF_MO_Dwarf_Smithy.label>
+  <!-- EN: dwarf tavern -->
+  <CBF_MO_Dwarf_Tavern.label>矮人酒館</CBF_MO_Dwarf_Tavern.label>
+  <!-- EN: dwarf tower -->
+  <CBF_MO_Dwarf_TownTower.label>矮人塔樓</CBF_MO_Dwarf_TownTower.label>
+</LanguageData>

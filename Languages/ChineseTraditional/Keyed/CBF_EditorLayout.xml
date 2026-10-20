@@ -150,4 +150,14 @@
   <CBF_Lo_CopyQCCancelTip>結束複製。</CBF_Lo_CopyQCCancelTip>
   <!-- EN: Copy -->
   <CBF_Lo_CopyShort>複製</CBF_Lo_CopyShort>
+  <!-- EN: Quests -->
+  <CBF_Tab_Quests>任務</CBF_Tab_Quests>
+  <!-- EN: Copy count -->
+  <CBF_Lo_CopyCount>複製數量</CBF_Lo_CopyCount>
+  <!-- EN: Click entries in the list afterwards to give them the count of this entry. Any number of entries can be clicked. -->
+  <CBF_Lo_CopyCountTip>隨後點選清單中的條目，為其賦予本條目的數量。可點選任意數量的條目。</CBF_Lo_CopyCountTip>
+  <!-- EN: Apply count to all entries -->
+  <CBF_Lo_ApplyCountToAll>將數量應用到所有條目</CBF_Lo_ApplyCountToAll>
+  <!-- EN: Gives the count of this entry to all {0} other entries of this table. -->
+  <CBF_Lo_ApplyCountToAllTip>將本條目的數量套用到此表的其他{0}個條目。</CBF_Lo_ApplyCountToAllTip>
 </LanguageData>

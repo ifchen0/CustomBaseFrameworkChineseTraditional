@@ -696,4 +696,60 @@
   <CBF_FieldDesc_DistrictSpec_layout>此區域的自有佈局。留空取該層的佈局。</CBF_FieldDesc_DistrictSpec_layout>
   <!-- EN: New dungeon -->
   <CBF_D_NewPlan>新建地下城</CBF_D_NewPlan>
+  <!-- EN: Rock mantle -->
+  <CBF_S_MountainMantle>岩層厚度</CBF_S_MountainMantle>
+  <!-- EN: 0 = standard {0} for a mountain city -->
+  <CBF_S_MountainMantleDefault>0＝山城標準值{0}</CBF_S_MountainMantleDefault>
+  <!-- EN: 0 = no mountain -->
+  <CBF_S_MountainMantleNone>0＝沒有山</CBF_S_MountainMantleNone>
+  <!-- EN: Minimum rock thickness around old town and suburb, 0 to {0}. A mountain city uses {1} when this is 0. Other types only get a mountain when this is set. -->
+  <CBF_S_MountainMantleTip>舊城區與郊區周圍的最小岩層厚度，0至{0}。此值為0時，山城使用{1}。其他類型只有在設定此值時才會有山。</CBF_S_MountainMantleTip>
+  <!-- EN: Fields inside the mountain are dark. These plants do not grow there: {0}. Choose plants that grow in the dark, such as mushrooms. -->
+  <CBF_S_DarkPlants>山內的田地是黑暗的。這些植物無法在那裡生長：{0}。請選擇能在黑暗中生長的植物，例如蘑菇。</CBF_S_DarkPlants>
+  <!-- EN: Category entries have no weight of their own here. The pieces of the category are drawn by their own weights. -->
+  <CBF_S_WeightFromCategory>類別條目在這裡沒有自己的權重。類別中的部件依各自的權重抽取。</CBF_S_WeightFromCategory>
+  <!-- EN: Build as ruin -->
+  <CBF_S_PlanRuin>建成廢墟</CBF_S_PlanRuin>
+  <!-- EN: no ruin -->
+  <CBF_S_PlanRuinNone>非廢墟</CBF_S_PlanRuinNone>
+  <!-- EN: Builds every place of this type as a ruin: walls torn down, rooms burnt out, roofs partly collapsed, overgrown. The faction still lives there. Plundered means little loot, not plundered means the loot stays. A ruin from a quest or site takes precedence. -->
+  <CBF_S_PlanRuinTip>將此類型的每個地點都建成廢墟：城牆倒塌、房間燒毀、屋頂部分坍塌、雜草叢生。派系仍住在那裡。已遭洗劫表示戰利品很少，未遭洗劫表示戰利品保留。任務或地點設定的廢墟優先。</CBF_S_PlanRuinTip>
+  <!-- EN: Appears only if -->
+  <CBF_S_PlanWhere>出現條件</CBF_S_PlanWhere>
+  <!-- EN: Conditions for this settlement type. Empty rows restrict nothing. -->
+  <CBF_S_PlanWhereTip>此據點類型的條件。空白的列不做任何限制。</CBF_S_PlanWhereTip>
+  <!-- EN: Ideoligion has -->
+  <CBF_S_PlanIdeoWith>理念包含</CBF_S_PlanIdeoWith>
+  <!-- EN: Ideoligion lacks -->
+  <CBF_S_PlanIdeoWithout>理念不含</CBF_S_PlanIdeoWithout>
+  <!-- EN: any -->
+  <CBF_S_PlanIdeoAny>任何</CBF_S_PlanIdeoAny>
+  <!-- EN: Needs Ideology. Without the DLC this condition is ignored. -->
+  <CBF_S_PlanIdeoNoDlc>需要Ideology。沒有此DLC時會忽略這個條件。</CBF_S_PlanIdeoNoDlc>
+  <!-- EN: Only factions whose main ideoligion has at least one of these memes or precepts get this settlement type. Example: tunneler for a mountain city. Empty means all factions. -->
+  <CBF_S_PlanIdeoWithTip>只有主要理念至少具有其中一個模因或戒律的派系，才會使用此據點類型。例如山城可設穿隧者。留空表示所有派系。</CBF_S_PlanIdeoWithTip>
+  <!-- EN: Factions whose main ideoligion has one of these memes or precepts never get this settlement type. Empty means no restriction. -->
+  <CBF_S_PlanIdeoWithoutTip>主要理念具有其中任一模因或戒律的派系，永遠不會使用此據點類型。留空表示不限制。</CBF_S_PlanIdeoWithoutTip>
+  <!-- EN: Biomes -->
+  <CBF_S_PlanBiomes>生物群系</CBF_S_PlanBiomes>
+  <!-- EN: The settlement type only appears on tiles of these biomes, for example only in deserts. Empty means all biomes. -->
+  <CBF_S_PlanBiomesTip>此據點類型只會出現在這些生物群系的地塊上，例如只在沙漠。留空表示所有生物群系。</CBF_S_PlanBiomesTip>
+  <!-- EN: Not in biomes -->
+  <CBF_S_PlanNotBiomes>排除生物群系</CBF_S_PlanNotBiomes>
+  <!-- EN: The settlement type never appears on tiles of these biomes. -->
+  <CBF_S_PlanNotBiomesTip>此據點類型永遠不會出現在這些生物群系的地塊上。</CBF_S_PlanNotBiomesTip>
+  <!-- EN: Hilliness -->
+  <CBF_S_PlanHilliness>地勢</CBF_S_PlanHilliness>
+  <!-- EN: How hilly the tile is on the world map: flat, small hills, large hills or mountainous. The settlement type only appears at the chosen levels. Empty means all. -->
+  <CBF_S_PlanHillinessTip>地塊在世界地圖上的起伏程度：平地、丘陵、山丘或山地。此據點類型只會出現在所選的程度。留空表示全部。</CBF_S_PlanHillinessTip>
+  <!-- EN: Landforms -->
+  <CBF_S_PlanLandforms>地貌</CBF_S_PlanLandforms>
+  <!-- EN: Features of the tile such as coast, river, lake, valley or canyon. The settlement type only appears if the tile has at least one of them. Empty means any. -->
+  <CBF_S_PlanLandformsTip>地塊的地貌特徵，例如海岸、河流、湖泊、山谷或峽谷。地塊至少具有其中一項時，此據點類型才會出現。留空表示任何。</CBF_S_PlanLandformsTip>
+  <!-- EN: Not with landform -->
+  <CBF_S_PlanNotLandforms>排除地貌</CBF_S_PlanNotLandforms>
+  <!-- EN: The settlement type never appears on tiles with one of these landforms. -->
+  <CBF_S_PlanNotLandformsTip>此據點類型永遠不會出現在具有其中任一地貌的地塊上。</CBF_S_PlanNotLandformsTip>
+  <!-- EN: The type only appears where all conditions apply. Without the Ideology DLC, ideoligion conditions are ignored. -->
+  <CBF_S_PlanLoosen>此類型只會出現在所有條件都符合的地方。沒有Ideology DLC時，理念條件會被忽略。</CBF_S_PlanLoosen>
 </LanguageData>

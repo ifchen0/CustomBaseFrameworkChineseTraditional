@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: A narrow way down into the dark below. -->
+  <CBF_Descent_1x2_Stairs.description>一條通往下方黑暗的狹窄通道。</CBF_Descent_1x2_Stairs.description>
+  <!-- EN: way down -->
+  <CBF_Descent_1x2_Stairs.label>下行通道</CBF_Descent_1x2_Stairs.label>
+  <!-- EN: Worn stone steps that spiral down into the darkness below. -->
+  <CBF_Descent_2x2_Stairs.description>磨損的石階，盤旋而下通往下方的黑暗。</CBF_Descent_2x2_Stairs.description>
+  <!-- EN: stairs down -->
+  <CBF_Descent_2x2_Stairs.label>下行樓梯</CBF_Descent_2x2_Stairs.label>
+</LanguageData>

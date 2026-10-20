@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: claiming -->
+  <CBF_ClaimAnimal.gerund>認領</CBF_ClaimAnimal.gerund>
+  <!-- EN: claim animals of foreign settlements -->
+  <CBF_ClaimAnimal.label>認領外來據點的動物</CBF_ClaimAnimal.label>
+  <!-- EN: claim -->
+  <CBF_ClaimAnimal.verb>認領</CBF_ClaimAnimal.verb>
+</LanguageData>

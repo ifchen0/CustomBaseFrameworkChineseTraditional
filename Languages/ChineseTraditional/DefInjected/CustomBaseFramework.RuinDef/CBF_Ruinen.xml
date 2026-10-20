@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <!-- EN: plundered -->
+  <CBF_Ruin_Plundered.label>已遭洗劫</CBF_Ruin_Plundered.label>
   <!-- EN: raided -->
   <CBF_Ruin_Raided.label>遭劫掠</CBF_Ruin_Raided.label>
+  <!-- EN: not plundered -->
+  <CBF_Ruin_Unplundered.label>未遭洗劫</CBF_Ruin_Unplundered.label>
 </LanguageData>

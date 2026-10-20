@@ -16,6 +16,10 @@
   <CBF_P_SizeTipLarge>最長邊15格及以上</CBF_P_SizeTipLarge>
   <!-- EN: Show templates only -->
   <CBF_P_TemplatesTip>僅顯示模板</CBF_P_TemplatesTip>
+  <!-- EN: unsaved -->
+  <CBF_P_Unsaved>未儲存</CBF_P_Unsaved>
+  <!-- EN: Show only pieces imported from KCSG that are not kept yet. -->
+  <CBF_P_UnsavedTip>只顯示從KCSG匯入、尚未保留的部件。</CBF_P_UnsavedTip>
   <!-- EN: Right-click: rename, duplicate, mark as template, delete -->
   <CBF_P_ListHint>右鍵：重新命名、複製、標記為模板、刪除</CBF_P_ListHint>
   <!-- EN: not on the map -->
@@ -30,8 +34,8 @@
   <CBF_P_Outline>輪廓</CBF_P_Outline>
   <!-- EN: Paint anchors -->
   <CBF_P_PaintAnchors>繪製錨點</CBF_P_PaintAnchors>
-  <!-- EN: Drag a rectangle in the image. It becomes the area of the selected anchor. Right-click or Escape puts the tool away. -->
-  <CBF_P_PaintTip>在影像中拖出一個矩形。它將成為所選錨點的區域。右鍵或Esc收起工具。</CBF_P_PaintTip>
+  <!-- EN: Drag a rectangle in the image. It becomes the area of the selected anchor. Right-click or Escape puts the tool away. Connect anchors such as Annex may also go in the one-cell border around the piece; the piece then grows by an empty row or column when saved. -->
+  <CBF_P_PaintTip>在影像中拖出一個矩形。它將成為所選錨點的區域。右鍵或Esc收起工具。Annex之類的連線錨點也可以放在部件外圍一格的邊框上；儲存時部件會多出一列或一欄空白。</CBF_P_PaintTip>
   <!-- EN: Drag a rectangle in the image. All anchor cells inside it are removed. -->
   <CBF_P_EraseTip>在影像中拖出一個矩形。其中的所有錨點格被移除。</CBF_P_EraseTip>
   <!-- EN: Puts the piece on the map so its structure can be changed. The window folds away and the toolbox appears on the right. If it is already there, the camera jumps to it. -->

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: archive -->
+  <CBF_Dungeon_Archive.label>檔案室</CBF_Dungeon_Archive.label>
+  <!-- EN: bench hall -->
+  <CBF_Dungeon_BenchHall.label>長凳大廳</CBF_Dungeon_BenchHall.label>
+  <!-- EN: bunk room -->
+  <CBF_Dungeon_Bunkroom.label>通鋪房</CBF_Dungeon_Bunkroom.label>
+  <!-- EN: burial chamber -->
+  <CBF_Dungeon_BurialChamber.label>墓室</CBF_Dungeon_BurialChamber.label>
+  <!-- EN: catacomb corridor -->
+  <CBF_Dungeon_CatacombCorridor.label>地下墓道走廊</CBF_Dungeon_CatacombCorridor.label>
+  <!-- EN: catacomb hall -->
+  <CBF_Dungeon_CatacombHall.label>地下墓道大廳</CBF_Dungeon_CatacombHall.label>
+  <!-- EN: dungeon cave feature -->
+  <CBF_Dungeon_CaveFeature.label>地下城洞穴地形</CBF_Dungeon_CaveFeature.label>
+  <!-- EN: dungeon cave shrine -->
+  <CBF_Dungeon_CaveShrine.label>地下城洞穴神龕</CBF_Dungeon_CaveShrine.label>
+  <!-- EN: dungeon cellar stairs -->
+  <CBF_Dungeon_CellarStairs.label>地下城地窖樓梯</CBF_Dungeon_CellarStairs.label>
+  <!-- EN: cells -->
+  <CBF_Dungeon_Cells.label>牢房</CBF_Dungeon_Cells.label>
+  <!-- EN: cult chapel -->
+  <CBF_Dungeon_Chapel.label>邪教禮拜堂</CBF_Dungeon_Chapel.label>
+  <!-- EN: crypt -->
+  <CBF_Dungeon_Crypt.label>墓穴</CBF_Dungeon_Crypt.label>
+  <!-- EN: crypt chapel -->
+  <CBF_Dungeon_CryptChapel.label>墓穴禮拜堂</CBF_Dungeon_CryptChapel.label>
+  <!-- EN: crypt entrance -->
+  <CBF_Dungeon_CryptEntrance.label>墓穴入口</CBF_Dungeon_CryptEntrance.label>
+  <!-- EN: crypt stairs -->
+  <CBF_Dungeon_CryptStairs.label>墓穴樓梯</CBF_Dungeon_CryptStairs.label>
+  <!-- EN: dungeon crypt warden -->
+  <CBF_Dungeon_CryptWarden.label>地下城墓穴守墓人</CBF_Dungeon_CryptWarden.label>
+  <!-- EN: dungeon cult theme -->
+  <CBF_Dungeon_Cult.label>地下城邪教主題</CBF_Dungeon_Cult.label>
+  <!-- EN: dungeon cult rundown -->
+  <CBF_Dungeon_Cult_Rundown.label>地下城邪教（破敗）</CBF_Dungeon_Cult_Rundown.label>
+  <!-- EN: dungeon cult upscale -->
+  <CBF_Dungeon_Cult_Upscale.label>地下城邪教（高級）</CBF_Dungeon_Cult_Upscale.label>
+  <!-- EN: dungeon cultist dormitory -->
+  <CBF_Dungeon_CultistDormitory.label>地下城邪教徒宿舍</CBF_Dungeon_CultistDormitory.label>
+  <!-- EN: elite quarters -->
+  <CBF_Dungeon_EliteQuarters.label>精英住處</CBF_Dungeon_EliteQuarters.label>
+  <!-- EN: dungeon entrance -->
+  <CBF_Dungeon_Entrance.label>地下城入口</CBF_Dungeon_Entrance.label>
+  <!-- EN: dungeon family crypt -->
+  <CBF_Dungeon_FamilyCrypt.label>地下城家族墓穴</CBF_Dungeon_FamilyCrypt.label>
+  <!-- EN: dungeon guard post -->
+  <CBF_Dungeon_GuardPost.label>地下城崗哨</CBF_Dungeon_GuardPost.label>
+  <!-- EN: guardroom -->
+  <CBF_Dungeon_Guardroom.label>守衛室</CBF_Dungeon_Guardroom.label>
+  <!-- EN: dungeon hideout tier -->
+  <CBF_Dungeon_Hideout.label>地下城藏身處等級</CBF_Dungeon_Hideout.label>
+  <!-- EN: dungeon hideout tier 1 -->
+  <CBF_Dungeon_HideoutT1.label>地下城藏身處等級1</CBF_Dungeon_HideoutT1.label>
+  <!-- EN: dungeon hideout tier 2 -->
+  <CBF_Dungeon_HideoutT2.label>地下城藏身處等級2</CBF_Dungeon_HideoutT2.label>
+  <!-- EN: dungeon hideout tier 3 -->
+  <CBF_Dungeon_HideoutT3.label>地下城藏身處等級3</CBF_Dungeon_HideoutT3.label>
+  <!-- EN: dungeon high priest quarters -->
+  <CBF_Dungeon_HighPriestQuarters.label>地下城大祭司住處</CBF_Dungeon_HighPriestQuarters.label>
+  <!-- EN: dungeon crossroads room -->
+  <CBF_Dungeon_Hub.label>地下城十字路口房間</CBF_Dungeon_Hub.label>
+  <!-- EN: dungeon library -->
+  <CBF_Dungeon_Library.label>地下城圖書室</CBF_Dungeon_Library.label>
+  <!-- EN: mess hall -->
+  <CBF_Dungeon_Mess.label>食堂</CBF_Dungeon_Mess.label>
+  <!-- EN: dungeon nest -->
+  <CBF_Dungeon_Nest.label>地下城巢穴</CBF_Dungeon_Nest.label>
+  <!-- EN: dungeon niche chamber -->
+  <CBF_Dungeon_NicheChamber.label>地下城壁龕室</CBF_Dungeon_NicheChamber.label>
+  <!-- EN: ossuary -->
+  <CBF_Dungeon_Ossuary.label>藏骨堂</CBF_Dungeon_Ossuary.label>
+  <!-- EN: pantry -->
+  <CBF_Dungeon_Pantry.label>食品儲藏室</CBF_Dungeon_Pantry.label>
+  <!-- EN: dungeon refectory -->
+  <CBF_Dungeon_Refectory.label>地下城膳堂</CBF_Dungeon_Refectory.label>
+  <!-- EN: dungeon relic shrine -->
+  <CBF_Dungeon_RelicShrine.label>地下城聖物神龕</CBF_Dungeon_RelicShrine.label>
+  <!-- EN: dungeon ritual circle -->
+  <CBF_Dungeon_RitualCircle.label>地下城儀式法陣</CBF_Dungeon_RitualCircle.label>
+  <!-- EN: dungeon room -->
+  <CBF_Dungeon_Room.label>地下城房間</CBF_Dungeon_Room.label>
+  <!-- EN: dungeon sacrifice chamber -->
+  <CBF_Dungeon_SacrificeChamber.label>地下城獻祭室</CBF_Dungeon_SacrificeChamber.label>
+  <!-- EN: dungeon sarcophagus hall -->
+  <CBF_Dungeon_SarcophagusHall.label>地下城石棺大廳</CBF_Dungeon_SarcophagusHall.label>
+  <!-- EN: dungeon schematic archive -->
+  <CBF_Dungeon_SchematicArchive.label>地下城藍圖檔案室</CBF_Dungeon_SchematicArchive.label>
+  <!-- EN: scriptorium -->
+  <CBF_Dungeon_Scriptorium.label>抄寫室</CBF_Dungeon_Scriptorium.label>
+  <!-- EN: secret passage -->
+  <CBF_Dungeon_SecretPassage.label>密道</CBF_Dungeon_SecretPassage.label>
+  <!-- EN: dungeon small crypt -->
+  <CBF_Dungeon_SmallCrypt.label>地下城小型墓穴</CBF_Dungeon_SmallCrypt.label>
+  <!-- EN: dungeon small crypt chamber -->
+  <CBF_Dungeon_SmallCryptChamber.label>地下城小型墓穴墓室</CBF_Dungeon_SmallCryptChamber.label>
+  <!-- EN: dungeon small crypt stairs -->
+  <CBF_Dungeon_SmallCryptStairs.label>地下城小型墓穴樓梯</CBF_Dungeon_SmallCryptStairs.label>
+  <!-- EN: dungeon small crypt vault -->
+  <CBF_Dungeon_SmallCryptVault.label>地下城小型墓穴寶庫</CBF_Dungeon_SmallCryptVault.label>
+  <!-- EN: dungeon stairs -->
+  <CBF_Dungeon_Stairs.label>地下城樓梯</CBF_Dungeon_Stairs.label>
+  <!-- EN: statue hall -->
+  <CBF_Dungeon_StatueHall.label>雕像大廳</CBF_Dungeon_StatueHall.label>
+  <!-- EN: storeroom -->
+  <CBF_Dungeon_Storeroom.label>儲物室</CBF_Dungeon_Storeroom.label>
+  <!-- EN: tomb -->
+  <CBF_Dungeon_Tomb.label>墓室</CBF_Dungeon_Tomb.label>
+  <!-- EN: dungeon torture chamber -->
+  <CBF_Dungeon_TortureChamber.label>地下城刑房</CBF_Dungeon_TortureChamber.label>
+  <!-- EN: dungeon treasure heap -->
+  <CBF_Dungeon_TreasureHeap.label>地下城寶藏堆</CBF_Dungeon_TreasureHeap.label>
+  <!-- EN: trophy hall -->
+  <CBF_Dungeon_TrophyHall.label>戰利品陳列廳</CBF_Dungeon_TrophyHall.label>
+  <!-- EN: vault -->
+  <CBF_Dungeon_Vault.label>寶庫</CBF_Dungeon_Vault.label>
+  <!-- EN: dungeon well room -->
+  <CBF_Dungeon_WellRoom.label>地下城水井室</CBF_Dungeon_WellRoom.label>
+</LanguageData>

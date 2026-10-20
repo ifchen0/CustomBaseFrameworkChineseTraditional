@@ -900,4 +900,6 @@
   <CBF_Verlies_Karawane>組織旅隊</CBF_Verlies_Karawane>
   <!-- EN: Forms a caravan from every level of this dungeon. People and loot from each level can be chosen and are taken immediately. Only possible once no enemy remains on any level. -->
   <CBF_Verlies_KarawaneDesc>從這座地下城的所有樓層一起組織旅隊。每一層的人員與戰利品都可以挑選，並會立刻帶走。所有樓層都沒有敵人後才能使用。</CBF_Verlies_KarawaneDesc>
+  <!-- EN: Mountain city -->
+  <CBF_Kind_MountainCity>山城</CBF_Kind_MountainCity>
 </LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: profaned armor -->
+  <CBF_Profaned_Goods_Armor.label>褻瀆者護甲</CBF_Profaned_Goods_Armor.label>
+  <!-- EN: profaned arms -->
+  <CBF_Profaned_Goods_Arms.label>褻瀆者武器</CBF_Profaned_Goods_Arms.label>
+  <!-- EN: potions -->
+  <CBF_Profaned_Goods_Potions.label>藥水</CBF_Profaned_Goods_Potions.label>
+  <!-- EN: rags -->
+  <CBF_Profaned_Goods_Rags.label>破布</CBF_Profaned_Goods_Rags.label>
+  <!-- EN: relics -->
+  <CBF_Profaned_Goods_Relics.label>聖物</CBF_Profaned_Goods_Relics.label>
+  <!-- EN: grave treasure -->
+  <CBF_Profaned_Goods_Treasure.label>陪葬寶藏</CBF_Profaned_Goods_Treasure.label>
+  <!-- EN: Alchemy -->
+  <CBF_Profaned_Loot_Alchemy.label>煉金</CBF_Profaned_Loot_Alchemy.label>
+  <!-- EN: Armory -->
+  <CBF_Profaned_Loot_Armory.label>武器庫</CBF_Profaned_Loot_Armory.label>
+  <!-- EN: Crypt -->
+  <CBF_Profaned_Loot_Crypt.label>墓穴</CBF_Profaned_Loot_Crypt.label>
+  <!-- EN: Hoard -->
+  <CBF_Profaned_Loot_Hoard.label>寶藏堆</CBF_Profaned_Loot_Hoard.label>
+  <!-- EN: Home -->
+  <CBF_Profaned_Loot_Home.label>住所</CBF_Profaned_Loot_Home.label>
+  <!-- EN: scraps -->
+  <CBF_Profaned_Loot_Minimal.label>殘渣</CBF_Profaned_Loot_Minimal.label>
+</LanguageData>

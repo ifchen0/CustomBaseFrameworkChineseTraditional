@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Import KCSG -->
+  <CBF_Kcsg_Title>匯入KCSG</CBF_Kcsg_Title>
+  <!-- EN: Turns KCSG structure layouts of a loaded mod into CBF pieces in your project. Use it for layouts you made yourself or may reuse. -->
+  <CBF_Kcsg_Tip>將已載入模組的KCSG建築佈局轉成你專案中的CBF部件。適合用在你自己製作或可能重複使用的佈局。</CBF_Kcsg_Tip>
+  <!-- EN: No loaded mod has KCSG structure layouts. -->
+  <CBF_Kcsg_None>沒有任何已載入的模組含有KCSG建築佈局。</CBF_Kcsg_None>
+  <!-- EN: {0} already exists. -->
+  <CBF_Kcsg_Exists>{0}已存在。</CBF_Kcsg_Exists>
+  <!-- EN: {0} has no usable cells. -->
+  <CBF_Kcsg_Empty>{0}沒有可用的格子。</CBF_Kcsg_Empty>
+  <!-- EN: No target folder. Open or create a project first. -->
+  <CBF_Kcsg_NoTarget>沒有目標資料夾。請先開啟或建立一個專案。</CBF_Kcsg_NoTarget>
+  <!-- EN: {0} was written but could not be read back. -->
+  <CBF_Kcsg_Unreadable>{0}已寫入，但無法讀回。</CBF_Kcsg_Unreadable>
+  <!-- EN: {0} piece(s) imported. -->
+  <CBF_Kcsg_Done>已匯入{0}個部件。</CBF_Kcsg_Done>
+  <!-- EN: {0} pawn cell(s) left out; CBF populates sites itself. -->
+  <CBF_Kcsg_Pawns>略過了{0}個角色格；CBF會自行在地點配置人員。</CBF_Kcsg_Pawns>
+  <!-- EN: More than three layers: {0} cell(s) moved to the third layer, {1} lost. -->
+  <CBF_Kcsg_Layers>超過三層：{0}格移到第三層，{1}格遺失。</CBF_Kcsg_Layers>
+  <!-- EN: {0} unknown symbol(s), for example {1}. -->
+  <CBF_Kcsg_Missing>{0}個未知符號，例如{1}。</CBF_Kcsg_Missing>
+  <!-- EN: The folder does not exist. -->
+  <CBF_Kcsg_NoFolder>資料夾不存在。</CBF_Kcsg_NoFolder>
+  <!-- EN: No KCSG structure layouts in this folder. -->
+  <CBF_Kcsg_NoneInFolder>此資料夾中沒有KCSG建築佈局。</CBF_Kcsg_NoneInFolder>
+  <!-- EN: This piece is not an unsaved import. -->
+  <CBF_Kcsg_NotPending>此部件不是未儲存的匯入項目。</CBF_Kcsg_NotPending>
+  <!-- EN: Pick a mod or enter a folder. All KCSG buildings in it are added to the piece list, unsaved. Keep the ones you want there one by one; the rest is lost when you quit. -->
+  <CBF_Kcsg_FolderHint>選擇一個模組或輸入資料夾。其中所有KCSG建築都會加入部件清單，但尚未儲存。在清單中逐一保留你要的部件；其餘的在離開時會遺失。</CBF_Kcsg_FolderHint>
+  <!-- EN: Folder -->
+  <CBF_Kcsg_Folder>資料夾</CBF_Kcsg_Folder>
+  <!-- EN: Root folder of a mod. Subfolders for other game versions are skipped. -->
+  <CBF_Kcsg_FolderTip>模組的根資料夾。其他遊戲版本的子資料夾會被略過。</CBF_Kcsg_FolderTip>
+  <!-- EN: Load buildings -->
+  <CBF_Kcsg_Load>載入建築</CBF_Kcsg_Load>
+  <!-- EN: loaded -->
+  <CBF_Kcsg_Active>已載入</CBF_Kcsg_Active>
+  <!-- EN: They are not saved yet. -->
+  <CBF_Kcsg_Unsaved>它們尚未儲存。</CBF_Kcsg_Unsaved>
+  <!-- EN: unsaved -->
+  <CBF_Kcsg_PendingChip>未儲存</CBF_Kcsg_PendingChip>
+  <!-- EN: Keep -->
+  <CBF_Kcsg_Keep>保留</CBF_Kcsg_Keep>
+  <!-- EN: Saves this piece to your project. Then set its category and anchors. -->
+  <CBF_Kcsg_KeepTip>將此部件儲存到你的專案。之後再設定它的類別與錨點。</CBF_Kcsg_KeepTip>
+  <!-- EN: Discard -->
+  <CBF_Kcsg_Discard>捨棄</CBF_Kcsg_Discard>
+  <!-- EN: Removes this imported piece again without saving it. -->
+  <CBF_Kcsg_DiscardTip>移除這個匯入的部件，不儲存。</CBF_Kcsg_DiscardTip>
+  <!-- EN: {0} discarded. -->
+  <CBF_Kcsg_Discarded>已捨棄{0}。</CBF_Kcsg_Discarded>
+</LanguageData>

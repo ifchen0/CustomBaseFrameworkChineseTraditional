@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: dungeon connector -->
+  <CBF_Dungeon_Connector.label>地下城連接段</CBF_Dungeon_Connector.label>
+  <!-- EN: dungeon corridor -->
+  <CBF_Dungeon_Corridor.label>地下城走廊</CBF_Dungeon_Corridor.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: mountain city -->
+  <CBF_Plan_Vanilla_MountainCity.label>山城</CBF_Plan_Vanilla_MountainCity.label>
+  <!-- EN: Government quarter -->
+  <CBF_Plan_Vanilla_MountainCity.wards.0.label>政府區</CBF_Plan_Vanilla_MountainCity.wards.0.label>
+  <!-- EN: Town ring -->
+  <CBF_Plan_Vanilla_MountainCity.wards.1.label>城鎮環區</CBF_Plan_Vanilla_MountainCity.wards.1.label>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Worn stone steps that spiral down into the darkness below. -->
+  <CBF_DungeonStairsDown.description>磨損的石階，盤旋而下通往下方的黑暗。</CBF_DungeonStairsDown.description>
+  <!-- EN: stairs down -->
+  <CBF_DungeonStairsDown.label>下行樓梯</CBF_DungeonStairsDown.label>
+  <!-- EN: Worn stone steps that lead back up to the level above. -->
+  <CBF_DungeonStairsUp.description>磨損的石階，通回上一層。</CBF_DungeonStairsUp.description>
+  <!-- EN: stairs up -->
+  <CBF_DungeonStairsUp.label>上行樓梯</CBF_DungeonStairsUp.label>
+</LanguageData>

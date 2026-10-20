@@ -1556,6 +1556,16 @@
   <CBF_Abstieg_Label>{0}（通往下方）</CBF_Abstieg_Label>
   <!-- EN: {0}: a way leads down beneath it. -->
   <CBF_Abstieg_Gefunden>{0}：底下有一條通往下方的路。</CBF_Abstieg_Gefunden>
+  <!-- EN: Seal descent -->
+  <CBF_Descent_Seal>封閉下行入口</CBF_Descent_Seal>
+  <!-- EN: Seal this way down for good. The level below and every level beneath it are removed, including everything left there. The descent cannot be opened again. -->
+  <CBF_Descent_SealDesc>永久封閉這條往下的路。下一層以及其下的所有樓層都會被移除，包括留在那裡的一切。下行入口無法再次開啟。</CBF_Descent_SealDesc>
+  <!-- EN: The level below is removed for good, including everything left there. Seal the descent? -->
+  <CBF_Descent_SealConfirm>下一層將被永久移除，包括留在那裡的一切。要封閉下行入口嗎？</CBF_Descent_SealConfirm>
+  <!-- EN: Someone of your colony is still below: colonists, prisoners or animals. -->
+  <CBF_Descent_SealOccupied>殖民地還有人在下面：殖民者、囚犯或動物。</CBF_Descent_SealOccupied>
+  <!-- EN: {0}: the way down is sealed. -->
+  <CBF_Descent_Sealed>{0}：往下的路已封閉。</CBF_Descent_Sealed>
   <!-- EN: Old town shapes -->
   <CBF_S_CoreShapes>老城區形狀</CBF_S_CoreShapes>
   <!-- EN: All shapes allowed. Click a shape to exclude it. -->
@@ -1650,4 +1660,16 @@
   <CBF_GarrisonDowned>倒地的守軍計入上限</CBF_GarrisonDowned>
   <!-- EN: Wounded defenders lying on the ground keep their place until they die or are captured. Fewer reinforcements spawn, which saves performance in a fight, above all on slow computers. Measured: 11 to 33 % more TPS once 10 or more defenders are down. The last stand (fewer than three defenders on their feet) is still triggered, and from then on downed defenders no longer count. Applies at once, also in existing settlements with a reserve. -->
   <CBF_GarrisonDownedHelp>倒在地上的傷兵會佔著名額，直到死亡或被俘。出現的援軍會變少，能減輕戰鬥時的效能負擔，對較慢的電腦特別有用。實測：10名以上守軍倒地後，TPS提升11% 至33%。最後抵抗（站著的守軍少於三人）仍會觸發，之後倒地的守軍不再計入。立即套用，有後備兵力的現有據點也會生效。</CBF_GarrisonDownedHelp>
+  <!-- EN: Claim animal -->
+  <CBF_ClaimAnimal>認領動物</CBF_ClaimAnimal>
+  <!-- EN: Take an animal of a foreign settlement for your colony. A handler goes there and claims it. Each animal costs goodwill with its faction, more for valuable animals (market value divided by 150, at least 1, at most 10). Hostile factions and defeated settlements lose no goodwill. -->
+  <CBF_ClaimAnimalDesc>將外來據點的一隻動物帶回你的殖民地。會派一名馴獸師前去認領。每隻動物都會降低與其派系的友好度，越有價值的動物降得越多（市場價格除以150，最少1，最多10）。敵對派系與已被擊敗的據點不會降低友好度。</CBF_ClaimAnimalDesc>
+  <!-- EN: Must target a living animal. -->
+  <CBF_ClaimAnimalNoAnimal>必須以活著的動物為目標。</CBF_ClaimAnimalNoAnimal>
+  <!-- EN: Must target an animal that belongs to another faction. -->
+  <CBF_ClaimAnimalNotForeign>必須以屬於其他派系的動物為目標。</CBF_ClaimAnimalNotForeign>
+  <!-- EN: Only works on the map of a CBF settlement. -->
+  <CBF_ClaimAnimalNoSite>只能在CBF據點的地圖上使用。</CBF_ClaimAnimalNoSite>
+  <!-- EN: (hidden) -->
+  <CBF_WorldHidden>（隱藏）</CBF_WorldHidden>
 </LanguageData>

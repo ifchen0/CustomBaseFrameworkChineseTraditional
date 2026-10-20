@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Bone Reaper -->
+  <CBF_BoneReaper.label>Bone Reaper</CBF_BoneReaper.label>
+  <!-- EN: Bone Reaper: side crypt (annex) -->
+  <CBF_BoneReaper_Annex_Crypt.label>Bone Reaper：側墓穴（附屬建築）</CBF_BoneReaper_Annex_Crypt.label>
+  <!-- EN: Bone Reaper: crypt entrance (annex) -->
+  <CBF_BoneReaper_Annex_CryptEntrance.label>Bone Reaper：墓穴入口（附屬建築）</CBF_BoneReaper_Annex_CryptEntrance.label>
+  <!-- EN: Bone Reaper: archon hall -->
+  <CBF_BoneReaper_ArchonHall.label>Bone Reaper：執政官大廳</CBF_BoneReaper_ArchonHall.label>
+  <!-- EN: Bone Reaper: quarters -->
+  <CBF_BoneReaper_Barracks.label>Bone Reaper：住處</CBF_BoneReaper_Barracks.label>
+  <!-- EN: Bone Reaper: charnel yard -->
+  <CBF_BoneReaper_Charnel.label>Bone Reaper：屍骨場</CBF_BoneReaper_Charnel.label>
+  <!-- EN: Bone Reaper: graveyard -->
+  <CBF_BoneReaper_Graveyard.label>Bone Reaper：墓地</CBF_BoneReaper_Graveyard.label>
+  <!-- EN: Bone Reaper: mausoleum -->
+  <CBF_BoneReaper_Mausoleum.label>Bone Reaper：陵墓</CBF_BoneReaper_Mausoleum.label>
+  <!-- EN: Bone Reaper: servants' hovel -->
+  <CBF_BoneReaper_Mortals.label>Bone Reaper：僕役小屋</CBF_BoneReaper_Mortals.label>
+  <!-- EN: Bone Reaper: shrine yard -->
+  <CBF_BoneReaper_Shrine.label>Bone Reaper：神龕庭院</CBF_BoneReaper_Shrine.label>
+  <!-- EN: Bone Reaper: smithy -->
+  <CBF_BoneReaper_Smithy.label>Bone Reaper：鐵匠鋪</CBF_BoneReaper_Smithy.label>
+  <!-- EN: Bone Reaper: soulforge -->
+  <CBF_BoneReaper_Soulforge.label>Bone Reaper：靈魂熔爐</CBF_BoneReaper_Soulforge.label>
+  <!-- EN: Bone Reaper: ossuary temple -->
+  <CBF_BoneReaper_Temple.label>Bone Reaper：藏骨神殿</CBF_BoneReaper_Temple.label>
+  <!-- EN: Bone Reaper: tithe house -->
+  <CBF_BoneReaper_Tithe.label>Bone Reaper：貢品所</CBF_BoneReaper_Tithe.label>
+  <!-- EN: dungeon: bone reaper crypt -->
+  <CBF_Dungeon_BoneReaper.label>地下城：Bone Reaper墓穴</CBF_Dungeon_BoneReaper.label>
+  <!-- EN: dungeon: bone reaper crypt, catacomb -->
+  <CBF_Dungeon_BoneReaperCatacomb.label>地下城：Bone Reaper墓穴，地下墓道</CBF_Dungeon_BoneReaperCatacomb.label>
+  <!-- EN: dungeon: bone reaper crypt, guard room -->
+  <CBF_Dungeon_BoneReaperGuard.label>地下城：Bone Reaper墓穴，守衛室</CBF_Dungeon_BoneReaperGuard.label>
+  <!-- EN: dungeon: bone reaper crypt, sarcophagus hall -->
+  <CBF_Dungeon_BoneReaperHall.label>地下城：Bone Reaper墓穴，石棺大廳</CBF_Dungeon_BoneReaperHall.label>
+  <!-- EN: dungeon: bone reaper crypt, ossuary -->
+  <CBF_Dungeon_BoneReaperOssuary.label>地下城：Bone Reaper墓穴，藏骨堂</CBF_Dungeon_BoneReaperOssuary.label>
+  <!-- EN: dungeon: bone reaper crypt, stairs up -->
+  <CBF_Dungeon_BoneReaperStairs.label>地下城：Bone Reaper墓穴，上行樓梯</CBF_Dungeon_BoneReaperStairs.label>
+  <!-- EN: dungeon: bone reaper crypt, stairs down -->
+  <CBF_Dungeon_BoneReaperStairsDown.label>地下城：Bone Reaper墓穴，下行樓梯</CBF_Dungeon_BoneReaperStairsDown.label>
+  <!-- EN: dungeon: bone reaper crypt, archon tomb -->
+  <CBF_Dungeon_BoneReaperThrone.label>地下城：Bone Reaper墓穴，執政官之墓</CBF_Dungeon_BoneReaperThrone.label>
+  <!-- EN: dungeon: bone reaper crypt, tithe chamber -->
+  <CBF_Dungeon_BoneReaperTithe.label>地下城：Bone Reaper墓穴，貢品室</CBF_Dungeon_BoneReaperTithe.label>
+  <!-- EN: dungeon: bone reaper crypt, tomb -->
+  <CBF_Dungeon_BoneReaperTomb.label>地下城：Bone Reaper墓穴，墓室</CBF_Dungeon_BoneReaperTomb.label>
+  <!-- EN: dungeon: bone reaper crypt, treasure vault -->
+  <CBF_Dungeon_BoneReaperVault.label>地下城：Bone Reaper墓穴，寶庫</CBF_Dungeon_BoneReaperVault.label>
+</LanguageData>

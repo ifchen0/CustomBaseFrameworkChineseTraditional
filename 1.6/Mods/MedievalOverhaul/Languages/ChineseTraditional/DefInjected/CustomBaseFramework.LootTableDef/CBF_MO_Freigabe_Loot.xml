@@ -38,6 +38,8 @@
   <CBF_MO_Loot_Mine.label>礦井</CBF_MO_Loot_Mine.label>
   <!-- EN: quarry loot -->
   <CBF_MO_Loot_Quarry.label>採石場</CBF_MO_Loot_Quarry.label>
+  <!-- EN: Sarcophagus -->
+  <CBF_MO_Loot_Sarcophagus.label>石棺</CBF_MO_Loot_Sarcophagus.label>
   <!-- EN: treasury loot -->
   <CBF_MO_Loot_Treasury.label>寶庫</CBF_MO_Loot_Treasury.label>
   <!-- EN: TrophyParts -->

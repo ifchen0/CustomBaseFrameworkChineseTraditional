@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: thetes armor -->
+  <CBF_BoneReaper_Goods_Armor.label>傭僕護甲</CBF_BoneReaper_Goods_Armor.label>
+  <!-- EN: thetes arms -->
+  <CBF_BoneReaper_Goods_Arms.label>傭僕武器</CBF_BoneReaper_Goods_Arms.label>
+  <!-- EN: bones -->
+  <CBF_BoneReaper_Goods_Bones.label>骨頭</CBF_BoneReaper_Goods_Bones.label>
+  <!-- EN: souls -->
+  <CBF_BoneReaper_Goods_Souls.label>靈魂</CBF_BoneReaper_Goods_Souls.label>
+  <!-- EN: archon treasure -->
+  <CBF_BoneReaper_Goods_Treasure.label>執政官寶藏</CBF_BoneReaper_Goods_Treasure.label>
+  <!-- EN: Armory -->
+  <CBF_BoneReaper_Loot_Armory.label>武器庫</CBF_BoneReaper_Loot_Armory.label>
+  <!-- EN: Crypt -->
+  <CBF_BoneReaper_Loot_Crypt.label>墓穴</CBF_BoneReaper_Loot_Crypt.label>
+  <!-- EN: Hoard -->
+  <CBF_BoneReaper_Loot_Hoard.label>寶藏堆</CBF_BoneReaper_Loot_Hoard.label>
+  <!-- EN: Home -->
+  <CBF_BoneReaper_Loot_Home.label>住所</CBF_BoneReaper_Loot_Home.label>
+  <!-- EN: bone scraps -->
+  <CBF_BoneReaper_Loot_Minimal.label>碎骨</CBF_BoneReaper_Loot_Minimal.label>
+  <!-- EN: Tithe -->
+  <CBF_BoneReaper_Loot_Tithe.label>貢品</CBF_BoneReaper_Loot_Tithe.label>
+</LanguageData>

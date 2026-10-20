@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: dungeon cobblestone, worn -->
+  <CBF_MO_Dungeon_FloorList_Cobble.label>地下城鵝卵石（磨損）</CBF_MO_Dungeon_FloorList_Cobble.label>
+  <!-- EN: dungeon ruined tiles -->
+  <CBF_MO_Dungeon_FloorList_Ruined.label>地下城破損地磚</CBF_MO_Dungeon_FloorList_Ruined.label>
+  <!-- EN: dungeon wood floor -->
+  <CBF_MO_Dungeon_FloorList_Wood.label>地下城木地板</CBF_MO_Dungeon_FloorList_Wood.label>
+</LanguageData>

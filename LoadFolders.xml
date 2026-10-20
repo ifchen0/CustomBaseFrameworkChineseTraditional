@@ -12,6 +12,9 @@
     <li IfModActive="XMB.Giantimperialcannonturret.MO" IfModNotActive="CETeam.CombatExtended">1.6/Mods/GiantImperialTurret</li>
     <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">1.6/Mods/Western</li>
     <li IfModActive="OskarPotocki.VFE.Classical">1.6/Mods/Classical</li>
+    <li IfModActive="BotchJob.Profaned">1.6/Mods/Profaned</li>
+    <li IfModActive="BotchJob.Profaned" IfModNotActive="DankPyon.Medieval.Overhaul">1.6/Mods/Profaned_NoMO</li>
+    <li IfModActiveAll="JTCsBonereapers.FormerlyPPHHYY,DankPyon.Medieval.Overhaul">1.6/Mods/BoneReaper</li>
   </v1.6>
   <v1.7>
     <li>/</li>
@@ -25,5 +28,8 @@
     <li IfModActive="XMB.Giantimperialcannonturret.MO" IfModNotActive="CETeam.CombatExtended">1.6/Mods/GiantImperialTurret</li>
     <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">1.6/Mods/Western</li>
     <li IfModActive="OskarPotocki.VFE.Classical">1.6/Mods/Classical</li>
+    <li IfModActive="BotchJob.Profaned">1.6/Mods/Profaned</li>
+    <li IfModActive="BotchJob.Profaned" IfModNotActive="DankPyon.Medieval.Overhaul">1.6/Mods/Profaned_NoMO</li>
+    <li IfModActiveAll="JTCsBonereapers.FormerlyPPHHYY,DankPyon.Medieval.Overhaul">1.6/Mods/BoneReaper</li>
   </v1.7>
 </loadFolders>

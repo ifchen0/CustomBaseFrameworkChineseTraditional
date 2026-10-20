@@ -468,4 +468,308 @@
   <CBF_Ru_ListEmpty>角色清單是空的，不會生成任何東西。</CBF_Ru_ListEmpty>
   <!-- EN: Saving changes only occupation and creatures in the ruin's file. -->
   <CBF_Ru_RightHint>儲存時只會修改廢墟檔案中的佔據者與生物。</CBF_Ru_RightHint>
+  <!-- EN: Quest sites -->
+  <CBF_Lo_Sites>任務地點</CBF_Lo_Sites>
+  <!-- EN: Sites -->
+  <CBF_Lo_SitesShort>地點</CBF_Lo_SitesShort>
+  <!-- EN: Sites come from quests and mods, they cannot be created here. -->
+  <CBF_Si_NoNew>地點來自任務與模組，無法在這裡建立。</CBF_Si_NoNew>
+  <!-- EN: Which CBF settlement type a quest site builds when it is entered. -->
+  <CBF_Si_Hint>進入任務地點時，要建造哪種CBF據點類型。</CBF_Si_Hint>
+  <!-- EN: Already built by CBF through the camp plan {0} (camp types). Change it there. -->
+  <CBF_Si_ByCamp>已由CBF透過營地方案{0}（營地類型）建造。請到那裡修改。</CBF_Si_ByCamp>
+  <!-- EN: Already built by CBF with {0}, set by another file. Change it there. -->
+  <CBF_Si_ByOther>已由CBF以{0}建造，由另一個檔案設定。請到那裡修改。</CBF_Si_ByOther>
+  <!-- EN: Settlement type -->
+  <CBF_Si_Plan>據點類型</CBF_Si_Plan>
+  <!-- EN: The settlement type the site builds. None leaves the site as it is. -->
+  <CBF_Si_PlanTip>此地點建造的據點類型。選「無」則維持地點原樣。</CBF_Si_PlanTip>
+  <!-- EN: None -->
+  <CBF_Si_NoPlan>無</CBF_Si_NoPlan>
+  <!-- EN: Pick one first. -->
+  <CBF_Si_OpenNone>請先選擇一個。</CBF_Si_OpenNone>
+  <!-- EN: Ruin state -->
+  <CBF_Si_Ruin>廢墟狀態</CBF_Si_Ruin>
+  <!-- EN: Optional damage and occupation from a ruin. Opens in Lists, Ruins. -->
+  <CBF_Si_RuinTip>可選的廢墟損毀與佔據設定。在「清單 &gt; 廢墟」中開啟。</CBF_Si_RuinTip>
+  <!-- EN: Intact -->
+  <CBF_Si_NoRuin>完好</CBF_Si_NoRuin>
+  <!-- EN: Pick a settlement type first. -->
+  <CBF_Si_NeedPlan>請先選擇據點類型。</CBF_Si_NeedPlan>
+  <!-- EN: Map steps of this site -->
+  <CBF_Si_Steps>此地點的地圖生成步驟</CBF_Si_Steps>
+  <!-- EN: This site has no map steps of its own. CBF adds its own step. -->
+  <CBF_Si_NoSteps>此地點沒有自己的地圖生成步驟。CBF會加入自己的步驟。</CBF_Si_NoSteps>
+  <!-- EN: Ticked: CBF replaces this step, so it no longer builds. Unticked steps keep running next to the CBF settlement. -->
+  <CBF_Si_ReplaceTip>勾選：CBF取代此步驟，它不再建造。未勾選的步驟會在CBF據點旁照常執行。</CBF_Si_ReplaceTip>
+  <!-- EN: No step replaced: CBF adds its own step, and the existing steps build as well. -->
+  <CBF_Si_NothingReplaced>沒有取代任何步驟：CBF會加入自己的步驟，原有步驟也照常建造。</CBF_Si_NothingReplaced>
+  <!-- EN: This step probably builds the quest goal, such as loot, a prisoner or a special building. If it is replaced, the goal is missing and the quest may not be completable. -->
+  <CBF_Si_GoalStepTip>此步驟可能負責建造任務目標，例如戰利品、囚犯或特殊建築。若取代它，目標就會消失，任務可能無法完成。</CBF_Si_GoalStepTip>
+  <!-- EN: A replaced step probably builds the quest goal. Without it, loot, prisoners or buildings the quest needs are missing. Better leave it unchecked; CBF then builds in addition and keeps the goal area free. -->
+  <CBF_Si_GoalReplaced>被取代的步驟可能負責建造任務目標。少了它，任務需要的戰利品、囚犯或建築就會消失。最好不要勾選；這樣CBF會額外建造，並保留目標區域的空間。</CBF_Si_GoalReplaced>
+  <!-- EN: Occupiers cannot be chosen for quests of other mods. The quest picks the faction itself. -->
+  <CBF_Si_Occupier>其他模組的任務無法選擇佔領者，由任務自行決定派系。</CBF_Si_Occupier>
+  <!-- EN: Appears -->
+  <CBF_Si_Spawns>出現</CBF_Si_Spawns>
+  <!-- EN: {0}, intact. -->
+  <CBF_Si_Preview>{0}，完好。</CBF_Si_Preview>
+  <!-- EN: {0}, as ruin: {1}. -->
+  <CBF_Si_PreviewRuin>{0}，廢墟：{1}。</CBF_Si_PreviewRuin>
+  <!-- EN: Saving writes CBF_Sites.xml into Defs and Patches of your mod. The editor applies the change at once; replaced steps of other mods only come back after a restart. -->
+  <CBF_Si_RightHint>儲存時會將CBF_Sites.xml寫入你模組的Defs與Patches。編輯器會立即套用變更；被取代的其他模組步驟要重新啟動後才會恢復。</CBF_Si_RightHint>
+  <!-- EN: Quests -->
+  <CBF_Lo_Quests>任務</CBF_Lo_Quests>
+  <!-- EN: Quests -->
+  <CBF_Lo_QuestsShort>任務</CBF_Lo_QuestsShort>
+  <!-- EN: Create a new quest from a quest kind. -->
+  <CBF_Qu_NewTip>從任務種類建立新任務。</CBF_Qu_NewTip>
+  <!-- EN: Quest kind -->
+  <CBF_Qu_PickKind>任務種類</CBF_Qu_PickKind>
+  <!-- EN: Clear a site -->
+  <CBF_Qu_Art_Ort_raeumen>清剿地點</CBF_Qu_Art_Ort_raeumen>
+  <!-- EN: A settlement held by enemies. Drive them out; afterwards the player picks goodwill or the loot. -->
+  <CBF_Qu_Art_Ort_raeumenTip>被敵人佔據的據點。把他們趕走；之後由玩家選擇友好度或戰利品。</CBF_Qu_Art_Ort_raeumenTip>
+  <!-- EN: Defend a site -->
+  <CBF_Qu_Art_Ort_verteidigen>防守地點</CBF_Qu_Art_Ort_verteidigen>
+  <!-- EN: A settlement under attack. Help the defenders; the quest fails if they fall. -->
+  <CBF_Qu_Art_Ort_verteidigenTip>遭受攻擊的據點。協助守軍；守軍潰敗則任務失敗。</CBF_Qu_Art_Ort_verteidigenTip>
+  <!-- EN: Explore a dungeon -->
+  <CBF_Qu_Art_Verlies_erkunden>探索地下城</CBF_Qu_Art_Verlies_erkunden>
+  <!-- EN: A dungeon with levels. Clear it or reach the bottom. -->
+  <CBF_Qu_Art_Verlies_erkundenTip>有多層的地下城。清空它或抵達最底層。</CBF_Qu_Art_Verlies_erkundenTip>
+  <!-- EN: Free prisoners -->
+  <CBF_Qu_Art_Gefangene_befreien>解救囚犯</CBF_Qu_Art_Gefangene_befreien>
+  <!-- EN: A site where enemies hold people of the quest giver captive. -->
+  <CBF_Qu_Art_Gefangene_befreienTip>敵人關押任務發布者的人的地點。</CBF_Qu_Art_Gefangene_befreienTip>
+  <!-- EN: Monster hunt -->
+  <CBF_Qu_Art_Monsterjagd>獵殺怪物</CBF_Qu_Art_Monsterjagd>
+  <!-- EN: Ruins without a faction, held by creatures from a pawn list, such as a troll. -->
+  <CBF_Qu_Art_MonsterjagdTip>沒有派系的廢墟，被角色清單中的生物佔據，例如一隻巨魔。</CBF_Qu_Art_MonsterjagdTip>
+  <!-- EN: General -->
+  <CBF_Qu_G_General>一般</CBF_Qu_G_General>
+  <!-- EN: Site -->
+  <CBF_Qu_G_Site>地點</CBF_Qu_G_Site>
+  <!-- EN: Enemies -->
+  <CBF_Qu_G_Enemies>敵人</CBF_Qu_G_Enemies>
+  <!-- EN: Timing -->
+  <CBF_Qu_G_Timing>時間</CBF_Qu_G_Timing>
+  <!-- EN: Reward -->
+  <CBF_Qu_G_Reward>獎勵</CBF_Qu_G_Reward>
+  <!-- EN: Texts and letters -->
+  <CBF_Qu_G_Texts>文字與信件</CBF_Qu_G_Texts>
+  <!-- EN: Site name -->
+  <CBF_Qu_F_LABEL>地點名稱</CBF_Qu_F_LABEL>
+  <!-- EN: Name of the site on the world map. -->
+  <CBF_Qu_F_LABELTip>地點在世界地圖上的名稱。</CBF_Qu_F_LABELTip>
+  <!-- EN: Site description -->
+  <CBF_Qu_F_DESCRIPTION>地點描述</CBF_Qu_F_DESCRIPTION>
+  <!-- EN: Shown when the site is selected on the world map. -->
+  <CBF_Qu_F_DESCRIPTIONTip>在世界地圖上選取地點時顯示。</CBF_Qu_F_DESCRIPTIONTip>
+  <!-- EN: Quest name -->
+  <CBF_Qu_F_QUEST_NAME>任務名稱</CBF_Qu_F_QUEST_NAME>
+  <!-- EN: Name in the quest list. Grammar tags such as [asker_nameDef] are allowed. -->
+  <CBF_Qu_F_QUEST_NAMETip>任務清單中的名稱。可使用[asker_nameDef]之類的語法標籤。</CBF_Qu_F_QUEST_NAMETip>
+  <!-- EN: Quest text -->
+  <CBF_Qu_F_QUEST_DESCRIPTION>任務文字</CBF_Qu_F_QUEST_DESCRIPTION>
+  <!-- EN: Text of the quest offer. Grammar tags such as [asker_nameFull] are allowed. -->
+  <CBF_Qu_F_QUEST_DESCRIPTIONTip>任務委託的文字。可使用[asker_nameFull]之類的語法標籤。</CBF_Qu_F_QUEST_DESCRIPTIONTip>
+  <!-- EN: Settlement type -->
+  <CBF_Qu_F_SITE_PLAN>據點類型</CBF_Qu_F_SITE_PLAN>
+  <!-- EN: Which CBF settlement is built: one fixed type, or any type with a matching site tag. -->
+  <CBF_Qu_F_SITE_PLANTip>要建造哪種CBF據點：一個固定類型，或任何帶有相符地點標籤的類型。</CBF_Qu_F_SITE_PLANTip>
+  <!-- EN: Dungeon -->
+  <CBF_Qu_F_PLAN>地下城</CBF_Qu_F_PLAN>
+  <!-- EN: The dungeon plan of the site. -->
+  <CBF_Qu_F_PLANTip>此地點的地下城方案。</CBF_Qu_F_PLANTip>
+  <!-- EN: Goal -->
+  <CBF_Qu_F_GOAL_SIGNAL>目標</CBF_Qu_F_GOAL_SIGNAL>
+  <!-- EN: When the dungeon quest is done. Cleared: no hostile pawn is left standing on the site or any level, sleeping ones included, and no hostile turret remains. Bottom reached: a colonist enters the deepest level. -->
+  <CBF_Qu_F_GOAL_SIGNALTip>地下城任務何時完成。清空：地點與所有樓層上都沒有站著的敵對角色（包括睡著的），也沒有敵對砲塔。抵達最底層：有殖民者進入最深的一層。</CBF_Qu_F_GOAL_SIGNALTip>
+  <!-- EN: Dungeon cleared -->
+  <CBF_Qu_Goal_DungeonCleared>清空地下城</CBF_Qu_Goal_DungeonCleared>
+  <!-- EN: Bottom level reached -->
+  <CBF_Qu_Goal_DungeonBottomReached>抵達最底層</CBF_Qu_Goal_DungeonBottomReached>
+  <!-- EN: Ruin state -->
+  <CBF_Qu_F_RUIN>廢墟狀態</CBF_Qu_F_RUIN>
+  <!-- EN: Damage and occupation of the site, see Quests, Ruins. -->
+  <CBF_Qu_F_RUINTip>地點的損毀與佔據情況，見「任務 &gt; 廢墟」。</CBF_Qu_F_RUINTip>
+  <!-- EN: Ruin base -->
+  <CBF_Qu_F_RUIN_PARENT>廢墟基底</CBF_Qu_F_RUIN_PARENT>
+  <!-- EN: The ruin rules the own ruin of the quest starts from. -->
+  <CBF_Qu_F_RUIN_PARENTTip>任務自身廢墟所依據的廢墟規則。</CBF_Qu_F_RUIN_PARENTTip>
+  <!-- EN: Plain (no damage) -->
+  <CBF_Qu_RP_CBF_Ruin_Basis>普通（無損毀）</CBF_Qu_RP_CBF_Ruin_Basis>
+  <!-- EN: Raided -->
+  <CBF_Qu_RP_CBF_Ruin_Raided>遭劫掠</CBF_Qu_RP_CBF_Ruin_Raided>
+  <!-- EN: Prisoners -->
+  <CBF_Qu_F_PRISONERS>囚犯</CBF_Qu_F_PRISONERS>
+  <!-- EN: Number of prisoners as a range, for example 2~4. -->
+  <CBF_Qu_F_PRISONERSTip>囚犯數量的範圍，例如2~4。</CBF_Qu_F_PRISONERSTip>
+  <!-- EN: Creatures -->
+  <CBF_Qu_F_CREATURES>生物</CBF_Qu_F_CREATURES>
+  <!-- EN: Pawn list of the creatures. Each entry is one creature. -->
+  <CBF_Qu_F_CREATURESTip>生物的角色清單。每個條目就是一隻生物。</CBF_Qu_F_CREATURESTip>
+  <!-- EN: Map icon -->
+  <CBF_Qu_F_SITE_TEXTURE>地圖圖示</CBF_Qu_F_SITE_TEXTURE>
+  <!-- EN: Icon of the site on the world map. -->
+  <CBF_Qu_F_SITE_TEXTURETip>地點在世界地圖上的圖示。</CBF_Qu_F_SITE_TEXTURETip>
+  <!-- EN: Outpost -->
+  <CBF_Qu_Pic_Outpost>哨站</CBF_Qu_Pic_Outpost>
+  <!-- EN: Destroyed settlement -->
+  <CBF_Qu_Pic_Ruin>被摧毀的據點</CBF_Qu_Pic_Ruin>
+  <!-- EN: Prisoner -->
+  <CBF_Qu_Pic_Prisoner>囚犯</CBF_Qu_Pic_Prisoner>
+  <!-- EN: Monsters -->
+  <CBF_Qu_Pic_Manhunters>怪物</CBF_Qu_Pic_Manhunters>
+  <!-- EN: Fortified -->
+  <CBF_Qu_Pic_Turrets>設防</CBF_Qu_Pic_Turrets>
+  <!-- EN: Camp -->
+  <CBF_Qu_Pic_Camp>營地</CBF_Qu_Pic_Camp>
+  <!-- EN: Occupiers -->
+  <CBF_Qu_F_OCCUPIERS>佔領者</CBF_Qu_F_OCCUPIERS>
+  <!-- EN: Factions that may hold the site. Empty means any hostile human faction. -->
+  <CBF_Qu_F_OCCUPIERSTip>可能佔據此地點的派系。留空表示任何敵對的人類派系。</CBF_Qu_F_OCCUPIERSTip>
+  <!-- EN: Any hostile faction -->
+  <CBF_Qu_AnyHostile>任何敵對派系</CBF_Qu_AnyHostile>
+  <!-- EN: Minimum threat -->
+  <CBF_Qu_F_THREAT_MIN>最低威脅</CBF_Qu_F_THREAT_MIN>
+  <!-- EN: The quest only appears from these threat points on. -->
+  <CBF_Qu_F_THREAT_MINTip>威脅點數達到此值後才會出現此任務。</CBF_Qu_F_THREAT_MINTip>
+  <!-- EN: Enemy strength -->
+  <CBF_Qu_F_POINTS_FACTOR>敵人強度</CBF_Qu_F_POINTS_FACTOR>
+  <!-- EN: Factor on the threat points for the enemies on the site. -->
+  <CBF_Qu_F_POINTS_FACTORTip>地點敵人所用威脅點數的倍率。</CBF_Qu_F_POINTS_FACTORTip>
+  <!-- EN: Frequency -->
+  <CBF_Qu_F_SELECTION_WEIGHT>頻率</CBF_Qu_F_SELECTION_WEIGHT>
+  <!-- EN: How often the storyteller picks this quest. 0 switches it off. -->
+  <CBF_Qu_F_SELECTION_WEIGHTTip>說書人選中此任務的頻率。0為關閉。</CBF_Qu_F_SELECTION_WEIGHTTip>
+  <!-- EN: Offer days -->
+  <CBF_Qu_F_EXPIRE_DAYS>委託天數</CBF_Qu_F_EXPIRE_DAYS>
+  <!-- EN: Days until an offer that was not accepted expires, as a range. -->
+  <CBF_Qu_F_EXPIRE_DAYSTip>未接受的委託在幾天後過期，以範圍表示。</CBF_Qu_F_EXPIRE_DAYSTip>
+  <!-- EN: Site days min -->
+  <CBF_Qu_F_TIMEOUT_DAYS_MIN>地點最短天數</CBF_Qu_F_TIMEOUT_DAYS_MIN>
+  <!-- EN: Shortest time the site stays on the map without a visit. -->
+  <CBF_Qu_F_TIMEOUT_DAYS_MINTip>地點在無人造訪時留在地圖上的最短時間。</CBF_Qu_F_TIMEOUT_DAYS_MINTip>
+  <!-- EN: Site days max -->
+  <CBF_Qu_F_TIMEOUT_DAYS_MAX>地點最長天數</CBF_Qu_F_TIMEOUT_DAYS_MAX>
+  <!-- EN: Longest time the site stays on the map without a visit. -->
+  <CBF_Qu_F_TIMEOUT_DAYS_MAXTip>地點在無人造訪時留在地圖上的最長時間。</CBF_Qu_F_TIMEOUT_DAYS_MAXTip>
+  <!-- EN: Days after success -->
+  <CBF_Qu_F_EXIT_DAYS>成功後天數</CBF_Qu_F_EXIT_DAYS>
+  <!-- EN: Days until the map closes after success. -->
+  <CBF_Qu_F_EXIT_DAYSTip>成功後地圖關閉前的天數。</CBF_Qu_F_EXIT_DAYSTip>
+  <!-- EN: Reward -->
+  <CBF_Qu_F_REWARD>獎勵</CBF_Qu_F_REWARD>
+  <!-- EN: Factor on the usual quest reward. -->
+  <CBF_Qu_F_REWARDTip>一般任務獎勵的倍率。</CBF_Qu_F_REWARDTip>
+  <!-- EN: Goodwill if returned -->
+  <CBF_Qu_F_GOODWILL_FACTION>歸還時的友好度</CBF_Qu_F_GOODWILL_FACTION>
+  <!-- EN: Goodwill when the player hands the site back to its owners. -->
+  <CBF_Qu_F_GOODWILL_FACTIONTip>玩家將地點交還給原主時獲得的友好度。</CBF_Qu_F_GOODWILL_FACTIONTip>
+  <!-- EN: Goodwill if looted -->
+  <CBF_Qu_F_GOODWILL_LOOT>劫掠時的友好度</CBF_Qu_F_GOODWILL_LOOT>
+  <!-- EN: Goodwill when the player keeps the loot. -->
+  <CBF_Qu_F_GOODWILL_LOOTTip>玩家保留戰利品時的友好度。</CBF_Qu_F_GOODWILL_LOOTTip>
+  <!-- EN: Goodwill loss per 1000 silver -->
+  <CBF_Qu_F_GOODWILL_PER_1000_SILVER>每1000白銀的友好度損失</CBF_Qu_F_GOODWILL_PER_1000_SILVER>
+  <!-- EN: Goodwill lost for every 1000 silver worth of goods taken. -->
+  <CBF_Qu_F_GOODWILL_PER_1000_SILVERTip>每拿走價值1000白銀的物品所損失的友好度。</CBF_Qu_F_GOODWILL_PER_1000_SILVERTip>
+  <!-- EN: Caravan order -->
+  <CBF_Qu_F_APPROACH_ORDER>旅隊指令</CBF_Qu_F_APPROACH_ORDER>
+  <!-- EN: Order in the caravan menu. {0} is the site. -->
+  <CBF_Qu_F_APPROACH_ORDERTip>旅隊選單中的指令。{0}為地點。</CBF_Qu_F_APPROACH_ORDERTip>
+  <!-- EN: Caravan report -->
+  <CBF_Qu_F_APPROACHING_REPORT>旅隊狀態</CBF_Qu_F_APPROACHING_REPORT>
+  <!-- EN: Shown while the caravan is on its way. {0} is the site. -->
+  <CBF_Qu_F_APPROACHING_REPORTTip>旅隊在途中時顯示。{0}為地點。</CBF_Qu_F_APPROACHING_REPORTTip>
+  <!-- EN: Arrival letter -->
+  <CBF_Qu_F_ARRIVED_LETTER>抵達信件</CBF_Qu_F_ARRIVED_LETTER>
+  <!-- EN: Letter when the caravan arrives. -->
+  <CBF_Qu_F_ARRIVED_LETTERTip>旅隊抵達時的信件。</CBF_Qu_F_ARRIVED_LETTERTip>
+  <!-- EN: Arrival letter type -->
+  <CBF_Qu_F_ARRIVED_LETTER_DEF>抵達信件類型</CBF_Qu_F_ARRIVED_LETTER_DEF>
+  <!-- EN: Colour and sound of the arrival letter. -->
+  <CBF_Qu_F_ARRIVED_LETTER_DEFTip>抵達信件的顏色與音效。</CBF_Qu_F_ARRIVED_LETTER_DEFTip>
+  <!-- EN: Success letter title -->
+  <CBF_Qu_F_LETTER_SUCCESS_LABEL>成功信件標題</CBF_Qu_F_LETTER_SUCCESS_LABEL>
+  <!-- EN: Title of the reward letter. -->
+  <CBF_Qu_F_LETTER_SUCCESS_LABELTip>獎勵信件的標題。</CBF_Qu_F_LETTER_SUCCESS_LABELTip>
+  <!-- EN: Success letter text -->
+  <CBF_Qu_F_LETTER_SUCCESS_TEXT>成功信件內文</CBF_Qu_F_LETTER_SUCCESS_TEXT>
+  <!-- EN: Text of the reward letter. -->
+  <CBF_Qu_F_LETTER_SUCCESS_TEXTTip>獎勵信件的內文。</CBF_Qu_F_LETTER_SUCCESS_TEXTTip>
+  <!-- EN: Failure letter title -->
+  <CBF_Qu_F_LETTER_FAILED_LABEL>失敗信件標題</CBF_Qu_F_LETTER_FAILED_LABEL>
+  <!-- EN: Title of the letter when the player leaves too early. -->
+  <CBF_Qu_F_LETTER_FAILED_LABELTip>玩家過早離開時的信件標題。</CBF_Qu_F_LETTER_FAILED_LABELTip>
+  <!-- EN: Failure letter text -->
+  <CBF_Qu_F_LETTER_FAILED_TEXT>失敗信件內文</CBF_Qu_F_LETTER_FAILED_TEXT>
+  <!-- EN: Text of the letter when the player leaves too early. -->
+  <CBF_Qu_F_LETTER_FAILED_TEXTTip>玩家過早離開時的信件內文。</CBF_Qu_F_LETTER_FAILED_TEXTTip>
+  <!-- EN: Expiry letter title -->
+  <CBF_Qu_F_LETTER_EXPIRED_LABEL>過期信件標題</CBF_Qu_F_LETTER_EXPIRED_LABEL>
+  <!-- EN: Title of the letter when the site disappears unused. -->
+  <CBF_Qu_F_LETTER_EXPIRED_LABELTip>地點未被利用就消失時的信件標題。</CBF_Qu_F_LETTER_EXPIRED_LABELTip>
+  <!-- EN: Expiry letter text -->
+  <CBF_Qu_F_LETTER_EXPIRED_TEXT>過期信件內文</CBF_Qu_F_LETTER_EXPIRED_TEXT>
+  <!-- EN: Text of the letter when the site disappears unused. -->
+  <CBF_Qu_F_LETTER_EXPIRED_TEXTTip>地點未被利用就消失時的信件內文。</CBF_Qu_F_LETTER_EXPIRED_TEXTTip>
+  <!-- EN: Defenders fallen title -->
+  <CBF_Qu_F_LETTER_FALLEN_LABEL>守軍潰敗標題</CBF_Qu_F_LETTER_FALLEN_LABEL>
+  <!-- EN: Title of the letter when the defenders fall. -->
+  <CBF_Qu_F_LETTER_FALLEN_LABELTip>守軍潰敗時的信件標題。</CBF_Qu_F_LETTER_FALLEN_LABELTip>
+  <!-- EN: Defenders fallen text -->
+  <CBF_Qu_F_LETTER_FALLEN_TEXT>守軍潰敗內文</CBF_Qu_F_LETTER_FALLEN_TEXT>
+  <!-- EN: Text of the letter when the defenders fall. -->
+  <CBF_Qu_F_LETTER_FALLEN_TEXTTip>守軍潰敗時的信件內文。</CBF_Qu_F_LETTER_FALLEN_TEXTTip>
+  <!-- EN: By site tag -->
+  <CBF_Qu_ByTags>依地點標籤</CBF_Qu_ByTags>
+  <!-- EN: Fixed type -->
+  <CBF_Qu_ByPlan>固定類型</CBF_Qu_ByPlan>
+  <!-- EN: Settlement type -->
+  <CBF_Qu_Plan>據點類型</CBF_Qu_Plan>
+  <!-- EN: Site tags -->
+  <CBF_Qu_Tags>地點標籤</CBF_Qu_Tags>
+  <!-- EN: Any settlement type with one of these site tags can be built. The number shows how many types carry the tag. -->
+  <CBF_Qu_TagsTip>任何帶有其中一個地點標籤的據點類型都可能被建造。數字表示有多少類型帶有該標籤。</CBF_Qu_TagsTip>
+  <!-- EN: Quest kind -->
+  <CBF_Qu_Kind>任務種類</CBF_Qu_Kind>
+  <!-- EN: Trigger now -->
+  <CBF_Qu_Trigger>立即觸發</CBF_Qu_Trigger>
+  <!-- EN: Offers this quest in the running game at the current threat points. -->
+  <CBF_Qu_TriggerTip>以目前的威脅點數，在進行中的遊戲裡發出此任務委託。</CBF_Qu_TriggerTip>
+  <!-- EN: Save the quest first. -->
+  <CBF_Qu_SaveFirst>請先儲存任務。</CBF_Qu_SaveFirst>
+  <!-- EN: Only in a running game. -->
+  <CBF_Qu_NeedGame>僅限進行中的遊戲。</CBF_Qu_NeedGame>
+  <!-- EN: The quest is not loaded yet. Restart the game. -->
+  <CBF_Qu_NotLoaded>任務尚未載入。請重新啟動遊戲。</CBF_Qu_NotLoaded>
+  <!-- EN: {0} offered. -->
+  <CBF_Qu_Triggered>已發出{0}。</CBF_Qu_Triggered>
+  <!-- EN: The quest could not be created here, for example because no site tile or quest giver was found. -->
+  <CBF_Qu_GenFailed>無法在此建立任務，例如找不到地點地塊或任務發布者。</CBF_Qu_GenFailed>
+  <!-- EN: The quest cannot start right now. Usually a friendly faction with a leader and a matching settlement type is missing. -->
+  <CBF_Qu_CannotRun>任務目前無法開始。通常是缺少有領袖的友好派系，或缺少相符的據點類型。</CBF_Qu_CannotRun>
+  <!-- EN: Saving writes the quest, its site and world object into Defs/CustomBaseFramework/Quests of your mod. -->
+  <CBF_Qu_RightHint>儲存時會將任務、其地點與世界物件寫入你模組的Defs/CustomBaseFramework/Quests。</CBF_Qu_RightHint>
+  <!-- EN: No template for {0} found. -->
+  <CBF_Qu_NoTemplate>找不到{0}的範本。</CBF_Qu_NoTemplate>
+  <!-- EN: Choose a settlement type first. -->
+  <CBF_Qu_NeedPlan>請先選擇據點類型。</CBF_Qu_NeedPlan>
+  <!-- EN: Choose creatures first. -->
+  <CBF_Qu_NeedCreatures>請先選擇生物。</CBF_Qu_NeedCreatures>
+  <!-- EN: Choose a ruin state first. -->
+  <CBF_Qu_NeedRuin>請先選擇廢墟狀態。</CBF_Qu_NeedRuin>
+  <!-- EN: Prisoners lost title -->
+  <CBF_Qu_F_LETTER_LOST_LABEL>囚犯全滅標題</CBF_Qu_F_LETTER_LOST_LABEL>
+  <!-- EN: Title of the letter when all prisoners are dead. -->
+  <CBF_Qu_F_LETTER_LOST_LABELTip>所有囚犯死亡時的信件標題。</CBF_Qu_F_LETTER_LOST_LABELTip>
+  <!-- EN: Prisoners lost text -->
+  <CBF_Qu_F_LETTER_LOST_TEXT>囚犯全滅內文</CBF_Qu_F_LETTER_LOST_TEXT>
+  <!-- EN: Text of the letter when all prisoners are dead. -->
+  <CBF_Qu_F_LETTER_LOST_TEXTTip>所有囚犯死亡時的信件內文。</CBF_Qu_F_LETTER_LOST_TEXTTip>
+  <!-- EN: Saved in this session. Restart the game so the quest loads with all its parts. -->
+  <CBF_Qu_NeedRestart>已在本次遊戲階段儲存。請重新啟動遊戲，讓任務連同所有部分一起載入。</CBF_Qu_NeedRestart>
 </LanguageData>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: dungeon: profaned crypt -->
+  <CBF_Dungeon_Profaned.label>地下城：Profaned墓穴</CBF_Dungeon_Profaned.label>
+  <!-- EN: dungeon: profaned crypt, catacomb -->
+  <CBF_Dungeon_ProfanedCatacomb.label>地下城：Profaned墓穴，地下墓道</CBF_Dungeon_ProfanedCatacomb.label>
+  <!-- EN: dungeon: profaned crypt, guard room -->
+  <CBF_Dungeon_ProfanedGuard.label>地下城：Profaned墓穴，守衛室</CBF_Dungeon_ProfanedGuard.label>
+  <!-- EN: dungeon: profaned crypt, sarcophagus hall -->
+  <CBF_Dungeon_ProfanedHall.label>地下城：Profaned墓穴，石棺大廳</CBF_Dungeon_ProfanedHall.label>
+  <!-- EN: dungeon: profaned crypt, ritual chamber -->
+  <CBF_Dungeon_ProfanedRitual.label>地下城：Profaned墓穴，儀式室</CBF_Dungeon_ProfanedRitual.label>
+  <!-- EN: dungeon: profaned crypt, stairs up -->
+  <CBF_Dungeon_ProfanedStairs.label>地下城：Profaned墓穴，上行樓梯</CBF_Dungeon_ProfanedStairs.label>
+  <!-- EN: dungeon: profaned crypt, stairs down -->
+  <CBF_Dungeon_ProfanedStairsDown.label>地下城：Profaned墓穴，下行樓梯</CBF_Dungeon_ProfanedStairsDown.label>
+  <!-- EN: dungeon: profaned crypt, throne crypt -->
+  <CBF_Dungeon_ProfanedThrone.label>地下城：Profaned墓穴，王座墓室</CBF_Dungeon_ProfanedThrone.label>
+  <!-- EN: dungeon: profaned crypt, tomb -->
+  <CBF_Dungeon_ProfanedTomb.label>地下城：Profaned墓穴，墓室</CBF_Dungeon_ProfanedTomb.label>
+  <!-- EN: dungeon: profaned crypt, treasure vault -->
+  <CBF_Dungeon_ProfanedVault.label>地下城：Profaned墓穴，寶庫</CBF_Dungeon_ProfanedVault.label>
+  <!-- EN: dungeon: profaned crypt, grave warden -->
+  <CBF_Dungeon_ProfanedWarden.label>地下城：Profaned墓穴，守墓人</CBF_Dungeon_ProfanedWarden.label>
+  <!-- EN: Profaned -->
+  <CBF_Profaned.label>Profaned</CBF_Profaned.label>
+  <!-- EN: Profaned: alchemy -->
+  <CBF_Profaned_Alchemy.label>Profaned：煉金房</CBF_Profaned_Alchemy.label>
+  <!-- EN: Profaned: side crypt (annex) -->
+  <CBF_Profaned_Annex_Crypt.label>Profaned：側墓穴（附屬建築）</CBF_Profaned_Annex_Crypt.label>
+  <!-- EN: Profaned: crypt entrance (annex) -->
+  <CBF_Profaned_Annex_CryptEntrance.label>Profaned：墓穴入口（附屬建築）</CBF_Profaned_Annex_CryptEntrance.label>
+  <!-- EN: Profaned: barracks -->
+  <CBF_Profaned_Barracks.label>Profaned：兵營</CBF_Profaned_Barracks.label>
+  <!-- EN: Profaned: crypt chapel -->
+  <CBF_Profaned_Chapel.label>Profaned：墓穴禮拜堂</CBF_Profaned_Chapel.label>
+  <!-- EN: Profaned: emplacement -->
+  <CBF_Profaned_Emplacement.label>Profaned：砲位</CBF_Profaned_Emplacement.label>
+  <!-- EN: Profaned: gate -->
+  <CBF_Profaned_Gatehouse.label>Profaned：城門</CBF_Profaned_Gatehouse.label>
+  <!-- EN: Profaned: graveyard -->
+  <CBF_Profaned_Graveyard.label>Profaned：墓地</CBF_Profaned_Graveyard.label>
+  <!-- EN: Profaned: hovel -->
+  <CBF_Profaned_House.label>Profaned：破屋</CBF_Profaned_House.label>
+  <!-- EN: Profaned: mausoleum -->
+  <CBF_Profaned_Mausoleum.label>Profaned：陵墓</CBF_Profaned_Mausoleum.label>
+  <!-- EN: Profaned: ritual yard -->
+  <CBF_Profaned_Ritual.label>Profaned：儀式庭院</CBF_Profaned_Ritual.label>
+  <!-- EN: Profaned: wraith shrine -->
+  <CBF_Profaned_Shrine.label>Profaned：幽魂神龕</CBF_Profaned_Shrine.label>
+  <!-- EN: Profaned: throne hall -->
+  <CBF_Profaned_ThroneHall.label>Profaned：王座大廳</CBF_Profaned_ThroneHall.label>
+  <!-- EN: Profaned: wall tower -->
+  <CBF_Profaned_TownTower.label>Profaned：城牆塔樓</CBF_Profaned_TownTower.label>
+  <!-- EN: Profaned: wall access -->
+  <CBF_Profaned_WallAccess.label>Profaned：城牆通道</CBF_Profaned_WallAccess.label>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: dwarf halls and rooms -->
+  <CBF_MO_Dwarf_FloorList_Hall.label>矮人大廳與房間</CBF_MO_Dwarf_FloorList_Hall.label>
+  <!-- EN: dwarf workshops and towers -->
+  <CBF_MO_Dwarf_FloorList_Work.label>矮人工坊與塔樓</CBF_MO_Dwarf_FloorList_Work.label>
+</LanguageData>
