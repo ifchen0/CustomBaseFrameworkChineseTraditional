@@ -420,8 +420,6 @@
   <CBF_D_DeleteLevelAsk>移除第{0}層？其區域容納{1}個條目。</CBF_D_DeleteLevelAsk>
   <!-- EN: Name of the level -->
   <CBF_D_RenameLevel>層的名稱</CBF_D_RenameLevel>
-  <!-- EN: Rename -->
-  <CBF_D_Rename>重新命名</CBF_D_Rename>
   <!-- EN: Remove level -->
   <CBF_D_RemoveLevel>移除層</CBF_D_RemoveLevel>
   <!-- EN: Move this level one up. -->
@@ -436,36 +434,26 @@
   <CBF_D_Submap>下方自有地圖</CBF_D_Submap>
   <!-- EN: Entrance and stairs -->
   <CBF_D_Access>入口與樓梯</CBF_D_Access>
-  <!-- EN: Entrance -->
-  <CBF_D_Entrance>入口</CBF_D_Entrance>
   <!-- EN: + Entrance -->
   <CBF_D_AddEntrance>+ 入口</CBF_D_AddEntrance>
   <!-- EN: Empty means the generator opens a plain tunnel into the mountain. -->
   <CBF_D_EntranceNone>留空表示生成器在山中開一條普通隧道。</CBF_D_EntranceNone>
   <!-- EN: The stairs up are placed where the stairs down of the level above stand. -->
   <CBF_D_StairsUpHint>上行樓梯放在上一層下行樓梯所在處。</CBF_D_StairsUpHint>
-  <!-- EN: Stairs down -->
-  <CBF_D_StairsDown>下行樓梯</CBF_D_StairsDown>
   <!-- EN: + Stairs -->
   <CBF_D_AddStairs>+ 樓梯</CBF_D_AddStairs>
   <!-- EN: This is the lowest level. It needs no stairs down. -->
   <CBF_D_LowestHint>這是最底層。它不需要下行樓梯。</CBF_D_LowestHint>
   <!-- EN: Passages -->
   <CBF_D_Passages>通道</CBF_D_Passages>
-  <!-- EN: Corridor segments -->
-  <CBF_D_Corridors>走廊段</CBF_D_Corridors>
   <!-- EN: + Segment -->
   <CBF_D_AddCorridor>+ 段</CBF_D_AddCorridor>
   <!-- EN: Empty means plain corridor cells. Corners, junctions and ends are built by the generator. -->
   <CBF_D_CorridorsNone>留空表示普通走廊格。轉角、交叉口與末端由生成器建造。</CBF_D_CorridorsNone>
-  <!-- EN: Cave width -->
-  <CBF_D_CaveWidth>洞穴寬度</CBF_D_CaveWidth>
   <!-- EN: Cave share -->
   <CBF_D_CaveShare>洞穴比例</CBF_D_CaveShare>
   <!-- EN: Secret passages -->
   <CBF_D_SecretChance>秘道</CBF_D_SecretChance>
-  <!-- EN: Map size -->
-  <CBF_D_MapSize>地圖大小</CBF_D_MapSize>
   <!-- EN: 0 = from the layout -->
   <CBF_D_MapSizeAuto>0 = 由佈局決定</CBF_D_MapSizeAuto>
   <!-- EN: cells per side -->
@@ -630,18 +618,12 @@
   <CBF_D_OrphanAreas>該層仍有{0}個自有區域。使用分割槽後它們不生效。</CBF_D_OrphanAreas>
   <!-- EN: Move them into the first section -->
   <CBF_D_OrphanAreasTake>移入第一個分割槽</CBF_D_OrphanAreasTake>
-  <!-- EN: Spread over levels -->
-  <CBF_D_Spread>跨層分佈</CBF_D_Spread>
   <!-- EN: Nothing yet. Entries here are placed on any level within their range, in addition to the areas. -->
   <CBF_D_SpreadNone>尚無內容。此處的條目放置在其範圍內的任意層上，作為區域的補充。</CBF_D_SpreadNone>
-  <!-- EN: + Building -->
-  <CBF_D_AddSpread>+ 建築</CBF_D_AddSpread>
   <!-- EN: Levels -->
   <CBF_D_Levels>層</CBF_D_Levels>
   <!-- EN: In area -->
   <CBF_D_InArea>位於區域</CBF_D_InArea>
-  <!-- EN: any -->
-  <CBF_D_AnyArea>任意</CBF_D_AnyArea>
   <!-- EN: {0} should go into area {1}, but no level has that area. -->
   <CBF_D_SpreadDistrictGone>{0}應進入區域{1}，但沒有層擁有該區域。</CBF_D_SpreadDistrictGone>
   <!-- EN: Entrance -->
@@ -680,8 +662,20 @@
   <CBF_D_Layout_CorridorsTip>一個主走廊網路，房間對接其上。</CBF_D_Layout_CorridorsTip>
   <!-- EN: Rooms sit directly against each other, without corridors in between. -->
   <CBF_D_Layout_ChambersTip>房間直接相互緊靠，之間沒有走廊。</CBF_D_Layout_ChambersTip>
-  <!-- EN: How the level is built. Corridors: a main corridor network with rooms docked onto it. Chambers: rooms directly against each other. Rows: a main corridor with bends, rooms in rows along both sides. -->
-  <CBF_FieldDesc_layout>此層的建造方式。走廊：主走廊網路，房間對接其上。洞室：房間直接相互緊靠。排列：帶轉彎的主走廊，房間沿兩側成排排列。</CBF_FieldDesc_layout>
+  <!-- EN: Grid -->
+  <CBF_D_Layout_Grid>網格</CBF_D_Layout_Grid>
+  <!-- EN: Rooms on a loose grid with thick rock between them, joined by short straight passages and many loops. -->
+  <CBF_D_Layout_GridTip>房間鬆散地排列在網格上，彼此間隔厚實岩層，以短而直的通道相連，形成許多迴圈。</CBF_D_Layout_GridTip>
+  <!-- EN: Temple -->
+  <CBF_D_Layout_Temple>神殿</CBF_D_Layout_Temple>
+  <!-- EN: A large central hall with wings laid out in pairs along its axes, side chambers and a winding cave passage. -->
+  <CBF_D_Layout_TempleTip>一座大型中央大廳，兩側沿軸線成對配置側翼，另有側室與一條蜿蜒的洞穴通道。</CBF_D_Layout_TempleTip>
+  <!-- EN: Warren -->
+  <CBF_D_Layout_Warren>蜂巢</CBF_D_Layout_Warren>
+  <!-- EN: Rooms grow against each other, share their walls and open into each other through doors in the wall. -->
+  <CBF_D_Layout_WarrenTip>房間彼此緊貼生長、共用牆壁，透過牆上的門互相連通。</CBF_D_Layout_WarrenTip>
+  <!-- EN: How the level is built. Corridors: a main corridor network with rooms docked onto it. Chambers: rooms directly against each other. Rows: a main corridor with bends, rooms in rows along both sides. Grid: rooms on a loose grid with short passages and many loops. Temple: a central hall with paired wings. Warren: rooms sharing their walls. -->
+  <CBF_FieldDesc_layout>此層的建造方式。走廊：主走廊網路，房間連接在上面。洞室：房間彼此直接相鄰。排列：一條有轉彎的主走廊，兩側成排配置房間。網格：房間鬆散排列在網格上，以短通道相連並有許多迴圈。神殿：中央大廳搭配成對的側翼。蜂巢：房間共用牆壁。</CBF_FieldDesc_layout>
   <!-- EN: Cave -->
   <CBF_D_Layout_Cave>洞穴</CBF_D_Layout_Cave>
   <!-- EN: Natural cave chambers without built walls. -->
@@ -718,6 +712,26 @@
   <CBF_S_PlanWhere>出現條件</CBF_S_PlanWhere>
   <!-- EN: Conditions for this settlement type. Empty rows restrict nothing. -->
   <CBF_S_PlanWhereTip>此據點類型的條件。空白的列不做任何限制。</CBF_S_PlanWhereTip>
+  <!-- EN: Unknown name: {0}. This condition is never met. -->
+  <CBF_S_RequiresUnknown>未知名稱：{0}。此條件永遠無法滿足。</CBF_S_RequiresUnknown>
+  <!-- EN: Cycle: these entries need each other and are never built. -->
+  <CBF_S_RequiresCycle>循環：這些條目互相依賴，永遠不會被建造。</CBF_S_RequiresCycle>
+  <!-- EN: {0} of {1} -->
+  <CBF_S_RequiresChip>{0}／{1}</CBF_S_RequiresChip>
+  <!-- EN: for {0} -->
+  <CBF_S_RequiredFor>用於{0}</CBF_S_RequiredFor>
+  <!-- EN: Condition: this entry is only built if enough of the chosen pieces or categories stand in the whole settlement. Each name counts once. Conditional entries are planned after the others. If the condition is not met, the entry is dropped, even with priority Critical. Dungeons have no conditions. -->
+  <CBF_S_RequiresTip>條件：只有當整個據點中已有足夠的所選部件或類別時，才會建造此條目。每個名稱只計算一次。有條件的條目會在其他條目之後規劃。條件未滿足時，即使優先順序為關鍵也會捨棄此條目。地牢沒有條件。</CBF_S_RequiresTip>
+  <!-- EN: At least {0} of {1} -->
+  <CBF_S_RequiresCountText>至少{0}／{1}</CBF_S_RequiresCountText>
+  <!-- EN: The count {0} does not fit {1} chosen names. It must be between 1 and {1}. -->
+  <CBF_S_RequiresCountWrong>數量{0}不符合{1}個已選名稱。必須介於1到{1}之間。</CBF_S_RequiresCountWrong>
+  <!-- EN: Pick pieces or categories -->
+  <CBF_S_RequiresPick>選擇部件或類別</CBF_S_RequiresPick>
+  <!-- EN: Remove condition -->
+  <CBF_S_RequiresClear>移除條件</CBF_S_RequiresClear>
+  <!-- EN: no condition -->
+  <CBF_S_RequiresNone>無條件</CBF_S_RequiresNone>
   <!-- EN: Ideoligion has -->
   <CBF_S_PlanIdeoWith>理念包含</CBF_S_PlanIdeoWith>
   <!-- EN: Ideoligion lacks -->
@@ -752,4 +766,252 @@
   <CBF_S_PlanNotLandformsTip>此據點類型永遠不會出現在具有其中任一地貌的地塊上。</CBF_S_PlanNotLandformsTip>
   <!-- EN: The type only appears where all conditions apply. Without the Ideology DLC, ideoligion conditions are ignored. -->
   <CBF_S_PlanLoosen>此類型只會出現在所有條件都符合的地方。沒有Ideology DLC時，理念條件會被忽略。</CBF_S_PlanLoosen>
+  <!-- EN: Basics -->
+  <CBF_S_TabBasics>基礎</CBF_S_TabBasics>
+  <!-- EN: What the place looks like: name, kind, material list, sizes, suburb, ruin, map icon. -->
+  <CBF_S_TabBasicsTip>此地的外觀：名稱、種類、材料清單、尺寸、近郊、廢墟、地圖圖示。</CBF_S_TabBasicsTip>
+  <!-- EN: Placement -->
+  <CBF_S_TabPlacement>放置</CBF_S_TabPlacement>
+  <!-- EN: Who gets the place and where it appears: tech levels, factions, weight and conditions. -->
+  <CBF_S_TabPlacementTip>此地歸誰所有、出現在哪裡：科技等級、派系、權重與條件。</CBF_S_TabPlacementTip>
+  <!-- EN: Garrison -->
+  <CBF_S_TabGarrison>駐軍</CBF_S_TabGarrison>
+  <!-- EN: How many defenders the place has: minimum points, wealth factor and share per ward. -->
+  <CBF_S_TabGarrisonTip>此地有多少防守者：最低點數、財富係數與各城區份額。</CBF_S_TabGarrisonTip>
+  <!-- EN: Mods -->
+  <CBF_S_TabMods>模組</CBF_S_TabMods>
+  <!-- EN: Required mods, takeover, World Domination, A Rim of Ice and Fire and camp types. -->
+  <CBF_S_TabModsTip>必要模組、接管、World Domination、A Rim of Ice and Fire與營地類型。</CBF_S_TabModsTip>
+  <!-- EN: Minimum points -->
+  <CBF_S_GarrisonMinPoints>最低點數</CBF_S_GarrisonMinPoints>
+  <!-- EN: The place always spends at least this many points on defenders, however poor the colony is. -->
+  <CBF_S_GarrisonMinPointsTip>無論殖民地多窮，此地花在防守者上的點數至少為此值。</CBF_S_GarrisonMinPointsTip>
+  <!-- EN: Garrison factor -->
+  <CBF_S_GarrisonFactor>駐軍係數</CBF_S_GarrisonFactor>
+  <!-- EN: × raid points (0 to 5), 0 = minimum only -->
+  <CBF_S_GarrisonFactorHint>× 襲擊點數（0至5），0 = 僅最低點數</CBF_S_GarrisonFactorHint>
+  <!-- EN: Factor on your colony's raid points, the points the storyteller would spend on a raid right now. The place buys its defenders with them, but never for less than the minimum points. Decimals are allowed, such as 0.5 for a village or 1.5 for a large city. Applies when you enter the map. -->
+  <CBF_S_GarrisonFactorTip>乘在你殖民地襲擊點數上的係數，襲擊點數即故事敘述者此刻發動襲擊會花費的點數。此地用這些點數購買防守者，但絕不少於最低點數。可使用小數，例如村莊0.5、大城市1.5。在你進入地圖時套用。</CBF_S_GarrisonFactorTip>
+  <!-- EN: Raid {0}: {1} points -->
+  <CBF_S_GarrisonExample>襲擊{0}：{1}點</CBF_S_GarrisonExample>
+  <!-- EN: Garrison factor 0: garrison entries are fixed counts as before. -->
+  <CBF_S_GarrisonOff>駐軍係數0：駐軍條目維持以往的固定數量。</CBF_S_GarrisonOff>
+  <!-- EN: Pawn anchors count against the budget -->
+  <CBF_S_GarrisonAnchors>角色錨點計入預算</CBF_S_GarrisonAnchors>
+  <!-- EN: How much of the points of pawns from pawn anchors in the pieces is taken from the budget. At 100 % every anchored pawn replaces a bought one, at 0 % anchored pawns come on top. -->
+  <CBF_S_GarrisonAnchorsTip>部件中角色錨點產生的角色，其點數有多少比例從預算扣除。100%時每個錨點角色取代一個購買的角色；0%時錨點角色為額外增加。</CBF_S_GarrisonAnchorsTip>
+  <!-- EN: Share per ward -->
+  <CBF_S_GarrisonShare>各城區份額</CBF_S_GarrisonShare>
+  <!-- EN: How the bought defenders are spread over the wards. The last ward always gets the rest up to 100%. Raising a ward takes from the last ward first, then from the others from the top. -->
+  <CBF_S_GarrisonShareTip>購買的防守者如何分配到各城區。最後一個城區永遠取得剩餘部分，補足100%。提高某城區時，先從最後一個城區扣除，再從上方的其他城區依序扣除。</CBF_S_GarrisonShareTip>
+  <!-- EN: Share automatically by size -->
+  <CBF_S_GarrisonShareAuto>依大小自動分配份額</CBF_S_GarrisonShareAuto>
+  <!-- EN: by size -->
+  <CBF_S_GarrisonShareBySize>依大小</CBF_S_GarrisonShareBySize>
+  <!-- EN: Untick to set the shares yourself. -->
+  <CBF_S_GarrisonShareAutoTip>取消勾選以自行設定份額。</CBF_S_GarrisonShareAutoTip>
+  <!-- EN: Set fixed pawns in the garrison entries of the wards: tick active, then min, max and weight. -->
+  <CBF_S_GarrisonEntriesHint>在各城區的駐軍條目中設定固定角色：勾選啟用，再設定最小值、最大值與權重。</CBF_S_GarrisonEntriesHint>
+  <!-- EN: active -->
+  <CBF_GarrisonActive>啟用</CBF_GarrisonActive>
+  <!-- EN: Only active entries load pawns from their list. Min comes first, then extras up to max by weight while the budget lasts. They count against the budget. -->
+  <CBF_GarrisonActiveTip>只有啟用的條目會從其清單載入角色。先放最小值，再於預算足夠時依權重額外增加至最大值。它們會計入預算。</CBF_GarrisonActiveTip>
+  <!-- EN: Weight: how likely this entry gets extras up to max. -->
+  <CBF_GarrisonWeightTip>權重：此條目額外增加至最大值的可能性。</CBF_GarrisonWeightTip>
+  <!-- EN: Tick active first. -->
+  <CBF_GarrisonNeedsActive>請先勾選啟用。</CBF_GarrisonNeedsActive>
+  <!-- EN: This settlement type uses points. Only active entries place fixed pawns; the rest comes from the faction's settlement group. -->
+  <CBF_GarrisonPointsHint>此據點類型使用點數。只有啟用的條目會放置固定角色；其餘來自派系的據點群組。</CBF_GarrisonPointsHint>
+  <!-- EN: now ({0}): {1} points -->
+  <CBF_S_GarrisonExampleNow>目前（{0}）：{1}點</CBF_S_GarrisonExampleNow>
+  <!-- EN: The last ward gets the rest up to 100%. -->
+  <CBF_S_GarrisonShareRest>最後一個城區取得剩餘部分，補足100%。</CBF_S_GarrisonShareRest>
+  <!-- EN: Minimum points {0}, raid points {1} × factor {2} × garrison size {3} = {4}, budget {5} (the higher value) -->
+  <CBF_GP_Budget>最低點數{0}，襲擊點數{1} × 係數{2} × 駐軍規模{3} = {4}，預算{5}（取較高者）</CBF_GP_Budget>
+  <!-- EN: Without point system: minimum points {0} × garrison size {1} -->
+  <CBF_GP_NoPoints>未使用點數制：最低點數{0} × 駐軍規模{1}</CBF_GP_NoPoints>
+  <!-- EN: No faction: {0} points per pawn assumed. -->
+  <CBF_GP_NoFaction>無派系：假設每名角色{0}點。</CBF_GP_NoFaction>
+  <!-- EN: The faction has no pawn group maker: {0} points per pawn assumed. -->
+  <CBF_GP_NoGroupMaker>該派系沒有角色群組產生器：假設每名角色{0}點。</CBF_GP_NoGroupMaker>
+  <!-- EN: No layout: pawn anchors not counted. -->
+  <CBF_GP_NoLayout>無佈局：不計入角色錨點。</CBF_GP_NoLayout>
+  <!-- EN: Limit of {0} pawns per settlement reached. -->
+  <CBF_GP_Capped>已達每個據點{0}名角色的上限。</CBF_GP_Capped>
+  <!-- EN: Calculate garrison -->
+  <CBF_GR_Open>計算駐軍</CBF_GR_Open>
+  <!-- EN: Shows how many defenders this settlement type fields for a faction and a number of raid points, per ward. -->
+  <CBF_GR_OpenTip>顯示此據點類型在指定派系與襲擊點數下，各城區會派出多少防守者。</CBF_GR_OpenTip>
+  <!-- EN: Garrison calculator: {0} -->
+  <CBF_GR_Title>駐軍計算器：{0}</CBF_GR_Title>
+  <!-- EN: Faction -->
+  <CBF_GR_Faction>派系</CBF_GR_Faction>
+  <!-- EN: The faction decides which pawns are bought from its settlement group and what they cost. -->
+  <CBF_GR_FactionTip>派系決定從其據點群組購買哪些角色，以及他們的花費。</CBF_GR_FactionTip>
+  <!-- EN: no faction (65 points per pawn) -->
+  <CBF_GR_NoFaction>無派系（每名角色65點）</CBF_GR_NoFaction>
+  <!-- EN: Raid points -->
+  <CBF_GR_Raid>襲擊點數</CBF_GR_Raid>
+  <!-- EN: now: {0} -->
+  <CBF_GR_Now>目前：{0}</CBF_GR_Now>
+  <!-- EN: Only in a running game. -->
+  <CBF_GR_NowNone>僅在進行中的遊戲可用。</CBF_GR_NowNone>
+  <!-- EN: Plan the layout so pawn anchors count -->
+  <CBF_GR_Layout>規劃佈局以計入角色錨點</CBF_GR_Layout>
+  <!-- EN: Planning the layout … -->
+  <CBF_GR_LayoutRunning>正在規劃佈局……</CBF_GR_LayoutRunning>
+  <!-- EN: Plans the place once without a map, like the preview, and counts the pawn anchors of the placed pieces. Without a layout anchors do not count. -->
+  <CBF_GR_LayoutTip>像預覽一樣，不使用地圖規劃此地一次，並計算已放置部件中的角色錨點。沒有佈局時不計入錨點。</CBF_GR_LayoutTip>
+  <!-- EN: Total {0} pawns: {1} visible, {2} in reserve, combat power {3} -->
+  <CBF_GR_Sum>共{0}名角色：{1}名可見、{2}名後備，戰鬥力{3}</CBF_GR_Sum>
+  <!-- EN: Ward -->
+  <CBF_GR_ColWard>城區</CBF_GR_ColWard>
+  <!-- EN: Ward of the settlement type. -->
+  <CBF_GR_ColWardTip>據點類型的城區。</CBF_GR_ColWardTip>
+  <!-- EN: Share -->
+  <CBF_GR_ColShare>份額</CBF_GR_ColShare>
+  <!-- EN: Share of the bought pawns this ward gets. -->
+  <CBF_GR_ColShareTip>此城區分到的購買角色比例。</CBF_GR_ColShareTip>
+  <!-- EN: Fixed -->
+  <CBF_GR_ColFixed>固定</CBF_GR_ColFixed>
+  <!-- EN: Pawns from active garrison entries, as expected value. -->
+  <CBF_GR_ColFixedTip>來自啟用駐軍條目的角色，以期望值表示。</CBF_GR_ColFixedTip>
+  <!-- EN: Anchors -->
+  <CBF_GR_ColAnchors>錨點</CBF_GR_ColAnchors>
+  <!-- EN: Pawns from pawn anchors in pieces. Only with a layout. -->
+  <CBF_GR_ColAnchorsTip>來自部件中角色錨點的角色。僅在有佈局時計算。</CBF_GR_ColAnchorsTip>
+  <!-- EN: Points -->
+  <CBF_GR_ColPoints>點數</CBF_GR_ColPoints>
+  <!-- EN: Pawns the faction buys with the budget. -->
+  <CBF_GR_ColPointsTip>派系用預算購買的角色。</CBF_GR_ColPointsTip>
+  <!-- EN: Total -->
+  <CBF_GR_ColTotal>總計</CBF_GR_ColTotal>
+  <!-- EN: Fixed, anchors and points together. -->
+  <CBF_GR_ColTotalTip>固定、錨點與點數的合計。</CBF_GR_ColTotalTip>
+  <!-- EN: Visible -->
+  <CBF_GR_ColVisible>可見</CBF_GR_ColVisible>
+  <!-- EN: Pawns standing on the map at once. -->
+  <CBF_GR_ColVisibleTip>同時站在地圖上的角色。</CBF_GR_ColVisibleTip>
+  <!-- EN: Reserve -->
+  <CBF_GR_ColReserve>後備</CBF_GR_ColReserve>
+  <!-- EN: Held back, appear on alarm. -->
+  <CBF_GR_ColReserveTip>被保留，警報時出現。</CBF_GR_ColReserveTip>
+  <!-- EN: Combat power -->
+  <CBF_GR_ColPower>戰鬥力</CBF_GR_ColPower>
+  <!-- EN: Sum of the pawns' combat power. -->
+  <CBF_GR_ColPowerTip>角色戰鬥力的總和。</CBF_GR_ColPowerTip>
+  <!-- EN: Warning: fixed pawns and anchors cost {0} points and exceed the budget of {1}. With these settings there is no mobile garrison from points. -->
+  <CBF_GP_OverBudget>警告：固定角色與錨點花費{0}點，超出預算{1}。在此設定下，不會有由點數購買的機動駐軍。</CBF_GP_OverBudget>
+  <!-- EN: Share per level -->
+  <CBF_S_GarrisonShareDungeon>各層份額</CBF_S_GarrisonShareDungeon>
+  <!-- EN: How the bought defenders of the whole dungeon are spread over its levels. The budget is set once when the first level is entered. The last level always gets the rest up to 100%. Raising a level takes from the last level first, then from the others from the top. A level repeated ×n gets its share once per repetition; the shares are then scaled to 100%. -->
+  <CBF_S_GarrisonShareTipDungeon>整座地牢購買的防守者如何分配到各層。預算在首次進入第一層時決定一次。最後一層永遠取得剩餘部分，補足100%。提高某層時，先從最後一層扣除，再從上方的其他層依序扣除。重複×n的層，每次重複各取得一次份額；之後再將份額縮放至100%。</CBF_S_GarrisonShareTipDungeon>
+  <!-- EN: Share automatically, rising towards the bottom -->
+  <CBF_S_GarrisonShareAutoDungeon>自動分配份額，越往下越多</CBF_S_GarrisonShareAutoDungeon>
+  <!-- EN: Ticked, deeper levels get more defenders, the deepest the most. Untick to set the shares yourself. -->
+  <CBF_S_GarrisonShareAutoTipDungeon>勾選時，越深的層防守者越多，最深層最多。取消勾選以自行設定份額。</CBF_S_GarrisonShareAutoTipDungeon>
+  <!-- EN: Set fixed pawns in the garrison entries of the levels: tick active, then min, max and weight. -->
+  <CBF_S_GarrisonEntriesHintDungeon>在各層的駐軍條目中設定固定角色：勾選啟用，再設定最小值、最大值與權重。</CBF_S_GarrisonEntriesHintDungeon>
+  <!-- EN: The last level gets the rest up to 100%. -->
+  <CBF_S_GarrisonShareRestDungeon>最後一層取得剩餘部分，補足100%。</CBF_S_GarrisonShareRestDungeon>
+  <!-- EN: Level -->
+  <CBF_GR_ColLevel>層</CBF_GR_ColLevel>
+  <!-- EN: Level of the dungeon, counted from the top. -->
+  <CBF_GR_ColLevelTip>地牢的層數，從最上層算起。</CBF_GR_ColLevelTip>
+  <!-- EN: Pawn anchors of dungeons are not counted here -->
+  <CBF_GR_LayoutDungeon>此處不計入地牢的角色錨點</CBF_GR_LayoutDungeon>
+  <!-- EN: Dungeon levels are planned only when they are entered. The calculator shows the dungeon without its pawn anchors. -->
+  <CBF_GR_LayoutDungeonTip>地牢各層只在進入時才規劃。計算器顯示的地牢不含其角色錨點。</CBF_GR_LayoutDungeonTip>
+  <!-- EN: Counted on the planned layout (≈). A settlement varies by a few pawns from map to map, the game can field somewhat more. -->
+  <CBF_GR_AnchorsLayout>依規劃好的佈局計算（≈）。據點每張地圖會相差幾名角色，實際遊戲中可能稍多。</CBF_GR_AnchorsLayout>
+  <!-- EN: Pawns from anchors are a rough estimate from the districts and only a lower bound (≥). The layout is being planned for a closer count. -->
+  <CBF_GR_AnchorsEstimated>錨點角色是依街區粗估的數字，僅為下限（≥）。正在規劃佈局以取得更準確的數字。</CBF_GR_AnchorsEstimated>
+  <!-- EN: Small places such as villages vary a lot in the game, by about a quarter up or down from map to map. -->
+  <CBF_GR_SmallVaries>村莊之類的小型地點在遊戲中變化很大，每張地圖約上下相差四分之一。</CBF_GR_SmallVaries>
+  <!-- EN: Street decor -->
+  <CBF_S_Deco>街道裝飾</CBF_S_Deco>
+  <!-- EN: none -->
+  <CBF_S_DecoNone>無</CBF_S_DecoNone>
+  <!-- EN: {0} entries -->
+  <CBF_S_DecoCount>{0}個條目</CBF_S_DecoCount>
+  <!-- EN: Sketch of a stretch of road with the entries below in their colours. Spacing and max are shown roughly. -->
+  <CBF_S_DecoSketchTip>一段道路的示意圖，下方條目以各自的顏色標示。間距與上限僅為大略顯示。</CBF_S_DecoSketchTip>
+  <!-- EN: No street decor yet. Add a template below. -->
+  <CBF_S_DecoSketchEmpty>尚無街道裝飾。請從下方新增模板。</CBF_S_DecoSketchEmpty>
+  <!-- EN: Edge: beside the road. Road: on the road itself. -->
+  <CBF_S_DecoPlaceTip>路邊：道路旁。路面：道路本身上。</CBF_S_DecoPlaceTip>
+  <!-- EN: A piece, a piece category or an object list. Single things go into an object list. -->
+  <CBF_S_DecoWhatTip>一個部件、一個部件類別或一份物品清單。單一物品請放進物品清單。</CBF_S_DecoWhatTip>
+  <!-- EN: Spacing -->
+  <CBF_S_DecoSpacing>間距</CBF_S_DecoSpacing>
+  <!-- EN: Cells between two placements, as a range. Smaller means denser. -->
+  <CBF_S_DecoSpacingTip>兩次放置之間相隔的格數，以範圍表示。越小越密集。</CBF_S_DecoSpacingTip>
+  <!-- EN: Max -->
+  <CBF_S_DecoMax>上限</CBF_S_DecoMax>
+  <!-- EN: At most this many per ward. 0 means no limit. -->
+  <CBF_S_DecoMaxTip>每個城區最多放置的數量。0表示不限。</CBF_S_DecoMaxTip>
+  <!-- EN: Weight against the other entries of this ward. -->
+  <CBF_S_WeightShortTip>相對於此城區其他條目的權重。</CBF_S_WeightShortTip>
+  <!-- EN: Which way the things face. -->
+  <CBF_S_DecoFacingTip>物品朝向哪個方向。</CBF_S_DecoFacingTip>
+  <!-- EN: Edge -->
+  <CBF_S_DecoEdge>路邊</CBF_S_DecoEdge>
+  <!-- EN: Road -->
+  <CBF_S_DecoRoad>路面</CBF_S_DecoRoad>
+  <!-- EN: pick … -->
+  <CBF_S_DecoPick>選擇……</CBF_S_DecoPick>
+  <!-- EN: Piece or category … -->
+  <CBF_S_DecoPickPiece>部件或類別……</CBF_S_DecoPickPiece>
+  <!-- EN: Object list … -->
+  <CBF_S_DecoPickList>物品清單……</CBF_S_DecoPickList>
+  <!-- EN: automatic -->
+  <CBF_S_DecoF_Auto>自動</CBF_S_DecoF_Auto>
+  <!-- EN: towards the road -->
+  <CBF_S_DecoF_Road>朝向道路</CBF_S_DecoF_Road>
+  <!-- EN: along the road -->
+  <CBF_S_DecoF_Along>沿著道路</CBF_S_DecoF_Along>
+  <!-- EN: any -->
+  <CBF_S_DecoF_None>任意</CBF_S_DecoF_None>
+  <!-- EN: Template: -->
+  <CBF_S_DecoTemplates>模板：</CBF_S_DecoTemplates>
+  <!-- EN: Light -->
+  <CBF_S_DecoT_Light>路燈</CBF_S_DecoT_Light>
+  <!-- EN: Adds a street light entry at the edge with matching spacing, then lets you pick or create the object list. -->
+  <CBF_S_DecoT_LightTip>在路邊新增一個間距合適的路燈條目，接著讓你選擇或建立物品清單。</CBF_S_DecoT_LightTip>
+  <!-- EN: Edge -->
+  <CBF_S_DecoT_Side>路邊</CBF_S_DecoT_Side>
+  <!-- EN: Adds an entry for benches, barrels and crates at the edge, then lets you pick or create the object list. -->
+  <CBF_S_DecoT_SideTip>在路邊新增一個長椅、木桶與箱子的條目，接著讓你選擇或建立物品清單。</CBF_S_DecoT_SideTip>
+  <!-- EN: Sign -->
+  <CBF_S_DecoT_Sign>招牌</CBF_S_DecoT_Sign>
+  <!-- EN: Adds a sign entry at the edge with wide spacing, then lets you pick or create the object list. -->
+  <CBF_S_DecoT_SignTip>在路邊新增一個間距較寬的招牌條目，接著讓你選擇或建立物品清單。</CBF_S_DecoT_SignTip>
+  <!-- EN: Road -->
+  <CBF_S_DecoT_Road>路面</CBF_S_DecoT_Road>
+  <!-- EN: Adds an entry on the road, at most 3, then lets you pick or create the object list. -->
+  <CBF_S_DecoT_RoadTip>在路面上新增一個條目，上限3個，接著讓你選擇或建立物品清單。</CBF_S_DecoT_RoadTip>
+  <!-- EN: Piece -->
+  <CBF_S_DecoT_Piece>部件</CBF_S_DecoT_Piece>
+  <!-- EN: Adds an entry for small street pieces, at most 2, then lets you pick a piece or category. -->
+  <CBF_S_DecoT_PieceTip>新增一個小型街道部件的條目，上限2個，接著讓你選擇部件或類別。</CBF_S_DecoT_PieceTip>
+  <!-- EN: Own entry -->
+  <CBF_S_DecoOwn>自訂條目</CBF_S_DecoOwn>
+  <!-- EN: Pick a piece, a category or an object list yourself. -->
+  <CBF_S_DecoOwnTip>自行選擇部件、類別或物品清單。</CBF_S_DecoOwnTip>
+  <!-- EN: Street decor added -->
+  <CBF_S_DecoAdded>已新增街道裝飾</CBF_S_DecoAdded>
+  <!-- EN: Street decor changed -->
+  <CBF_S_DecoChanged>已變更街道裝飾</CBF_S_DecoChanged>
+  <!-- EN: Open the object list and see or change what it places. -->
+  <CBF_S_DecoEditList>開啟物品清單，檢視或變更它放置的內容。</CBF_S_DecoEditList>
+  <!-- EN: empty, nothing is placed -->
+  <CBF_S_DecoEmptyList>空的，不會放置任何東西</CBF_S_DecoEmptyList>
+  <!-- EN: places: {0} -->
+  <CBF_S_DecoSpawns>放置：{0}</CBF_S_DecoSpawns>
+  <!-- EN: places: {0} and more ({1}) -->
+  <CBF_S_DecoSpawnsMore>放置：{0}等（{1}）</CBF_S_DecoSpawnsMore>
+  <!-- EN: Tick one or more layouts. With several, each generated level rolls one of them. -->
+  <CBF_D_LayoutsTip>勾選一或多種佈局。勾選多種時，每個生成的層會從中隨機抽一種。</CBF_D_LayoutsTip>
+  <!-- EN: Each generated level rolls one of the ticked layouts. -->
+  <CBF_D_LayoutsRandom>每個生成的層會從勾選的佈局中隨機抽一種。</CBF_D_LayoutsRandom>
 </LanguageData>

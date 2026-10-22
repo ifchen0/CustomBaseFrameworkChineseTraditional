@@ -68,6 +68,8 @@
   <CBF_Cfg_OutworkGate>外防工事{0}：gateClearance不得為負，規劃器使用0。</CBF_Cfg_OutworkGate>
   <!-- EN: {0} must be between {1} and {2}. -->
   <CBF_Cfg_Range>{0}必須在{1}與{2}之間。</CBF_Cfg_Range>
+  <!-- EN: {0}: requiresCount {1} must be between 1 and the number of requirements ({2}). -->
+  <CBF_Cfg_RequiresCount>{0}：requiresCount {1}必須介於1與條件數量（{2}）之間。</CBF_Cfg_RequiresCount>
   <!-- EN: {0}: the minimum {1} is larger than the maximum {2}. -->
   <CBF_Cfg_RangeOrder>{0}：最小值{1}大於最大值{2}。</CBF_Cfg_RangeOrder>
   <!-- EN: The crop list contains no plants. -->
@@ -746,6 +748,10 @@
   <CBF_Planner_Marge>層{1}中的{0}：放置了{3}中的{2}。缺口在容差範圍內。</CBF_Planner_Marge>
   <!-- EN: Layer {0}: wall line staggered in sections, {1} cells taken back. -->
   <CBF_Planner_Mauerversatz>層{0}：城牆線分段錯開，收回{1}格。</CBF_Planner_Mauerversatz>
+  <!-- EN: {0}: its requirements are met ({1} of {2}), it is planned now. -->
+  <CBF_Planner_RequiresMet>{0}：條件已滿足（{1}／{2}），現在進行規劃。</CBF_Planner_RequiresMet>
+  <!-- EN: {0} was left out: only {1} of {2} required pieces or categories are in the settlement ({3}). -->
+  <CBF_Planner_RequiresUnmet>{0}已被略過：據點中只有{1}／{2}個所需部件或類別（{3}）。</CBF_Planner_RequiresUnmet>
   <!-- EN: {0} was below its minimum. More were placed using terrain changes, {1} cells changed. -->
   <CBF_Planner_Nachschlag>{0}低於其最低值。透過地形改動放置了更多，更改了{1}格。</CBF_Planner_Nachschlag>
   <!-- EN: No room for {0}. Checked: {1} spots with enough ground, {2} of them with road access, {3} of them fully fitting. -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: skeleton archer -->
+  <CBF_SkeletonArcher.label>骷髏弓箭手</CBF_SkeletonArcher.label>
+  <!-- EN: skeleton guard -->
+  <CBF_SkeletonGuard.label>骷髏守衛</CBF_SkeletonGuard.label>
+  <!-- EN: skeleton warrior -->
+  <CBF_SkeletonWarrior.label>骷髏戰士</CBF_SkeletonWarrior.label>
+</LanguageData>

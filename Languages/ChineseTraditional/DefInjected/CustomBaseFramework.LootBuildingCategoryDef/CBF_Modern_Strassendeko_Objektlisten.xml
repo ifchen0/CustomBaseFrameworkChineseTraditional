@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: street lights -->
+  <CBF_Modern_Street_Light.label>路燈</CBF_Modern_Street_Light.label>
+  <!-- EN: objects on the road -->
+  <CBF_Modern_Street_Road.label>路面物件</CBF_Modern_Street_Road.label>
+  <!-- EN: street side objects -->
+  <CBF_Modern_Street_Side.label>路邊物件</CBF_Modern_Street_Side.label>
+</LanguageData>

@@ -308,8 +308,8 @@
   <CBF_FieldDesc_gatehouses>哪些部件可作為門樓。</CBF_FieldDesc_gatehouses>
   <!-- EN: Defender strength -->
   <CBF_Field_defenderPoints>守軍強度</CBF_Field_defenderPoints>
-  <!-- EN: How strong the defenders are, as a point range. -->
-  <CBF_FieldDesc_defenderPoints>守軍有多強，以點數範圍表示。</CBF_FieldDesc_defenderPoints>
+  <!-- EN: Without a garrison factor: how strong the point-based defenders are, as a point range. With wealthFactor above 0: the minimum garrison budget. -->
+  <CBF_FieldDesc_defenderPoints>無駐軍係數時：以點數為基礎的防守者強度，以點數範圍表示。wealthFactor大於0時：駐軍預算的最低值。</CBF_FieldDesc_defenderPoints>
   <!-- EN: Factions -->
   <CBF_Field_factionTags>派系</CBF_Field_factionTags>
   <!-- EN: Which factions may use this settlement type. -->
@@ -532,8 +532,20 @@
   <CBF_Field_tower>塔樓</CBF_Field_tower>
   <!-- EN: gatehouse -->
   <CBF_Field_gatehouse>門樓</CBF_Field_gatehouse>
-  <!-- EN: No piece in category {0}. Draw one first. -->
-  <CBF_NoWallPieces>類別{0}中沒有部件。請先繪製一個。</CBF_NoWallPieces>
+  <!-- EN: No piece of kind {0}. Draw one first. -->
+  <CBF_NoWallPieces>沒有種類為{0}的部件。請先繪製一個。</CBF_NoWallPieces>
+  <!-- EN: corridor piece -->
+  <CBF_DungeonPart_Corridor>走廊部件</CBF_DungeonPart_Corridor>
+  <!-- EN: entrance -->
+  <CBF_DungeonPart_Entrance>入口</CBF_DungeonPart_Entrance>
+  <!-- EN: stairs -->
+  <CBF_DungeonPart_Stairs>樓梯</CBF_DungeonPart_Stairs>
+  <!-- EN: wall segment -->
+  <CBF_WallPart_Segment>城牆段</CBF_WallPart_Segment>
+  <!-- EN: tower -->
+  <CBF_WallPart_Tower>塔樓</CBF_WallPart_Tower>
+  <!-- EN: gatehouse -->
+  <CBF_WallPart_Gatehouse>門樓</CBF_WallPart_Gatehouse>
   <!-- EN: Empty, so the wall profile {0} decides: {1} -->
   <CBF_WallsFromProfile>空，因此牆型{0}決定：{1}</CBF_WallsFromProfile>
   <!-- EN: Empty, and there is no wall profile for this style and thickness. The settlement gets the generic wall. -->
@@ -1214,6 +1226,8 @@
   <CBF_GelaendeProbeAbgelegt>地形樣本位於{0}（影像、清單與.gel）</CBF_GelaendeProbeAbgelegt>
   <!-- EN: Nothing selected. -->
   <CBF_NothingSelected>未選擇任何內容。</CBF_NothingSelected>
+  <!-- EN: {0} is not in {1}. -->
+  <CBF_DefNotInFile>{0}不在{1}中。</CBF_DefNotInFile>
   <!-- EN: Writing failed: {0} -->
   <CBF_WriteFailedReason>寫入失敗：{0}</CBF_WriteFailedReason>
   <!-- EN: The file {0} has no root node. -->
@@ -1222,6 +1236,12 @@
   <CBF_ProjectFolderMissing>未找到專案資料夾。</CBF_ProjectFolderMissing>
   <!-- EN: Replacement and target are the same. -->
   <CBF_ReplaceSameAsTarget>替換物與目標相同。</CBF_ReplaceSameAsTarget>
+  <!-- EN: {0} could not be renamed because a file involved could not be written. Everything is back as before, details in the log. -->
+  <CBF_RenameFailed>無法重新命名{0}，因為有相關檔案無法寫入。一切已恢復原狀，詳情請見日誌。</CBF_RenameFailed>
+  <!-- EN: {0} could not be deleted because a file involved could not be written. Everything is back as before, details in the log. -->
+  <CBF_DeleteFailed>無法刪除{0}，因為有相關檔案無法寫入。一切已恢復原狀，詳情請見日誌。</CBF_DeleteFailed>
+  <!-- EN: {0} has been deleted since. This step can no longer be undone or redone. -->
+  <CBF_UndoDefDeleted>{0}之後已被刪除。此步驟無法再復原或重做。</CBF_UndoDefDeleted>
   <!-- EN: The source file of {0} could not be removed. Nothing was deleted. -->
   <CBF_DeleteSourceStuck>{0}的原始檔無法移除。未刪除任何內容。</CBF_DeleteSourceStuck>
   <!-- EN: The name table could not be changed. Nothing was changed. -->
@@ -1474,10 +1494,6 @@
   <CBF_GarrisonHead>駐軍與效能</CBF_GarrisonHead>
   <!-- EN: Large settlements do not spawn all their pawns with the map. Part of them is held back unspawned and only spawns when their district is alarmed. Fewer pawns on the map at once means a smoother game. -->
   <CBF_GarrisonIntro>大型據點不會在地圖生成時就出現所有角色。一部分會保留為後備兵力，等所在街區進入警戒才出現。同時在地圖上的角色越少，遊戲越順暢。</CBF_GarrisonIntro>
-  <!-- EN: Garrison in the streets at the start: {0}% -->
-  <CBF_GarrisonShare>開局時在街上的駐軍：{0}%</CBF_GarrisonShare>
-  <!-- EN: Share of each district that spawns with the map, at least three per district. If this is more than the limit leaves after the guards, it is cut down. The rest is held back unspawned and spawns as soon as the district is alarmed: shots nearby, hits on its walls or houses, or an enemy is spotted. It spawns within the limit. Walls, gates, guns and posts are always fully manned. Applies to newly generated settlements. -->
-  <CBF_GarrisonShareHelp>每個街區隨地圖一起出現的比例，每個街區至少三人。若超過扣除守衛後的上限，會往下刪減。剩下的保留為後備，街區一進入警戒就出現：附近有槍聲、城牆或房屋被擊中，或發現敵人。出現時受上限限制。城牆、城門、砲位與崗哨永遠滿員。套用於新生成的據點。</CBF_GarrisonShareHelp>
   <!-- EN: At most on the map at once: {0} -->
   <CBF_GarrisonCap>同時在地圖上的上限：{0}</CBF_GarrisonCap>
   <!-- EN: At most on the map at once: no limit -->
@@ -1566,6 +1582,12 @@
   <CBF_Descent_SealOccupied>殖民地還有人在下面：殖民者、囚犯或動物。</CBF_Descent_SealOccupied>
   <!-- EN: {0}: the way down is sealed. -->
   <CBF_Descent_Sealed>{0}：往下的路已封閉。</CBF_Descent_Sealed>
+  <!-- EN: The surface is cleared, but {0} defender(s) still hold the levels below. -->
+  <CBF_Defeat_StillBelow>地面已經肅清，但下層仍有{0}名防守者據守。</CBF_Defeat_StillBelow>
+  <!-- EN: Defenders below: {0} -->
+  <CBF_Defeat_StairsBelow>下層防守者：{0}</CBF_Defeat_StairsBelow>
+  <!-- EN: {0} undead still walk this place. -->
+  <CBF_Defeat_UndeadLeft>此地仍有{0}個不死者在遊蕩。</CBF_Defeat_UndeadLeft>
   <!-- EN: Old town shapes -->
   <CBF_S_CoreShapes>老城區形狀</CBF_S_CoreShapes>
   <!-- EN: All shapes allowed. Click a shape to exclude it. -->
@@ -1642,10 +1664,10 @@
   <CBF_GarrisonBoxGuards>守衛</CBF_GarrisonBoxGuards>
   <!-- EN: People on walls, gates, guns and posts. They are always fully manned and never held back. -->
   <CBF_GarrisonBoxGuardsTip>城牆、城門、砲位與崗哨上的人。永遠滿員，不會保留為後備。</CBF_GarrisonBoxGuardsTip>
-  <!-- EN: Size of the reserve: {0}% -->
-  <CBF_GarrisonSize>後備兵力規模：{0}%</CBF_GarrisonSize>
-  <!-- EN: Scales the pawns held back unspawned, compared to what the settlement has by its plan. Guards and the pawns that spawn with the map are not changed. A larger reserve means longer fights, not more pawns on the map at once; that is set by the limit. Applies to newly generated settlements. -->
-  <CBF_GarrisonSizeHelp>依據點方案原本的數量，縮放保留為後備的角色。守衛與隨地圖出現的角色不變。後備越多代表戰鬥越久，而不是同時在地圖上的人越多；後者由上限決定。套用於新生成的據點。</CBF_GarrisonSizeHelp>
+  <!-- EN: Garrison size: {0}% -->
+  <CBF_GarrisonStrength>駐軍規模：{0}%</CBF_GarrisonStrength>
+  <!-- EN: How many defenders a settlement fields, relative to its plans. 100% is the full garrison and the default. At 100% a village has about 30 defenders and a fortress city about 90, at 200% about twice as many. Applies with or without the reserve. The garrison size sets how many residents there are; the reserve size sets how many of them are held back and only appear on alarm. Ruins and World Domination scale on top of this. Applies to newly generated settlements. -->
+  <CBF_GarrisonStrengthHelp>據點派出的防守者數量，相對於其規劃而言。100%為完整駐軍，也是預設值。在100%時，村莊約有30名防守者，要塞城市約有90名；200%時約為兩倍。無論是否啟用後備兵力皆適用。駐軍規模決定居民人數；後備兵力規模決定其中有多少人被保留、只在警報時出現。廢墟與World Domination會在此之上再做縮放。適用於新生成的據點。</CBF_GarrisonStrengthHelp>
   <!-- EN: Sets all garrison sliders back to their defaults, including "Downed defenders count towards the limit". The display switch below stays as it is. -->
   <CBF_GarrisonDefaultsTip>將所有駐軍滑桿重設為預設值，包括「倒地的守軍計入上限」。下方的顯示開關維持不變。</CBF_GarrisonDefaultsTip>
   <!-- EN: Enable CBF spawn mechanics -->

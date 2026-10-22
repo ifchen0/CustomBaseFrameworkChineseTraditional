@@ -36,10 +36,6 @@
   <CBF_Tab_Pawn>角色</CBF_Tab_Pawn>
   <!-- EN: Dungeons -->
   <CBF_Tab_Dungeons>地下城</CBF_Tab_Dungeons>
-  <!-- EN: Comes later. -->
-  <CBF_TabLater>稍後提供。</CBF_TabLater>
-  <!-- EN: {0} is being rebuilt in the next step. -->
-  <CBF_TabComing>{0}正在下一步驟中重建。</CBF_TabComing>
   <!-- EN: Forward -->
   <CBF_H_Forward>前進</CBF_H_Forward>
   <!-- EN: Saved -->

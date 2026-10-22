@@ -546,6 +546,22 @@
   <CBF_Qu_Art_Monsterjagd>獵殺怪物</CBF_Qu_Art_Monsterjagd>
   <!-- EN: Ruins without a faction, held by creatures from a pawn list, such as a troll. -->
   <CBF_Qu_Art_MonsterjagdTip>沒有派系的廢墟，被角色清單中的生物佔據，例如一隻巨魔。</CBF_Qu_Art_MonsterjagdTip>
+  <!-- EN: Offer -->
+  <CBF_Qu_G_Offer>委託</CBF_Qu_G_Offer>
+  <!-- EN: Arrival -->
+  <CBF_Qu_G_Arrival>抵達</CBF_Qu_G_Arrival>
+  <!-- EN: Success -->
+  <CBF_Qu_G_Success>成功</CBF_Qu_G_Success>
+  <!-- EN: Failure -->
+  <CBF_Qu_G_Failure>失敗</CBF_Qu_G_Failure>
+  <!-- EN: Expiry -->
+  <CBF_Qu_G_Expiry>過期</CBF_Qu_G_Expiry>
+  <!-- EN: + Creatures -->
+  <CBF_Qu_CreaturesNew>+ 生物</CBF_Qu_CreaturesNew>
+  <!-- EN: Edit -->
+  <CBF_Qu_CreaturesEdit>編輯</CBF_Qu_CreaturesEdit>
+  <!-- EN: Opens the same picker as for pen animals: search, filter by kind and mod, pictures. The chosen creatures are saved as a pawn list. -->
+  <CBF_Qu_CreaturesTip>開啟與圍欄動物相同的選擇器：搜尋、依種類與模組篩選、附圖片。選取的生物會存成角色清單。</CBF_Qu_CreaturesTip>
   <!-- EN: General -->
   <CBF_Qu_G_General>一般</CBF_Qu_G_General>
   <!-- EN: Site -->

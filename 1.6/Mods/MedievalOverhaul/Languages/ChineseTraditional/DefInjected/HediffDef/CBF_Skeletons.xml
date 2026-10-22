@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Bones held together by something that should have stayed buried. It feels no pain, needs no food or sleep and falls apart when it is struck down. -->
+  <CBF_Undead.description>由某種本該長眠地下的力量拼湊起來的骨骸。它感覺不到疼痛，不需要進食或睡眠，被擊倒時便會散架。</CBF_Undead.description>
+  <!-- EN: undead -->
+  <CBF_Undead.label>不死者</CBF_Undead.label>
+</LanguageData>

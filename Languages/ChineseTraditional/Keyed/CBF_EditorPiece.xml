@@ -358,6 +358,14 @@
   <CBF_P_FloorPerCell>逐格擲取</CBF_P_FloorPerCell>
   <!-- EN: Off: one floor is rolled per placed piece and covers the whole symbol. On: every cell gets its own floor. -->
   <CBF_P_FloorPerCellTip>關閉：每放置一個部件擲取一次地板並覆蓋整個符號。開啟：每個格獲得自己的地板。</CBF_P_FloorPerCellTip>
+  <!-- EN: Plant vessels -->
+  <CBF_P_Vessels>植物容器</CBF_P_Vessels>
+  <!-- EN: Pots, hydroponics and other vessels get their plants like a field: from a crop list or from single plants. -->
+  <CBF_P_VesselsHint>花盆、水耕盆與其他容器會像農田一樣取得植物：來自作物清單或單一植物。</CBF_P_VesselsHint>
+  <!-- EN: Single plants for this vessel. One is drawn per vessel. With a crop list they only serve as a fallback. Only plants that grow in the vessel are offered. -->
+  <CBF_P_VesselPlantsTip>此容器的單一植物。每個容器抽一種。有作物清單時僅作為備用。只會列出能在此容器中生長的植物。</CBF_P_VesselPlantsTip>
+  <!-- EN: Picks a crop list from the Lists tab. The vessel then draws its plant from it by weight, the single plants only serve as a fallback. -->
+  <CBF_P_VesselCropListTip>從清單分頁選擇作物清單。容器會依權重從中抽取植物，單一植物僅作為備用。</CBF_P_VesselCropListTip>
   <!-- EN: Descent -->
   <CBF_P_Descent>下行入口</CBF_P_Descent>
   <!-- EN: Dungeons -->
@@ -380,4 +388,6 @@
   <CBF_P_DescentStairsPlain>沒有選地下城時，樓梯照舊通往下一層。</CBF_P_DescentStairsPlain>
   <!-- EN: Without dungeons the container stays a container. -->
   <CBF_P_DescentObjectPlain>沒有選地下城時，容器就維持是容器。</CBF_P_DescentObjectPlain>
+  <!-- EN: {0} belongs to project {1} and has not been saved yet. Switch back to {1} as the target mod to save it. -->
+  <CBF_OtherProjectDraft>{0}屬於專案{1}，尚未儲存。請將目標模組切回{1}以儲存它。</CBF_OtherProjectDraft>
 </LanguageData>

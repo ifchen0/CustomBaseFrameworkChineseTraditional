@@ -298,6 +298,10 @@
   <CBF_FieldDesc_weightOverWealth>玩家家園地圖財富的曲線。其值乘權重。</CBF_FieldDesc_weightOverWealth>
   <!-- EN: defName of the replacement. Targets that do not exist are skipped. -->
   <CBF_FieldDesc_to>替換物的defName。不存在的目標被跳過。</CBF_FieldDesc_to>
+  <!-- EN: On a plant vessel (pot, hydroponics and similar): name of a crop list (CropListDef). Each vessel draws one plant by weight, sets it as the plant to grow and places it on every cell of the vessel. Plants that cannot grow in the vessel are skipped. -->
+  <CBF_FieldDesc_LegendEntry_crops>用於植物容器（花盆、水耕盆等）：作物清單（CropListDef）的名稱。每個容器依權重抽一種植物，設為要種植的植物，並放在容器的每一格上。無法在容器中生長的植物會被略過。</CBF_FieldDesc_LegendEntry_crops>
+  <!-- EN: On a plant vessel: single plants (defName), equally weighted. Only used when crops is empty or yields nothing. Export writes the plants standing in the vessel here. -->
+  <CBF_FieldDesc_LegendEntry_plants>用於植物容器：單一植物（defName），權重相同。僅在crops為空或沒有產出時使用。匯出時會把容器中現有的植物寫在這裡。</CBF_FieldDesc_LegendEntry_plants>
   <!-- EN: Stack size of the thing placed at this cell, for items. Buildings ignore it. -->
   <CBF_FieldDesc_LegendEntry_count>此格放置物品的堆疊大小。建築忽略它。</CBF_FieldDesc_LegendEntry_count>
   <!-- EN: Smallest river width in cells that counts for a harbor. The sea always counts. -->
@@ -426,4 +430,16 @@
   <CBF_FieldDesc_netShapes>現代據點允許的輪廓：Polygon（多邊形）、Square（方形）、Hexagon（六邊形）、Round（圓形）。每個據點按自身ID固定選擇其一。留空表示全部皆可。</CBF_FieldDesc_netShapes>
   <!-- EN: Allowed street networks of modern settlements: Ring (ring road with spokes) and MainRoad (one main road straight through, narrow lanes otherwise). If both are allowed, each settlement picks one, fixed by its ID. Empty means both. -->
   <CBF_FieldDesc_netRoads>現代據點允許的街道網路：Ring（帶輻射支路的環城路）和MainRoad（一條主路直穿，其餘為窄巷）。若兩者都允許，每個據點按自身ID固定選擇其一。留空表示兩者皆可。</CBF_FieldDesc_netRoads>
+  <!-- EN: Garrison factor, 0 to 5. With a value above 0 the place spends your raid points times this factor on defenders, but never less than defenderPoints. 0 keeps fixed garrisons. -->
+  <CBF_FieldDesc_wealthFactor>駐軍係數，0至5。大於0時，此地會把你的襲擊點數乘以此係數花在防守者上，但絕不少於defenderPoints。0則維持固定駐軍。</CBF_FieldDesc_wealthFactor>
+  <!-- EN: How much of the points of pawns from pawn anchors is taken from the garrison budget, 0 to 1. Default 0.5. -->
+  <CBF_FieldDesc_anchorPointShare>角色錨點產生的角色，其點數有多少比例從駐軍預算扣除，0至1。預設0.5。</CBF_FieldDesc_anchorPointShare>
+  <!-- EN: Share of the bought defenders for this ward or dungeon level in percent. -1 means automatic: by size for wards, rising towards the bottom for dungeon levels. The last one gets the rest. -->
+  <CBF_FieldDesc_garrisonShare>此城區或地牢層分到的購買防守者比例（百分比）。-1表示自動：城區依大小，地牢層越往下越多。最後一個取得剩餘部分。</CBF_FieldDesc_garrisonShare>
+  <!-- EN: Only with a garrison factor: places the pawns of this entry as fixed garrison, min first, then extras up to max by weight while the budget lasts. -->
+  <CBF_FieldDesc_fixed>僅在有駐軍係數時有效：將此條目的角色作為固定駐軍放置，先放最小值，再於預算足夠時依權重額外增加至最大值。</CBF_FieldDesc_fixed>
+  <!-- EN: Street decor: Edge beside the road (default) or Road on the road itself. -->
+  <CBF_FieldDesc_Dekospec_placement>街道裝飾：Edge為道路旁（預設），Road為道路本身上。</CBF_FieldDesc_Dekospec_placement>
+  <!-- EN: Street decor: Road (towards the road), Along, None or Auto (default: towards the road at the edge, along the road on the road). -->
+  <CBF_FieldDesc_Dekospec_facing>街道裝飾：Road（朝向道路）、Along、None或Auto（預設：在路邊時朝向道路，在路面上時沿著道路）。</CBF_FieldDesc_Dekospec_facing>
 </LanguageData>

@@ -26,6 +26,8 @@
   <CBF_Kcsg_NoFolder>資料夾不存在。</CBF_Kcsg_NoFolder>
   <!-- EN: No KCSG structure layouts in this folder. -->
   <CBF_Kcsg_NoneInFolder>此資料夾中沒有KCSG建築佈局。</CBF_Kcsg_NoneInFolder>
+  <!-- EN: Import incomplete: {0} file(s) are not readable XML and were skipped: {1} -->
+  <CBF_Kcsg_UnreadableFiles>匯入不完整：{0}個檔案不是可讀取的XML，已略過：{1}</CBF_Kcsg_UnreadableFiles>
   <!-- EN: This piece is not an unsaved import. -->
   <CBF_Kcsg_NotPending>此部件不是未儲存的匯入項目。</CBF_Kcsg_NotPending>
   <!-- EN: Pick a mod or enter a folder. All KCSG buildings in it are added to the piece list, unsaved. Keep the ones you want there one by one; the rest is lost when you quit. -->

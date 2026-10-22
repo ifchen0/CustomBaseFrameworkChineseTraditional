@@ -2,6 +2,8 @@
 <LanguageData>
   <!-- EN: alchemy workshop -->
   <CBF_MO_AlchemyWorkshop.label>鍊金工坊</CBF_MO_AlchemyWorkshop.label>
+  <!-- EN: crypt entrance -->
+  <CBF_MO_Annex_CryptEntrance.label>墓穴入口</CBF_MO_Annex_CryptEntrance.label>
   <!-- EN: guild annex -->
   <CBF_MO_Annex_Guild.label>行會附屬建築</CBF_MO_Annex_Guild.label>
   <!-- EN: hunting annex -->
