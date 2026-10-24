@@ -82,6 +82,26 @@
   <CBF_Fr_PlansSaved>已儲存{0}個計劃。</CBF_Fr_PlansSaved>
   <!-- EN: Drag to change the column width, double-click to reset it. -->
   <CBF_H_ColumnTip>拖動可改變列寬，雙擊可重置。</CBF_H_ColumnTip>
+  <!-- EN: all mods -->
+  <CBF_MF_All>所有模組</CBF_MF_All>
+  <!-- EN: {0} mods -->
+  <CBF_MF_Count>{0}個模組</CBF_MF_Count>
+  <!-- EN: Filter -->
+  <CBF_MF_Label>篩選</CBF_MF_Label>
+  <!-- EN: Mod filter -->
+  <CBF_MF_Title>模組篩選</CBF_MF_Title>
+  <!-- EN: Clear filter -->
+  <CBF_MF_Clear>清除篩選</CBF_MF_Clear>
+  <!-- EN: Global mod filter: every picker and tab list only shows content from these mods. A click in the list adds or removes a mod.\n\nActive:\n{0} -->
+  <CBF_MF_Tip>全域模組篩選：所有選擇器與分頁清單只顯示這些模組的內容。在清單中點擊即可加入或移除模組。\n\n目前啟用：\n{0}</CBF_MF_Tip>
+  <!-- EN: Global mod filter: every picker and tab list only shows content from the mods picked here. Empty means all mods. -->
+  <CBF_MF_TipEmpty>全域模組篩選：所有選擇器與分頁清單只顯示在此選取的模組內容。留空表示所有模組。</CBF_MF_TipEmpty>
+  <!-- EN: Clear the filter and show all mods again. -->
+  <CBF_MF_ClearTip>清除篩選，重新顯示所有模組。</CBF_MF_ClearTip>
+  <!-- EN: No filter active. -->
+  <CBF_MF_ClearNone>目前沒有啟用篩選。</CBF_MF_ClearNone>
+  <!-- EN: (not loaded) -->
+  <CBF_MF_NotLoaded>（未載入）</CBF_MF_NotLoaded>
   <!-- EN: All mods -->
   <CBF_AllMods>所有模組</CBF_AllMods>
   <!-- EN: Shows only entries from the chosen mods. Several mods can be chosen. -->
