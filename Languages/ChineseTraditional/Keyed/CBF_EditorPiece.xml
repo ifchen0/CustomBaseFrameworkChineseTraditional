@@ -20,8 +20,8 @@
   <CBF_P_Unsaved>未儲存</CBF_P_Unsaved>
   <!-- EN: Show only pieces imported from KCSG that are not kept yet. -->
   <CBF_P_UnsavedTip>只顯示從KCSG匯入、尚未保留的部件。</CBF_P_UnsavedTip>
-  <!-- EN: Right-click: rename, duplicate, mark as template, delete -->
-  <CBF_P_ListHint>右鍵：重新命名、複製、標記為模板、刪除</CBF_P_ListHint>
+  <!-- EN: Right-click: open, rename, duplicate, mark as template, delete -->
+  <CBF_P_ListHint>右鍵：開啟、重新命名、複製、標記為模板、刪除</CBF_P_ListHint>
   <!-- EN: not on the map -->
   <CBF_P_NotOnMap>不在地圖上</CBF_P_NotOnMap>
   <!-- EN: placed on the map for editing -->

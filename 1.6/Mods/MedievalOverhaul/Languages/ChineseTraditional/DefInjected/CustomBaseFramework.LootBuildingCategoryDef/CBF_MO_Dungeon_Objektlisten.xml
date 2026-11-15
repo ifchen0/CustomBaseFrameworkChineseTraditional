@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: support beams -->
+  <CBF_MO_Dungeon_Beams.label>支撐樑</CBF_MO_Dungeon_Beams.label>
+  <!-- EN: bone piles -->
+  <CBF_MO_Dungeon_Bones.label>骨堆</CBF_MO_Dungeon_Bones.label>
+  <!-- EN: candle stands -->
+  <CBF_MO_Dungeon_Candles.label>燭臺</CBF_MO_Dungeon_Candles.label>
+  <!-- EN: rubble -->
+  <CBF_MO_Dungeon_Rubble.label>瓦礫</CBF_MO_Dungeon_Rubble.label>
+  <!-- EN: wall torches -->
+  <CBF_MO_Dungeon_WallTorch.label>壁掛火把</CBF_MO_Dungeon_WallTorch.label>
+</LanguageData>

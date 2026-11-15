@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <!-- EN: snakes -->
+  <CBF_MO_Snakes.label>蛇</CBF_MO_Snakes.label>
   <!-- EN: hidden -->
   <CBF_Pawns_Hidden.label>潛伏者</CBF_Pawns_Hidden.label>
   <!-- EN: mimic -->

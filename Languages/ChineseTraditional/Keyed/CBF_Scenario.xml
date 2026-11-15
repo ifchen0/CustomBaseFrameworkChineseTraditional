@@ -26,4 +26,22 @@
   <CBF_Scen_MapSizeTooSmall>地圖大小至少要{0}。</CBF_Scen_MapSizeTooSmall>
   <!-- EN: Your group has reached an abandoned settlement. Walls are broken, roofs have fallen in and trees grow through the floors.\n\nThe buildings belong to no one. Claim them to use them.\n\nBe careful when you search the ruins. Not everything here is dead. -->
   <CBF_Scen_GameStart>你的隊伍來到一座被遺棄的據點。城牆破損，屋頂塌陷，樹木從地板中長了出來。\n\n這些建築不屬於任何人，佔據後就能使用。\n\n搜索廢墟時要小心，這裡不是所有東西都死透了。</CBF_Scen_GameStart>
+  <!-- EN: Ancient dangers: vanilla and custom -->
+  <CBF_AD_Mode_VanillaAndOwn>遠古威脅：原版與自訂</CBF_AD_Mode_VanillaAndOwn>
+  <!-- EN: Ancient dangers: custom only -->
+  <CBF_AD_Mode_OwnOnly>遠古威脅：僅自訂</CBF_AD_Mode_OwnOnly>
+  <!-- EN: Ancient dangers: none -->
+  <CBF_AD_Mode_None>遠古威脅：無</CBF_AD_Mode_None>
+  <!-- EN: Vanilla weight: {0} -->
+  <CBF_AD_VanillaWeight>原版權重：{0}</CBF_AD_VanillaWeight>
+  <!-- EN: Scenario categories: {0} -->
+  <CBF_AD_Categories>腳本類別：{0}</CBF_AD_Categories>
+  <!-- EN: none -->
+  <CBF_AD_CategoriesNone>無</CBF_AD_CategoriesNone>
+  <!-- EN: If nothing fits, use a vanilla danger -->
+  <CBF_AD_Fallback>都不適合時使用原版威脅</CBF_AD_Fallback>
+  <!-- EN: With Medieval Overhaul only the tomb is placed. -->
+  <CBF_AD_OnlyCryptWithMO>啟用Medieval Overhaul時只會放置墓穴。</CBF_AD_OnlyCryptWithMO>
+  <!-- EN: {0}. -->
+  <CBF_AD_Summary>{0}。</CBF_AD_Summary>
 </LanguageData>

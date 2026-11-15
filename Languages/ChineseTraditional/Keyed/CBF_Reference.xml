@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Requests planted fields in a suburb or rural ward. Associate a field with building categories through tags, or place it inside a district to connect it to that district. Crop lists allow several field definitions to share plant choices. -->
+  <CBF_DefDesc_Ackerspec>在近郊或鄉村城區要求種植的農田。透過標籤把農田與建築類別關聯，或把它放在街區內以連結到該街區。作物清單讓多個農田定義共用植物選擇。</CBF_DefDesc_Ackerspec>
+  <!-- EN: Requests a category of buildings or one specific piece within a district. Use count for the requested quantity and filler for buildings that may occupy space left over after the main programme. Naming a piece takes precedence over tag. -->
+  <CBF_DefDesc_BudgetEntry>在街區內要求一個建築類別或一個特定部件。count為要求的數量，filler用於可佔用主要建造項目之後剩餘空間的建築。指名piece時優先於tag。</CBF_DefDesc_BudgetEntry>
+  <!-- EN: Assigns otherwise uncategorised buildings to architect categories when the building-aid setting is enabled. Rules match source filenames and are evaluated by rank. See [Buildability rules](Modding-Overview#buildability-rules). -->
+  <CBF_DefDesc_BuildableRuleDef>啟用建造輔助設定時，把原本未分類的建築指派到建築選單類別。規則比對來源檔名，並依rank評估。參見[Buildability rules](Modding-Overview#buildability-rules)。</CBF_DefDesc_BuildableRuleDef>
+  <!-- EN: Configures a connected region in the older PieceDef.content grid. Its symbol identifies the region, category selects objects, and lootTable supplies their contents. New pieces can use Fill anchors instead; see [Anchors](Modding-Pieces#anchors). -->
+  <CBF_DefDesc_ContentZoneSpec>設定舊版PieceDef.content格子中的一塊相連區域。symbol識別該區域，category選擇物品，lootTable提供其內容。新部件可改用填充錨點；參見[Anchors](Modding-Pieces#anchors)。</CBF_DefDesc_ContentZoneSpec>
+  <!-- EN: Adds a plant and its relative selection weight to a CropListDef. The referenced ThingDef must be a plant; missing or invalid plants are skipped. -->
+  <CBF_DefDesc_CropEintrag>在CropListDef中加入一種植物及其相對選擇權重。引用的ThingDef必須是植物；缺少或無效的植物會被略過。</CBF_DefDesc_CropEintrag>
+  <!-- EN: Shares a weighted selection of plants between fields and pens. Fields and pens refer to this definition through crops; if it has no usable plants, their local plants list is used instead. -->
+  <CBF_DefDesc_CropListDef>在農田與畜欄之間共用加權的植物選擇。農田與畜欄透過crops引用此定義；若它沒有可用的植物，改用它們本身的plants清單。</CBF_DefDesc_CropListDef>
+  <!-- EN: Places decorative or defensive pieces along a ward road network. Use it inside decor for spaced decoration or defenses for defensive positions distributed through the ward. -->
+  <CBF_DefDesc_Dekospec>沿城區道路網放置裝飾或防禦部件。在decor中用於有間距的裝飾，在defenses中用於分布在城區各處的防禦陣地。</CBF_DefDesc_Dekospec>
+  <!-- EN: Groups building requests within a ward and supplies preferences for their position. Fields, pens and mines attached to the district can be associated with its buildings. District names must be unique across the settlement, including districts in different wards. -->
+  <CBF_DefDesc_DistrictSpec>把城區內的建築要求分組，並提供位置偏好。附屬於街區的農田、畜欄與礦坑可與其建築關聯。街區名稱在整個據點中必須唯一，包括不同城區中的街區。</CBF_DefDesc_DistrictSpec>
+  <!-- EN: Older dungeon profile type. Dungeons now use SettlementPlanDef with kind Dungeon and a levels list instead. See [Dungeon levels](Modding-Dungeons) for the available implementation and its limitations. -->
+  <CBF_DefDesc_DungeonProfileDef>舊版地下城設定檔類型。地下城現在改用kind為Dungeon、帶levels清單的SettlementPlanDef。可用的實作方式與限制參見[Dungeon levels](Modding-Dungeons)。</CBF_DefDesc_DungeonProfileDef>
+  <!-- EN: Assigns flag object lists to a faction. Object anchors with factionFlag enabled use this assignment; without a matching flag they fall back to their own object list. See [Faction flags](Unit-Swap#faction-flags). -->
+  <CBF_DefDesc_FactionFlagDef>把旗幟物品清單指派給派系。啟用factionFlag的物品錨點使用此指派；沒有相符旗幟時退回使用自己的物品清單。參見[Faction flags](Unit-Swap#faction-flags)。</CBF_DefDesc_FactionFlagDef>
+  <!-- EN: Requests defenders from a pawn list for one ward. The post determines where they stand. Without a garrison factor a ward with a garrison does not also receive the ordinary point-based defenders; with wealthFactor above 0 the shared budget also buys pawns for it. See [Garrisons](Modding-Pawns#garrisons). -->
+  <CBF_DefDesc_Garnisonseintrag>為一個城區從角色清單要求守軍。post決定他們站在哪裡。沒有駐軍係數時，有駐軍的城區不會另外得到一般依點數產生的守軍；wealthFactor大於0時，共用預算也會為它購買角色。參見[Garrisons](Modding-Pawns#garrisons)。</CBF_DefDesc_Garnisonseintrag>
+  <!-- EN: Requests fenced animal pens in the Rural ward. A pawn list supplies the animal species, herd sets the requested herd size, and available pen area limits the result. Plant choices can come from a crop list or the plants fallback. -->
+  <CBF_DefDesc_Gehegespec>在Rural城區要求有圍欄的動物畜欄。角色清單提供動物種類，herd設定要求的畜群大小，可用的畜欄面積限制結果。植物選擇可來自作物清單或plants備援。</CBF_DefDesc_Gehegespec>
+  <!-- EN: Requests a harbour piece or category and its quantity. Add this entry to HafenSpec.entries on a settlement plan. -->
+  <CBF_DefDesc_HafenEintrag>要求一個港口部件或類別及其數量。把此條目加入據點計劃的HafenSpec.entries。</CBF_DefDesc_HafenEintrag>
+  <!-- EN: Adds harbour buildings near a settlement when a suitable coast or sufficiently wide river is available. Entries select the buildings; range limits their distance from the settlement. -->
+  <CBF_DefDesc_HafenSpec>有合適的海岸或夠寬的河流時，在據點附近加入港口建築。entries選擇建築；range限制它們與據點的距離。</CBF_DefDesc_HafenSpec>
+  <!-- EN: Provides help text for the in-game editor. Use the documented key for the relevant help button and translated text for the content. See [Help texts](Modding-Overview#help-texts). -->
+  <CBF_DefDesc_HelpDef>為遊戲內編輯器提供說明文字。為相關說明按鈕使用文件所列的鍵，內容使用翻譯後的文字。參見[Help texts](Modding-Overview#help-texts)。</CBF_DefDesc_HelpDef>
+  <!-- EN: Maps one character in a piece grid to an object, terrain, roof, pawn or anchor. The grid determines how the entry is used: an anchors symbol refers to an anchor, while a terrain symbol resolves a floor. See [The legend](Modding-Pieces#the-legend). -->
+  <CBF_DefDesc_LegendEntry>把部件格子中的一個字元對應到物品、地形、屋頂、角色或錨點。格子決定條目如何使用：anchors中的符號指向錨點，terrain中的符號解析為地板。參見[The legend](Modding-Pieces#the-legend)。</CBF_DefDesc_LegendEntry>
+  <!-- EN: Adds a weighted alternative to a legend entry. Alternatives are selected per cell, so repeated symbols can produce different objects or terrain. The parent entry also participates with weight 1 when it has its own object or terrain. -->
+  <CBF_DefDesc_LegendVariant>為圖例條目加入一個加權的替代項。替代項按格選擇，所以重複的符號可以產生不同的物品或地形。上層條目若有自己的物品或地形，也以權重1參與。</CBF_DefDesc_LegendVariant>
+  <!-- EN: Supplies the objects placed by Fill and Object anchors, such as shelves, barrels or market stalls. Members that fit the anchor area are selected by footprint size. The list can also configure occupants for enclosed containers. See [Object lists](Modding-Loot#object-lists). -->
+  <CBF_DefDesc_LootBuildingCategoryDef>提供填充錨點與物品錨點放置的物品，例如架子、木桶或市集攤位。依佔地大小選出適合錨點區域的成員。清單也可設定封閉容器內的佔用者。參見[Object lists](Modding-Loot#object-lists)。</CBF_DefDesc_LootBuildingCategoryDef>
+  <!-- EN: Defines one result in a loot table: a specific item, a random item from a ThingCategoryDef, or another loot table. The enclosing list determines selection: always uses chance, while entries uses relative weight. If several result fields are set, table takes precedence over category, then thing. -->
+  <CBF_DefDesc_LootEntry>定義戰利品表中的一個結果：特定物品、ThingCategoryDef中的隨機物品，或另一個戰利品表。所在的清單決定選擇方式：always使用chance，entries使用相對權重。若設定了多個結果欄位，table優先於category，其次才是thing。</CBF_DefDesc_LootEntry>
+  <!-- EN: Configures one object in an object list, including its loot override and what happens after its contents are removed. A simple member can be written as `<li>ThingDefName</li>`; use a structured entry for additional fields. See [Member nodes](Modding-Loot#member-nodes). -->
+  <CBF_DefDesc_LootMember>設定物品清單中的一個物品，包括其戰利品覆蓋，以及內容被取走後會發生什麼。簡單成員可以寫成`&lt;li&gt;ThingDefName&lt;/li&gt;`；需要其他欄位時使用結構化條目。參見[Member nodes](Modding-Loot#member-nodes)。</CBF_DefDesc_LootMember>
+  <!-- EN: Generates item selections for containers, shelves or loose loot. The always list is evaluated first; entries are then selected by weight. Nested tables let several containers share a common set of goods. See [Loot tables](Modding-Loot#loot-tables). -->
+  <CBF_DefDesc_LootTableDef>為容器、架子或散落戰利品產生物品組合。先評估always清單，接著依權重選擇entries。巢狀表讓多個容器共用一組共同的商品。參見[Loot tables](Modding-Loot#loot-tables)。</CBF_DefDesc_LootTableDef>
+  <!-- EN: Controls which map generation steps are suppressed or gated by tech level on CBF maps. The framework reads the definition named CBF_MapSteps, so extend that definition rather than creating another independently named one. -->
+  <CBF_DefDesc_MapStepsDef>控制CBF地圖上哪些地圖生成步驟被抑制，或依科技等級啟用。框架讀取名為CBF_MapSteps的定義，所以請擴充該定義，而不是另外建立不同名稱的定義。</CBF_DefDesc_MapStepsDef>
+  <!-- EN: Resolves named construction roles into objects, materials, terrain and roofs. Settlement plans must name a material list. Ordered candidate lists provide fallbacks when content from another mod is unavailable. See [Material lists](Material-Lists). -->
+  <CBF_DefDesc_MaterialListDef>把具名的建造角色解析為物品、材料、地形與屋頂。據點計劃必須指名一個材料清單。有序的候選清單在其他模組的內容不存在時提供備援。參見[Material lists](Material-Lists)。</CBF_DefDesc_MaterialListDef>
+  <!-- EN: Defines the candidates for one construction role, optionally restricted to a ward or matching fortification pieces. Candidates are tried in order; a matching forPieces condition takes precedence over a ward condition. See [Material lists](Modding-Overview#material-lists). -->
+  <CBF_DefDesc_MaterialRole>定義一個建造角色的候選項，可限制在某城區或符合的防禦工事部件。候選項依序嘗試；符合的forPieces條件優先於城區條件。參見[Material lists](Modding-Overview#material-lists)。</CBF_DefDesc_MaterialRole>
+  <!-- EN: Adds an object to a generated mine at its entrance, along a tunnel or in a chamber. Use these entries for equipment and decoration that should follow the mine layout. -->
+  <CBF_DefDesc_Minending>在生成的礦坑入口、隧道沿線或礦室中加入物品。用這些條目放置應配合礦坑佈局的設備與裝飾。</CBF_DefDesc_Minending>
+  <!-- EN: Requests mines associated with a district and its buildings. The settings control tunnel dimensions, branching, chambers, supports and ore. Placement requires suitable rock near the district. -->
+  <CBF_DefDesc_Minenspec>要求與某街區及其建築關聯的礦坑。這些設定控制隧道尺寸、分支、礦室、支撐與礦石。擺放需要街區附近有合適的岩石。</CBF_DefDesc_Minenspec>
+  <!-- EN: Provides weighted pawn kinds for garrisons, spawn anchors, animal pens and container occupants. Spawn anchors also use the list role and radius. Garrisons and spawn anchors apply the settlement tech filter; pens and containers draw without that filter. See [Pawn lists](Modding-Pawns#pawn-lists). -->
+  <CBF_DefDesc_PawnListDef>為駐軍、生成錨點、動物畜欄與容器佔用者提供加權的角色種類。生成錨點也使用清單的role與radius。駐軍與生成錨點套用據點科技篩選；畜欄與容器抽取時不套用該篩選。參見[Pawn lists](Modding-Pawns#pawn-lists)。</CBF_DefDesc_PawnListDef>
+  <!-- EN: Adds one PawnKindDef to a pawn list, with a relative selection weight and an optional Ideology specialist role. Gear-based tech filtering and faction unit swaps can further affect which pawn is generated. -->
+  <CBF_DefDesc_PawnListEntry>在角色清單中加入一個PawnKindDef，附帶相對選擇權重與可選的意識形態專家角色。依裝備的科技篩選與派系單位替換，也會進一步影響生成哪個角色。</CBF_DefDesc_PawnListEntry>
+  <!-- EN: Groups interchangeable pieces and supplies their shared placement rules. A plan can request the category instead of naming one building, allowing different layouts to use different pieces. Unset rules can inherit from parent categories; blockMax and merge are read from the primary category itself. See [Categories](Categories). -->
+  <CBF_DefDesc_PieceCategoryDef>把可互換的部件分組，並提供共用的擺放規則。計劃可以要求類別而不是指名單一建築，讓不同佈局使用不同部件。未設定的規則可從上層類別繼承；blockMax與merge從主類別本身讀取。參見[Categories](Categories)。</CBF_DefDesc_PieceCategoryDef>
+  <!-- EN: Stores a building, wall segment or other reusable structure as character grids and a shared legend. Categories determine where the piece can be selected; anchors add variable furniture, loot, pawns and connections. See [Pieces and categories in XML](Modding-Pieces). -->
+  <CBF_DefDesc_PieceDef>以字元格子與共用圖例儲存建築、城牆段或其他可重複使用的結構。類別決定部件可在哪裡被選用；錨點加入可變的傢俱、戰利品、角色與連線。參見[Pieces and categories in XML](Modding-Pieces)。</CBF_DefDesc_PieceDef>
+  <!-- EN: Applies damage and occupation rules to a generated settlement. Quest sites use it for raided or occupied settlements, scenarios use it for a starting ruin the player moves into. It can create breaches, fire damage, collapsed roofs, overgrowth, corpses, prisoners and reduced loot. occupation determines whether the original faction, an occupier or nobody defends a quest site. See [Ruins](Modding-Overview#ruins) and [Starting in a ruin](Modding-Scenarios). -->
+  <CBF_DefDesc_RuinDef>對生成的據點套用損毀與佔領規則。任務地點用它表示遭劫掠或被佔領的據點，腳本用它表示玩家入住的開局廢墟。它可以造成缺口、火燒痕跡、坍塌的屋頂、雜草叢生、屍體、囚犯與減少的戰利品。occupation決定由原派系、佔領者或沒有人防守任務地點。參見[Ruins](Modding-Overview#ruins)與[Starting in a ruin](Modding-Scenarios)。</CBF_DefDesc_RuinDef>
+  <!-- EN: Defines the building programme for a settlement: its wards, districts, fortifications and defenders. The generator fits this programme to the terrain when it creates the map. A materialList is required. See [Settlement types in XML](Modding-Settlements) for a complete example. -->
+  <CBF_DefDesc_SettlementPlanDef>定義據點的建造內容：城區、街區、防禦工事與守軍。生成器在建立地圖時讓這些內容配合地形。必須有materialList。完整範例參見[Settlement types in XML](Modding-Settlements)。</CBF_DefDesc_SettlementPlanDef>
+  <!-- EN: Defines one ward within SettlementPlanDef.wards: Town, Suburb or Rural. Each ward has its own buildings, surfaces and defenders, and can configure fortifications or obstacles outside its boundary. Use districts to organise buildings within the ward. See [Wards](Modding-Settlements#wards). -->
+  <CBF_DefDesc_Stadtteil>定義SettlementPlanDef.wards中的一個城區：Town、Suburb或Rural。每個城區有自己的建築、地表與守軍，並可設定防禦工事或邊界外的障礙物。用districts在城區內組織建築。參見[Wards](Modding-Settlements#wards)。</CBF_DefDesc_Stadtteil>
+  <!-- EN: Identifies a style used when selecting wall profiles, with an optional fallback style. Styles do not filter the available building pieces. Define construction materials in MaterialListDef and building selection through categories. -->
+  <CBF_DefDesc_StyleDef>識別選擇城牆剖面時使用的風格，可附帶備援風格。風格不會篩選可用的建築部件。建造材料在MaterialListDef中定義，建築選擇透過類別決定。</CBF_DefDesc_StyleDef>
+  <!-- EN: Maps a source pawn kind or object to a replacement within a UnitSwapDef. Several targets for the same source form a weighted selection among the rules with the highest priority. -->
+  <CBF_DefDesc_Tauscheintrag>在UnitSwapDef中把來源角色種類或物品對應到替代品。同一來源的多個目標，會在優先順序最高的規則中形成加權選擇。</CBF_DefDesc_Tauscheintrag>
+  <!-- EN: Associates a map generation step with its minimum faction tech level. Add entries to MapStepsDef.fromTechLevel. This setting controls map generation, not the tech filter used by pawn lists. -->
+  <CBF_DefDesc_Techschritt>把一個地圖生成步驟與其最低派系科技等級關聯。把條目加入MapStepsDef.fromTechLevel。此設定控制地圖生成，而不是角色清單使用的科技篩選。</CBF_DefDesc_Techschritt>
+  <!-- EN: Adds one terrain candidate to a material role terrainMix. Relative weights control the mix; unlike terrainChain, this list provides variation rather than an ordered fallback. -->
+  <CBF_DefDesc_TerrainWeight>在材料角色的terrainMix中加入一個地形候選項。相對權重控制混合比例；與terrainChain不同，此清單提供變化而非有序備援。</CBF_DefDesc_TerrainWeight>
+  <!-- EN: Replaces generic pawn kinds and objects with faction-specific alternatives. Rules are resolved separately for each source and faction, with higher priorities overriding lower ones. See [Unit swap](Modding-Pawns#unit-swap). -->
+  <CBF_DefDesc_UnitSwapDef>把通用的角色種類與物品換成派系專屬的替代品。規則對每個來源與派系分別解析，高優先順序覆蓋低優先順序。參見[Unit swap](Modding-Pawns#unit-swap)。</CBF_DefDesc_UnitSwapDef>
+  <!-- EN: Places groups of 1×1 obstacle pieces outside a ward wall or boundary. Roads and gate approaches remain clear, and blocked cells are skipped. Add entries to Stadtteil.outworks; see [Outworks](Modding-Settlements#outworks). -->
+  <CBF_DefDesc_Vorfeldspec>在城區城牆或邊界外放置成群的1×1障礙物部件。道路與城門前的通道保持暢通，被阻擋的格子會略過。把條目加入Stadtteil.outworks；參見[Outworks](Modding-Settlements#outworks)。</CBF_DefDesc_Vorfeldspec>
+  <!-- EN: Selects a piece or category for a ward wall, emplacement or gatehouse list. The enclosing list determines whether the entry describes repeated wall segments or a requested number of defensive structures. -->
+  <CBF_DefDesc_WallEntry>為城區的城牆、防禦陣地或門樓清單選擇部件或類別。所在的清單決定條目描述的是重複的城牆段，還是要求數量的防禦建築。</CBF_DefDesc_WallEntry>
+  <!-- EN: Defines a repeating wall cross section and optional tower and gatehouse pieces. Settlement styles select a profile; explicit wall lists can supply the wall pieces directly. See [Wall profiles](Modding-Overview#wall-profiles). -->
+  <CBF_DefDesc_WallProfileDef>定義重複的城牆剖面，以及可選的塔樓與門樓部件。據點風格選擇剖面；明確的城牆清單可以直接提供城牆部件。參見[Wall profiles](Modding-Overview#wall-profiles)。</CBF_DefDesc_WallProfileDef>
+  <!-- EN: Requested number of fields of this specification. -->
+  <CBF_FieldDesc_Ackerspec_count>此規格要求的農田數量。</CBF_FieldDesc_Ackerspec_count>
+  <!-- EN: Fallback plant ThingDef names, used when crops provides no usable plant. This is a list of names, not a piece grid. -->
+  <CBF_FieldDesc_Ackerspec_plants>備援植物的ThingDef名稱，在crops沒有提供可用植物時使用。這是名稱清單，不是部件格子。</CBF_FieldDesc_Ackerspec_plants>
+  <!-- EN: Requested number of buildings, sampled from the range. Placement depends on available space. During reference resolution, counts above 150 are capped at 150. -->
+  <CBF_FieldDesc_BudgetEntry_count>要求的建築數量，從範圍中取樣。擺放取決於可用空間。解析引用時，超過150的數量會被限制為150。</CBF_FieldDesc_BudgetEntry_count>
+  <!-- EN: Default loot table for content zones in pieces selected by this entry. A content zone with its own resolved table takes precedence. -->
+  <CBF_FieldDesc_BudgetEntry_lootTable>此條目選出的部件中，內容區的預設戰利品表。內容區自己有解析到的表時優先。</CBF_FieldDesc_BudgetEntry_lootTable>
+  <!-- EN: Specific PieceDef to request. Takes precedence when tag is also supplied. -->
+  <CBF_FieldDesc_BudgetEntry_piece>要求的特定PieceDef。同時提供tag時以此為優先。</CBF_FieldDesc_BudgetEntry_piece>
+  <!-- EN: PieceCategoryDef to select buildings from, including its descendant categories. This is the current category field for a building request; use piece to request a specific template. -->
+  <CBF_FieldDesc_BudgetEntry_tag>選擇建築來源的PieceCategoryDef，包括其子孫類別。這是建築要求目前使用的類別欄位；要求特定模板請用piece。</CBF_FieldDesc_BudgetEntry_tag>
+  <!-- EN: Allow the entry only if the owning ideoligion contains at least one listed meme or precept defName. Without an ideoligion, a non-empty list rejects the entry. -->
+  <CBF_FieldDesc_BudgetEntry_withIdeo>只在所屬理念包含至少一個列出的模因或戒律defName時允許此條目。沒有理念時，非空清單會排除此條目。</CBF_FieldDesc_BudgetEntry_withIdeo>
+  <!-- EN: Piece or category defNames. The entry is only planned once at least `requiresCount` of them stand somewhere in the settlement (all districts, town, suburb and countryside). Each name counts once, however many buildings match it. Conditional entries are planned after the others; if the condition is never met, for example because a name does not exist or two entries require each other, the entry is left out without an error and the reason is written to the detail log. Count, minimum and priority only apply once the condition is met. In dungeon levels such an entry is left out. -->
+  <CBF_FieldDesc_BudgetEntry_requires>部件或類別的defName。只有其中至少`requiresCount`個已存在於據點某處（所有街區、城鎮、近郊與鄉村）時，才會規劃此條目。每個名稱只算一次，不論符合的建築有幾棟。有條件的條目在其他條目之後規劃；若條件始終無法滿足，例如名稱不存在或兩個條目互相要求，條目會被略過而不報錯，原因寫入詳細日誌。數量、最低值與優先順序只在條件滿足後才生效。在地下城層中，這種條目會被略過。</CBF_FieldDesc_BudgetEntry_requires>
+  <!-- EN: How many of the names in `requires` must be present. 1 means any one of them, the number of names means all of them. -->
+  <CBF_FieldDesc_BudgetEntry_requiresCount>`requires`中必須存在幾個名稱。1表示任一個，等於名稱數量表示全部。</CBF_FieldDesc_BudgetEntry_requiresCount>
+  <!-- EN: Reject the entry if the owning ideoligion contains any listed meme or precept defName. -->
+  <CBF_FieldDesc_BudgetEntry_withoutIdeo>所屬理念包含任一列出的模因或戒律defName時排除此條目。</CBF_FieldDesc_BudgetEntry_withoutIdeo>
+  <!-- EN: Probability that this connected content zone is filled at all. -->
+  <CBF_FieldDesc_ContentZoneSpec_chance>此相連內容區被填充的機率。</CBF_FieldDesc_ContentZoneSpec_chance>
+  <!-- EN: Number of object placements requested in this connected content zone. Available space can reduce the number placed; values below 1 place nothing. -->
+  <CBF_FieldDesc_ContentZoneSpec_count>此相連內容區中要求的物品擺放次數。可用空間可能減少實際放置的數量；低於1的值不放置任何東西。</CBF_FieldDesc_ContentZoneSpec_count>
+  <!-- EN: LootTableDef for this zone. Falls back to the building request lootTable if no table resolves here. -->
+  <CBF_FieldDesc_ContentZoneSpec_lootTable>此區的LootTableDef。這裡沒有解析到任何表時，退回使用建築要求的lootTable。</CBF_FieldDesc_ContentZoneSpec_lootTable>
+  <!-- EN: Character identifying this zone in PieceDef.content. Separate connected regions with the same symbol are filled separately. -->
+  <CBF_FieldDesc_ContentZoneSpec_symbol>在PieceDef.content中識別此區的字元。相同符號的不相連區域分別填充。</CBF_FieldDesc_ContentZoneSpec_symbol>
+  <!-- EN: Requested number for a defenses entry. If unset, defensive placement uses max, then one; decor placement uses spacing and max. -->
+  <CBF_FieldDesc_Dekospec_count>defenses條目要求的數量。未設定時，防禦擺放使用max，再不然為1；裝飾擺放使用spacing與max。</CBF_FieldDesc_Dekospec_count>
+  <!-- EN: Specific PieceDef to place instead of selecting from tag. -->
+  <CBF_FieldDesc_Dekospec_piece>要放置的特定PieceDef，取代從tag中選擇。</CBF_FieldDesc_Dekospec_piece>
+  <!-- EN: Object list with single things, such as lamps, barrels or carts, instead of a piece. Name exactly one of piece, tag or objects. Members whose mod is missing are left out. -->
+  <CBF_FieldDesc_Dekospec_objects>含單一物品（例如燈、木桶或推車）的物品清單，取代部件。piece、tag、objects三者只能指名一個。模組不存在的成員會被略過。</CBF_FieldDesc_Dekospec_objects>
+  <!-- EN: Weight against the other entries with the same placement. At each spot one entry is picked by weight, its spacing sets the gap to the next spot. -->
+  <CBF_FieldDesc_Dekospec_weight>相對於同一擺放方式中其他條目的權重。每個位置依權重挑一個條目，其spacing決定到下一個位置的間隔。</CBF_FieldDesc_Dekospec_weight>
+  <!-- EN: PieceCategoryDef supplying decoration or defensive pieces. The piece is drawn by its placement weight. -->
+  <CBF_FieldDesc_Dekospec_tag>提供裝飾或防禦部件的PieceCategoryDef。部件依其擺放權重抽取。</CBF_FieldDesc_Dekospec_tag>
+  <!-- EN: Display name of the district. Falls back to name when omitted. -->
+  <CBF_FieldDesc_DistrictSpec_label>街區的顯示名稱。省略時使用name。</CBF_FieldDesc_DistrictSpec_label>
+  <!-- EN: District identifier used to associate buildings, fields, pens and mines. Must be unique across all districts of the plan. -->
+  <CBF_FieldDesc_DistrictSpec_name>用來關聯建築、農田、畜欄與礦坑的街區識別名稱。在計劃的所有街區中必須唯一。</CBF_FieldDesc_DistrictSpec_name>
+  <!-- EN: Preference for placing this district near the settlement centre. -->
+  <CBF_FieldDesc_DistrictSpec_prefCenter>此街區靠近據點中心的偏好。</CBF_FieldDesc_DistrictSpec_prefCenter>
+  <!-- EN: Preference for placing this district near a gate. -->
+  <CBF_FieldDesc_DistrictSpec_prefGate>此街區靠近城門的偏好。</CBF_FieldDesc_DistrictSpec_prefGate>
+  <!-- EN: Preference for placing this district along the main road. -->
+  <CBF_FieldDesc_DistrictSpec_prefMain>此街區沿主要道路分布的偏好。</CBF_FieldDesc_DistrictSpec_prefMain>
+  <!-- EN: Preference for placing this district near the wall. -->
+  <CBF_FieldDesc_DistrictSpec_prefWall>此街區靠近城牆的偏好。</CBF_FieldDesc_DistrictSpec_prefWall>
+  <!-- EN: FactionDef defName receiving this flag assignment. -->
+  <CBF_FieldDesc_FactionFlagDef_faction>接收此旗幟指派的FactionDef defName。</CBF_FieldDesc_FactionFlagDef_faction>
+  <!-- EN: LootBuildingCategoryDef names supplying flag objects. The faction uses a consistent choice from its flag lists. -->
+  <CBF_FieldDesc_FactionFlagDef_objects>提供旗幟物品的LootBuildingCategoryDef名稱。派系從其旗幟清單中使用一致的選擇。</CBF_FieldDesc_FactionFlagDef_objects>
+  <!-- EN: Number of pawns requested from this list for the ward. -->
+  <CBF_FieldDesc_Garnisonseintrag_count>為該城區從此清單要求的角色數量。</CBF_FieldDesc_Garnisonseintrag_count>
+  <!-- EN: PawnListDef supplying the garrison. A missing list leaves this entry empty. -->
+  <CBF_FieldDesc_Garnisonseintrag_list>提供駐軍的PawnListDef。清單不存在時此條目為空。</CBF_FieldDesc_Garnisonseintrag_list>
+  <!-- EN: Requested number of pens of this specification. -->
+  <CBF_FieldDesc_Gehegespec_count>此規格要求的畜欄數量。</CBF_FieldDesc_Gehegespec_count>
+  <!-- EN: Name used to identify the pen specification in messages. -->
+  <CBF_FieldDesc_Gehegespec_name>在訊息中識別此畜欄規格的名稱。</CBF_FieldDesc_Gehegespec_name>
+  <!-- EN: Fallback plant ThingDef names for the pen, used when crops provides no usable plant. -->
+  <CBF_FieldDesc_Gehegespec_plants>畜欄的備援植物ThingDef名稱，在crops沒有提供可用植物時使用。</CBF_FieldDesc_Gehegespec_plants>
+  <!-- EN: TerrainDef name for the pen surface, not a character grid. -->
+  <CBF_FieldDesc_Gehegespec_terrain>畜欄地面的TerrainDef名稱，不是字元格子。</CBF_FieldDesc_Gehegespec_terrain>
+  <!-- EN: Requested number of harbour buildings from this entry. -->
+  <CBF_FieldDesc_HafenEintrag_count>此條目要求的港口建築數量。</CBF_FieldDesc_HafenEintrag_count>
+  <!-- EN: Specific harbour PieceDef; takes precedence over tag. -->
+  <CBF_FieldDesc_HafenEintrag_piece>特定的港口PieceDef；優先於tag。</CBF_FieldDesc_HafenEintrag_piece>
+  <!-- EN: PieceCategoryDef supplying harbour buildings. -->
+  <CBF_FieldDesc_HafenEintrag_tag>提供港口建築的PieceCategoryDef。</CBF_FieldDesc_HafenEintrag_tag>
+  <!-- EN: Placement probability from 0 to 1. Object cells are checked individually; Fill, Object and Spawn anchors are checked as anchor regions. -->
+  <CBF_FieldDesc_LegendEntry_chance>放置機率，0到1。物品格逐格檢查；填充、物品與生成錨點以錨點區域為單位檢查。</CBF_FieldDesc_LegendEntry_chance>
+  <!-- EN: Only with descentPlans. Chance that the descent exists. On a StairsDown anchor it is rolled when the settlement is built, on an object anchor when the container is opened. -->
+  <CBF_FieldDesc_LegendEntry_descentChance>僅搭配descentPlans。下行入口存在的機率。在StairsDown錨點上於建造據點時擲出，在物品錨點上於打開容器時擲出。</CBF_FieldDesc_LegendEntry_descentChance>
+  <!-- EN: Dungeon plans this anchor may lead into, one is picked at random. On a StairsDown anchor in a settlement piece (cellar, graveyard entrance) a descent stairs is placed that leads into the first level of the picked plan. On an object anchor (sarcophagus, coffin) the opened container turns into a descent of the same size and keeps its empty look. The map below is only made when a pawn goes down. Without descentPlans, StairsDown keeps leading to the next level of the dungeon. -->
+  <CBF_FieldDesc_LegendEntry_descentPlans>此錨點可能通往的地下城計劃，隨機挑選一個。在據點部件（地窖、墓園入口）的StairsDown錨點上，會放置通往所選計劃第一層的下行樓梯。在物品錨點（石棺、棺材）上，打開的容器會變成同樣大小的下行入口，並保留空容器的外觀。下方地圖只在有角色下去時才建立。沒有descentPlans時，StairsDown照舊通往地下城的下一層。</CBF_FieldDesc_LegendEntry_descentPlans>
+  <!-- EN: LootTableDef used by a Fill anchor. A selected object-list member can override it. Object anchors do not use the anchor loot table. -->
+  <CBF_FieldDesc_LegendEntry_lootTable>填充錨點使用的LootTableDef。被選中的物品清單成員可以覆蓋它。物品錨點不使用錨點戰利品表。</CBF_FieldDesc_LegendEntry_lootTable>
+  <!-- EN: Number of pawns requested by a Spawn anchor, sampled from this range. The spawn path treats values below 1 as 1. -->
+  <CBF_FieldDesc_LegendEntry_pawnCount>生成錨點要求的角色數量，從此範圍取樣。生成流程把低於1的值視為1。</CBF_FieldDesc_LegendEntry_pawnCount>
+  <!-- EN: PawnListDef used by a Spawn anchor. The list supplies pawn kinds, behaviour and radius, subject to the settlement tech filter. -->
+  <CBF_FieldDesc_LegendEntry_pawnList>生成錨點使用的PawnListDef。清單提供角色種類、行為與半徑，並受據點科技篩選限制。</CBF_FieldDesc_LegendEntry_pawnList>
+  <!-- EN: Construction role resolved through the settlement material list when the entry does not specify a concrete object or terrain. This is unrelated to pawn-list behaviour roles. -->
+  <CBF_FieldDesc_LegendEntry_role>條目沒有指定具體物品或地形時，透過據點材料清單解析的建造角色。這與角色清單的行為角色無關。</CBF_FieldDesc_LegendEntry_role>
+  <!-- EN: RoofDef placed when this symbol is used in the roof grid. -->
+  <CBF_FieldDesc_LegendEntry_roof>此符號用在roof格子時放置的RoofDef。</CBF_FieldDesc_LegendEntry_roof>
+  <!-- EN: TerrainDef placed when this symbol is used in the terrain grid. -->
+  <CBF_FieldDesc_LegendEntry_terrain>此符號用在terrain格子時放置的TerrainDef。</CBF_FieldDesc_LegendEntry_terrain>
+  <!-- EN: ThingDef placed for this legend symbol in an object layer. -->
+  <CBF_FieldDesc_LegendEntry_thing>在物品層中為此圖例符號放置的ThingDef。</CBF_FieldDesc_LegendEntry_thing>
+  <!-- EN: Material for the alternative object. If omitted, the parent legend entry material is retained. -->
+  <CBF_FieldDesc_LegendVariant_stuff>替代物品的材料。省略時保留上層圖例條目的材料。</CBF_FieldDesc_LegendVariant_stuff>
+  <!-- EN: Alternative TerrainDef for this legend entry. -->
+  <CBF_FieldDesc_LegendVariant_terrain>此圖例條目的替代TerrainDef。</CBF_FieldDesc_LegendVariant_terrain>
+  <!-- EN: Alternative ThingDef for this legend entry. -->
+  <CBF_FieldDesc_LegendVariant_thing>此圖例條目的替代ThingDef。</CBF_FieldDesc_LegendVariant_thing>
+  <!-- EN: Probability that this entry is taken from always. Ignored when the entry is in the weighted entries list. -->
+  <CBF_FieldDesc_LootEntry_chance>此條目從always中被選取的機率。條目位於加權的entries清單時忽略。</CBF_FieldDesc_LootEntry_chance>
+  <!-- EN: Item quantity sampled from this range, then multiplied by countOverDepth if present. The resulting quantity is clamped to at least 1; use chance or weight to suppress an entry. Does not control nested tables. -->
+  <CBF_FieldDesc_LootEntry_count>物品數量，從此範圍取樣，若有countOverDepth再乘上它。結果數量至少為1；要抑制條目請用chance或weight。不控制巢狀表。</CBF_FieldDesc_LootEntry_count>
+  <!-- EN: Eligible depth interval for weighted entries. Settlements use depth 0. In always, the current implementation only applies this rejection when weightOverDepth is present. -->
+  <CBF_FieldDesc_LootEntry_depthRange>加權條目可用的深度區間。據點使用深度0。在always中，目前的實作只在有weightOverDepth時才套用此排除。</CBF_FieldDesc_LootEntry_depthRange>
+  <!-- EN: Fallback for a missing direct thing: Skip omits it, Fallback tries fallbackThings in order, Silver substitutes Silver with the entry quantity. Silver is not a market-value conversion. -->
+  <CBF_FieldDesc_LootEntry_onMissing>直接指定的物品不存在時的備援：Skip略過它，Fallback依序嘗試fallbackThings，Silver以條目數量的白銀替代。Silver不是依市價換算。</CBF_FieldDesc_LootEntry_onMissing>
+  <!-- EN: Material for a direct thing result. Category results choose a suitable material randomly instead. -->
+  <CBF_FieldDesc_LootEntry_stuff>直接物品結果的材料。類別結果則隨機選擇合適的材料。</CBF_FieldDesc_LootEntry_stuff>
+  <!-- EN: Nested LootTableDef, evaluated tableRolls times. Takes precedence over category and thing; count does not multiply nested results. -->
+  <CBF_FieldDesc_LootEntry_table>巢狀LootTableDef，評估tableRolls次。優先於category與thing；count不會乘上巢狀結果。</CBF_FieldDesc_LootEntry_table>
+  <!-- EN: Number of evaluations of a nested table. Applies only when table resolves. -->
+  <CBF_FieldDesc_LootEntry_tableRolls>巢狀表的評估次數。只在table有解析到時生效。</CBF_FieldDesc_LootEntry_tableRolls>
+  <!-- EN: ThingDef name for a direct item result. Missing items are handled by onMissing. -->
+  <CBF_FieldDesc_LootEntry_thing>直接物品結果的ThingDef名稱。不存在的物品由onMissing處理。</CBF_FieldDesc_LootEntry_thing>
+  <!-- EN: Relative selection weight in entries. Zero excludes the entry unless weightOverDepth supplies a positive replacement weight. This is not a probability. -->
+  <CBF_FieldDesc_LootEntry_weight>在entries中的相對選擇權重。0會排除此條目，除非weightOverDepth提供正的替代權重。這不是機率。</CBF_FieldDesc_LootEntry_weight>
+  <!-- EN: Curve whose value replaces weight at the supplied depth. Settlements use depth 0. -->
+  <CBF_FieldDesc_LootEntry_weightOverDepth>在給定深度下取代weight的曲線值。據點使用深度0。</CBF_FieldDesc_LootEntry_weightOverDepth>
+  <!-- EN: Curve multiplying the selection weight by the supplied wealth value. Normal settlement loot uses player-home wealth. -->
+  <CBF_FieldDesc_LootEntry_weightOverWealth>依給定財富值乘上選擇權重的曲線。一般據點戰利品使用玩家殖民地的財富。</CBF_FieldDesc_LootEntry_weightOverWealth>
+  <!-- EN: Entries evaluated before weighted draws, each with its own chance. They do not consume rolls and are not limited by maxEntriesPerResolve. -->
+  <CBF_FieldDesc_LootTableDef_always>在加權抽取之前評估的條目，各有自己的機率。它們不消耗抽取次數，也不受maxEntriesPerResolve限制。</CBF_FieldDesc_LootTableDef_always>
+  <!-- EN: LootTableDef evaluated if the entire result is empty. Cannot refer directly to this table. Nested and fallback evaluations share the recursion limit. -->
+  <CBF_FieldDesc_LootTableDef_emptyFallback>整個結果為空時評估的LootTableDef。不能直接指向此表本身。巢狀與備援評估共用遞迴上限。</CBF_FieldDesc_LootTableDef_emptyFallback>
+  <!-- EN: Threshold checked before each weighted draw. Counts LootPick records, not individual items or final stacks. always entries and a nested-table result can exceed this threshold. -->
+  <CBF_FieldDesc_LootTableDef_maxEntriesPerResolve>每次加權抽取前檢查的門檻。計算的是LootPick紀錄，不是單件物品或最終堆疊。always條目與巢狀表結果可能超過此門檻。</CBF_FieldDesc_LootTableDef_maxEntriesPerResolve>
+  <!-- EN: One probability check for the entire weighted-draw phase. Does not suppress always entries; an empty result can still invoke emptyFallback. -->
+  <CBF_FieldDesc_LootTableDef_rollChance>對整個加權抽取階段做一次機率檢查。不會抑制always條目；結果為空時仍可能觸發emptyFallback。</CBF_FieldDesc_LootTableDef_rollChance>
+  <!-- EN: Prevents selecting the same entry again during this table evaluation. Different entries and nested tables can still produce the same item. -->
+  <CBF_FieldDesc_LootTableDef_uniqueEntries>在這次評估此表時防止重複選到同一條目。不同條目與巢狀表仍可能產生相同物品。</CBF_FieldDesc_LootTableDef_uniqueEntries>
+  <!-- EN: Ordered ThingDef names for this role. The first available candidate is selected; this is an object fallback list, not a category inheritance chain. -->
+  <CBF_FieldDesc_MaterialRole_chain>此角色的有序ThingDef名稱。選用第一個可用的候選項；這是物品備援清單，不是類別繼承鏈。</CBF_FieldDesc_MaterialRole_chain>
+  <!-- EN: Construction role name used by the generator or a piece legend, for example WALL or DOOR. Use the established role identifiers documented in the material-list guide. -->
+  <CBF_FieldDesc_MaterialRole_role>生成器或部件圖例使用的建造角色名稱，例如WALL或DOOR。請使用材料清單指南中記載的既定角色識別名稱。</CBF_FieldDesc_MaterialRole_role>
+  <!-- EN: Requested number of mines associated with this specification. -->
+  <CBF_FieldDesc_Minenspec_count>與此規格關聯的礦坑要求數量。</CBF_FieldDesc_Minenspec_count>
+  <!-- EN: Name identifying this mine specification. -->
+  <CBF_FieldDesc_Minenspec_name>識別此礦坑規格的名稱。</CBF_FieldDesc_Minenspec_name>
+  <!-- EN: Building categories used to locate mine entrances near suitable district buildings. -->
+  <CBF_FieldDesc_Minenspec_tags>用來在合適的街區建築附近找出礦坑入口位置的建築類別。</CBF_FieldDesc_Minenspec_tags>
+  <!-- EN: Weighted pawn kinds available to this list. Members whose PawnKindDef is unavailable are skipped. -->
+  <CBF_FieldDesc_PawnListDef_members>此清單可用的加權角色種類。PawnKindDef不存在的成員會被略過。</CBF_FieldDesc_PawnListDef_members>
+  <!-- EN: Behaviour for pawns spawned at piece anchors: Guard joins ward defence; Sentry holds a post; Gunner mans artillery. Civilian from older files counts as Guard. Garrison positioning is controlled by its post instead. Pens and container occupants have their own behaviour. -->
+  <CBF_FieldDesc_PawnListDef_role>在部件錨點生成的角色行為：Guard加入城區防守；Sentry堅守崗哨；Gunner操作砲械。舊檔案中的Civilian視為Guard。駐軍的站位改由其post控制。畜欄與容器佔用者有各自的行為。</CBF_FieldDesc_PawnListDef_role>
+  <!-- EN: Character grid for Connect, Fill, Object and Spawn anchors. Each non-empty symbol refers to a legend entry; the entry determines what happens in that area. -->
+  <CBF_FieldDesc_PieceDef_anchors>連線、填充、物品與生成錨點的字元格子。每個非空符號指向一個圖例條目；條目決定該區域會發生什麼。</CBF_FieldDesc_PieceDef_anchors>
+  <!-- EN: Legacy character grid for content zones. Matching contentZones entries control object placement and loot. -->
+  <CBF_FieldDesc_PieceDef_content>內容區的舊版字元格子。相符的contentZones條目控制物品擺放與戰利品。</CBF_FieldDesc_PieceDef_content>
+  <!-- EN: Legacy style reference. Building selection is controlled by categories and placement rules. -->
+  <CBF_FieldDesc_PieceDef_style>舊版風格引用。建築選擇由類別與擺放規則控制。</CBF_FieldDesc_PieceDef_style>
+  <!-- EN: Building, WallPart or DungeonRoom. The dungeon room type is used by dungeon rooms; see [Dungeon levels](Modding-Dungeons). -->
+  <CBF_FieldDesc_PieceDef_type>Building、WallPart或DungeonRoom。地下城房間類型由地下城房間使用；參見[Dungeon levels](Modding-Dungeons)。</CBF_FieldDesc_PieceDef_type>
+  <!-- EN: Legacy field retained in the data model. No current generation code reads it; request building quantities through district BudgetEntry.count instead. -->
+  <CBF_FieldDesc_PlacementRules_countPerSettlement>資料模型中保留的舊版欄位。目前沒有生成程式碼讀取它；請改用街區的BudgetEntry.count要求建築數量。</CBF_FieldDesc_PlacementRules_countPerSettlement>
+  <!-- EN: Legacy building requests. Converted to a Default district only when neither top-level nor ward districts exist. Prefer wards and their districts for new plans. -->
+  <CBF_FieldDesc_SettlementPlanDef_budget>舊版建築要求。只有在頂層與城區都沒有街區時，才會轉換成Default街區。新計劃請優先使用城區及其街區。</CBF_FieldDesc_SettlementPlanDef_budget>
+  <!-- EN: Legacy top-level district definitions. Prefer districts inside wards to make the intended ward explicit. -->
+  <CBF_FieldDesc_SettlementPlanDef_districts>舊版頂層街區定義。請優先把街區放在城區內，明確指出所屬城區。</CBF_FieldDesc_SettlementPlanDef_districts>
+  <!-- EN: FactionDef defNames or faction categoryTag values that explicitly qualify for this plan. Explicit matches take precedence over general tech-level plans. -->
+  <CBF_FieldDesc_SettlementPlanDef_factionTags>明確符合此計劃的FactionDef defName或派系categoryTag值。明確相符優先於一般的科技等級計劃。</CBF_FieldDesc_SettlementPlanDef_factionTags>
+  <!-- EN: Requested map edge length in cells. The map uses the larger of this value and the world map-size setting. Values below 150 are configuration errors. -->
+  <CBF_FieldDesc_SettlementPlanDef_mapSize>要求的地圖邊長（格）。地圖取此值與世界地圖大小設定中較大者。低於150的值屬於設定錯誤。</CBF_FieldDesc_SettlementPlanDef_mapSize>
+  <!-- EN: Required MaterialListDef supplying construction roles. A missing reference disables the plan. -->
+  <CBF_FieldDesc_SettlementPlanDef_materialList>必要的MaterialListDef，提供建造角色。引用不存在時停用此計劃。</CBF_FieldDesc_SettlementPlanDef_materialList>
+  <!-- EN: Legacy maximum-gap input. Prefer buildingGap on each ward; the current planner primarily uses the minimum gap. -->
+  <CBF_FieldDesc_SettlementPlanDef_maxBuildingGap>舊版最大間距輸入。請優先在各城區使用buildingGap；目前的規劃器主要使用最小間距。</CBF_FieldDesc_SettlementPlanDef_maxBuildingGap>
+  <!-- EN: Legacy minimum-gap input. Zero uses the compatibility default. Prefer buildingGap on the ward. -->
+  <CBF_FieldDesc_SettlementPlanDef_minBuildingGap>舊版最小間距輸入。0使用相容預設值。請優先在城區使用buildingGap。</CBF_FieldDesc_SettlementPlanDef_minBuildingGap>
+  <!-- EN: Side-lane width in cells, with the same limits as roadMain. -->
+  <CBF_FieldDesc_SettlementPlanDef_roadLane>側巷寬度（格），限制與roadMain相同。</CBF_FieldDesc_SettlementPlanDef_roadLane>
+  <!-- EN: Main road width in cells. Maximum 6 for ModernTown and 2 for other supported kinds. -->
+  <CBF_FieldDesc_SettlementPlanDef_roadMain>主要道路寬度（格）。ModernTown最多6，其他支援的種類最多2。</CBF_FieldDesc_SettlementPlanDef_roadMain>
+  <!-- EN: Relative selection weight among eligible plans. Values of zero or less are treated as 1. -->
+  <CBF_FieldDesc_SettlementPlanDef_share>在符合資格的計劃中的相對選擇權重。0或以下的值視為1。</CBF_FieldDesc_SettlementPlanDef_share>
+  <!-- EN: Single-style compatibility field, used if styles is empty. Styles select wall profiles, not building categories. -->
+  <CBF_FieldDesc_SettlementPlanDef_style>單一風格的相容欄位，在styles為空時使用。風格選擇城牆剖面，而非建築類別。</CBF_FieldDesc_SettlementPlanDef_style>
+  <!-- EN: Styles available for wall-profile selection. Does not restrict building pieces or replace the required materialList. -->
+  <CBF_FieldDesc_SettlementPlanDef_styles>可用於選擇城牆剖面的風格。不會限制建築部件，也不取代必要的materialList。</CBF_FieldDesc_SettlementPlanDef_styles>
+  <!-- EN: Target building coverage used to size and fill the settlement. Zero leaves the planner default in effect; see the settlement guide for tuning. -->
+  <CBF_FieldDesc_SettlementPlanDef_targetBuilt>用來決定據點大小與填充程度的目標建築覆蓋率。0表示沿用規劃器預設值；調整方式參見據點指南。</CBF_FieldDesc_SettlementPlanDef_targetBuilt>
+  <!-- EN: Districts belonging to this ward, each with building requests and optional fields, pens or mines. -->
+  <CBF_FieldDesc_Stadtteil_districts>屬於此城區的街區，各有建築要求以及可選的農田、畜欄或礦坑。</CBF_FieldDesc_Stadtteil_districts>
+  <!-- EN: Display name of this ward. Does not rename the settlement on the world map. -->
+  <CBF_FieldDesc_Stadtteil_label>此城區的顯示名稱。不會改變據點在世界地圖上的名稱。</CBF_FieldDesc_Stadtteil_label>
+  <!-- EN: Internal ward name, normalised from kind during loading. Use label for the visible name. -->
+  <CBF_FieldDesc_Stadtteil_name>內部城區名稱，載入時由kind正規化而來。可見名稱請用label。</CBF_FieldDesc_Stadtteil_name>
+  <!-- EN: Groups of 1×1 obstacle pieces placed outside the ward boundary. Use distance, spacing, run and gateClearance on each Vorfeldspec to control placement. -->
+  <CBF_FieldDesc_Stadtteil_outworks>放在城區邊界外的成群1×1障礙物部件。用各Vorfeldspec上的distance、spacing、run與gateClearance控制擺放。</CBF_FieldDesc_Stadtteil_outworks>
+  <!-- EN: Next style tried in the style fallback chain. Circular chains are configuration errors. -->
+  <CBF_FieldDesc_StyleDef_fallback>風格備援鏈中下一個嘗試的風格。循環鏈屬於設定錯誤。</CBF_FieldDesc_StyleDef_fallback>
+  <!-- EN: TerrainDef name used as one candidate in terrainMix. -->
+  <CBF_FieldDesc_TerrainWeight_terrain>在terrainMix中作為候選項之一的TerrainDef名稱。</CBF_FieldDesc_TerrainWeight_terrain>
+  <!-- EN: Distance outside the wall or ward boundary in orthogonal cell steps. Values below 1 are treated as 1. -->
+  <CBF_FieldDesc_Vorfeldspec_distance>在城牆或城區邊界外的距離，以正交格步計算。低於1的值視為1。</CBF_FieldDesc_Vorfeldspec_distance>
+  <!-- EN: Clearance around gate cells. Negative values are treated as zero. Roads, squares and fence gates also keep a one-cell clearance. -->
+  <CBF_FieldDesc_Vorfeldspec_gateClearance>城門格周圍的淨空範圍。負值視為0。道路、廣場與圍欄門也會保留一格淨空。</CBF_FieldDesc_Vorfeldspec_gateClearance>
+  <!-- EN: Specific 1×1 PieceDef used as the obstacle. Takes precedence over tag. -->
+  <CBF_FieldDesc_Vorfeldspec_piece>作為障礙物的特定1×1 PieceDef。優先於tag。</CBF_FieldDesc_Vorfeldspec_piece>
+  <!-- EN: Number of candidate cells attempted per group. Blocked cells are skipped, so the resulting group can contain fewer obstacles. -->
+  <CBF_FieldDesc_Vorfeldspec_run>每組嘗試的候選格數。被阻擋的格子會略過，所以結果的群組可能包含較少障礙物。</CBF_FieldDesc_Vorfeldspec_run>
+  <!-- EN: PieceCategoryDef supplying obstacle pieces. Candidates are selected uniformly; pieces larger than 1×1 are skipped. -->
+  <CBF_FieldDesc_Vorfeldspec_tag>提供障礙物部件的PieceCategoryDef。候選項平均選擇；大於1×1的部件會被略過。</CBF_FieldDesc_Vorfeldspec_tag>
+  <!-- EN: PieceCategoryDef supplying pieces for this wall, emplacement or gatehouse entry. This is an active category selector. -->
+  <CBF_FieldDesc_WallEntry_tag>為此城牆、防禦陣地或門樓條目提供部件的PieceCategoryDef。這是有效的類別選擇器。</CBF_FieldDesc_WallEntry_tag>
+  <!-- EN: Internal compatibility name populated from a text entry or from piece/tag by the custom XML loader. A name element is not read; write piece or tag instead. -->
+  <CBF_FieldDesc_WallEntry_name>內部相容名稱，由自訂XML載入器從文字條目或piece/tag填入。不會讀取name元素；請改寫piece或tag。</CBF_FieldDesc_WallEntry_name>
+  <!-- EN: Requested quantity for emplacements or gatehouses. Wall strips use weight and repeat along the boundary. Dungeon entrance and stairsDown lists currently turn each entry into one room request, regardless of this count. -->
+  <CBF_FieldDesc_WallEntry_count>防禦陣地或門樓的要求數量。城牆帶使用weight並沿邊界重複。地下城的entrance與stairsDown清單目前把每個條目轉成一個房間要求，不論此數量為何。</CBF_FieldDesc_WallEntry_count>
+  <!-- EN: Specific PieceDef selected by this entry. The custom loader also accepts a category name through the compatibility notation; prefer tag for a category. -->
+  <CBF_FieldDesc_WallEntry_piece>此條目選擇的特定PieceDef。自訂載入器也接受以相容寫法填入類別名稱；類別請優先使用tag。</CBF_FieldDesc_WallEntry_piece>
+  <!-- EN: LootBuildingCategoryDef supplying the mine object instead of a fixed thing. This is an object list, not a pawn list. -->
+  <CBF_FieldDesc_Minending_list>提供礦坑物品的LootBuildingCategoryDef，取代固定物品。這是物品清單，不是角色清單。</CBF_FieldDesc_Minending_list>
+  <!-- EN: Requested number of these objects in the mine. -->
+  <CBF_FieldDesc_Minending_count>礦坑中這些物品的要求數量。</CBF_FieldDesc_Minending_count>
+  <!-- EN: ThingDef placed at the selected mine location. -->
+  <CBF_FieldDesc_Minending_thing>放在所選礦坑位置的ThingDef。</CBF_FieldDesc_Minending_thing>
+  <!-- EN: Material for the mine object when it is made from stuff. -->
+  <CBF_FieldDesc_Minending_stuff>礦坑物品以材料製作時使用的材料。</CBF_FieldDesc_Minending_stuff>
+  <!-- EN: Relative weight within terrainMix. The current resolver treats values of zero or less as 0.001, so remove an entry to exclude that terrain. -->
+  <CBF_FieldDesc_TerrainWeight_weight>在terrainMix中的相對權重。目前的解析器把0或以下的值視為0.001，所以要排除該地形請移除條目。</CBF_FieldDesc_TerrainWeight_weight>
+  <!-- EN: FactionDef names allowed to use pieces of this category. An unset list can inherit from parent categories. -->
+  <CBF_FieldDesc_PieceCategoryDef_factions>允許使用此類別部件的FactionDef名稱。未設定的清單可從上層類別繼承。</CBF_FieldDesc_PieceCategoryDef_factions>
+  <!-- EN: FactionDef names excluded from pieces of this category, subject to the piece/category rule precedence. -->
+  <CBF_FieldDesc_PieceCategoryDef_excludeFactions>排除使用此類別部件的FactionDef名稱，受部件／類別規則的優先順序影響。</CBF_FieldDesc_PieceCategoryDef_excludeFactions>
+  <!-- EN: True makes pieces of this category enterable from every side, like markets, farms, landmarks and defensive positions. Inherits through parent categories; defaults to false. -->
+  <CBF_FieldDesc_PieceCategoryDef_openAccess>true讓此類別的部件可從任何一側進入，像市場、農場、地標與防禦陣地。透過上層類別繼承；預設為false。</CBF_FieldDesc_PieceCategoryDef_openAccess>
+  <!-- EN: Marks the category as part of the town wall: Segment, Tower or Gatehouse, or Attachment for pieces built onto the wall such as stairs to the walkway. The planner places Segment, Tower and Gatehouse with the fortification; the settlement check does not treat any of them as ordinary buildings. Inherits through parent categories; empty means not a wall part. -->
+  <CBF_FieldDesc_PieceCategoryDef_wallPart>把類別標記為城牆的一部分：Segment、Tower或Gatehouse，或是Attachment，用於附建在城牆上的部件，例如通往步道的樓梯。規劃器隨防禦工事放置Segment、Tower與Gatehouse；據點檢查不會把它們當作一般建築。透過上層類別繼承；留空表示不是城牆部件。</CBF_FieldDesc_PieceCategoryDef_wallPart>
+  <!-- EN: Names the eave objects that CBF places around buildings when Architecture of the Rim is active: a straight eave and its outer and inner corner, chosen by the stuff categories of the wall material. The family marked fallback is used for any other material. -->
+  <CBF_DefDesc_EaveFamilyDef>指定Architecture of the Rim啟用時CBF在建築周圍放置的屋簷物品：直屋簷及其外角與內角，依牆壁材料的材料類別選擇。標記為fallback的系列用於其他所有材料。</CBF_DefDesc_EaveFamilyDef>
+  <!-- EN: defName of the straight eave piece. -->
+  <CBF_FieldDesc_EaveFamilyDef_straight>直屋簷部件的defName。</CBF_FieldDesc_EaveFamilyDef_straight>
+  <!-- EN: defName of the outer corner eave piece. -->
+  <CBF_FieldDesc_EaveFamilyDef_outerCorner>外角屋簷部件的defName。</CBF_FieldDesc_EaveFamilyDef_outerCorner>
+  <!-- EN: defName of the inner corner eave piece. -->
+  <CBF_FieldDesc_EaveFamilyDef_innerCorner>內角屋簷部件的defName。</CBF_FieldDesc_EaveFamilyDef_innerCorner>
+  <!-- EN: Stuff categories of the wall material for which this family is used, for example Stony or Woody. -->
+  <CBF_FieldDesc_EaveFamilyDef_stuffCategories>使用這組屋簷的牆壁材料的材料類別，例如Stony或Woody。</CBF_FieldDesc_EaveFamilyDef_stuffCategories>
+  <!-- EN: True uses this family for wall materials that no other family lists. One family should have it. -->
+  <CBF_FieldDesc_EaveFamilyDef_fallback>true把這組屋簷用於沒有其他組列出的牆壁材料。應有一組設定它。</CBF_FieldDesc_EaveFamilyDef_fallback>
+  <!-- EN: True lets pieces of this category stand on farm plots when the settlement type names no farm categories of its own. Set on HouseSmall and Farm. -->
+  <CBF_FieldDesc_PieceCategoryDef_farmhouse>據點類型沒有指名自己的農場類別時，true讓此類別的部件可以放在農地上。設定在HouseSmall與Farm上。</CBF_FieldDesc_PieceCategoryDef_farmhouse>
+  <!-- EN: Piece type the editor gives new pieces of this category: Building, WallPart or DungeonRoom. -->
+  <CBF_FieldDesc_PieceCategoryDef_pieceType>編輯器給此類別新部件的部件類型：Building、WallPart或DungeonRoom。</CBF_FieldDesc_PieceCategoryDef_pieceType>
+  <!-- EN: Marks the category as a dungeon part: Corridor, Entrance or Stairs. The dungeon editor offers its pieces in the matching lists. Inherits through parent categories. -->
+  <CBF_FieldDesc_PieceCategoryDef_dungeonPart>把類別標記為地下城部分：Corridor、Entrance或Stairs。地下城編輯器會在對應的清單中提供其部件。透過上層類別繼承。</CBF_FieldDesc_PieceCategoryDef_dungeonPart>
+  <!-- EN: Connects pieces of this category to the wall walkway by adding access doors and closing exposed sides away from the wall. Inherits through parent categories; defaults to false. -->
+  <CBF_FieldDesc_PieceCategoryDef_wallAccess>加入出入門並封閉遠離城牆的外露側，把此類別的部件連接到城牆步道。透過上層類別繼承；預設為false。</CBF_FieldDesc_PieceCategoryDef_wallAccess>
+  <!-- EN: For annexes: opens the two house-wall corner cells at the ends of the attachment as floor. Useful for lean-to tents. Inherits through parent categories; defaults to false. -->
+  <CBF_FieldDesc_PieceCategoryDef_annexCornerPath>附屬建築用：把附接處兩端的兩個房屋牆角格開放為地板。適合單坡帳篷。透過上層類別繼承；預設為false。</CBF_FieldDesc_PieceCategoryDef_annexCornerPath>
+  <!-- EN: ThingDef for the object placed at the anchor. -->
+  <CBF_FieldDesc_LootMember_thing>放在錨點上的物品的ThingDef。</CBF_FieldDesc_LootMember_thing>
+  <!-- EN: Member-specific LootTableDef overriding the anchor table. If it cannot be resolved, the anchor table is used. -->
+  <CBF_FieldDesc_LootMember_lootTable>成員專屬的LootTableDef，覆蓋錨點的表。無法解析時使用錨點的表。</CBF_FieldDesc_LootMember_lootTable>
+  <!-- EN: Older profile map-size field. Set the surface size on SettlementPlanDef and lower-map sizes on DungeonLevel. -->
+  <CBF_FieldDesc_DungeonProfileDef_mapSize>舊版設定檔的地圖大小欄位。地表大小在SettlementPlanDef上設定，下層地圖大小在DungeonLevel上設定。</CBF_FieldDesc_DungeonProfileDef_mapSize>
+  <!-- EN: Older profile style reference. Current dungeon plans use SettlementPlanDef; this profile is not selected by the level workflow. -->
+  <CBF_FieldDesc_DungeonProfileDef_style>舊版設定檔的風格引用。目前的地下城計劃使用SettlementPlanDef；層的流程不會選用此設定檔。</CBF_FieldDesc_DungeonProfileDef_style>
+  <!-- EN: Overrides supported category rules for one PieceDef, including selection weight, wall preference, faction restrictions and ideoligion conditions. Some legacy fields still load but are not read by the current planner; these are identified below. -->
+  <CBF_DefDesc_PlacementRules>為單一PieceDef覆蓋支援的類別規則，包括選擇權重、貼牆偏好、派系限制與理念條件。部分舊版欄位仍會載入，但目前的規劃器不讀取；這些欄位在下方標示。</CBF_DefDesc_PlacementRules>
+  <!-- EN: Legacy piece-level field. The current planner reads the open-access condition from categories, not this override. -->
+  <CBF_FieldDesc_PlacementRules_needsRoadAccess>舊版部件層級欄位。目前的規劃器從類別讀取開放進出條件，而非此覆蓋。</CBF_FieldDesc_PlacementRules_needsRoadAccess>
+  <!-- EN: Legacy piece-level field. For open access, set Outside together with needsRoadAccess=false on a category directly assigned to the piece. This piece-level list is not read by the current planner. -->
+  <CBF_FieldDesc_PlacementRules_zones>舊版部件層級欄位。要開放進出，請在直接指派給部件的類別上同時設定Outside與needsRoadAccess=false。目前的規劃器不讀取此部件層級清單。</CBF_FieldDesc_PlacementRules_zones>
+  <!-- EN: Outside together with needsRoadAccess=false enables open access. The current check reads categories directly assigned to the piece, not their parent chain. Inside and Center have no effect. -->
+  <CBF_FieldDesc_PieceCategoryDef_zones>Outside搭配needsRoadAccess=false可啟用開放進出。目前的檢查讀取直接指派給部件的類別，不讀其上層鏈。Inside與Center沒有效果。</CBF_FieldDesc_PieceCategoryDef_zones>
+  <!-- EN: Set false together with zones containing Outside to enable open access. That combination is checked on categories directly assigned to the piece. District preferences determine location. -->
+  <CBF_FieldDesc_PieceCategoryDef_needsRoadAccess>設為false並讓zones包含Outside，即可啟用開放進出。這個組合在直接指派給部件的類別上檢查。位置由街區偏好決定。</CBF_FieldDesc_PieceCategoryDef_needsRoadAccess>
+  <!-- EN: Eligibility tags for automatic quest-site plan selection. Empty excludes the plan from that pool. A fixed usable plan supplied by the site extension or quest node bypasses tag selection. -->
+  <CBF_FieldDesc_SettlementPlanDef_siteTags>自動選擇任務地點計劃時的資格標籤。留空會把計劃排除在該選擇池之外。由地點擴充或任務節點提供的固定可用計劃會略過標籤選擇。</CBF_FieldDesc_SettlementPlanDef_siteTags>
+  <!-- EN: Retained anchor flag, also used by editor validation for missing anchor cells. It does not force wall placement. Set placement/atWall to Required on the piece for that behaviour. -->
+  <CBF_FieldDesc_LegendEntry_required>保留的錨點旗標，編輯器驗證缺少錨點格時也會用到。它不會強制貼牆放置。要達到那種效果，請在部件上把placement/atWall設為Required。</CBF_FieldDesc_LegendEntry_required>
+  <!-- EN: One character identifying this entry in the piece grids. Symbols are case-sensitive: a and A are different entries. Write exactly one character; longer values are invalid. -->
+  <CBF_FieldDesc_LegendEntry_symbol>在部件格子中識別此條目的一個字元。符號區分大小寫：a與A是不同條目。請只寫一個字元；更長的值無效。</CBF_FieldDesc_LegendEntry_symbol>
+  <!-- EN: Anchor name. Wall, Outside, Annex, NoShare (no shared wall on these wall cells) and Water have settlement connection meanings. Dungeon stairs use StairsUp and StairsDown. Other names identify furniture, loot or pawn areas, for example Kitchen. Draw the entry symbol in anchors or anchorsOver. -->
+  <CBF_FieldDesc_LegendEntry_anchor>錨點名稱。Wall、Outside、Annex、NoShare（這些牆格不共用牆壁）與Water在據點中有連接用途。地下城樓梯使用StairsUp與StairsDown。其他名稱用來識別傢俱、戰利品或角色區域，例如Kitchen。把條目符號畫在anchors或anchorsOver中。</CBF_FieldDesc_LegendEntry_anchor>
+  <!-- EN: Material for the concrete thing in this legend entry. It must be valid stuff for that ThingDef; missing or incompatible stuff falls back to the default material. Variants have their own material field. -->
+  <CBF_FieldDesc_LegendEntry_stuff>此圖例條目中具體物品的材料。必須是該ThingDef可用的材料；不存在或不相容的材料會退回預設材料。變體有自己的材料欄位。</CBF_FieldDesc_LegendEntry_stuff>
+  <!-- EN: Ward condition: Town, Suburb or Rural. Despite the field name, this selects a ward, not a named DistrictSpec. During settlement generation it also applies when a piece resolves a material role at that location. -->
+  <CBF_FieldDesc_MaterialRole_district>城區條件：Town、Suburb或Rural。雖然欄位叫這個名字，但它選的是城區，不是具名的DistrictSpec。生成據點時，部件在該位置解析材料角色也會套用。</CBF_FieldDesc_MaterialRole_district>
+  <!-- EN: Piece or category names matched against the ward's fortification pieces. This is a condition on the ward context, not a filter selecting the individual house being stamped. A matching row outranks a ward-only row. -->
+  <CBF_FieldDesc_MaterialRole_forPieces>與城區防禦工事部件比對的部件或類別名稱。這是城區情境的條件，不是篩選正在蓋的個別房屋。相符的行優先於只有城區條件的行。</CBF_FieldDesc_MaterialRole_forPieces>
+  <!-- EN: Another PieceCategoryDef whose members include this category's pieces. Unset inheritable rules are read along this chain. This runtime link uses a defName and is separate from RimWorld XML ParentName inheritance. -->
+  <CBF_FieldDesc_PieceCategoryDef_parent>另一個PieceCategoryDef，其成員包含此類別的部件。未設定的可繼承規則沿此鏈讀取。這個執行期連結使用defName，與RimWorld XML的ParentName繼承無關。</CBF_FieldDesc_PieceCategoryDef_parent>
+  <!-- EN: Fallback MaterialListDef. CBF first looks for a usable matching role in this list, then searches the parent. Use a child list to change selected construction roles without duplicating the others. -->
+  <CBF_FieldDesc_MaterialListDef_parent>備援MaterialListDef。CBF先在此清單中找可用的相符角色，再搜尋上層。用子清單可以只變更選定的建造角色，不必複製其他角色。</CBF_FieldDesc_MaterialListDef_parent>
+  <!-- EN: One level in a dungeon plan. Its districts request rooms, its garrison supplies defenders, and its stair-room lists connect it to adjacent maps. See [Dungeon levels](Modding-Dungeons). The shipped dungeons of the Medieval Overhaul set are good examples. -->
+  <CBF_DefDesc_DungeonLevel>地下城計劃中的一層。其街區要求房間，其駐軍提供守軍，其樓梯房間清單連接相鄰的地圖。參見[Dungeon levels](Modding-Dungeons)。Medieval Overhaul組合內附的地下城是很好的範例。</CBF_DefDesc_DungeonLevel>
+  <!-- EN: Record intended to distribute room requests across dungeon levels; not used by the generator yet. It is saved and validated but is not consumed by the current framework-to-planner conversion. Use entries in each level's districts for working room requests. -->
+  <CBF_DefDesc_SpreadEntry>原本用來把房間要求分配到多個地下城層的紀錄；生成器尚未使用。它會被儲存與驗證，但目前框架轉換到規劃器時不會使用。可運作的房間要求請放在各層districts的條目中。</CBF_DefDesc_SpreadEntry>
+  <!-- EN: Internal name of this level. Used as its label when label is empty. -->
+  <CBF_FieldDesc_DungeonLevel_name>此層的內部名稱。label為空時作為其名稱。</CBF_FieldDesc_DungeonLevel_name>
+  <!-- EN: Display name of this level in the editor. Empty uses name. -->
+  <CBF_FieldDesc_DungeonLevel_label>此層在編輯器中的顯示名稱。留空時使用name。</CBF_FieldDesc_DungeonLevel_label>
+  <!-- EN: Level layout: Corridors, Chambers, Cave, Rows, Grid, Temple or Warren. Grid sets the rooms on a loose grid with thick rock between them, joined by straight passages and cross links. Temple puts the largest room in the middle with long axis passages, rooms in pairs and side niches. Warren lets the rooms share their walls. Rows lays a main corridor with a few bends and puts the rooms in rows along both sides. A district can override it with its own layout field. -->
+  <CBF_FieldDesc_DungeonLevel_layout>層的佈局：Corridors、Chambers、Cave、Rows、Grid、Temple或Warren。Grid把房間放在鬆散的網格上，之間隔著厚岩層，以直通道與交叉連結相連。Temple把最大的房間放在中央，有長軸線通道、成對的房間與側邊壁龕。Warren讓房間共用牆壁。Rows鋪設一條有幾個轉彎的主走廊，把房間沿兩側排成列。街區可用自己的layout欄位覆蓋。</CBF_FieldDesc_DungeonLevel_layout>
+  <!-- EN: Room groups for this level. Each district contains category or piece requests in entries. -->
+  <CBF_FieldDesc_DungeonLevel_districts>此層的房間群組。每個街區在entries中包含類別或部件要求。</CBF_FieldDesc_DungeonLevel_districts>
+  <!-- EN: Defenders requested for this level, using pawn lists, counts and posts. -->
+  <CBF_FieldDesc_DungeonLevel_garrison>此層要求的守軍，使用角色清單、數量與崗位。</CBF_FieldDesc_DungeonLevel_garrison>
+  <!-- EN: Stair-room pieces or categories for arrival from the level above. Used on lower levels only. Each list entry becomes one room request; mark its portal cell with a StairsUp Connect anchor. -->
+  <CBF_FieldDesc_DungeonLevel_entrance>從上一層抵達用的樓梯房間部件或類別。只用在較低的層。每個清單條目成為一個房間要求；用StairsUp連線錨點標示其傳送格。</CBF_FieldDesc_DungeonLevel_entrance>
+  <!-- EN: Stair-room pieces or categories leading to the next level. Required on every level except the last. Each list entry becomes one room request; mark its portal cell with a StairsDown Connect anchor. -->
+  <CBF_FieldDesc_DungeonLevel_stairsDown>通往下一層的樓梯房間部件或類別。除最後一層外每層都必須有。每個清單條目成為一個房間要求；用StairsDown連線錨點標示其傳送格。</CBF_FieldDesc_DungeonLevel_stairsDown>
+  <!-- EN: Corridor pieces or categories, such as torches, candles, bones or runners. The generator dresses the corridors of this level with them, picked by weight. A section with its own `corridors` uses those instead. -->
+  <CBF_FieldDesc_DungeonLevel_corridors>走廊部件或類別，例如火把、蠟燭、骨頭或地毯。生成器依權重挑選，用它們布置此層的走廊。有自己`corridors`的分區改用分區的設定。</CBF_FieldDesc_DungeonLevel_corridors>
+  <!-- EN: Lower-level pocket-map edge length in cells. A positive value is used directly; 0 estimates the size from the room requests. The first level uses the surface map, so set that size on the plan. -->
+  <CBF_FieldDesc_DungeonLevel_mapSize>下層口袋地圖的邊長（格）。正值直接使用；0依房間要求估算大小。第一層使用地表地圖，所以請在計劃上設定該大小。</CBF_FieldDesc_DungeonLevel_mapSize>
+  <!-- EN: Width of the cave paths in cells, rolled per cell from this range, 1 to 5. -->
+  <CBF_FieldDesc_DungeonLevel_caveWidth>洞穴通道的寬度（格），每格從此範圍擲出，1到5。</CBF_FieldDesc_DungeonLevel_caveWidth>
+  <!-- EN: Share of the connections between districts that are dug as winding cave paths instead of straight masoned corridors, 0 to 1. At 0 a cave path is only made when a district finds no other connection. Cave-to-cave links always stay cave paths. -->
+  <CBF_FieldDesc_DungeonLevel_caveShare>街區之間的連接中，挖成蜿蜒洞穴通道而非筆直砌石走廊的比例，0到1。設為0時，只有街區找不到其他連接時才會做洞穴通道。洞穴與洞穴之間的連接一律是洞穴通道。</CBF_FieldDesc_DungeonLevel_caveShare>
+  <!-- EN: Chance that a room door, which would otherwise be bricked up, gets a narrow secret passage through the rock to the nearest corridor or to the door of another room. The door becomes a secret door (material list role DOOR_SECRET). At most this share of the rooms gets one. 0 turns secret passages off. -->
+  <CBF_FieldDesc_DungeonLevel_secretChance>原本會被封死的房門，改為有一條狹窄秘道穿過岩石通往最近走廊或另一個房間門口的機率。該門會變成暗門（材料清單角色DOOR_SECRET）。最多這個比例的房間會有秘道。0會關閉秘道。</CBF_FieldDesc_DungeonLevel_secretChance>
+  <!-- EN: Socket connector kind: Door, Arch, Cave or Secret. Stored by the editor but not used by the generator yet; it does not create a working connection by itself. -->
+  <CBF_FieldDesc_LegendEntry_socketType>插槽連接類型：Door、Arch、Cave或Secret。編輯器會儲存，但生成器尚未使用；它本身不會建立可運作的連接。</CBF_FieldDesc_LegendEntry_socketType>
+  <!-- EN: Socket width, default 1. Stored by the editor but not used by the generator yet. -->
+  <CBF_FieldDesc_LegendEntry_socketWidth>插槽寬度，預設1。編輯器會儲存，但生成器尚未使用。</CBF_FieldDesc_LegendEntry_socketWidth>
+  <!-- EN: Minimum rock thickness of the mountain over old town and suburb, 0 to 16. 0 means no mountain, except for MountainCity, which then uses 4. Fields inside the mountain are dark; the plan check names plants that do not grow there. -->
+  <CBF_FieldDesc_SettlementPlanDef_mountainMantle>舊城與近郊上方山體的最低岩層厚度，0到16。0表示沒有山，MountainCity除外，此時使用4。山體內的農田是黑暗的；計劃檢查會列出無法在那裡生長的植物。</CBF_FieldDesc_SettlementPlanDef_mountainMantle>
+  <!-- EN: Ordered dungeon levels, starting at the surface. Used when kind is Dungeon. Every non-final level requires stairsDown; see [Dungeon levels](Modding-Dungeons). -->
+  <CBF_FieldDesc_SettlementPlanDef_levels>有序的地下城層，從地表開始。kind為Dungeon時使用。除最後一層外每層都需要stairsDown；參見[Dungeon levels](Modding-Dungeons)。</CBF_FieldDesc_SettlementPlanDef_levels>
+  <!-- EN: Stored requests intended to span several levels. The current planner conversion does not consume this list. Put room requests in levels/li/districts instead. -->
+  <CBF_FieldDesc_SettlementPlanDef_spread>原本要跨多層的已儲存要求。目前的規劃器轉換不使用此清單。房間要求請改放在levels/li/districts中。</CBF_FieldDesc_SettlementPlanDef_spread>
+  <!-- EN: List of layouts the level may use, for example Chambers, Temple and Grid. Each generated level picks one of them from its seed, so the same plan looks different from site to site, like coreShapes for an old town. When the list is set, it replaces layout. Districts without their own layout follow the picked one. -->
+  <CBF_FieldDesc_DungeonLevel_layouts>此層可使用的佈局清單，例如Chambers、Temple與Grid。每個生成的層依其種子挑選其中一種，讓同一計劃在不同地點看起來不一樣，就像舊城的coreShapes。設定此清單時會取代layout。沒有自己佈局的街區跟隨挑中的佈局。</CBF_FieldDesc_DungeonLevel_layouts>
+  <!-- EN: Optional list of layouts for this district. The district picks one of them from the seed. When the list is set, it replaces layout. Prefer the list on the level so that a level keeps one look. -->
+  <CBF_FieldDesc_DistrictSpec_layouts>此街區可選的佈局清單。街區依種子挑選其中一種。設定此清單時會取代layout。建議把清單設在層上，讓一層維持一致的外觀。</CBF_FieldDesc_DistrictSpec_layouts>
+  <!-- EN: Requested number of buildings, sampled from the range. Placement depends on available space. During reference resolution, counts above 150 are capped at 150. -->
+  <CBF_FieldDesc_SpreadEntry_count>要求的建築數量，從範圍中取樣。擺放取決於可用空間。解析引用時，超過150的數量會被限制為150。</CBF_FieldDesc_SpreadEntry_count>
+  <!-- EN: Default loot table for content zones in pieces selected by this entry. A content zone with its own resolved table takes precedence. -->
+  <CBF_FieldDesc_SpreadEntry_lootTable>此條目選出的部件中，內容區的預設戰利品表。內容區自己有解析到的表時優先。</CBF_FieldDesc_SpreadEntry_lootTable>
+  <!-- EN: Specific PieceDef to request. Takes precedence when tag is also supplied. -->
+  <CBF_FieldDesc_SpreadEntry_piece>要求的特定PieceDef。同時提供tag時以此為優先。</CBF_FieldDesc_SpreadEntry_piece>
+  <!-- EN: PieceCategoryDef to select buildings from, including its descendant categories. This is the current category field for a building request; use piece to request a specific template. -->
+  <CBF_FieldDesc_SpreadEntry_tag>選擇建築來源的PieceCategoryDef，包括其子孫類別。這是建築要求目前使用的類別欄位；要求特定模板請用piece。</CBF_FieldDesc_SpreadEntry_tag>
+  <!-- EN: Allow the entry only if the owning ideoligion contains at least one listed meme or precept defName. Without an ideoligion, a non-empty list rejects the entry. -->
+  <CBF_FieldDesc_SpreadEntry_withIdeo>只在所屬理念包含至少一個列出的模因或戒律defName時允許此條目。沒有理念時，非空清單會排除此條目。</CBF_FieldDesc_SpreadEntry_withIdeo>
+  <!-- EN: Same as on BudgetEntry. The spread list is not applied by the current planner conversion. -->
+  <CBF_FieldDesc_SpreadEntry_requires>與BudgetEntry相同。目前的規劃器轉換不套用spread清單。</CBF_FieldDesc_SpreadEntry_requires>
+  <!-- EN: How many of the names in `requires` must be present. 1 means any one of them, the number of names means all of them. -->
+  <CBF_FieldDesc_SpreadEntry_requiresCount>`requires`中必須存在幾個名稱。1表示任一個，等於名稱數量表示全部。</CBF_FieldDesc_SpreadEntry_requiresCount>
+  <!-- EN: Reject the entry if the owning ideoligion contains any listed meme or precept defName. -->
+  <CBF_FieldDesc_SpreadEntry_withoutIdeo>所屬理念包含任一列出的模因或戒律defName時排除此條目。</CBF_FieldDesc_SpreadEntry_withoutIdeo>
+  <!-- EN: StyleDef used to select this wall profile for a settlement. It does not select house categories or replace the plan's materialList. -->
+  <CBF_FieldDesc_WallProfileDef_style>為據點選擇此城牆剖面所用的StyleDef。它不會選擇房屋類別，也不取代計劃的materialList。</CBF_FieldDesc_WallProfileDef_style>
+  <!-- EN: Chance per open cell of the settlement that a wild plant of the biome grows there, 0 to 1, scaled by the plant density of the biome (deserts get little, extreme deserts none). Makes a settlement look long abandoned. -->
+  <CBF_FieldDesc_RuinDef_overgrowth>據點每個空曠格長出該生物群系野生植物的機率，0到1，並依生物群系的植物密度縮放（沙漠很少，極端沙漠沒有）。讓據點看起來荒廢已久。</CBF_FieldDesc_RuinDef_overgrowth>
+  <!-- EN: Share of the overgrowth plants that are trees instead of bushes, 0 to 1. -->
+  <CBF_FieldDesc_RuinDef_overgrowthTrees>雜生植物中是樹木而非灌木的比例，0到1。</CBF_FieldDesc_RuinDef_overgrowthTrees>
+  <!-- EN: Share of the town wall that has fallen down, 0 to 1. The gaps come in short stretches. -->
+  <CBF_FieldDesc_RuinDef_townWallDecay>城牆已倒塌的比例，0到1。缺口以短段出現。</CBF_FieldDesc_RuinDef_townWallDecay>
+  <!-- EN: How likely the roof of a room has caved in, 0 to 1, more often near the attack. A collapsed roof covers 40 to 100 % of the room. -->
+  <CBF_FieldDesc_RuinDef_roofCollapse>房間屋頂坍塌的可能性，0到1，越靠近攻擊處越常見。坍塌的屋頂覆蓋房間的40%到100%。</CBF_FieldDesc_RuinDef_roofCollapse>
+  <!-- EN: true empties all fuel and switches off everything that can be switched, so torches and lamps are out. -->
+  <CBF_FieldDesc_RuinDef_lightsOut>true會清空所有燃料並關閉所有可關閉的東西，讓火把與燈都熄滅。</CBF_FieldDesc_RuinDef_lightsOut>
+  <!-- EN: One section of a dungeon level, for example the entrance or the back part. Each section has its own districts and can have its own corridor dressing. The stairs up are placed in the first section, the stairs down in the last. -->
+  <CBF_DefDesc_DungeonSection>地下城層的一個分區，例如入口或後段。每個分區有自己的街區，也可以有自己的走廊布置。上行樓梯放在第一個分區，下行樓梯放在最後一個。</CBF_DefDesc_DungeonSection>
+  <!-- EN: Which entry gets space first. With equal priority the previous order applies (minimum count, size). Low entries may stay below their minimum when space runs out. Not used in dungeon areas. -->
+  <CBF_FieldDesc_BudgetEntry_priority>哪個條目先分到空間。優先順序相同時依原本的順序（最低數量、大小）。空間不足時，Low條目可能低於其最低數量。不用於地下城區域。</CBF_FieldDesc_BudgetEntry_priority>
+  <!-- EN: How many times this level is built in a row, 1 to 20. -->
+  <CBF_FieldDesc_DungeonLevel_count>此層連續建造幾次，1到20。</CBF_FieldDesc_DungeonLevel_count>
+  <!-- EN: Parts of the level, for example Entrance and Back, each with its own districts and corridors. The stairs up are in the first section, the stairs down in the last. Without sections the level uses its own `districts` and `corridors`. -->
+  <CBF_FieldDesc_DungeonLevel_sections>層的組成部分，例如Entrance與Back，各有自己的街區與走廊。上行樓梯在第一個分區，下行樓梯在最後一個。沒有分區時，此層使用自己的`districts`與`corridors`。</CBF_FieldDesc_DungeonLevel_sections>
+  <!-- EN: Corridor pieces or categories for this section. Empty uses the corridors of the level. -->
+  <CBF_FieldDesc_DungeonSection_corridors>此分區的走廊部件或類別。留空時使用該層的走廊。</CBF_FieldDesc_DungeonSection_corridors>
+  <!-- EN: Room groups of this section. -->
+  <CBF_FieldDesc_DungeonSection_districts>此分區的房間群組。</CBF_FieldDesc_DungeonSection_districts>
+  <!-- EN: Display name in the editor. Empty uses name. -->
+  <CBF_FieldDesc_DungeonSection_label>在編輯器中的顯示名稱。留空時使用name。</CBF_FieldDesc_DungeonSection_label>
+  <!-- EN: Internal name of this section. -->
+  <CBF_FieldDesc_DungeonSection_name>此分區的內部名稱。</CBF_FieldDesc_DungeonSection_name>
+  <!-- EN: Only on an Annex anchor. The annex at this anchor is taken from these categories. Empty means the annexes set at the category of the piece. -->
+  <CBF_FieldDesc_LegendEntry_annexCategories>僅限Annex錨點。此錨點的附屬建築取自這些類別。留空表示使用部件類別上設定的附屬建築。</CBF_FieldDesc_LegendEntry_annexCategories>
+  <!-- EN: Only on an Annex anchor. Anchors with a higher priority get their annex first. Critical and Important ignore annexChance, Preferred raises it, Low halves it. Low anchors are filled last, after all other annexes of the settlement. annexRequired is independent and stronger. -->
+  <CBF_FieldDesc_LegendEntry_annexPriority>僅限Annex錨點。優先順序較高的錨點先得到附屬建築。Critical與Important忽略annexChance，Preferred提高它，Low將它減半。Low錨點最後填入，在據點所有其他附屬建築之後。annexRequired是獨立且更強的設定。</CBF_FieldDesc_LegendEntry_annexPriority>
+  <!-- EN: Only on an Annex anchor. The piece is only placed if an annex fits at this anchor. -->
+  <CBF_FieldDesc_LegendEntry_annexRequired>僅限Annex錨點。只有在此錨點放得下附屬建築時，才會放置此部件。</CBF_FieldDesc_LegendEntry_annexRequired>
+  <!-- EN: BiomeDef defNames. The type is only used on tiles with one of these biomes. Unknown names, for example from mods that are not loaded, are ignored. -->
+  <CBF_FieldDesc_SettlementPlanDef_biomes>BiomeDef defName。此類型只用在具有其中一種生物群系的地塊。未知名稱（例如來自未載入的模組）會被忽略。</CBF_FieldDesc_SettlementPlanDef_biomes>
+  <!-- EN: The type is only used on tiles with one of these hilliness values. Empty means any. -->
+  <CBF_FieldDesc_SettlementPlanDef_hilliness>此類型只用在具有其中一種地勢的地塊。留空表示不限。</CBF_FieldDesc_SettlementPlanDef_hilliness>
+  <!-- EN: TileMutatorDef defNames, for example River, Coast, Lake or Odyssey landforms. The type is only used on tiles that have at least one of them. -->
+  <CBF_FieldDesc_SettlementPlanDef_landforms>TileMutatorDef defName，例如River、Coast、Lake或Odyssey地貌。此類型只用在至少具有其中一種的地塊。</CBF_FieldDesc_SettlementPlanDef_landforms>
+  <!-- EN: Only for older pawn lists with role Civilian, which now count as Guard: limits how many anchors with such lists get pawns. 0 means no limit. -->
+  <CBF_FieldDesc_SettlementPlanDef_maxCivilians>僅適用於role為Civilian的舊版角色清單（現在視為Guard）：限制有幾個帶這種清單的錨點會得到角色。0表示不限。</CBF_FieldDesc_SettlementPlanDef_maxCivilians>
+  <!-- EN: BiomeDef defNames. The type is never used on tiles with one of these biomes. -->
+  <CBF_FieldDesc_SettlementPlanDef_notBiomes>BiomeDef defName。此類型永遠不會用在具有其中一種生物群系的地塊。</CBF_FieldDesc_SettlementPlanDef_notBiomes>
+  <!-- EN: TileMutatorDef defNames. The type is never used on tiles that have one of them. -->
+  <CBF_FieldDesc_SettlementPlanDef_notLandforms>TileMutatorDef defName。此類型永遠不會用在具有其中任一種的地塊。</CBF_FieldDesc_SettlementPlanDef_notLandforms>
+  <!-- EN: Builds every settlement of this type as a ruin, with the damage, overgrowth, corpses and loot rules of the RuinDef. With `occupation` Builder the owning faction still lives there. A ruin set by a quest or site takes precedence. CBF ships `CBF_Ruin_Plundered` (little loot) and `CBF_Ruin_Unplundered` (loot stays), both with the owners still living there. -->
+  <CBF_FieldDesc_SettlementPlanDef_ruin>把此類型的每個據點都建成廢墟，套用RuinDef的損毀、雜草叢生、屍體與戰利品規則。`occupation`為Builder時，所屬派系仍住在那裡。由任務或地點設定的廢墟優先。CBF內附`CBF_Ruin_Plundered`（戰利品很少）與`CBF_Ruin_Unplundered`（戰利品保留），兩者的原主人都仍住在那裡。</CBF_FieldDesc_SettlementPlanDef_ruin>
+  <!-- EN: Only for a suburb wall with a walkway (depth 3 or more). true: the suburb becomes a closed ring around the town. false: the suburb stays as separate areas on the sides, as many as suburbIslands allows; with suburbIslands 0 the ring stays. -->
+  <CBF_FieldDesc_SettlementPlanDef_suburbRing>僅適用於有步道的近郊城牆（深度3以上）。true：近郊成為環繞城鎮的封閉環帶。false：近郊維持為兩側分開的區域，數量依suburbIslands而定；suburbIslands為0時保持環帶。</CBF_FieldDesc_SettlementPlanDef_suburbRing>
+  <!-- EN: Meme or precept defNames, for example `Tunneler`. The type is only used for a faction whose primary ideoligion has at least one of them. Without the Ideology DLC the condition is ignored and only tags and tech levels decide. -->
+  <CBF_FieldDesc_SettlementPlanDef_withIdeo>模因或戒律defName，例如`Tunneler`。此類型只用於主要理念至少具有其中一項的派系。沒有意識形態DLC時忽略此條件，只由標籤與科技等級決定。</CBF_FieldDesc_SettlementPlanDef_withIdeo>
+  <!-- EN: Meme or precept defNames. The type is never used for a faction whose primary ideoligion has one of them. Ignored without the Ideology DLC. -->
+  <CBF_FieldDesc_SettlementPlanDef_withoutIdeo>模因或戒律defName。此類型永遠不會用於主要理念具有其中任一項的派系。沒有意識形態DLC時忽略。</CBF_FieldDesc_SettlementPlanDef_withoutIdeo>
+  <!-- EN: Older field. It is still loaded but no longer protects pawn kinds from the swap. -->
+  <CBF_FieldDesc_UnitSwapDef_neutral>舊版欄位。仍會載入，但不再保護角色種類免於替換。</CBF_FieldDesc_UnitSwapDef_neutral>
+  <!-- EN: Pawn kind replacements for this faction, each entry swaps the kind in from for the kind in to. Humanlike kinds without a rule that the faction does not use are swapped for one of its own kinds. If the faction has no fitting kind, the place stays empty. -->
+  <CBF_FieldDesc_UnitSwapDef_units>此派系的角色種類替換，每個條目把from中的種類換成to中的種類。派系沒有使用、也沒有規則的類人種類，會換成派系自己的其中一種種類。若派系沒有合適的種類，該位置留空。</CBF_FieldDesc_UnitSwapDef_units>
+  <!-- EN: The floors of this list, each with a weight. Each time the list is used one floor is drawn by weight. Floors from mods that are not loaded are skipped; if none is left, pieces keep their own floor. -->
+  <CBF_FieldDesc_FloorListDef_floors>此清單的地板，各附權重。每次使用清單時依權重抽一種地板。來自未載入模組的地板會被略過；若一種都不剩，部件保留自己的地板。</CBF_FieldDesc_FloorListDef_floors>
+  <!-- EN: If true, the floor is adapted to the stone of the map, for example stone tiles in the rock type found there. Do not combine with materials. -->
+  <CBF_FieldDesc_FloorListEntry_materialFromMap>若為true，地板會配合地圖的石材，例如用當地岩石種類的石磚。不要與materials合用。</CBF_FieldDesc_FloorListEntry_materialFromMap>
+  <!-- EN: Optional variants of this floor (TerrainDef defNames), for example several wood types. One of them is picked at random. Ignored when materialFromMap is true. -->
+  <CBF_FieldDesc_FloorListEntry_materials>此地板的可選變體（TerrainDef defName），例如多種木材。隨機挑選其中一種。materialFromMap為true時忽略。</CBF_FieldDesc_FloorListEntry_materials>
+  <!-- EN: A FloorListDef (defName) for this floor symbol. Instead of the entry's own terrain, a floor is drawn from the list. If the list has no usable floor, the own terrain is used. -->
+  <CBF_FieldDesc_LegendEntry_floorList>此地板符號的FloorListDef（defName）。不使用條目本身的terrain，而從清單中抽取地板。若清單沒有可用的地板，使用本身的terrain。</CBF_FieldDesc_LegendEntry_floorList>
+  <!-- EN: Only with floorList. true: every cell of this symbol draws its own floor, giving a mixed floor. false: one floor is drawn for the whole piece. -->
+  <CBF_FieldDesc_LegendEntry_floorPerCell>僅搭配floorList。true：此符號的每一格各自抽地板，形成混合地板。false：整個部件抽一種地板。</CBF_FieldDesc_LegendEntry_floorPerCell>
+  <!-- EN: A PawnListDef whose creatures occupy the ruin instead of the usual defenders, for example insects or undead. Pawns of a faction defend a point together, animals without a faction turn manhunter. Empty uses the occupation setting. -->
+  <CBF_FieldDesc_RuinDef_creatures>一個PawnListDef，其生物取代一般守軍佔據廢墟，例如蟲族或不死者。有派系的角色一起防守一個據點，沒有派系的動物會進入狂暴狀態。留空時使用occupation設定。</CBF_FieldDesc_RuinDef_creatures>
+  <!-- EN: Turns a settlement plan into an Odyssey landmark on the world map. When a map is generated on such a tile, CBF builds the plan there, usually as a ruin, in the building style of a matching faction. Needs Odyssey; without it nothing is created. -->
+  <CBF_DefDesc_LandmarkPlanDef>把據點計劃變成世界地圖上的Odyssey地標。在這種地塊上生成地圖時，CBF會在那裡建造該計劃，通常是廢墟，採用相符派系的建築風格。需要Odyssey；沒有時不會建立任何東西。</CBF_DefDesc_LandmarkPlanDef>
+  <!-- EN: The settlement plan built on the landmark tile. Required. -->
+  <CBF_FieldDesc_LandmarkPlanDef_plan>在地標地塊上建造的據點計劃。必填。</CBF_FieldDesc_LandmarkPlanDef_plan>
+  <!-- EN: Optional RuinDef applied after building, for damage, overgrowth and corpses. Empty builds the place intact. -->
+  <CBF_FieldDesc_LandmarkPlanDef_ruin>建造後套用的可選RuinDef，用於損毀、雜草叢生與屍體。留空時完好建造。</CBF_FieldDesc_LandmarkPlanDef_ruin>
+  <!-- EN: How often the landmark appears compared with other landmarks. Must be above 0. -->
+  <CBF_FieldDesc_LandmarkPlanDef_commonality>此地標相對於其他地標出現的頻率。必須大於0。</CBF_FieldDesc_LandmarkPlanDef_commonality>
+  <!-- EN: RulePackDef for the landmark name. Empty uses the name maker of vanilla ruin landmarks. -->
+  <CBF_FieldDesc_LandmarkPlanDef_nameMaker>地標名稱的RulePackDef。留空時使用原版廢墟地標的命名器。</CBF_FieldDesc_LandmarkPlanDef_nameMaker>
+  <!-- EN: Texture path of the world map icon. Empty uses the vanilla ruins icon. -->
+  <CBF_FieldDesc_LandmarkPlanDef_icon>世界地圖圖示的材質路徑。留空時使用原版廢墟圖示。</CBF_FieldDesc_LandmarkPlanDef_icon>
+  <!-- EN: FactionDef whose building style is used. Empty picks a faction of the plan's tech level, or any faction with CBF settlement types. -->
+  <CBF_FieldDesc_LandmarkPlanDef_styleFaction>使用其建築風格的FactionDef。留空時挑選與計劃科技等級相符的派系，或任何有CBF據點類型的派系。</CBF_FieldDesc_LandmarkPlanDef_styleFaction>
+  <!-- EN: If false, the landmark is built without loot. -->
+  <CBF_FieldDesc_LandmarkPlanDef_loot>若為false，地標建造時沒有戰利品。</CBF_FieldDesc_LandmarkPlanDef_loot>
+  <!-- EN: BiomeDefs the landmark may appear in. Empty means all biomes. -->
+  <CBF_FieldDesc_LandmarkPlanDef_biomes>地標可出現的BiomeDef。留空表示所有生物群系。</CBF_FieldDesc_LandmarkPlanDef_biomes>
+  <!-- EN: BiomeDefs the landmark never appears in. -->
+  <CBF_FieldDesc_LandmarkPlanDef_biomesExcluded>地標永遠不會出現的BiomeDef。</CBF_FieldDesc_LandmarkPlanDef_biomesExcluded>
+  <!-- EN: Lowest hilliness of the tile. -->
+  <CBF_FieldDesc_LandmarkPlanDef_minHilliness>地塊的最低地勢。</CBF_FieldDesc_LandmarkPlanDef_minHilliness>
+  <!-- EN: Highest hilliness of the tile. -->
+  <CBF_FieldDesc_LandmarkPlanDef_maxHilliness>地塊的最高地勢。</CBF_FieldDesc_LandmarkPlanDef_maxHilliness>
+  <!-- EN: Egal: coast does not matter. Pflicht: only on coast tiles. Nie: never on coast tiles. -->
+  <CBF_FieldDesc_LandmarkPlanDef_coast>Egal：不在乎海岸。Pflicht：只在海岸地塊。Nie：永遠不在海岸地塊。</CBF_FieldDesc_LandmarkPlanDef_coast>
+  <!-- EN: Egal: river does not matter. Pflicht: only on tiles with a river. Nie: never on tiles with a river. -->
+  <CBF_FieldDesc_LandmarkPlanDef_river>Egal：不在乎河流。Pflicht：只在有河流的地塊。Nie：永遠不在有河流的地塊。</CBF_FieldDesc_LandmarkPlanDef_river>
+</LanguageData>

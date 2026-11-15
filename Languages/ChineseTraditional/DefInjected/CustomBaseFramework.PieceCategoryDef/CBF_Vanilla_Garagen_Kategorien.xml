@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: garage -->
+  <CBF_Vanilla_Garage.label>車庫</CBF_Vanilla_Garage.label>
+  <!-- EN: motor pool -->
+  <CBF_Vanilla_MotorPool.label>車輛場</CBF_Vanilla_MotorPool.label>
+  <!-- EN: tank post -->
+  <CBF_Vanilla_TankPost.label>戰車崗哨</CBF_Vanilla_TankPost.label>
+</LanguageData>

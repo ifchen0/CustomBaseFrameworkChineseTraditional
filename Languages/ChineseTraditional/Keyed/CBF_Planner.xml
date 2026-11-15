@@ -864,6 +864,8 @@
   <CBF_Planner_KernformStadtZuKlein>即使沒有城牆，老城區對形狀{0}而言也太小。它變成矩形。</CBF_Planner_KernformStadtZuKlein>
   <!-- EN: Grown: without suburb islands and with a wall depth of {0} or less, the old town stays a rectangle. -->
   <CBF_Planner_GewachsenRechteck>自然生長：沒有近郊島嶼且城牆深度為{0}或更小時，老城區保持矩形。</CBF_Planner_GewachsenRechteck>
+  <!-- EN: Dungeon: {0} secret passages. -->
+  <CBF_Planner_VerliesGeheim>地下城：{0}條秘道。</CBF_Planner_VerliesGeheim>
   <!-- EN: Dungeon: {0} pieces, {1} corridor cells, {2} cave cells, {3} loops, {4} dead-end cells removed, {5} doors bricked up, {6} pieces without space. -->
   <CBF_Planner_VerliesSumme>地下城：{0}個部件，{1}格走廊，{2}格洞穴，{3}個環路，移除{4}格死端，砌死{5}扇門，{6}個部件無空間。</CBF_Planner_VerliesSumme>
   <!-- EN: Dungeon: no space for {0} in district {1}. -->

@@ -44,6 +44,10 @@
   <CBF_H_Unsaved>未儲存</CBF_H_Unsaved>
   <!-- EN: Mod -->
   <CBF_Project>模組</CBF_Project>
+  <!-- EN: Building blocks -->
+  <CBF_H_GroupBlocks>構成要素</CBF_H_GroupBlocks>
+  <!-- EN: Places -->
+  <CBF_H_GroupPlaces>場所</CBF_H_GroupPlaces>
   <!-- EN: Show names -->
   <CBF_H_BarOpen>顯示名稱</CBF_H_BarOpen>
   <!-- EN: Icons only -->
@@ -168,6 +172,14 @@
   <CBF_Lo_CopyShort>複製</CBF_Lo_CopyShort>
   <!-- EN: Quests -->
   <CBF_Tab_Quests>任務</CBF_Tab_Quests>
+  <!-- EN: Copy all -->
+  <CBF_Lo_CopyAll>全部複製</CBF_Lo_CopyAll>
+  <!-- EN: Click entries in the list afterwards to give them count, quality and condition of this entry. Table entries only get the count. Any number of entries can be clicked. -->
+  <CBF_Lo_CopyAllTip>之後點擊清單中的條目，即可套用此條目的數量、品質與狀態。表格條目只套用數量。可以點擊任意多個條目。</CBF_Lo_CopyAllTip>
+  <!-- EN: Apply all to all entries -->
+  <CBF_Lo_ApplyAllToAll>全部套用到所有條目</CBF_Lo_ApplyAllToAll>
+  <!-- EN: Gives count, quality and condition of this entry to all {0} other entries of this table. Table entries only get the count. -->
+  <CBF_Lo_ApplyAllToAllTip>把此條目的數量、品質與狀態套用到此表其他全部{0}個條目。表格條目只套用數量。</CBF_Lo_ApplyAllToAllTip>
   <!-- EN: Copy count -->
   <CBF_Lo_CopyCount>複製數量</CBF_Lo_CopyCount>
   <!-- EN: Click entries in the list afterwards to give them the count of this entry. Any number of entries can be clicked. -->
@@ -176,4 +188,8 @@
   <CBF_Lo_ApplyCountToAll>將數量應用到所有條目</CBF_Lo_ApplyCountToAll>
   <!-- EN: Gives the count of this entry to all {0} other entries of this table. -->
   <CBF_Lo_ApplyCountToAllTip>將本條目的數量套用到此表的其他{0}個條目。</CBF_Lo_ApplyCountToAllTip>
+  <!-- EN: Dangers -->
+  <CBF_Tab_Dangers>威脅</CBF_Tab_Dangers>
+  <!-- EN: Scenarios -->
+  <CBF_Tab_Scenarios>腳本</CBF_Tab_Scenarios>
 </LanguageData>

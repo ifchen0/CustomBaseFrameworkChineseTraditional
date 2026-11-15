@@ -1664,6 +1664,18 @@
   <CBF_GarrisonBoxGuards>守衛</CBF_GarrisonBoxGuards>
   <!-- EN: People on walls, gates, guns and posts. They are always fully manned and never held back. -->
   <CBF_GarrisonBoxGuardsTip>城牆、城門、砲位與崗哨上的人。永遠滿員，不會保留為後備。</CBF_GarrisonBoxGuardsTip>
+  <!-- EN: CBF builds worksites -->
+  <CBF_BuildWorksites>由CBF建造工地</CBF_BuildWorksites>
+  <!-- EN: Worksites are temporary sites with a resource (logging, mining, hunting and farming camps). When checked, CBF builds them from its own plans. When unchecked, the game or another mod builds them again, for all factions. Maps that already exist stay as they are. -->
+  <CBF_BuildWorksitesHelp>工地是有資源的臨時地點（伐木、採礦、狩獵與農耕營地）。勾選時，CBF用自己的計劃建造它們。取消勾選時，改回由遊戲或其他模組為所有派系建造。已存在的地圖維持原樣。</CBF_BuildWorksitesHelp>
+  <!-- EN: Garages with vehicles (Vanilla Vehicles Expanded) -->
+  <CBF_BuildVehicleGarages>有載具的車庫（Vanilla Vehicles Expanded）</CBF_BuildVehicleGarages>
+  <!-- EN: Industrial and later settlements get garages and motor pools with vehicles of the settlement's faction, more in large cities than in villages, plus a manned tank post in some cities. Armed vehicles are manned and fire from where they stand. Their points come out of the garrison. When unchecked, CBF builds no garages with vehicles. Maps that already exist stay as they are. -->
+  <CBF_BuildVehicleGaragesHelp>工業時代以後的據點會有車庫與車輛場，停放該據點派系的載具，大城市比村莊多，部分城市還有一座有人駐守的戰車崗哨。武裝載具有人操作，原地開火。它們的點數從駐軍中扣除。取消勾選時，CBF不建造有載具的車庫。已存在的地圖維持原樣。</CBF_BuildVehicleGaragesHelp>
+  <!-- EN: Settlement size: {0}% -->
+  <CBF_SettlementSize>據點大小：{0}%</CBF_SettlementSize>
+  <!-- EN: How large the settlements of Custom Base Framework are built. 100% is the full size and the default. Lower values shrink the core, the number of buildings, fields and pens and the garrison by the same share. Walls and towers follow the smaller outline, required buildings stay. Applies to villages, towns and cities, not to camps and dungeons, and only to settlements generated from now on. -->
+  <CBF_SettlementSizeHelp>Custom Base Framework的據點建造規模。100%為完整大小，也是預設值。較低的值會按相同比例縮小核心、建築數量、農田與畜欄以及駐軍。城牆與塔樓會順應較小的輪廓，必要建築保留。適用於村莊、城鎮與城市，不適用於營地與地下城，且只影響之後生成的據點。</CBF_SettlementSizeHelp>
   <!-- EN: Garrison size: {0}% -->
   <CBF_GarrisonStrength>駐軍規模：{0}%</CBF_GarrisonStrength>
   <!-- EN: How many defenders a settlement fields, relative to its plans. 100% is the full garrison and the default. At 100% a village has about 30 defenders and a fortress city about 90, at 200% about twice as many. Applies with or without the reserve. The garrison size sets how many residents there are; the reserve size sets how many of them are held back and only appear on alarm. Ruins and World Domination scale on top of this. Applies to newly generated settlements. -->
@@ -1694,4 +1706,48 @@
   <CBF_ClaimAnimalNoSite>只能在CBF據點的地圖上使用。</CBF_ClaimAnimalNoSite>
   <!-- EN: (hidden) -->
   <CBF_WorldHidden>（隱藏）</CBF_WorldHidden>
+  <!-- EN: sleeps -->
+  <CBF_RoleSleeper>沉睡</CBF_RoleSleeper>
+  <!-- EN: Lies asleep at the spawn anchor and wakes when the colony comes close or makes noise, then attacks. For ancient dangers. -->
+  <CBF_RoleSleeperDesc>在生成錨點處沉睡，殖民地靠近或發出噪音時醒來，然後發動攻擊。用於遠古威脅。</CBF_RoleSleeperDesc>
+  <!-- EN: is an ancient danger larger than {0} × {0} and is never placed. -->
+  <CBF_Au_DangerTooBig>是大於{0} × {0}的遠古威脅，永遠不會被放置。</CBF_Au_DangerTooBig>
+  <!-- EN: is an ancient danger larger than {0} × {0} and only fits {1} % of the sites. -->
+  <CBF_Au_DangerSometimes>是大於{0} × {0}的遠古威脅，只適合{1}%的地點。</CBF_Au_DangerSometimes>
+  <!-- EN: Attack {0}? -->
+  <CBF_AV_Title>攻擊{0}？</CBF_AV_Title>
+  <!-- EN: Attack -->
+  <CBF_AV_Attack>攻擊</CBF_AV_Attack>
+  <!-- EN: {0} belongs to {1}. Settlement type: {2}. -->
+  <CBF_AV_Head>{0}屬於{1}。據點類型：{2}。</CBF_AV_Head>
+  <!-- EN: Expected defenders: about {0} to {1}. -->
+  <CBF_AV_Defenders>預計守軍：大約{0}至{1}人。</CBF_AV_Defenders>
+  <!-- EN: about {0} on watch and in the streets, {1} in reserve -->
+  <CBF_AV_Reserve>大約{0}人站崗與在街上，{1}人為後備兵力</CBF_AV_Reserve>
+  <!-- EN: Strength: {0}. -->
+  <CBF_AV_Strength>強度：{0}。</CBF_AV_Strength>
+  <!-- EN: weaker than a usual raid on your colony -->
+  <CBF_AV_StrengthLow>比對你殖民地的一般襲擊弱</CBF_AV_StrengthLow>
+  <!-- EN: about as strong as a raid on your colony -->
+  <CBF_AV_StrengthEqual>大約與對你殖民地的襲擊相當</CBF_AV_StrengthEqual>
+  <!-- EN: clearly stronger than a raid on your colony -->
+  <CBF_AV_StrengthHigh>明顯強於對你殖民地的襲擊</CBF_AV_StrengthHigh>
+  <!-- EN: several times as strong as a raid on your colony -->
+  <CBF_AV_StrengthVeryHigh>是對你殖民地襲擊的數倍強</CBF_AV_StrengthVeryHigh>
+  <!-- EN: Typical units: {0}. -->
+  <CBF_AV_Units>典型單位：{0}。</CBF_AV_Units>
+  <!-- EN: Possible: -->
+  <CBF_AV_Possible>可能有：</CBF_AV_Possible>
+  <!-- EN: armored vehicles (up to {0}) -->
+  <CBF_AV_Vehicles>裝甲載具（最多{0}輛）</CBF_AV_Vehicles>
+  <!-- EN: turrets -->
+  <CBF_AV_Turrets>砲塔</CBF_AV_Turrets>
+  <!-- EN: mortars -->
+  <CBF_AV_Mortars>迫擊砲</CBF_AV_Mortars>
+  <!-- EN: Estimate from the settlement type, the faction and your current threat level. The real garrison varies. -->
+  <CBF_AV_Note>依據點類型、派系與你目前的威脅等級估算。實際駐軍會有差異。</CBF_AV_Note>
+  <!-- EN: Still on the map: {0} fighters of the faction. -->
+  <CBF_AV_Present>地圖上仍有：該派系{0}名戰鬥人員。</CBF_AV_Present>
+  <!-- EN: Plus {0} vehicles. -->
+  <CBF_AV_PresentVehicles>另有{0}輛載具。</CBF_AV_PresentVehicles>
 </LanguageData>

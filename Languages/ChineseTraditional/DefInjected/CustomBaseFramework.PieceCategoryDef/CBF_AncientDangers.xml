@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: ancient danger -->
+  <CBF_AncientDanger.label>遠古威脅</CBF_AncientDanger.label>
+  <!-- EN: ancient danger (scenario only) -->
+  <CBF_AncientDangerScenario.label>遠古威脅（僅限腳本）</CBF_AncientDangerScenario.label>
+</LanguageData>

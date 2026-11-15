@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: car parts -->
+  <CBF_Vanilla_Goods_CarParts.label>汽車零件</CBF_Vanilla_Goods_CarParts.label>
+  <!-- EN: fuel and steel -->
+  <CBF_Vanilla_Goods_Fuel.label>燃料與鋼鐵</CBF_Vanilla_Goods_Fuel.label>
+  <!-- EN: Garage -->
+  <CBF_Vanilla_Loot_Garage.label>車庫</CBF_Vanilla_Loot_Garage.label>
+</LanguageData>

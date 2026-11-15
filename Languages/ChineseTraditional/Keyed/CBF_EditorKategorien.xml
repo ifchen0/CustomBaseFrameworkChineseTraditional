@@ -122,4 +122,12 @@
   <CBF_K_NoRoad>無需道路</CBF_K_NoRoad>
   <!-- EN: Buildings of this category need no road and may be entered from every side, like a farm or a market. Only takes effect when Road access is No. Where they stand is decided by the budget of the ward. -->
   <CBF_K_NoRoadTip>該類別的建築無需道路，可從四面進入，例如農場或集市。僅當"道路可達"設為否時生效。它們的位置由區劃的預算決定。</CBF_K_NoRoadTip>
+  <!-- EN: Pieces -->
+  <CBF_K_Pieces>部件</CBF_K_Pieces>
+  <!-- EN: Add piece -->
+  <CBF_K_AddPiece>加入部件</CBF_K_AddPiece>
+  <!-- EN: Pick a piece and add this category to it. The piece keeps its other categories. Save at the bottom writes the piece, for pieces of other mods as a patch in your mod. -->
+  <CBF_K_AddPieceTip>選擇一個部件並把此類別加給它。部件保留其他類別。底部的「儲存」會寫入部件；其他模組的部件會以補丁寫入你的模組。</CBF_K_AddPieceTip>
+  <!-- EN: Also saves the pieces added to this category: {0} -->
+  <CBF_K_SavePiecesTip>也會儲存加入此類別的部件：{0}</CBF_K_SavePiecesTip>
 </LanguageData>

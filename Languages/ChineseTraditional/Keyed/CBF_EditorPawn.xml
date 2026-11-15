@@ -110,4 +110,6 @@
   <CBF_Pw_IdeoRoleFight>按武器定的戰鬥角色</CBF_Pw_IdeoRoleFight>
   <!-- EN: With Ideology, pawns of this kind get this role of their faction's ideoligion. Combat role by weapon gives the shooting or melee specialist depending on the weapon. -->
   <CBF_Pw_IdeoRoleTip>啟用意識形態時，這類角色會獲得其派系意識形態中的該角色。按武器定的戰鬥角色會根據武器指定射擊或近戰專家。</CBF_Pw_IdeoRoleTip>
+  <!-- EN: Sleeper -->
+  <CBF_Pw_Role_Sleeper>沉睡者</CBF_Pw_Role_Sleeper>
 </LanguageData>

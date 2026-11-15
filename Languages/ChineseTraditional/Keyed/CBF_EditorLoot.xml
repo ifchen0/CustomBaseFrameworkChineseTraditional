@@ -50,6 +50,8 @@
   <CBF_Lo_AddItem>+ 物品</CBF_Lo_AddItem>
   <!-- EN: + Table -->
   <CBF_Lo_AddTable>+ 表</CBF_Lo_AddTable>
+  <!-- EN: Open this loot table and show what is in it -->
+  <CBF_Lo_OpenTable>開啟此戰利品表並顯示其內容</CBF_Lo_OpenTable>
   <!-- EN: + Category -->
   <CBF_Lo_AddCategory>+ 類別</CBF_Lo_AddCategory>
   <!-- EN: Affects -->
@@ -292,6 +294,10 @@
   <CBF_Role_DOOR>門</CBF_Role_DOOR>
   <!-- EN: Doors of buildings and doors in the wall, on the walkway, in towers and posterns. -->
   <CBF_RoleTip_DOOR>建築的門以及城牆、步道、塔樓與側門上的門。</CBF_RoleTip_DOOR>
+  <!-- EN: Secret door -->
+  <CBF_Role_DOOR_SECRET>暗門</CBF_Role_DOOR_SECRET>
+  <!-- EN: Door at the end of a secret passage in a dungeon. Should look like the wall around it. Without an entry the normal door stays. -->
+  <CBF_RoleTip_DOOR_SECRET>地下城中秘道盡頭的門。應看起來像周圍的牆。沒有條目時保留一般的門。</CBF_RoleTip_DOOR_SECRET>
   <!-- EN: Gate -->
   <CBF_Role_GATE>城門</CBF_Role_GATE>
   <!-- EN: Gate in a wall passage without a gatehouse. -->

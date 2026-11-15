@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: fits every site -->
+  <CBF_AD_FitsAlways>適合所有地點</CBF_AD_FitsAlways>
+  <!-- EN: too big for any site -->
+  <CBF_AD_FitsNever>對所有地點都太大</CBF_AD_FitsNever>
+  <!-- EN: fits {0} % of sites -->
+  <CBF_AD_FitsShare>適合{0}%的地點</CBF_AD_FitsShare>
+  <!-- EN: All scenarios · {0} -->
+  <CBF_AD_GroupAll>所有腳本 · {0}</CBF_AD_GroupAll>
+  <!-- EN: Scenario only · {0} -->
+  <CBF_AD_GroupScenario>僅限腳本 · {0}</CBF_AD_GroupScenario>
+  <!-- EN: No piece yet -->
+  <CBF_AD_GroupEmpty>尚無部件</CBF_AD_GroupEmpty>
+  <!-- EN: Add an existing piece as an ancient danger. It goes into CBF_AncientDanger and can be moved to another category afterwards. New pieces are drawn in the Piece tab. -->
+  <CBF_AD_NewTip>把現有部件加入為遠古威脅。它會放進CBF_AncientDanger，之後可移到其他類別。新部件在「部件」分頁中繪製。</CBF_AD_NewTip>
+  <!-- EN: Add ancient danger -->
+  <CBF_AD_AddPiece>加入遠古威脅</CBF_AD_AddPiece>
+  <!-- EN: Pick an ancient danger on the left. -->
+  <CBF_AD_PickOne>在左側選擇一個遠古威脅。</CBF_AD_PickOne>
+  <!-- EN: every scenario -->
+  <CBF_AD_EveryScenario>所有腳本</CBF_AD_EveryScenario>
+  <!-- EN: only in scenarios that name {0} -->
+  <CBF_AD_OnlyScenarios>只在指名{0}的腳本中</CBF_AD_OnlyScenarios>
+  <!-- EN: Piece · {0} × {1} · {2} -->
+  <CBF_AD_Head>部件 · {0} × {1} · {2}</CBF_AD_Head>
+  <!-- EN: Category -->
+  <CBF_AD_Category>類別</CBF_AD_Category>
+  <!-- EN: Categories under CBF_AncientDanger count in every scenario. Categories under CBF_AncientDangerScenario only count in scenarios that name them. -->
+  <CBF_AD_CategoryTip>CBF_AncientDanger下的類別在所有腳本中都算數。CBF_AncientDangerScenario下的類別只在指名它們的腳本中算數。</CBF_AD_CategoryTip>
+  <!-- EN: Weight {0}, from {1} -->
+  <CBF_AD_Weight>權重{0}，來自{1}</CBF_AD_Weight>
+  <!-- EN: How often this piece is rolled against the others. The weight comes from the category and is set in the Categories tab. -->
+  <CBF_AD_WeightTip>此部件相對於其他部件被擲中的頻率。權重來自類別，在「類別」分頁中設定。</CBF_AD_WeightTip>
+  <!-- EN: Open in Piece -->
+  <CBF_AD_OpenPiece>在部件中開啟</CBF_AD_OpenPiece>
+  <!-- EN: Site -->
+  <CBF_AD_Site>地點</CBF_AD_Site>
+  <!-- EN: RimWorld rolls a site of 15 to 20 cells per side next to rock. The piece is stamped in the middle. -->
+  <CBF_AD_SiteText>RimWorld在岩石旁擲出每邊15到20格的地點。部件蓋在正中央。</CBF_AD_SiteText>
+  <!-- EN: outer frame 20 × 20, dashed 15 × 15 -->
+  <CBF_AD_SiteFrame>外框20 × 20，虛線15 × 15</CBF_AD_SiteFrame>
+  <!-- EN: At most 15 × 15: fits every site. -->
+  <CBF_AD_SiteAlways>最多15 × 15：適合所有地點。</CBF_AD_SiteAlways>
+  <!-- EN: Larger than 15 cells: only chosen when the rolled site is big enough. Turning counts if the piece may turn. -->
+  <CBF_AD_SiteSometimes>大於15格：只在擲出的地點夠大時才會選中。部件可旋轉時會考慮旋轉。</CBF_AD_SiteSometimes>
+  <!-- EN: Larger than 20 cells: never chosen. The check shows this as an error. -->
+  <CBF_AD_SiteNever>大於20格：永遠不會選中。檢查會將此顯示為錯誤。</CBF_AD_SiteNever>
+  <!-- EN: Contents -->
+  <CBF_AD_Contents>內容</CBF_AD_Contents>
+  <!-- EN: Ancient caskets -->
+  <CBF_AD_Caskets>遠古休眠艙</CBF_AD_Caskets>
+  <!-- EN: {0}, filled like RimWorld does -->
+  <CBF_AD_CasketsN>{0}，依RimWorld的方式填入</CBF_AD_CasketsN>
+  <!-- EN: none -->
+  <CBF_AD_None>無</CBF_AD_None>
+  <!-- EN: Sleeping guards -->
+  <CBF_AD_Guards>沉睡的守衛</CBF_AD_Guards>
+  <!-- EN: This list does not have the role Sleeper. Its pawns stand guard awake. -->
+  <CBF_AD_GuardAwakeTip>此清單沒有「沉睡者」角色。其角色會保持清醒站崗。</CBF_AD_GuardAwakeTip>
+  <!-- EN: Loot -->
+  <CBF_AD_Loot>戰利品</CBF_AD_Loot>
+  <!-- EN: Used in -->
+  <CBF_AD_UsedIn>使用於</CBF_AD_UsedIn>
+  <!-- EN: {0} scenarios -->
+  <CBF_AD_NScenarios>{0}個腳本</CBF_AD_NScenarios>
+  <!-- EN: Every scenario that does not set ancient dangers to None. -->
+  <CBF_AD_UsedEverywhere>所有沒有把遠古威脅設為「無」的腳本。</CBF_AD_UsedEverywhere>
+  <!-- EN: No scenario names {0} yet. Add it in the Scenarios tab. -->
+  <CBF_AD_UsedNowhere>目前沒有腳本指名{0}。請在「腳本」分頁中加入。</CBF_AD_UsedNowhere>
+  <!-- EN: Warning letter -->
+  <CBF_AD_Letter>警告信件</CBF_AD_Letter>
+  <!-- EN: RimWorld's own letter, the same for CBF pieces. -->
+  <CBF_AD_LetterNote>RimWorld原本的信件，CBF部件也相同。</CBF_AD_LetterNote>
+  <!-- EN: Sleeper role -->
+  <CBF_AD_SleeperHead>沉睡者角色</CBF_AD_SleeperHead>
+  <!-- EN: Pawns of a list with the role Sleeper lie asleep at their spawn anchor. They wake when the colony comes close or makes noise, then attack. Mechs and insects get their own faction, people a hostile one. -->
+  <CBF_AD_SleeperText>具有「沉睡者」角色的清單，其角色在生成錨點處沉睡。殖民地靠近或發出噪音時醒來，然後發動攻擊。機械族與蟲族歸入各自的派系，人類則歸入敵對派系。</CBF_AD_SleeperText>
+  <!-- EN: Check: no findings -->
+  <CBF_AD_CheckOk>檢查：沒有發現問題</CBF_AD_CheckOk>
+  <!-- EN: Check: {0} is larger than 15 × 15 and only fits some sites. -->
+  <CBF_AD_CheckSometimes>檢查：{0}大於15 × 15，只適合部分地點。</CBF_AD_CheckSometimes>
+  <!-- EN: Check: {0} is larger than 20 × 20 and can never be placed. -->
+  <CBF_AD_CheckNever>檢查：{0}大於20 × 20，永遠無法放置。</CBF_AD_CheckNever>
+  <!-- EN: Vanilla + own -->
+  <CBF_Sz_Mode_VanillaAndOwn>原版＋自訂</CBF_Sz_Mode_VanillaAndOwn>
+  <!-- EN: Own only -->
+  <CBF_Sz_Mode_OwnOnly>僅自訂</CBF_Sz_Mode_OwnOnly>
+  <!-- EN: None -->
+  <CBF_Sz_Mode_None>無</CBF_Sz_Mode_None>
+  <!-- EN: Unknown mod -->
+  <CBF_Sz_UnknownMod>未知模組</CBF_Sz_UnknownMod>
+  <!-- EN: Your scenarios -->
+  <CBF_Sz_Yours>你的腳本</CBF_Sz_Yours>
+  <!-- EN: None saved -->
+  <CBF_Sz_YoursNone>尚未儲存任何腳本</CBF_Sz_YoursNone>
+  <!-- EN: scenario editor -->
+  <CBF_Sz_InGame>腳本編輯器</CBF_Sz_InGame>
+  <!-- EN: Pick a scenario on the left. -->
+  <CBF_Sz_PickOne>在左側選擇一個腳本。</CBF_Sz_PickOne>
+  <!-- EN: Scenario · {0} · {1} -->
+  <CBF_Sz_Head>腳本 · {0} · {1}</CBF_Sz_Head>
+  <!-- EN: Your scenario · set in RimWorld's scenario editor -->
+  <CBF_Sz_HeadYours>你的腳本 · 在RimWorld的腳本編輯器中設定</CBF_Sz_HeadYours>
+  <!-- EN: no CBF part, defaults apply -->
+  <CBF_Sz_StateDefault>沒有CBF部分，套用預設值</CBF_Sz_StateDefault>
+  <!-- EN: CBF part set -->
+  <CBF_Sz_StateSet>已設定CBF部分</CBF_Sz_StateSet>
+  <!-- EN: changed, saved as a patch -->
+  <CBF_Sz_StateChanged>已變更，存成補丁</CBF_Sz_StateChanged>
+  <!-- EN: Scenarios you made in game are files, not defs. Set the ancient dangers there, in RimWorld's scenario editor, with the part Ancient dangers (CBF). Here you only see the result. -->
+  <CBF_Sz_YoursText>你在遊戲中製作的腳本是檔案，不是Def。請在RimWorld的腳本編輯器中，用「遠古威脅（CBF）」部分設定遠古威脅。這裡只會看到結果。</CBF_Sz_YoursText>
+  <!-- EN: Ancient dangers -->
+  <CBF_Sz_Dangers>遠古威脅</CBF_Sz_Dangers>
+  <!-- EN: Mode -->
+  <CBF_Sz_Mode>模式</CBF_Sz_Mode>
+  <!-- EN: RimWorld's ancient dangers and the CBF pieces are rolled together. -->
+  <CBF_Sz_ModeText_VanillaAndOwn>RimWorld的遠古威脅與CBF部件一起擲選。</CBF_Sz_ModeText_VanillaAndOwn>
+  <!-- EN: Only CBF pieces. RimWorld's own ancient danger is only built as a fallback. -->
+  <CBF_Sz_ModeText_OwnOnly>只用CBF部件。RimWorld原本的遠古威脅只在備援時建造。</CBF_Sz_ModeText_OwnOnly>
+  <!-- EN: No ancient dangers on any map of this scenario. -->
+  <CBF_Sz_ModeText_None>此腳本的所有地圖都沒有遠古威脅。</CBF_Sz_ModeText_None>
+  <!-- EN: Vanilla weight -->
+  <CBF_Sz_VanillaWeight>原版權重</CBF_Sz_VanillaWeight>
+  <!-- EN: against the weight of each CBF piece -->
+  <CBF_Sz_VanillaWeightNote>相對於每個CBF部件的權重</CBF_Sz_VanillaWeightNote>
+  <!-- EN: Only with Vanilla + own. -->
+  <CBF_Sz_VanillaWeightOff>僅限「原版＋自訂」。</CBF_Sz_VanillaWeightOff>
+  <!-- EN: How often RimWorld's own ancient danger is rolled against the CBF pieces. -->
+  <CBF_Sz_VanillaWeightTip>RimWorld原本的遠古威脅相對於CBF部件被擲中的頻率。</CBF_Sz_VanillaWeightTip>
+  <!-- EN: Extra categories -->
+  <CBF_Sz_ExtraCategories>額外類別</CBF_Sz_ExtraCategories>
+  <!-- EN: Categories under CBF_AncientDangerScenario whose pieces also count in this scenario. Pieces under CBF_AncientDanger always count. -->
+  <CBF_Sz_ExtraCategoriesTip>CBF_AncientDangerScenario下的類別，其部件也在此腳本中算數。CBF_AncientDanger下的部件一律算數。</CBF_Sz_ExtraCategoriesTip>
+  <!-- EN: Click to remove. -->
+  <CBF_Sz_CategoryRemoveTip>點擊以移除。</CBF_Sz_CategoryRemoveTip>
+  <!-- EN: Add a category. -->
+  <CBF_Sz_CategoryAddTip>加入類別。</CBF_Sz_CategoryAddTip>
+  <!-- EN: There is no further category under CBF_AncientDangerScenario. Create one in the Categories tab with that parent. -->
+  <CBF_Sz_NoScenarioCategories>CBF_AncientDangerScenario下沒有其他類別。請在「類別」分頁中以它為上層建立一個。</CBF_Sz_NoScenarioCategories>
+  <!-- EN: only categories under {0} -->
+  <CBF_Sz_OnlyUnder>只限{0}下的類別</CBF_Sz_OnlyUnder>
+  <!-- EN: If nothing fits -->
+  <CBF_Sz_Fallback>都不適合時</CBF_Sz_Fallback>
+  <!-- EN: Build RimWorld's ancient danger when no own piece fits the site -->
+  <CBF_Sz_FallbackText>沒有自訂部件適合地點時，建造RimWorld的遠古威脅</CBF_Sz_FallbackText>
+  <!-- EN: Build RimWorld's ancient danger when no own piece fits the site (only with Own only) -->
+  <CBF_Sz_FallbackOff>沒有自訂部件適合地點時，建造RimWorld的遠古威脅（僅限「僅自訂」）</CBF_Sz_FallbackOff>
+  <!-- EN: On: the site gets RimWorld's ancient danger. Off: the site stays empty. -->
+  <CBF_Sz_FallbackTip>開啟：地點改用RimWorld的遠古威脅。關閉：地點留空。</CBF_Sz_FallbackTip>
+  <!-- EN: What a site can become -->
+  <CBF_Sz_Pool>地點可能變成什麼</CBF_Sz_Pool>
+  <!-- EN: share per site -->
+  <CBF_Sz_PoolRight>每個地點的比例</CBF_Sz_PoolRight>
+  <!-- EN: Nothing. The step is skipped on every map of this scenario. -->
+  <CBF_Sz_PoolNone>什麼都沒有。此腳本的每張地圖都會跳過這個步驟。</CBF_Sz_PoolNone>
+  <!-- EN: Weight -->
+  <CBF_Sz_PoolWeight>權重</CBF_Sz_PoolWeight>
+  <!-- EN: Share -->
+  <CBF_Sz_PoolShare>比例</CBF_Sz_PoolShare>
+  <!-- EN: Site size -->
+  <CBF_Sz_PoolSite>地點大小</CBF_Sz_PoolSite>
+  <!-- EN: RimWorld ancient danger -->
+  <CBF_Sz_PoolVanilla>RimWorld遠古威脅</CBF_Sz_PoolVanilla>
+  <!-- EN: No CBF piece yet. Add pieces in the Dangers tab. -->
+  <CBF_Sz_PoolEmpty>尚無CBF部件。請在「威脅」分頁中加入部件。</CBF_Sz_PoolEmpty>
+  <!-- EN: Open this ancient danger. -->
+  <CBF_Sz_PoolJumpTip>開啟此遠古威脅。</CBF_Sz_PoolJumpTip>
+  <!-- EN: Only pieces that fit the rolled site take part in the roll. RimWorld's own fits every site. -->
+  <CBF_Sz_PoolNote>只有適合擲出地點的部件會參與擲選。RimWorld原本的威脅適合所有地點。</CBF_Sz_PoolNote>
+  <!-- EN: When the rolled site is too small for every own piece, RimWorld's own ancient danger is built instead. -->
+  <CBF_Sz_PoolFallbackOn>擲出的地點對所有自訂部件都太小時，改為建造RimWorld原本的遠古威脅。</CBF_Sz_PoolFallbackOn>
+  <!-- EN: When the rolled site is too small for every own piece, the site stays empty. -->
+  <CBF_Sz_PoolFallbackOff>擲出的地點對所有自訂部件都太小時，地點留空。</CBF_Sz_PoolFallbackOff>
+  <!-- EN: Same setting in RimWorld's scenario editor -->
+  <CBF_Sz_VanillaEditor>RimWorld腳本編輯器中的相同設定</CBF_Sz_VanillaEditor>
+  <!-- EN: Players set it there for their own scenarios. For scenarios of other mods, Save here writes a patch into your mod that only applies when that mod is loaded. -->
+  <CBF_Sz_VanillaEditorText>玩家在那裡為自己的腳本設定。對其他模組的腳本，這裡的「儲存」會把補丁寫入你的模組，只在該模組載入時生效。</CBF_Sz_VanillaEditorText>
+  <!-- EN: Change it in RimWorld's scenario editor. -->
+  <CBF_Sz_FootYours>請在RimWorld的腳本編輯器中變更。</CBF_Sz_FootYours>
+  <!-- EN: Saves as a patch for {0}. -->
+  <CBF_Sz_FootPatch>存成{0}的補丁。</CBF_Sz_FootPatch>
+  <!-- EN: No unsaved change. -->
+  <CBF_Sz_FootSaved>沒有未儲存的變更。</CBF_Sz_FootSaved>
+  <!-- EN: Open a project first. The patch goes into its mod folder. -->
+  <CBF_Sz_NoProject>請先開啟專案。補丁會放進其模組資料夾。</CBF_Sz_NoProject>
+  <!-- EN: Patch for {0} not written: {1} -->
+  <CBF_Sz_SaveFailed>{0}的補丁未寫入：{1}</CBF_Sz_SaveFailed>
+</LanguageData>

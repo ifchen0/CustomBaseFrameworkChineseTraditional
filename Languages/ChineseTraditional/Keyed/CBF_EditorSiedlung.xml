@@ -48,6 +48,20 @@
   <CBF_S_Excluded>已排除</CBF_S_Excluded>
   <!-- EN: Fits {0} factions -->
   <CBF_S_FitsFactions>適配{0}個派系</CBF_S_FitsFactions>
+  <!-- EN: For all factions of these levels -->
+  <CBF_S_OwnerAlle>適用於這些等級的所有派系</CBF_S_OwnerAlle>
+  <!-- EN: This plan applies to every faction whose tech level is ticked, unless that faction has plans of its own through faction tags. Its own plans always win. -->
+  <CBF_S_OwnerAlleTip>此計劃套用到科技等級已勾選的所有派系，除非該派系透過派系標籤擁有自己的計劃。派系自己的計劃一律優先。</CBF_S_OwnerAlleTip>
+  <!-- EN: Factions -->
+  <CBF_S_OwnerFraktionen>派系</CBF_S_OwnerFraktionen>
+  <!-- EN: Only the factions or faction categories listed below get this settlement. -->
+  <CBF_S_OwnerFraktionenTip>只有下方列出的派系或派系類別會得到此據點。</CBF_S_OwnerFraktionenTip>
+  <!-- EN: none -->
+  <CBF_S_OwnerKeine>無</CBF_S_OwnerKeine>
+  <!-- EN: No faction gets this settlement. Only quests and sites can use it. -->
+  <CBF_S_OwnerKeineTip>沒有派系會得到此據點。只有任務與地點能使用它。</CBF_S_OwnerKeineTip>
+  <!-- EN: Only quests and sites can use this settlement. -->
+  <CBF_S_OwnerKeineInfo>只有任務與地點能使用此據點。</CBF_S_OwnerKeineInfo>
   <!-- EN: No faction gets this settlement. Pick a tech level with For all factions or add a faction. -->
   <CBF_S_NoFactionFits>沒有派系獲得此據點。請為"適用於所有派系"選擇一個科技等級或新增一個派系。</CBF_S_NoFactionFits>
   <!-- EN: On -->
@@ -114,6 +128,18 @@
   <CBF_S_NFields>{0}塊農田</CBF_S_NFields>
   <!-- EN: {0} pens -->
   <CBF_S_NPens>{0}個畜欄</CBF_S_NPens>
+  <!-- EN: Type -->
+  <CBF_S_EntryType>類型</CBF_S_EntryType>
+  <!-- EN: Ideoligion -->
+  <CBF_S_EntryIdeo>理念</CBF_S_EntryIdeo>
+  <!-- EN: {0} conditions -->
+  <CBF_S_EntryIdeoCount>{0}個條件</CBF_S_EntryIdeoCount>
+  <!-- EN: Requires -->
+  <CBF_S_EntryCondition>需要</CBF_S_EntryCondition>
+  <!-- EN: + Requirement -->
+  <CBF_S_AddCondition>+ 需求</CBF_S_AddCondition>
+  <!-- EN: Show pieces -->
+  <CBF_S_ShowPieces>顯示部件</CBF_S_ShowPieces>
   <!-- EN: Piece or category -->
   <CBF_S_PieceOrCategory>部件或類別</CBF_S_PieceOrCategory>
   <!-- EN: Wt. -->
@@ -444,6 +470,12 @@
   <CBF_D_AddStairs>+ 樓梯</CBF_D_AddStairs>
   <!-- EN: This is the lowest level. It needs no stairs down. -->
   <CBF_D_LowestHint>這是最底層。它不需要下行樓梯。</CBF_D_LowestHint>
+  <!-- EN: Corridor decor -->
+  <CBF_D_Deco>走廊裝飾</CBF_D_Deco>
+  <!-- EN: Placed on the corridor floor against the wall, on both sides at random. Wall fixtures such as torches face the wall, everything else faces into the corridor. Edge and Road make no difference here. -->
+  <CBF_D_DecoTip>放在走廊地面上靠牆，隨機分布在兩側。火把這類牆面固定物朝向牆壁，其他東西朝向走廊內側。路邊與路面在這裡沒有差別。</CBF_D_DecoTip>
+  <!-- EN: Empty means the level's corridor decor applies here. -->
+  <CBF_D_SectionDecoInherit>留空表示這裡套用該層的走廊裝飾。</CBF_D_SectionDecoInherit>
   <!-- EN: Passages -->
   <CBF_D_Passages>通道</CBF_D_Passages>
   <!-- EN: + Segment -->
@@ -469,31 +501,31 @@
   <!-- EN: Builds this level several times in a row, 1 to 20. Each copy is generated anew. The spread counts every copy as a level. -->
   <CBF_D_CountTip>連續多次構建此層，1至20。每份副本都重新生成。展開時每份副本計為一層。</CBF_D_CountTip>
   <!-- EN: Sections -->
-  <CBF_D_Sections>分割槽</CBF_D_Sections>
+  <CBF_D_Sections>分區</CBF_D_Sections>
   <!-- EN: Splits the level into sections in a row. The first section holds the entrance, the last one the stairs down. Each section has its own areas and can have its own corridor segments. -->
-  <CBF_D_SectionsTip>將層拆分為連續的分割槽。第一個分割槽包含入口，最後一個包含下行樓梯。每個分割槽有自己的區域，可有自己的走廊段。</CBF_D_SectionsTip>
+  <CBF_D_SectionsTip>將層拆分為連續的分區。第一個分區包含入口，最後一個包含下行樓梯。每個分區有自己的區域，可有自己的走廊段。</CBF_D_SectionsTip>
   <!-- EN: No sections. The whole level is one section with the areas below. -->
-  <CBF_D_SectionsNone>無分割槽。整層為一個分割槽，包含下列區域。</CBF_D_SectionsNone>
+  <CBF_D_SectionsNone>無分區。整層為一個分區，包含下列區域。</CBF_D_SectionsNone>
   <!-- EN: + Section -->
-  <CBF_D_AddSection>+ 分割槽</CBF_D_AddSection>
+  <CBF_D_AddSection>+ 分區</CBF_D_AddSection>
   <!-- EN: The first section takes over the areas of the level. -->
-  <CBF_D_AddSectionFirstTip>第一個分割槽接管該層的區域。</CBF_D_AddSectionFirstTip>
+  <CBF_D_AddSectionFirstTip>第一個分區接管該層的區域。</CBF_D_AddSectionFirstTip>
   <!-- EN: Section {0} added -->
-  <CBF_D_AddedSection>已新增分割槽{0}</CBF_D_AddedSection>
+  <CBF_D_AddedSection>已新增分區{0}</CBF_D_AddedSection>
   <!-- EN: Section {0} removed -->
-  <CBF_D_RemovedSection>已移除分割槽{0}</CBF_D_RemovedSection>
+  <CBF_D_RemovedSection>已移除分區{0}</CBF_D_RemovedSection>
   <!-- EN: Section {0} moved -->
-  <CBF_D_MovedSection>已移動分割槽{0}</CBF_D_MovedSection>
+  <CBF_D_MovedSection>已移動分區{0}</CBF_D_MovedSection>
   <!-- EN: Remove section {0}? Its areas hold {1} entries. -->
-  <CBF_D_DeleteSectionAsk>移除分割槽{0}？其區域包含{1}個條目。</CBF_D_DeleteSectionAsk>
+  <CBF_D_DeleteSectionAsk>移除分區{0}？其區域包含{1}個條目。</CBF_D_DeleteSectionAsk>
   <!-- EN: Name of the section -->
-  <CBF_D_RenameSection>分割槽名稱</CBF_D_RenameSection>
+  <CBF_D_RenameSection>分區名稱</CBF_D_RenameSection>
   <!-- EN: Remove section -->
-  <CBF_D_RemoveSection>移除分割槽</CBF_D_RemoveSection>
+  <CBF_D_RemoveSection>移除分區</CBF_D_RemoveSection>
   <!-- EN: Move this section one towards the entrance. -->
-  <CBF_D_SectionUpTip>將此分割槽向入口方向移動一格。</CBF_D_SectionUpTip>
+  <CBF_D_SectionUpTip>將此分區向入口方向移動一格。</CBF_D_SectionUpTip>
   <!-- EN: Move this section one towards the stairs down. -->
-  <CBF_D_SectionDownTip>將此分割槽向樓梯方向移動一格。</CBF_D_SectionDownTip>
+  <CBF_D_SectionDownTip>將此分區向樓梯方向移動一格。</CBF_D_SectionDownTip>
   <!-- EN: {0} area(s) -->
   <CBF_D_SectionInfo>{0}個區域</CBF_D_SectionInfo>
   <!-- EN: entrance -->
@@ -501,9 +533,9 @@
   <!-- EN: stairs down -->
   <CBF_D_SectionStairs>下行樓梯</CBF_D_SectionStairs>
   <!-- EN: Corridor segments of this section -->
-  <CBF_D_SectionCorridors>本分割槽走廊段</CBF_D_SectionCorridors>
+  <CBF_D_SectionCorridors>本分區走廊段</CBF_D_SectionCorridors>
   <!-- EN: None set: the section uses the corridor segments of the level. -->
-  <CBF_D_SectionCorridorsInherit>未設定：分割槽使用該層的走廊段。</CBF_D_SectionCorridorsInherit>
+  <CBF_D_SectionCorridorsInherit>未設定：分區使用該層的走廊段。</CBF_D_SectionCorridorsInherit>
   <!-- EN: Priority -->
   <CBF_S_Priority>優先順序</CBF_S_Priority>
   <!-- EN: Which entry gets space first. With equal priority the previous order applies (minimum count, size). Low entries may stay below their minimum when space runs out. -->
@@ -567,7 +599,7 @@
   <!-- EN: {0}: below its minimum of {3} in {1} of {2} runs -->
   <CBF_Pr_OmittedLine>{0}：在{1} / {2}次執行中低於最小值{3}</CBF_Pr_OmittedLine>
   <!-- EN: Red: left out in at least half of the runs. Lower its minimum, set it to Low or move it to a ward with more room. -->
-  <CBF_Pr_OmittedHint>紅色：在至少一半的執行中被遺漏。降低其最小值、設為低或移到空間更大的分割槽。</CBF_Pr_OmittedHint>
+  <CBF_Pr_OmittedHint>紅色：在至少一半的執行中被遺漏。降低其最小值、設為低或移到空間更大的分區。</CBF_Pr_OmittedHint>
   <!-- EN: Planner notes -->
   <CBF_Pr_Notes>規劃器備註</CBF_Pr_Notes>
   <!-- EN: No notes. -->
@@ -607,17 +639,17 @@
   <!-- EN: Not available for dungeons. Use Preview for them. -->
   <CBF_Pr_NoDungeon>不適用於地下城。請使用預覽。</CBF_Pr_NoDungeon>
   <!-- EN: This is already the first section. -->
-  <CBF_D_SectionFirst>這已是第一個分割槽。</CBF_D_SectionFirst>
+  <CBF_D_SectionFirst>這已是第一個分區。</CBF_D_SectionFirst>
   <!-- EN: This is already the last section. -->
-  <CBF_D_SectionLast>這已是最後一個分割槽。</CBF_D_SectionLast>
+  <CBF_D_SectionLast>這已是最後一個分區。</CBF_D_SectionLast>
   <!-- EN: section {0} -->
-  <CBF_D_SectionDefault>分割槽{0}</CBF_D_SectionDefault>
+  <CBF_D_SectionDefault>分區{0}</CBF_D_SectionDefault>
   <!-- EN: area -->
   <CBF_D_AreaDefault>區域</CBF_D_AreaDefault>
   <!-- EN: The level still has {0} area(s) of its own. With sections they do not apply. -->
-  <CBF_D_OrphanAreas>該層仍有{0}個自有區域。使用分割槽後它們不生效。</CBF_D_OrphanAreas>
+  <CBF_D_OrphanAreas>該層仍有{0}個自有區域。使用分區後它們不生效。</CBF_D_OrphanAreas>
   <!-- EN: Move them into the first section -->
-  <CBF_D_OrphanAreasTake>移入第一個分割槽</CBF_D_OrphanAreasTake>
+  <CBF_D_OrphanAreasTake>移入第一個分區</CBF_D_OrphanAreasTake>
   <!-- EN: Nothing yet. Entries here are placed on any level within their range, in addition to the areas. -->
   <CBF_D_SpreadNone>尚無內容。此處的條目放置在其範圍內的任意層上，作為區域的補充。</CBF_D_SpreadNone>
   <!-- EN: Levels -->
@@ -642,8 +674,8 @@
   <CBF_FieldDesc_caveWidth>區域之間洞穴通道的寬度，1至5格。每條通道在範圍內選擇寬度。</CBF_FieldDesc_caveWidth>
   <!-- EN: Share of the connections that become natural caves instead of built corridors. -->
   <CBF_FieldDesc_caveShare>連線中變成天然洞穴而非建造走廊的比例。</CBF_FieldDesc_caveShare>
-  <!-- EN: Chance for secret passages and hidden rooms at dead ends and free sockets. -->
-  <CBF_FieldDesc_secretChance>在盡頭與空閒對接點出現秘道與隱藏房間的機率。</CBF_FieldDesc_secretChance>
+  <!-- EN: Chance that a room door, which would otherwise be bricked up, gets a narrow secret passage through the rock to the nearest corridor or to the door of another room. The door becomes a secret door (material list role DOOR_SECRET). At most this share of the rooms gets one. -->
+  <CBF_FieldDesc_secretChance>原本會被封死的房門，改為有一條狹窄秘道穿過岩石通往最近走廊或另一個房間門口的機率。該門會變成暗門（材料清單角色DOOR_SECRET）。最多這個比例的房間會有秘道。</CBF_FieldDesc_secretChance>
   <!-- EN: Size of the map of this level. 0 takes the size from the layout. Ignored on the first level, it lies on the surface map. -->
   <CBF_FieldDesc_levelMapSize>此層地圖的大小。0取佈局的大小。第一層忽略此項，它位於地表地圖。</CBF_FieldDesc_levelMapSize>
   <!-- EN: Buildings the generator spreads over several levels: a total count over a range of levels. -->
@@ -1014,4 +1046,76 @@
   <CBF_D_LayoutsTip>勾選一或多種佈局。勾選多種時，每個生成的層會從中隨機抽一種。</CBF_D_LayoutsTip>
   <!-- EN: Each generated level rolls one of the ticked layouts. -->
   <CBF_D_LayoutsRandom>每個生成的層會從勾選的佈局中隨機抽一種。</CBF_D_LayoutsRandom>
+  <!-- EN: Show in Rimdex -->
+  <CBF_RimdexDefTip>在Rimdex中顯示</CBF_RimdexDefTip>
+  <!-- EN: The corridor as it is built: the segments in their order, with the corridor decor on top. A section without decor of its own shows the decor of the level. -->
+  <CBF_D_CorridorStripTip>建造出來的走廊：各走廊段依序排列，上面疊著走廊裝飾。沒有自己裝飾的分區顯示該層的裝飾。</CBF_D_CorridorStripTip>
+  <!-- EN: Entrance: the way in lies in this section. On the first level that is the entrance from the surface, on lower levels the stairs up.\nStairs down: the stairs to the next level are built in this section.\nThe first section always holds the entrance, the last one the stairs down. The arrows change the order. -->
+  <CBF_D_SectionRolesTip>入口：進入的通道位於此分區。第一層是從地表進入的入口，較低的層則是上行樓梯。\n下行樓梯：通往下一層的樓梯建在此分區。\n第一個分區一律放入口，最後一個放下行樓梯。箭頭可調整順序。</CBF_D_SectionRolesTip>
+  <!-- EN: Power -->
+  <CBF_S_TabPower>電力</CBF_S_TabPower>
+  <!-- EN: Power balance of the plan for powered defences: turret load, safe generation, storage. Minimum: every slot with the most frugal piece at its minimum count. Maximum: every slot with the hungriest piece at its maximum count. -->
+  <CBF_S_TabPowerTip>計劃中需電防禦設施的電力平衡：砲塔負載、穩定發電、儲電。最小值：每個欄位都用最省電的部件且為最低數量。最大值：每個欄位都用最耗電的部件且為最高數量。</CBF_S_TabPowerTip>
+  <!-- EN: Turret load -->
+  <CBF_S_PowerLoad>砲塔負載</CBF_S_PowerLoad>
+  <!-- EN: Sum of all powered defences: turrets, buildings in the Security category and shield generators. -->
+  <CBF_S_PowerLoadTip>所有需電防禦設施的總和：砲塔、Security類別中的建築與護盾產生器。</CBF_S_PowerLoadTip>
+  <!-- EN: towers estimated: {0} to {1} -->
+  <CBF_S_PowerTowers>預估塔樓：{0}至{1}座</CBF_S_PowerTowers>
+  <!-- EN: Towers without a fixed count are placed by the planner along the wall. Their number is estimated from the core size: {0} to {1}. -->
+  <CBF_S_PowerTowersTip>沒有固定數量的塔樓由規劃器沿城牆放置。數量依核心大小預估：{0}至{1}座。</CBF_S_PowerTowersTip>
+  <!-- EN: Safe generation -->
+  <CBF_S_PowerSafe>穩定發電</CBF_S_PowerSafe>
+  <!-- EN: Generators that run day and night: fuel generators and fixed plants. Solar and wind do not count. -->
+  <CBF_S_PowerSafeTip>日夜運轉的發電機：燃料發電機與固定式發電廠。太陽能與風力不算。</CBF_S_PowerSafeTip>
+  <!-- EN: Solar and wind -->
+  <CBF_S_PowerSolarWind>太陽能與風力</CBF_S_PowerSolarWind>
+  <!-- EN: Not counted as safe generation. Solar delivers nothing at night, wind depends on the weather. -->
+  <CBF_S_PowerSolarWindTip>不算作穩定發電。太陽能晚上沒有輸出，風力取決於天氣。</CBF_S_PowerSolarWindTip>
+  <!-- EN: solar up to {0} W by day, 0 W at night; wind 0 to {1} W -->
+  <CBF_S_PowerSolarWindValue>太陽能白天最多{0} W，夜間0 W；風力0至{1} W</CBF_S_PowerSolarWindValue>
+  <!-- EN: Storage -->
+  <CBF_S_PowerStorage>儲電</CBF_S_PowerStorage>
+  <!-- EN: Sum of the battery capacity. -->
+  <CBF_S_PowerStorageTip>電池容量總和。</CBF_S_PowerStorageTip>
+  <!-- EN: Battery runtime -->
+  <CBF_S_PowerRuntime>電池續航</CBF_S_PowerRuntime>
+  <!-- EN: How long the batteries carry the turret load on their own. Best case: most storage, lowest load. Worst case: least storage, highest load. -->
+  <CBF_S_PowerRuntimeTip>電池單獨撐住砲塔負載的時間。最佳情況：最多儲電、最低負載。最差情況：最少儲電、最高負載。</CBF_S_PowerRuntimeTip>
+  <!-- EN: {0} days best case, {1} days worst case -->
+  <CBF_S_PowerRuntimeValue>最佳情況{0}天，最差情況{1}天</CBF_S_PowerRuntimeValue>
+  <!-- EN: no load in the best case, {0} days worst case -->
+  <CBF_S_PowerRuntimeNoLoadValue>最佳情況無負載，最差情況{0}天</CBF_S_PowerRuntimeNoLoadValue>
+  <!-- EN: {0} to {1} W -->
+  <CBF_S_PowerRangeW>{0}至{1} W</CBF_S_PowerRangeW>
+  <!-- EN: {0} W -->
+  <CBF_S_PowerRangeWOne>{0} W</CBF_S_PowerRangeWOne>
+  <!-- EN: {0} to {1} Wd -->
+  <CBF_S_PowerRangeWd>{0}至{1} Wd</CBF_S_PowerRangeWd>
+  <!-- EN: {0} Wd -->
+  <CBF_S_PowerRangeWdOne>{0} Wd</CBF_S_PowerRangeWdOne>
+  <!-- EN: Added automatically -->
+  <CBF_S_PowerAuto>自動加入</CBF_S_PowerAuto>
+  <!-- EN: After building, the planner adds generators until safe generation reaches {0} times the turret load, and above {3} W of load up to {2} battery stores until the storage lasts {1} days. The figures here are an estimate: it counts the smallest generator and battery store piece, while the planner may use other pieces at build time if space is short. -->
+  <CBF_S_PowerAutoTip>建造完成後，規劃器會加入發電機直到穩定發電達到砲塔負載的{0}倍；負載高於{3} W時，再加入最多{2}組電池儲存，直到儲電可撐{1}天。這裡的數字是估算：它以最小的發電機與電池儲存部件計算，而規劃器在空間不足時，建造時可能改用其他部件。</CBF_S_PowerAutoTip>
+  <!-- EN: nothing, the plan covers itself -->
+  <CBF_S_PowerAutoNone>無，計劃本身已足夠</CBF_S_PowerAutoNone>
+  <!-- EN: nothing, no suitable generator or battery store piece is available -->
+  <CBF_S_PowerAutoUnavailable>無，沒有合適的發電機或電池儲存部件</CBF_S_PowerAutoUnavailable>
+  <!-- EN: estimate, worst case {0} W missing: generator pieces: {1}, single generators: {2}, battery stores: {3} -->
+  <CBF_S_PowerAutoValue>估算，最差情況缺{0} W：發電機部件：{1}，單一發電機：{2}，電池儲存：{3}</CBF_S_PowerAutoValue>
+  <!-- EN: Even with the automatic additions the power is not enough in the worst case, plan more generators. -->
+  <CBF_S_PowerWarnGen>即使有自動加入，最差情況下電力仍然不足，請規劃更多發電機。</CBF_S_PowerWarnGen>
+  <!-- EN: Even with the automatic additions the storage lasts less than {0} days in the worst case, plan batteries. -->
+  <CBF_S_PowerWarnBattery>即使有自動加入，最差情況下儲電仍撐不到{0}天，請規劃電池。</CBF_S_PowerWarnBattery>
+  <!-- EN: No powered defences in the plan. -->
+  <CBF_S_PowerNone>計劃中沒有需電的防禦設施。</CBF_S_PowerNone>
+  <!-- EN: Preview -->
+  <CBF_S_PowerPreview>預覽</CBF_S_PowerPreview>
+  <!-- EN: Counted in the map preview above, before the automatic additions. -->
+  <CBF_S_PowerPreviewTip>依上方地圖預覽計算，不含自動加入的部分。</CBF_S_PowerPreviewTip>
+  <!-- EN: towers: {0}, turret load: {1} W, safe: {2} W, storage: {3} Wd -->
+  <CBF_S_PowerPreviewValue>塔樓：{0}，砲塔負載：{1} W，穩定：{2} W，儲電：{3} Wd</CBF_S_PowerPreviewValue>
+  <!-- EN: Power balance could not be calculated: {0} -->
+  <CBF_S_PowerFailed>無法計算電力平衡：{0}</CBF_S_PowerFailed>
 </LanguageData>
