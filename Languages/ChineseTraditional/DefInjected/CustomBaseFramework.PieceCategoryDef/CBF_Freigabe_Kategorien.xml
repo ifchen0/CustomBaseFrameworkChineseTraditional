@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: alchemy workshop -->
-  <CBF_MO_AlchemyWorkshop.label>鍊金工坊</CBF_MO_AlchemyWorkshop.label>
+  <CBF_MO_AlchemyWorkshop.label>煉金工坊</CBF_MO_AlchemyWorkshop.label>
   <!-- EN: crypt entrance -->
   <CBF_MO_Annex_CryptEntrance.label>墓穴入口</CBF_MO_Annex_CryptEntrance.label>
   <!-- EN: guild annex -->
-  <CBF_MO_Annex_Guild.label>行會附屬建築</CBF_MO_Annex_Guild.label>
+  <CBF_MO_Annex_Guild.label>公會附屬建築</CBF_MO_Annex_Guild.label>
   <!-- EN: hunting annex -->
   <CBF_MO_Annex_Hunting.label>狩獵附屬建築</CBF_MO_Annex_Hunting.label>
   <!-- EN: military annex -->
@@ -15,7 +15,7 @@
   <!-- EN: rural annex -->
   <CBF_MO_Annex_Rural.label>鄉村附屬建築</CBF_MO_Annex_Rural.label>
   <!-- EN: smithy annex -->
-  <CBF_MO_Annex_Smithy.label>鐵匠附屬建築</CBF_MO_Annex_Smithy.label>
+  <CBF_MO_Annex_Smithy.label>鐵匠鋪附屬建築</CBF_MO_Annex_Smithy.label>
   <!-- EN: tavern annex -->
   <CBF_MO_Annex_Tavern.label>酒館附屬建築</CBF_MO_Annex_Tavern.label>
   <!-- EN: tent annex -->
@@ -27,31 +27,31 @@
   <!-- EN: CBF_MO_Annex_Trophy -->
   <CBF_MO_Annex_Trophy.label>戰利品附屬建築</CBF_MO_Annex_Trophy.label>
   <!-- EN: wood annex -->
-  <CBF_MO_Annex_Wood.label>木結構附屬建築</CBF_MO_Annex_Wood.label>
+  <CBF_MO_Annex_Wood.label>木材附屬建築</CBF_MO_Annex_Wood.label>
   <!-- EN: yard annex -->
   <CBF_MO_Annex_Yard.label>庭院附屬建築</CBF_MO_Annex_Yard.label>
   <!-- EN: apothecary -->
-  <CBF_MO_Apothecary.label>藥劑鋪</CBF_MO_Apothecary.label>
+  <CBF_MO_Apothecary.label>藥舖</CBF_MO_Apothecary.label>
   <!-- EN: armory -->
   <CBF_MO_Armory.label>武器庫</CBF_MO_Armory.label>
   <!-- EN: armoury -->
-  <CBF_MO_Armoury.label>盔甲庫</CBF_MO_Armoury.label>
+  <CBF_MO_Armoury.label>軍械庫</CBF_MO_Armoury.label>
   <!-- EN: assembly tent -->
   <CBF_MO_AssemblyTent.label>集會帳篷</CBF_MO_AssemblyTent.label>
   <!-- EN: bakery -->
-  <CBF_MO_Bakery.label>麵包房</CBF_MO_Bakery.label>
+  <CBF_MO_Bakery.label>麵包坊</CBF_MO_Bakery.label>
   <!-- EN: barn -->
   <CBF_MO_Barn.label>穀倉</CBF_MO_Barn.label>
   <!-- EN: barracks -->
   <CBF_MO_Barracks.label>兵營</CBF_MO_Barracks.label>
   <!-- EN: boathouse -->
-  <CBF_MO_Boathouse.label>船棚</CBF_MO_Boathouse.label>
+  <CBF_MO_Boathouse.label>船屋</CBF_MO_Boathouse.label>
   <!-- EN: brewery -->
-  <CBF_MO_Brewery.label>釀酒坊</CBF_MO_Brewery.label>
+  <CBF_MO_Brewery.label>釀酒廠</CBF_MO_Brewery.label>
   <!-- EN: burgher house -->
-  <CBF_MO_BurgherHouse.label>市民宅邸</CBF_MO_BurgherHouse.label>
+  <CBF_MO_BurgherHouse.label>市民住宅</CBF_MO_BurgherHouse.label>
   <!-- EN: butchery -->
-  <CBF_MO_Butchery.label>屠宰場</CBF_MO_Butchery.label>
+  <CBF_MO_Butchery.label>肉舖</CBF_MO_Butchery.label>
   <!-- EN: campfire -->
   <CBF_MO_Campfire.label>營火</CBF_MO_Campfire.label>
   <!-- EN: catapult emplacement -->
@@ -59,45 +59,45 @@
   <!-- EN: church -->
   <CBF_MO_Church.label>教堂</CBF_MO_Church.label>
   <!-- EN: cook hut -->
-  <CBF_MO_CookHut.label>炊事棚</CBF_MO_CookHut.label>
+  <CBF_MO_CookHut.label>炊事小屋</CBF_MO_CookHut.label>
   <!-- EN: cottage -->
-  <CBF_MO_Cottage.label>農舍</CBF_MO_Cottage.label>
+  <CBF_MO_Cottage.label>小屋</CBF_MO_Cottage.label>
   <!-- EN: farmstead -->
   <CBF_MO_Farmstead.label>農莊</CBF_MO_Farmstead.label>
   <!-- EN: fisher hut -->
   <CBF_MO_FisherHut.label>漁夫小屋</CBF_MO_FisherHut.label>
   <!-- EN: folk -->
-  <CBF_MO_Folk.label>鄉間民居</CBF_MO_Folk.label>
+  <CBF_MO_Folk.label>民宅</CBF_MO_Folk.label>
   <!-- EN: fortress gate -->
   <CBF_MO_FortressGate.label>要塞城門</CBF_MO_FortressGate.label>
   <!-- EN: fortress keep -->
-  <CBF_MO_FortressKeep.label>要塞主樓</CBF_MO_FortressKeep.label>
+  <CBF_MO_FortressKeep.label>要塞主堡</CBF_MO_FortressKeep.label>
   <!-- EN: fortress tower -->
   <CBF_MO_FortressTower.label>要塞塔樓</CBF_MO_FortressTower.label>
   <!-- EN: gap yard -->
-  <CBF_MO_GapYard.label>缺口庭院</CBF_MO_GapYard.label>
+  <CBF_MO_GapYard.label>空地庭院</CBF_MO_GapYard.label>
   <!-- EN: gatehouse -->
   <CBF_MO_Gatehouse.label>門樓</CBF_MO_Gatehouse.label>
   <!-- EN: graveyard -->
   <CBF_MO_Graveyard.label>墓地</CBF_MO_Graveyard.label>
   <!-- EN: guild -->
-  <CBF_MO_Guild.label>行會大廳</CBF_MO_Guild.label>
+  <CBF_MO_Guild.label>公會</CBF_MO_Guild.label>
   <!-- EN: CBF_MO_GuildFortress -->
-  <CBF_MO_GuildFortress.label>行會堡壘</CBF_MO_GuildFortress.label>
+  <CBF_MO_GuildFortress.label>公會要塞</CBF_MO_GuildFortress.label>
   <!-- EN: harbor store -->
   <CBF_MO_HarborStore.label>港口倉庫</CBF_MO_HarborStore.label>
   <!-- EN: harbormaster -->
   <CBF_MO_Harbormaster.label>港務長</CBF_MO_Harbormaster.label>
   <!-- EN: hunting lodge -->
-  <CBF_MO_HuntingLodge.label>獵屋</CBF_MO_HuntingLodge.label>
+  <CBF_MO_HuntingLodge.label>狩獵小屋</CBF_MO_HuntingLodge.label>
   <!-- EN: hut -->
-  <CBF_MO_Hut.label>小屋</CBF_MO_Hut.label>
+  <CBF_MO_Hut.label>簡陋小屋</CBF_MO_Hut.label>
   <!-- EN: jetty -->
-  <CBF_MO_Jetty.label>棧橋</CBF_MO_Jetty.label>
+  <CBF_MO_Jetty.label>碼頭</CBF_MO_Jetty.label>
   <!-- EN: joinery -->
-  <CBF_MO_Joinery.label>細木工坊</CBF_MO_Joinery.label>
+  <CBF_MO_Joinery.label>木工坊</CBF_MO_Joinery.label>
   <!-- EN: keep -->
-  <CBF_MO_Keep.label>主樓</CBF_MO_Keep.label>
+  <CBF_MO_Keep.label>主堡</CBF_MO_Keep.label>
   <!-- EN: library -->
   <CBF_MO_Library.label>圖書館</CBF_MO_Library.label>
   <!-- EN: living tent -->
@@ -107,9 +107,9 @@
   <!-- EN: main tent -->
   <CBF_MO_MainTent.label>主帳篷</CBF_MO_MainTent.label>
   <!-- EN: market square -->
-  <CBF_MO_MarketSquare.label>集市場</CBF_MO_MarketSquare.label>
+  <CBF_MO_MarketSquare.label>市集廣場</CBF_MO_MarketSquare.label>
   <!-- EN: market stall -->
-  <CBF_MO_MarketStall.label>集市攤位</CBF_MO_MarketStall.label>
+  <CBF_MO_MarketStall.label>市集攤位</CBF_MO_MarketStall.label>
   <!-- EN: mill -->
   <CBF_MO_Mill.label>磨坊</CBF_MO_Mill.label>
   <!-- EN: mine hut -->
@@ -119,35 +119,35 @@
   <!-- EN: noble house -->
   <CBF_MO_NobleHouse.label>貴族宅邸</CBF_MO_NobleHouse.label>
   <!-- EN: bunkhouse outpost -->
-  <CBF_MO_Outpost_Bunkhouse.label>前哨·宿舍</CBF_MO_Outpost_Bunkhouse.label>
+  <CBF_MO_Outpost_Bunkhouse.label>哨站簡易宿舍</CBF_MO_Outpost_Bunkhouse.label>
   <!-- EN: gathering spot outpost -->
-  <CBF_MO_Outpost_GatheringSpot.label>前哨·集合點</CBF_MO_Outpost_GatheringSpot.label>
+  <CBF_MO_Outpost_GatheringSpot.label>哨站集會點</CBF_MO_Outpost_GatheringSpot.label>
   <!-- EN: guest house outpost -->
-  <CBF_MO_Outpost_GuestHouse.label>前哨·客舍</CBF_MO_Outpost_GuestHouse.label>
+  <CBF_MO_Outpost_GuestHouse.label>哨站客房</CBF_MO_Outpost_GuestHouse.label>
   <!-- EN: gun emplacement outpost -->
-  <CBF_MO_Outpost_GunEmplacement.label>前哨·砲位</CBF_MO_Outpost_GunEmplacement.label>
+  <CBF_MO_Outpost_GunEmplacement.label>哨站砲位</CBF_MO_Outpost_GunEmplacement.label>
   <!-- EN: library outpost -->
-  <CBF_MO_Outpost_Library.label>前哨·圖書館</CBF_MO_Outpost_Library.label>
+  <CBF_MO_Outpost_Library.label>哨站圖書館</CBF_MO_Outpost_Library.label>
   <!-- EN: market stall outpost -->
-  <CBF_MO_Outpost_MarketStall.label>前哨·集市攤位</CBF_MO_Outpost_MarketStall.label>
+  <CBF_MO_Outpost_MarketStall.label>哨站市集攤位</CBF_MO_Outpost_MarketStall.label>
   <!-- EN: slaughterhouse outpost -->
-  <CBF_MO_Outpost_Slaughterhouse.label>前哨·屠宰房</CBF_MO_Outpost_Slaughterhouse.label>
+  <CBF_MO_Outpost_Slaughterhouse.label>哨站屠宰場</CBF_MO_Outpost_Slaughterhouse.label>
   <!-- EN: storehouse outpost -->
-  <CBF_MO_Outpost_Storehouse.label>前哨·儲藏屋</CBF_MO_Outpost_Storehouse.label>
+  <CBF_MO_Outpost_Storehouse.label>哨站倉庫</CBF_MO_Outpost_Storehouse.label>
   <!-- EN: study outpost -->
-  <CBF_MO_Outpost_Study.label>前哨·書房</CBF_MO_Outpost_Study.label>
+  <CBF_MO_Outpost_Study.label>哨站書房</CBF_MO_Outpost_Study.label>
   <!-- EN: tannery outpost -->
-  <CBF_MO_Outpost_Tannery.label>前哨·鞣革坊</CBF_MO_Outpost_Tannery.label>
+  <CBF_MO_Outpost_Tannery.label>哨站製革坊</CBF_MO_Outpost_Tannery.label>
   <!-- EN: palisade gatehouse -->
   <CBF_MO_PalisadeGatehouse.label>木柵門樓</CBF_MO_PalisadeGatehouse.label>
   <!-- EN: palisade tower -->
   <CBF_MO_PalisadeTower.label>木柵塔樓</CBF_MO_PalisadeTower.label>
   <!-- EN: public -->
-  <CBF_MO_Public.label>公共建築</CBF_MO_Public.label>
+  <CBF_MO_Public.label>公共</CBF_MO_Public.label>
   <!-- EN: recreation -->
   <CBF_MO_Recreation.label>娛樂</CBF_MO_Recreation.label>
   <!-- EN: scriptorium -->
-  <CBF_MO_Scriptorium.label>繕寫室</CBF_MO_Scriptorium.label>
+  <CBF_MO_Scriptorium.label>抄寫室</CBF_MO_Scriptorium.label>
   <!-- EN: shrine -->
   <CBF_MO_Shrine.label>神龕</CBF_MO_Shrine.label>
   <!-- EN: smithy -->
@@ -155,9 +155,9 @@
   <!-- EN: square decor -->
   <CBF_MO_SquareDecor.label>廣場裝飾</CBF_MO_SquareDecor.label>
   <!-- EN: tailor shop -->
-  <CBF_MO_TailorShop.label>裁縫鋪</CBF_MO_TailorShop.label>
+  <CBF_MO_TailorShop.label>裁縫店</CBF_MO_TailorShop.label>
   <!-- EN: tannery -->
-  <CBF_MO_Tannery.label>鞣革坊</CBF_MO_Tannery.label>
+  <CBF_MO_Tannery.label>製革坊</CBF_MO_Tannery.label>
   <!-- EN: tavern -->
   <CBF_MO_Tavern.label>酒館</CBF_MO_Tavern.label>
   <!-- EN: tent -->
@@ -167,11 +167,11 @@
   <!-- EN: town tower -->
   <CBF_MO_TownTower.label>城鎮塔樓</CBF_MO_TownTower.label>
   <!-- EN: CBF_MO_Treasury -->
-  <CBF_MO_Treasury.label>國庫</CBF_MO_Treasury.label>
+  <CBF_MO_Treasury.label>金庫</CBF_MO_Treasury.label>
   <!-- EN: wall access -->
-  <CBF_MO_WallAccess.label>城牆入口</CBF_MO_WallAccess.label>
+  <CBF_MO_WallAccess.label>城牆通道</CBF_MO_WallAccess.label>
   <!-- EN: warehouse -->
-  <CBF_MO_Warehouse.label>貨倉</CBF_MO_Warehouse.label>
+  <CBF_MO_Warehouse.label>倉庫</CBF_MO_Warehouse.label>
   <!-- EN: weapon dealer -->
   <CBF_MO_WeaponDealer.label>武器商</CBF_MO_WeaponDealer.label>
   <!-- EN: well -->
@@ -179,7 +179,7 @@
   <!-- EN: winery -->
   <CBF_MO_Winery.label>葡萄酒坊</CBF_MO_Winery.label>
   <!-- EN: work tent -->
-  <CBF_MO_WorkTent.label>勞作帳篷</CBF_MO_WorkTent.label>
+  <CBF_MO_WorkTent.label>工作帳篷</CBF_MO_WorkTent.label>
   <!-- EN: workshop -->
   <CBF_MO_Workshop.label>工坊</CBF_MO_Workshop.label>
 </LanguageData>

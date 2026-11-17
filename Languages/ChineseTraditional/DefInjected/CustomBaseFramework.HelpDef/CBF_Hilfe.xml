@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: An anchor is a marked area inside a piece where something happens once the piece is placed.\n\nConnect anchors tie the piece to its surroundings. Wall is where the town wall docks, Outside tells which side faces out, Annex is where annexes attach.\n\nLoot anchors place objects from an object list and fill them from a loot table. Object anchors place objects from an object list with a chance, without loot. Pawn anchors bring in people or animals from a pawn list, with a role that decides whether they stay and fight or run.\n\nAn anchor whose list does not exist marks the piece red in the editor. -->
-  <CBF_Help_Anchors.description>錨點是部件中標記的區域，部件落地時在其處發生某事。\n\n連線錨點把部件與其環境相連。Wall是城牆對接處，Outside指明朝外一側，Annex是附屬建築的位置。\n\n戰利品錨點放置物件清單的物品並按戰利品表填充。物件錨點按機率放置物件清單的物品，無戰利品。角色錨點從單位清單帶來人或動物，帶決定其留守作戰或逃跑的角色。\n\n錨點引用不存在的清單時，編輯器將該部件標紅。</CBF_Help_Anchors.description>
+  <CBF_Help_Anchors.description>錨點是部件內的一塊標記區域，部件放置後會在那裡發生某些事。\n\n連線錨點把部件與周遭連接起來。Wall是城牆接合的位置，Outside指出哪一側朝外，Annex是附屬建築連接的位置。\n\n戰利品錨點放置物品清單中的物品，並用戰利品表填入內容。物品錨點依機率放置物品清單中的物品，不含戰利品。角色錨點從角色清單帶入人或動物，並附帶一個角色定位，決定他們是留下戰鬥還是逃跑。\n\n錨點使用的清單若不存在，編輯器會把該部件標成紅色。</CBF_Help_Anchors.description>
   <!-- EN: Anchors -->
   <CBF_Help_Anchors.label>錨點</CBF_Help_Anchors.label>
   <!-- EN: RimWorld scatters ancient dangers when it builds a map you settle on: a sealed structure next to rock, with ancient caskets and sometimes sleeping mechs or insects. CBF can put its own pieces in that place.\n\nAn ancient danger is a normal piece in a category under CBF_AncientDanger (every scenario) or under CBF_AncientDangerScenario (only scenarios that name that category). There is no plan; the piece is stamped as it is.\n\nFor each site RimWorld rolls a size of 15 to 20 cells per side. The piece is set in the middle. A piece of at most 15 × 15 fits every site, a larger one only the sites that are big enough, and a piece larger than 20 × 20 is never used. If the piece may turn, the better direction counts.\n\nAncient cryptosleep caskets in the piece are filled like RimWorld does it. Spawn anchors bring their pawn list; give that list the role Sleeper so the pawns sleep until the colony comes close. Fill anchors bring loot as usual. The warning letter is RimWorld's own. -->
@@ -9,7 +9,7 @@
   <!-- EN: Ancient danger site -->
   <CBF_Help_AncientDangerSite.label>遠古威脅地點</CBF_Help_AncientDangerSite.label>
   <!-- EN: An annex is a small piece that attaches to a house: a stable, a woodshed, a beer garden. Everything about it is data in the categories and pieces, nothing is fixed in code.\n\nAnnex categories on the house's category say which annexes may attach to it. An empty list takes the list of the parent category.\n\nChance per anchor is the chance that an annex is built at one annex anchor of the house, default 0.6. At most caps the number of annexes per house, default 2.\n\nRepeatable belongs on the category of the annex itself. Yes allows the same annex several times on one house.\n\nWeight decides which annex is picked when several fit. For annexes, a weight below 1 is also the chance that this annex is tried at all.\n\nThe anchor is a Connect anchor named Annex. On the house it lies on the outer wall. On the annex it lies either on its outer wall, when both share that wall, or one cell outside its shape, when the annex only touches the house. -->
-  <CBF_Help_Annexes.description>附屬建築是附加到房屋的小部件：馬廄、柴棚、啤酒花園。一切均為類別與部件中的資料，無程式碼固定。\n\n房屋類別上的附屬建築類別說明允許哪些附屬建築。空清單繼承父級類別。\n\n每錨點機率是房屋附屬錨點上生成附屬建築的機率，預設0.6。每棟房屋的附屬建築數量有上限，預設2。\n\nMultiple設在附屬建築類別上，允許同一附屬建築多次附加到同一房屋。\n\n權重決定多個適配時選哪個。附屬建築的權重小於1時也是嘗試機率。\n\n錨點是名為Annex的連線錨點。在房屋中位於外牆，在附屬建築中位於兩者共牆處，或形狀外一格（若僅毗鄰）。</CBF_Help_Annexes.description>
+  <CBF_Help_Annexes.description>附屬建築是附在房屋上的小部件：馬廄、柴房、啤酒花園。它的一切都是類別與部件中的資料，程式碼裡沒有任何寫死的東西。\n\n房屋類別上的附屬建築類別決定哪些附屬建築可以附在它上面。清單留空則使用上層類別的清單。\n\n每錨點機率是在房屋的一個附屬建築錨點上建造附屬建築的機率，預設0.6。最多限制每棟房屋的附屬建築數量，預設2。\n\n可重複設定在附屬建築本身的類別上。設為是，同一種附屬建築就能在一棟房屋上出現多次。\n\n有多個附屬建築符合時，由權重決定選哪一個。對附屬建築而言，低於1的權重同時也是這個附屬建築被嘗試的機率。\n\n錨點是名為Annex的連線錨點。在房屋上，它位於外牆上。在附屬建築上，若兩者共用那道牆，它位於附屬建築的外牆上；若附屬建築只是與房屋相接，它位於附屬建築形狀外一格。</CBF_Help_Annexes.description>
   <!-- EN: Annexes -->
   <CBF_Help_Annexes.label>附屬建築</CBF_Help_Annexes.label>
   <!-- EN: A block is a row of buildings that stand wall to wall.\n\nBlock limit: how many buildings of this category at most form one block. Empty means 3.\n\nMerge: whether buildings of this category join their neighbours into one block. Yes forces it, No forbids it.\n\nThe generator reads both values only from the building's own first category, not from its parents. -->
@@ -21,9 +21,9 @@
   <!-- EN: Used in -->
   <CBF_Help_CategoryUsedIn.label>使用於</CBF_Help_CategoryUsedIn.label>
   <!-- EN: A district is a group of buildings inside a ward, for example a market quarter or a row of farmsteads.\n\nEach row is either a category or one specific piece, with a count. Priority decides which row gets room first; Low rows may stay below their minimum when the space runs out. A Filler row fills the room left at the end. Weight only counts for a single piece, against the other pieces of its category.\n\nFields and pens belong to a district too. That is how the generator knows a farmstead gets fields and a tavern does not.\n\nLocation of the district sets where it starts: near the center, near the gate, near the wall or on the main road. Nothing ticked means a random spot away from the other districts. -->
-  <CBF_Help_Districts.description>街區是城區內的一組建築，例如市集區或一排農莊。\n\n每一行是一個類別或一個特定部件，附帶數量。優先順序決定哪一行先分到空間；空間不足時，「低」的行可能低於其最低數量。填充行在最後填滿剩下的空間。權重只對單一部件有效，相對於其類別中的其他部件。\n\n農田與畜欄也屬於街區。這樣生成器才知道農莊要有農田，而酒館不要。\n\n街區位置決定它從哪裡開始：靠近中心、靠近城門、靠近城牆或沿主要道路。都不勾選表示遠離其他街區的隨機位置。</CBF_Help_Districts.description>
+  <CBF_Help_Districts.description>街區是城區內的一組建築，例如市集區或一排農莊。\n\n每一行是一個類別或一個特定部件，附帶數量。優先順序決定哪一行先分到空間；空間不足時，「低」的行可能低於其最低數量。填充行在最後填滿剩下的空間。權重只對單一部件有效，相對於其類別中的其他部件。\n\n農田與飼養圈也屬於街區。這樣生成器才知道農莊要有農田，而酒館不要。\n\n街區位置決定它從哪裡開始：靠近中心、靠近城門、靠近城牆或沿主要道路。都不勾選表示遠離其他街區的隨機位置。</CBF_Help_Districts.description>
   <!-- EN: Districts -->
-  <CBF_Help_Districts.label>區</CBF_Help_Districts.label>
+  <CBF_Help_Districts.label>街區</CBF_Help_Districts.label>
   <!-- EN: The rooms that connect this level to the outside and to the next level.\n\nEntrance, only on the first level: the room with the way in from the surface. Empty means the generator opens a plain tunnel into the mountain. On lower levels the stairs up are placed exactly where the stairs down of the level above stand.\n\nStairs down: the room with the stairs to the next level. Every level except the lowest needs one. A stair piece needs a Connect anchor named StairsDown, the way up one named StairsUp; it marks where the passage between the maps lies.\n\nWith sections, the entrance lies in the first section and the stairs down in the last. -->
   <CBF_Help_DungeonAccess.description>連接此層與外界及下一層的房間。\n\n入口（僅第一層）：有從地表進入通道的房間。留空表示生成器在山中開一條普通隧道。較低的層會把上行樓梯放在上一層下行樓梯的正下方。\n\n下行樓梯：通往下一層樓梯的房間。除最底層外每層都需要一個。樓梯部件需要名為StairsDown的連線錨點，上行的則名為StairsUp；它標示地圖之間的通道位置。\n\n有分區時，入口位於第一個分區，下行樓梯位於最後一個分區。</CBF_Help_DungeonAccess.description>
   <!-- EN: Entrance and stairs -->
@@ -45,19 +45,19 @@
   <!-- EN: Sections -->
   <CBF_Help_DungeonSections.label>分區</CBF_Help_DungeonSections.label>
   <!-- EN: Towers and other defensive works that sit in the wall ring.\n\nThe generator spaces them along the wall by itself, at the corners first and then along the long straight runs. How many fit follows from the length of the wall, not from a number you set here.\n\nThe size of the largest tower in this list also sets how much room the planner reserves at every corner, so a very large tower makes the whole outline coarser. -->
-  <CBF_Help_Emplacements.description>嵌入城牆環的塔樓與其他防禦建築。\n\n生成器自行沿城牆分佈，先角、後長直段。數量由城牆長度決定，而非此處數字。\n\n清單中最大塔樓也決定規劃器在各角留出的空間。非常大的塔樓會使整個輪廓更粗糙。</CBF_Help_Emplacements.description>
+  <CBF_Help_Emplacements.description>位於城牆環上的塔樓與其他防禦工事。\n\n生成器會自行沿城牆安排間距，先放轉角，再沿長直段放置。能放幾座取決於城牆長度，而不是你在這裡設定的數字。\n\n此清單中最大塔樓的尺寸也決定規劃器在每個轉角保留多少空間，因此非常大的塔樓會讓整個輪廓變得較粗略。</CBF_Help_Emplacements.description>
   <!-- EN: Field emplacements -->
-  <CBF_Help_Emplacements.label>防禦陣地</CBF_Help_Emplacements.label>
+  <CBF_Help_Emplacements.label>野戰防禦陣地</CBF_Help_Emplacements.label>
   <!-- EN: Which of your settlement plans are used when the player walks into a base of this faction.\n\nThe assignment is not stored on the faction. It is stored as factionTags inside the plan, and the generator collects every plan whose tags match the faction. Two mods can therefore both serve the same faction without either one overwriting the other.\n\nA plan that names no faction at all serves every faction. That is why a fresh plan shows up everywhere until you assign it.\n\nRemoving works only for plans attached by faction name. A plan attached through the faction category has to be detached in the plan itself. -->
-  <CBF_Help_Factions.description>玩家進入某派系基地時，你的哪些據點型別被採用。\n\n關聯在計劃的factionTags，而非派系。生成器收集每個標籤匹配的據點計劃。兩個模組可以服務同一派系而不互相覆蓋。\n\n未指名派系的計劃適用於所有派系。因此新計劃到處出現，直到你為其關聯派系。\n\n只能透過派系名稱關聯移除。透過派系類別關聯的計劃需在計劃本身解除。</CBF_Help_Factions.description>
+  <CBF_Help_Factions.description>玩家進入此派系的基地時，會使用你的哪些據點計劃。\n\n這個指派不是存在派系上，而是以factionTags的形式存在計劃中，生成器會收集所有標籤與該派系相符的計劃。因此兩個模組可以同時服務同一個派系，誰也不會覆蓋誰。\n\n完全沒有指名派系的計劃會服務所有派系。這就是為什麼新建的計劃在你指派之前會到處出現。\n\n只有依派系名稱附加的計劃可以移除。透過派系類別附加的計劃必須在計劃本身中解除。</CBF_Help_Factions.description>
   <!-- EN: Settlement plans per faction -->
-  <CBF_Help_Factions.label>每派系據點</CBF_Help_Factions.label>
+  <CBF_Help_Factions.label>各派系的據點計劃</CBF_Help_Factions.label>
   <!-- EN: The ring around this ward.\n\nWalls: the wall pieces of the ring. Several entries give a wall that varies along its length; the slider sets each entry's share.\n\nEmplacements: towers and other works in the ring. The generator spaces them by itself, corners first.\n\nGatehouses: built wherever a road crosses the wall.\n\nDoor: closes the passages through the wall. Empty uses the door of the material list.\n\nThe countryside has no ring. Modern towns use sandbags or barricades and never get gatehouses. -->
   <CBF_Help_Fortification.description>環繞此城區的外環。\n\n城牆：外環的城牆部件。多個條目會讓城牆沿長度變化；滑桿設定每個條目的比例。\n\n防禦陣地：外環上的塔樓與其他工事。生成器自行安排間距，先放轉角。\n\n門樓：建在道路穿過城牆的每個地方。\n\n門：封閉穿過城牆的通道。留空時使用材料清單中的門。\n\n鄉村沒有外環。現代城鎮使用沙包或路障，且不會有門樓。</CBF_Help_Fortification.description>
   <!-- EN: Fortification -->
   <CBF_Help_Fortification.label>防禦工事</CBF_Help_Fortification.label>
   <!-- EN: Where a road crosses the wall, a gatehouse is built.\n\nThe number follows from the roads, not from a setting. The planner lays out the approach roads first and puts a gate wherever one has to pass through the ring, then checks that every gate can actually be reached from outside.\n\nA piece used here needs a passable opening. Without one the ward is sealed and the whole layout is discarded. -->
-  <CBF_Help_Gatehouses.description>道路穿過城牆處生成門樓。\n\n數量由道路決定，而非設定。規劃器先鋪設通道，凡穿越城牆環處設門，再檢查每座門從外部可達。\n\n此處部件必須有可通行的開口。沒有它區劃即封閉，整個設計被廢棄。</CBF_Help_Gatehouses.description>
+  <CBF_Help_Gatehouses.description>道路穿過城牆的地方會建造門樓。\n\n數量取決於道路，而不是設定。規劃器先佈置通往據點的道路，在每條必須穿過城牆環的地方放置城門，再檢查每座城門是否真的能從外部到達。\n\n用在這裡的部件需要一個可通行的開口。沒有開口的話城區會被封死，整個佈局都會被捨棄。</CBF_Help_Gatehouses.description>
   <!-- EN: Gatehouses -->
   <CBF_Help_Gatehouses.label>門樓</CBF_Help_Gatehouses.label>
   <!-- EN: Where this loot table ends up in the game.\n\nDirectly part of: the tables that draw this one, with the weight they give it, or always when it sits under Always included. Click one to open it.\n\nThrough pieces in settlements: the settlement types that reach this table through their pieces, with those pieces named.\n\nThe tiles below show every piece that uses the table, directly at an anchor or through an object list. The anchors that use it are highlighted. Click a tile to open the piece. -->
@@ -125,31 +125,31 @@
   <!-- EN: Roads and ground -->
   <CBF_Help_RoadsGround.label>道路與地面</CBF_Help_RoadsGround.label>
   <!-- EN: Crop plots and animal pens for the open countryside.\n\nA crop plot is grown around a rural building, not dropped on the map at random. Which buildings get one is decided by the district the plot is listed under. Min and max bound how many plots that building may have.\n\nA pen holds one kind of animal, drawn from a unit list. The herd size is the second row, indented under the pen.\n\nBoth get a fence with one gate. Where rock or water already closes the line, no fence is built in front of it. -->
-  <CBF_Help_Rural.description>開闊鄉野的農田與畜欄。\n\n農田圍繞鄉間建築生長，不隨機放置。哪些建築獲得農田由農田所屬的區決定。Min與Max限制此建築可擁有的農田數。\n\n畜欄圈養單位清單中的一種動物。畜群大小在第二行，縮排排在畜欄下。\n\n兩者都有帶門的圍欄。岩石或水面已封閉處不建圍欄。</CBF_Help_Rural.description>
+  <CBF_Help_Rural.description>開闊鄉村的農田與飼養圈。\n\n農田是圍繞鄉村建築長出來的，不是隨機丟在地圖上。哪些建築會有農田，由列出該農田的街區決定。最小值與最大值限制該建築可以有幾塊農田。\n\n一個飼養圈飼養一種動物，從角色清單中抽出。畜群數量在第二行，縮排在飼養圈下方。\n\n兩者都會有一圈帶一道門的圍欄。岩石或水已經封住的地方，前面不會再建圍欄。</CBF_Help_Rural.description>
   <!-- EN: Farmland -->
-  <CBF_Help_Rural.label>農田與畜欄</CBF_Help_Rural.label>
+  <CBF_Help_Rural.label>農地</CBF_Help_Rural.label>
   <!-- EN: Each scenario decides what happens at the ancient danger sites of its maps.\n\nVanilla + own: RimWorld's ancient danger and the CBF pieces are rolled together. Vanilla weight sets how often RimWorld's own comes up against the weight of each piece.\nOwn only: only CBF pieces. If nothing fits the rolled site, the setting If nothing fits decides: on builds RimWorld's ancient danger, off leaves the site empty.\nNone: no ancient dangers at all.\n\nPieces under CBF_AncientDanger count in every scenario. Extra categories add categories under CBF_AncientDangerScenario for this scenario only.\n\nA scenario without this part behaves like Vanilla + own with weight 1. For scenarios of RimWorld and other mods, Save writes a patch into your mod. Scenarios made in game are set in RimWorld's scenario editor with the part Ancient dangers (CBF). -->
-  <CBF_Help_ScenarioDangers.description>每個腳本決定其地圖上遠古威脅地點會發生什麼。\n\n原版＋自訂：RimWorld的遠古威脅與CBF部件一起擲選。原版權重設定RimWorld原本的威脅相對於每個部件權重的出現頻率。\n僅自訂：只用CBF部件。如果沒有部件適合擲出的地點，由「都不適合時」設定決定：開啟時建造RimWorld的遠古威脅，關閉時地點留空。\n無：完全沒有遠古威脅。\n\nCBF_AncientDanger下的部件在所有腳本中都算數。「額外類別」只為此腳本加入CBF_AncientDangerScenario下的類別。\n\n沒有這個部分的腳本，行為等同權重1的「原版＋自訂」。對RimWorld與其他模組的腳本，「儲存」會把補丁寫入你的模組。在遊戲中製作的腳本，請在RimWorld的腳本編輯器中用「遠古威脅（CBF）」部分設定。</CBF_Help_ScenarioDangers.description>
+  <CBF_Help_ScenarioDangers.description>每個腳本決定其地圖上遠古威脅地點會發生什麼。\n\n原版＋自訂：RimWorld的遠古威脅與CBF部件一起抽取。原版權重設定RimWorld原本的威脅相對於每個部件權重的出現頻率。\n僅自訂：只用CBF部件。如果沒有部件適合擲出的地點，由「都不適合時」設定決定：開啟時建造RimWorld的遠古威脅，關閉時地點留空。\n無：完全沒有遠古威脅。\n\nCBF_AncientDanger下的部件在所有腳本中都算數。「額外類別」只為此腳本加入CBF_AncientDangerScenario下的類別。\n\n沒有這個部分的腳本，行為等同權重1的「原版＋自訂」。對RimWorld與其他模組的腳本，「儲存」會把補丁寫入你的模組。在遊戲中製作的腳本，請在RimWorld的腳本編輯器中用「遠古威脅（CBF）」部分設定。</CBF_Help_ScenarioDangers.description>
   <!-- EN: Ancient dangers per scenario -->
   <CBF_Help_ScenarioDangers.label>各腳本的遠古威脅</CBF_Help_ScenarioDangers.label>
   <!-- EN: A pawn list with the role Sleeper spawns its pawns asleep at the spawn anchor. They wake when a colonist comes close or when there is noise nearby, and then attack the colony together.\n\nThis is the same behaviour as the sleepers of the ruin start. Mechs get the mechanoid faction, insects the insect faction, people a hostile faction of the matching tech level.\n\nIn settlements a Sleeper list also sleeps. For guards that stay awake, use Guard, Post or Gunner. -->
-  <CBF_Help_SleeperRole.description>具有「沉睡者」角色的角色清單，會讓其角色在生成錨點處沉睡生成。殖民者靠近或附近有噪音時他們會醒來，然後一起攻擊殖民地。\n\n這與廢墟開局的沉睡者行為相同。機械族歸入機械族派系，蟲族歸入蟲族派系，人類則歸入科技等級相符的敵對派系。\n\n在據點中，沉睡者清單同樣會沉睡。要保持清醒的守衛，請使用守衛、崗哨或砲手。</CBF_Help_SleeperRole.description>
+  <CBF_Help_SleeperRole.description>具有「沉睡者」職責的角色清單，會讓其角色在生成錨點處沉睡生成。殖民者靠近或附近有噪音時他們會醒來，然後一起攻擊殖民地。\n\n這與廢墟開局的沉睡者行為相同。機械族歸入機械族派系，蟲族歸入蟲族派系，人類則歸入科技等級相符的敵對派系。\n\n在據點中，沉睡者清單同樣會沉睡。要保持清醒的守衛，請使用守衛、崗哨或砲手。</CBF_Help_SleeperRole.description>
   <!-- EN: Sleeper role -->
-  <CBF_Help_SleeperRole.label>沉睡者角色</CBF_Help_SleeperRole.label>
+  <CBF_Help_SleeperRole.label>沉睡者職責</CBF_Help_SleeperRole.label>
   <!-- EN: Swap rules that other mods bring for this faction. They are shown here and never changed.\n\nFor each unit or thing, the rule with the highest priority wins. Rules with the same priority are combined and drawn by weight.\n\nTo override another mod for one unit, give your own rule a higher priority. -->
   <CBF_Help_SwapOtherRules.description>其他模組為此派系帶來的替換規則。只在這裡顯示，永遠不會被修改。\n\n對每個單位或物品，優先順序最高的規則勝出。優先順序相同的規則會合併，依權重抽取。\n\n要針對某個單位覆蓋其他模組，請給你自己的規則更高的優先順序。</CBF_Help_SwapOtherRules.description>
   <!-- EN: Rules of other mods -->
   <CBF_Help_SwapOtherRules.label>其他模組的規則</CBF_Help_SwapOtherRules.label>
   <!-- EN: Nothing you assign here shows up until RimWorld actually hands faction bases to this generator. That is what the takeover switch does.\n\nIt writes one patch file into the Patches folder of the current mod. The patch swaps a single generation step, Settlement for CBF_Settlement, and leaves everything else in place, so faction bases keep their rocks and their power lines.\n\nIf a patch file is already there, the operation is added to it and the rest of the file is kept. Switching the takeover off removes only that operation, not the file, unless nothing else is left in it.\n\nA faction with no matching plan falls back to RimWorld's own settlement, never to an empty map. -->
-  <CBF_Help_Takeover.description>此處分配的內容只有在RimWorld把派系基地交給此生成器後才出現——正是"接管"開關所為。\n\n它向所選模組的Patches目錄寫入補丁檔案。補丁替換地圖生成的一個步驟（Settlement換成CBF_Settlement），其餘保持不變。派系基地因此保留其岩石與電纜。\n\n已存在補丁檔案時，僅追加該操作，檔案其餘部分保留。關閉僅移除該操作，而非檔案，除非檔案中無其他內容。\n\n沒有匹配計劃的派系得到RimWorld自己的據點，絕不生成空白地圖。</CBF_Help_Takeover.description>
+  <CBF_Help_Takeover.description>在RimWorld真正把派系基地交給這個生成器之前，你在這裡指派的任何東西都不會出現。接管開關做的就是這件事。\n\n它會在目前模組的Patches資料夾中寫入一個patch檔。這個patch只替換一個生成步驟，把Settlement換成CBF_Settlement，其餘一切保持不變，因此派系基地仍保有它們的岩石與電線。\n\n若patch檔已存在，這個操作會加進去，檔案其餘內容保留。關閉接管只會移除這個操作，不會刪除檔案，除非檔案中已沒有其他內容。\n\n沒有相符計劃的派系會退回使用RimWorld本身的據點，絕不會變成空地圖。</CBF_Help_Takeover.description>
   <!-- EN: Takeover -->
   <CBF_Help_Takeover.label>接管</CBF_Help_Takeover.label>
   <!-- EN: How much a piece wants to stand against the town wall. The planner reads it when it places buildings.\n\nForbidden keeps the piece away from the wall. Avoid, Allowed, Preferred and Strongly preferred weigh the spots along the wall lower or higher. Required forces contact: the piece is only placed where it touches the wall.\n\nA piece without a value of its own takes the wall contact of its category. Yes there means Preferred. -->
-  <CBF_Help_WallContact.description>部件希望貼靠城鎮城牆的程度。規劃器放置建築時讀取。\n\n禁止使部件遠離城牆。迴避、允許、偏好與強烈偏好對牆邊位置加權。必須強制接觸：僅在接觸城牆處放置部件。\n\n無自有值的部件繼承其類別的貼牆程度。類別中的"是"表示偏好。</CBF_Help_WallContact.description>
+  <CBF_Help_WallContact.description>部件有多想靠著城牆。規劃器放置建築時會讀取這個值。\n\n禁止會讓部件遠離城牆。避免、允許、偏好與強烈偏好會調低或調高沿城牆位置的權重。必須則強制接觸：部件只會放在碰得到城牆的地方。\n\n沒有自己數值的部件使用其類別的城牆接觸設定。類別上的「是」等於偏好。</CBF_Help_WallContact.description>
   <!-- EN: At the wall -->
-  <CBF_Help_WallContact.label>貼牆</CBF_Help_WallContact.label>
+  <CBF_Help_WallContact.label>靠城牆</CBF_Help_WallContact.label>
   <!-- EN: The wall pieces this ward is built from. The generator picks from the list whenever it needs a stretch of wall, so several entries give a wall that varies along its length.\n\nDepth is how thick the ring is. One is a palisade, three is a town wall with a rampart walk on top.\n\nWhere a mountain meets the line, the mountain is the wall and nothing is built in front of it. -->
-  <CBF_Help_Walls.description>構築此區劃的城牆部件。需要城牆段時生成器從清單選取。多個條目構成沿其長度變化的城牆。\n\n深度是環的厚度。1是木柵欄，3是帶步道的城牆。\n\n岩石碰到城牆線時以岩石為牆，其前不建造。</CBF_Help_Walls.description>
+  <CBF_Help_Walls.description>建造此城區所用的城牆部件。生成器每次需要一段城牆時就從清單中挑選，因此多個條目能讓城牆沿線有所變化。\n\n深度是環的厚度。1是木柵，3是頂上有城牆步道的城牆。\n\n山與城牆線相接的地方，山就是城牆，前面不會再建任何東西。</CBF_Help_Walls.description>
   <!-- EN: Walls -->
   <CBF_Help_Walls.label>城牆</CBF_Help_Walls.label>
   <!-- EN: The defenders of this ward or dungeon level.\n\nEach row names a pawn list with a min and max count and a post: Inside, Wall or Gate. The header shows the points of the whole garrison.\n\nWith a garrison factor set under General, each row gets an active tick and a weight. Only active rows place fixed pawns: min first, then more up to max by weight while the budget lasts. The rest comes from the faction.\n\nA ward without rows takes its share of the settlement's points. Pawns from Pawn anchors in the pieces come on top.\n\nEvery ward defends itself. Guards on the wall and at the gates hold their spot, gun crews stay at their gun. -->
@@ -157,11 +157,11 @@
   <!-- EN: Garrison -->
   <CBF_Help_WardGarrison.label>駐軍</CBF_Help_WardGarrison.label>
   <!-- EN: The door that closes the passages through this ward's wall, for example a wooden door for a palisade.\n\nEmpty uses the door of the material list of the settlement type, which is what most wards want. The gatehouse is something else, it is set under Fortification. -->
-  <CBF_Help_WardGate.description>封閉此區劃城牆通道的門，例如木柵欄配木門。\n\n留空從材料清單取門，多數區劃想要這樣。門樓是另一回事，設在防禦陣地之下。</CBF_Help_WardGate.description>
+  <CBF_Help_WardGate.description>關閉此城區城牆通道的門，例如木柵用的木門。\n\n留空則使用據點類型材料清單中的門，大部分城區都是如此。門樓是另一回事，在防禦工事底下設定。</CBF_Help_WardGate.description>
   <!-- EN: Ward door -->
-  <CBF_Help_WardGate.label>區劃大門</CBF_Help_WardGate.label>
+  <CBF_Help_WardGate.label>城區門</CBF_Help_WardGate.label>
   <!-- EN: A ward is one ring of the settlement. A market town has three: the old town behind the high wall, the suburb behind a lighter one, and the open countryside around them.\n\nEverything else hangs off a ward. Its wall, its towers, its gatehouses, and the districts that decide what gets built inside it.\n\nThe order in the list is the order from the middle outwards. The innermost ward is the one the generator protects best and fills first, so put what matters there. -->
-  <CBF_Help_Wards.description>一個區劃是據點的一環。一座集鎮有三個：高牆後的老城、較矮城牆後的近郊，以及環繞它們的開闊鄉野。\n\n其餘一切從區劃衍生：其城牆、塔樓、門樓，以及決定內部建造內容的區。\n\n清單中順序由內而外。最內層區劃是生成器保護最好、最先填滿的，把重要的東西放在那裡。</CBF_Help_Wards.description>
+  <CBF_Help_Wards.description>城區是據點的一圈環。一座市集城鎮有三圈：高牆後的舊城、較矮城牆後的近郊，以及兩者外圍的開闊鄉村。\n\n其他一切都掛在城區底下。它的城牆、塔樓、門樓，以及決定城區內要建什麼的街區。\n\n清單中的順序就是由中心向外的順序。最內層的城區是生成器保護得最好、也最先填入的，所以把重要的東西放在那裡。</CBF_Help_Wards.description>
   <!-- EN: Wards -->
-  <CBF_Help_Wards.label>區劃</CBF_Help_Wards.label>
+  <CBF_Help_Wards.label>城區</CBF_Help_Wards.label>
 </LanguageData>

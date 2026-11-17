@@ -7,7 +7,7 @@
   <!-- EN: church -->
   <CBF_Western_Church.label>教堂</CBF_Western_Church.label>
   <!-- EN: palisade gate -->
-  <CBF_Western_Gatehouse.label>柵欄城門</CBF_Western_Gatehouse.label>
+  <CBF_Western_Gatehouse.label>木柵城門</CBF_Western_Gatehouse.label>
   <!-- EN: graveyard -->
   <CBF_Western_Graveyard.label>墓地</CBF_Western_Graveyard.label>
   <!-- EN: hotel -->
@@ -27,7 +27,7 @@
   <!-- EN: town hall -->
   <CBF_Western_TownHall.label>鎮公所</CBF_Western_TownHall.label>
   <!-- EN: palisade tower -->
-  <CBF_Western_WallTower.label>柵欄塔樓</CBF_Western_WallTower.label>
+  <CBF_Western_WallTower.label>木柵塔樓</CBF_Western_WallTower.label>
   <!-- EN: windmill -->
   <CBF_Western_Windmill.label>風車</CBF_Western_Windmill.label>
   <!-- EN: workshop -->

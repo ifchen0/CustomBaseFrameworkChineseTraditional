@@ -57,7 +57,7 @@
   <!-- EN: Sleeping guards -->
   <CBF_AD_Guards>沉睡的守衛</CBF_AD_Guards>
   <!-- EN: This list does not have the role Sleeper. Its pawns stand guard awake. -->
-  <CBF_AD_GuardAwakeTip>此清單沒有「沉睡者」角色。其角色會保持清醒站崗。</CBF_AD_GuardAwakeTip>
+  <CBF_AD_GuardAwakeTip>此清單沒有「沉睡者」職責。其角色會保持清醒站崗。</CBF_AD_GuardAwakeTip>
   <!-- EN: Loot -->
   <CBF_AD_Loot>戰利品</CBF_AD_Loot>
   <!-- EN: Used in -->
@@ -73,9 +73,9 @@
   <!-- EN: RimWorld's own letter, the same for CBF pieces. -->
   <CBF_AD_LetterNote>RimWorld原本的信件，CBF部件也相同。</CBF_AD_LetterNote>
   <!-- EN: Sleeper role -->
-  <CBF_AD_SleeperHead>沉睡者角色</CBF_AD_SleeperHead>
+  <CBF_AD_SleeperHead>沉睡者職責</CBF_AD_SleeperHead>
   <!-- EN: Pawns of a list with the role Sleeper lie asleep at their spawn anchor. They wake when the colony comes close or makes noise, then attack. Mechs and insects get their own faction, people a hostile one. -->
-  <CBF_AD_SleeperText>具有「沉睡者」角色的清單，其角色在生成錨點處沉睡。殖民地靠近或發出噪音時醒來，然後發動攻擊。機械族與蟲族歸入各自的派系，人類則歸入敵對派系。</CBF_AD_SleeperText>
+  <CBF_AD_SleeperText>具有「沉睡者」職責的清單，其角色在生成錨點處沉睡。殖民地靠近或發出噪音時醒來，然後發動攻擊。機械族與蟲族歸入各自的派系，人類則歸入敵對派系。</CBF_AD_SleeperText>
   <!-- EN: Check: no findings -->
   <CBF_AD_CheckOk>檢查：沒有發現問題</CBF_AD_CheckOk>
   <!-- EN: Check: {0} is larger than 15 × 15 and only fits some sites. -->
@@ -115,9 +115,9 @@
   <!-- EN: Mode -->
   <CBF_Sz_Mode>模式</CBF_Sz_Mode>
   <!-- EN: RimWorld's ancient dangers and the CBF pieces are rolled together. -->
-  <CBF_Sz_ModeText_VanillaAndOwn>RimWorld的遠古威脅與CBF部件一起擲選。</CBF_Sz_ModeText_VanillaAndOwn>
+  <CBF_Sz_ModeText_VanillaAndOwn>RimWorld的遠古威脅與CBF部件一起抽取。</CBF_Sz_ModeText_VanillaAndOwn>
   <!-- EN: Only CBF pieces. RimWorld's own ancient danger is only built as a fallback. -->
-  <CBF_Sz_ModeText_OwnOnly>只用CBF部件。RimWorld原本的遠古威脅只在備援時建造。</CBF_Sz_ModeText_OwnOnly>
+  <CBF_Sz_ModeText_OwnOnly>只用CBF部件。RimWorld原本的遠古威脅只在備用時建造。</CBF_Sz_ModeText_OwnOnly>
   <!-- EN: No ancient dangers on any map of this scenario. -->
   <CBF_Sz_ModeText_None>此腳本的所有地圖都沒有遠古威脅。</CBF_Sz_ModeText_None>
   <!-- EN: Vanilla weight -->
@@ -167,7 +167,7 @@
   <!-- EN: Open this ancient danger. -->
   <CBF_Sz_PoolJumpTip>開啟此遠古威脅。</CBF_Sz_PoolJumpTip>
   <!-- EN: Only pieces that fit the rolled site take part in the roll. RimWorld's own fits every site. -->
-  <CBF_Sz_PoolNote>只有適合擲出地點的部件會參與擲選。RimWorld原本的威脅適合所有地點。</CBF_Sz_PoolNote>
+  <CBF_Sz_PoolNote>只有適合擲出地點的部件會參與抽取。RimWorld原本的威脅適合所有地點。</CBF_Sz_PoolNote>
   <!-- EN: When the rolled site is too small for every own piece, RimWorld's own ancient danger is built instead. -->
   <CBF_Sz_PoolFallbackOn>擲出的地點對所有自訂部件都太小時，改為建造RimWorld原本的遠古威脅。</CBF_Sz_PoolFallbackOn>
   <!-- EN: When the rolled site is too small for every own piece, the site stays empty. -->

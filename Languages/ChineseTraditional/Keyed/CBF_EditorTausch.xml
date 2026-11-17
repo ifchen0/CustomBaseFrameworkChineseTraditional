@@ -3,15 +3,15 @@
   <!-- EN: Unit swap -->
   <CBF_Tab_Swap>單位替換</CBF_Tab_Swap>
   <!-- EN: With swap -->
-  <CBF_Sw_WithSwap>已替換</CBF_Sw_WithSwap>
+  <CBF_Sw_WithSwap>有替換</CBF_Sw_WithSwap>
   <!-- EN: no swap -->
   <CBF_Sw_NoSwap>無替換</CBF_Sw_NoSwap>
   <!-- EN: {0} from {1}, priority {2}, {3} units, {4} things -->
-  <CBF_Sw_DefLine>{0}來自{1}，優先順序{2}，{3}個單位，{4}件物品</CBF_Sw_DefLine>
+  <CBF_Sw_DefLine>{0}，來自{1}，優先順序{2}，{3}個單位，{4}個物品</CBF_Sw_DefLine>
   <!-- EN: your mod -->
   <CBF_Sw_OwnMod>你的模組</CBF_Sw_OwnMod>
   <!-- EN: Pick a faction on the left. -->
-  <CBF_Sw_PickFaction>在左側選擇一個派系。</CBF_Sw_PickFaction>
+  <CBF_Sw_PickFaction>請在左側選擇一個派系。</CBF_Sw_PickFaction>
   <!-- EN: {0} · {1} own units -->
   <CBF_Sw_FactionInfo>{0} · {1}個自有單位</CBF_Sw_FactionInfo>
   <!-- EN: Units ({0}) -->
@@ -21,91 +21,91 @@
   <!-- EN: Only with rule -->
   <CBF_Sw_OnlyWithRule>僅顯示有規則的</CBF_Sw_OnlyWithRule>
   <!-- EN: All units from pawn lists and pieces. For each row, pick who this faction sends instead. Several targets are drawn by weight. -->
-  <CBF_Sw_UnitsHint>來自單位清單與部件的全部單位。對每一行，選擇該派系改派誰出場。多個目標按權重抽取。</CBF_Sw_UnitsHint>
+  <CBF_Sw_UnitsHint>角色清單與部件中的所有單位。在每一行選擇此派系改派誰出場。多個目標依權重抽選。</CBF_Sw_UnitsHint>
   <!-- EN: All things from pieces and object lists, such as banners. For each row, pick what this faction places instead. -->
-  <CBF_Sw_ThingsHint>來自部件與物品清單的全部物品，如旗幟。對每一行，選擇該派系以何物替代。</CBF_Sw_ThingsHint>
+  <CBF_Sw_ThingsHint>部件與物品清單中的所有物品，例如旗幟。在每一行選擇此派系改放什麼。</CBF_Sw_ThingsHint>
   <!-- EN: General -->
   <CBF_Sw_From>通用</CBF_Sw_From>
   <!-- EN: Becomes for this faction -->
-  <CBF_Sw_To>該派系替換為</CBF_Sw_To>
+  <CBF_Sw_To>此派系改為</CBF_Sw_To>
   <!-- EN: Without rule -->
   <CBF_Sw_WithoutRule>無規則時</CBF_Sw_WithoutRule>
   <!-- EN: What this faction would get without a rule of its own, by the framework's fallback rule. -->
-  <CBF_Sw_WithoutRuleTip>該派系在沒有自有規則時，按框架的預設規則會得到什麼。</CBF_Sw_WithoutRuleTip>
+  <CBF_Sw_WithoutRuleTip>此派系沒有自己的規則時，依框架的備用規則會得到什麼。</CBF_Sw_WithoutRuleTip>
   <!-- EN: Nothing found. -->
-  <CBF_Sw_Nothing>未找到任何內容。</CBF_Sw_Nothing>
+  <CBF_Sw_Nothing>沒有找到任何東西。</CBF_Sw_Nothing>
   <!-- EN: {0} % of cases -->
-  <CBF_Sw_Share>{0}% 的情況</CBF_Sw_Share>
+  <CBF_Sw_Share>{0}%的情況</CBF_Sw_Share>
   <!-- EN: Weight against the other targets of this row. -->
-  <CBF_Sw_WeightTip>與同行的其他目標相比的權重。</CBF_Sw_WeightTip>
+  <CBF_Sw_WeightTip>相對於此行其他目標的權重。</CBF_Sw_WeightTip>
   <!-- EN: {0} (from {1}) -->
   <CBF_Sw_FromOther>{0}（來自{1}）</CBF_Sw_FromOther>
   <!-- EN: Rule {0} from {1}, priority {2}. View only. A rule of your own with higher priority wins. -->
-  <CBF_Sw_FromOtherTip>規則{0}來自{1}，優先順序{2}。僅供檢視。你自己的更高優先順序規則會勝出。</CBF_Sw_FromOtherTip>
+  <CBF_Sw_FromOtherTip>規則{0}來自{1}，優先順序{2}。僅供檢視。你自己的規則若優先順序較高則勝出。</CBF_Sw_FromOtherTip>
   <!-- EN: Add a target -->
-  <CBF_Sw_PickUnitTip>新增一個目標</CBF_Sw_PickUnitTip>
+  <CBF_Sw_PickUnitTip>新增目標</CBF_Sw_PickUnitTip>
   <!-- EN: Pick a target -->
-  <CBF_Sw_PickThingTip>選擇一個目標</CBF_Sw_PickThingTip>
+  <CBF_Sw_PickThingTip>選擇目標</CBF_Sw_PickThingTip>
   <!-- EN: stays -->
-  <CBF_Sw_Stays>保持不變</CBF_Sw_Stays>
+  <CBF_Sw_Stays>不變</CBF_Sw_Stays>
   <!-- EN: Pick a thing -->
-  <CBF_Sw_PickThing>選擇一件物品</CBF_Sw_PickThing>
+  <CBF_Sw_PickThing>選擇物品</CBF_Sw_PickThing>
   <!-- EN: Pick a unit -->
-  <CBF_Sw_PickUnit>選擇一個單位</CBF_Sw_PickUnit>
+  <CBF_Sw_PickUnit>選擇單位</CBF_Sw_PickUnit>
   <!-- EN: Pick another target -->
-  <CBF_Sw_PickUnitMore>選擇另一個目標</CBF_Sw_PickUnitMore>
+  <CBF_Sw_PickUnitMore>選擇其他目標</CBF_Sw_PickUnitMore>
   <!-- EN: Unit from all mods … -->
-  <CBF_Sw_AnyUnit>所有模組的單位…</CBF_Sw_AnyUnit>
+  <CBF_Sw_AnyUnit>從所有模組選擇單位……</CBF_Sw_AnyUnit>
   <!-- EN: Your rule -->
   <CBF_Sw_OwnRule>你的規則</CBF_Sw_OwnRule>
   <!-- EN: Your mod has no rule for this faction yet. It is created in a file of its own on the first save. -->
-  <CBF_Sw_NoOwnYet>你的模組還沒有針對該派系的規則。首次儲存時會在獨立檔案中建立。</CBF_Sw_NoOwnYet>
+  <CBF_Sw_NoOwnYet>你的模組還沒有此派系的規則。首次儲存時會建立在獨立的檔案中。</CBF_Sw_NoOwnYet>
   <!-- EN: Priority -->
   <CBF_Sw_Priority>優先順序</CBF_Sw_Priority>
   <!-- EN: If several rules exist for the same faction, the one with the highest priority applies per unit or thing. -->
-  <CBF_Sw_PriorityTip>若同一派系存在多條規則，則每個單位或物品採用優先順序最高者。</CBF_Sw_PriorityTip>
+  <CBF_Sw_PriorityTip>同一派系有多條規則時，每個單位或物品套用優先順序最高的那條。</CBF_Sw_PriorityTip>
   <!-- EN: Saved in -->
   <CBF_Sw_TargetMod>儲存於</CBF_Sw_TargetMod>
   <!-- EN: Rules -->
   <CBF_Sw_Rules>規則</CBF_Sw_Rules>
   <!-- EN: {0} units, {1} things -->
-  <CBF_Sw_RuleCount>{0}個單位，{1}件物品</CBF_Sw_RuleCount>
+  <CBF_Sw_RuleCount>{0}個單位，{1}個物品</CBF_Sw_RuleCount>
   <!-- EN: Rules of other mods -->
   <CBF_Sw_OtherRules>其他模組的規則</CBF_Sw_OtherRules>
   <!-- EN: None. -->
   <CBF_Sw_NoOther>無。</CBF_Sw_NoOther>
   <!-- EN: {0}, priority {1}, {2} units, {3} things -->
-  <CBF_Sw_OtherLine>{0}，優先順序{1}，{2}個單位，{3}件物品</CBF_Sw_OtherLine>
+  <CBF_Sw_OtherLine>{0}，優先順序{1}，{2}個單位，{3}個物品</CBF_Sw_OtherLine>
   <!-- EN: Rules of other mods are only shown, never changed. To override one, give your rule a higher priority. -->
-  <CBF_Sw_OtherHint>其他模組的規則僅作顯示，從不修改。要覆蓋它們，請給你的規則更高的優先順序。</CBF_Sw_OtherHint>
+  <CBF_Sw_OtherHint>其他模組的規則只會顯示，永遠不會被修改。若要覆蓋某條規則，請給你的規則更高的優先順序。</CBF_Sw_OtherHint>
   <!-- EN: Saving writes a file of its own into your mod. -->
-  <CBF_Sw_FooterHint>儲存時會向你的模組寫入一個獨立檔案。</CBF_Sw_FooterHint>
+  <CBF_Sw_FooterHint>儲存時會在你的模組中寫入一個獨立的檔案。</CBF_Sw_FooterHint>
   <!-- EN: Nothing to write. -->
-  <CBF_Sw_NothingToWrite>沒有可寫入的內容。</CBF_Sw_NothingToWrite>
+  <CBF_Sw_NothingToWrite>沒有需要寫入的內容。</CBF_Sw_NothingToWrite>
   <!-- EN: {0} is not in your mod and is not changed. -->
   <CBF_Sw_ForeignFile>{0}不在你的模組中，不會被修改。</CBF_Sw_ForeignFile>
   <!-- EN: Animals -->
   <CBF_Sw_Animals>動物</CBF_Sw_Animals>
   <!-- EN: Also shows animals from pens and vermin. The fallback rule always leaves them unchanged. -->
-  <CBF_Sw_AnimalsTip>同時顯示來自畜欄與害蟲的動物。預設規則始終讓它們保持不變。</CBF_Sw_AnimalsTip>
+  <CBF_Sw_AnimalsTip>一併顯示飼養圈中的動物與害獸。備用規則永遠不會改變牠們。</CBF_Sw_AnimalsTip>
   <!-- EN: Faction flag -->
   <CBF_Sw_Flag>派系旗幟</CBF_Sw_Flag>
   <!-- EN: Object lists for flag anchors. Each settlement of this faction shows one of these lists, and all its settlements show the same one. Without an entry, the object list set at the anchor is used. -->
-  <CBF_Sw_FlagHint>用於旗幟錨點的物品清單。該派系的每個據點都會顯示其中一個清單，且其所有據點顯示同一個。無條目時，使用錨點上設定的物品清單。</CBF_Sw_FlagHint>
+  <CBF_Sw_FlagHint>旗幟錨點使用的物品清單。此派系的每個據點會顯示其中一份清單，且其所有據點都顯示同一份。沒有條目時，使用錨點上設定的物品清單。</CBF_Sw_FlagHint>
   <!-- EN: This faction has no flag yet. -->
-  <CBF_Sw_FlagNone>該派系還沒有旗幟。</CBF_Sw_FlagNone>
+  <CBF_Sw_FlagNone>此派系還沒有旗幟。</CBF_Sw_FlagNone>
   <!-- EN: From {0}. Changes are saved as a patch in your mod. -->
-  <CBF_Sw_FlagPatch>來自{0}。更改會以補丁形式儲存到你的模組。</CBF_Sw_FlagPatch>
+  <CBF_Sw_FlagPatch>來自{0}。變更會以補丁形式儲存在你的模組中。</CBF_Sw_FlagPatch>
   <!-- EN: The object list {0} does not exist. It is skipped. -->
-  <CBF_Sw_FlagMissing>物品清單{0}不存在。已跳過。</CBF_Sw_FlagMissing>
+  <CBF_Sw_FlagMissing>物品清單{0}不存在，已略過。</CBF_Sw_FlagMissing>
   <!-- EN: A flag from another mod needs at least one list. Add another list first, then remove this one. -->
-  <CBF_Sw_FlagKeepOne>來自其他模組的旗幟至少需要一個清單。請先新增另一個清單，再移除這一個。</CBF_Sw_FlagKeepOne>
+  <CBF_Sw_FlagKeepOne>來自其他模組的旗幟至少需要一份清單。請先新增另一份清單，再移除這一份。</CBF_Sw_FlagKeepOne>
   <!-- EN: + Object list -->
-  <CBF_Sw_FlagAdd>+ 物品清單</CBF_Sw_FlagAdd>
+  <CBF_Sw_FlagAdd>＋物品清單</CBF_Sw_FlagAdd>
   <!-- EN: + Own flag -->
-  <CBF_Sw_FlagNew>+ 自有旗幟</CBF_Sw_FlagNew>
+  <CBF_Sw_FlagNew>＋自訂旗幟</CBF_Sw_FlagNew>
   <!-- EN: Creates a flag for this faction in your mod and picks its first object list. -->
-  <CBF_Sw_FlagNewTip>在您的模組中為該派系建立一面旗幟，並選取它的第一個物品清單。</CBF_Sw_FlagNewTip>
+  <CBF_Sw_FlagNewTip>在你的模組中為此派系建立旗幟，並選擇它的第一份物品清單。</CBF_Sw_FlagNewTip>
   <!-- EN: Pick an object list -->
   <CBF_Sw_FlagPick>選擇物品清單</CBF_Sw_FlagPick>
 </LanguageData>

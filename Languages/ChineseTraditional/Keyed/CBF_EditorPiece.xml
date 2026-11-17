@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: + New -->
-  <CBF_P_New>+ 新建</CBF_P_New>
+  <CBF_P_New>+ 新增</CBF_P_New>
   <!-- EN: New piece: the window folds away and you paint the area on the map. -->
-  <CBF_P_NewTip>新部件：視窗摺疊起來，你在地圖上繪製區域。</CBF_P_NewTip>
+  <CBF_P_NewTip>新部件：視窗會收起，由你在地圖上繪製區域。</CBF_P_NewTip>
   <!-- EN: Opens the file of the selected piece in your text editor. The editor reloads changes made there on its own. -->
-  <CBF_P_OpenFileTip>在文字編輯器中開啟所選部件的檔案。編輯器會自動重新載入此處的更改。</CBF_P_OpenFileTip>
+  <CBF_P_OpenFileTip>在你的文字編輯器中開啟所選部件的檔案。在那裡所做的變更，編輯器會自動重新載入。</CBF_P_OpenFileTip>
   <!-- EN: Pick a piece on the left. -->
-  <CBF_P_PickOne>在左側選擇一個部件。</CBF_P_PickOne>
+  <CBF_P_PickOne>請在左側選擇一個部件。</CBF_P_PickOne>
   <!-- EN: Longest side up to 8 cells -->
-  <CBF_P_SizeTipSmall>最長邊至多8格</CBF_P_SizeTipSmall>
+  <CBF_P_SizeTipSmall>最長邊不超過8格</CBF_P_SizeTipSmall>
   <!-- EN: Longest side 9 to 14 cells -->
   <CBF_P_SizeTipMedium>最長邊9至14格</CBF_P_SizeTipMedium>
   <!-- EN: Longest side 15 cells or more -->
-  <CBF_P_SizeTipLarge>最長邊15格及以上</CBF_P_SizeTipLarge>
+  <CBF_P_SizeTipLarge>最長邊15格以上</CBF_P_SizeTipLarge>
   <!-- EN: Show templates only -->
-  <CBF_P_TemplatesTip>僅顯示模板</CBF_P_TemplatesTip>
+  <CBF_P_TemplatesTip>只顯示模板</CBF_P_TemplatesTip>
   <!-- EN: unsaved -->
   <CBF_P_Unsaved>未儲存</CBF_P_Unsaved>
   <!-- EN: Show only pieces imported from KCSG that are not kept yet. -->
@@ -25,11 +25,11 @@
   <!-- EN: not on the map -->
   <CBF_P_NotOnMap>不在地圖上</CBF_P_NotOnMap>
   <!-- EN: placed on the map for editing -->
-  <CBF_P_OnMap>已放置在地圖上以供編輯</CBF_P_OnMap>
+  <CBF_P_OnMap>已放到地圖上編輯</CBF_P_OnMap>
   <!-- EN: Drag anchors directly in the image. To change the structure, put the piece on the map with Place to edit. -->
-  <CBF_P_ImageHint>直接在影像中拖動錨點。要更改結構，請用"放置以編輯"把部件放到地圖上。</CBF_P_ImageHint>
+  <CBF_P_ImageHint>直接在圖片中拖曳錨點。要修改結構，請用「放置編輯」把部件放到地圖上。</CBF_P_ImageHint>
   <!-- EN: The piece is on the map. Change the structure there and set anchors here in the image. After the export the image shows the new shape. -->
-  <CBF_P_ImageHintMap>部件已在地圖上。在那裡更改結構，並在此處影像中設定錨點。匯出後影像會顯示新的形狀。</CBF_P_ImageHintMap>
+  <CBF_P_ImageHintMap>部件在地圖上。請在地圖上修改結構，在這裡的圖片中設定錨點。匯出後圖片會顯示新形狀。</CBF_P_ImageHintMap>
   <!-- EN: Outline -->
   <CBF_P_Outline>輪廓</CBF_P_Outline>
   <!-- EN: Paint anchors -->
@@ -37,13 +37,13 @@
   <!-- EN: Drag a rectangle in the image. It becomes the area of the selected anchor. Right-click or Escape puts the tool away. Connect anchors such as Annex may also go in the one-cell border around the piece; the piece then grows by an empty row or column when saved. -->
   <CBF_P_PaintTip>在影像中拖出一個矩形。它將成為所選錨點的區域。右鍵或Esc收起工具。Annex之類的連線錨點也可以放在部件外圍一格的邊框上；儲存時部件會多出一列或一欄空白。</CBF_P_PaintTip>
   <!-- EN: Drag a rectangle in the image. All anchor cells inside it are removed. -->
-  <CBF_P_EraseTip>在影像中拖出一個矩形。其中的所有錨點格被移除。</CBF_P_EraseTip>
+  <CBF_P_EraseTip>在圖片中拖出一個矩形，範圍內所有錨點格都會被移除。</CBF_P_EraseTip>
   <!-- EN: Puts the piece on the map so its structure can be changed. The window folds away and the toolbox appears on the right. If it is already there, the camera jumps to it. -->
-  <CBF_P_PlaceEditTip>把部件放到地圖上以便更改其結構。視窗摺疊起來，工具箱出現在右側。如果它已在那裡，則鏡頭跳到它。</CBF_P_PlaceEditTip>
+  <CBF_P_PlaceEditTip>把部件放到地圖上以修改其結構。視窗會收起，右側出現工具箱。若部件已在地圖上，鏡頭會跳過去。</CBF_P_PlaceEditTip>
   <!-- EN: A new piece needs an open map. -->
-  <CBF_P_NewNeedsMap>新建部件需要一張已開啟的地圖。</CBF_P_NewNeedsMap>
+  <CBF_P_NewNeedsMap>新部件需要一張開啟的地圖。</CBF_P_NewNeedsMap>
   <!-- EN: Basics -->
-  <CBF_P_Basics>基礎</CBF_P_Basics>
+  <CBF_P_Basics>基本資料</CBF_P_Basics>
   <!-- EN: defName -->
   <CBF_P_DefName>defName</CBF_P_DefName>
   <!-- EN: Size -->
@@ -53,63 +53,63 @@
   <!-- EN: Rotation allowed -->
   <CBF_P_AllowRotation>允許旋轉</CBF_P_AllowRotation>
   <!-- EN: Clear footprint -->
-  <CBF_P_ClearFootprint>清除地基</CBF_P_ClearFootprint>
+  <CBF_P_ClearFootprint>清空佔地</CBF_P_ClearFootprint>
   <!-- EN: Eaves -->
   <CBF_P_Eaves>屋簷</CBF_P_Eaves>
   <!-- EN: Outer side -->
   <CBF_P_Outward>外側</CBF_P_Outward>
   <!-- EN: Derived -->
-  <CBF_P_Derived>派生</CBF_P_Derived>
+  <CBF_P_Derived>推算</CBF_P_Derived>
   <!-- EN: At the wall -->
-  <CBF_P_AtWall>貼牆</CBF_P_AtWall>
+  <CBF_P_AtWall>靠牆</CBF_P_AtWall>
   <!-- EN: Type -->
-  <CBF_P_Type>型別</CBF_P_Type>
+  <CBF_P_Type>類型</CBF_P_Type>
   <!-- EN: Anchors -->
   <CBF_P_Anchors>錨點</CBF_P_Anchors>
   <!-- EN: No anchors yet. Add one with + Anchor and drag it in the image. -->
-  <CBF_P_NoAnchors>尚無錨點。用 + 錨點新增一個並在影像中拖動它。</CBF_P_NoAnchors>
+  <CBF_P_NoAnchors>還沒有錨點。用「+ 錨點」新增，並在圖片中拖曳。</CBF_P_NoAnchors>
   <!-- EN: no area yet -->
   <CBF_P_NoCells>尚無區域</CBF_P_NoCells>
   <!-- EN: Area -->
   <CBF_P_AnchorArea>區域</CBF_P_AnchorArea>
   <!-- EN: Select this anchor and drag its area in the image. -->
-  <CBF_P_AnchorAreaTip>選中此錨點並在影像中拖動其區域。</CBF_P_AnchorAreaTip>
+  <CBF_P_AnchorAreaTip>選取此錨點，並在圖片中拖曳其區域。</CBF_P_AnchorAreaTip>
   <!-- EN: Adds a copy with the same settings but without an area. Drag the area in the image afterwards. -->
-  <CBF_P_AnchorCopyTip>新增一個設定相同但沒有區域的副本。之後在影像中拖動區域。</CBF_P_AnchorCopyTip>
+  <CBF_P_AnchorCopyTip>新增一份設定相同但沒有區域的複本。之後再在圖片中拖曳區域。</CBF_P_AnchorCopyTip>
   <!-- EN: Remove anchor -->
   <CBF_P_AnchorRemove>移除錨點</CBF_P_AnchorRemove>
   <!-- EN: + Anchor -->
   <CBF_P_AddAnchor>+ 錨點</CBF_P_AddAnchor>
   <!-- EN: Add a new anchor and drag it in the image right away. -->
-  <CBF_P_AddAnchorTip>新增一個新錨點並立即在影像中拖動它。</CBF_P_AddAnchorTip>
+  <CBF_P_AddAnchorTip>新增錨點，並立即在圖片中拖曳。</CBF_P_AddAnchorTip>
   <!-- EN: Erase anchors -->
   <CBF_P_EraseAnchors>擦除錨點</CBF_P_EraseAnchors>
   <!-- EN: From another piece -->
-  <CBF_P_FromOtherPiece>取自另一部件</CBF_P_FromOtherPiece>
+  <CBF_P_FromOtherPiece>取自其他部件</CBF_P_FromOtherPiece>
   <!-- EN: Takes over the anchors of another piece with their settings, without areas. -->
-  <CBF_P_FromOtherTip>取用另一部件的錨點及其設定，不帶區域。</CBF_P_FromOtherTip>
+  <CBF_P_FromOtherTip>沿用另一個部件的錨點及其設定，不含區域。</CBF_P_FromOtherTip>
   <!-- EN: {0} anchors taken from {1}, {2} skipped. -->
-  <CBF_P_AnchorsTaken>從{1}取用{0}個錨點，跳過{2}個。</CBF_P_AnchorsTaken>
+  <CBF_P_AnchorsTaken>已從{1}取用{0}個錨點，略過{2}個。</CBF_P_AnchorsTaken>
   <!-- EN: {0} anchors -->
   <CBF_P_NAnchors>{0}個錨點</CBF_P_NAnchors>
   <!-- EN: Anchor {0} -->
   <CBF_P_AnchorNamed>錨點{0}</CBF_P_AnchorNamed>
   <!-- EN: Required -->
-  <CBF_P_Required>必需</CBF_P_Required>
+  <CBF_P_Required>必要</CBF_P_Required>
   <!-- EN: Second layer -->
   <CBF_P_AnchorOver>第二層</CBF_P_AnchorOver>
   <!-- EN: The anchor lies above the first layer and may overlap its anchors. Placing it clears nothing underneath, for example a market tent over a stall or a fur rug under a table. -->
-  <CBF_P_AnchorOverTip>錨點位於第一層之上，可與其錨點重疊。放置時不清除其下方內容，例如攤位上的市場帳篷或桌子下的毛皮地毯。</CBF_P_AnchorOverTip>
+  <CBF_P_AnchorOverTip>此錨點位於第一層之上，可以與其錨點重疊。放置時不會清除底下的東西，例如攤位上的市集帳篷，或桌子下的毛皮地毯。</CBF_P_AnchorOverTip>
   <!-- EN: Object list -->
   <CBF_P_ObjectList>物品清單</CBF_P_ObjectList>
   <!-- EN: {0} structures -->
-  <CBF_P_Structures>{0}個建築</CBF_P_Structures>
+  <CBF_P_Structures>{0}種建築</CBF_P_Structures>
   <!-- EN: Loot -->
   <CBF_P_Loot>戰利品</CBF_P_Loot>
   <!-- EN: decoration only -->
   <CBF_P_LootNone>僅裝飾</CBF_P_LootNone>
   <!-- EN: unchanged -->
-  <CBF_P_LootAsIs>保持不變</CBF_P_LootAsIs>
+  <CBF_P_LootAsIs>不變</CBF_P_LootAsIs>
   <!-- EN: Single kind -->
   <CBF_P_SingleKind>單一種類</CBF_P_SingleKind>
   <!-- EN: Only used without a pawn list. -->
@@ -123,27 +123,27 @@
   <!-- EN: none -->
   <CBF_P_None>無</CBF_P_None>
   <!-- EN: {0} no longer exists. -->
-  <CBF_P_ListGone>{0}不再存在。</CBF_P_ListGone>
+  <CBF_P_ListGone>{0}已不存在。</CBF_P_ListGone>
   <!-- EN: Check: no errors -->
-  <CBF_P_CheckNone>檢查：無錯誤</CBF_P_CheckNone>
+  <CBF_P_CheckNone>檢查：沒有錯誤</CBF_P_CheckNone>
   <!-- EN: Check: {0} errors -->
   <CBF_P_CheckErrors>檢查：{0}個錯誤</CBF_P_CheckErrors>
   <!-- EN: Check: {0} notes -->
-  <CBF_P_CheckHints>檢查：{0}條提示</CBF_P_CheckHints>
+  <CBF_P_CheckHints>檢查：{0}個提示</CBF_P_CheckHints>
   <!-- EN: Check -->
   <CBF_P_Check>檢查</CBF_P_Check>
   <!-- EN: Checks the piece. On the map this runs the full export check, otherwise the check of the file. -->
-  <CBF_P_CheckTip>檢查該部件。在地圖上時執行完整的匯出檢查，否則檢查檔案。</CBF_P_CheckTip>
+  <CBF_P_CheckTip>檢查此部件。在地圖上時執行完整的匯出檢查，否則執行檔案的檢查。</CBF_P_CheckTip>
   <!-- EN: Check results -->
   <CBF_P_CheckFindings>檢查結果</CBF_P_CheckFindings>
   <!-- EN: {0} checked, no errors. -->
-  <CBF_P_Checked>{0}已檢查，無錯誤。</CBF_P_Checked>
+  <CBF_P_Checked>{0}已檢查，沒有錯誤。</CBF_P_Checked>
   <!-- EN: Export only works while the piece is placed on the map for editing. -->
-  <CBF_P_ExportNeedsMap>匯出僅在部件放置在地圖上以供編輯時有效。</CBF_P_ExportNeedsMap>
+  <CBF_P_ExportNeedsMap>只有在部件放置於地圖上編輯時才能匯出。</CBF_P_ExportNeedsMap>
   <!-- EN: Nothing to save. -->
-  <CBF_P_NothingToSave>沒有可儲存的內容。</CBF_P_NothingToSave>
+  <CBF_P_NothingToSave>沒有需要儲存的內容。</CBF_P_NothingToSave>
   <!-- EN: {0} has unsaved changes. Switch anyway? Unsaved anchors will be lost. -->
-  <CBF_P_UnsavedSwitch>{0}有未儲存的更改。仍要切換？未儲存的錨點將丟失。</CBF_P_UnsavedSwitch>
+  <CBF_P_UnsavedSwitch>{0}有未儲存的變更。仍要切換嗎？未儲存的錨點將會遺失。</CBF_P_UnsavedSwitch>
   <!-- EN: Piece on the map -->
   <CBF_BK_Title>地圖上的部件</CBF_BK_Title>
   <!-- EN: New piece -->
@@ -151,7 +151,7 @@
   <!-- EN: pick -->
   <CBF_BK_Pick>選擇</CBF_BK_Pick>
   <!-- EN: The piece cannot be exported without a category. -->
-  <CBF_BK_NeedCategory>沒有類別就無法匯出部件。</CBF_BK_NeedCategory>
+  <CBF_BK_NeedCategory>沒有類別的部件無法匯出。</CBF_BK_NeedCategory>
   <!-- EN: {0}, {1} cells -->
   <CBF_BK_SizeCells>{0}，{1}格</CBF_BK_SizeCells>
   <!-- EN: Tools -->
@@ -159,9 +159,9 @@
   <!-- EN: Define building -->
   <CBF_BK_Paint>定義建築</CBF_BK_Paint>
   <!-- EN: Remove building area -->
-  <CBF_BK_Cut>移除建築區域</CBF_BK_Cut>
+  <CBF_BK_Cut>移除建築範圍</CBF_BK_Cut>
   <!-- EN: Paint an area first. -->
-  <CBF_BK_NeedArea>請先繪製一個區域。</CBF_BK_NeedArea>
+  <CBF_BK_NeedArea>請先繪製範圍。</CBF_BK_NeedArea>
   <!-- EN: Check -->
   <CBF_BK_Check>檢查</CBF_BK_Check>
   <!-- EN: Not checked yet. -->
@@ -169,31 +169,31 @@
   <!-- EN: {0} errors -->
   <CBF_BK_Errors>{0}個錯誤</CBF_BK_Errors>
   <!-- EN: {0} notes, can be exported -->
-  <CBF_BK_Hints>{0}條提示，可匯出</CBF_BK_Hints>
+  <CBF_BK_Hints>{0}個提示，可以匯出</CBF_BK_Hints>
   <!-- EN: No errors -->
-  <CBF_BK_Clean>無錯誤</CBF_BK_Clean>
+  <CBF_BK_Clean>沒有錯誤</CBF_BK_Clean>
   <!-- EN: Back to the editor -->
   <CBF_BK_Back>返回編輯器</CBF_BK_Back>
   <!-- EN: Set anchors in the editor image after the export. A changed piece keeps its anchors when exported. -->
-  <CBF_BK_Hint>匯出後在編輯器影像中設定錨點。已更改的部件匯出時會保留其錨點。</CBF_BK_Hint>
+  <CBF_BK_Hint>匯出後在編輯器圖像中設定錨點。修改過的部件匯出時會保留原有錨點。</CBF_BK_Hint>
   <!-- EN: Click on the map to place the piece. -->
-  <CBF_BK_Placing>點選地圖放置部件。</CBF_BK_Placing>
+  <CBF_BK_Placing>點擊地圖以放置部件。</CBF_BK_Placing>
   <!-- EN: Paint the area of the new piece on the map. -->
-  <CBF_BK_PaintFirst>在地圖上繪製新部件的區域。</CBF_BK_PaintFirst>
+  <CBF_BK_PaintFirst>在地圖上繪製新部件的範圍。</CBF_BK_PaintFirst>
   <!-- EN: {0} exported. -->
   <CBF_Exported>{0}已匯出。</CBF_Exported>
   <!-- EN: {0} of {1} pieces exported. -->
-  <CBF_ExportedSome>{1}個部件中的{0}個已匯出。</CBF_ExportedSome>
+  <CBF_ExportedSome>已匯出{1}個部件中的{0}個。</CBF_ExportedSome>
   <!-- EN: Skipped: {0} -->
-  <CBF_ExportSkipped>已跳過：{0}</CBF_ExportSkipped>
+  <CBF_ExportSkipped>已略過：{0}</CBF_ExportSkipped>
   <!-- EN: Anchor {0} lies completely outside the piece area and is dropped on export. -->
-  <CBF_AnchorOutsideAll>錨點{0}完全位於部件區域之外，匯出時被丟棄。</CBF_AnchorOutsideAll>
+  <CBF_AnchorOutsideAll>錨點{0}完全位於部件範圍外，匯出時會被捨棄。</CBF_AnchorOutsideAll>
   <!-- EN: Anchor {0} loses {1} cells outside the piece area on export. -->
-  <CBF_AnchorOutsideSome>錨點{0}在匯出時丟失部件區域外的{1}格。</CBF_AnchorOutsideSome>
+  <CBF_AnchorOutsideSome>錨點{0}匯出時會失去位於部件範圍外的{1}格。</CBF_AnchorOutsideSome>
   <!-- EN: Anchor {0} overlaps {1}. Only one anchor per cell is possible. Move the copy first or adjust the area. -->
-  <CBF_AnchorOverlaps>錨點{0}與{1}重疊。每格只能有一個錨點。請先移動副本或調整區域。</CBF_AnchorOverlaps>
+  <CBF_AnchorOverlaps>錨點{0}與{1}重疊。每格只能有一個錨點。請先移動複本或調整範圍。</CBF_AnchorOverlaps>
   <!-- EN: {0} is now a template. -->
-  <CBF_NowTemplate>{0}現在是一個模板。</CBF_NowTemplate>
+  <CBF_NowTemplate>{0}現在是模板。</CBF_NowTemplate>
   <!-- EN: {0} is no longer a template. -->
   <CBF_NowNormal>{0}不再是模板。</CBF_NowNormal>
   <!-- EN: Copy -->
@@ -201,21 +201,21 @@
   <!-- EN: Shows which objects {0} contains. -->
   <CBF_P_ShowObjectsTip>顯示{0}包含哪些物品。</CBF_P_ShowObjectsTip>
   <!-- EN: Shows what the loot table {0} gives. -->
-  <CBF_P_ShowLootTip>顯示戰利品表{0}會產出什麼。</CBF_P_ShowLootTip>
+  <CBF_P_ShowLootTip>顯示戰利品表{0}會給出什麼。</CBF_P_ShowLootTip>
   <!-- EN: Opens the pawn list {0} in the Pawn tab. The arrow at the top left brings you back. -->
-  <CBF_P_ShowPawnsTip>在角色選項卡中開啟角色清單{0}。左上角的箭頭可返回。</CBF_P_ShowPawnsTip>
+  <CBF_P_ShowPawnsTip>在角色分頁開啟角色清單{0}。左上角的箭頭可帶你回來。</CBF_P_ShowPawnsTip>
   <!-- EN: from category: {0} -->
   <CBF_P_AtWallInherit>來自類別：{0}</CBF_P_AtWallInherit>
   <!-- EN: from the category -->
   <CBF_P_AtWallFromCategory>來自類別</CBF_P_AtWallFromCategory>
   <!-- EN: How much this piece wants to stand at the town wall. Required forces contact, Forbidden rules it out. Without a value of its own, the category's wall contact applies. -->
-  <CBF_P_AtWallTip>該部件希望貼緊城牆的程度。必需強制接觸，禁止排除。沒有自有值時，採用類別的貼牆設定。</CBF_P_AtWallTip>
+  <CBF_P_AtWallTip>此部件多想緊鄰城牆。必須表示強制貼牆，禁止表示排除貼牆。沒有自己的值時，套用類別的貼牆設定。</CBF_P_AtWallTip>
   <!-- EN: How often this piece is drawn when several fit. Empty takes the weight of the category. -->
-  <CBF_P_WeightTip>多個部件適配時該部件被選中的頻率。留空則取類別的權重。</CBF_P_WeightTip>
+  <CBF_P_WeightTip>有多個部件符合時，此部件被抽中的頻率。留空則使用類別的權重。</CBF_P_WeightTip>
   <!-- EN: Forbidden -->
   <CBF_Tend_Forbidden>禁止</CBF_Tend_Forbidden>
   <!-- EN: Avoid -->
-  <CBF_Tend_Avoid>迴避</CBF_Tend_Avoid>
+  <CBF_Tend_Avoid>避免</CBF_Tend_Avoid>
   <!-- EN: Allowed -->
   <CBF_Tend_Allowed>允許</CBF_Tend_Allowed>
   <!-- EN: Preferred -->
@@ -223,49 +223,49 @@
   <!-- EN: Strongly preferred -->
   <CBF_Tend_StronglyPreferred>強烈偏好</CBF_Tend_StronglyPreferred>
   <!-- EN: Required -->
-  <CBF_Tend_Required>必需</CBF_Tend_Required>
+  <CBF_Tend_Required>必須</CBF_Tend_Required>
   <!-- EN: The town wall docks here. A gatehouse needs at least two cells of it. -->
-  <CBF_AnchorConnect_Wall>城牆在此對接。門樓至少需要兩格這樣的錨點。</CBF_AnchorConnect_Wall>
+  <CBF_AnchorConnect_Wall>城牆在此銜接。門樓至少需要兩格此錨點。</CBF_AnchorConnect_Wall>
   <!-- EN: Shows which side of the piece faces outward. A gatehouse needs it, otherwise the generator turns the gate the wrong way round. -->
-  <CBF_AnchorConnect_Outside>標明部件的哪一側朝外。門樓需要它，否則生成器會把城門轉反方向。</CBF_AnchorConnect_Outside>
+  <CBF_AnchorConnect_Outside>標示部件朝外的一側。門樓需要它，否則生成器會把城門轉反。</CBF_AnchorConnect_Outside>
   <!-- EN: The generator attaches annexes here. On the house the anchor lies on the outer wall, on the annex on the shared wall or one cell outside its shape. -->
-  <CBF_AnchorConnect_Annex>生成器在此附加附屬建築。在房屋上錨點位於外牆，在附屬建築上位於共用牆或形狀外一格。</CBF_AnchorConnect_Annex>
+  <CBF_AnchorConnect_Annex>生成器在此附加附屬建築。在主屋上，錨點位於外牆；在附屬建築上，位於共用牆或其形狀外一格。</CBF_AnchorConnect_Annex>
   <!-- EN: No shared wall: placed on wall cells, no other building docks here. For window sides or facades. Several along one side block the whole side. Can be used several times. -->
-  <CBF_AnchorConnect_NoShare>無共享牆：放置在牆體格上，其他建築不在此停靠。用於窗側或立面。同側多個會整側封死。可多次使用。</CBF_AnchorConnect_NoShare>
+  <CBF_AnchorConnect_NoShare>不共用牆：放在牆格上，其他建築不會在此銜接。用於窗戶側或建築正面。沿同一側放置多個會封住整側。可重複使用。</CBF_AnchorConnect_NoShare>
   <!-- EN: Marks the water side of a harbor piece. The generator only places the piece where these cells lie on water. -->
-  <CBF_AnchorConnect_Water>標記港口部件的水邊。生成器只在這些格位於水面上時放置該部件。</CBF_AnchorConnect_Water>
+  <CBF_AnchorConnect_Water>標示港口部件的水側。生成器只會把部件放在這些格位於水上的地方。</CBF_AnchorConnect_Water>
   <!-- EN: Only for factions -->
   <CBF_P_OnlyFactions>僅限派系</CBF_P_OnlyFactions>
   <!-- EN: The piece is only used in settlements of these factions. Empty means every faction. Other pieces of the same category stay available to everyone. -->
-  <CBF_P_OnlyFactionsTip>該部件僅用於這些派系的據點。留空表示所有派系。同類別的其他部件對所有人仍可用。</CBF_P_OnlyFactionsTip>
+  <CBF_P_OnlyFactionsTip>此部件只用於這些派系的據點。留空表示所有派系。同類別的其他部件仍供所有派系使用。</CBF_P_OnlyFactionsTip>
   <!-- EN: Not for factions -->
-  <CBF_P_NoFactions>不用於派系</CBF_P_NoFactions>
+  <CBF_P_NoFactions>排除派系</CBF_P_NoFactions>
   <!-- EN: The piece is never used in settlements of these factions. -->
-  <CBF_P_NoFactionsTip>該部件絕不用於這些派系的據點。</CBF_P_NoFactionsTip>
+  <CBF_P_NoFactionsTip>此部件永遠不會用於這些派系的據點。</CBF_P_NoFactionsTip>
   <!-- EN: any faction -->
-  <CBF_P_FactionNone>任意派系</CBF_P_FactionNone>
+  <CBF_P_FactionNone>任何派系</CBF_P_FactionNone>
   <!-- EN: Add {0} -->
   <CBF_P_FactionAdd>新增{0}</CBF_P_FactionAdd>
   <!-- EN: All mods -->
   <CBF_P_AnyMod>所有模組</CBF_P_AnyMod>
   <!-- EN: Show only pieces from one mod. Pieces from a subfolder like Mods/MedievalOverhaul are listed separately. -->
-  <CBF_P_ModTip>僅顯示一個模組的部件。來自Mods/MedievalOverhaul等子資料夾的部件會單獨列出。</CBF_P_ModTip>
+  <CBF_P_ModTip>只顯示來自某個模組的部件。來自子資料夾（如Mods/MedievalOverhaul）的部件會分開列出。</CBF_P_ModTip>
   <!-- EN: Ideoligion building -->
-  <CBF_P_IdeoBuilding>意識形態建築</CBF_P_IdeoBuilding>
+  <CBF_P_IdeoBuilding>理念建築</CBF_P_IdeoBuilding>
   <!-- EN: Places a building of the faction's ideoligion here, such as an altar or a ritual spot, instead of the object list. -->
-  <CBF_P_IdeoBuildingTip>在此放置派系意識形態的建築，如祭壇或儀式場地，而非物品清單。</CBF_P_IdeoBuildingTip>
+  <CBF_P_IdeoBuildingTip>在此放置派系理念的建築，例如祭壇或儀式地點，取代物品清單。</CBF_P_IdeoBuildingTip>
   <!-- EN: Only with mod -->
-  <CBF_P_OnlyWithMod>僅隨模組啟用</CBF_P_OnlyWithMod>
+  <CBF_P_OnlyWithMod>僅在有模組時</CBF_P_OnlyWithMod>
   <!-- EN: The piece is only placed when all mods listed here are active. Use it for pieces that need things of another mod. -->
-  <CBF_P_OnlyWithModTip>僅當此處列出的所有模組都啟用時，該部件才會被放置。用於需要其他模組物品的部件。</CBF_P_OnlyWithModTip>
+  <CBF_P_OnlyWithModTip>只有在這裡列出的模組全部啟用時才放置此部件。用於需要其他模組物品的部件。</CBF_P_OnlyWithModTip>
   <!-- EN: Off with mod -->
-  <CBF_P_OffWithMod>隨模組停用</CBF_P_OffWithMod>
+  <CBF_P_OffWithMod>有模組時停用</CBF_P_OffWithMod>
   <!-- EN: The piece is not placed when one of the mods listed here is active. Use it for pieces that another mod replaces. -->
-  <CBF_P_OffWithModTip>當此處列出的任一模組啟用時，該部件不會被放置。用於被其他模組取代的部件。</CBF_P_OffWithModTip>
+  <CBF_P_OffWithModTip>這裡列出的任一模組啟用時不放置此部件。用於被其他模組取代的部件。</CBF_P_OffWithModTip>
   <!-- EN: none -->
   <CBF_P_ModNone>無</CBF_P_ModNone>
   <!-- EN: Add mod... -->
-  <CBF_P_ModAdd>新增模組…</CBF_P_ModAdd>
+  <CBF_P_ModAdd>新增模組……</CBF_P_ModAdd>
   <!-- EN: Active -->
   <CBF_P_ModActive>已啟用</CBF_P_ModActive>
   <!-- EN: Installed, not active -->
@@ -273,35 +273,35 @@
   <!-- EN: Used mods -->
   <CBF_P_UsedMods>使用的模組</CBF_P_UsedMods>
   <!-- EN: Mods and DLCs whose things, floors and roofs this piece places directly. The base game is not listed. -->
-  <CBF_P_UsedModsTip>本部件直接放置的模組與DLC物品、地板和屋頂。基礎遊戲不計入。</CBF_P_UsedModsTip>
+  <CBF_P_UsedModsTip>此部件直接放置的物品、地板與屋頂所屬的模組與DLC。不列出原版遊戲本體。</CBF_P_UsedModsTip>
   <!-- EN: Only the base game. -->
-  <CBF_P_UsedModsNone>僅基礎遊戲。</CBF_P_UsedModsNone>
+  <CBF_P_UsedModsNone>只有原版遊戲本體。</CBF_P_UsedModsNone>
   <!-- EN: {0} thing(s) -->
   <CBF_P_UsedModsCount>{0}個物品</CBF_P_UsedModsCount>
   <!-- EN: DLC -->
   <CBF_P_UsedModsDlc>DLC</CBF_P_UsedModsDlc>
   <!-- EN: Click a mod to see its things. On export each legend line gets MayRequire for its mod. Things from object lists at anchors are optional and not listed here. -->
-  <CBF_P_UsedModsHint>點選模組檢視其物品。匯出時每行圖例都會為其模組新增MayRequire。錨點物件清單中的物品是可選的，不在此列出。</CBF_P_UsedModsHint>
+  <CBF_P_UsedModsHint>點擊模組以查看它的物品。匯出時，每一行圖例都會加上該模組的MayRequire。錨點上物品清單中的物品是選用的，不列在這裡。</CBF_P_UsedModsHint>
   <!-- EN: Annex required -->
-  <CBF_P_AnnexRequired>必需附屬建築</CBF_P_AnnexRequired>
+  <CBF_P_AnnexRequired>必須有附屬建築</CBF_P_AnnexRequired>
   <!-- EN: The building is only placed if an annex fits at this anchor. -->
-  <CBF_P_AnnexRequiredTip>僅當此錨點能容納附屬建築時才放置該建築。</CBF_P_AnnexRequiredTip>
+  <CBF_P_AnnexRequiredTip>只有當此錨點能放下附屬建築時，才會放置這棟建築。</CBF_P_AnnexRequiredTip>
   <!-- EN: Annex priority -->
-  <CBF_P_AnnexPriority>附屬優先順序</CBF_P_AnnexPriority>
+  <CBF_P_AnnexPriority>附屬建築優先順序</CBF_P_AnnexPriority>
   <!-- EN: Anchors with a higher priority get their annex first. Critical and Important ignore the annex chance, Preferred raises it, Low halves it. Low anchors are filled last, after all other annexes of the settlement. Annex required is independent and stronger. -->
-  <CBF_P_AnnexPriorityTip>優先順序更高的錨點先獲得附屬建築。關鍵與重要無視附屬機率，優先提高機率，低減半。低錨點在據點所有其他附屬之後填充。必需附屬獨立且更強。</CBF_P_AnnexPriorityTip>
+  <CBF_P_AnnexPriorityTip>優先順序較高的錨點先取得附屬建築。關鍵與重要會忽略附屬建築機率，優先會提高機率，低則減半。低的錨點最後填入，排在據點所有其他附屬建築之後。「必須有附屬建築」是獨立且更強的設定。</CBF_P_AnnexPriorityTip>
   <!-- EN: Annex categories -->
-  <CBF_P_AnnexCategories>附屬類別</CBF_P_AnnexCategories>
+  <CBF_P_AnnexCategories>附屬建築類別</CBF_P_AnnexCategories>
   <!-- EN: from the category of the piece -->
-  <CBF_P_AnnexCategoriesPiece>來自部件類別</CBF_P_AnnexCategoriesPiece>
+  <CBF_P_AnnexCategoriesPiece>來自部件的類別</CBF_P_AnnexCategoriesPiece>
   <!-- EN: Which categories the annex at this anchor is taken from. Empty means the annexes set at the category of the piece. -->
-  <CBF_P_AnnexCategoriesTip>此錨點的附屬建築取自哪些類別。留空表示使用部件類別中設定的附屬建築。</CBF_P_AnnexCategoriesTip>
+  <CBF_P_AnnexCategoriesTip>此錨點的附屬建築從哪些類別選取。留空表示使用部件類別上設定的附屬建築。</CBF_P_AnnexCategoriesTip>
   <!-- EN: A docking point for dungeon parts. Corridors, caves or other rooms connect here. Doors and openings on the outer edge count as docking points anyway, this anchor offers one explicitly. -->
-  <CBF_AnchorConnect_Socket>地下城部件的對接點。走廊、洞穴或其他房間在此連線。外緣的門與開口本就計為對接點，此錨點顯式提供一個。</CBF_AnchorConnect_Socket>
+  <CBF_AnchorConnect_Socket>地下城部件的銜接點。走廊、洞穴或其他房間在此連接。外緣上的門與開口本來就算銜接點，此錨點則明確提供一個。</CBF_AnchorConnect_Socket>
   <!-- EN: Socket type -->
-  <CBF_SocketType>對接型別</CBF_SocketType>
+  <CBF_SocketType>插槽類型</CBF_SocketType>
   <!-- EN: What the generator puts here when something docks: door, open arch, cave opening or secret passage. -->
-  <CBF_SocketTypeTip>有東西對接時生成器在此放置什麼：門、開放拱門、洞穴開口或秘道。</CBF_SocketTypeTip>
+  <CBF_SocketTypeTip>有東西銜接時，生成器在此放置什麼：門、開放拱門、洞穴開口或密道。</CBF_SocketTypeTip>
   <!-- EN: Door -->
   <CBF_SocketType_Door>門</CBF_SocketType_Door>
   <!-- EN: Arch -->
@@ -309,55 +309,55 @@
   <!-- EN: Cave -->
   <CBF_SocketType_Cave>洞穴</CBF_SocketType_Cave>
   <!-- EN: Secret -->
-  <CBF_SocketType_Secret>秘道</CBF_SocketType_Secret>
+  <CBF_SocketType_Secret>密道</CBF_SocketType_Secret>
   <!-- EN: Width -->
   <CBF_SocketWidth>寬度</CBF_SocketWidth>
   <!-- EN: Width of the opening in cells, 1 to 5. Only sockets of the same width connect. -->
-  <CBF_SocketWidthTip>開口寬度（格），1至5。僅同寬度的對接點相連。</CBF_SocketWidthTip>
+  <CBF_SocketWidthTip>開口寬度（格），1至5。只有相同寬度的插槽才會連接。</CBF_SocketWidthTip>
   <!-- EN: From file -->
-  <CBF_P_AnchorsFromFile>取自檔案</CBF_P_AnchorsFromFile>
+  <CBF_P_AnchorsFromFile>從檔案</CBF_P_AnchorsFromFile>
   <!-- EN: Reload the anchors from the piece file. Useful when the file was changed after the piece was placed on the map. -->
-  <CBF_P_AnchorsFromFileTip>從部件檔案重新載入錨點。當檔案在部件放置到地圖後被更改時很有用。</CBF_P_AnchorsFromFileTip>
+  <CBF_P_AnchorsFromFileTip>從部件檔案重新載入錨點。適用於部件放到地圖上之後檔案又被修改的情況。</CBF_P_AnchorsFromFileTip>
   <!-- EN: Replace the anchors on the map with the ones from the file? Changes to the anchors that were not exported yet are lost. -->
-  <CBF_P_AnchorsFromFileAsk>用檔案中的錨點替換地圖上的錨點？尚未匯出的錨點更改將丟失。</CBF_P_AnchorsFromFileAsk>
+  <CBF_P_AnchorsFromFileAsk>要以檔案中的錨點取代地圖上的錨點嗎？尚未匯出的錨點變更將會遺失。</CBF_P_AnchorsFromFileAsk>
   <!-- EN: Export as patch -->
   <CBF_ExportAsPatch>匯出為補丁</CBF_ExportAsPatch>
   <!-- EN: {0} belongs to {1}. Its file stays untouched; your version is saved as a patch in your mod {2}. Continue? -->
-  <CBF_ExportPatchAsk>{0}屬於{1}。其檔案保持不變；你的版本會作為補丁儲存到你的模組{2}。繼續？</CBF_ExportPatchAsk>
+  <CBF_ExportPatchAsk>{0}屬於{1}。其檔案保持不變；你的版本會以補丁形式儲存在你的模組{2}中。要繼續嗎？</CBF_ExportPatchAsk>
   <!-- EN: This piece belongs to another mod. The export saves your changes as a patch in your own mod, the original file stays untouched. -->
-  <CBF_TDesc_exportPatch>該部件屬於其他模組。匯出會將你的更改作為補丁儲存到你的模組，原始檔案保持不變。</CBF_TDesc_exportPatch>
+  <CBF_TDesc_exportPatch>此部件屬於其他模組。匯出會將你的變更以補丁形式存到你自己的模組，原始檔案保持不變。</CBF_TDesc_exportPatch>
   <!-- EN: Save it as a new piece with its own name in your mod. The original stays as it is. -->
-  <CBF_TDesc_exportCopy>以新名稱把它作為新部件儲存到你的模組。原件保持不變。</CBF_TDesc_exportCopy>
+  <CBF_TDesc_exportCopy>以自己的名稱存成你模組中的新部件。原始部件維持原樣。</CBF_TDesc_exportCopy>
   <!-- EN: Copy {0} into your own mod -->
-  <CBF_PieceCopyTitle>將{0}複製進你的模組</CBF_PieceCopyTitle>
+  <CBF_PieceCopyTitle>將{0}複製到你自己的模組</CBF_PieceCopyTitle>
   <!-- EN: needs {0} -->
   <CBF_P_NeedsModShort>需要{0}</CBF_P_NeedsModShort>
   <!-- EN: off with {0} -->
-  <CBF_P_OffByModShort>隨{0}停用</CBF_P_OffByModShort>
+  <CBF_P_OffByModShort>有{0}時停用</CBF_P_OffByModShort>
   <!-- EN: The symbols {0} come from that mod and are missing on purpose. -->
-  <CBF_MissingSymbolsModOff>符號{0}來自該模組，是有意缺失的。</CBF_MissingSymbolsModOff>
+  <CBF_MissingSymbolsModOff>符號{0}來自該模組，是刻意缺少的。</CBF_MissingSymbolsModOff>
   <!-- EN: Patched by -->
-  <CBF_P_PatchedBy>被補丁修改</CBF_P_PatchedBy>
+  <CBF_P_PatchedBy>補丁來源</CBF_P_PatchedBy>
   <!-- EN: Patches loaded at game start change this piece. The editor shows the patched version.\n\n{0}\n\n* means the whole piece. New patches take effect after a restart. -->
-  <CBF_P_PatchedByTip>遊戲啟動時載入的補丁會修改此部件。編輯器顯示補丁後的版本。\n\n{0}\n\n* 表示整個部件。新補丁在重啟後生效。</CBF_P_PatchedByTip>
+  <CBF_P_PatchedByTip>遊戲啟動時載入的補丁會修改此部件。編輯器顯示的是套用補丁後的版本。\n\n{0}\n\n*表示整個部件。新補丁要重新啟動後才會生效。</CBF_P_PatchedByTip>
   <!-- EN: Patched by {0} -->
-  <CBF_P_PatchedByBox>被{0}修改</CBF_P_PatchedByBox>
+  <CBF_P_PatchedByBox>由{0}修改</CBF_P_PatchedByBox>
   <!-- EN: Patch -->
   <CBF_P_PatchChip>補丁</CBF_P_PatchChip>
   <!-- EN: Floors -->
   <CBF_P_Floors>地板</CBF_P_Floors>
   <!-- EN: Each floor symbol can draw its floor from a floor list instead of the drawn floor. -->
-  <CBF_P_FloorsHint>每個地板符號都可以從地板清單取用地板，而非繪製的地板。</CBF_P_FloorsHint>
+  <CBF_P_FloorsHint>每個地板符號都可以從地板清單抽取地板，取代繪製的地板。</CBF_P_FloorsHint>
   <!-- EN: Drawn floor -->
   <CBF_P_FloorOwn>繪製的地板</CBF_P_FloorOwn>
   <!-- EN: Choose a floor list -->
   <CBF_P_FloorPick>選擇地板清單</CBF_P_FloorPick>
   <!-- EN: Floor list for this symbol. Lists are made in the Lists tab under Floors. -->
-  <CBF_P_FloorListTip>此符號的地板清單。清單在Floors下的Lists選項卡中製作。</CBF_P_FloorListTip>
+  <CBF_P_FloorListTip>此符號的地板清單。清單在清單分頁的「地板」中建立。</CBF_P_FloorListTip>
   <!-- EN: Roll for each cell -->
-  <CBF_P_FloorPerCell>逐格擲取</CBF_P_FloorPerCell>
+  <CBF_P_FloorPerCell>每格各自抽取</CBF_P_FloorPerCell>
   <!-- EN: Off: one floor is rolled per placed piece and covers the whole symbol. On: every cell gets its own floor. -->
-  <CBF_P_FloorPerCellTip>關閉：每放置一個部件擲取一次地板並覆蓋整個符號。開啟：每個格獲得自己的地板。</CBF_P_FloorPerCellTip>
+  <CBF_P_FloorPerCellTip>關閉：每個放置的部件抽取一種地板，鋪滿整個符號範圍。開啟：每一格各自取得地板。</CBF_P_FloorPerCellTip>
   <!-- EN: Plant vessels -->
   <CBF_P_Vessels>植物容器</CBF_P_Vessels>
   <!-- EN: Pots, hydroponics and other vessels get their plants like a field: from a crop list or from single plants. -->
@@ -371,7 +371,7 @@
   <!-- EN: Dungeons -->
   <CBF_P_DescentPlans>地下城</CBF_P_DescentPlans>
   <!-- EN: Dungeon plans this anchor may lead into. One of them is picked at random. -->
-  <CBF_P_DescentPlansTip>此錨點可能通往的地下城計畫。會從中隨機挑選一個。</CBF_P_DescentPlansTip>
+  <CBF_P_DescentPlansTip>此錨點可能通往的地下城計劃。會從中隨機挑選一個。</CBF_P_DescentPlansTip>
   <!-- EN: None -->
   <CBF_P_DescentNone>無</CBF_P_DescentNone>
   <!-- EN: Descent chance -->

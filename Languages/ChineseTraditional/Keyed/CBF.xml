@@ -7,7 +7,7 @@
   <!-- EN: Name -->
   <CBF_Name>名稱</CBF_Name>
   <!-- EN: New tag -->
-  <CBF_NewTag>新標籤</CBF_NewTag>
+  <CBF_NewTag>新類別</CBF_NewTag>
   <!-- EN: missing -->
   <CBF_Missing>缺少</CBF_Missing>
   <!-- EN: no -->
@@ -15,11 +15,11 @@
   <!-- EN: Error -->
   <CBF_Error>錯誤</CBF_Error>
   <!-- EN: Everything on {0} has been undone. One more step takes you back to {1}. -->
-  <CBF_UndoBoundary>{0}上的所有操作已撤銷。再退一步會回到{1}。</CBF_UndoBoundary>
+  <CBF_UndoBoundary>{0}上的所有變更都已復原。再復原一步會回到{1}。</CBF_UndoBoundary>
   <!-- EN: {0} newly created definitions were exported as well. -->
-  <CBF_ExportedAlso>另外匯出了{0}個新建立的def。</CBF_ExportedAlso>
+  <CBF_ExportedAlso>另外也匯出了{0}個新建立的定義。</CBF_ExportedAlso>
   <!-- EN: {0} has unexported changes. -->
-  <CBF_UnsavedWarning>{0}有未匯出的更改。</CBF_UnsavedWarning>
+  <CBF_UnsavedWarning>{0}有尚未匯出的變更。</CBF_UnsavedWarning>
   <!-- EN: Hint -->
   <CBF_Hint>提示</CBF_Hint>
   <!-- EN: Create -->
@@ -35,79 +35,79 @@
   <!-- EN: Piece -->
   <CBF_PieceLabel>部件</CBF_PieceLabel>
   <!-- EN: Mark an area that a piece is exported from. Adjacent marks merge into one. -->
-  <CBF_ZonePieceDesc>標記一個部件從中匯出的區域。相鄰的標記會合併為一個。</CBF_ZonePieceDesc>
+  <CBF_ZonePieceDesc>標記要匯出成部件的區域。相鄰的標記會合併成一個。</CBF_ZonePieceDesc>
   <!-- EN: Export -->
   <CBF_Export>匯出</CBF_Export>
   <!-- EN: No piece is marked on this map. -->
-  <CBF_NoPieceMarked>此地圖上沒有標記部件。</CBF_NoPieceMarked>
+  <CBF_NoPieceMarked>此地圖上沒有標記任何部件。</CBF_NoPieceMarked>
   <!-- EN: The name does not make a valid defName. -->
-  <CBF_BadDefName>該名稱無法構成有效的defName。</CBF_BadDefName>
+  <CBF_BadDefName>這個名稱無法構成有效的defName。</CBF_BadDefName>
   <!-- EN: Only letters A to Z, digits, underscore and hyphen are allowed. The name must not start with a digit. -->
-  <CBF_BadDefNameChars>僅允許字母A至Z、數字、下劃線與連字元。名稱不得以數字開頭。</CBF_BadDefNameChars>
+  <CBF_BadDefNameChars>只允許字母A至Z、數字、底線與連字號。名稱不可以數字開頭。</CBF_BadDefNameChars>
   <!-- EN: Part of the piece is missing. Split it into smaller pieces. -->
-  <CBF_PieceTooSparse>部件的一部分缺失。把它拆成更小的部件。</CBF_PieceTooSparse>
+  <CBF_PieceTooSparse>部件有一部分缺失。請拆成較小的部件。</CBF_PieceTooSparse>
   <!-- EN: Writing failed, see log. -->
-  <CBF_WriteFailed>寫入失敗，請檢視日誌。</CBF_WriteFailed>
+  <CBF_WriteFailed>寫入失敗，請查看日誌。</CBF_WriteFailed>
   <!-- EN: Rename -->
   <CBF_Rename>重新命名</CBF_Rename>
   <!-- EN: create new ... -->
-  <CBF_CreateNew>新建…</CBF_CreateNew>
+  <CBF_CreateNew>建立新的……</CBF_CreateNew>
   <!-- EN: Remove cells -->
-  <CBF_RegionRemove>移除格</CBF_RegionRemove>
+  <CBF_RegionRemove>移除格子</CBF_RegionRemove>
   <!-- EN: Drag over cells to take them out of a piece again. -->
-  <CBF_RegionRemoveDesc>在格上拖動以再次把它們從部件中取出。</CBF_RegionRemoveDesc>
+  <CBF_RegionRemoveDesc>拖曳經過格子，把它們從部件中移除。</CBF_RegionRemoveDesc>
   <!-- EN: {0} already exists. Overwrite it? -->
-  <CBF_OverwriteAsk>{0}已存在。覆蓋它？</CBF_OverwriteAsk>
+  <CBF_OverwriteAsk>{0}已存在。要覆寫嗎？</CBF_OverwriteAsk>
   <!-- EN: Place to edit -->
   <CBF_PlaceToEditBtn>放置以編輯</CBF_PlaceToEditBtn>
   <!-- EN: Place to edit:  -->
   <CBF_PlaceToEdit>放置以編輯：</CBF_PlaceToEdit>
   <!-- EN: {0} placed with its piece area. Edit it and export again. -->
-  <CBF_PlacedToEdit>{0}已連同其部件區域放置。編輯它並重新匯出。</CBF_PlacedToEdit>
+  <CBF_PlacedToEdit>已連同部件區域放置{0}。編輯後再匯出一次。</CBF_PlacedToEdit>
   <!-- EN: (none) -->
   <CBF_None>（無）</CBF_None>
   <!-- EN: Name -->
   <CBF_Field_defName>名稱</CBF_Field_defName>
   <!-- EN: The identifier this piece is referenced by. Cannot be changed after export without breaking references. -->
-  <CBF_FieldDesc_defName>此部件被引用的識別符號。匯出後更改會破壞引用，故不可更改。</CBF_FieldDesc_defName>
+  <CBF_FieldDesc_defName>引用此部件時使用的識別名稱。匯出後若更改，會破壞既有的引用。</CBF_FieldDesc_defName>
   <!-- EN: Size -->
   <CBF_Field_size>大小</CBF_Field_size>
   <!-- EN: Width by height in cells, taken from the drawn area. -->
-  <CBF_FieldDesc_size>以格計的寬乘高，取自所繪區域。</CBF_FieldDesc_size>
+  <CBF_FieldDesc_size>寬乘高的格數，取自繪製的區域。</CBF_FieldDesc_size>
   <!-- EN: Style -->
   <CBF_Field_style>風格</CBF_Field_style>
   <!-- EN: Old field. It only still picks the wall profile and the standard materials. Does not restrict piece selection. -->
-  <CBF_FieldDesc_style>舊欄位。它現在僅選擇牆型與標準材料。不限制部件選擇。</CBF_FieldDesc_style>
+  <CBF_FieldDesc_style>舊欄位。目前只用來選擇城牆剖面與標準材料，不會限制部件的選擇。</CBF_FieldDesc_style>
   <!-- EN: Categories -->
   <CBF_Field_categories>類別</CBF_Field_categories>
   <!-- EN: What this piece is. The first one is the primary: on conflict its rules win, field by field, then its parents, then the next category. -->
-  <CBF_FieldDesc_categories>此部件是什麼。第一個為主類別：衝突時其規則逐欄位勝出，然後是父級，再是下一個類別。</CBF_FieldDesc_categories>
+  <CBF_FieldDesc_categories>此部件屬於什麼。第一個是主類別：發生衝突時逐欄位以它的規則為準，其次是它的上層類別，再來才是下一個類別。</CBF_FieldDesc_categories>
   <!-- EN: Rotatable -->
   <CBF_Field_allowRotation>可旋轉</CBF_Field_allowRotation>
   <!-- EN: May the generator turn this piece. Switch off for pieces that only read right way up. -->
-  <CBF_FieldDesc_allowRotation>生成器是否可旋轉此部件。對只能按一種方向閱讀的部件請關閉。</CBF_FieldDesc_allowRotation>
+  <CBF_FieldDesc_allowRotation>生成器是否可以旋轉此部件。只有正向擺放才看得懂的部件請關閉。</CBF_FieldDesc_allowRotation>
   <!-- EN: Clear ground -->
-  <CBF_Field_clearFootprint>清除地基</CBF_Field_clearFootprint>
+  <CBF_Field_clearFootprint>清空地面</CBF_Field_clearFootprint>
   <!-- EN: Remove whatever stands on the cells before stamping. -->
-  <CBF_FieldDesc_clearFootprint>蓋章前移除格上的一切。</CBF_FieldDesc_clearFootprint>
+  <CBF_FieldDesc_clearFootprint>放置前先移除這些格子上原有的東西。</CBF_FieldDesc_clearFootprint>
   <!-- EN: At wall -->
   <CBF_Field_atWall>貼牆</CBF_Field_atWall>
   <!-- EN: How much this piece wants to touch the town wall. Resolved from the piece, then its categories. -->
-  <CBF_FieldDesc_atWall>此部件希望接觸城鎮城牆的程度。先從部件解析，再從其類別解析。</CBF_FieldDesc_atWall>
+  <CBF_FieldDesc_atWall>此部件有多想貼著城牆。先看部件本身，再看它的類別。</CBF_FieldDesc_atWall>
   <!-- EN: Type -->
-  <CBF_Field_type>型別</CBF_Field_type>
+  <CBF_Field_type>類型</CBF_Field_type>
   <!-- EN: Who consumes this piece: the settlement generator, the wall profile, or the dungeon generator. -->
-  <CBF_FieldDesc_type>誰消費此部件：據點生成器、牆型或地下城生成器。</CBF_FieldDesc_type>
+  <CBF_FieldDesc_type>使用此部件的對象：據點生成器、城牆剖面，或地下城生成器。</CBF_FieldDesc_type>
   <!-- EN: {0} is still used by {1} definition(s): {2} -->
-  <CBF_StillUsedBy>{0}仍被{1}個def使用：{2}</CBF_StillUsedBy>
+  <CBF_StillUsedBy>{0}仍被{1}個定義使用：{2}</CBF_StillUsedBy>
   <!-- EN: A definition named {0} already exists. -->
-  <CBF_NameTaken>名為{0}的def已存在。</CBF_NameTaken>
+  <CBF_NameTaken>已經有名為{0}的定義。</CBF_NameTaken>
   <!-- EN: No source file found for {0}, so it cannot be duplicated. -->
-  <CBF_NoSourceFile>未找到{0}的原始檔，因此無法複製它。</CBF_NoSourceFile>
+  <CBF_NoSourceFile>找不到{0}的原始檔案，因此無法複製。</CBF_NoSourceFile>
   <!-- EN: The copy of {0} could not be read back and was removed again. -->
-  <CBF_DuplicateUnreadable>{0}的副本無法讀回，已再次移除。</CBF_DuplicateUnreadable>
+  <CBF_DuplicateUnreadable>{0}的複本無法讀回，已再次刪除。</CBF_DuplicateUnreadable>
   <!-- EN: Search... -->
-  <CBF_Search>搜尋…</CBF_Search>
+  <CBF_Search>搜尋……</CBF_Search>
   <!-- EN: All -->
   <CBF_All>全部</CBF_All>
   <!-- EN: template -->
@@ -123,91 +123,91 @@
   <!-- EN: Mark as template -->
   <CBF_MarkTemplate>標記為模板</CBF_MarkTemplate>
   <!-- EN: No longer a template -->
-  <CBF_UnmarkTemplate>不再作為模板</CBF_UnmarkTemplate>
+  <CBF_UnmarkTemplate>取消模板</CBF_UnmarkTemplate>
   <!-- EN: Duplicate {0} as: -->
   <CBF_DuplicateAs>將{0}複製為：</CBF_DuplicateAs>
   <!-- EN: Rename {0} to: -->
   <CBF_RenameTo>將{0}重新命名為：</CBF_RenameTo>
   <!-- EN: {0} duplicated as {1}. -->
-  <CBF_Duplicated>{0}已複製為{1}。</CBF_Duplicated>
+  <CBF_Duplicated>已將{0}複製為{1}。</CBF_Duplicated>
   <!-- EN: Renamed to {0}. -->
   <CBF_Renamed>已重新命名為{0}。</CBF_Renamed>
   <!-- EN: Delete {0}? The file goes away; the definition disappears from the database on the next start. -->
-  <CBF_DeleteAsk>刪除{0}？檔案會消失；def在下次啟動時從資料庫中消失。</CBF_DeleteAsk>
+  <CBF_DeleteAsk>要刪除{0}嗎？檔案會被刪除；定義會在下次啟動時從資料庫中消失。</CBF_DeleteAsk>
   <!-- EN: {0} deleted. -->
-  <CBF_Deleted>{0}已刪除。</CBF_Deleted>
+  <CBF_Deleted>已刪除{0}。</CBF_Deleted>
   <!-- EN: No legend entry for: {0}. Usually the mod they come from is not active. This piece will not be placed. -->
-  <CBF_IncompleteWhy>沒有{0}的圖例條目。通常是其來源模組未啟用。此部件不會被放置。</CBF_IncompleteWhy>
+  <CBF_IncompleteWhy>缺少圖例條目：{0}。通常是它們所屬的模組未啟用。此部件不會被放置。</CBF_IncompleteWhy>
   <!-- EN: inherited -->
   <CBF_Inherited>繼承</CBF_Inherited>
   <!-- EN: from {0} -->
   <CBF_InheritedFrom>來自{0}</CBF_InheritedFrom>
   <!-- EN: Parent -->
-  <CBF_Field_parent>父級</CBF_Field_parent>
+  <CBF_Field_parent>上層</CBF_Field_parent>
   <!-- EN: The category this one inherits from. Fields left unset here come from it. -->
-  <CBF_FieldDesc_parent>此類別繼承自的類別。此處未設定的欄位來自那裡。</CBF_FieldDesc_parent>
+  <CBF_FieldDesc_parent>此類別所繼承的類別。這裡未設定的欄位會沿用它的值。</CBF_FieldDesc_parent>
   <!-- EN: Inherits from -->
   <CBF_Field_chain>繼承自</CBF_Field_chain>
   <!-- EN: The full chain, from the nearest parent outwards. -->
-  <CBF_FieldDesc_chain>完整繼承鏈，從最近的父級向外。</CBF_FieldDesc_chain>
+  <CBF_FieldDesc_chain>完整的繼承鏈，從最近的上層往外排列。</CBF_FieldDesc_chain>
   <!-- EN: Pieces -->
   <CBF_Field_pieceCount>部件數</CBF_Field_pieceCount>
   <!-- EN: How many pieces belong here, counted through the whole chain. -->
-  <CBF_FieldDesc_pieceCount>整條繼承鏈計數下來，此處歸屬多少個部件。</CBF_FieldDesc_pieceCount>
+  <CBF_FieldDesc_pieceCount>屬於這裡的部件數量，涵蓋整條繼承鏈。</CBF_FieldDesc_pieceCount>
   <!-- EN: Material list -->
   <CBF_Field_materialList>材料清單</CBF_Field_materialList>
   <!-- EN: Which material list this settlement type uses for walls, floors, doors, gates and the other roles. -->
-  <CBF_FieldDesc_materialList>此據點型別對牆、地面、門、城門及其他角色使用哪個材料清單。</CBF_FieldDesc_materialList>
+  <CBF_FieldDesc_materialList>此據點類型的牆、地板、門、城門及其他建築角色所使用的材料清單。</CBF_FieldDesc_materialList>
   <!-- EN: Falls back to -->
-  <CBF_Field_fallback>回退到</CBF_Field_fallback>
+  <CBF_Field_fallback>備用</CBF_Field_fallback>
   <!-- EN: Used when this style has nothing for a role. -->
-  <CBF_FieldDesc_fallback>此風格對某角色沒有內容時使用。</CBF_FieldDesc_fallback>
+  <CBF_FieldDesc_fallback>此風格在某個建築角色沒有設定時使用。</CBF_FieldDesc_fallback>
   <!-- EN: Needs a road -->
   <CBF_Field_needsRoadAccess>需要道路</CBF_Field_needsRoadAccess>
   <!-- EN: Must be reachable from the road network. -->
-  <CBF_FieldDesc_needsRoadAccess>必須能從道路網路到達。</CBF_FieldDesc_needsRoadAccess>
+  <CBF_FieldDesc_needsRoadAccess>必須能從道路網抵達。</CBF_FieldDesc_needsRoadAccess>
   <!-- EN: Only once -->
-  <CBF_Field_unique>僅一次</CBF_Field_unique>
+  <CBF_Field_unique>僅限一個</CBF_Field_unique>
   <!-- EN: At most one per settlement. -->
-  <CBF_FieldDesc_unique>每個據點至多一個。</CBF_FieldDesc_unique>
+  <CBF_FieldDesc_unique>每個據點最多一個。</CBF_FieldDesc_unique>
   <!-- EN: Touches the wall -->
-  <CBF_Field_wallContact>貼牆</CBF_Field_wallContact>
+  <CBF_Field_wallContact>貼著城牆</CBF_Field_wallContact>
   <!-- EN: Prefers to stand against the town wall. The piece field At the wall controls this more finely and wins. -->
-  <CBF_FieldDesc_wallContact>偏好緊貼城鎮城牆。部件的貼牆欄位可更精細控制並勝出。</CBF_FieldDesc_wallContact>
+  <CBF_FieldDesc_wallContact>偏好緊靠城牆。部件欄位「貼牆」能更細緻地控制這點，且以它為準。</CBF_FieldDesc_wallContact>
   <!-- EN: Toward the gate -->
-  <CBF_Field_prefGate>朝向城門</CBF_Field_prefGate>
+  <CBF_Field_prefGate>靠近城門</CBF_Field_prefGate>
   <!-- EN: How strongly this wants to be near the gate. -->
-  <CBF_FieldDesc_prefGate>希望靠近城門的程度。</CBF_FieldDesc_prefGate>
+  <CBF_FieldDesc_prefGate>此項有多想靠近城門。</CBF_FieldDesc_prefGate>
   <!-- EN: Toward the center -->
-  <CBF_Field_prefCenter>朝向中心</CBF_Field_prefCenter>
+  <CBF_Field_prefCenter>靠近中心</CBF_Field_prefCenter>
   <!-- EN: How strongly this wants to be near the center. -->
-  <CBF_FieldDesc_prefCenter>希望靠近中心的程度。</CBF_FieldDesc_prefCenter>
+  <CBF_FieldDesc_prefCenter>此項有多想靠近中心。</CBF_FieldDesc_prefCenter>
   <!-- EN: Toward the wall -->
-  <CBF_Field_prefWall>朝向城牆</CBF_Field_prefWall>
+  <CBF_Field_prefWall>靠近城牆</CBF_Field_prefWall>
   <!-- EN: How strongly this wants to be near the wall. -->
-  <CBF_FieldDesc_prefWall>希望靠近城牆的程度。</CBF_FieldDesc_prefWall>
+  <CBF_FieldDesc_prefWall>此項有多想靠近城牆。</CBF_FieldDesc_prefWall>
   <!-- EN: Along the main road -->
-  <CBF_Field_prefMain>沿主幹道</CBF_Field_prefMain>
+  <CBF_Field_prefMain>沿著主要道路</CBF_Field_prefMain>
   <!-- EN: How strongly this wants to sit on the main road. -->
-  <CBF_FieldDesc_prefMain>希望位於主幹道上的程度。</CBF_FieldDesc_prefMain>
+  <CBF_FieldDesc_prefMain>此項有多想位於主要道路旁。</CBF_FieldDesc_prefMain>
   <!-- EN: Shape -->
   <CBF_Field_mask>形狀</CBF_Field_mask>
   <!-- EN: Which cells belong to the piece at all. Everything outside stays untouched. -->
-  <CBF_FieldDesc_mask>哪些格屬於部件。外部的一切保持不動。</CBF_FieldDesc_mask>
+  <CBF_FieldDesc_mask>哪些格子屬於此部件。範圍外的一切都不會被更動。</CBF_FieldDesc_mask>
   <!-- EN: Floor -->
-  <CBF_Field_terrain>地面</CBF_Field_terrain>
+  <CBF_Field_terrain>地板</CBF_Field_terrain>
   <!-- EN: The floor layer. One character per cell, resolved through the legend. -->
-  <CBF_FieldDesc_terrain>地面層。每格一個字元，透過圖例解析。</CBF_FieldDesc_terrain>
+  <CBF_FieldDesc_terrain>地板層。每格一個字元，透過圖例解讀。</CBF_FieldDesc_terrain>
   <!-- EN: Objects -->
-  <CBF_Field_things>物品</CBF_Field_things>
+  <CBF_Field_things>物件</CBF_Field_things>
   <!-- EN: Objects, second layer -->
-  <CBF_Field_things2>物品，第二層</CBF_Field_things2>
+  <CBF_Field_things2>物件，第二層</CBF_Field_things2>
   <!-- EN: What hangs on the first layer, such as a wall torch. RimWorld allows a wall and something attached to it in the same cell; with only one layer the wall would get a hole. -->
-  <CBF_FieldDesc_things2>掛在第一層上的東西，如壁掛火把。RimWorld允許同一格有一面牆與附著其上的東西；只有一層時牆會留下一個洞。</CBF_FieldDesc_things2>
+  <CBF_FieldDesc_things2>掛在第一層上的東西，例如壁掛火把。RimWorld允許牆與附著在牆上的物品位於同一格；只有一層的話，牆會出現缺口。</CBF_FieldDesc_things2>
   <!-- EN: Objects, third layer -->
-  <CBF_Field_things3>物品，第三層</CBF_Field_things3>
+  <CBF_Field_things3>物件，第三層</CBF_Field_things3>
   <!-- EN: A third pass for the rare cell that carries three things. -->
-  <CBF_FieldDesc_things3>針對承載三樣東西的稀有格的第三次處理。</CBF_FieldDesc_things3>
+  <CBF_FieldDesc_things3>第三次放置，用於少數同一格有三樣東西的情況。</CBF_FieldDesc_things3>
   <!-- EN: Plants -->
   <CBF_Field_plants>植物</CBF_Field_plants>
   <!-- EN: The plant layer, for gardens and fields. -->
@@ -215,97 +215,97 @@
   <!-- EN: Roof -->
   <CBF_Field_roof>屋頂</CBF_Field_roof>
   <!-- EN: Where a roof is built. -->
-  <CBF_FieldDesc_roof>屋頂建造之處。</CBF_FieldDesc_roof>
+  <CBF_FieldDesc_roof>要建造屋頂的位置。</CBF_FieldDesc_roof>
   <!-- EN: Anchors -->
   <CBF_Field_anchors>錨點</CBF_Field_anchors>
   <!-- EN: Cells that must sit on the town wall. A barracks anchors here so it merges into the wall instead of standing in front of it. -->
-  <CBF_FieldDesc_anchors>必須位於城鎮城牆上的格。兵營在此錨定，以融入城牆而非立在其前。</CBF_FieldDesc_anchors>
+  <CBF_FieldDesc_anchors>必須位於城牆上的格子。營房在此設定錨點，就會融入城牆，而不是立在城牆前方。</CBF_FieldDesc_anchors>
   <!-- EN: Content zones -->
   <CBF_Field_content>內容區域</CBF_Field_content>
   <!-- EN: Cells that get loot at spawn time. Furniture is never chosen automatically, only loot is. -->
-  <CBF_FieldDesc_content>生成時獲得戰利品的格。傢俱從不自動選擇，只有戰利品才會。</CBF_FieldDesc_content>
+  <CBF_FieldDesc_content>生成時會放入戰利品的格子。家具永遠不會自動挑選，只有戰利品會。</CBF_FieldDesc_content>
   <!-- EN: Content zone rules -->
   <CBF_Field_contentZones>內容區域規則</CBF_Field_contentZones>
   <!-- EN: What goes into each content zone: which loot table, which building category. -->
-  <CBF_FieldDesc_contentZones>每個內容區域放入什麼：哪個戰利品表、哪個建築類別。</CBF_FieldDesc_contentZones>
+  <CBF_FieldDesc_contentZones>每個內容區域放入什麼：哪張戰利品表、哪個建築類別。</CBF_FieldDesc_contentZones>
   <!-- EN: Legend -->
   <CBF_Field_legend>圖例</CBF_Field_legend>
   <!-- EN: What each character in the layers means: a thing, a terrain, a role. -->
-  <CBF_FieldDesc_legend>各層中每個字元的含義：一件物品、一種地形、一個角色。</CBF_FieldDesc_legend>
+  <CBF_FieldDesc_legend>各層中每個字元代表什麼：物品、地形或建築角色。</CBF_FieldDesc_legend>
   <!-- EN: Placement rules -->
-  <CBF_Field_placement>放置規則</CBF_Field_placement>
+  <CBF_Field_placement>擺放規則</CBF_Field_placement>
   <!-- EN: Overrides the rules of the category for this one piece. Leave it out and the category decides. -->
-  <CBF_FieldDesc_placement>為這一個部件覆蓋類別的規則。省略則由類別決定。</CBF_FieldDesc_placement>
+  <CBF_FieldDesc_placement>只對這個部件覆蓋類別的規則。不設定時由類別決定。</CBF_FieldDesc_placement>
   <!-- EN: Schema version -->
-  <CBF_Field_schemaVersion>結構版本</CBF_Field_schemaVersion>
+  <CBF_Field_schemaVersion>格式版本</CBF_Field_schemaVersion>
   <!-- EN: Which format this file was written in. Older files are migrated on load. -->
-  <CBF_FieldDesc_schemaVersion>此檔案以何種格式編寫。舊檔案在載入時遷移。</CBF_FieldDesc_schemaVersion>
+  <CBF_FieldDesc_schemaVersion>此檔案寫入時使用的格式。較舊的檔案會在載入時轉換。</CBF_FieldDesc_schemaVersion>
   <!-- EN: Template -->
   <CBF_Field_template>模板</CBF_Field_template>
   <!-- EN: A piece to copy from. It is never placed itself. -->
-  <CBF_FieldDesc_template>要複製的部件。它本身從不被放置。</CBF_FieldDesc_template>
+  <CBF_FieldDesc_template>供複製來源的部件。它本身永遠不會被放置。</CBF_FieldDesc_template>
   <!-- EN: Category (old) -->
   <CBF_Field_tag>類別（舊）</CBF_Field_tag>
   <!-- EN: The first category. Kept so old files still load; write categories instead. -->
-  <CBF_FieldDesc_tag>第一個類別。保留以使舊檔案仍能載入；請改寫作categories。</CBF_FieldDesc_tag>
+  <CBF_FieldDesc_tag>第一個類別。保留是為了讓舊檔案仍能載入；請改寫在categories中。</CBF_FieldDesc_tag>
   <!-- EN: Zones -->
   <CBF_Field_zones>區域</CBF_Field_zones>
   <!-- EN: Only Outside has an effect: together with needsRoadAccess set to false, the building needs no road and may be entered from every side. Inside and Center do nothing. Where a building stands is decided by the budget of its ward. -->
-  <CBF_FieldDesc_zones>僅外側有效：與needsRoadAccess設為假一起時，建築無需道路且可從每側進入。內部與中心無作用。建築的位置由所屬區的預算決定。</CBF_FieldDesc_zones>
+  <CBF_FieldDesc_zones>只有Outside有作用：搭配needsRoadAccess設為false時，建築不需要道路，且可從任何一側進入。Inside與Center沒有效果。建築的位置由所在城區的預算決定。</CBF_FieldDesc_zones>
   <!-- EN: Count per settlement -->
-  <CBF_Field_countPerSettlement>每據點數量</CBF_Field_countPerSettlement>
+  <CBF_Field_countPerSettlement>每個據點數量</CBF_Field_countPerSettlement>
   <!-- EN: How many of these a settlement wants, as a range. -->
-  <CBF_FieldDesc_countPerSettlement>據點想要多少個此類建築，以範圍表示。</CBF_FieldDesc_countPerSettlement>
+  <CBF_FieldDesc_countPerSettlement>一個據點想要幾個，以範圍表示。</CBF_FieldDesc_countPerSettlement>
   <!-- EN: Weight -->
   <CBF_Field_weight>權重</CBF_Field_weight>
   <!-- EN: Map size -->
   <CBF_Field_mapSize>地圖大小</CBF_Field_mapSize>
   <!-- EN: How large the map is that this settlement is generated on. -->
-  <CBF_FieldDesc_mapSize>此據點生成於多大的地圖。</CBF_FieldDesc_mapSize>
+  <CBF_FieldDesc_mapSize>生成此據點的地圖有多大。</CBF_FieldDesc_mapSize>
   <!-- EN: Corner tower size -->
-  <CBF_Field_towerCorner>角塔大小</CBF_Field_towerCorner>
+  <CBF_Field_towerCorner>轉角塔樓大小</CBF_Field_towerCorner>
   <!-- EN: Edge length of a corner tower, measured on the centre line of the wall band. -->
-  <CBF_FieldDesc_towerCorner>角塔的邊長，在城牆帶的中心線上測量。</CBF_FieldDesc_towerCorner>
+  <CBF_FieldDesc_towerCorner>轉角塔樓的邊長，沿城牆帶的中心線測量。</CBF_FieldDesc_towerCorner>
   <!-- EN: Gates -->
-  <CBF_Field_gates>城門數</CBF_Field_gates>
+  <CBF_Field_gates>城門</CBF_Field_gates>
   <!-- EN: How many gates the wall gets, as a range. -->
-  <CBF_FieldDesc_gates>城牆獲得多少座城門，以範圍表示。</CBF_FieldDesc_gates>
+  <CBF_FieldDesc_gates>城牆有幾座城門，以範圍表示。</CBF_FieldDesc_gates>
   <!-- EN: Main road width -->
-  <CBF_Field_roadMain>主幹道寬度</CBF_Field_roadMain>
+  <CBF_Field_roadMain>主要道路寬度</CBF_Field_roadMain>
   <!-- EN: Width of the main road. There are only two widths on purpose; more cuts the map up visually. -->
-  <CBF_FieldDesc_roadMain>主幹道的寬度。故意只有兩種寬度；更多會在視覺上割裂地圖。</CBF_FieldDesc_roadMain>
+  <CBF_FieldDesc_roadMain>主要道路的寬度。刻意只有兩種寬度；更多種會讓地圖在視覺上變得零碎。</CBF_FieldDesc_roadMain>
   <!-- EN: Lane width -->
-  <CBF_Field_roadLane>小巷寬度</CBF_Field_roadLane>
+  <CBF_Field_roadLane>巷道寬度</CBF_Field_roadLane>
   <!-- EN: Width of the side lanes. -->
-  <CBF_FieldDesc_roadLane>側巷的寬度。</CBF_FieldDesc_roadLane>
+  <CBF_FieldDesc_roadLane>側邊巷道的寬度。</CBF_FieldDesc_roadLane>
   <!-- EN: Smallest gap between buildings -->
   <CBF_Field_minBuildingGap>建築最小間距</CBF_Field_minBuildingGap>
   <!-- EN: 0 lets the framework decide from the loaded mods. -->
-  <CBF_FieldDesc_minBuildingGap>0讓框架從已載入模組決定。</CBF_FieldDesc_minBuildingGap>
+  <CBF_FieldDesc_minBuildingGap>0表示由框架依已載入的模組決定。</CBF_FieldDesc_minBuildingGap>
   <!-- EN: Largest gap between buildings -->
   <CBF_Field_maxBuildingGap>建築最大間距</CBF_Field_maxBuildingGap>
   <!-- EN: Keeps enough room between houses for a path. -->
-  <CBF_FieldDesc_maxBuildingGap>在房屋之間為小路保留足夠空間。</CBF_FieldDesc_maxBuildingGap>
+  <CBF_FieldDesc_maxBuildingGap>讓房屋之間保留足以通行的空間。</CBF_FieldDesc_maxBuildingGap>
   <!-- EN: Target built share -->
-  <CBF_Field_targetBuilt>目標建造密度</CBF_Field_targetBuilt>
+  <CBF_Field_targetBuilt>目標建築佔比</CBF_Field_targetBuilt>
   <!-- EN: How densely built the settlement should feel. Hand-built MO settlements sit at 0.61. -->
-  <CBF_FieldDesc_targetBuilt>據點應給人多密集建造的感覺。手工建造的MO據點為0.61。</CBF_FieldDesc_targetBuilt>
+  <CBF_FieldDesc_targetBuilt>據點看起來應該有多密集。手工打造的MO據點約為0.61。</CBF_FieldDesc_targetBuilt>
   <!-- EN: Budget -->
   <CBF_Field_budget>預算</CBF_Field_budget>
   <!-- EN: Which categories the settlement wants, how many of each, and what share of the area. -->
-  <CBF_FieldDesc_budget>據點想要哪些類別、各類多少，以及佔面積的份額。</CBF_FieldDesc_budget>
+  <CBF_FieldDesc_budget>據點想要哪些類別、各要幾個，以及佔多少面積。</CBF_FieldDesc_budget>
   <!-- EN: Styles -->
   <CBF_Field_styles>風格</CBF_Field_styles>
   <!-- EN: Old field. It only still picks the wall profile and the standard materials. Does not filter pieces. -->
-  <CBF_FieldDesc_styles>舊欄位。它現在僅選擇牆型與標準材料。不篩選部件。</CBF_FieldDesc_styles>
+  <CBF_FieldDesc_styles>舊欄位。目前只用來選擇城牆剖面與標準材料，不會篩選部件。</CBF_FieldDesc_styles>
   <!-- EN: Defensive positions -->
   <CBF_Field_emplacements>防禦陣地</CBF_Field_emplacements>
   <!-- EN: Which pieces may serve as towers, gun batteries and the like. -->
-  <CBF_FieldDesc_emplacements>哪些部件可作為塔樓、砲臺等。</CBF_FieldDesc_emplacements>
+  <CBF_FieldDesc_emplacements>哪些部件可以當作塔樓、砲台之類的工事。</CBF_FieldDesc_emplacements>
   <!-- EN: Gatehouses -->
   <CBF_Field_gatehouses>門樓</CBF_Field_gatehouses>
   <!-- EN: Which pieces may serve as gatehouses. -->
-  <CBF_FieldDesc_gatehouses>哪些部件可作為門樓。</CBF_FieldDesc_gatehouses>
+  <CBF_FieldDesc_gatehouses>哪些部件可以當作門樓。</CBF_FieldDesc_gatehouses>
   <!-- EN: Defender strength -->
   <CBF_Field_defenderPoints>守軍強度</CBF_Field_defenderPoints>
   <!-- EN: Without a garrison factor: how strong the point-based defenders are, as a point range. With wealthFactor above 0: the minimum garrison budget. -->
@@ -313,59 +313,59 @@
   <!-- EN: Factions -->
   <CBF_Field_factionTags>派系</CBF_Field_factionTags>
   <!-- EN: Which factions may use this settlement type. -->
-  <CBF_FieldDesc_factionTags>哪些派系可使用此據點型別。</CBF_FieldDesc_factionTags>
+  <CBF_FieldDesc_factionTags>哪些派系可以使用此據點類型。</CBF_FieldDesc_factionTags>
   <!-- EN: Count -->
   <CBF_Field_count>數量</CBF_Field_count>
   <!-- EN: How many of these the settlement wants, as a range. -->
-  <CBF_FieldDesc_count>據點想要多少個此類建築，以範圍表示。</CBF_FieldDesc_count>
+  <CBF_FieldDesc_count>據點想要幾個，以範圍表示。</CBF_FieldDesc_count>
   <!-- EN: Core size -->
   <CBF_Field_coreSize>核心大小</CBF_Field_coreSize>
   <!-- EN: Edge length of the settlement core, as a range. Everything else grows around it. -->
-  <CBF_FieldDesc_coreSize>據點核心的邊長，以範圍表示。其餘一切圍繞它生長。</CBF_FieldDesc_coreSize>
+  <CBF_FieldDesc_coreSize>據點核心的邊長，以範圍表示。其他一切都圍繞它擴展。</CBF_FieldDesc_coreSize>
   <!-- EN: Defenders on the wall -->
   <CBF_Field_defendersOnWall>城牆上的守軍</CBF_Field_defendersOnWall>
   <!-- EN: What share of the defenders stands on the walkway rather than on the ground. -->
-  <CBF_FieldDesc_defendersOnWall>多少比例的守軍站在步道而非地面。</CBF_FieldDesc_defendersOnWall>
+  <CBF_FieldDesc_defendersOnWall>守軍中有多少比例站在城牆步道上，而不是地面。</CBF_FieldDesc_defendersOnWall>
   <!-- EN: Defender group -->
-  <CBF_Field_defenderGroupKind>守軍群體</CBF_Field_defenderGroupKind>
+  <CBF_Field_defenderGroupKind>守軍組別</CBF_Field_defenderGroupKind>
   <!-- EN: Which group kind the defenders come from. Empty means Settlement, then Combat. -->
-  <CBF_FieldDesc_defenderGroupKind>守軍來自哪個群體種類。留空表示據點，然後是戰鬥。</CBF_FieldDesc_defenderGroupKind>
+  <CBF_FieldDesc_defenderGroupKind>守軍來自哪一種角色組別。留空表示先用Settlement，再用Combat。</CBF_FieldDesc_defenderGroupKind>
   <!-- EN: Roles -->
-  <CBF_Field_roles>角色</CBF_Field_roles>
+  <CBF_Field_roles>建築角色</CBF_Field_roles>
   <!-- EN: Which thing or terrain each building role gets. -->
-  <CBF_FieldDesc_roles>每個建築角色獲得哪個物品或地形。</CBF_FieldDesc_roles>
+  <CBF_FieldDesc_roles>每個建築角色使用哪種物品或地形。</CBF_FieldDesc_roles>
   <!-- EN: Members -->
   <CBF_Field_members>成員</CBF_Field_members>
   <!-- EN: Which buildings belong to this loot category. -->
   <CBF_FieldDesc_members>哪些建築屬於此戰利品類別。</CBF_FieldDesc_members>
   <!-- EN: Nothing in here yet. -->
-  <CBF_DistrictEmpty>這裡還沒有內容。</CBF_DistrictEmpty>
+  <CBF_DistrictEmpty>這裡還沒有任何東西。</CBF_DistrictEmpty>
   <!-- EN: Name of the new district: -->
-  <CBF_NewDistrict>新區的名稱：</CBF_NewDistrict>
+  <CBF_NewDistrict>新街區的名稱：</CBF_NewDistrict>
   <!-- EN: District {0} added -->
-  <CBF_AddedDistrict>已新增區{0}</CBF_AddedDistrict>
+  <CBF_AddedDistrict>已新增街區{0}</CBF_AddedDistrict>
   <!-- EN: District {0} removed -->
-  <CBF_RemovedDistrict>已移除區{0}</CBF_RemovedDistrict>
+  <CBF_RemovedDistrict>已移除街區{0}</CBF_RemovedDistrict>
   <!-- EN: Delete district {0} with its {1} entries? -->
-  <CBF_DeleteDistrictAsk>刪除區{0}及其{1}個條目？</CBF_DeleteDistrictAsk>
+  <CBF_DeleteDistrictAsk>要刪除街區{0}及其{1}個條目嗎？</CBF_DeleteDistrictAsk>
   <!-- EN: The last district stays. Without one there is nothing to build. -->
-  <CBF_LastDistrict>最後一個區保留。沒有它就沒有可建造的東西。</CBF_LastDistrict>
+  <CBF_LastDistrict>最後一個街區必須保留。沒有街區就沒有東西可建。</CBF_LastDistrict>
   <!-- EN: {0} added to {1} -->
-  <CBF_AddedTo>{0}已新增到{1}</CBF_AddedTo>
+  <CBF_AddedTo>已將{0}加入{1}</CBF_AddedTo>
   <!-- EN: {0} removed from {1} -->
-  <CBF_RemovedFrom>{0}已從{1}移除</CBF_RemovedFrom>
+  <CBF_RemovedFrom>已將{0}從{1}移除</CBF_RemovedFrom>
   <!-- EN: {0}: exactly this building. Min and max say how many, weight decides against its siblings in the same category. -->
-  <CBF_EntryPieceTip>{0}：正是此建築。最小值與最大值說數量，權重與其同類別的兄弟條目比較。</CBF_EntryPieceTip>
+  <CBF_EntryPieceTip>{0}：就是這棟建築。最小值與最大值決定數量，權重決定它與同類別其他建築相比的機率。</CBF_EntryPieceTip>
   <!-- EN: {0}: the whole category. Min and max say how many. Which building is picked follows the pieces own weights. -->
-  <CBF_EntryCategoryTip>{0}：整個類別。最小值與最大值說數量。選哪棟建築遵循部件自身的權重。</CBF_EntryCategoryTip>
+  <CBF_EntryCategoryTip>{0}：整個類別。最小值與最大值決定數量。挑選哪棟建築依各部件自己的權重。</CBF_EntryCategoryTip>
   <!-- EN: Min -->
   <CBF_Field_min>最小</CBF_Field_min>
   <!-- EN: How many the settlement should have at least. -->
-  <CBF_FieldDesc_min>據點至少應有多少。</CBF_FieldDesc_min>
+  <CBF_FieldDesc_min>據點至少要有幾個。</CBF_FieldDesc_min>
   <!-- EN: Max -->
   <CBF_Field_max>最大</CBF_Field_max>
   <!-- EN: How many the settlement may have at most. -->
-  <CBF_FieldDesc_max>據點至多可有多少。</CBF_FieldDesc_max>
+  <CBF_FieldDesc_max>據點最多可以有幾個。</CBF_FieldDesc_max>
   <!-- EN: Small -->
   <CBF_SizeSmall>小</CBF_SizeSmall>
   <!-- EN: Medium -->
@@ -373,33 +373,33 @@
   <!-- EN: Large -->
   <CBF_SizeLarge>大</CBF_SizeLarge>
   <!-- EN: Districts -->
-  <CBF_Field_districts>區</CBF_Field_districts>
+  <CBF_Field_districts>街區</CBF_Field_districts>
   <!-- EN: How many districts this settlement has, and how many entries in total. -->
-  <CBF_FieldDesc_districts>此據點有多少個區，以及總共有多少條目。</CBF_FieldDesc_districts>
+  <CBF_FieldDesc_districts>此據點有幾個街區，以及總共有幾個條目。</CBF_FieldDesc_districts>
   <!-- EN: Changed. Takes effect after a restart. -->
-  <CBF_TakeoverChanged>已更改。重啟後生效。</CBF_TakeoverChanged>
+  <CBF_TakeoverChanged>已變更。重新啟動後生效。</CBF_TakeoverChanged>
   <!-- EN: CBF builds faction bases where a settlement type matches. All others get RimWorlds own settlement, not an empty map. -->
-  <CBF_TakeoverOnHint>CBF在據點型別匹配處建造派系基地。其餘派系獲得RimWorld自己的據點，而非空地圖。</CBF_TakeoverOnHint>
+  <CBF_TakeoverOnHint>在有符合的據點類型時，CBF會建造派系據點。其他據點則使用RimWorld原本的據點，而不是空地圖。</CBF_TakeoverOnHint>
   <!-- EN: Nothing here has any effect in game until this is switched on. -->
-  <CBF_TakeoverOffHint>在開啟之前，這裡的一切在遊戲內都無效果。</CBF_TakeoverOffHint>
+  <CBF_TakeoverOffHint>在開啟此選項之前，這裡的一切在遊戲中都不會有效果。</CBF_TakeoverOffHint>
   <!-- EN: Write the marked area back to its file. -->
-  <CBF_TDesc_export>把標記區域寫回其檔案。</CBF_TDesc_export>
+  <CBF_TDesc_export>將標記的區域寫回其檔案。</CBF_TDesc_export>
   <!-- EN: Mark cells as belonging to the piece. -->
-  <CBF_TDesc_area>標記格屬於該部件。</CBF_TDesc_area>
+  <CBF_TDesc_area>將格子標記為屬於此部件。</CBF_TDesc_area>
   <!-- EN: Take cells back out of the piece. -->
-  <CBF_TDesc_cut>把格從部件中取回。</CBF_TDesc_cut>
+  <CBF_TDesc_cut>將格子從部件中移除。</CBF_TDesc_cut>
   <!-- EN: Preview -->
   <CBF_T_preview>預覽</CBF_T_preview>
   <!-- EN: Name of the new category: -->
   <CBF_NewCategory>新類別的名稱：</CBF_NewCategory>
   <!-- EN: No legend entry for: {0}. This piece will not be placed. -->
-  <CBF_MissingSymbols>沒有{0}的圖例條目。此部件不會被放置。</CBF_MissingSymbols>
+  <CBF_MissingSymbols>缺少圖例條目：{0}。此部件不會被放置。</CBF_MissingSymbols>
   <!-- EN: Template. Serves as a source for other pieces and is never placed itself. -->
-  <CBF_IsTemplate>模板。作為其他部件的來源，本身從不被放置。</CBF_IsTemplate>
+  <CBF_IsTemplate>模板。作為其他部件的來源，本身永遠不會被放置。</CBF_IsTemplate>
   <!-- EN: Place -->
   <CBF_PlaceBtn>放置</CBF_PlaceBtn>
   <!-- EN: Place a copy on the map. Variants and chances are rolled, so this shows what the generator would build. Not suitable for re-export. -->
-  <CBF_PlaceBtnTip>在地圖上放置一個副本。變體與機率會被抽取，因此這展示生成器會建造什麼。不適合重新匯出。</CBF_PlaceBtnTip>
+  <CBF_PlaceBtnTip>在地圖上放置一份複本。變體與機率會實際擲骰，因此這會顯示生成器實際會建出的樣子。不適合用來重新匯出。</CBF_PlaceBtnTip>
   <!-- EN: No map open. -->
   <CBF_NeedAMap>沒有開啟的地圖。</CBF_NeedAMap>
   <!-- EN: objects -->
@@ -409,11 +409,11 @@
   <!-- EN: Edit object list -->
   <CBF_EditObjectList>編輯物品清單</CBF_EditObjectList>
   <!-- EN: {0} chosen, {1} shown -->
-  <CBF_ObjectsChosen>已選{0}，顯示{1}</CBF_ObjectsChosen>
+  <CBF_ObjectsChosen>已選{0}個，顯示{1}個</CBF_ObjectsChosen>
   <!-- EN: Pick at least one object. An empty list is an anchor that never places anything. -->
-  <CBF_ObjectsNeedOne>至少選擇一個物品。空清單是永不放置任何東西的錨點。</CBF_ObjectsNeedOne>
+  <CBF_ObjectsNeedOne>請至少選擇一個物品。空的清單會成為永遠不放置任何東西的錨點。</CBF_ObjectsNeedOne>
   <!-- EN: Object list {0} saved with {1} objects. -->
-  <CBF_ObjectListSaved>物品清單{0}已儲存，含{1}件物品。</CBF_ObjectListSaved>
+  <CBF_ObjectListSaved>已儲存物品清單{0}，共{1}個物品。</CBF_ObjectListSaved>
   <!-- EN: Clear -->
   <CBF_Clear>清除</CBF_Clear>
   <!-- EN: Save -->
@@ -421,41 +421,41 @@
   <!-- EN: weight -->
   <CBF_Weight>權重</CBF_Weight>
   <!-- EN: wall profile -->
-  <CBF_Field_wallProfile>牆型</CBF_Field_wallProfile>
+  <CBF_Field_wallProfile>城牆剖面</CBF_Field_wallProfile>
   <!-- EN: segments -->
-  <CBF_Field_segments>段</CBF_Field_segments>
+  <CBF_Field_segments>城牆段</CBF_Field_segments>
   <!-- EN: empty, the wall profile decides -->
-  <CBF_ListEmpty>空，由牆型決定</CBF_ListEmpty>
+  <CBF_ListEmpty>空白，由城牆剖面決定</CBF_ListEmpty>
   <!-- EN: removed {0} from {1} -->
-  <CBF_RemovedFromList>從{1}移除了{0}</CBF_RemovedFromList>
+  <CBF_RemovedFromList>已將{0}從{1}移除</CBF_RemovedFromList>
   <!-- EN: added {0} to {1} -->
-  <CBF_AddedToList>把{0}新增到{1}</CBF_AddedToList>
+  <CBF_AddedToList>已將{0}加入{1}</CBF_AddedToList>
   <!-- EN: Build -->
   <CBF_T_build>建造</CBF_T_build>
   <!-- EN: Finds a matching tile on the world map and places a settlement from this plan there. -->
-  <CBF_TDesc_build>在世界地圖上找到匹配地塊並在那裡從此計劃放置一個據點。</CBF_TDesc_build>
+  <CBF_TDesc_build>在世界地圖上找到符合的地塊，並在那裡依此計劃放置一個據點。</CBF_TDesc_build>
   <!-- EN: Open a settlement first. -->
   <CBF_NeedAPlan>請先開啟一個據點。</CBF_NeedAPlan>
   <!-- EN: Write the settlement back into its file. Districts, styles, towers, gatehouses and factions. Everything else in the file stays untouched. -->
-  <CBF_TDesc_save>把據點寫回其檔案。區、風格、塔樓、門樓與派系。檔案中的其餘一切保持不動。</CBF_TDesc_save>
+  <CBF_TDesc_save>將據點寫回其檔案，包括街區、風格、塔樓、門樓與派系。檔案中的其他內容都不會被更動。</CBF_TDesc_save>
   <!-- EN: {0} saved. -->
-  <CBF_Saved>{0}已儲存。</CBF_Saved>
+  <CBF_Saved>已儲存{0}。</CBF_Saved>
   <!-- EN: {0} pieces -->
   <CBF_NPieces>{0}個部件</CBF_NPieces>
   <!-- EN: New seed -->
-  <CBF_PreviewReroll>新種子</CBF_PreviewReroll>
+  <CBF_PreviewReroll>新種子碼</CBF_PreviewReroll>
   <!-- EN: Recalculate -->
   <CBF_PreviewAgain>重新計算</CBF_PreviewAgain>
   <!-- EN: The layout did not come out. See the log. -->
-  <CBF_PreviewFailed>佈局未能生成。請檢視日誌。</CBF_PreviewFailed>
+  <CBF_PreviewFailed>佈局沒有算出來。請查看日誌。</CBF_PreviewFailed>
   <!-- EN: Planning the layout, {0} s -->
   <CBF_PreviewRunning>正在規劃佈局，{0}秒</CBF_PreviewRunning>
   <!-- EN: This tab could not be drawn: {0}. Details are in the log. -->
-  <CBF_TabFailed>此選項卡無法繪製：{0}。詳情見日誌。</CBF_TabFailed>
+  <CBF_TabFailed>無法繪製此分頁：{0}。詳情請見日誌。</CBF_TabFailed>
   <!-- EN: nothing calculated -->
-  <CBF_PreviewNone>未計算任何內容</CBF_PreviewNone>
+  <CBF_PreviewNone>尚未計算</CBF_PreviewNone>
   <!-- EN: {0} x {0} cells, {1} ms, seed {2} -->
-  <CBF_PreviewFooter>{0} x {0}格，{1}毫秒，種子{2}</CBF_PreviewFooter>
+  <CBF_PreviewFooter>{0}x{0}格，{1}毫秒，種子碼{2}</CBF_PreviewFooter>
   <!-- EN: wall -->
   <CBF_CG_5>城牆</CBF_CG_5>
   <!-- EN: tower -->
@@ -467,67 +467,67 @@
   <!-- EN: building -->
   <CBF_CG_10>建築</CBF_CG_10>
   <!-- EN: lane -->
-  <CBF_CG_2>小巷</CBF_CG_2>
+  <CBF_CG_2>巷道</CBF_CG_2>
   <!-- EN: square -->
   <CBF_CG_3>廣場</CBF_CG_3>
   <!-- EN: field -->
   <CBF_CG_13>農田</CBF_CG_13>
   <!-- EN: blocked -->
-  <CBF_CG_16>受阻</CBF_CG_16>
+  <CBF_CG_16>阻擋</CBF_CG_16>
   <!-- EN: Categories -->
   <CBF_Categories>類別</CBF_Categories>
   <!-- EN: Buildings -->
   <CBF_Buildings>建築</CBF_Buildings>
   <!-- EN: Beyond {0} -->
-  <CBF_BeyondCategory>超出{0}</CBF_BeyondCategory>
+  <CBF_BeyondCategory>{0}以外</CBF_BeyondCategory>
   <!-- EN: {0} shown -->
-  <CBF_ShowingN>顯示{0}</CBF_ShowingN>
+  <CBF_ShowingN>顯示{0}個</CBF_ShowingN>
   <!-- EN: Empty marker -->
   <CBF_EmptyTool>空白標記</CBF_EmptyTool>
   <!-- EN: Merge patches -->
   <CBF_MergePatches>合併補丁</CBF_MergePatches>
   <!-- EN: none, single kind below -->
-  <CBF_AnchorPawnListNone>無，下方為單一種類</CBF_AnchorPawnListNone>
+  <CBF_AnchorPawnListNone>無，使用下方的單一種類</CBF_AnchorPawnListNone>
   <!-- EN: guard -->
   <CBF_RoleGuard>守衛</CBF_RoleGuard>
   <!-- EN: holds position -->
   <CBF_RolePost>堅守崗位</CBF_RolePost>
   <!-- EN: mans artillery -->
-  <CBF_RoleCrew>操作砲械</CBF_RoleCrew>
+  <CBF_RoleCrew>操作火砲</CBF_RoleCrew>
   <!-- EN: Joins the settlement garrison. Does not flee alone and moves out with the assault. -->
-  <CBF_RoleGuardDesc>加入據點駐軍。不獨自逃跑，隨突擊一同出擊。</CBF_RoleGuardDesc>
+  <CBF_RoleGuardDesc>加入據點駐軍。不會獨自逃跑，會隨進攻一起出動。</CBF_RoleGuardDesc>
   <!-- EN: Holds this spot and defends it. Does not move out, does not fall back. For towers and gatehouses. -->
-  <CBF_RolePostDesc>堅守此位置並防禦它。不出擊、不後撤。用於塔樓與門樓。</CBF_RolePostDesc>
+  <CBF_RolePostDesc>守住此位置並加以防禦。不會出動，也不會撤退。用於塔樓與門樓。</CBF_RolePostDesc>
   <!-- EN: Mans the nearest mannable artillery piece and stays there. Needs are ignored. -->
-  <CBF_RoleCrewDesc>操作最近的可操作砲械並留在那裡。忽略需求。</CBF_RoleCrewDesc>
+  <CBF_RoleCrewDesc>操作最近的可操作火砲並留在那裡。忽略需求。</CBF_RoleCrewDesc>
   <!-- EN: New pawn list -->
-  <CBF_NewPawnList>新建角色清單</CBF_NewPawnList>
+  <CBF_NewPawnList>新角色清單</CBF_NewPawnList>
   <!-- EN: Edit pawn list -->
   <CBF_EditPawnList>編輯角色清單</CBF_EditPawnList>
   <!-- EN: Pawn list {0} saved, {1} kinds. -->
-  <CBF_PawnListSaved>角色清單{0}已儲存，{1}個種類。</CBF_PawnListSaved>
+  <CBF_PawnListSaved>已儲存角色清單{0}，共{1}種。</CBF_PawnListSaved>
   <!-- EN: {0} chosen of {1} shown -->
-  <CBF_PawnsChosen>{1}個顯示中的{0}個已選</CBF_PawnsChosen>
+  <CBF_PawnsChosen>已選{0}種，共顯示{1}種</CBF_PawnsChosen>
   <!-- EN: Pick at least one kind. -->
-  <CBF_PawnsNeedOne>至少選擇一個種類。</CBF_PawnsNeedOne>
+  <CBF_PawnsNeedOne>請至少選擇一種。</CBF_PawnsNeedOne>
   <!-- EN: no preview -->
   <CBF_NoPreview>無預覽</CBF_NoPreview>
   <!-- EN: Role -->
-  <CBF_Role>角色</CBF_Role>
+  <CBF_Role>職責</CBF_Role>
   <!-- EN: Radius -->
   <CBF_Radius>半徑</CBF_Radius>
   <!-- EN: Merge {0} patch files written by this editor into one, with {1} operations?\n\n{2}\n\nThe originals are deleted afterwards. Files from other mods and hand written ones are left alone. -->
   <CBF_MergePatchesAsk>要把此編輯器寫入的{0}個補丁檔案合併為一個（共{1}項操作）嗎？\n\n{2}\n\n合併後會刪除原始檔案。其他模組的檔案與手寫的檔案不受影響。</CBF_MergePatchesAsk>
   <!-- EN: Mark cells that belong to the piece but stay empty. Nothing is built there and the map keeps its own ground. The marker lies on top, so the floor underneath comes back when you remove it. -->
-  <CBF_EmptyDesc>標記屬於部件但保持空白的格。那裡不建造任何東西，地圖保留其自身地面。標記位於上方，因此移除它時下方的地面會回來。</CBF_EmptyDesc>
+  <CBF_EmptyDesc>標記屬於部件但保持空白的格子。那裡不會建造任何東西，地圖保留原本的地面。標記蓋在最上層，所以移除後底下的地板會恢復。</CBF_EmptyDesc>
   <!-- EN: Remove empty marker -->
   <CBF_EmptyRemove>移除空白標記</CBF_EmptyRemove>
   <!-- EN: Take the empty marker away again. The floor underneath returns. -->
-  <CBF_EmptyRemoveDesc>再次移除空白標記。下方的地面恢復。</CBF_EmptyRemoveDesc>
+  <CBF_EmptyRemoveDesc>再次移除空白標記。底下的地板會恢復。</CBF_EmptyRemoveDesc>
   <!-- EN: The empty marker terrain is missing. -->
-  <CBF_EmptyMissing>空白標記的地形缺失。</CBF_EmptyMissing>
+  <CBF_EmptyMissing>缺少空白標記地形。</CBF_EmptyMissing>
   <!-- EN: {0} cells marked as empty. -->
-  <CBF_EmptyPainted>{0}格被標記為空白。</CBF_EmptyPainted>
+  <CBF_EmptyPainted>已將{0}格標記為空白。</CBF_EmptyPainted>
   <!-- EN: tower -->
   <CBF_Field_tower>塔樓</CBF_Field_tower>
   <!-- EN: gatehouse -->
@@ -547,21 +547,21 @@
   <!-- EN: gatehouse -->
   <CBF_WallPart_Gatehouse>門樓</CBF_WallPart_Gatehouse>
   <!-- EN: Empty, so the wall profile {0} decides: {1} -->
-  <CBF_WallsFromProfile>空，因此牆型{0}決定：{1}</CBF_WallsFromProfile>
+  <CBF_WallsFromProfile>空白，因此由城牆剖面{0}決定：{1}</CBF_WallsFromProfile>
   <!-- EN: Empty, and there is no wall profile for this style and thickness. The settlement gets the generic wall. -->
-  <CBF_WallsNoProfile>空，且此風格與厚度沒有牆型。據點獲得普通牆。</CBF_WallsNoProfile>
+  <CBF_WallsNoProfile>空白，且沒有適用此風格與厚度的城牆剖面。據點會使用通用城牆。</CBF_WallsNoProfile>
   <!-- EN: Export all areas ({0}) -->
   <CBF_MenuExportAll>匯出所有區域（{0}）</CBF_MenuExportAll>
   <!-- EN: fewer than two areas on the map -->
-  <CBF_NeedTwoRegions>地圖上少於兩個區域</CBF_NeedTwoRegions>
+  <CBF_NeedTwoRegions>地圖上的區域少於兩個</CBF_NeedTwoRegions>
   <!-- EN: outside -->
   <CBF_Field_outward>外側</CBF_Field_outward>
   <!-- EN: from the wall profile -->
-  <CBF_FromProfile>來自牆型</CBF_FromProfile>
+  <CBF_FromProfile>來自城牆剖面</CBF_FromProfile>
   <!-- EN: start of the strip -->
-  <CBF_OutwardLow>條帶起點</CBF_OutwardLow>
+  <CBF_OutwardLow>長條起點</CBF_OutwardLow>
   <!-- EN: end of the strip -->
-  <CBF_OutwardHigh>條帶終點</CBF_OutwardHigh>
+  <CBF_OutwardHigh>長條終點</CBF_OutwardHigh>
   <!-- EN: bottom -->
   <CBF_Dir_South>下</CBF_Dir_South>
   <!-- EN: top -->
@@ -571,29 +571,29 @@
   <!-- EN: right -->
   <CBF_Dir_East>右</CBF_Dir_East>
   <!-- EN: Which end of the drawn strip faces away from the town. The wall builder turns the strip for every direction, so only the two ends matter. An embrasure needs this: its opening belongs on the outside. -->
-  <CBF_OutwardTip>所繪條帶的哪一端背離城鎮。城牆建造者會為每個方向轉動條帶，因此只有兩端要緊。射擊孔需要此設定：其開口屬於外側。</CBF_OutwardTip>
+  <CBF_OutwardTip>繪製的長條哪一端背向城鎮。城牆建造器會為每個方向旋轉長條，所以只有兩端有意義。射口需要這項設定：它的開口應該朝外。</CBF_OutwardTip>
   <!-- EN: Name -->
   <CBF_Field_name>名稱</CBF_Field_name>
   <!-- EN: Ground -->
   <CBF_Field_ground>地面</CBF_Field_ground>
   <!-- EN: The ground between the houses. Empty means the map stays as it is. Lanes, squares and fields keep their own surface and are left alone. -->
-  <CBF_FieldDesc_ground>房屋之間的地面。留空表示地圖保持原樣。小巷、廣場與農田保留其自身表面，不受干預。</CBF_FieldDesc_ground>
+  <CBF_FieldDesc_ground>房屋之間的地面。留空表示保留地圖原樣。巷道、廣場與農田保有各自的地面，不受影響。</CBF_FieldDesc_ground>
   <!-- EN: + Ground -->
   <CBF_AddGround>+ 地面</CBF_AddGround>
   <!-- EN: Empty, so the map's own ground stays. -->
-  <CBF_GroundNatural>空，因此地圖自身的地面保留。</CBF_GroundNatural>
+  <CBF_GroundNatural>空白，因此保留地圖原本的地面。</CBF_GroundNatural>
   <!-- EN: natural -->
-  <CBF_GroundNaturalGroup>自然</CBF_GroundNaturalGroup>
+  <CBF_GroundNaturalGroup>天然</CBF_GroundNaturalGroup>
   <!-- EN: built -->
-  <CBF_GroundBuiltGroup>人工</CBF_GroundBuiltGroup>
+  <CBF_GroundBuiltGroup>人造</CBF_GroundBuiltGroup>
   <!-- EN: Paths -->
   <CBF_Field_roads>路徑</CBF_Field_roads>
   <!-- EN: The surface of lanes, squares and gate passages in this ward. Empty means the standard surface. -->
-  <CBF_FieldDesc_roads>本區劃小巷、廣場與城門通道的表面。留空表示標準表面。</CBF_FieldDesc_roads>
+  <CBF_FieldDesc_roads>此城區中巷道、廣場與城門通道的地面。留空表示使用標準地面。</CBF_FieldDesc_roads>
   <!-- EN: + Path -->
   <CBF_AddRoad>+ 路徑</CBF_AddRoad>
   <!-- EN: Empty, so the standard surface is used. -->
-  <CBF_RoadsDefault>空，因此使用標準表面。</CBF_RoadsDefault>
+  <CBF_RoadsDefault>空白，因此使用標準地面。</CBF_RoadsDefault>
   <!-- EN: New mod -->
   <CBF_NewProject>新模組</CBF_NewProject>
   <!-- EN: Open mod -->
@@ -603,17 +603,17 @@
   <!-- EN: Author -->
   <CBF_ProjectAuthor>作者</CBF_ProjectAuthor>
   <!-- EN: Creates a new mod in your Mods folder, with the folders RimWorld needs. Everything you save from now on goes there. -->
-  <CBF_ProjectNewHint>在你的Mods資料夾中建立一個新模組，帶RimWorld所需的資料夾。從現在起你儲存的一切都會去那裡。</CBF_ProjectNewHint>
+  <CBF_ProjectNewHint>在你的Mods資料夾中建立新模組，並附上RimWorld需要的資料夾。之後儲存的一切都會存到那裡。</CBF_ProjectNewHint>
   <!-- EN: The mod needs a name. -->
-  <CBF_ProjectNeedsName>模組需要一個名稱。</CBF_ProjectNeedsName>
+  <CBF_ProjectNeedsName>模組需要名稱。</CBF_ProjectNeedsName>
   <!-- EN: A folder called {0} already exists. -->
-  <CBF_ProjectExists>名為{0}的資料夾已存在。</CBF_ProjectExists>
+  <CBF_ProjectExists>已經有名為{0}的資料夾。</CBF_ProjectExists>
   <!-- EN: That folder is gone. -->
-  <CBF_ProjectGone>那個資料夾已消失。</CBF_ProjectGone>
+  <CBF_ProjectGone>該資料夾已不存在。</CBF_ProjectGone>
   <!-- EN: Mod {0} created for {1}. It is enabled and will load on the next start. -->
-  <CBF_ProjectCreated>已為{1}建立模組{0}。它已啟用，將在下次啟動時載入。</CBF_ProjectCreated>
+  <CBF_ProjectCreated>已為{1}建立模組{0}。模組已啟用，會在下次啟動時載入。</CBF_ProjectCreated>
   <!-- EN: Mod {0} opened, {1} definitions loaded. -->
-  <CBF_ProjectOpened>已開啟模組{0}，載入{1}個def。</CBF_ProjectOpened>
+  <CBF_ProjectOpened>已開啟模組{0}，載入了{1}個定義。</CBF_ProjectOpened>
   <!-- EN: Framework -->
   <CBF_ProjectFramework>框架</CBF_ProjectFramework>
   <!-- EN: Your mods -->
@@ -623,31 +623,31 @@
   <!-- EN: not enabled -->
   <CBF_ProjectInactive>未啟用</CBF_ProjectInactive>
   <!-- EN: No mod of your own found. Create one first. -->
-  <CBF_ProjectNoneFound>沒有找到你自己的模組。請先建立一個。</CBF_ProjectNoneFound>
+  <CBF_ProjectNoneFound>找不到你自己的模組。請先建立一個。</CBF_ProjectNoneFound>
   <!-- EN: Unknown mod -->
   <CBF_ModUnknown>未知模組</CBF_ModUnknown>
   <!-- EN: Always -->
-  <CBF_LootAlways>始終</CBF_LootAlways>
+  <CBF_LootAlways>必定</CBF_LootAlways>
   <!-- EN: Weighted -->
   <CBF_LootEntries>加權</CBF_LootEntries>
   <!-- EN: This entry has no thing behind it and is skipped. -->
-  <CBF_LootEntryDead>此條目背後沒有物品，被跳過。</CBF_LootEntryDead>
+  <CBF_LootEntryDead>此條目沒有對應的物品，會被略過。</CBF_LootEntryDead>
   <!-- EN: by depth -->
-  <CBF_ByDepth>按深度</CBF_ByDepth>
+  <CBF_ByDepth>依深度</CBF_ByDepth>
   <!-- EN: {0} does not exist, this entry is skipped. -->
-  <CBF_ListMemberGone>{0}不存在，此條目被跳過。</CBF_ListMemberGone>
+  <CBF_ListMemberGone>{0}不存在，此條目會被略過。</CBF_ListMemberGone>
   <!-- EN: Display -->
-  <CBF_Field_lootArt>顯示</CBF_Field_lootArt>
+  <CBF_Field_lootArt>顯示方式</CBF_Field_lootArt>
   <!-- EN: Auto reads it off the building: a storage building shows its contents, a casket hides them. Visible or hidden restricts the list to buildings that can do it. -->
-  <CBF_FieldDesc_lootArt>自動從建築讀取：倉儲建築顯示其內容，棺材隱藏它們。可見或隱藏把清單限制為能做到的建築。</CBF_FieldDesc_lootArt>
+  <CBF_FieldDesc_lootArt>自動會從建築判斷：儲存類建築會顯示內容物，棺木則會隱藏。選擇可見或隱藏時，清單只會列出能這樣做的建築。</CBF_FieldDesc_lootArt>
   <!-- EN: Rolls -->
   <CBF_Field_lootRolls>抽取次數</CBF_Field_lootRolls>
   <!-- EN: Roll chance -->
   <CBF_Field_rollChance>抽取機率</CBF_Field_rollChance>
   <!-- EN: Fallback -->
-  <CBF_Field_emptyFallback>後備</CBF_Field_emptyFallback>
+  <CBF_Field_emptyFallback>備用</CBF_Field_emptyFallback>
   <!-- EN: Used by pieces -->
-  <CBF_Field_usedByPieces>被部件使用</CBF_Field_usedByPieces>
+  <CBF_Field_usedByPieces>使用的部件</CBF_Field_usedByPieces>
   <!-- EN: Pawn list -->
   <CBF_Field_pawnList>角色清單</CBF_Field_pawnList>
   <!-- EN: Pawn chance -->
@@ -657,7 +657,7 @@
   <!-- EN: Radius -->
   <CBF_Field_radius>半徑</CBF_Field_radius>
   <!-- EN: From -->
-  <CBF_Field_sourceMod>來自</CBF_Field_sourceMod>
+  <CBF_Field_sourceMod>來源</CBF_Field_sourceMod>
   <!-- EN: Race -->
   <CBF_Field_race>種族</CBF_Field_race>
   <!-- EN: Combat power -->
@@ -665,19 +665,19 @@
   <!-- EN: Faction -->
   <CBF_Field_faction>派系</CBF_Field_faction>
   <!-- EN: This kind comes from another mod. Copy it into your mod to change it. -->
-  <CBF_PawnForeign>此種類來自其他模組。把它複製進你的模組以更改它。</CBF_PawnForeign>
+  <CBF_PawnForeign>此種類來自其他模組。請先複製到你的模組再修改。</CBF_PawnForeign>
   <!-- EN: Copy {0} -->
   <CBF_PawnCopyTitle>複製{0}</CBF_PawnCopyTitle>
   <!-- EN: The whole definition is copied, not just the fields the editor knows. -->
-  <CBF_PawnCopyHint>複製整個def，而不僅是編輯器認識的欄位。</CBF_PawnCopyHint>
+  <CBF_PawnCopyHint>會複製整個定義，不只是編輯器認得的欄位。</CBF_PawnCopyHint>
   <!-- EN: {0} created in your mod. -->
-  <CBF_PawnCopied>{0}已建立於你的模組。</CBF_PawnCopied>
+  <CBF_PawnCopied>已在你的模組中建立{0}。</CBF_PawnCopied>
   <!-- EN: {0} could not be copied. -->
-  <CBF_PawnCopyFailed>{0}無法複製。</CBF_PawnCopyFailed>
+  <CBF_PawnCopyFailed>無法複製{0}。</CBF_PawnCopyFailed>
   <!-- EN: The kind needs a name. -->
-  <CBF_PawnNeedsName>種類需要一個名稱。</CBF_PawnNeedsName>
+  <CBF_PawnNeedsName>此種類需要名稱。</CBF_PawnNeedsName>
   <!-- EN: A file called {0}.xml already exists. -->
-  <CBF_PawnFileExists>名為{0}.xml的檔案已存在。</CBF_PawnFileExists>
+  <CBF_PawnFileExists>已經有名為{0}.xml的檔案。</CBF_PawnFileExists>
   <!-- EN: Select a pawn on the map first. -->
   <CBF_PawnNoneSelected>請先在地圖上選擇一個角色。</CBF_PawnNoneSelected>
   <!-- EN: Loot table -->
@@ -685,9 +685,9 @@
   <!-- EN: Save table -->
   <CBF_LootSave>儲存表</CBF_LootSave>
   <!-- EN: {0} saved, {1} entries. -->
-  <CBF_LootSaved>{0}已儲存，{1}個條目。</CBF_LootSaved>
+  <CBF_LootSaved>已儲存{0}，共{1}個條目。</CBF_LootSaved>
   <!-- EN: The table needs a name. -->
-  <CBF_LootNeedsName>表需要一個名稱。</CBF_LootNeedsName>
+  <CBF_LootNeedsName>此表需要名稱。</CBF_LootNeedsName>
   <!-- EN: {0} already exists. -->
   <CBF_AlreadyExists>{0}已存在。</CBF_AlreadyExists>
   <!-- EN: {0} entries -->
@@ -701,31 +701,31 @@
   <!-- EN: New loot table -->
   <CBF_NewLootTable>新戰利品表</CBF_NewLootTable>
   <!-- EN: Nothing names this list, so it is never rolled. -->
-  <CBF_UsedByNobody>沒有任何東西引用此清單，因此它從不被抽取。</CBF_UsedByNobody>
+  <CBF_UsedByNobody>沒有任何東西指定此清單，所以它永遠不會被抽取。</CBF_UsedByNobody>
   <!-- EN: Add {0} to a list -->
-  <CBF_PawnAddToList>把{0}加入一個清單</CBF_PawnAddToList>
+  <CBF_PawnAddToList>將{0}加入清單</CBF_PawnAddToList>
   <!-- EN: entries -->
   <CBF_PawnListEntries>條目</CBF_PawnListEntries>
   <!-- EN: already in -->
-  <CBF_PawnListAlready>已在</CBF_PawnListAlready>
+  <CBF_PawnListAlready>已在其中</CBF_PawnListAlready>
   <!-- EN: {0} added to {1}. -->
-  <CBF_PawnAddedToList>{0}已新增到{1}。</CBF_PawnAddedToList>
+  <CBF_PawnAddedToList>已將{0}加入{1}。</CBF_PawnAddedToList>
   <!-- EN: {0} is already in {1}. -->
   <CBF_PawnAlreadyInList>{0}已在{1}中。</CBF_PawnAlreadyInList>
   <!-- EN: {0} saved to {1}. -->
-  <CBF_PawnSaved>{0}已儲存到{1}。</CBF_PawnSaved>
+  <CBF_PawnSaved>已將{0}儲存至{1}。</CBF_PawnSaved>
   <!-- EN: The file behind {0} was not found. -->
-  <CBF_PawnFileGone>{0}背後的檔案未找到。</CBF_PawnFileGone>
+  <CBF_PawnFileGone>找不到{0}所在的檔案。</CBF_PawnFileGone>
   <!-- EN: {0} is not in its file any more. -->
-  <CBF_PawnNodeGone>{0}不再在其檔案中。</CBF_PawnNodeGone>
+  <CBF_PawnNodeGone>{0}已不在它的檔案中。</CBF_PawnNodeGone>
   <!-- EN: Remove {0} -->
   <CBF_MarkRemove>移除{0}</CBF_MarkRemove>
   <!-- EN: Label -->
-  <CBF_Field_label>名稱</CBF_Field_label>
+  <CBF_Field_label>標籤</CBF_Field_label>
   <!-- EN: The name shown on the world map and in the settlement tooltip. The defName stays as it is. -->
-  <CBF_FieldDesc_label>顯示在世界地圖與據點提示上的名稱。defName保持不變。</CBF_FieldDesc_label>
+  <CBF_FieldDesc_label>顯示在世界地圖與據點提示中的名稱。defName維持不變。</CBF_FieldDesc_label>
   <!-- EN: Fights -->
-  <CBF_Field_isFighter>參戰</CBF_Field_isFighter>
+  <CBF_Field_isFighter>參與戰鬥</CBF_Field_isFighter>
   <!-- EN: Faction leader -->
   <CBF_Field_factionLeader>派系領袖</CBF_Field_factionLeader>
   <!-- EN: Faction -->
@@ -747,63 +747,63 @@
   <!-- EN: Max age -->
   <CBF_Field_maxGenerationAge>最大年齡</CBF_Field_maxGenerationAge>
   <!-- EN: Food carried -->
-  <CBF_Field_invNutrition>隨身食物</CBF_Field_invNutrition>
+  <CBF_Field_invNutrition>攜帶食物</CBF_Field_invNutrition>
   <!-- EN: Which weapons this kind can be given. A tag nothing carries leaves them barehanded. -->
-  <CBF_FieldDesc_weaponTags>此種類可獲得的武器。沒有任何標籤攜帶時他們空手。</CBF_FieldDesc_weaponTags>
+  <CBF_FieldDesc_weaponTags>此種類可以獲得哪些武器。若標籤沒有任何武器符合，他們就會赤手空拳。</CBF_FieldDesc_weaponTags>
   <!-- EN: Which apparel this kind can be given, on top of what the budget buys. -->
-  <CBF_FieldDesc_apparelTags>此種類在預算購買之外可獲得的服裝。</CBF_FieldDesc_apparelTags>
+  <CBF_FieldDesc_apparelTags>除了預算買到的之外，此種類還可以獲得哪些服裝。</CBF_FieldDesc_apparelTags>
   <!-- EN: How worn the gear is, 1 means untouched. -->
-  <CBF_FieldDesc_gearHealthRange>裝備有多舊，1表示全新。</CBF_FieldDesc_gearHealthRange>
+  <CBF_FieldDesc_gearHealthRange>裝備的磨損程度，1表示全新。</CBF_FieldDesc_gearHealthRange>
   <!-- EN: Empty -->
-  <CBF_Empty>空置</CBF_Empty>
+  <CBF_Empty>空</CBF_Empty>
   <!-- EN: Empty building -->
-  <CBF_Field_empty>空置建築</CBF_Field_empty>
+  <CBF_Field_empty>空建築</CBF_Field_empty>
   <!-- EN: Takes the place of the container once a player has cleared it out. Only buildings of the same footprint can be chosen. -->
-  <CBF_FieldDesc_empty>玩家清空容器後取代它的建築。僅可選擇佔地相同的建築。</CBF_FieldDesc_empty>
+  <CBF_FieldDesc_empty>玩家搜空容器後取代它的建築。只能選擇佔地相同的建築。</CBF_FieldDesc_empty>
   <!-- EN: Already searched. -->
   <CBF_BehaelterDurchsucht>已經搜過了。</CBF_BehaelterDurchsucht>
   <!-- EN: Loot container -->
   <CBF_BehaelterTitle>戰利品容器</CBF_BehaelterTitle>
   <!-- EN: Take from a building -->
-  <CBF_BehaelterFromDef>取自一棟建築</CBF_BehaelterFromDef>
+  <CBF_BehaelterFromDef>取自建築</CBF_BehaelterFromDef>
   <!-- EN: Copies texture, size and draw size. Nothing else. -->
-  <CBF_BehaelterFromDefHint>複製貼圖、大小與繪製大小。沒有別的。</CBF_BehaelterFromDefHint>
+  <CBF_BehaelterFromDefHint>複製材質、尺寸與繪製大小，其他都不複製。</CBF_BehaelterFromDefHint>
   <!-- EN: What it is -->
-  <CBF_BehaelterWhat>它是什麼</CBF_BehaelterWhat>
+  <CBF_BehaelterWhat>類型</CBF_BehaelterWhat>
   <!-- EN: Full -->
-  <CBF_BehaelterFull>裝滿</CBF_BehaelterFull>
+  <CBF_BehaelterFull>滿</CBF_BehaelterFull>
   <!-- EN: Once searched -->
-  <CBF_BehaelterEmpty>搜尋後</CBF_BehaelterEmpty>
+  <CBF_BehaelterEmpty>搜刮後</CBF_BehaelterEmpty>
   <!-- EN: Create container -->
   <CBF_BehaelterSave>建立容器</CBF_BehaelterSave>
   <!-- EN: {0} created. -->
-  <CBF_BehaelterSaved>{0}已建立。</CBF_BehaelterSaved>
+  <CBF_BehaelterSaved>已建立{0}。</CBF_BehaelterSaved>
   <!-- EN: The container needs a name. -->
-  <CBF_BehaelterNeedsName>容器需要一個名稱。</CBF_BehaelterNeedsName>
+  <CBF_BehaelterNeedsName>容器需要名稱。</CBF_BehaelterNeedsName>
   <!-- EN: A name and a texture are required. -->
-  <CBF_BehaelterNeedsTexture>需要名稱與貼圖。</CBF_BehaelterNeedsTexture>
+  <CBF_BehaelterNeedsTexture>名稱與材質為必填。</CBF_BehaelterNeedsTexture>
   <!-- EN: A file for {0} already exists. -->
   <CBF_BehaelterFileExists>{0}的檔案已存在。</CBF_BehaelterFileExists>
   <!-- EN: "{0}" is not a valid defName. Use letters, digits, _ and -, starting with a letter or _. -->
-  <CBF_BehaelterBadName>"{0}" 不是有效的defName。請使用字母、數字、_ 與 -，以字母或 _ 開頭。</CBF_BehaelterBadName>
+  <CBF_BehaelterBadName>「{0}」不是有效的defName。請使用字母、數字、_與-，並以字母或_開頭。</CBF_BehaelterBadName>
   <!-- EN: {0} is already used by another thing. Choose a different name. -->
-  <CBF_BehaelterNameTaken>{0}已被另一件物品使用。請選擇不同的名稱。</CBF_BehaelterNameTaken>
+  <CBF_BehaelterNameTaken>{0}已被其他物品使用。請換個名稱。</CBF_BehaelterNameTaken>
   <!-- EN: {0} belongs to {1}. Containers from other mods cannot be changed here. -->
-  <CBF_BehaelterForeign>{0}屬於{1}。其他模組的容器不能在此更改。</CBF_BehaelterForeign>
+  <CBF_BehaelterForeign>{0}屬於{1}。其他模組的容器無法在這裡修改。</CBF_BehaelterForeign>
   <!-- EN: {0} could not be created. -->
-  <CBF_BehaelterFailed>{0}無法建立。</CBF_BehaelterFailed>
+  <CBF_BehaelterFailed>無法建立{0}。</CBF_BehaelterFailed>
   <!-- EN: Pick an image -->
-  <CBF_BehaelterPickImage>選擇一張圖片</CBF_BehaelterPickImage>
+  <CBF_BehaelterPickImage>選擇圖片</CBF_BehaelterPickImage>
   <!-- EN: Texture -->
-  <CBF_Field_texPath>貼圖</CBF_Field_texPath>
+  <CBF_Field_texPath>材質</CBF_Field_texPath>
   <!-- EN: Texture after -->
-  <CBF_Field_emptyGraphic>搜尋後的貼圖</CBF_Field_emptyGraphic>
+  <CBF_Field_emptyGraphic>搜刮後材質</CBF_Field_emptyGraphic>
   <!-- EN: Draw size -->
   <CBF_Field_drawSize>繪製大小</CBF_Field_drawSize>
   <!-- EN: Becomes -->
-  <CBF_Field_emptyBuilding>變為</CBF_Field_emptyBuilding>
+  <CBF_Field_emptyBuilding>變成</CBF_Field_emptyBuilding>
   <!-- EN: Destroy when empty -->
-  <CBF_Field_destroyWhenEmpty>清空時銷燬</CBF_Field_destroyWhenEmpty>
+  <CBF_Field_destroyWhenEmpty>清空後摧毀</CBF_Field_destroyWhenEmpty>
   <!-- EN: Default table -->
   <CBF_Field_standardTabelle>預設表</CBF_Field_standardTabelle>
   <!-- EN: Default pawn list -->
@@ -813,29 +813,29 @@
   <!-- EN: Pawn turns hostile -->
   <CBF_Field_einheitenFeindlich>角色轉為敵對</CBF_Field_einheitenFeindlich>
   <!-- EN: Used when nothing else assigns a loot table, for example when the container is placed by hand rather than through an anchor. -->
-  <CBF_FieldDesc_standardTabelle>無其他內容分配戰利品表時使用，例如容器由人手放置而非透過錨點。</CBF_FieldDesc_standardTabelle>
+  <CBF_FieldDesc_standardTabelle>沒有其他來源指定戰利品表時使用，例如容器是手動放置而不是透過錨點放置時。</CBF_FieldDesc_standardTabelle>
   <!-- EN: It vanishes once searched, leaving no building materials behind. Only happens if no building is set above. -->
-  <CBF_FieldDesc_destroyWhenEmpty>搜尋後消失，不留建築材料。僅在上方未設定建築時發生。</CBF_FieldDesc_destroyWhenEmpty>
+  <CBF_FieldDesc_destroyWhenEmpty>搜刮後消失，不會留下任何建材。只有在上方沒有設定建築時才會發生。</CBF_FieldDesc_destroyWhenEmpty>
   <!-- EN: Save changes -->
-  <CBF_BehaelterUpdate>儲存更改</CBF_BehaelterUpdate>
+  <CBF_BehaelterUpdate>儲存變更</CBF_BehaelterUpdate>
   <!-- EN: This container has no settings block, so it can never be filled. -->
-  <CBF_BehaelterNoExt>此容器沒有設定塊，因此它永遠無法被填充。</CBF_BehaelterNoExt>
+  <CBF_BehaelterNoExt>此容器沒有設定區塊，因此永遠無法被填入物品。</CBF_BehaelterNoExt>
   <!-- EN: Pawn count -->
   <CBF_Field_pawnCount>角色數量</CBF_Field_pawnCount>
   <!-- EN: Turns hostile -->
   <CBF_Field_pawnHostile>轉為敵對</CBF_Field_pawnHostile>
   <!-- EN: Who can be hiding inside. Only works in containers with an inside, not on open shelves. -->
-  <CBF_FieldDesc_pawnList>誰可能藏身其中。僅對帶內部的容器有效，開放貨架不行。</CBF_FieldDesc_pawnList>
+  <CBF_FieldDesc_pawnList>誰可能躲在裡面。只對有內部空間的容器有效，開放式架子不適用。</CBF_FieldDesc_pawnList>
   <!-- EN: The pawn attacks once the container is opened. Animals go manhunter, people go berserk. -->
-  <CBF_FieldDesc_pawnHostile>容器開啟後角色攻擊。動物發狂，人類暴走。</CBF_FieldDesc_pawnHostile>
+  <CBF_FieldDesc_pawnHostile>容器被打開時，角色會發動攻擊。動物會陷入狂暴，人類會精神崩潰狂暴。</CBF_FieldDesc_pawnHostile>
   <!-- EN: Condition % -->
-  <CBF_Field_hitPoints>耐久 %</CBF_Field_hitPoints>
+  <CBF_Field_hitPoints>狀態%</CBF_Field_hitPoints>
   <!-- EN: Depth -->
   <CBF_Field_depthRange>深度</CBF_Field_depthRange>
   <!-- EN: Material -->
   <CBF_Field_stuff>材料</CBF_Field_stuff>
   <!-- EN: If missing -->
-  <CBF_Field_onMissing>若缺失</CBF_Field_onMissing>
+  <CBF_Field_onMissing>缺少時</CBF_Field_onMissing>
   <!-- EN: {0} was hiding inside and guards what is left. -->
   <CBF_BehaelterWaechter>{0}原本躲在裡面，正守著剩下的東西。</CBF_BehaelterWaechter>
   <!-- EN: Guarded by {0}. It cannot be searched until that is dealt with. -->
@@ -843,11 +843,11 @@
   <!-- EN: Pawn faction -->
   <CBF_Field_einheitenFraktion>角色派系</CBF_Field_einheitenFraktion>
   <!-- EN: Which faction the occupant belongs to. Without one it goes berserk instead, which reads as a trapped animal rather than an ambush. -->
-  <CBF_FieldDesc_einheitenFraktion>佔據者屬於哪個派系。沒有則改為暴走，讀作被困動物而非伏擊。</CBF_FieldDesc_einheitenFraktion>
+  <CBF_FieldDesc_einheitenFraktion>佔用者屬於哪個派系。若沒有派系，它會改為陷入狂暴，看起來像受困的動物，而不是埋伏。</CBF_FieldDesc_einheitenFraktion>
   <!-- EN: Fill -->
   <CBF_ArtFuellen>填充</CBF_ArtFuellen>
   <!-- EN: Who it is -->
-  <CBF_PawnGroupWer>它是誰</CBF_PawnGroupWer>
+  <CBF_PawnGroupWer>身分</CBF_PawnGroupWer>
   <!-- EN: Fighting -->
   <CBF_PawnGroupKampf>戰鬥</CBF_PawnGroupKampf>
   <!-- EN: Weapon -->
@@ -857,21 +857,21 @@
   <!-- EN: Quality -->
   <CBF_PawnGroupGuete>品質</CBF_PawnGroupGuete>
   <!-- EN: Looks -->
-  <CBF_PawnGroupAussehen>外貌</CBF_PawnGroupAussehen>
+  <CBF_PawnGroupAussehen>外觀</CBF_PawnGroupAussehen>
   <!-- EN: Implants -->
   <CBF_PawnGroupKoerper>植入物</CBF_PawnGroupKoerper>
   <!-- EN: Character -->
-  <CBF_PawnGroupWesen>性格</CBF_PawnGroupWesen>
+  <CBF_PawnGroupWesen>個性</CBF_PawnGroupWesen>
   <!-- EN: Roll a new one -->
-  <CBF_PawnReroll>重擲一個</CBF_PawnReroll>
+  <CBF_PawnReroll>重新生成</CBF_PawnReroll>
   <!-- EN: No preview -->
   <CBF_PawnNoPreview>無預覽</CBF_PawnNoPreview>
   <!-- EN: Pick a color -->
   <CBF_PawnPickColor>選擇顏色</CBF_PawnPickColor>
   <!-- EN: Add something -->
-  <CBF_ListAdd>新增內容</CBF_ListAdd>
+  <CBF_ListAdd>新增項目</CBF_ListAdd>
   <!-- EN: Nothing to choose from here. -->
-  <CBF_ListNothingToAdd>這裡沒有可選擇的。</CBF_ListNothingToAdd>
+  <CBF_ListNothingToAdd>這裡沒有可選的項目。</CBF_ListNothingToAdd>
   <!-- EN: Plural -->
   <CBF_Field_labelPlural>複數</CBF_Field_labelPlural>
   <!-- EN: Description -->
@@ -883,11 +883,11 @@
   <!-- EN: Breacher -->
   <CBF_Field_isGoodBreacher>破牆者</CBF_Field_isGoodBreacher>
   <!-- EN: Avoids cover -->
-  <CBF_Field_aiAvoidCover>迴避掩體</CBF_Field_aiAvoidCover>
+  <CBF_Field_aiAvoidCover>避開掩體</CBF_Field_aiAvoidCover>
   <!-- EN: Hostile to all -->
   <CBF_Field_hostileToAll>敵視所有人</CBF_Field_hostileToAll>
   <!-- EN: Can arrive manhunter -->
-  <CBF_Field_canArriveManhunter>可發狂來襲</CBF_Field_canArriveManhunter>
+  <CBF_Field_canArriveManhunter>可能以狂暴狀態出現</CBF_Field_canArriveManhunter>
   <!-- EN: Max per group -->
   <CBF_Field_maxPerGroup>每組上限</CBF_Field_maxPerGroup>
   <!-- EN: Weapon material -->
@@ -895,9 +895,9 @@
   <!-- EN: Weapon quality -->
   <CBF_Field_forceWeaponQuality>武器品質</CBF_Field_forceWeaponQuality>
   <!-- EN: Always worn -->
-  <CBF_Field_apparelRequired>常穿</CBF_Field_apparelRequired>
+  <CBF_Field_apparelRequired>必定穿著</CBF_Field_apparelRequired>
   <!-- EN: Never worn -->
-  <CBF_Field_apparelDisallowTags>從不穿</CBF_Field_apparelDisallowTags>
+  <CBF_Field_apparelDisallowTags>絕不穿著</CBF_Field_apparelDisallowTags>
   <!-- EN: Apparel color -->
   <CBF_Field_apparelColor>服裝顏色</CBF_Field_apparelColor>
   <!-- EN: Headgear chance -->
@@ -911,7 +911,7 @@
   <!-- EN: Gear vanishes on death -->
   <CBF_Field_destroyGearOnDrop>死亡時裝備消失</CBF_Field_destroyGearOnDrop>
   <!-- EN: Can be stripped -->
-  <CBF_Field_canStrip>可被剝除</CBF_Field_canStrip>
+  <CBF_Field_canStrip>可被脫光</CBF_Field_canStrip>
   <!-- EN: Hair -->
   <CBF_Field_forcedHair>髮型</CBF_Field_forcedHair>
   <!-- EN: Hair color -->
@@ -919,65 +919,65 @@
   <!-- EN: Skin color -->
   <CBF_Field_skinColorOverride>膚色</CBF_Field_skinColorOverride>
   <!-- EN: Favorite color -->
-  <CBF_Field_favoriteColor>偏好顏色</CBF_Field_favoriteColor>
+  <CBF_Field_favoriteColor>喜愛的顏色</CBF_Field_favoriteColor>
   <!-- EN: Always implanted -->
-  <CBF_Field_techHediffsRequired>常植</CBF_Field_techHediffsRequired>
+  <CBF_Field_techHediffsRequired>必定植入</CBF_Field_techHediffsRequired>
   <!-- EN: Implant budget -->
-  <CBF_Field_techHediffsMoney>植入預算</CBF_Field_techHediffsMoney>
+  <CBF_Field_techHediffsMoney>植入物預算</CBF_Field_techHediffsMoney>
   <!-- EN: Implant tags -->
-  <CBF_Field_techHediffsTags>植入標籤</CBF_Field_techHediffsTags>
+  <CBF_Field_techHediffsTags>植入物標籤</CBF_Field_techHediffsTags>
   <!-- EN: Forced traits -->
-  <CBF_Field_forcedTraits>強制特質</CBF_Field_forcedTraits>
+  <CBF_Field_forcedTraits>強制特性</CBF_Field_forcedTraits>
   <!-- EN: Banned traits -->
-  <CBF_Field_disallowedTraits>禁用特質</CBF_Field_disallowedTraits>
+  <CBF_Field_disallowedTraits>禁止特性</CBF_Field_disallowedTraits>
   <!-- EN: Abilities -->
   <CBF_Field_abilities>能力</CBF_Field_abilities>
   <!-- EN: Recruit resistance -->
-  <CBF_Field_initialResistanceRange>招募抵抗</CBF_Field_initialResistanceRange>
+  <CBF_Field_initialResistanceRange>招募反抗值</CBF_Field_initialResistanceRange>
   <!-- EN: Title chance -->
   <CBF_Field_royalTitleChance>頭銜機率</CBF_Field_royalTitleChance>
   <!-- EN: Required title -->
-  <CBF_Field_titleRequired>所需頭銜</CBF_Field_titleRequired>
+  <CBF_Field_titleRequired>必要頭銜</CBF_Field_titleRequired>
   <!-- EN: These pieces are always worn, on top of whatever the budget buys. -->
-  <CBF_FieldDesc_apparelRequired>這些服裝常穿，在預算購買之外。</CBF_FieldDesc_apparelRequired>
+  <CBF_FieldDesc_apparelRequired>除了預算買到的之外，必定穿著這些服裝。</CBF_FieldDesc_apparelRequired>
   <!-- EN: Only applies to apparel that can be dyed. -->
-  <CBF_FieldDesc_apparelColor>僅適用於可染色的服裝。</CBF_FieldDesc_apparelColor>
+  <CBF_FieldDesc_apparelColor>只套用於可以染色的服裝。</CBF_FieldDesc_apparelColor>
   <!-- EN: Forces the material of the weapon, for instance plasteel. -->
-  <CBF_FieldDesc_weaponStuffOverride>強制武器的材料，例如塑鋼。</CBF_FieldDesc_weaponStuffOverride>
+  <CBF_FieldDesc_weaponStuffOverride>強制指定武器的材料，例如塑鋼。</CBF_FieldDesc_weaponStuffOverride>
   <!-- EN: How many of this kind may appear in one group at most. -->
-  <CBF_FieldDesc_maxPerGroup>一組中至多可出現多少個此種類。</CBF_FieldDesc_maxPerGroup>
+  <CBF_FieldDesc_maxPerGroup>一個組別中最多可出現幾個此種類。</CBF_FieldDesc_maxPerGroup>
   <!-- EN: {0} faults -->
-  <CBF_PawnFaults>{0}個錯誤</CBF_PawnFaults>
+  <CBF_PawnFaults>{0}個問題</CBF_PawnFaults>
   <!-- EN: From {0}. Shown for reference, not editable. -->
-  <CBF_PawnReadOnly>來自{0}。僅供參考，不可編輯。</CBF_PawnReadOnly>
+  <CBF_PawnReadOnly>來自{0}。僅供參考，無法編輯。</CBF_PawnReadOnly>
   <!-- EN: Copy it to make your own version. -->
-  <CBF_PawnReadOnlyHint>複製它來製作你自己的版本。</CBF_PawnReadOnlyHint>
+  <CBF_PawnReadOnlyHint>複製一份即可製作你自己的版本。</CBF_PawnReadOnlyHint>
   <!-- EN: Copy it to edit -->
   <CBF_PawnCopyToEdit>複製以編輯</CBF_PawnCopyToEdit>
   <!-- EN: destroyed -->
-  <CBF_MemberDestroyed>銷燬</CBF_MemberDestroyed>
+  <CBF_MemberDestroyed>摧毀</CBF_MemberDestroyed>
   <!-- EN: Nothing is set, so it is destroyed once emptied. No building materials are left behind. -->
-  <CBF_MemberDestroyedTip>未設定任何內容，因此清空後銷燬。不留建築材料。</CBF_MemberDestroyedTip>
+  <CBF_MemberDestroyedTip>沒有設定，因此清空後會被摧毀，不會留下任何建材。</CBF_MemberDestroyedTip>
   <!-- EN: Once emptied it becomes {0}. -->
-  <CBF_MemberBecomes>清空後變為{0}。</CBF_MemberBecomes>
+  <CBF_MemberBecomes>清空後會變成{0}。</CBF_MemberBecomes>
   <!-- EN: What does {0} become? -->
-  <CBF_MemberBecomesWhat>{0}變成什麼？</CBF_MemberBecomesWhat>
+  <CBF_MemberBecomesWhat>{0}會變成什麼？</CBF_MemberBecomesWhat>
   <!-- EN: Same building, different picture. It stays this container, keeps its name, and stays scenery: nobody can store anything in it. The picture changes the moment it has been searched, not when it runs out of items, because a container somebody found nothing in was still searched. -->
-  <CBF_FieldDesc_emptyGraphic>同一建築，不同外觀。它仍是此容器、保留其名稱，且保持佈景：無人可存放任何東西。外觀在其被搜尋後改變，而非在物品耗盡時，因為某人一無所獲的容器仍是被搜尋過的。</CBF_FieldDesc_emptyGraphic>
+  <CBF_FieldDesc_emptyGraphic>同一個建築，換一張圖。它仍是這個容器，保留原本的名稱，也仍是裝飾：沒人能在裡面存放東西。圖片會在被搜刮的那一刻改變，而不是在物品拿完時，因為就算什麼都沒找到，容器也已經被搜刮過了。</CBF_FieldDesc_emptyGraphic>
   <!-- EN: This container disappears and another building stands in its place. Use it when the result should be a real, usable thing, for example an ordinary chest the colony can store things in. Only works if the other building has the same footprint, otherwise this one just stays. If something is set here, the texture above is never seen. -->
-  <CBF_FieldDesc_emptyBuilding>此容器消失，另一棟建築立在其處。當結果應為真正的可用之物時使用它，例如殖民地可存物的普通箱子。僅當另一建築佔地相同時有效，否則此容器保持原樣。若此處設定內容，上方的貼圖永不可見。</CBF_FieldDesc_emptyBuilding>
+  <CBF_FieldDesc_emptyBuilding>此容器會消失，由另一個建築取代它的位置。想讓結果成為真正可用的東西時使用，例如殖民地可以存放物品的普通箱子。只有在另一個建築佔地相同時才有效，否則這個容器會維持原樣。若這裡有設定，上方的材質就永遠不會出現。</CBF_FieldDesc_emptyBuilding>
   <!-- EN: How likely somebody is waiting inside, per container. 0 means never. -->
-  <CBF_FieldDesc_einheitenChance>每個容器有人等待的可能性。0表示從不。</CBF_FieldDesc_einheitenChance>
+  <CBF_FieldDesc_einheitenChance>每個容器裡有人在等著的機率。0表示永不。</CBF_FieldDesc_einheitenChance>
   <!-- EN: My containers -->
   <CBF_OnlyContainers>我的容器</CBF_OnlyContainers>
   <!-- EN: Only the loot containers you built yourself. They are ordinary buildings and would otherwise sit somewhere between two thousand others, under the name of what they depict. -->
-  <CBF_OnlyContainersTip>僅你自己建造的戰利品容器。它們是普通建築，否則會以所描繪之物的名義夾在另外兩千棟之間。</CBF_OnlyContainersTip>
+  <CBF_OnlyContainersTip>只顯示你自己建立的戰利品容器。它們是普通建築，否則會以所描繪物品的名稱混在其他兩千個建築之中。</CBF_OnlyContainersTip>
   <!-- EN: Faction -->
   <CBF_Field_pawnFaction>派系</CBF_Field_pawnFaction>
   <!-- EN: Which faction the occupant belongs to. Without one it goes berserk instead, which reads as a trapped animal rather than an ambush, and they attack each other too. -->
-  <CBF_FieldDesc_pawnFaction>佔據者屬於哪個派系。沒有則改為暴走，讀作被困動物而非伏擊，且它們也會互相攻擊。</CBF_FieldDesc_pawnFaction>
+  <CBF_FieldDesc_pawnFaction>佔用者屬於哪個派系。若沒有派系，它會改為陷入狂暴，看起來像受困的動物，而不是埋伏，且它們之間也會互相攻擊。</CBF_FieldDesc_pawnFaction>
   <!-- EN: No faction: it goes berserk instead. -->
-  <CBF_FieldDesc_pawnFraktionNone>無派系：改為暴走。</CBF_FieldDesc_pawnFraktionNone>
+  <CBF_FieldDesc_pawnFraktionNone>無派系：改為陷入狂暴。</CBF_FieldDesc_pawnFraktionNone>
   <!-- EN: Fill from table -->
   <CBF_DevFill>從戰利品表填充</CBF_DevFill>
   <!-- EN: Dev mode with god mode only. Since the loot table lives on the anchor, a container placed by hand stays empty. This assigns one by hand so you can test it. Nothing is written to a file. -->
@@ -987,41 +987,41 @@
   <!-- EN: No loot tables loaded -->
   <CBF_NoLootTables>沒有載入任何戰利品表</CBF_NoLootTables>
   <!-- EN: Reads values off an existing building and writes them into your definition: texture, size, draw size, hit points, stuff.\n\nNothing is inherited. Your container is a thing of its own and keeps no tie to the original. A Medieval Overhaul lootable does not pass on its loot, its empty graphic or its rats.\n\nOne thing does follow: if you take a texture from a mod, your container needs that mod, because without it the image is missing. Put your own PNG under Textures in your mod to avoid that. -->
-  <CBF_BehaelterFromDefTip>從現有建築讀取數值並寫入你的def：貼圖、大小、繪製大小、耐久、材料。\n\n不繼承任何東西。你的容器是獨立之物，與原件無任何關聯。Medieval Overhaul的可搜刮物不會傳遞其戰利品、空置圖或其老鼠。\n\n有一件事會跟隨：若你取自某模組的貼圖，你的容器需要該模組，因為沒有它影像會缺失。把你的PNG放到你模組的Textures下可避免此問題。</CBF_BehaelterFromDefTip>
+  <CBF_BehaelterFromDefTip>從現有建築讀取數值並寫入你的定義：材質、尺寸、繪製大小、耐久度與材料。\n\n不會繼承任何東西。你的容器是獨立的物品，與原本的建築沒有任何關聯。Medieval Overhaul的可搜刮物不會把它的戰利品、空的圖像或老鼠一併帶過來。\n\n只有一件事會跟著過來：若你使用某個模組的材質，你的容器就需要那個模組，因為少了它就會缺少圖片。把你自己的PNG放在模組的Textures底下即可避免。</CBF_BehaelterFromDefTip>
   <!-- EN: {0}: the template inherits from a def that could not be resolved. The copy stands alone, so anything that lived only in the parent is missing. Check gear and apparel before using it. -->
-  <CBF_PawnParentLost>{0}：模板繼承自無法解析的def。副本獨立存在，因此僅存在於父級的一切都缺失。使用前檢查裝備與服裝。</CBF_PawnParentLost>
+  <CBF_PawnParentLost>{0}：模板繼承的def無法解析。複本是獨立的，所以只存在於上層的內容都會缺少。使用前請檢查裝備與服裝。</CBF_PawnParentLost>
   <!-- EN: Loot table for this piece -->
   <CBF_MemberTable>此部件的戰利品表</CBF_MemberTable>
   <!-- EN: from anchor -->
   <CBF_MemberTableFromAnchor>來自錨點</CBF_MemberTableFromAnchor>
   <!-- EN: Which loot table fills this piece. Without one, the table on the anchor applies.\n\nGive each piece its own and a wine rack yields wine while the weapon rack beside it yields weapons. Leave them empty and one table on the anchor covers the whole list. -->
-  <CBF_MemberTableTip>哪個戰利品表填充此部件。沒有時使用錨點上的表。\n\n給每個部件各自的表，酒架出酒而旁邊的武器架出武器。留空則錨點上的一個表覆蓋整個清單。</CBF_MemberTableTip>
+  <CBF_MemberTableTip>填充此部件所用的戰利品表。沒有設定時，套用錨點上的表。\n\n為每個部件各設一張表，酒架就會產出酒，旁邊的武器架則產出武器。全部留空的話，錨點上的一張表就涵蓋整份清單。</CBF_MemberTableTip>
   <!-- EN: The piece itself is placed and the loot lies visibly on it. It stays as it is, because a shelf that vanishes would drop what sits on it.\n\nOtherwise a shell is placed that looks like this piece, holds the loot inside, and has to be opened. -->
-  <CBF_MemberOpenTip>部件本身被放置，戰利品可見地置於其上。它保持原樣，因為消失的貨架會掉落其上的東西。\n\n否則放置一個外觀像此部件的外殼，內部藏戰利品，且必須被開啟。</CBF_MemberOpenTip>
+  <CBF_MemberOpenTip>部件本身會被放置，戰利品放在上面看得到。它會維持原樣，因為架子消失的話，上面的東西就會掉下來。\n\n否則會放置一個外觀與此部件相同的外殼，把戰利品裝在裡面，必須打開才拿得到。</CBF_MemberOpenTip>
   <!-- EN: mod's own -->
-  <CBF_MemberForeign>模組自有</CBF_MemberForeign>
+  <CBF_MemberForeign>模組自帶</CBF_MemberForeign>
   <!-- EN: {0} places this piece and then leaves it alone. Loot, occupants and the empty image all come from that mod, exactly as if someone had placed it by hand.\n\nUse this when you want a mod's own furniture to keep working the way its author built it, while your own loot mechanic stays on the vanilla pieces. -->
-  <CBF_MemberForeignTip>{0}放置此部件後不再幹預。戰利品、居民與空置圖都來自該模組，如同有人手動放置。\n\n當你希望模組自家傢俱按其作者製作的方式運轉、而你自己的戰利品機制留在原版部件上時使用此選項。</CBF_MemberForeignTip>
+  <CBF_MemberForeignTip>{0}放置此部件後就不再管它。戰利品、佔用者與空的圖像全都來自該模組，就像有人手動放置一樣。\n\n想讓模組自帶的家具照原作者的設計運作，同時讓你自己的戰利品機制留在原版部件上時，使用此選項。</CBF_MemberForeignTip>
   <!-- EN: from the mod -->
   <CBF_MemberTableForeign>來自模組</CBF_MemberTableForeign>
   <!-- EN: This piece is filled by the mod that brings it. A loot table here would have no effect. -->
-  <CBF_MemberTableForeignTip>此部件由引入它的模組填充。此處的戰利品表將無效。</CBF_MemberTableForeignTip>
+  <CBF_MemberTableForeignTip>此部件由提供它的模組填充。在這裡設定戰利品表不會有效果。</CBF_MemberTableForeignTip>
   <!-- EN: empty -->
   <CBF_LootTableEmpty>空</CBF_LootTableEmpty>
   <!-- EN: Show what is inside -->
-  <CBF_ShowContents>顯示內部內容</CBF_ShowContents>
+  <CBF_ShowContents>顯示內容物</CBF_ShowContents>
   <!-- EN: Back -->
   <CBF_Back>返回</CBF_Back>
   <!-- EN: {0} to {1} draws, {2} % chance per draw -->
-  <CBF_LootPreviewRolls>{0}至{1}次抽取，每次{2}% 機率</CBF_LootPreviewRolls>
+  <CBF_LootPreviewRolls>抽取{0}至{1}次，每次{2}%機率</CBF_LootPreviewRolls>
   <!-- EN: Count: {0} -->
   <CBF_LootPreviewCount>數量：{0}</CBF_LootPreviewCount>
   <!-- EN: Always included -->
-  <CBF_Always>始終包含</CBF_Always>
+  <CBF_Always>必定包含</CBF_Always>
   <!-- EN: Weight: {0} -->
   <CBF_LootPreviewWeight>權重：{0}</CBF_LootPreviewWeight>
   <!-- EN: Appears {0} % of the time -->
-  <CBF_LootPreviewChance>{0}% 的時間出現</CBF_LootPreviewChance>
+  <CBF_LootPreviewChance>出現機率{0}%</CBF_LootPreviewChance>
   <!-- EN: Weight or count varies with depth or wealth -->
   <CBF_LootPreviewCurves>權重或數量隨深度或財富變化</CBF_LootPreviewCurves>
   <!-- EN: Quality {0} to {1} -->
@@ -1029,73 +1029,73 @@
   <!-- EN: Material: {0} -->
   <CBF_LootPreviewStuff>材料：{0}</CBF_LootPreviewStuff>
   <!-- EN: Click to look inside this table -->
-  <CBF_LootPreviewNested>點選檢視此表內部</CBF_LootPreviewNested>
+  <CBF_LootPreviewNested>點擊查看此表的內容</CBF_LootPreviewNested>
   <!-- EN: {0} does not exist -->
   <CBF_LootEntryGone>{0}不存在</CBF_LootEntryGone>
   <!-- EN: not loaded, mod missing -->
-  <CBF_NotLoaded>未載入，模組缺失</CBF_NotLoaded>
+  <CBF_NotLoaded>未載入，缺少模組</CBF_NotLoaded>
   <!-- EN: not loaded, {0} missing -->
   <CBF_NotLoadedMod>未載入，缺少{0}</CBF_NotLoadedMod>
   <!-- EN: {0}: {1}. The entry stays in the list and is saved with it. It is skipped while the mod is missing. -->
-  <CBF_NotLoadedTip>{0}：{1}。條目保留在清單中並隨其儲存。模組缺失時跳過它。</CBF_NotLoadedTip>
+  <CBF_NotLoadedTip>{0}：{1}。此條目會留在清單中並一起儲存。缺少該模組期間會被略過。</CBF_NotLoadedTip>
   <!-- EN: Edit -->
   <CBF_Edit>編輯</CBF_Edit>
   <!-- EN: Closed: a shell looks like this piece and holds the loot inside. -->
-  <CBF_ObjPreviewClosed>封閉：外殼看起來像此部件，內部藏戰利品。</CBF_ObjPreviewClosed>
+  <CBF_ObjPreviewClosed>封閉：外觀與此部件相同的外殼，戰利品裝在裡面。</CBF_ObjPreviewClosed>
   <!-- EN: Loot: {0} -->
   <CBF_ObjPreviewTable>戰利品：{0}</CBF_ObjPreviewTable>
   <!-- EN: Loot: whatever the anchor says -->
-  <CBF_ObjPreviewTableAnchor>戰利品：按錨點所說</CBF_ObjPreviewTableAnchor>
+  <CBF_ObjPreviewTableAnchor>戰利品：依錨點設定</CBF_ObjPreviewTableAnchor>
   <!-- EN: Occupant: {0}, {1} %, {2} -->
-  <CBF_ObjPreviewPawns>居民：{0}，{1}%，{2}</CBF_ObjPreviewPawns>
+  <CBF_ObjPreviewPawns>佔用者：{0}，{1}%，{2}</CBF_ObjPreviewPawns>
   <!-- EN: hostile -->
   <CBF_ObjPreviewHostile>敵對</CBF_ObjPreviewHostile>
   <!-- EN: not hostile -->
-  <CBF_ObjPreviewPeaceful>不敵對</CBF_ObjPreviewPeaceful>
+  <CBF_ObjPreviewPeaceful>非敵對</CBF_ObjPreviewPeaceful>
   <!-- EN: {0} anchor(s) were not run. Place to Edit puts the piece down exactly as drawn, so the export does not freeze a random draw. Use Place to see what the anchors actually produce. -->
-  <CBF_AnchorsSkippedForEdit>{0}個錨點未執行。放置以編輯按繪製原樣放下部件，因此匯出不會定格一次隨機抽取。用放置檢視錨點實際產出什麼。</CBF_AnchorsSkippedForEdit>
+  <CBF_AnchorsSkippedForEdit>有{0}個錨點未執行。「放置以編輯」會完全照繪製內容放置部件，避免匯出時把一次隨機結果固定下來。要查看錨點實際產生的結果，請使用「放置」。</CBF_AnchorsSkippedForEdit>
   <!-- EN: {0} fill anchor(s) have no loot table. Their furniture is placed but stays empty, unless a member of the object list brings its own table. -->
-  <CBF_AnchorWithoutTable>{0}個填充錨點沒有戰利品表。其傢俱被放置但保持為空，除非物品清單的成員自帶表。</CBF_AnchorWithoutTable>
+  <CBF_AnchorWithoutTable>有{0}個填充錨點沒有戰利品表。它們的家具會被放置但保持空的，除非物品清單中的成員自帶戰利品表。</CBF_AnchorWithoutTable>
   <!-- EN: as the map has it -->
-  <CBF_RuralAsIs>按地圖現狀</CBF_RuralAsIs>
+  <CBF_RuralAsIs>依地圖原樣</CBF_RuralAsIs>
   <!-- EN: Leave whatever the map already has there. Pick something else to force it, for example packed dirt for a trampled pen. -->
-  <CBF_RuralAsIsTip>保留地圖上已有的內容。選擇其他內容以強制替換，例如被踩實的畜欄用壓實的泥土。</CBF_RuralAsIsTip>
+  <CBF_RuralAsIsTip>保留地圖在該處原有的地面。選擇其他項目即可強制指定，例如用泥塊做出被踩實的飼養圈。</CBF_RuralAsIsTip>
   <!-- EN: Your own images -->
   <CBF_BehaelterOwnImages>你自己的圖片</CBF_BehaelterOwnImages>
   <!-- EN: Click to change what happens to this piece. -->
-  <CBF_ObjPreviewClickToChange>點選更改此部件的後續變化。</CBF_ObjPreviewClickToChange>
+  <CBF_ObjPreviewClickToChange>點擊以變更此部件的處理方式。</CBF_ObjPreviewClickToChange>
   <!-- EN: closed, filled by CBF -->
   <CBF_ObjPreviewClosedShort>封閉，由CBF填充</CBF_ObjPreviewClosedShort>
   <!-- EN: CBF places the furniture and then leaves it alone. Loot, occupants and the empty image all come from the mod that brings it, exactly as if someone had placed it by hand.\n\nFor Medieval Overhaul's lootable shelves and crates this is usually what you want. -->
-  <CBF_AnchorLootAsIsTip>CBF放置傢俱後不再幹預。戰利品、居民與空置圖都來自引入它的模組，如同有人手動放置。\n\n對Medieval Overhaul的可搜刮貨架與板條箱，這通常是你想要的。</CBF_AnchorLootAsIsTip>
+  <CBF_AnchorLootAsIsTip>CBF放置家具後就不再管它。戰利品、佔用者與空的圖像全都來自提供它的模組，就像有人手動放置一樣。\n\n對Medieval Overhaul的可搜刮架子與箱子來說，這通常就是你要的。</CBF_AnchorLootAsIsTip>
   <!-- EN: Nothing goes inside. The furniture is decoration. -->
-  <CBF_AnchorLootNoneTip>什麼都不放入。傢俱是裝飾。</CBF_AnchorLootNoneTip>
+  <CBF_AnchorLootNoneTip>裡面不放任何東西。家具僅作裝飾。</CBF_AnchorLootNoneTip>
   <!-- EN: Filler: may be partly missing, at least half is required. -->
-  <CBF_FillerTip>填充物：可能部分缺失，至少一半是必需的。</CBF_FillerTip>
+  <CBF_FillerTip>填充：可以部分缺失，但至少需要一半。</CBF_FillerTip>
   <!-- EN: World map icon -->
   <CBF_Field_worldTexture>世界地圖圖示</CBF_Field_worldTexture>
   <!-- EN: Image of this settlement on the world map when zoomed in. It is tinted in the faction colour.\n\nAll images in Textures/World/WorldObjects/CBF can be chosen, including those of other mods. -->
-  <CBF_FieldDesc_worldTexture>放大時此據點在世界地圖上的影像。它按派系顏色著色。\n\nTextures/World/WorldObjects/CBF中的所有影像都可選擇，包括其他模組的。</CBF_FieldDesc_worldTexture>
+  <CBF_FieldDesc_worldTexture>放大世界地圖時此據點的圖片。會以派系顏色著色。\n\nTextures/World/WorldObjects/CBF中的所有圖片都可以選，包括其他模組的圖片。</CBF_FieldDesc_worldTexture>
   <!-- EN: No own image. The settlement shows the image of its faction. -->
-  <CBF_WorldIconVanillaTip>無自有影像。據點顯示其派系的影像。</CBF_WorldIconVanillaTip>
+  <CBF_WorldIconVanillaTip>沒有自己的圖片。據點會顯示其派系的圖片。</CBF_WorldIconVanillaTip>
   <!-- EN: A category must be set. -->
   <CBF_NeedTag>必須設定類別。</CBF_NeedTag>
   <!-- EN: Template {0} was deleted. Create a new region for a new piece. -->
-  <CBF_ExportDeleted>模板{0}已刪除。請為新部件建立一個新區域。</CBF_ExportDeleted>
+  <CBF_ExportDeleted>模板{0}已被刪除。請為新部件建立新的區域。</CBF_ExportDeleted>
   <!-- EN: The file for {0} was saved, but could not be reloaded into the running game. See the console for the loading error; the editor remains unsaved. -->
-  <CBF_ExportReloadFailed>{0}的檔案已儲存，但無法重新載入進執行中的遊戲。請檢視控制檯的載入錯誤；編輯器保持未儲存。</CBF_ExportReloadFailed>
+  <CBF_ExportReloadFailed>{0}的檔案已儲存，但無法重新載入執行中的遊戲。載入錯誤請查看主控台；編輯器仍視為未儲存。</CBF_ExportReloadFailed>
   <!-- EN: Eaves -->
   <CBF_Field_eaves>屋簷</CBF_Field_eaves>
   <!-- EN: Places an eave from Architecture of the Rim on every outer wall and outer door. Does nothing without that mod. -->
-  <CBF_FieldDesc_eaves>在每面外牆與外門上放置一個來自Rim建築學的屋簷。沒有該模組則無作用。</CBF_FieldDesc_eaves>
+  <CBF_FieldDesc_eaves>在每面外牆與每扇外門放置Architecture of the Rim的屋簷。沒有該模組時沒有作用。</CBF_FieldDesc_eaves>
   <!-- EN: Eave material -->
   <CBF_Field_eavesMaterial>屋簷材料</CBF_Field_eavesMaterial>
   <!-- EN: same as wall -->
-  <CBF_EavesLikeWall>同牆</CBF_EavesLikeWall>
+  <CBF_EavesLikeWall>與牆相同</CBF_EavesLikeWall>
   <!-- EN: Mass stress test -->
-  <CBF_MassTitle>批次壓力測試</CBF_MassTitle>
+  <CBF_MassTitle>大量壓力測試</CBF_MassTitle>
   <!-- EN: Tests several settlement types one after another with the same settings. Each type gets its own folder under CBF-Stresstest. -->
-  <CBF_MassHelp>用相同設定依次測試多個據點型別。每個型別在CBF-Stresstest下獲得自己的資料夾。</CBF_MassHelp>
+  <CBF_MassHelp>以相同設定依序測試多個據點類型。每個類型在CBF-Stresstest底下有自己的資料夾。</CBF_MassHelp>
   <!-- EN: Biome -->
   <CBF_MassBiome>生物群系</CBF_MassBiome>
   <!-- EN: Hilliness -->
@@ -1107,17 +1107,17 @@
   <!-- EN: any -->
   <CBF_MassAny>任意</CBF_MassAny>
   <!-- EN: Settlements per type ({0} matching tiles) -->
-  <CBF_MassCount>每型別據點數（{0}個匹配地塊）</CBF_MassCount>
+  <CBF_MassCount>每個類型的據點數（{0}個符合的地塊）</CBF_MassCount>
   <!-- EN: Quit RimWorld afterwards -->
-  <CBF_MassQuit>之後退出RimWorld</CBF_MassQuit>
+  <CBF_MassQuit>完成後結束RimWorld</CBF_MassQuit>
   <!-- EN: None -->
   <CBF_MassNone>無</CBF_MassNone>
   <!-- EN: Test {0} types with {1} settlements each -->
-  <CBF_MassStart>測試{0}個型別，每個{1}個據點</CBF_MassStart>
+  <CBF_MassStart>測試{0}個類型，每個{1}個據點</CBF_MassStart>
   <!-- EN: Mass stress test finished. -->
-  <CBF_MassDone>批次壓力測試完成。</CBF_MassDone>
+  <CBF_MassDone>大量壓力測試已完成。</CBF_MassDone>
   <!-- EN: Which side of the drawn gatehouse faces outward, away from the town. Top, bottom, left and right refer to the image in the editor. The wall builder turns the gatehouse by this so the gate sits the right way round in the wall. -->
-  <CBF_OutwardGateTip>所繪門樓的哪一側朝外，背離城鎮。上、下、左、右指編輯器影像中的方向。城牆建造者據此轉動門樓，使城門在城牆中朝向正確。</CBF_OutwardGateTip>
+  <CBF_OutwardGateTip>繪製的門樓哪一側朝外、背向城鎮。上、下、左、右指的是編輯器中的圖片。城牆建造器會依此旋轉門樓，讓城門在城牆中朝向正確。</CBF_OutwardGateTip>
   <!-- EN: Editor in the architect menu -->
   <CBF_EditorInArchitect>在建築選單顯示編輯器</CBF_EditorInArchitect>
   <!-- EN: Shows the editor as a category of its own in the architect menu. Without the tick it can only be reached in development mode through the debug menu, entry Open editor. -->
@@ -1135,7 +1135,7 @@
   <!-- EN: These factions get their bases from Custom Base Framework. Untick a faction to give it RimWorld's own bases again. Bases that were already visited stay as they are. -->
   <CBF_FactionSwitchHelp>以下派系的基地由Custom Base Framework生成。取消勾選可讓該派系改回使用RimWorld原本的基地。已經造訪過的基地維持原樣。</CBF_FactionSwitchHelp>
   <!-- EN: plans from {0} -->
-  <CBF_FactionSwitchFrom>方案來自{0}</CBF_FactionSwitchFrom>
+  <CBF_FactionSwitchFrom>計劃來自{0}</CBF_FactionSwitchFrom>
   <!-- EN: Choose factions -->
   <CBF_FactionSwitchOpen>選擇派系</CBF_FactionSwitchOpen>
   <!-- EN: {0} of {1} factions get their bases from Custom Base Framework. -->
@@ -1173,7 +1173,7 @@
   <!-- EN: Only available in a loaded game. -->
   <CBF_UninstallNeedGame>僅在載入遊戲後可用。</CBF_UninstallNeedGame>
   <!-- EN: This removes all CBF data from the loaded game: quests, map data, containers and settlement plans. It cannot be undone.\n\nAfterwards save immediately, quit the game and then remove the mod. As long as CBF stays active, the world map and new maps bring CBF data back. -->
-  <CBF_UninstallConfirm>這會從目前載入的遊戲中移除所有CBF資料：任務、地圖資料、容器與據點方案。此操作無法復原。\n\n完成後請立即存檔、離開遊戲，再移除模組。只要CBF仍在啟用中，世界地圖與新地圖就會再次產生CBF資料。</CBF_UninstallConfirm>
+  <CBF_UninstallConfirm>這會從目前載入的遊戲中移除所有CBF資料：任務、地圖資料、容器與據點計劃。此操作無法復原。\n\n完成後請立即存檔、離開遊戲，再移除模組。只要CBF仍在啟用中，世界地圖與新地圖就會再次產生CBF資料。</CBF_UninstallConfirm>
   <!-- EN: CBF data removed from {0} places.\n\nSave now, quit the game and remove the mod. -->
   <CBF_UninstallDone>已從{0}處移除CBF資料。\n\n請現在存檔、離開遊戲並移除模組。</CBF_UninstallDone>
   <!-- EN: {0} CBF quests ended and removed -->
@@ -1199,7 +1199,7 @@
   <!-- EN: {0} cells with CBF terrain reset -->
   <CBF_UninstallStepTerrain>已重設{0}格CBF地形</CBF_UninstallStepTerrain>
   <!-- EN: {0} world places without CBF plan -->
-  <CBF_UninstallStepPlans>{0}個世界地點已無CBF方案</CBF_UninstallStepPlans>
+  <CBF_UninstallStepPlans>{0}個世界地點已無CBF計劃</CBF_UninstallStepPlans>
   <!-- EN: {0} CBF site parts removed -->
   <CBF_UninstallStepSites>已移除{0}個CBF地點部分</CBF_UninstallStepSites>
   <!-- EN: {0} pawns switched to a vanilla pawn kind -->
@@ -1209,23 +1209,23 @@
   <!-- EN: Check: {0} CBF entries are still left. Run the button again. -->
   <CBF_UninstallCheckRest>檢查：仍剩下{0}筆CBF項目。請再按一次按鈕。</CBF_UninstallCheckRest>
   <!-- EN: Unsaved changes to {0}. Closing discards them and reloads the values from the files. -->
-  <CBF_CloseUnsaved>{0}有未儲存的更改。關閉會丟棄它們並重新載入檔案中的數值。</CBF_CloseUnsaved>
+  <CBF_CloseUnsaved>{0}有未儲存的變更。關閉會捨棄變更，並從檔案重新載入數值。</CBF_CloseUnsaved>
   <!-- EN: Discard and close -->
-  <CBF_CloseDiscard>丟棄並關閉</CBF_CloseDiscard>
+  <CBF_CloseDiscard>捨棄並關閉</CBF_CloseDiscard>
   <!-- EN: Build here -->
   <CBF_PreviewBuildHere>在此建造</CBF_PreviewBuildHere>
   <!-- EN: Builds the settlement on the current map. The site area is cleared first. -->
-  <CBF_PreviewBuildHereTip>在目前地圖上建造據點。場地區域先被清除。</CBF_PreviewBuildHereTip>
+  <CBF_PreviewBuildHereTip>在目前地圖上建造據點。會先清空建地範圍。</CBF_PreviewBuildHereTip>
   <!-- EN: Build {0} on the map {1}? The site area and its edge are cleared. Buildings and items there are lost, pawns stay. -->
-  <CBF_PreviewBuildHereAsk>在地圖{1}上建造{0}？場地區域及其邊緣會被清除。那裡的建築與物品會丟失，角色保留。</CBF_PreviewBuildHereAsk>
+  <CBF_PreviewBuildHereAsk>要在地圖{1}上建造{0}嗎？建地範圍及其邊緣會被清空。那裡的建築與物品會遺失，角色會留下。</CBF_PreviewBuildHereAsk>
   <!-- EN: {0} (incomplete) -->
   <CBF_RegionIncomplete>{0}（不完整）</CBF_RegionIncomplete>
   <!-- EN: {0} could not be placed. Details are in the log. -->
-  <CBF_PawnPlaceFailed>{0}無法放置。詳情見日誌。</CBF_PawnPlaceFailed>
+  <CBF_PawnPlaceFailed>無法放置{0}。詳情請見日誌。</CBF_PawnPlaceFailed>
   <!-- EN: Terrain sample in {0} (image, list and .gel) -->
-  <CBF_GelaendeProbeAbgelegt>地形樣本位於{0}（影像、清單與.gel）</CBF_GelaendeProbeAbgelegt>
+  <CBF_GelaendeProbeAbgelegt>地形樣本位於{0}（圖片、清單與.gel）</CBF_GelaendeProbeAbgelegt>
   <!-- EN: Nothing selected. -->
-  <CBF_NothingSelected>未選擇任何內容。</CBF_NothingSelected>
+  <CBF_NothingSelected>未選擇任何東西。</CBF_NothingSelected>
   <!-- EN: {0} is not in {1}. -->
   <CBF_DefNotInFile>{0}不在{1}中。</CBF_DefNotInFile>
   <!-- EN: Writing failed: {0} -->
@@ -1233,9 +1233,9 @@
   <!-- EN: The file {0} has no root node. -->
   <CBF_FileNoRoot>檔案{0}沒有根節點。</CBF_FileNoRoot>
   <!-- EN: The project folder was not found. -->
-  <CBF_ProjectFolderMissing>未找到專案資料夾。</CBF_ProjectFolderMissing>
+  <CBF_ProjectFolderMissing>找不到專案資料夾。</CBF_ProjectFolderMissing>
   <!-- EN: Replacement and target are the same. -->
-  <CBF_ReplaceSameAsTarget>替換物與目標相同。</CBF_ReplaceSameAsTarget>
+  <CBF_ReplaceSameAsTarget>替換項與目標相同。</CBF_ReplaceSameAsTarget>
   <!-- EN: {0} could not be renamed because a file involved could not be written. Everything is back as before, details in the log. -->
   <CBF_RenameFailed>無法重新命名{0}，因為有相關檔案無法寫入。一切已恢復原狀，詳情請見日誌。</CBF_RenameFailed>
   <!-- EN: {0} could not be deleted because a file involved could not be written. Everything is back as before, details in the log. -->
@@ -1243,61 +1243,61 @@
   <!-- EN: {0} has been deleted since. This step can no longer be undone or redone. -->
   <CBF_UndoDefDeleted>{0}之後已被刪除。此步驟無法再復原或重做。</CBF_UndoDefDeleted>
   <!-- EN: The source file of {0} could not be removed. Nothing was deleted. -->
-  <CBF_DeleteSourceStuck>{0}的原始檔無法移除。未刪除任何內容。</CBF_DeleteSourceStuck>
+  <CBF_DeleteSourceStuck>無法移除{0}的原始檔案。沒有刪除任何東西。</CBF_DeleteSourceStuck>
   <!-- EN: The name table could not be changed. Nothing was changed. -->
-  <CBF_NameTableLocked>名稱表無法更改。未更改任何內容。</CBF_NameTableLocked>
+  <CBF_NameTableLocked>無法變更名稱表。沒有做任何變更。</CBF_NameTableLocked>
   <!-- EN: The file for {0} was not found. -->
-  <CBF_PlanFileMissing>未找到{0}的檔案。</CBF_PlanFileMissing>
+  <CBF_PlanFileMissing>找不到{0}的檔案。</CBF_PlanFileMissing>
   <!-- EN: There is no patch folder yet. -->
-  <CBF_NoPatchFolder>還沒有補丁資料夾。</CBF_NoPatchFolder>
+  <CBF_NoPatchFolder>目前還沒有補丁資料夾。</CBF_NoPatchFolder>
   <!-- EN: {0} (category missing) -->
-  <CBF_TagMissing>{0}（類別缺失）</CBF_TagMissing>
+  <CBF_TagMissing>{0}（類別遺失）</CBF_TagMissing>
   <!-- EN: and {0} more -->
-  <CBF_AndMore>以及另外{0}個</CBF_AndMore>
+  <CBF_AndMore>以及其他{0}個</CBF_AndMore>
   <!-- EN: Creating picture -->
-  <CBF_Auftrag_Bild>正在建立圖片</CBF_Auftrag_Bild>
+  <CBF_Auftrag_Bild>正在產生圖片</CBF_Auftrag_Bild>
   <!-- EN: Category {0} created. -->
-  <CBF_TagCreated>類別{0}已建立。</CBF_TagCreated>
+  <CBF_TagCreated>已建立類別{0}。</CBF_TagCreated>
   <!-- EN: Four sides -->
   <CBF_GraphicMulti>四面</CBF_GraphicMulti>
   <!-- EN: Single image -->
-  <CBF_GraphicSingle>單圖</CBF_GraphicSingle>
+  <CBF_GraphicSingle>單一圖片</CBF_GraphicSingle>
   <!-- EN: container -->
   <CBF_Huelle_Label>容器</CBF_Huelle_Label>
   <!-- EN: A container placed by Custom Base Framework. How it looks and what it holds comes from the object list that placed it. -->
   <CBF_Huelle_Desc>由Custom Base Framework放置的容器。外觀與內容物取決於放置它的物件清單。</CBF_Huelle_Desc>
   <!-- EN: Author mode: the editor may write into Custom Base Framework itself -->
-  <CBF_AuthorMode>作者模式：編輯器可直接寫入Custom Base Framework本體</CBF_AuthorMode>
+  <CBF_AuthorMode>作者模式：編輯器可以直接寫入Custom Base Framework本身</CBF_AuthorMode>
   <!-- EN: Only for developing the framework itself. Everyone else creates their own project. Not available when the framework comes from the Workshop. -->
-  <CBF_AuthorModeTip>僅用於開發框架本身。其他人建立自己的專案。框架來自工坊時不可用。</CBF_AuthorModeTip>
+  <CBF_AuthorModeTip>僅供開發框架本身使用。其他人請建立自己的專案。框架來自工作坊時無法使用。</CBF_AuthorModeTip>
   <!-- EN: The editor does not write into Custom Base Framework itself. Create or open your own project. -->
-  <CBF_NeedOwnProject>編輯器不寫入Custom Base Framework本體。請建立或開啟你自己的專案。</CBF_NeedOwnProject>
+  <CBF_NeedOwnProject>編輯器不會寫入Custom Base Framework本身。請建立或開啟你自己的專案。</CBF_NeedOwnProject>
   <!-- EN: A container waiting to be searched. -->
-  <CBF_BehaelterStandardText>一個等待被搜尋的容器。</CBF_BehaelterStandardText>
+  <CBF_BehaelterStandardText>一個等待搜索的容器。</CBF_BehaelterStandardText>
   <!-- EN: This settlement type belongs to another mod and is read only. Copy it into your own mod to change it. -->
-  <CBF_PlanReadOnlyHint>此據點型別屬於其他模組且為只讀。把它複製進你自己的模組以更改它。</CBF_PlanReadOnlyHint>
+  <CBF_PlanReadOnlyHint>此據點類型屬於其他模組，為唯讀。要修改請先複製到你自己的模組。</CBF_PlanReadOnlyHint>
   <!-- EN: Copy into my mod -->
-  <CBF_PlanCopyToMine>複製進我的模組</CBF_PlanCopyToMine>
+  <CBF_PlanCopyToMine>複製到我的模組</CBF_PlanCopyToMine>
   <!-- EN: Copy {0} into your own mod -->
-  <CBF_PlanCopyTitle>把{0}複製進你自己的模組</CBF_PlanCopyTitle>
+  <CBF_PlanCopyTitle>將{0}複製到你自己的模組</CBF_PlanCopyTitle>
   <!-- EN: Name of the copy (defName) -->
-  <CBF_PlanCopyHint>副本的名稱（defName）</CBF_PlanCopyHint>
+  <CBF_PlanCopyHint>複本名稱（defName）</CBF_PlanCopyHint>
   <!-- EN: {0} is now in your own mod. -->
-  <CBF_PlanCopied>{0}現在位於你自己的模組中。</CBF_PlanCopied>
+  <CBF_PlanCopied>{0}現在已在你自己的模組中。</CBF_PlanCopied>
   <!-- EN: The piece appears at most once per settlement. -->
-  <CBF_UniqueTip>該部件每個據點至多出現一次。</CBF_UniqueTip>
+  <CBF_UniqueTip>此部件在每個據點最多出現一次。</CBF_UniqueTip>
   <!-- EN: Without its own value the value of {0} applies. -->
-  <CBF_K_InheritsFromParent>沒有自有值時，採用{0}的值。</CBF_K_InheritsFromParent>
+  <CBF_K_InheritsFromParent>沒有自己的值時，套用{0}的值。</CBF_K_InheritsFromParent>
   <!-- EN: Piece -->
   <CBF_Type_PieceDef>部件</CBF_Type_PieceDef>
   <!-- EN: Settlement type -->
-  <CBF_Type_SettlementPlanDef>據點型別</CBF_Type_SettlementPlanDef>
+  <CBF_Type_SettlementPlanDef>據點類型</CBF_Type_SettlementPlanDef>
   <!-- EN: Object list -->
   <CBF_Type_LootBuildingCategoryDef>物品清單</CBF_Type_LootBuildingCategoryDef>
   <!-- EN: Loot table -->
   <CBF_Type_LootTableDef>戰利品表</CBF_Type_LootTableDef>
   <!-- EN: Unit list -->
-  <CBF_Type_PawnListDef>單位清單</CBF_Type_PawnListDef>
+  <CBF_Type_PawnListDef>角色清單</CBF_Type_PawnListDef>
   <!-- EN: Category -->
   <CBF_Type_PieceCategoryDef>類別</CBF_Type_PieceCategoryDef>
   <!-- EN: Swap rule -->
@@ -1305,13 +1305,13 @@
   <!-- EN: Ruin -->
   <CBF_Type_RuinDef>廢墟</CBF_Type_RuinDef>
   <!-- EN: Wall profile -->
-  <CBF_Type_WallProfileDef>牆型</CBF_Type_WallProfileDef>
+  <CBF_Type_WallProfileDef>城牆剖面</CBF_Type_WallProfileDef>
   <!-- EN: Dungeon profile -->
-  <CBF_Type_DungeonProfileDef>地下城牆型</CBF_Type_DungeonProfileDef>
+  <CBF_Type_DungeonProfileDef>地下城設定檔</CBF_Type_DungeonProfileDef>
   <!-- EN: Fields -->
   <CBF_Field_fields>農田</CBF_Field_fields>
   <!-- EN: Pens -->
-  <CBF_Field_pens>畜欄</CBF_Field_pens>
+  <CBF_Field_pens>飼養圈</CBF_Field_pens>
   <!-- EN: Crop list -->
   <CBF_Field_crops>作物清單</CBF_Field_crops>
   <!-- EN: Categories -->
@@ -1323,115 +1323,115 @@
   <!-- EN: Kind -->
   <CBF_Field_kind>種類</CBF_Field_kind>
   <!-- EN: Role {0} -->
-  <CBF_Au_S_Role>角色{0}</CBF_Au_S_Role>
+  <CBF_Au_S_Role>建築角色{0}</CBF_Au_S_Role>
   <!-- EN: has no thing in any material list, used by {0} -->
-  <CBF_Au_RoleUnserved>在任何材料清單中都沒有物品，被{0}使用</CBF_Au_RoleUnserved>
+  <CBF_Au_RoleUnserved>在任何材料清單中都沒有物品，由{0}使用</CBF_Au_RoleUnserved>
   <!-- EN: Style {0} -->
   <CBF_Au_S_Style>風格{0}</CBF_Au_S_Style>
   <!-- EN: names no material list and is switched off. -->
-  <CBF_Au_NoMaterialList>未指定材料清單，已被關閉。</CBF_Au_NoMaterialList>
+  <CBF_Au_NoMaterialList>未指定材料清單，已停用。</CBF_Au_NoMaterialList>
   <!-- EN: uses the material list {0}, which is unusable. -->
-  <CBF_Au_PlanListUnusable>使用不可用的材料清單{0}。</CBF_Au_PlanListUnusable>
+  <CBF_Au_PlanListUnusable>使用的材料清單{0}無法使用。</CBF_Au_PlanListUnusable>
   <!-- EN: unusable, critical roles without an existing thing: {0} -->
-  <CBF_Au_MaterialListUnusable>不可用，關鍵角色沒有存在的物品：{0}</CBF_Au_MaterialListUnusable>
+  <CBF_Au_MaterialListUnusable>無法使用，關鍵建築角色沒有存在的物品：{0}</CBF_Au_MaterialListUnusable>
   <!-- EN: role {0} is missing from the material list {1}, used by {2} -->
-  <CBF_Au_RoleMissingInList>角色{0}在材料清單{1}中缺失，被{2}使用</CBF_Au_RoleMissingInList>
+  <CBF_Au_RoleMissingInList>材料清單{1}缺少建築角色{0}，由{2}使用</CBF_Au_RoleMissingInList>
   <!-- EN: Material list {0} -->
   <CBF_Au_S_MaterialList>材料清單{0}</CBF_Au_S_MaterialList>
   <!-- EN: Loot table {0} -->
   <CBF_Au_S_LootTable>戰利品表{0}</CBF_Au_S_LootTable>
   <!-- EN: has no usable entry left. -->
-  <CBF_Au_LootNoEntry>沒有可用的條目了。</CBF_Au_LootNoEntry>
+  <CBF_Au_LootNoEntry>已沒有可用的條目。</CBF_Au_LootNoEntry>
   <!-- EN: {0} entries were dropped. -->
-  <CBF_Au_LootDead>{0}個條目被丟棄。</CBF_Au_LootDead>
+  <CBF_Au_LootDead>已捨棄{0}個條目。</CBF_Au_LootDead>
   <!-- EN: Object list {0} -->
   <CBF_Au_S_ObjectList>物品清單{0}</CBF_Au_S_ObjectList>
   <!-- EN: not a single existing building. -->
-  <CBF_Au_ListEmpty>沒有一棟存在的建築。</CBF_Au_ListEmpty>
+  <CBF_Au_ListEmpty>沒有任何一個存在的建築。</CBF_Au_ListEmpty>
   <!-- EN: {0} of {1} are missing. -->
-  <CBF_Au_ListMissing>{1}中的{0}缺失。</CBF_Au_ListMissing>
+  <CBF_Au_ListMissing>{1}個中缺少{0}個。</CBF_Au_ListMissing>
   <!-- EN: Settlement type {0} -->
-  <CBF_Au_S_Plan>據點型別{0}</CBF_Au_S_Plan>
+  <CBF_Au_S_Plan>據點類型{0}</CBF_Au_S_Plan>
   <!-- EN: not a single piece with category {0}. -->
-  <CBF_Au_NoPieceWithTag>沒有一個帶類別{0}的部件。</CBF_Au_NoPieceWithTag>
+  <CBF_Au_NoPieceWithTag>沒有任何類別為{0}的部件。</CBF_Au_NoPieceWithTag>
   <!-- EN: Dungeon profile {0} -->
-  <CBF_Au_S_Dungeon>地下城牆型{0}</CBF_Au_S_Dungeon>
+  <CBF_Au_S_Dungeon>地下城設定檔{0}</CBF_Au_S_Dungeon>
   <!-- EN: Wall profile {0} -->
-  <CBF_Au_S_WallProfile>牆型{0}</CBF_Au_S_WallProfile>
+  <CBF_Au_S_WallProfile>城牆剖面{0}</CBF_Au_S_WallProfile>
   <!-- EN: has no usable strip, the wall is built from roles. -->
-  <CBF_Au_WallNoStrip>沒有可用的條帶，城牆由角色建造。</CBF_Au_WallNoStrip>
+  <CBF_Au_WallNoStrip>沒有可用的城牆帶，城牆改由建築角色建造。</CBF_Au_WallNoStrip>
   <!-- EN: Strip {0} has no thing in the outer shell. The wall gets a hole there. -->
-  <CBF_Au_WallStripHole>條帶{0}在外殼中沒有物品。城牆在那裡會有一個洞。</CBF_Au_WallStripHole>
+  <CBF_Au_WallStripHole>城牆帶{0}的外殼沒有物品，城牆在那裡會出現缺口。</CBF_Au_WallStripHole>
   <!-- EN: Strip {0} is {1} cells deep, the profile wants {2}. -->
-  <CBF_Au_WallStripDepth>條帶{0}深{1}格，牆型想要{2}格。</CBF_Au_WallStripDepth>
+  <CBF_Au_WallStripDepth>城牆帶{0}深{1}格，設定檔要求{2}格。</CBF_Au_WallStripDepth>
   <!-- EN: no settlement type has wall depth {0} in a matching style, the profile is never used. -->
-  <CBF_Au_WallUnused>沒有據點型別在匹配風格中使用城牆深度{0}，該牆型永不被使用。</CBF_Au_WallUnused>
+  <CBF_Au_WallUnused>沒有據點類型在相符風格中使用城牆深度{0}，此設定檔永遠不會被使用。</CBF_Au_WallUnused>
   <!-- EN: Anchor {0} -->
   <CBF_Au_Anchor>錨點{0}</CBF_Au_Anchor>
   <!-- EN: Anchor {0} (symbol {1}) has no cell. It is required, so the piece is never placed. -->
-  <CBF_Au_AnchorNoCellRequired>錨點{0}（符號{1}）沒有格。它是必需的，因此該部件從不被放置。</CBF_Au_AnchorNoCellRequired>
+  <CBF_Au_AnchorNoCellRequired>錨點{0}（符號{1}）沒有任何格子。它是必要錨點，因此此部件永遠不會被放置。</CBF_Au_AnchorNoCellRequired>
   <!-- EN: Anchor {0} (symbol {1}) has no cell. It has no effect. -->
-  <CBF_Au_AnchorNoCell>錨點{0}（符號{1}）沒有格。它無效果。</CBF_Au_AnchorNoCell>
+  <CBF_Au_AnchorNoCell>錨點{0}（符號{1}）沒有任何格子，不會產生作用。</CBF_Au_AnchorNoCell>
   <!-- EN: Anchor {0} is a fill anchor without an object list. It stays empty. -->
-  <CBF_Au_FillNoList>錨點{0}是沒有物品清單的填充錨點。它保持為空。</CBF_Au_FillNoList>
+  <CBF_Au_FillNoList>錨點{0}是沒有物品清單的填充錨點，會保持空白。</CBF_Au_FillNoList>
   <!-- EN: Anchor {0} names the object list {1}, which does not exist. Usually the mod it comes from is missing. -->
-  <CBF_Au_AnchorListGone>錨點{0}引用不存在的物品清單{1}。通常其來源模組缺失。</CBF_Au_AnchorListGone>
+  <CBF_Au_AnchorListGone>錨點{0}指定的物品清單{1}不存在。通常是其來源模組缺失。</CBF_Au_AnchorListGone>
   <!-- EN: Anchor {0} names the loot table {1}, which does not exist. It stays decoration. -->
-  <CBF_Au_AnchorTableGone>錨點{0}引用不存在的戰利品表{1}。它保持為裝飾。</CBF_Au_AnchorTableGone>
+  <CBF_Au_AnchorTableGone>錨點{0}指定的戰利品表{1}不存在，只作為裝飾。</CBF_Au_AnchorTableGone>
   <!-- EN: Spawn anchor {0} names the unit list {1}, which was not found. Check the list or pick a new one. -->
-  <CBF_Au_SpawnListGone>生成錨點{0}引用未找到的單位清單{1}。請檢查清單或選擇新的。</CBF_Au_SpawnListGone>
+  <CBF_Au_SpawnListGone>生成錨點{0}指定的角色清單{1}找不到。請檢查清單或改選一個。</CBF_Au_SpawnListGone>
   <!-- EN: Anchor {0} is required but of type {1}. Required only works for Connect: a fill or spawn anchor that fails leaves a corner empty and is no reason to drop the house. -->
-  <CBF_Au_RequiredKind>錨點{0}是必需的但型別為{1}。必需僅對連線有效：失敗的填充或生成錨點會留下空角，而非放棄房屋的理由。</CBF_Au_RequiredKind>
+  <CBF_Au_RequiredKind>錨點{0}為必要錨點，但類型是{1}。「必要」只對連線錨點有效：填充或生成錨點失敗只會讓一角空著，不構成捨棄整棟房屋的理由。</CBF_Au_RequiredKind>
   <!-- EN: The anchor layer contains the symbol {0}, which has no legend entry with an anchor. -->
-  <CBF_Au_AnchorSymbolUnknown>錨點層包含符號{0}，它沒有帶錨點的圖例條目。</CBF_Au_AnchorSymbolUnknown>
+  <CBF_Au_AnchorSymbolUnknown>錨點層包含符號{0}，但沒有帶錨點的圖例條目對應它。</CBF_Au_AnchorSymbolUnknown>
   <!-- EN: is a gatehouse but has no anchor named {0}. It needs at least two where the wall docks. -->
-  <CBF_Au_GateNoWallAnchor>是門樓但沒有名為{0}的錨點。它至少需要兩個城牆對接處。</CBF_Au_GateNoWallAnchor>
+  <CBF_Au_GateNoWallAnchor>是門樓，但沒有名為{0}的錨點。城牆銜接處至少需要兩個。</CBF_Au_GateNoWallAnchor>
   <!-- EN: is a gatehouse but has only one anchor named {0}. It needs at least two where the wall docks. -->
-  <CBF_Au_GateOneWallAnchor>是門樓但只有一個名為{0}的錨點。它至少需要兩個城牆對接處。</CBF_Au_GateOneWallAnchor>
+  <CBF_Au_GateOneWallAnchor>是門樓，但只有一個名為{0}的錨點。城牆銜接處至少需要兩個。</CBF_Au_GateOneWallAnchor>
   <!-- EN: is a gatehouse without an anchor named {0}. Without it the generator does not know which side faces outward and turns the gate the wrong way. -->
-  <CBF_Au_GateNoOutside>是沒有名為{0}的錨點的門樓。沒有它生成器不知道哪側朝外，會把城門轉反。</CBF_Au_GateNoOutside>
+  <CBF_Au_GateNoOutside>是門樓，但沒有名為{0}的錨點。少了它，生成器不知道哪一側朝外，會把城門轉錯方向。</CBF_Au_GateNoOutside>
   <!-- EN: has no category. -->
   <CBF_Au_NoCategory>沒有類別。</CBF_Au_NoCategory>
   <!-- EN: has no grid. -->
-  <CBF_Au_NoGrid>沒有網格。</CBF_Au_NoGrid>
+  <CBF_Au_NoGrid>沒有格子。</CBF_Au_NoGrid>
   <!-- EN: The symbols {0} have no legend entry. Usually the mod they come from is missing. The piece is therefore not placed. -->
-  <CBF_Au_MissingSymbols>符號{0}沒有圖例條目。通常其來源模組缺失。因此該部件不被放置。</CBF_Au_MissingSymbols>
+  <CBF_Au_MissingSymbols>符號{0}沒有圖例條目。通常是其來源模組缺失，因此不會放置此部件。</CBF_Au_MissingSymbols>
   <!-- EN: uses the role {0}, which no material list fills. -->
-  <CBF_Au_RoleNotServed>使用沒有材料清單填充的角色{0}。</CBF_Au_RoleNotServed>
+  <CBF_Au_RoleNotServed>使用了建築角色{0}，但沒有任何材料清單填入它。</CBF_Au_RoleNotServed>
   <!-- EN: Content zone {0} names the object list {1}, which does not exist. -->
-  <CBF_Au_ZoneListGone>內容區域{0}引用不存在的物品清單{1}。</CBF_Au_ZoneListGone>
+  <CBF_Au_ZoneListGone>內容區{0}指定的物品清單{1}不存在。</CBF_Au_ZoneListGone>
   <!-- EN: Content zone {0} uses {1}, which no longer contains any building. -->
-  <CBF_Au_ZoneListEmpty>內容區域{0}使用{1}，它不再包含任何建築。</CBF_Au_ZoneListEmpty>
+  <CBF_Au_ZoneListEmpty>內容區{0}使用的{1}已不含任何建築。</CBF_Au_ZoneListEmpty>
   <!-- EN: Content zone {0} names the loot table {1}, which does not exist. -->
-  <CBF_Au_ZoneTableGone>內容區域{0}引用不存在的戰利品表{1}。</CBF_Au_ZoneTableGone>
+  <CBF_Au_ZoneTableGone>內容區{0}指定的戰利品表{1}不存在。</CBF_Au_ZoneTableGone>
   <!-- EN: Content zone {0} is described, but there is no content layer. -->
-  <CBF_Au_ZoneNoLayer>內容區域{0}已描述，但沒有內容層。</CBF_Au_ZoneNoLayer>
+  <CBF_Au_ZoneNoLayer>已描述內容區{0}，但沒有內容層。</CBF_Au_ZoneNoLayer>
   <!-- EN: has a content layer but no content zone. -->
-  <CBF_Au_LayerNoZone>有內容層但沒有內容區域。</CBF_Au_LayerNoZone>
+  <CBF_Au_LayerNoZone>有內容層，但沒有內容區。</CBF_Au_LayerNoZone>
   <!-- EN: Legend symbol {0} ({1}) is in no layer and is therefore never placed. -->
-  <CBF_Au_LegendUnused>圖例符號{0}（{1}）不在任何層中，因此從不被放置。</CBF_Au_LegendUnused>
+  <CBF_Au_LegendUnused>圖例符號{0}（{1}）不在任何一層中，因此永遠不會被放置。</CBF_Au_LegendUnused>
   <!-- EN: The core size is reversed: {0} to {1}. -->
-  <CBF_Au_CoreSizeSwapped>核心大小顛倒：{0}至{1}。</CBF_Au_CoreSizeSwapped>
+  <CBF_Au_CoreSizeSwapped>核心大小前後顛倒：{0}至{1}。</CBF_Au_CoreSizeSwapped>
   <!-- EN: an entry -->
-  <CBF_Au_AnEntry>一個條目</CBF_Au_AnEntry>
+  <CBF_Au_AnEntry>某個條目</CBF_Au_AnEntry>
   <!-- EN: In ward {0}, district {1} the count of {2} is reversed: {3} to {4}. -->
-  <CBF_Au_CountSwapped>在區劃{0}、區{1}中，{2}的數量顛倒：{3}至{4}。</CBF_Au_CountSwapped>
+  <CBF_Au_CountSwapped>城區{0}的街區{1}中，{2}的數量前後顛倒：{3}至{4}。</CBF_Au_CountSwapped>
   <!-- EN: Category {0} -->
   <CBF_Au_S_Category>類別{0}</CBF_Au_S_Category>
   <!-- EN: is {0} levels deep, at the limit of {1}. Probably a loop in the parent chain. -->
-  <CBF_Au_CategoryDeep>深{0}層，達到{1}的上限。父級鏈中可能有迴圈。</CBF_Au_CategoryDeep>
+  <CBF_Au_CategoryDeep>深達{0}層，已到上限{1}。上層類別鏈可能形成循環。</CBF_Au_CategoryDeep>
   <!-- EN: has no piece, not even through its subcategories. -->
-  <CBF_Au_CategoryEmptyAll>沒有部件，連子類別都沒有。</CBF_Au_CategoryEmptyAll>
+  <CBF_Au_CategoryEmptyAll>沒有任何部件，連子類別裡也沒有。</CBF_Au_CategoryEmptyAll>
   <!-- EN: has no piece. -->
-  <CBF_Au_CategoryEmpty>沒有部件。</CBF_Au_CategoryEmpty>
+  <CBF_Au_CategoryEmpty>沒有任何部件。</CBF_Au_CategoryEmpty>
   <!-- EN: Draft -->
   <CBF_Au_Draft>草稿</CBF_Au_Draft>
   <!-- EN: cannot be read as a definition. Details are in the log. -->
-  <CBF_Au_Unreadable>無法作為def讀取。詳情見日誌。</CBF_Au_Unreadable>
+  <CBF_Au_Unreadable>無法讀取為定義。詳情見記錄檔。</CBF_Au_Unreadable>
   <!-- EN: Material lists -->
   <CBF_Au_S_MaterialLists>材料清單</CBF_Au_S_MaterialLists>
   <!-- EN: no usable material list at all, nothing is generated. -->
-  <CBF_Au_NoMaterialListAtAll>完全沒有可用的材料清單，什麼都不生成。</CBF_Au_NoMaterialListAtAll>
+  <CBF_Au_NoMaterialListAtAll>完全沒有可用的材料清單，不會生成任何東西。</CBF_Au_NoMaterialListAtAll>
   <!-- EN: Leave settlements of other settlement mods alone -->
   <CBF_LeaveForeignSettlements>不處理其他據點模組的據點</CBF_LeaveForeignSettlements>
   <!-- EN: Settlements that another mod builds with its own map generator keep it. Vassal colonies of Empire get no CBF settlements and no CBF quests. -->
@@ -1443,15 +1443,15 @@
   <!-- EN: Build camps and work sites with CBF -->
   <CBF_CampsTakeOver>用CBF建造營地與工地</CBF_CampsTakeOver>
   <!-- EN: CBF builds bandit camps, outposts, raid sources and work sites from quests when a matching camp plan exists. The stockpile and workers of work sites stay as in the base game. Off: RimWorld builds these sites itself. -->
-  <CBF_CampsTakeOverHelp>有對應的營地方案時，CBF會建造任務產生的土匪營地、哨站、襲擊源頭與工地。工地的儲存區與工人維持原版做法。關閉：由RimWorld自行建造這些地點。</CBF_CampsTakeOverHelp>
+  <CBF_CampsTakeOverHelp>有對應的營地計劃時，CBF會建造任務產生的土匪營地、哨站、襲擊源頭與工地。工地的儲存區與工人維持原版做法。關閉：由RimWorld自行建造這些地點。</CBF_CampsTakeOverHelp>
   <!-- EN: Build A Rim of Ice and Fire holdings with CBF -->
   <CBF_RiafTakeOver>用CBF建造A Rim of Ice and Fire的領地</CBF_RiafTakeOver>
   <!-- EN: CBF builds the houses and walls of villages, towns and garrisons from A Rim of Ice and Fire when a plan with a matching riafHolding exists. Defenders, levies, residents and stores stay with A Rim of Ice and Fire. Off: A Rim of Ice and Fire builds its holdings itself. -->
-  <CBF_RiafTakeOverHelp>有對應riafHolding的方案時，CBF會建造A Rim of Ice and Fire村莊、城鎮與駐地的房屋和城牆。守軍、徵召兵、居民與庫存仍由A Rim of Ice and Fire處理。關閉：由A Rim of Ice and Fire自行建造領地。</CBF_RiafTakeOverHelp>
+  <CBF_RiafTakeOverHelp>有對應riafHolding的計劃時，CBF會建造A Rim of Ice and Fire村莊、城鎮與駐地的房屋和城牆。守軍、徵召兵、居民與庫存仍由A Rim of Ice and Fire處理。關閉：由A Rim of Ice and Fire自行建造領地。</CBF_RiafTakeOverHelp>
   <!-- EN: Fields only take effect in the suburb and the countryside. They are not placed in this ward. -->
-  <CBF_S_FieldsNoEffect>農田僅在近郊與鄉村生效。它們不放置在此區劃。</CBF_S_FieldsNoEffect>
+  <CBF_S_FieldsNoEffect>農田只在近郊與鄉村生效，不會放在這個城區。</CBF_S_FieldsNoEffect>
   <!-- EN: Pens only take effect in the countryside. They are not placed in this ward. -->
-  <CBF_S_PensNoEffect>畜欄僅在鄉村生效。它們不放置在此區劃。</CBF_S_PensNoEffect>
+  <CBF_S_PensNoEffect>飼養圈只在鄉村生效，不會放在這個城區。</CBF_S_PensNoEffect>
   <!-- EN: Search site -->
   <CBF_SearchSite>搜索據點</CBF_SearchSite>
   <!-- EN: Marks every closed container on this settlement for opening. Colonists then open them one by one. -->
@@ -1465,19 +1465,19 @@
   <!-- EN: {0} more lie in unexplored rooms. Press again once they are explored. -->
   <CBF_SearchSiteFog>還有{0}個在未探索的房間裡。探索後再按一次。</CBF_SearchSiteFog>
   <!-- EN: Opens the part of the guide that explains this section. -->
-  <CBF_WikiSectionTip>開啟指南中解釋本部分的內容。</CBF_WikiSectionTip>
+  <CBF_WikiSectionTip>開啟指南中說明此分區的部分。</CBF_WikiSectionTip>
   <!-- EN: Save as patch -->
-  <CBF_SaveAsPatch>儲存為補丁</CBF_SaveAsPatch>
+  <CBF_SaveAsPatch>存成補丁</CBF_SaveAsPatch>
   <!-- EN: This belongs to another mod. Your changes are saved as a patch in your own mod; the original stays untouched. Only the changed fields and list entries are patched, and every change checks first that its target exists. -->
-  <CBF_SaveAsPatchTip>這屬於其他模組。你的更改作為補丁儲存在你自己的模組；原檔案保持不動。僅補丁更改過的欄位與清單條目，且每次更改都會先檢查目標存在。</CBF_SaveAsPatchTip>
+  <CBF_SaveAsPatchTip>這屬於其他模組。你的變更會以補丁形式存到你自己的模組，原檔保持不變。只有變更過的欄位與清單條目會被修補，且每項變更都會先確認目標存在。</CBF_SaveAsPatchTip>
   <!-- EN: Makes an independent copy in your own mod under a new name. -->
-  <CBF_PlanCopyTip>以新名稱在你的模組中製作一個獨立副本。</CBF_PlanCopyTip>
+  <CBF_PlanCopyTip>以新名稱在你自己的模組中建立一份獨立複本。</CBF_PlanCopyTip>
   <!-- EN: {0} saved as patch: {1} -->
-  <CBF_SavedAsPatch>{0}已儲存為補丁：{1}</CBF_SavedAsPatch>
+  <CBF_SavedAsPatch>{0}已存成補丁：{1}</CBF_SavedAsPatch>
   <!-- EN: The original file of {0} was not found, the patch could not be made. -->
-  <CBF_PatchNoSource>未找到{0}的原檔案，無法制作補丁。</CBF_PatchNoSource>
+  <CBF_PatchNoSource>找不到{0}的原始檔案，無法建立補丁。</CBF_PatchNoSource>
   <!-- EN: {0} saved as patch: {1}. The new structure takes effect after restarting the game. -->
-  <CBF_ExportedAsPatch>{0}已儲存為補丁：{1}。新結構在重啟遊戲後生效。</CBF_ExportedAsPatch>
+  <CBF_ExportedAsPatch>{0}已存成補丁：{1}。新結構要重新啟動遊戲後才會生效。</CBF_ExportedAsPatch>
   <!-- EN: Loot in World Domination settlements: {0}% planned CBF loot, {1}% World Domination loot -->
   <CBF_WdLootShare>World Domination據點的戰利品：{0}% 為CBF規劃的戰利品，{1}% 為World Domination戰利品</CBF_WdLootShare>
   <!-- EN: 100%: every container keeps the loot of its CBF or Medieval Overhaul table, World Domination loot is off. 0%: the general containers get World Domination's loot budget, as World Domination would. In between, that share of the containers keeps its planned loot. The rest shares the full World Domination budget, and each of them gets at least one item. There is never less loot than at 0%. -->
@@ -1515,59 +1515,59 @@
   <!-- EN: Reset to defaults -->
   <CBF_GarrisonDefaults>重設為預設值</CBF_GarrisonDefaults>
   <!-- EN: Needs the mod {0}, which is not active. The piece is left out on purpose and checked once the mod is active. -->
-  <CBF_Au_NeedsMod>需要模組{0}，它未啟用。該部件有意省略，待模組啟用後再檢查。</CBF_Au_NeedsMod>
+  <CBF_Au_NeedsMod>需要模組{0}，但它未啟用。此部件是刻意略過的，模組啟用後才會檢查。</CBF_Au_NeedsMod>
   <!-- EN: Off because the mod {0} is active. The piece is left out on purpose and checked once the mod is off. -->
-  <CBF_Au_OffByMod>因模組{0}啟用而關閉。該部件有意省略，待模組關閉後再檢查。</CBF_Au_OffByMod>
+  <CBF_Au_OffByMod>因模組{0}已啟用而關閉。此部件是刻意略過的，模組關閉後才會檢查。</CBF_Au_OffByMod>
   <!-- EN: Preview only in a running game -->
-  <CBF_PawnPreviewInGame>僅在執行中的遊戲中預覽</CBF_PawnPreviewInGame>
+  <CBF_PawnPreviewInGame>只有在遊戲進行中才能預覽</CBF_PawnPreviewInGame>
   <!-- EN: Unit swap -->
   <CBF_Type_UnitSwapDef>單位替換</CBF_Type_UnitSwapDef>
   <!-- EN: Outworks -->
-  <CBF_S_Outworks>外防工事</CBF_S_Outworks>
+  <CBF_S_Outworks>外圍工事</CBF_S_Outworks>
   <!-- EN: No obstacles in front of this ward. -->
-  <CBF_S_OutworksNone>此區劃前方沒有障礙物。</CBF_S_OutworksNone>
+  <CBF_S_OutworksNone>此城區前方沒有障礙物。</CBF_S_OutworksNone>
   <!-- EN: + Obstacle -->
   <CBF_S_AddOutwork>+ 障礙物</CBF_S_AddOutwork>
   <!-- EN: An outwork entry names no piece and no category. -->
-  <CBF_S_OutworkNoPiece>外防工事條目沒有指定部件或類別。</CBF_S_OutworkNoPiece>
+  <CBF_S_OutworkNoPiece>某個外圍工事條目沒有指定部件或類別。</CBF_S_OutworkNoPiece>
   <!-- EN: The outwork entry {0} names no existing piece and no existing category. -->
-  <CBF_S_OutworkGone>外防工事條目{0}指定的部件或類別不存在。</CBF_S_OutworkGone>
+  <CBF_S_OutworkGone>外圍工事條目{0}指定的部件與類別都不存在。</CBF_S_OutworkGone>
   <!-- EN: Distance -->
   <CBF_S_OwDistance>距離</CBF_S_OwDistance>
   <!-- EN: Group length -->
-  <CBF_S_OwRun>組長</CBF_S_OwRun>
+  <CBF_S_OwRun>成群長度</CBF_S_OwRun>
   <!-- EN: Gap -->
-  <CBF_S_OwSpacing>間距</CBF_S_OwSpacing>
+  <CBF_S_OwSpacing>間隔</CBF_S_OwSpacing>
   <!-- EN: Gate clearance -->
   <CBF_S_OwGate>城門淨空</CBF_S_OwGate>
   <!-- EN: Outworks -->
-  <CBF_Field_outworks>外防工事</CBF_Field_outworks>
+  <CBF_Field_outworks>外圍工事</CBF_Field_outworks>
   <!-- EN: Old town shapes -->
-  <CBF_Field_coreShapes>老城區形狀</CBF_Field_coreShapes>
+  <CBF_Field_coreShapes>舊城形狀</CBF_Field_coreShapes>
   <!-- EN: Distance -->
   <CBF_Field_distance>距離</CBF_Field_distance>
   <!-- EN: Group length -->
-  <CBF_Field_run>組長</CBF_Field_run>
+  <CBF_Field_run>成群長度</CBF_Field_run>
   <!-- EN: Gap -->
-  <CBF_Field_spacing>間距</CBF_Field_spacing>
+  <CBF_Field_spacing>間隔</CBF_Field_spacing>
   <!-- EN: Gate clearance -->
   <CBF_Field_gateClearance>城門淨空</CBF_Field_gateClearance>
   <!-- EN: coreShapes names the unknown shape {0}. Known: Grown, Rectangle, LShape, TShape, UShape, Cross, Step, Octagon. -->
-  <CBF_Cfg_CoreShapeUnknown>coreShapes引用了未知形狀{0}。已知：自然生長、矩形、L形、T形、U形、十字形、階梯形、八邊形。</CBF_Cfg_CoreShapeUnknown>
+  <CBF_Cfg_CoreShapeUnknown>coreShapes指定了未知的形狀{0}。已知形狀：Grown、Rectangle、LShape、TShape、UShape、Cross、Step、Octagon。</CBF_Cfg_CoreShapeUnknown>
   <!-- EN: A dungeon needs at least one entry in levels. -->
-  <CBF_Cfg_DungeonNoLevels>地下城在levels中至少需要一個條目。</CBF_Cfg_DungeonNoLevels>
+  <CBF_Cfg_DungeonNoLevels>地下城的levels至少需要一個條目。</CBF_Cfg_DungeonNoLevels>
   <!-- EN: Level {0} has no stairsDown, but levels follow below it. Without stairs the levels below cannot be reached. -->
-  <CBF_Cfg_DungeonNoStairs>第{0}層沒有stairsDown，但下面還有層。沒有樓梯就無法到達下面的層。</CBF_Cfg_DungeonNoStairs>
+  <CBF_Cfg_DungeonNoStairs>第{0}層沒有stairsDown，但下面還有其他層。沒有樓梯就無法抵達下面的層。</CBF_Cfg_DungeonNoStairs>
   <!-- EN: spread entry {0} names levels outside 1 to {1}. -->
-  <CBF_Cfg_SpreadLevels>spread條目{0}引用了1至{1}之外的層。</CBF_Cfg_SpreadLevels>
+  <CBF_Cfg_SpreadLevels>spread條目{0}指定的層超出1至{1}的範圍。</CBF_Cfg_SpreadLevels>
   <!-- EN: Level {0} is the last level and still has stairsDown. The stairs are not built. -->
-  <CBF_Cfg_DungeonLastStairs>第{0}層是最後一層卻仍有stairsDown。樓梯不會被建造。</CBF_Cfg_DungeonLastStairs>
+  <CBF_Cfg_DungeonLastStairs>第{0}層是最後一層，卻仍有stairsDown。不會建造這組樓梯。</CBF_Cfg_DungeonLastStairs>
   <!-- EN: Level {0} lies on the surface map, its mapSize only counts when the plan is reached through a descent (descentPlans). -->
-  <CBF_Cfg_DungeonFirstSize>第{0}層位於地表地圖，只有經由下行入口（descentPlans）抵達此計畫時，其mapSize才會生效。</CBF_Cfg_DungeonFirstSize>
+  <CBF_Cfg_DungeonFirstSize>第{0}層位於地表地圖，只有經由下行入口（descentPlans）抵達此計劃時，其mapSize才會生效。</CBF_Cfg_DungeonFirstSize>
   <!-- EN: Legend entry '{0}' has descentPlans, but it is neither a StairsDown anchor nor an anchor with objects. The descent has no effect. -->
   <CBF_Cfg_DescentNoTarget>圖例條目 '{0}' 設有descentPlans，但它既不是StairsDown錨點，也不是帶物件的錨點。此下行入口沒有效果。</CBF_Cfg_DescentNoTarget>
   <!-- EN: Legend entry '{0}' names {1} in descentPlans. That is not a dungeon plan with levels, it is skipped. -->
-  <CBF_Cfg_DescentNoDungeon>圖例條目 '{0}' 的descentPlans中指定了{1}。它不是有層的地下城計畫，已略過。</CBF_Cfg_DescentNoDungeon>
+  <CBF_Cfg_DescentNoDungeon>圖例條目 '{0}' 的descentPlans中指定了{1}。它不是有層的地下城計劃，已略過。</CBF_Cfg_DescentNoDungeon>
   <!-- EN: {0} (way down) -->
   <CBF_Abstieg_Label>{0}（通往下方）</CBF_Abstieg_Label>
   <!-- EN: {0}: a way leads down beneath it. -->
@@ -1589,41 +1589,41 @@
   <!-- EN: {0} undead still walk this place. -->
   <CBF_Defeat_UndeadLeft>此地仍有{0}個不死者在遊蕩。</CBF_Defeat_UndeadLeft>
   <!-- EN: Old town shapes -->
-  <CBF_S_CoreShapes>老城區形狀</CBF_S_CoreShapes>
+  <CBF_S_CoreShapes>舊城形狀</CBF_S_CoreShapes>
   <!-- EN: All shapes allowed. Click a shape to exclude it. -->
-  <CBF_S_CoreShapesAll>允許所有形狀。點選一個形狀以排除它。</CBF_S_CoreShapesAll>
+  <CBF_S_CoreShapesAll>允許所有形狀。點擊形狀可將其排除。</CBF_S_CoreShapesAll>
   <!-- EN: At least one shape stays selected. -->
-  <CBF_S_CoreShapeLast>至少保留一個形狀被選中。</CBF_S_CoreShapeLast>
+  <CBF_S_CoreShapeLast>至少要保留一種形狀。</CBF_S_CoreShapeLast>
   <!-- EN: Town shapes -->
   <CBF_S_NetShapes>城鎮形狀</CBF_S_NetShapes>
   <!-- EN: Street network -->
   <CBF_S_NetRoads>街道網路</CBF_S_NetRoads>
   <!-- EN: All allowed. Click a variant to exclude it. -->
-  <CBF_S_NetAll>全部允許。點選某個變體可將其排除。</CBF_S_NetAll>
+  <CBF_S_NetAll>全部允許。點擊變體可將其排除。</CBF_S_NetAll>
   <!-- EN: At least one variant stays selected. -->
-  <CBF_S_NetLast>至少保留一個選中的變體。</CBF_S_NetLast>
+  <CBF_S_NetLast>至少要保留一種變體。</CBF_S_NetLast>
   <!-- EN: netShapes names the unknown shape {0}. Known: Polygon, Square, Hexagon, Round. -->
-  <CBF_Cfg_NetShapeUnknown>netShapes引用了未知的城鎮形狀{0}。已知：Polygon、Square、Hexagon、Round。</CBF_Cfg_NetShapeUnknown>
+  <CBF_Cfg_NetShapeUnknown>netShapes指定了未知的形狀{0}。已知形狀：Polygon、Square、Hexagon、Round。</CBF_Cfg_NetShapeUnknown>
   <!-- EN: netRoads names the unknown street network {0}. Known: Ring, MainRoad. -->
-  <CBF_Cfg_NetRoadUnknown>netRoads引用了未知的街道網路{0}。已知：Ring、MainRoad。</CBF_Cfg_NetRoadUnknown>
+  <CBF_Cfg_NetRoadUnknown>netRoads指定了未知的街道網路{0}。已知網路：Ring、MainRoad。</CBF_Cfg_NetRoadUnknown>
   <!-- EN: {0} ({1}): the old town is too small for the shape {2}. With this wall the arms leave no room for buildings, so it was built as a rectangle. -->
-  <CBF_Log_KernformZuKlein>{0}（{1}）：老城區對形狀{2}而言太小。帶此城牆時支臂沒有留給建築的餘地，因此以矩形建造。</CBF_Log_KernformZuKlein>
+  <CBF_Log_KernformZuKlein>{0}（{1}）：舊城對形狀{2}來說太小。在這種城牆下，各分支沒有空間放建築，因此改建成矩形。</CBF_Log_KernformZuKlein>
   <!-- EN: {0} ({1}): the old town is too small for the shape {2}, even without a wall. It was built as a rectangle. -->
-  <CBF_Log_KernformStadtZuKlein>{0}（{1}）：即使沒有城牆，老城區對形狀{2}而言也太小。它以矩形建造。</CBF_Log_KernformStadtZuKlein>
+  <CBF_Log_KernformStadtZuKlein>{0}（{1}）：即使沒有城牆，舊城對形狀{2}來說仍太小，因此改建成矩形。</CBF_Log_KernformStadtZuKlein>
   <!-- EN: {0} ({1}): the old town has the shape Grown but is a rectangle. The settlement has no suburb islands and a wall depth of {2} or less. -->
-  <CBF_Log_GewachsenRechteck>{0}（{1}）：老城區形狀為自然生長但卻是矩形。該據點沒有近郊島嶼，城牆深度為{2}或更小。</CBF_Log_GewachsenRechteck>
+  <CBF_Log_GewachsenRechteck>{0}（{1}）：舊城形狀為Grown，卻是矩形。此據點沒有近郊島區，且城牆深度為{2}以下。</CBF_Log_GewachsenRechteck>
   <!-- EN: The anchor needs a name. -->
-  <CBF_AnchorNameEmpty>錨點需要一個名稱。</CBF_AnchorNameEmpty>
+  <CBF_AnchorNameEmpty>錨點需要名稱。</CBF_AnchorNameEmpty>
   <!-- EN: Use only letters, digits and underscores. -->
-  <CBF_AnchorNameChars>僅使用字母、數字與下劃線。</CBF_AnchorNameChars>
+  <CBF_AnchorNameChars>只能使用字母、數字與底線。</CBF_AnchorNameChars>
   <!-- EN: {0} is reserved for connection anchors. -->
-  <CBF_AnchorNameReserved>{0}保留給連線錨點。</CBF_AnchorNameReserved>
+  <CBF_AnchorNameReserved>{0}保留給連線錨點使用。</CBF_AnchorNameReserved>
   <!-- EN: Another anchor of this piece is already called {0}. -->
-  <CBF_AnchorNameUsed>此部件的另一個錨點已叫{0}。</CBF_AnchorNameUsed>
+  <CBF_AnchorNameUsed>此部件已有另一個錨點名為{0}。</CBF_AnchorNameUsed>
   <!-- EN: Two anchors are called {0}. Anchor names must be unique within a piece. -->
-  <CBF_AnchorNameTwice>兩個錨點都叫{0}。錨點名稱在一個部件內必須唯一。</CBF_AnchorNameTwice>
+  <CBF_AnchorNameTwice>有兩個錨點都名為{0}。同一部件內的錨點名稱不能重複。</CBF_AnchorNameTwice>
   <!-- EN: Name of the anchor in the file. Only shown in the editor and in the file; the anchor works the same under any name. -->
-  <CBF_AnchorNameTip>檔案中錨點的名稱。僅在編輯器與檔案中顯示；錨點在任何名稱下工作相同。</CBF_AnchorNameTip>
+  <CBF_AnchorNameTip>錨點在檔案中的名稱。只顯示在編輯器與檔案中；錨點不論取什麼名字作用都相同。</CBF_AnchorNameTip>
   <!-- EN: Open report folder -->
   <CBF_ReportOpenFolder>開啟報告資料夾</CBF_ReportOpenFolder>
   <!-- EN: Report folder: {0} -->
@@ -1675,7 +1675,7 @@
   <!-- EN: Settlement size: {0}% -->
   <CBF_SettlementSize>據點大小：{0}%</CBF_SettlementSize>
   <!-- EN: How large the settlements of Custom Base Framework are built. 100% is the full size and the default. Lower values shrink the core, the number of buildings, fields and pens and the garrison by the same share. Walls and towers follow the smaller outline, required buildings stay. Applies to villages, towns and cities, not to camps and dungeons, and only to settlements generated from now on. -->
-  <CBF_SettlementSizeHelp>Custom Base Framework的據點建造規模。100%為完整大小，也是預設值。較低的值會按相同比例縮小核心、建築數量、農田與畜欄以及駐軍。城牆與塔樓會順應較小的輪廓，必要建築保留。適用於村莊、城鎮與城市，不適用於營地與地下城，且只影響之後生成的據點。</CBF_SettlementSizeHelp>
+  <CBF_SettlementSizeHelp>Custom Base Framework的據點建造規模。100%為完整大小，也是預設值。較低的值會按相同比例縮小核心、建築數量、農田與飼養圈以及駐軍。城牆與塔樓會順應較小的輪廓，必要建築保留。適用於村莊、城鎮與城市，不適用於營地與地下城，且只影響之後生成的據點。</CBF_SettlementSizeHelp>
   <!-- EN: Garrison size: {0}% -->
   <CBF_GarrisonStrength>駐軍規模：{0}%</CBF_GarrisonStrength>
   <!-- EN: How many defenders a settlement fields, relative to its plans. 100% is the full garrison and the default. At 100% a village has about 30 defenders and a fortress city about 90, at 200% about twice as many. Applies with or without the reserve. The garrison size sets how many residents there are; the reserve size sets how many of them are held back and only appear on alarm. Ruins and World Domination scale on top of this. Applies to newly generated settlements. -->
@@ -1687,9 +1687,9 @@
   <!-- EN: Off: every pawn of a settlement spawns with the map, with no reserve and no reinforcements. The sliders below are hidden. Applies to newly generated settlements. Settlements that already have a reserve keep it and still spawn their pawns on alarm, using the hidden slider values (limit, batch, interval) as last set. -->
   <CBF_GarrisonReserveHelp>關閉：據點所有角色都隨地圖一起出現，沒有後備兵力也沒有援軍，下方滑桿會隱藏。套用於新生成的據點。已經有後備兵力的據點會保留，警報時仍會出兵，並沿用最後設定的隱藏滑桿數值（上限、每波人數、頻率）。</CBF_GarrisonReserveHelp>
   <!-- EN: Floor symbol {0} names the floor list {1}, which was not found. The drawn floor is laid. -->
-  <CBF_Au_FloorListGone>地板符號{0}命名了地板清單{1}，但未找到。鋪設繪製的地板。</CBF_Au_FloorListGone>
+  <CBF_Au_FloorListGone>地板符號{0}指定的地板清單{1}找不到，改鋪繪製的地板。</CBF_Au_FloorListGone>
   <!-- EN: Floor symbol {0} names the floor list {1}, which has no usable floor. The drawn floor is laid. -->
-  <CBF_Au_FloorListEmpty>地板符號{0}命名了地板清單{1}，其中沒有可用地板。鋪設繪製的地板。</CBF_Au_FloorListEmpty>
+  <CBF_Au_FloorListEmpty>地板符號{0}指定的地板清單{1}沒有可用的地板，改鋪繪製的地板。</CBF_Au_FloorListEmpty>
   <!-- EN: Downed defenders count towards the limit -->
   <CBF_GarrisonDowned>倒地的守軍計入上限</CBF_GarrisonDowned>
   <!-- EN: Wounded defenders lying on the ground keep their place until they die or are captured. Fewer reinforcements spawn, which saves performance in a fight, above all on slow computers. Measured: 11 to 33 % more TPS once 10 or more defenders are down. The last stand (fewer than three defenders on their feet) is still triggered, and from then on downed defenders no longer count. Applies at once, also in existing settlements with a reserve. -->

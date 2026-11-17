@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: Walls -->
-  <CBF_Field_walls>城牆</CBF_Field_walls>
+  <CBF_Field_walls>牆壁</CBF_Field_walls>
   <!-- EN: {0} has unsaved changes. Switch anyway? -->
-  <CBF_S_UnsavedSwitch>{0}有未儲存的更改。仍要切換？</CBF_S_UnsavedSwitch>
+  <CBF_S_UnsavedSwitch>{0}有未儲存的變更。仍要切換嗎？</CBF_S_UnsavedSwitch>
   <!-- EN: Create a new settlement. It gets town, suburb and countryside. -->
-  <CBF_S_NewTip>建立新據點。它會獲得城鎮、近郊與鄉村。</CBF_S_NewTip>
+  <CBF_S_NewTip>建立新據點。它會有城鎮、近郊與鄉村。</CBF_S_NewTip>
   <!-- EN: Pick a settlement on the left. -->
-  <CBF_S_PickOne>在左側選擇一個據點。</CBF_S_PickOne>
+  <CBF_S_PickOne>請在左側選擇一個據點。</CBF_S_PickOne>
   <!-- EN: Opens the settlement's file in your text editor. The editor reloads changes made there on its own. -->
-  <CBF_S_OpenFileTip>在文字編輯器中開啟據點檔案。編輯器會自動重新載入此處的更改。</CBF_S_OpenFileTip>
+  <CBF_S_OpenFileTip>在你的文字編輯器中開啟此據點的檔案。在那裡做的變更，編輯器會自動重新載入。</CBF_S_OpenFileTip>
   <!-- EN: Shows for each faction which settlements it gets and how often. -->
-  <CBF_S_FactionOverviewTip>顯示每個派系獲得哪些據點以及頻率如何。</CBF_S_FactionOverviewTip>
+  <CBF_S_FactionOverviewTip>顯示每個派系會取得哪些據點以及頻率。</CBF_S_FactionOverviewTip>
   <!-- EN: No tech level -->
   <CBF_S_NoTechLevel>無科技等級</CBF_S_NoTechLevel>
   <!-- EN: Reroll -->
-  <CBF_S_Reroll>重擲</CBF_S_Reroll>
+  <CBF_S_Reroll>重新抽取</CBF_S_Reroll>
   <!-- EN: Recalculates the preview with a new seed. -->
-  <CBF_S_RerollTip>用新種子重新計算預覽。</CBF_S_RerollTip>
+  <CBF_S_RerollTip>以新的種子碼重新計算預覽。</CBF_S_RerollTip>
   <!-- EN: Hide preview -->
   <CBF_S_PreviewOff>隱藏預覽</CBF_S_PreviewOff>
   <!-- EN: Show preview -->
@@ -25,13 +25,13 @@
   <!-- EN: Core {0} to {1} · wall {2} -->
   <CBF_S_CoreWall>核心{0}至{1} · 城牆{2}</CBF_S_CoreWall>
   <!-- EN: General -->
-  <CBF_S_General>常規</CBF_S_General>
+  <CBF_S_General>一般</CBF_S_General>
   <!-- EN: Label -->
   <CBF_S_Label>名稱</CBF_S_Label>
   <!-- EN: Kind of place -->
   <CBF_S_Kind>場所種類</CBF_S_Kind>
   <!-- EN: Click switches to the next kind. -->
-  <CBF_S_KindTip>點選切換到下一種類。</CBF_S_KindTip>
+  <CBF_S_KindTip>點擊切換到下一個種類。</CBF_S_KindTip>
   <!-- EN: Weight -->
   <CBF_S_Weight>權重</CBF_S_Weight>
   <!-- EN: Tech levels -->
@@ -41,13 +41,13 @@
   <!-- EN: Factions -->
   <CBF_S_Factions>派系</CBF_S_Factions>
   <!-- EN: Factions or faction categories that explicitly get this settlement. -->
-  <CBF_S_FactionsTip>顯式獲得此據點的派系或派系類別。</CBF_S_FactionsTip>
+  <CBF_S_FactionsTip>明確取得此據點的派系或派系類別。</CBF_S_FactionsTip>
   <!-- EN: + Faction or category -->
-  <CBF_S_AddFaction>+ 派系或類別</CBF_S_AddFaction>
+  <CBF_S_AddFaction>＋派系或類別</CBF_S_AddFaction>
   <!-- EN: Excluded -->
-  <CBF_S_Excluded>已排除</CBF_S_Excluded>
+  <CBF_S_Excluded>排除</CBF_S_Excluded>
   <!-- EN: Fits {0} factions -->
-  <CBF_S_FitsFactions>適配{0}個派系</CBF_S_FitsFactions>
+  <CBF_S_FitsFactions>符合{0}個派系</CBF_S_FitsFactions>
   <!-- EN: For all factions of these levels -->
   <CBF_S_OwnerAlle>適用於這些等級的所有派系</CBF_S_OwnerAlle>
   <!-- EN: This plan applies to every faction whose tech level is ticked, unless that faction has plans of its own through faction tags. Its own plans always win. -->
@@ -63,19 +63,19 @@
   <!-- EN: Only quests and sites can use this settlement. -->
   <CBF_S_OwnerKeineInfo>只有任務與地點能使用此據點。</CBF_S_OwnerKeineInfo>
   <!-- EN: No faction gets this settlement. Pick a tech level with For all factions or add a faction. -->
-  <CBF_S_NoFactionFits>沒有派系獲得此據點。請為"適用於所有派系"選擇一個科技等級或新增一個派系。</CBF_S_NoFactionFits>
+  <CBF_S_NoFactionFits>沒有派系會取得此據點。請在「適用於所有派系」勾選科技等級，或新增派系。</CBF_S_NoFactionFits>
   <!-- EN: On -->
-  <CBF_S_TakeoverOn>開</CBF_S_TakeoverOn>
+  <CBF_S_TakeoverOn>開啟</CBF_S_TakeoverOn>
   <!-- EN: Off -->
-  <CBF_S_TakeoverOff>關</CBF_S_TakeoverOff>
+  <CBF_S_TakeoverOff>關閉</CBF_S_TakeoverOff>
   <!-- EN: Merges the patch files written by the editor into one. -->
-  <CBF_S_MergeTip>把編輯器寫入的補丁檔案合併為一個。</CBF_S_MergeTip>
+  <CBF_S_MergeTip>將編輯器寫出的補丁檔合併成一個。</CBF_S_MergeTip>
   <!-- EN: Mods -->
   <CBF_Mods>模組</CBF_Mods>
   <!-- EN: {0}, automatic -->
   <CBF_S_ModsAuto>{0}，自動</CBF_S_ModsAuto>
   <!-- EN: + by hand -->
-  <CBF_S_AddModByHand>+ 手動</CBF_S_AddModByHand>
+  <CBF_S_AddModByHand>＋手動</CBF_S_AddModByHand>
   <!-- EN: World map icon -->
   <CBF_S_WorldIcon>世界地圖圖示</CBF_S_WorldIcon>
   <!-- EN: Vanilla -->
@@ -85,49 +85,49 @@
   <!-- EN: Fortification -->
   <CBF_S_Fortification>防禦工事</CBF_S_Fortification>
   <!-- EN: not possible for modern towns -->
-  <CBF_S_NoFortModern>現代城鎮不可用</CBF_S_NoFortModern>
+  <CBF_S_NoFortModern>現代城鎮無法使用</CBF_S_NoFortModern>
   <!-- EN: not possible in the countryside -->
-  <CBF_S_NoFortRural>鄉村不可用</CBF_S_NoFortRural>
+  <CBF_S_NoFortRural>鄉村無法使用</CBF_S_NoFortRural>
   <!-- EN: Without a wall there is no gate a gatehouse could fit into. Emplacements still work, the planner puts them on the outline of the town. -->
-  <CBF_S_GateWithoutWall>沒有城牆就沒有可供門樓嵌入的城門。防禦工事仍有效，規劃器會把它們放在城鎮輪廓上。</CBF_S_GateWithoutWall>
+  <CBF_S_GateWithoutWall>沒有城牆就沒有可容納門樓的城門。防禦陣地仍可使用，規劃器會把它們放在城鎮的外圍輪廓上。</CBF_S_GateWithoutWall>
   <!-- EN: {0} does not exist. The entry is skipped. -->
-  <CBF_S_UnknownEntry>{0}不存在。該條目被跳過。</CBF_S_UnknownEntry>
+  <CBF_S_UnknownEntry>{0}不存在。已略過此條目。</CBF_S_UnknownEntry>
   <!-- EN: The pawn list {0} no longer exists. -->
-  <CBF_S_ListGone>角色清單{0}不再存在。</CBF_S_ListGone>
+  <CBF_S_ListGone>角色清單{0}已不存在。</CBF_S_ListGone>
   <!-- EN: A field in {0} has no plants yet. -->
-  <CBF_S_FieldNoPlants>{0}中的農田還沒有作物。</CBF_S_FieldNoPlants>
+  <CBF_S_FieldNoPlants>{0}中有一塊農田還沒有植物。</CBF_S_FieldNoPlants>
   <!-- EN: A pen in {0} has no animals yet. -->
-  <CBF_S_PenNoAnimals>{0}中的畜欄還沒有動物。</CBF_S_PenNoAnimals>
+  <CBF_S_PenNoAnimals>{0}中有一個飼養圈還沒有動物。</CBF_S_PenNoAnimals>
   <!-- EN: Walls -->
   <CBF_S_Walls>城牆</CBF_S_Walls>
   <!-- EN: + Wall piece -->
-  <CBF_S_AddWall>+ 城牆部件</CBF_S_AddWall>
+  <CBF_S_AddWall>＋城牆部件</CBF_S_AddWall>
   <!-- EN: Emplacements -->
   <CBF_S_Emplacements>防禦陣地</CBF_S_Emplacements>
   <!-- EN: + Emplacement -->
-  <CBF_S_AddEmplacement>+ 防禦陣地</CBF_S_AddEmplacement>
+  <CBF_S_AddEmplacement>＋防禦陣地</CBF_S_AddEmplacement>
   <!-- EN: Gatehouses -->
   <CBF_S_Gatehouses>門樓</CBF_S_Gatehouses>
   <!-- EN: + Gatehouse -->
-  <CBF_S_AddGatehouse>+ 門樓</CBF_S_AddGatehouse>
+  <CBF_S_AddGatehouse>＋門樓</CBF_S_AddGatehouse>
   <!-- EN: none yet -->
-  <CBF_S_NoneYet>暫無</CBF_S_NoneYet>
+  <CBF_S_NoneYet>尚無</CBF_S_NoneYet>
   <!-- EN: Garrison -->
   <CBF_S_Garrison>駐軍</CBF_S_Garrison>
   <!-- EN: from points -->
-  <CBF_S_FromPoints>按點數</CBF_S_FromPoints>
+  <CBF_S_FromPoints>依點數</CBF_S_FromPoints>
   <!-- EN: + Pawn list -->
-  <CBF_S_AddPawnList>+ 角色清單</CBF_S_AddPawnList>
+  <CBF_S_AddPawnList>＋角色清單</CBF_S_AddPawnList>
   <!-- EN: Districts -->
-  <CBF_S_Districts>區</CBF_S_Districts>
+  <CBF_S_Districts>街區</CBF_S_Districts>
   <!-- EN: + District -->
-  <CBF_S_AddDistrict>+ 區</CBF_S_AddDistrict>
+  <CBF_S_AddDistrict>＋街區</CBF_S_AddDistrict>
   <!-- EN: Remove district -->
-  <CBF_S_RemoveDistrict>移除區</CBF_S_RemoveDistrict>
+  <CBF_S_RemoveDistrict>移除街區</CBF_S_RemoveDistrict>
   <!-- EN: {0} fields -->
   <CBF_S_NFields>{0}塊農田</CBF_S_NFields>
   <!-- EN: {0} pens -->
-  <CBF_S_NPens>{0}個畜欄</CBF_S_NPens>
+  <CBF_S_NPens>{0}個飼養圈</CBF_S_NPens>
   <!-- EN: Type -->
   <CBF_S_EntryType>類型</CBF_S_EntryType>
   <!-- EN: Ideoligion -->
@@ -147,19 +147,19 @@
   <!-- EN: Cat. -->
   <CBF_S_CatShort>類別</CBF_S_CatShort>
   <!-- EN: + Building -->
-  <CBF_S_AddBuilding>+ 建築</CBF_S_AddBuilding>
+  <CBF_S_AddBuilding>＋建築</CBF_S_AddBuilding>
   <!-- EN: + Field -->
-  <CBF_S_AddField>+ 農田</CBF_S_AddField>
+  <CBF_S_AddField>＋農田</CBF_S_AddField>
   <!-- EN: + Pen -->
-  <CBF_S_AddPen>+ 畜欄</CBF_S_AddPen>
+  <CBF_S_AddPen>＋飼養圈</CBF_S_AddPen>
   <!-- EN: Field -->
   <CBF_S_Field>農田</CBF_S_Field>
   <!-- EN: Pen -->
-  <CBF_S_Pen>畜欄</CBF_S_Pen>
+  <CBF_S_Pen>飼養圈</CBF_S_Pen>
   <!-- EN: Herd -->
   <CBF_S_Herd>畜群</CBF_S_Herd>
   <!-- EN: Growth -->
-  <CBF_S_Growth>生長</CBF_S_Growth>
+  <CBF_S_Growth>植被</CBF_S_Growth>
   <!-- EN: Soil -->
   <CBF_S_Soil>土壤</CBF_S_Soil>
   <!-- EN: Roads and ground -->
@@ -181,59 +181,59 @@
   <!-- EN: no wall -->
   <CBF_S_NoWall>無城牆</CBF_S_NoWall>
   <!-- EN: {0} districts -->
-  <CBF_S_NDistricts>{0}個區</CBF_S_NDistricts>
+  <CBF_S_NDistricts>{0}個街區</CBF_S_NDistricts>
   <!-- EN: 1 district -->
-  <CBF_S_OneDistrict>1個區</CBF_S_OneDistrict>
+  <CBF_S_OneDistrict>1個街區</CBF_S_OneDistrict>
   <!-- EN: 1 entry -->
   <CBF_OneEntry>1個條目</CBF_OneEntry>
   <!-- EN: against other settlements of the same faction -->
-  <CBF_S_WeightHint>相對於同一派系的其他據點</CBF_S_WeightHint>
+  <CBF_S_WeightHint>相對於同派系的其他據點</CBF_S_WeightHint>
   <!-- EN: Right-click a tech level to pick it and all higher ones -->
-  <CBF_S_FooterHint>右鍵點選科技等級可選擇它及所有更高等級</CBF_S_FooterHint>
+  <CBF_S_FooterHint>右鍵點擊科技等級可選擇它及所有更高的等級</CBF_S_FooterHint>
   <!-- EN: Opens the preview large in its own window, with legend and tally. -->
-  <CBF_S_PreviewWindowTip>在獨立視窗中放大開啟預覽，帶圖例與統計。</CBF_S_PreviewWindowTip>
+  <CBF_S_PreviewWindowTip>在獨立視窗中放大開啟預覽，附圖例與統計。</CBF_S_PreviewWindowTip>
   <!-- EN: Farmsteads -->
-  <CBF_S_FarmHouses>農舍</CBF_S_FarmHouses>
+  <CBF_S_FarmHouses>農莊</CBF_S_FarmHouses>
   <!-- EN: Which pieces the field is laid around, for example a wind turbine or a mill. Without a choice the planner uses small houses and farmsteads. -->
-  <CBF_S_FarmHousesTip>農田圍繞哪些部件鋪設，例如風車或磨坊。沒有選擇時，規劃器使用小屋與農莊。</CBF_S_FarmHousesTip>
+  <CBF_S_FarmHousesTip>農田圍繞哪些部件配置，例如風力發電機或磨坊。未選擇時，規劃器使用小房屋與農莊。</CBF_S_FarmHousesTip>
   <!-- EN: Crop list -->
   <CBF_CropList>作物清單</CBF_CropList>
   <!-- EN: single plants -->
-  <CBF_S_CropSingle>單一作物</CBF_S_CropSingle>
+  <CBF_S_CropSingle>單一植物</CBF_S_CropSingle>
   <!-- EN: Picks a crop list from the Lists tab. The field then draws its plants from it by weight; the individually chosen plants only serve as fallback. -->
-  <CBF_S_CropListTip>從戰利品選項卡中選擇一個作物清單。農田隨後按權重從其中抽取作物；單獨選擇的作物僅作後備。</CBF_S_CropListTip>
+  <CBF_S_CropListTip>從清單分頁選擇作物清單。農田會依權重從中抽取植物；個別選擇的植物只作為備用。</CBF_S_CropListTip>
   <!-- EN: Picks a crop list for the pen's growth. -->
-  <CBF_S_CropListPenTip>為畜欄的生長選擇一個作物清單。</CBF_S_CropListPenTip>
+  <CBF_S_CropListPenTip>為飼養圈的植被選擇作物清單。</CBF_S_CropListPenTip>
   <!-- EN: New crop list in the Lists tab -->
-  <CBF_S_CropListNew>在戰利品選項卡中新建作物清單</CBF_S_CropListNew>
+  <CBF_S_CropListNew>在清單分頁建立新作物清單</CBF_S_CropListNew>
   <!-- EN: No crop list created yet -->
-  <CBF_S_CropListNone>尚未建立作物清單</CBF_S_CropListNone>
+  <CBF_S_CropListNone>尚未建立任何作物清單</CBF_S_CropListNone>
   <!-- EN: from list {0} -->
   <CBF_S_FromList>來自清單{0}</CBF_S_FromList>
   <!-- EN: The crop list {0} in {1} does not exist. -->
   <CBF_S_CropListGone>{1}中的作物清單{0}不存在。</CBF_S_CropListGone>
   <!-- EN: District {0} -->
-  <CBF_S_DistrictNr>區{0}</CBF_S_DistrictNr>
+  <CBF_S_DistrictNr>街區{0}</CBF_S_DistrictNr>
   <!-- EN: Door -->
   <CBF_S_Gate>門</CBF_S_Gate>
   <!-- EN: from material list -->
   <CBF_S_GateFromMaterialList>來自材料清單</CBF_S_GateFromMaterialList>
   <!-- EN: The door for the passages in this ward's wall. Empty takes the door from the material list. Gatehouses are set under Fortification. -->
-  <CBF_S_GateTip>該區劃城牆通道所用的門。留空則從材料清單取門。門樓在"防禦工事"下設定。</CBF_S_GateTip>
+  <CBF_S_GateTip>此城區城牆上通道使用的門。留空則使用材料清單的門。門樓在「防禦工事」中設定。</CBF_S_GateTip>
   <!-- EN: Location of the district -->
-  <CBF_S_DistrictPlacement>區的位置</CBF_S_DistrictPlacement>
+  <CBF_S_DistrictPlacement>街區位置</CBF_S_DistrictPlacement>
   <!-- EN: Where the district starts. Tick what it should lie near. Several ticks count equally, the district seeks a spot that suits all of them. Nothing ticked: it starts at a random spot away from the other districts. -->
-  <CBF_S_DistrictPlacementTip>區從哪裡開始。勾選它應靠近的位置。多個勾選同等計權，區會尋找同時適合它們的位置。全不勾選：它從遠離其他區的隨機位置開始。</CBF_S_DistrictPlacementTip>
+  <CBF_S_DistrictPlacementTip>街區從哪裡開始。勾選它應該靠近的地方。多個勾選的份量相同，街區會尋找全部都適合的位置。都不勾選：從遠離其他街區的隨機位置開始。</CBF_S_DistrictPlacementTip>
   <!-- EN: WD tier -->
   <CBF_S_WdStage>WD等級</CBF_S_WdStage>
   <!-- EN: World Domination tier 1 to 4 this settlement type stands for. A World Domination settlement of this tier prefers it among the types its faction may get. 0 means no tier. -->
-  <CBF_S_WdStageTip>此據點型別代表的World Domination等級1至4。該等級的World Domination據點會優先選擇它。0表示無等級。</CBF_S_WdStageTip>
+  <CBF_S_WdStageTip>此據點類型代表的World Domination等級，1至4。此等級的World Domination據點會在其派系可用的類型中優先選擇它。0表示無等級。</CBF_S_WdStageTip>
   <!-- EN: No tier -->
   <CBF_S_WdStageNone>無等級</CBF_S_WdStageNone>
   <!-- EN: RIAF holding -->
   <CBF_S_RiafHolding>RIAF領地</CBF_S_RiafHolding>
   <!-- EN: Makes this settlement type the plan for villages, towns or garrisons of A Rim of Ice and Fire. CBF then builds the houses and walls of such holdings; defenders, levies, residents and stores stay with A Rim of Ice and Fire. A type with a holding kind is not used for normal settlements. -->
-  <CBF_S_RiafHoldingTip>使此據點型別成為A Rim of Ice and Fire村莊、城鎮或駐軍地的計劃。CBF隨後建造此類領地的房屋與城牆；守軍、徵召兵、居民與倉庫仍歸A Rim of Ice and Fire。帶領地種類的型別不用於普通據點。</CBF_S_RiafHoldingTip>
+  <CBF_S_RiafHoldingTip>讓此據點類型成為A Rim of Ice and Fire的村莊、城鎮或駐軍的計劃。CBF會建造這類領地的房屋與城牆；防守者、徵召兵、居民與庫存仍由A Rim of Ice and Fire處理。設有領地種類的類型不會用於一般據點。</CBF_S_RiafHoldingTip>
   <!-- EN: None -->
   <CBF_S_RiafNone>無</CBF_S_RiafNone>
   <!-- EN: Village -->
@@ -241,87 +241,87 @@
   <!-- EN: Town -->
   <CBF_S_RiafTown>城鎮</CBF_S_RiafTown>
   <!-- EN: Garrison -->
-  <CBF_S_RiafGarrison>駐軍地</CBF_S_RiafGarrison>
+  <CBF_S_RiafGarrison>駐軍</CBF_S_RiafGarrison>
   <!-- EN: {0} to {1} -->
   <CBF_S_WdStageRange>{0}至{1}</CBF_S_WdStageRange>
   <!-- EN: Show loot -->
   <CBF_Lb_Button>顯示戰利品</CBF_Lb_Button>
   <!-- EN: Loot value of the settlement of this type that was built last. -->
-  <CBF_Lb_ButtonTip>最後建造的該型別據點的戰利品價值。</CBF_Lb_ButtonTip>
+  <CBF_Lb_ButtonTip>最近一次建造的此類型據點的戰利品價值。</CBF_Lb_ButtonTip>
   <!-- EN: Build a settlement of this type first. Its loot is counted while it is built. -->
-  <CBF_Lb_NoneYet>請先建造一個該型別的據點。其戰利品在建造時統計。</CBF_Lb_NoneYet>
+  <CBF_Lb_NoneYet>請先建造一個此類型的據點。戰利品會在建造時計算。</CBF_Lb_NoneYet>
   <!-- EN: Loot in the settlement -->
   <CBF_Lb_Title>據點中的戰利品</CBF_Lb_Title>
   <!-- EN: {0} silver -->
   <CBF_Lb_Silver>{0}白銀</CBF_Lb_Silver>
   <!-- EN: {0} item stacks, {1} filled containers -->
-  <CBF_Lb_Counts>{0}個物品堆，{1}個已裝填容器</CBF_Lb_Counts>
+  <CBF_Lb_Counts>{0}堆物品，{1}個已填裝的容器</CBF_Lb_Counts>
   <!-- EN: By ward -->
-  <CBF_Lb_ByWard>按區劃</CBF_Lb_ByWard>
+  <CBF_Lb_ByWard>依城區</CBF_Lb_ByWard>
   <!-- EN: By kind of goods -->
-  <CBF_Lb_ByGroup>按貨品種類</CBF_Lb_ByGroup>
+  <CBF_Lb_ByGroup>依貨物種類</CBF_Lb_ByGroup>
   <!-- EN: Outside the wards -->
-  <CBF_Lb_Outside>區劃之外</CBF_Lb_Outside>
+  <CBF_Lb_Outside>城區外</CBF_Lb_Outside>
   <!-- EN: Other -->
   <CBF_Lb_Other>其他</CBF_Lb_Other>
   <!-- EN: Market value of everything lying around or stored in containers. Medieval Overhaul lootables that fill only when searched are not included. -->
-  <CBF_Lb_Note>散落各處或存放於容器的所有物品的市場價值。Medieval Overhaul中僅在搜尋時才裝填的可搜刮容器不包含在內。</CBF_Lb_Note>
+  <CBF_Lb_Note>所有散落在地上或存放在容器中物品的市場價值。Medieval Overhaul中搜索時才填裝的可搜刮容器不計入。</CBF_Lb_Note>
   <!-- EN: Material list -->
   <CBF_S_MaterialList>材料清單</CBF_S_MaterialList>
   <!-- EN: The material list decides which walls, floors, doors and other things the pieces of this settlement type get. -->
-  <CBF_S_MaterialListTip>材料清單決定此類據點的部件獲得哪些牆、地面、門與其他物品。</CBF_S_MaterialListTip>
+  <CBF_S_MaterialListTip>材料清單決定此據點類型的部件會使用哪些牆、地板、門與其他物品。</CBF_S_MaterialListTip>
   <!-- EN: No material list chosen. Without one this settlement type is switched off. -->
-  <CBF_S_MaterialListNone>未選擇材料清單。沒有它，此據點型別將被停用。</CBF_S_MaterialListNone>
+  <CBF_S_MaterialListNone>未選擇材料清單。沒有材料清單時，此據點類型會被停用。</CBF_S_MaterialListNone>
   <!-- EN: This material list is unusable, critical roles find no thing. -->
-  <CBF_S_MaterialListUnusable>此材料清單不可用，關鍵角色找不到任何物品。</CBF_S_MaterialListUnusable>
+  <CBF_S_MaterialListUnusable>此材料清單無法使用，關鍵建築角色找不到任何物品。</CBF_S_MaterialListUnusable>
   <!-- EN: WD type -->
-  <CBF_S_WdType>WD型別</CBF_S_WdType>
+  <CBF_S_WdType>WD類型</CBF_S_WdType>
   <!-- EN: World Domination settlement types this plan stands for, such as mining camp or slave village. Only types of the chosen tier are offered. Empty means any type. -->
-  <CBF_S_WdTypeTip>此計劃代表的World Domination據點型別，例如採礦營地或奴隸村。僅提供所選等級的型別。留空表示任意型別。</CBF_S_WdTypeTip>
+  <CBF_S_WdTypeTip>此計劃代表的World Domination據點類型，例如採礦營地或奴隸村。只提供所選等級的類型。留空表示任何類型。</CBF_S_WdTypeTip>
   <!-- EN: Any type -->
-  <CBF_S_WdTypeAny>任意型別</CBF_S_WdTypeAny>
+  <CBF_S_WdTypeAny>任何類型</CBF_S_WdTypeAny>
   <!-- EN: Add a ward this settlement type does not have yet. -->
-  <CBF_S_AddWardTip>為此據點型別新增一個尚未擁有的區劃。</CBF_S_AddWardTip>
+  <CBF_S_AddWardTip>新增此據點類型還沒有的城區。</CBF_S_AddWardTip>
   <!-- EN: No WD loot -->
   <CBF_S_NoWdLoot>無WD戰利品</CBF_S_NoWdLoot>
   <!-- EN: Switches off the extra loot World Domination 2.0 adds to settlements of this type. -->
-  <CBF_S_NoWdLootTip>關閉World Domination 2.0為此型別據點新增的額外戰利品。</CBF_S_NoWdLootTip>
+  <CBF_S_NoWdLootTip>關閉World Domination 2.0為此類型據點額外加入的戰利品。</CBF_S_NoWdLootTip>
   <!-- EN: Ideoligion style -->
-  <CBF_S_IdeoStyle>意識形態風格</CBF_S_IdeoStyle>
+  <CBF_S_IdeoStyle>理念風格</CBF_S_IdeoStyle>
   <!-- EN: Furniture gets the style of the owning faction's ideoligion. -->
-  <CBF_S_IdeoStyleTip>傢俱獲得所屬派系意識形態的風格。</CBF_S_IdeoStyleTip>
+  <CBF_S_IdeoStyleTip>家具採用所屬派系理念的風格。</CBF_S_IdeoStyleTip>
   <!-- EN: Camp types -->
-  <CBF_S_CampKinds>營地型別</CBF_S_CampKinds>
+  <CBF_S_CampKinds>營地類型</CBF_S_CampKinds>
   <!-- EN: Quest sites this camp plan builds, for example bandit camps, outposts or work sites. Only used for settlements of the kind camp. -->
-  <CBF_S_CampKindsTip>此營地計劃建造的任務地點，例如土匪營地、前哨或工作點。僅用於營地類據點。</CBF_S_CampKindsTip>
+  <CBF_S_CampKindsTip>此營地計劃要建造的任務地點，例如土匪營地、前哨站或工地。只用於種類為營地的據點。</CBF_S_CampKindsTip>
   <!-- EN: none -->
   <CBF_S_CampKindsNone>無</CBF_S_CampKindsNone>
   <!-- EN: Add camp type... -->
-  <CBF_S_CampKindAdd>新增營地型別…</CBF_S_CampKindAdd>
+  <CBF_S_CampKindAdd>新增營地類型……</CBF_S_CampKindAdd>
   <!-- EN: only with {0} -->
-  <CBF_S_IdeoWith>僅隨{0}</CBF_S_IdeoWith>
+  <CBF_S_IdeoWith>僅在有{0}時</CBF_S_IdeoWith>
   <!-- EN: not with {0} -->
-  <CBF_S_IdeoWithout>不隨{0}</CBF_S_IdeoWithout>
+  <CBF_S_IdeoWithout>沒有{0}時</CBF_S_IdeoWithout>
   <!-- EN: Ideoligion condition: this entry is only built when the faction's ideoligion has, or lacks, the chosen memes or precepts. -->
-  <CBF_S_IdeoEntryTip>意識形態條件：僅當派系意識形態擁有或缺少所選信條或戒律時，此條目才會被建造。</CBF_S_IdeoEntryTip>
+  <CBF_S_IdeoEntryTip>理念條件：只有在派系理念具有（或缺少）所選的模因或戒律時，才會建造此條目。</CBF_S_IdeoEntryTip>
   <!-- EN: Only with meme or precept... -->
-  <CBF_S_IdeoAddWith>僅隨信條或戒律…</CBF_S_IdeoAddWith>
+  <CBF_S_IdeoAddWith>僅在有模因或戒律時……</CBF_S_IdeoAddWith>
   <!-- EN: Not with meme or precept... -->
-  <CBF_S_IdeoAddWithout>不隨信條或戒律…</CBF_S_IdeoAddWithout>
+  <CBF_S_IdeoAddWithout>沒有模因或戒律時……</CBF_S_IdeoAddWithout>
   <!-- EN: Memes -->
-  <CBF_S_IdeoMemes>信條</CBF_S_IdeoMemes>
+  <CBF_S_IdeoMemes>模因</CBF_S_IdeoMemes>
   <!-- EN: Precepts -->
   <CBF_S_IdeoPrecepts>戒律</CBF_S_IdeoPrecepts>
   <!-- EN: Wards -->
-  <CBF_PreviewWards>區劃</CBF_PreviewWards>
+  <CBF_PreviewWards>城區</CBF_PreviewWards>
   <!-- EN: Colours the old town, suburb and countryside in the preview. -->
-  <CBF_PreviewWardsTip>在預覽中為老城區、近郊與鄉村著色。</CBF_PreviewWardsTip>
+  <CBF_PreviewWardsTip>在預覽中為舊城、近郊與鄉村上色。</CBF_PreviewWardsTip>
   <!-- EN: + Mine -->
-  <CBF_S_AddMine>+ 礦井</CBF_S_AddMine>
+  <CBF_S_AddMine>＋礦坑</CBF_S_AddMine>
   <!-- EN: Mine -->
-  <CBF_S_Mine>礦井</CBF_S_Mine>
+  <CBF_S_Mine>礦坑</CBF_S_Mine>
   <!-- EN: A mine dug into the rock from a building of this district: a tunnel with chambers. -->
-  <CBF_S_MineTip>從該區的建築挖入岩石的礦井：一條帶洞室的隧道。</CBF_S_MineTip>
+  <CBF_S_MineTip>從此街區的一棟建築挖進岩石的礦坑：一條帶有礦室的坑道。</CBF_S_MineTip>
   <!-- EN: Ore -->
   <CBF_S_MineOre>礦石</CBF_S_MineOre>
   <!-- EN: no ore -->
@@ -331,75 +331,75 @@
   <!-- EN: Width -->
   <CBF_S_MineWidth>寬度</CBF_S_MineWidth>
   <!-- EN: Chambers -->
-  <CBF_S_MineChambers>洞室</CBF_S_MineChambers>
+  <CBF_S_MineChambers>礦室</CBF_S_MineChambers>
   <!-- EN: Chamber size -->
-  <CBF_S_MineChamberSize>洞室大小</CBF_S_MineChamberSize>
+  <CBF_S_MineChamberSize>礦室大小</CBF_S_MineChamberSize>
   <!-- EN: Ore share -->
   <CBF_S_MineOreShare>礦石比例</CBF_S_MineOreShare>
   <!-- EN: Share of rock cells along the mine that become ore, from 0 to 1. -->
-  <CBF_S_MineOreShareTip>礦井沿途岩石格變成礦石的比例，0至1。</CBF_S_MineOreShareTip>
+  <CBF_S_MineOreShareTip>礦坑沿線的岩石格中變成礦石的比例，0至1。</CBF_S_MineOreShareTip>
   <!-- EN: Rock chunks -->
-  <CBF_S_MineLumps>巖塊</CBF_S_MineLumps>
+  <CBF_S_MineLumps>岩石塊</CBF_S_MineLumps>
   <!-- EN: Starts at -->
   <CBF_S_MineHuts>起點</CBF_S_MineHuts>
   <!-- EN: any building -->
-  <CBF_S_MineHutsAny>任意建築</CBF_S_MineHutsAny>
+  <CBF_S_MineHutsAny>任何建築</CBF_S_MineHutsAny>
   <!-- EN: Categories of the buildings the mine may start from. Empty: any building of the district. -->
-  <CBF_S_MineHutsTip>礦井可起始的建築類別。留空：該區的任意建築。</CBF_S_MineHutsTip>
+  <CBF_S_MineHutsTip>礦坑可以從哪些類別的建築開始。留空：此街區的任何建築。</CBF_S_MineHutsTip>
   <!-- EN: Things -->
   <CBF_S_MineThings>物品</CBF_S_MineThings>
   <!-- EN: none -->
   <CBF_S_MineThingsNone>無</CBF_S_MineThingsNone>
   <!-- EN: Things in the mine. Click to open the window where you enter them by place. -->
-  <CBF_S_MineThingsTip>礦井中的物品。點選開啟按位置錄入它們的視窗。</CBF_S_MineThingsTip>
+  <CBF_S_MineThingsTip>礦坑中的物品。點擊開啟視窗，依位置輸入物品。</CBF_S_MineThingsTip>
   <!-- EN: chamber -->
-  <CBF_S_MinePlace_Chamber>洞室</CBF_S_MinePlace_Chamber>
+  <CBF_S_MinePlace_Chamber>礦室</CBF_S_MinePlace_Chamber>
   <!-- EN: tunnel -->
-  <CBF_S_MinePlace_Tunnel>隧道</CBF_S_MinePlace_Tunnel>
+  <CBF_S_MinePlace_Tunnel>坑道</CBF_S_MinePlace_Tunnel>
   <!-- EN: entrance -->
   <CBF_S_MinePlace_Entrance>入口</CBF_S_MinePlace_Entrance>
   <!-- EN: Tree share -->
-  <CBF_S_TreeShare>樹木保留比例</CBF_S_TreeShare>
+  <CBF_S_TreeShare>樹木比例</CBF_S_TreeShare>
   <!-- EN: Share of the wild trees inside the settlement that stay standing when it is built, from 0 to 1. 0 clears them all. -->
-  <CBF_S_TreeShareTip>據點建成後保留的野生樹木比例，0至1。0清除全部。</CBF_S_TreeShareTip>
+  <CBF_S_TreeShareTip>建造據點時，據點內保留下來的野生樹木比例，0至1。0會清除全部樹木。</CBF_S_TreeShareTip>
   <!-- EN: Map size -->
   <CBF_S_MapSize>地圖大小</CBF_S_MapSize>
   <!-- EN: Edge length of the map this settlement type asks for, 150 to 400. The larger of this and the world setting is used. -->
-  <CBF_S_MapSizeTip>此據點型別要求的地圖邊長，150至400。取此值與世界設定中的較大者。</CBF_S_MapSizeTip>
+  <CBF_S_MapSizeTip>此據點類型要求的地圖邊長，150至400。此值與世界設定取較大者。</CBF_S_MapSizeTip>
   <!-- EN: Core size -->
   <CBF_S_CoreSize>核心大小</CBF_S_CoreSize>
   <!-- EN: Edge length of the settlement core in cells, as a range. The suburb and the countryside grow around it. -->
-  <CBF_S_CoreSizeTip>據點核心的邊長（格），以範圍表示。近郊與鄉村圍繞它生長。</CBF_S_CoreSizeTip>
+  <CBF_S_CoreSizeTip>據點核心的邊長（格），以範圍表示。近郊與鄉村圍繞它向外延伸。</CBF_S_CoreSizeTip>
   <!-- EN: Category tags -->
   <CBF_FactionPickTags>類別標籤</CBF_FactionPickTags>
   <!-- EN: {0} factions: {1} -->
-  <CBF_FactionPickTagInfo>{0}個派系：{1}</CBF_FactionPickTagInfo>
+  <CBF_FactionPickTagInfo>{0}派系：{1}</CBF_FactionPickTagInfo>
   <!-- EN: The district starts as close to the middle of its ward as possible. -->
-  <CBF_S_LocCenterTip>該區儘可能從所屬區劃的中心附近開始。</CBF_S_LocCenterTip>
+  <CBF_S_LocCenterTip>街區盡量從其城區的中央開始。</CBF_S_LocCenterTip>
   <!-- EN: The district starts close to a gate. -->
-  <CBF_S_LocGateTip>該區從城門附近開始。</CBF_S_LocGateTip>
+  <CBF_S_LocGateTip>街區從城門附近開始。</CBF_S_LocGateTip>
   <!-- EN: The district starts close to the wall of its ward. -->
-  <CBF_S_LocWallTip>該區從所屬區劃的城牆附近開始。</CBF_S_LocWallTip>
+  <CBF_S_LocWallTip>街區從其城區的城牆附近開始。</CBF_S_LocWallTip>
   <!-- EN: The district starts along the main road. -->
-  <CBF_S_LocMainTip>該區沿主幹道開始。</CBF_S_LocMainTip>
+  <CBF_S_LocMainTip>街區沿主要道路開始。</CBF_S_LocMainTip>
   <!-- EN: On the first cells of the tunnel, right behind the mine entrance at the hut. -->
-  <CBF_S_MinePlace_EntranceTip>位於隧道最前端、礦屋入口之後。</CBF_S_MinePlace_EntranceTip>
+  <CBF_S_MinePlace_EntranceTip>在坑道的最前幾格，就在小屋旁的礦坑入口後方。</CBF_S_MinePlace_EntranceTip>
   <!-- EN: Along the tunnels, only where the tunnel is wide enough to pass by. -->
-  <CBF_S_MinePlace_TunnelTip>沿隧道分佈，僅限隧道足夠寬可透過之處。</CBF_S_MinePlace_TunnelTip>
+  <CBF_S_MinePlace_TunnelTip>沿著坑道，只放在坑道寬到足以通過的地方。</CBF_S_MinePlace_TunnelTip>
   <!-- EN: In a chamber at the end of a tunnel. Small things stand by the wall. -->
-  <CBF_S_MinePlace_ChamberTip>位於隧道盡頭的洞室內。小物品靠牆放置。</CBF_S_MinePlace_ChamberTip>
+  <CBF_S_MinePlace_ChamberTip>在坑道盡頭的礦室中。小物品靠牆擺放。</CBF_S_MinePlace_ChamberTip>
   <!-- EN: Things in the mine -->
-  <CBF_MineWin_Title>礦井中的物品</CBF_MineWin_Title>
+  <CBF_MineWin_Title>礦坑中的物品</CBF_MineWin_Title>
   <!-- EN: Hut -->
-  <CBF_MineWin_Hut>礦屋</CBF_MineWin_Hut>
+  <CBF_MineWin_Hut>小屋</CBF_MineWin_Hut>
   <!-- EN: + Thing -->
-  <CBF_MineWin_AddThing>+ 物品</CBF_MineWin_AddThing>
+  <CBF_MineWin_AddThing>＋物品</CBF_MineWin_AddThing>
   <!-- EN: + Object list -->
-  <CBF_MineWin_AddList>+ 物品清單</CBF_MineWin_AddList>
+  <CBF_MineWin_AddList>＋物品清單</CBF_MineWin_AddList>
   <!-- EN: List: {0} -->
   <CBF_MineWin_ListPrefix>清單：{0}</CBF_MineWin_ListPrefix>
   <!-- EN: Nothing here yet. -->
-  <CBF_MineWin_Empty>這裡還沒有內容。</CBF_MineWin_Empty>
+  <CBF_MineWin_Empty>這裡還沒有東西。</CBF_MineWin_Empty>
   <!-- EN: Material -->
   <CBF_MineWin_Stuff>材料</CBF_MineWin_Stuff>
   <!-- EN: Material of the map -->
@@ -409,31 +409,31 @@
   <!-- EN: no material -->
   <CBF_MineWin_StuffNone>無材料</CBF_MineWin_StuffNone>
   <!-- EN: Material of the thing. Empty takes stone or wood of the map. -->
-  <CBF_MineWin_StuffTip>物品的材料。留空取地圖的石頭或木頭。</CBF_MineWin_StuffTip>
+  <CBF_MineWin_StuffTip>物品的材料。留空則使用地圖的石材或木材。</CBF_MineWin_StuffTip>
   <!-- EN: Count -->
   <CBF_MineWin_Count>數量</CBF_MineWin_Count>
   <!-- EN: Content -->
-  <CBF_MineWin_Content>內容</CBF_MineWin_Content>
+  <CBF_MineWin_Content>內容物</CBF_MineWin_Content>
   <!-- EN: no content -->
-  <CBF_MineWin_ContentNone>無內容</CBF_MineWin_ContentNone>
+  <CBF_MineWin_ContentNone>無內容物</CBF_MineWin_ContentNone>
   <!-- EN: Goods laid onto the thing, for example iron on a shelf or in a crate. What does not fit is left out. -->
-  <CBF_MineWin_ContentTip>放在物品上的貨物，例如架子或板條箱裡的鐵。放不下的會被省略。</CBF_MineWin_ContentTip>
+  <CBF_MineWin_ContentTip>放在物品上的貨物，例如架子上或箱子裡的鐵。放不下的部分會省略。</CBF_MineWin_ContentTip>
   <!-- EN: Amount -->
   <CBF_MineWin_Amount>數量</CBF_MineWin_Amount>
   <!-- EN: Move to {0} -->
-  <CBF_MineWin_Move>移至{0}</CBF_MineWin_Move>
+  <CBF_MineWin_Move>移到{0}</CBF_MineWin_Move>
   <!-- EN: Move to another place in the mine. -->
-  <CBF_MineWin_MoveTip>移到礦井中的另一個位置。</CBF_MineWin_MoveTip>
+  <CBF_MineWin_MoveTip>移到礦坑中的其他位置。</CBF_MineWin_MoveTip>
   <!-- EN: A value is outside the allowed range of {0} to {1}. -->
-  <CBF_S_RangeOutside>有數值超出{0}至{1}的允許範圍。</CBF_S_RangeOutside>
+  <CBF_S_RangeOutside>有數值超出允許範圍{0}至{1}。</CBF_S_RangeOutside>
   <!-- EN: The minimum is larger than the maximum. -->
   <CBF_S_RangeOrder>最小值大於最大值。</CBF_S_RangeOrder>
   <!-- EN: {0} level(s) -->
   <CBF_D_NLevels>{0}層</CBF_D_NLevels>
   <!-- EN: + Level -->
-  <CBF_D_AddLevel>+ 層</CBF_D_AddLevel>
+  <CBF_D_AddLevel>＋層</CBF_D_AddLevel>
   <!-- EN: Adds a level below the lowest one. -->
-  <CBF_D_AddLevelTip>在最底層下方新增一層。</CBF_D_AddLevelTip>
+  <CBF_D_AddLevelTip>在最下層之下新增一層。</CBF_D_AddLevelTip>
   <!-- EN: Level {0} added -->
   <CBF_D_AddedLevel>已新增第{0}層</CBF_D_AddedLevel>
   <!-- EN: Level {0} removed -->
@@ -443,7 +443,7 @@
   <!-- EN: A dungeon needs at least one level. -->
   <CBF_D_LastLevel>地下城至少需要一層。</CBF_D_LastLevel>
   <!-- EN: Remove level {0}? Its areas hold {1} entries. -->
-  <CBF_D_DeleteLevelAsk>移除第{0}層？其區域容納{1}個條目。</CBF_D_DeleteLevelAsk>
+  <CBF_D_DeleteLevelAsk>要移除第{0}層嗎？其區域含有{1}個條目。</CBF_D_DeleteLevelAsk>
   <!-- EN: Name of the level -->
   <CBF_D_RenameLevel>層的名稱</CBF_D_RenameLevel>
   <!-- EN: Remove level -->
@@ -453,23 +453,23 @@
   <!-- EN: Move this level one down. -->
   <CBF_D_MoveDownTip>將此層下移一層。</CBF_D_MoveDownTip>
   <!-- EN: Level {0} of {1} · {2} · {3} area(s) -->
-  <CBF_D_LevelInfo>第{0}層，共{1}層 · {2} · {3}個區域</CBF_D_LevelInfo>
+  <CBF_D_LevelInfo>第{0}層／共{1}層 · {2} · {3}個區域</CBF_D_LevelInfo>
   <!-- EN: in the mountain of the surface map -->
   <CBF_D_OnSurface>位於地表地圖的山中</CBF_D_OnSurface>
   <!-- EN: own map below -->
-  <CBF_D_Submap>下方自有地圖</CBF_D_Submap>
+  <CBF_D_Submap>下方的獨立地圖</CBF_D_Submap>
   <!-- EN: Entrance and stairs -->
   <CBF_D_Access>入口與樓梯</CBF_D_Access>
   <!-- EN: + Entrance -->
-  <CBF_D_AddEntrance>+ 入口</CBF_D_AddEntrance>
+  <CBF_D_AddEntrance>＋入口</CBF_D_AddEntrance>
   <!-- EN: Empty means the generator opens a plain tunnel into the mountain. -->
   <CBF_D_EntranceNone>留空表示生成器在山中開一條普通隧道。</CBF_D_EntranceNone>
   <!-- EN: The stairs up are placed where the stairs down of the level above stand. -->
-  <CBF_D_StairsUpHint>上行樓梯放在上一層下行樓梯所在處。</CBF_D_StairsUpHint>
+  <CBF_D_StairsUpHint>上行樓梯會放在上一層下行樓梯所在的位置。</CBF_D_StairsUpHint>
   <!-- EN: + Stairs -->
-  <CBF_D_AddStairs>+ 樓梯</CBF_D_AddStairs>
+  <CBF_D_AddStairs>＋樓梯</CBF_D_AddStairs>
   <!-- EN: This is the lowest level. It needs no stairs down. -->
-  <CBF_D_LowestHint>這是最底層。它不需要下行樓梯。</CBF_D_LowestHint>
+  <CBF_D_LowestHint>這是最下層，不需要下行樓梯。</CBF_D_LowestHint>
   <!-- EN: Corridor decor -->
   <CBF_D_Deco>走廊裝飾</CBF_D_Deco>
   <!-- EN: Placed on the corridor floor against the wall, on both sides at random. Wall fixtures such as torches face the wall, everything else faces into the corridor. Edge and Road make no difference here. -->
@@ -479,37 +479,37 @@
   <!-- EN: Passages -->
   <CBF_D_Passages>通道</CBF_D_Passages>
   <!-- EN: + Segment -->
-  <CBF_D_AddCorridor>+ 段</CBF_D_AddCorridor>
+  <CBF_D_AddCorridor>＋路段</CBF_D_AddCorridor>
   <!-- EN: Empty means plain corridor cells. Corners, junctions and ends are built by the generator. -->
-  <CBF_D_CorridorsNone>留空表示普通走廊格。轉角、交叉口與末端由生成器建造。</CBF_D_CorridorsNone>
+  <CBF_D_CorridorsNone>留空表示使用普通走廊格。轉角、交叉口與盡頭由生成器建造。</CBF_D_CorridorsNone>
   <!-- EN: Cave share -->
   <CBF_D_CaveShare>洞穴比例</CBF_D_CaveShare>
   <!-- EN: Secret passages -->
-  <CBF_D_SecretChance>秘道</CBF_D_SecretChance>
+  <CBF_D_SecretChance>密道</CBF_D_SecretChance>
   <!-- EN: 0 = from the layout -->
-  <CBF_D_MapSizeAuto>0 = 由佈局決定</CBF_D_MapSizeAuto>
+  <CBF_D_MapSizeAuto>0＝依佈局決定</CBF_D_MapSizeAuto>
   <!-- EN: cells per side -->
   <CBF_D_MapSizeFixed>每邊格數</CBF_D_MapSizeFixed>
   <!-- EN: Areas -->
   <CBF_D_Areas>區域</CBF_D_Areas>
   <!-- EN: Which areas this level can have, each with its buildings, like the districts of a ward. -->
-  <CBF_D_AreasTip>此層可擁有的區域，各自帶建築，如同區的區劃。</CBF_D_AreasTip>
+  <CBF_D_AreasTip>此層可以有哪些區域，各自帶有建築，就像城區中的街區。</CBF_D_AreasTip>
   <!-- EN: Repeat -->
   <CBF_D_Count>重複</CBF_D_Count>
   <!-- EN: times, each copy is a level of its own -->
-  <CBF_D_CountUnit>次，每份副本自成一層</CBF_D_CountUnit>
+  <CBF_D_CountUnit>次，每份複本各自是獨立的一層</CBF_D_CountUnit>
   <!-- EN: Builds this level several times in a row, 1 to 20. Each copy is generated anew. The spread counts every copy as a level. -->
-  <CBF_D_CountTip>連續多次構建此層，1至20。每份副本都重新生成。展開時每份副本計為一層。</CBF_D_CountTip>
+  <CBF_D_CountTip>將此層連續建造多次，1至20。每份複本都會重新生成。分布會把每份複本算作一層。</CBF_D_CountTip>
   <!-- EN: Sections -->
   <CBF_D_Sections>分區</CBF_D_Sections>
   <!-- EN: Splits the level into sections in a row. The first section holds the entrance, the last one the stairs down. Each section has its own areas and can have its own corridor segments. -->
-  <CBF_D_SectionsTip>將層拆分為連續的分區。第一個分區包含入口，最後一個包含下行樓梯。每個分區有自己的區域，可有自己的走廊段。</CBF_D_SectionsTip>
+  <CBF_D_SectionsTip>將此層分成依序排列的分區。第一個分區包含入口，最後一個包含下行樓梯。每個分區有自己的區域，也可以有自己的走廊路段。</CBF_D_SectionsTip>
   <!-- EN: No sections. The whole level is one section with the areas below. -->
-  <CBF_D_SectionsNone>無分區。整層為一個分區，包含下列區域。</CBF_D_SectionsNone>
+  <CBF_D_SectionsNone>無分區。整層為一個分區，使用下方的區域。</CBF_D_SectionsNone>
   <!-- EN: + Section -->
-  <CBF_D_AddSection>+ 分區</CBF_D_AddSection>
+  <CBF_D_AddSection>＋分區</CBF_D_AddSection>
   <!-- EN: The first section takes over the areas of the level. -->
-  <CBF_D_AddSectionFirstTip>第一個分區接管該層的區域。</CBF_D_AddSectionFirstTip>
+  <CBF_D_AddSectionFirstTip>第一個分區會接收此層的區域。</CBF_D_AddSectionFirstTip>
   <!-- EN: Section {0} added -->
   <CBF_D_AddedSection>已新增分區{0}</CBF_D_AddedSection>
   <!-- EN: Section {0} removed -->
@@ -517,15 +517,15 @@
   <!-- EN: Section {0} moved -->
   <CBF_D_MovedSection>已移動分區{0}</CBF_D_MovedSection>
   <!-- EN: Remove section {0}? Its areas hold {1} entries. -->
-  <CBF_D_DeleteSectionAsk>移除分區{0}？其區域包含{1}個條目。</CBF_D_DeleteSectionAsk>
+  <CBF_D_DeleteSectionAsk>要移除分區{0}嗎？其區域含有{1}個條目。</CBF_D_DeleteSectionAsk>
   <!-- EN: Name of the section -->
   <CBF_D_RenameSection>分區名稱</CBF_D_RenameSection>
   <!-- EN: Remove section -->
   <CBF_D_RemoveSection>移除分區</CBF_D_RemoveSection>
   <!-- EN: Move this section one towards the entrance. -->
-  <CBF_D_SectionUpTip>將此分區向入口方向移動一格。</CBF_D_SectionUpTip>
+  <CBF_D_SectionUpTip>將此分區往入口方向移動一格。</CBF_D_SectionUpTip>
   <!-- EN: Move this section one towards the stairs down. -->
-  <CBF_D_SectionDownTip>將此分區向樓梯方向移動一格。</CBF_D_SectionDownTip>
+  <CBF_D_SectionDownTip>將此分區往下行樓梯方向移動一格。</CBF_D_SectionDownTip>
   <!-- EN: {0} area(s) -->
   <CBF_D_SectionInfo>{0}個區域</CBF_D_SectionInfo>
   <!-- EN: entrance -->
@@ -533,17 +533,17 @@
   <!-- EN: stairs down -->
   <CBF_D_SectionStairs>下行樓梯</CBF_D_SectionStairs>
   <!-- EN: Corridor segments of this section -->
-  <CBF_D_SectionCorridors>本分區走廊段</CBF_D_SectionCorridors>
+  <CBF_D_SectionCorridors>此分區的走廊路段</CBF_D_SectionCorridors>
   <!-- EN: None set: the section uses the corridor segments of the level. -->
-  <CBF_D_SectionCorridorsInherit>未設定：分區使用該層的走廊段。</CBF_D_SectionCorridorsInherit>
+  <CBF_D_SectionCorridorsInherit>未設定：此分區使用該層的走廊路段。</CBF_D_SectionCorridorsInherit>
   <!-- EN: Priority -->
   <CBF_S_Priority>優先順序</CBF_S_Priority>
   <!-- EN: Which entry gets space first. With equal priority the previous order applies (minimum count, size). Low entries may stay below their minimum when space runs out. -->
-  <CBF_S_PriorityTip>哪個條目先獲得空間。優先順序相同時按原順序（最小數量、尺寸）。空間不足時低條目可能低於其最小值。</CBF_S_PriorityTip>
+  <CBF_S_PriorityTip>哪個條目先分到空間。優先順序相同時沿用原本的順序（最低數量、大小）。空間不足時，「低」的條目可能低於其最低數量。</CBF_S_PriorityTip>
   <!-- EN: Low -->
   <CBF_Priority_Low>低</CBF_Priority_Low>
   <!-- EN: Normal -->
-  <CBF_Priority_Normal>普通</CBF_Priority_Normal>
+  <CBF_Priority_Normal>一般</CBF_Priority_Normal>
   <!-- EN: Preferred -->
   <CBF_Priority_Preferred>優先</CBF_Priority_Preferred>
   <!-- EN: Important -->
@@ -551,31 +551,31 @@
   <!-- EN: Critical -->
   <CBF_Priority_Critical>關鍵</CBF_Priority_Critical>
   <!-- EN: Check plan -->
-  <CBF_Pr_Button>檢查方案</CBF_Pr_Button>
+  <CBF_Pr_Button>檢查計劃</CBF_Pr_Button>
   <!-- EN: Plans this settlement type many times on different terrain and shows how often it works and what gets left out. -->
-  <CBF_Pr_ButtonTip>在不同地形上多次規劃此據點型別，顯示成功頻率與遺漏內容。</CBF_Pr_ButtonTip>
+  <CBF_Pr_ButtonTip>在不同地形上多次規劃此據點類型，顯示成功的頻率以及哪些項目被略過。</CBF_Pr_ButtonTip>
   <!-- EN: The check plans this settlement {0} times on flat land, rivers, mountains, coast and the worst case. This can take one to a few minutes. Start? -->
-  <CBF_Pr_Ask>檢查將在平地、河流、山地、海岸和最壞情況下規劃此據點{0}次。這可能需要一到幾分鐘。開始？</CBF_Pr_Ask>
+  <CBF_Pr_Ask>此檢查會在平地、河流、山地、海岸與最差情況下規劃此據點{0}次。這可能需要一到數分鐘。要開始嗎？</CBF_Pr_Ask>
   <!-- EN: Check plan: {0} -->
-  <CBF_Pr_Title>檢查方案：{0}</CBF_Pr_Title>
+  <CBF_Pr_Title>檢查計劃：{0}</CBF_Pr_Title>
   <!-- EN: Run {0} of {1} -->
-  <CBF_Pr_Running>執行{0} / {1}</CBF_Pr_Running>
+  <CBF_Pr_Running>第{0}次，共{1}次</CBF_Pr_Running>
   <!-- EN: {0} s so far -->
-  <CBF_Pr_Elapsed>已耗時{0}秒</CBF_Pr_Elapsed>
+  <CBF_Pr_Elapsed>已經過{0}秒</CBF_Pr_Elapsed>
   <!-- EN: Cancel -->
   <CBF_Pr_Cancel>取消</CBF_Pr_Cancel>
   <!-- EN: Cancelled after {0} of {1} runs. The result only covers these runs. -->
-  <CBF_Pr_Stopped>已在{0} / {1}次執行後取消。結果僅涵蓋這些執行。</CBF_Pr_Stopped>
+  <CBF_Pr_Stopped>在{1}次中的第{0}次後取消。結果只涵蓋這幾次。</CBF_Pr_Stopped>
   <!-- EN: {0} of {1} runs valid -->
-  <CBF_Pr_Valid>{0} / {1}次執行有效</CBF_Pr_Valid>
+  <CBF_Pr_Valid>{1}次中有{0}次有效</CBF_Pr_Valid>
   <!-- EN: The plan works reliably. -->
-  <CBF_Pr_Verdict_Gruen>該方案可靠。</CBF_Pr_Verdict_Gruen>
+  <CBF_Pr_Verdict_Gruen>此計劃能穩定運作。</CBF_Pr_Verdict_Gruen>
   <!-- EN: The plan often works, but fails on some terrain. Lower minimum counts or set less important entries to Low. -->
-  <CBF_Pr_Verdict_Gelb>該方案大多可行，但在部分地形上失敗。降低最小數量或將較不重要的條目設為低。</CBF_Pr_Verdict_Gelb>
+  <CBF_Pr_Verdict_Gelb>此計劃多半可行，但在某些地形上會失敗。請降低最低數量，或把較不重要的條目設為「低」。</CBF_Pr_Verdict_Gelb>
   <!-- EN: The plan fails too often. It asks for more than fits. Lower minimum counts, remove entries or allow a larger map. -->
-  <CBF_Pr_Verdict_Rot>該方案失敗過於頻繁。要求超出了可容納範圍。降低最小數量、移除條目或允許更大的地圖。</CBF_Pr_Verdict_Rot>
+  <CBF_Pr_Verdict_Rot>此計劃失敗太頻繁，要求的內容超出可容納的範圍。請降低最低數量、移除條目或允許更大的地圖。</CBF_Pr_Verdict_Rot>
   <!-- EN: On average {0} attempts and {1} s per run. -->
-  <CBF_Pr_Means>平均每次執行需要{0}次嘗試、{1}秒。</CBF_Pr_Means>
+  <CBF_Pr_Means>每次執行平均{0}次嘗試、{1}秒。</CBF_Pr_Means>
   <!-- EN: Flat -->
   <CBF_Pr_Terrain_Flach>平地</CBF_Pr_Terrain_Flach>
   <!-- EN: River -->
@@ -585,105 +585,105 @@
   <!-- EN: Coast -->
   <CBF_Pr_Terrain_Kueste>海岸</CBF_Pr_Terrain_Kueste>
   <!-- EN: Worst case -->
-  <CBF_Pr_Terrain_Schlimmst>最壞情況</CBF_Pr_Terrain_Schlimmst>
+  <CBF_Pr_Terrain_Schlimmst>最差情況</CBF_Pr_Terrain_Schlimmst>
   <!-- EN: Quick estimate -->
-  <CBF_Pr_Estimate>快速估算</CBF_Pr_Estimate>
+  <CBF_Pr_Estimate>快速估計</CBF_Pr_Estimate>
   <!-- EN: The minimum counts need {0} cells of edge length, up to the maximum counts {3}. {1} are possible (map size {2}). -->
-  <CBF_Pr_EstimateLine>最小數量需要{0}格邊長，最多{3}。{1}可行（地圖大小{2}）。</CBF_Pr_EstimateLine>
+  <CBF_Pr_EstimateLine>最低數量需要邊長{0}格，最高數量需要到{3}格。可用為{1}（地圖大小{2}）。</CBF_Pr_EstimateLine>
   <!-- EN: The estimate is a rough guess without planning. The runs above are what counts. -->
-  <CBF_Pr_EstimateNote>估算是不經規劃的大致猜測。以上執行結果才算數。</CBF_Pr_EstimateNote>
+  <CBF_Pr_EstimateNote>此估計是未經規劃的粗略推算。以上方的實際執行結果為準。</CBF_Pr_EstimateNote>
   <!-- EN: Left out most often -->
-  <CBF_Pr_Omitted>最常遺漏</CBF_Pr_Omitted>
+  <CBF_Pr_Omitted>最常被略過</CBF_Pr_Omitted>
   <!-- EN: Every entry reached its minimum in every run. -->
-  <CBF_Pr_OmittedNone>每次執行中每個條目都達到了最小值。</CBF_Pr_OmittedNone>
+  <CBF_Pr_OmittedNone>每個條目在每次執行中都達到了最低數量。</CBF_Pr_OmittedNone>
   <!-- EN: {0}: below its minimum of {3} in {1} of {2} runs -->
-  <CBF_Pr_OmittedLine>{0}：在{1} / {2}次執行中低於最小值{3}</CBF_Pr_OmittedLine>
+  <CBF_Pr_OmittedLine>{0}：{2}次中有{1}次低於最低數量{3}</CBF_Pr_OmittedLine>
   <!-- EN: Red: left out in at least half of the runs. Lower its minimum, set it to Low or move it to a ward with more room. -->
-  <CBF_Pr_OmittedHint>紅色：在至少一半的執行中被遺漏。降低其最小值、設為低或移到空間更大的分區。</CBF_Pr_OmittedHint>
+  <CBF_Pr_OmittedHint>紅色：至少一半的執行中被略過。請降低其最低數量、設為「低」，或移到空間較大的城區。</CBF_Pr_OmittedHint>
   <!-- EN: Planner notes -->
-  <CBF_Pr_Notes>規劃器備註</CBF_Pr_Notes>
+  <CBF_Pr_Notes>規劃器提示</CBF_Pr_Notes>
   <!-- EN: No notes. -->
-  <CBF_Pr_NotesNone>無備註。</CBF_Pr_NotesNone>
+  <CBF_Pr_NotesNone>沒有提示。</CBF_Pr_NotesNone>
   <!-- EN: {0} of {1} runs -->
-  <CBF_Pr_Times>{0} / {1}次執行</CBF_Pr_Times>
+  <CBF_Pr_Times>{1}次中有{0}次</CBF_Pr_Times>
   <!-- EN: Space: the minimum counts need {0} of {1} cells of edge length ({2} %), up to the maximum counts {4} (map size {3}) -->
-  <CBF_Pr_Space>空間：最小數量需要{0} / {1}格邊長（{2}%），最多{4}（地圖大小{3}）</CBF_Pr_Space>
+  <CBF_Pr_Space>空間：最低數量需要邊長{1}格中的{0}格（{2}%），最高數量需要到{4}格（地圖大小{3}）</CBF_Pr_Space>
   <!-- EN: Quick estimate without planning. Red means even the minimum counts do not fit, yellow that they are tight or the maximum counts do not fully fit. It updates with every change. Check plan gives the reliable answer. -->
-  <CBF_Pr_SpaceTip>不經規劃快速估算。紅色表示連最小數量都放不下，黃色表示緊張或最大數量無法完全容納。隨每次更改更新。檢查方案給出可靠答案。</CBF_Pr_SpaceTip>
+  <CBF_Pr_SpaceTip>未經規劃的快速估計。紅色表示連最低數量都放不下，黃色表示空間吃緊，或最高數量無法完全放下。每次變更都會更新。「檢查計劃」才能給出可靠的答案。</CBF_Pr_SpaceTip>
   <!-- EN: Fits. -->
-  <CBF_Pr_SpaceDo_Gruen>可容納。</CBF_Pr_SpaceDo_Gruen>
+  <CBF_Pr_SpaceDo_Gruen>放得下。</CBF_Pr_SpaceDo_Gruen>
   <!-- EN: Tight. On rough terrain some entries may be left out. Check plan shows which. -->
-  <CBF_Pr_SpaceDo_Gelb>緊張。在崎嶇地形上部分條目可能被遺漏。檢查方案會顯示哪些。</CBF_Pr_SpaceDo_Gelb>
+  <CBF_Pr_SpaceDo_Gelb>吃緊。在崎嶇地形上可能會略過部分條目。「檢查計劃」會顯示是哪些。</CBF_Pr_SpaceDo_Gelb>
   <!-- EN: Probably too big. Lower minimum counts, set entries to Low or allow a larger map, then use Check plan. -->
-  <CBF_Pr_SpaceDo_Rot>可能過大。降低最小數量、將條目設為低或允許更大的地圖，然後使用檢查方案。</CBF_Pr_SpaceDo_Rot>
+  <CBF_Pr_SpaceDo_Rot>可能太大。請降低最低數量、把條目設為「低」或允許更大的地圖，然後使用「檢查計劃」。</CBF_Pr_SpaceDo_Rot>
   <!-- EN: Suburb areas -->
-  <CBF_S_SuburbIslands>郊區區域</CBF_S_SuburbIslands>
+  <CBF_S_SuburbIslands>近近郊塊</CBF_S_SuburbIslands>
   <!-- EN: Suburb as ring -->
-  <CBF_S_SuburbRing>郊區環帶</CBF_S_SuburbRing>
+  <CBF_S_SuburbRing>近郊成環</CBF_S_SuburbRing>
   <!-- EN: Only for a suburb wall with a walkway (depth 3 or more). On: the suburb becomes a closed ring around the town. Off: the suburb stays as separate areas on the sides, as many as Suburb areas allows. With Suburb areas at 0 the ring stays. -->
-  <CBF_S_SuburbRingTip>僅適用於帶步道的郊區牆（深度3或以上）。開啟：郊區成為環繞城鎮的閉合環帶。關閉：郊區保持為兩側的獨立區域，數量由郊區區域決定。郊區區域為0時保持環帶。</CBF_S_SuburbRingTip>
+  <CBF_S_SuburbRingTip>僅適用於有步道的近郊城牆（深度3以上）。開啟：近郊成為環繞城鎮的封閉環帶。關閉：近郊維持為兩側分開的區塊，數量上限為「近近郊塊」的值。「近近郊塊」為0時維持環狀。</CBF_S_SuburbRingTip>
   <!-- EN: only with a suburb -->
-  <CBF_S_SuburbOnly>僅限郊區</CBF_S_SuburbOnly>
+  <CBF_S_SuburbOnly>僅限有近郊時</CBF_S_SuburbOnly>
   <!-- EN: These fields only apply to settlement types with a suburb ward. Add a suburb ward under Wards to use them. -->
-  <CBF_S_SuburbOnlyTip>這些欄位僅適用於帶郊區區的據點型別。在區下新增郊區區以使用它們。</CBF_S_SuburbOnlyTip>
+  <CBF_S_SuburbOnlyTip>這些欄位只適用於有近郊城區的據點類型。請在「城區」下新增近郊城區以使用它們。</CBF_S_SuburbOnlyTip>
   <!-- EN: Space could not be estimated: {0} -->
-  <CBF_Pr_SpaceFailed>無法估算空間：{0}</CBF_Pr_SpaceFailed>
+  <CBF_Pr_SpaceFailed>無法估計空間：{0}</CBF_Pr_SpaceFailed>
   <!-- EN: no result -->
-  <CBF_Pr_SpaceUnknown>無結果</CBF_Pr_SpaceUnknown>
+  <CBF_Pr_SpaceUnknown>沒有結果</CBF_Pr_SpaceUnknown>
   <!-- EN: Cancelling. The current run finishes its step first. -->
-  <CBF_Pr_Stopping>正在取消。目前執行先完成其步驟。</CBF_Pr_Stopping>
+  <CBF_Pr_Stopping>正在取消。目前這次執行會先完成目前的步驟。</CBF_Pr_Stopping>
   <!-- EN: The run does not react. You can close the window anyway; the run then ends in the background. -->
-  <CBF_Pr_StuckHint>執行無響應。你仍可關閉視窗；執行隨後在後臺結束。</CBF_Pr_StuckHint>
+  <CBF_Pr_StuckHint>此次執行沒有回應。你仍可關閉視窗，執行會在背景結束。</CBF_Pr_StuckHint>
   <!-- EN: Close anyway -->
   <CBF_Pr_CloseAnyway>仍要關閉</CBF_Pr_CloseAnyway>
   <!-- EN: Not available for dungeons. Use Preview for them. -->
-  <CBF_Pr_NoDungeon>不適用於地下城。請使用預覽。</CBF_Pr_NoDungeon>
+  <CBF_Pr_NoDungeon>地下城無法使用。請改用「預覽」。</CBF_Pr_NoDungeon>
   <!-- EN: This is already the first section. -->
-  <CBF_D_SectionFirst>這已是第一個分區。</CBF_D_SectionFirst>
+  <CBF_D_SectionFirst>這已經是第一個分區。</CBF_D_SectionFirst>
   <!-- EN: This is already the last section. -->
-  <CBF_D_SectionLast>這已是最後一個分區。</CBF_D_SectionLast>
+  <CBF_D_SectionLast>這已經是最後一個分區。</CBF_D_SectionLast>
   <!-- EN: section {0} -->
   <CBF_D_SectionDefault>分區{0}</CBF_D_SectionDefault>
   <!-- EN: area -->
   <CBF_D_AreaDefault>區域</CBF_D_AreaDefault>
   <!-- EN: The level still has {0} area(s) of its own. With sections they do not apply. -->
-  <CBF_D_OrphanAreas>該層仍有{0}個自有區域。使用分區後它們不生效。</CBF_D_OrphanAreas>
+  <CBF_D_OrphanAreas>此層仍有{0}個自己的區域。有分區時這些區域不會套用。</CBF_D_OrphanAreas>
   <!-- EN: Move them into the first section -->
-  <CBF_D_OrphanAreasTake>移入第一個分區</CBF_D_OrphanAreasTake>
+  <CBF_D_OrphanAreasTake>移到第一個分區</CBF_D_OrphanAreasTake>
   <!-- EN: Nothing yet. Entries here are placed on any level within their range, in addition to the areas. -->
-  <CBF_D_SpreadNone>尚無內容。此處的條目放置在其範圍內的任意層上，作為區域的補充。</CBF_D_SpreadNone>
+  <CBF_D_SpreadNone>尚無內容。這裡的條目除了區域之外，還會放在其範圍內的任一層。</CBF_D_SpreadNone>
   <!-- EN: Levels -->
   <CBF_D_Levels>層</CBF_D_Levels>
   <!-- EN: In area -->
-  <CBF_D_InArea>位於區域</CBF_D_InArea>
+  <CBF_D_InArea>於區域</CBF_D_InArea>
   <!-- EN: {0} should go into area {1}, but no level has that area. -->
-  <CBF_D_SpreadDistrictGone>{0}應進入區域{1}，但沒有層擁有該區域。</CBF_D_SpreadDistrictGone>
+  <CBF_D_SpreadDistrictGone>{0}應放入區域{1}，但沒有任何層有這個區域。</CBF_D_SpreadDistrictGone>
   <!-- EN: Entrance -->
   <CBF_Field_entrance>入口</CBF_Field_entrance>
   <!-- EN: Stairs down -->
   <CBF_Field_stairsDown>下行樓梯</CBF_Field_stairsDown>
   <!-- EN: Corridor segments -->
-  <CBF_Field_corridors>走廊段</CBF_Field_corridors>
+  <CBF_Field_corridors>走廊路段</CBF_Field_corridors>
   <!-- EN: Spread over levels -->
-  <CBF_Field_spread>跨層分佈</CBF_Field_spread>
+  <CBF_Field_spread>跨層分布</CBF_Field_spread>
   <!-- EN: levels -->
   <CBF_Field_spreadLevels>層</CBF_Field_spreadLevels>
   <!-- EN: Cave width -->
   <CBF_Field_caveWidth>洞穴寬度</CBF_Field_caveWidth>
   <!-- EN: Width of the cave passages between the areas, 1 to 5 cells. Each passage picks a width within the range. -->
-  <CBF_FieldDesc_caveWidth>區域之間洞穴通道的寬度，1至5格。每條通道在範圍內選擇寬度。</CBF_FieldDesc_caveWidth>
+  <CBF_FieldDesc_caveWidth>區域之間洞穴通道的寬度，1至5格。每條通道在範圍內挑選一個寬度。</CBF_FieldDesc_caveWidth>
   <!-- EN: Share of the connections that become natural caves instead of built corridors. -->
-  <CBF_FieldDesc_caveShare>連線中變成天然洞穴而非建造走廊的比例。</CBF_FieldDesc_caveShare>
+  <CBF_FieldDesc_caveShare>連接中變成天然洞穴而非建造走廊的比例。</CBF_FieldDesc_caveShare>
   <!-- EN: Chance that a room door, which would otherwise be bricked up, gets a narrow secret passage through the rock to the nearest corridor or to the door of another room. The door becomes a secret door (material list role DOOR_SECRET). At most this share of the rooms gets one. -->
-  <CBF_FieldDesc_secretChance>原本會被封死的房門，改為有一條狹窄秘道穿過岩石通往最近走廊或另一個房間門口的機率。該門會變成暗門（材料清單角色DOOR_SECRET）。最多這個比例的房間會有秘道。</CBF_FieldDesc_secretChance>
+  <CBF_FieldDesc_secretChance>原本會被封死的房門，改為有一條狹窄秘道穿過岩石通往最近走廊或另一個房間門口的機率。該門會變成暗門（建築角色DOOR_SECRET）。最多這個比例的房間會有秘道。</CBF_FieldDesc_secretChance>
   <!-- EN: Size of the map of this level. 0 takes the size from the layout. Ignored on the first level, it lies on the surface map. -->
-  <CBF_FieldDesc_levelMapSize>此層地圖的大小。0取佈局的大小。第一層忽略此項，它位於地表地圖。</CBF_FieldDesc_levelMapSize>
+  <CBF_FieldDesc_levelMapSize>此層地圖的大小。0表示依佈局決定大小。第一層會忽略此值，因為它位於地表地圖上。</CBF_FieldDesc_levelMapSize>
   <!-- EN: Buildings the generator spreads over several levels: a total count over a range of levels. -->
-  <CBF_FieldDesc_spread>生成器跨層分佈的建築：一個總數量橫跨一段層範圍。</CBF_FieldDesc_spread>
+  <CBF_FieldDesc_spread>生成器分布到多層的建築：在一個層範圍內的總數量。</CBF_FieldDesc_spread>
   <!-- EN: From which to which level, counted from the top. Level 1 lies in the mountain of the surface map. -->
-  <CBF_FieldDesc_SpreadEntry_levels>從第幾層到第幾層，自上而下計數。第1層位於地表地圖的山中。</CBF_FieldDesc_SpreadEntry_levels>
+  <CBF_FieldDesc_SpreadEntry_levels>從第幾層到第幾層，由上往下數。第1層位於地表地圖的山中。</CBF_FieldDesc_SpreadEntry_levels>
   <!-- EN: Area the buildings go into. "any" lets the generator choose. -->
-  <CBF_FieldDesc_SpreadEntry_district>建築進入的區域。"任意"由生成器選擇。</CBF_FieldDesc_SpreadEntry_district>
+  <CBF_FieldDesc_SpreadEntry_district>建築要放入的區域。「any」讓生成器自行選擇。</CBF_FieldDesc_SpreadEntry_district>
   <!-- EN: Layout -->
   <CBF_D_Layout>佈局</CBF_D_Layout>
   <!-- EN: Corridors -->
@@ -691,9 +691,9 @@
   <!-- EN: Chambers -->
   <CBF_D_Layout_Chambers>洞室</CBF_D_Layout_Chambers>
   <!-- EN: A main corridor network, the rooms dock onto it. -->
-  <CBF_D_Layout_CorridorsTip>一個主走廊網路，房間對接其上。</CBF_D_Layout_CorridorsTip>
+  <CBF_D_Layout_CorridorsTip>一套主走廊網路，房間連接在上面。</CBF_D_Layout_CorridorsTip>
   <!-- EN: Rooms sit directly against each other, without corridors in between. -->
-  <CBF_D_Layout_ChambersTip>房間直接相互緊靠，之間沒有走廊。</CBF_D_Layout_ChambersTip>
+  <CBF_D_Layout_ChambersTip>房間彼此直接相鄰，中間沒有走廊。</CBF_D_Layout_ChambersTip>
   <!-- EN: Grid -->
   <CBF_D_Layout_Grid>網格</CBF_D_Layout_Grid>
   <!-- EN: Rooms on a loose grid with thick rock between them, joined by short straight passages and many loops. -->
@@ -711,17 +711,17 @@
   <!-- EN: Cave -->
   <CBF_D_Layout_Cave>洞穴</CBF_D_Layout_Cave>
   <!-- EN: Natural cave chambers without built walls. -->
-  <CBF_D_Layout_CaveTip>沒有建造牆體的天然洞室。</CBF_D_Layout_CaveTip>
+  <CBF_D_Layout_CaveTip>沒有建造牆壁的天然洞穴空間。</CBF_D_Layout_CaveTip>
   <!-- EN: Rows -->
   <CBF_D_Layout_Rows>排列</CBF_D_Layout_Rows>
   <!-- EN: A main corridor with a few bends. The rooms stand in rows along both sides and share their walls, the largest room closes off the end. Now and then a wall with a door cuts the corridor. -->
   <CBF_D_Layout_RowsTip>一條帶有幾處轉彎的主走廊。房間沿兩側成排排列並共用牆壁，最大的房間封住盡頭。主走廊偶爾會被一道帶門的牆隔開。</CBF_D_Layout_RowsTip>
   <!-- EN: like the level ({0}) -->
-  <CBF_D_LayoutFromLevel>如同該層（{0}）</CBF_D_LayoutFromLevel>
+  <CBF_D_LayoutFromLevel>同此層（{0}）</CBF_D_LayoutFromLevel>
   <!-- EN: Own layout for this area. Empty takes the layout of the level. -->
-  <CBF_FieldDesc_DistrictSpec_layout>此區域的自有佈局。留空取該層的佈局。</CBF_FieldDesc_DistrictSpec_layout>
+  <CBF_FieldDesc_DistrictSpec_layout>此區域自己的佈局。留空則使用該層的佈局。</CBF_FieldDesc_DistrictSpec_layout>
   <!-- EN: New dungeon -->
-  <CBF_D_NewPlan>新建地下城</CBF_D_NewPlan>
+  <CBF_D_NewPlan>新地下城</CBF_D_NewPlan>
   <!-- EN: Rock mantle -->
   <CBF_S_MountainMantle>岩層厚度</CBF_S_MountainMantle>
   <!-- EN: 0 = standard {0} for a mountain city -->
@@ -729,7 +729,7 @@
   <!-- EN: 0 = no mountain -->
   <CBF_S_MountainMantleNone>0＝沒有山</CBF_S_MountainMantleNone>
   <!-- EN: Minimum rock thickness around old town and suburb, 0 to {0}. A mountain city uses {1} when this is 0. Other types only get a mountain when this is set. -->
-  <CBF_S_MountainMantleTip>舊城區與郊區周圍的最小岩層厚度，0至{0}。此值為0時，山城使用{1}。其他類型只有在設定此值時才會有山。</CBF_S_MountainMantleTip>
+  <CBF_S_MountainMantleTip>舊城與近郊周圍的最小岩層厚度，0至{0}。此值為0時，山城使用{1}。其他類型只有在設定此值時才會有山。</CBF_S_MountainMantleTip>
   <!-- EN: Fields inside the mountain are dark. These plants do not grow there: {0}. Choose plants that grow in the dark, such as mushrooms. -->
   <CBF_S_DarkPlants>山內的田地是黑暗的。這些植物無法在那裡生長：{0}。請選擇能在黑暗中生長的植物，例如蘑菇。</CBF_S_DarkPlants>
   <!-- EN: Category entries have no weight of their own here. The pieces of the category are drawn by their own weights. -->
